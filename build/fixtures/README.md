@@ -1,0 +1,1 @@
+Smoke-test fixtures, **not course content**. `npm run e2e` builds the site from `build/fixtures/content/` (falling back to the real `content/` for `course.json` and `verbs.json`), drives it in headless Chrome, then rebuilds the real site. `DS_CONTENT=build/fixtures/content npm run build` does the fixture build alone.

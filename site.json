@@ -1,0 +1,10 @@
+{
+  "name": "Due Sponde",
+  "nameAlt": "Two Shores",
+  "url": "",
+  "tracks": {
+    "it-for-en": { "slug": "learn-italian", "ui": "en", "target": "it", "targetTag": "it-IT", "nativeTag": "en-CA", "voiceFallback": ["it-IT"] },
+    "en-for-it": { "slug": "impara-inglese", "ui": "it", "target": "en", "targetTag": "en-CA", "nativeTag": "it-IT", "voiceFallback": ["en-CA", "en-US", "en-GB"] }
+  },
+  "hero": { "m": "Luca", "f": "Lucia" }
+}

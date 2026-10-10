@@ -1,0 +1,969 @@
+{
+ "verbs": [
+  {
+   "base": "be",
+   "n": "essere",
+   "unit": "01"
+  },
+  {
+   "base": "have",
+   "n": "avere",
+   "unit": "02"
+  },
+  {
+   "base": "do",
+   "n": "fare",
+   "unit": "03"
+  },
+  {
+   "base": "go",
+   "n": "andare",
+   "unit": "03"
+  },
+  {
+   "base": "come",
+   "n": "venire",
+   "unit": "01"
+  },
+  {
+   "base": "live",
+   "n": "vivere, abitare",
+   "unit": "01"
+  },
+  {
+   "base": "work",
+   "n": "lavorare",
+   "unit": "01"
+  },
+  {
+   "base": "speak",
+   "n": "parlare",
+   "unit": "01"
+  },
+  {
+   "base": "study",
+   "n": "studiare",
+   "unit": "01"
+  },
+  {
+   "base": "like",
+   "n": "piacere (a qualcuno)",
+   "unit": "03"
+  },
+  {
+   "base": "want",
+   "n": "volere",
+   "unit": "03"
+  },
+  {
+   "base": "need",
+   "n": "avere bisogno di",
+   "unit": "03"
+  },
+  {
+   "base": "get",
+   "n": "prendere, ottenere, diventare",
+   "unit": "03"
+  },
+  {
+   "base": "take",
+   "n": "prendere, portare",
+   "unit": "03"
+  },
+  {
+   "base": "make",
+   "n": "fare, preparare",
+   "unit": "03"
+  },
+  {
+   "base": "eat",
+   "n": "mangiare",
+   "unit": "03"
+  },
+  {
+   "base": "drink",
+   "n": "bere",
+   "unit": "03"
+  },
+  {
+   "base": "pay",
+   "n": "pagare",
+   "unit": "03"
+  },
+  {
+   "base": "buy",
+   "n": "comprare",
+   "unit": "03"
+  },
+  {
+   "base": "cost",
+   "n": "costare",
+   "unit": "03"
+  },
+  {
+   "base": "order",
+   "n": "ordinare",
+   "unit": "03"
+  },
+  {
+   "base": "wait",
+   "n": "aspettare",
+   "unit": "03"
+  },
+  {
+   "base": "look",
+   "n": "guardare",
+   "unit": "03"
+  },
+  {
+   "base": "see",
+   "n": "vedere",
+   "unit": "03"
+  },
+  {
+   "base": "watch",
+   "n": "guardare (TV, film)",
+   "unit": "04"
+  },
+  {
+   "base": "listen",
+   "n": "ascoltare",
+   "unit": "04"
+  },
+  {
+   "base": "read",
+   "n": "leggere",
+   "unit": "04"
+  },
+  {
+   "base": "write",
+   "n": "scrivere",
+   "unit": "04"
+  },
+  {
+   "base": "know",
+   "n": "sapere, conoscere",
+   "unit": "04"
+  },
+  {
+   "base": "think",
+   "n": "pensare",
+   "unit": "04"
+  },
+  {
+   "base": "say",
+   "n": "dire",
+   "unit": "04"
+  },
+  {
+   "base": "tell",
+   "n": "raccontare, dire a",
+   "unit": "04"
+  },
+  {
+   "base": "ask",
+   "n": "chiedere",
+   "unit": "04"
+  },
+  {
+   "base": "answer",
+   "n": "rispondere",
+   "unit": "04"
+  },
+  {
+   "base": "help",
+   "n": "aiutare",
+   "unit": "04"
+  },
+  {
+   "base": "play",
+   "n": "giocare, suonare",
+   "unit": "04"
+  },
+  {
+   "base": "teach",
+   "n": "insegnare",
+   "unit": "04"
+  },
+  {
+   "base": "learn",
+   "n": "imparare",
+   "unit": "04"
+  },
+  {
+   "base": "start",
+   "n": "cominciare",
+   "unit": "04"
+  },
+  {
+   "base": "finish",
+   "n": "finire",
+   "unit": "04"
+  },
+  {
+   "base": "stop",
+   "n": "fermarsi, smettere",
+   "unit": "05"
+  },
+  {
+   "base": "walk",
+   "n": "camminare",
+   "unit": "05"
+  },
+  {
+   "base": "run",
+   "n": "correre",
+   "unit": "05"
+  },
+  {
+   "base": "drive",
+   "n": "guidare",
+   "unit": "05"
+  },
+  {
+   "base": "ride",
+   "n": "andare (in bici, a cavallo)",
+   "unit": "05"
+  },
+  {
+   "base": "turn",
+   "n": "girare",
+   "unit": "05"
+  },
+  {
+   "base": "cross",
+   "n": "attraversare",
+   "unit": "05"
+  },
+  {
+   "base": "find",
+   "n": "trovare",
+   "unit": "05"
+  },
+  {
+   "base": "lose",
+   "n": "perdere",
+   "unit": "05"
+  },
+  {
+   "base": "leave",
+   "n": "partire, lasciare",
+   "unit": "05"
+  },
+  {
+   "base": "arrive",
+   "n": "arrivare",
+   "unit": "05"
+  },
+  {
+   "base": "open",
+   "n": "aprire",
+   "unit": "05"
+  },
+  {
+   "base": "close",
+   "n": "chiudere",
+   "unit": "05"
+  },
+  {
+   "base": "catch",
+   "n": "prendere (un mezzo)",
+   "unit": "05"
+  },
+  {
+   "base": "miss",
+   "n": "perdere (un mezzo), sentire la mancanza",
+   "unit": "05"
+  },
+  {
+   "base": "get up",
+   "n": "alzarsi",
+   "unit": "06"
+  },
+  {
+   "base": "wake",
+   "n": "svegliarsi",
+   "unit": "06"
+  },
+  {
+   "base": "sleep",
+   "n": "dormire",
+   "unit": "06"
+  },
+  {
+   "base": "wash",
+   "n": "lavare",
+   "unit": "06"
+  },
+  {
+   "base": "cook",
+   "n": "cucinare",
+   "unit": "06"
+  },
+  {
+   "base": "clean",
+   "n": "pulire",
+   "unit": "06"
+  },
+  {
+   "base": "rain",
+   "n": "piovere",
+   "unit": "06"
+  },
+  {
+   "base": "snow",
+   "n": "nevicare",
+   "unit": "06"
+  },
+  {
+   "base": "enjoy",
+   "n": "godersi, divertirsi",
+   "unit": "06"
+  },
+  {
+   "base": "love",
+   "n": "amare",
+   "unit": "06"
+  },
+  {
+   "base": "hate",
+   "n": "odiare",
+   "unit": "06"
+  },
+  {
+   "base": "try",
+   "n": "provare",
+   "unit": "07"
+  },
+  {
+   "base": "wear",
+   "n": "indossare",
+   "unit": "07"
+  },
+  {
+   "base": "carry",
+   "n": "portare",
+   "unit": "07"
+  },
+  {
+   "base": "bring",
+   "n": "portare (verso chi parla)",
+   "unit": "07"
+  },
+  {
+   "base": "sell",
+   "n": "vendere",
+   "unit": "07"
+  },
+  {
+   "base": "choose",
+   "n": "scegliere",
+   "unit": "07"
+  },
+  {
+   "base": "give",
+   "n": "dare",
+   "unit": "07"
+  },
+  {
+   "base": "send",
+   "n": "mandare",
+   "unit": "08"
+  },
+  {
+   "base": "spell",
+   "n": "fare lo spelling",
+   "unit": "08"
+  },
+  {
+   "base": "sign",
+   "n": "firmare",
+   "unit": "08"
+  },
+  {
+   "base": "fill",
+   "n": "riempire, compilare",
+   "unit": "08"
+  },
+  {
+   "base": "call",
+   "n": "chiamare",
+   "unit": "08"
+  },
+  {
+   "base": "meet",
+   "n": "incontrare, conoscere",
+   "unit": "09"
+  },
+  {
+   "base": "begin",
+   "n": "cominciare",
+   "unit": "09"
+  },
+  {
+   "base": "become",
+   "n": "diventare",
+   "unit": "09"
+  },
+  {
+   "base": "feel",
+   "n": "sentirsi",
+   "unit": "09"
+  },
+  {
+   "base": "forget",
+   "n": "dimenticare",
+   "unit": "09"
+  },
+  {
+   "base": "remember",
+   "n": "ricordare",
+   "unit": "09"
+  },
+  {
+   "base": "put",
+   "n": "mettere",
+   "unit": "09"
+  },
+  {
+   "base": "sit",
+   "n": "sedersi",
+   "unit": "09"
+  },
+  {
+   "base": "stand",
+   "n": "stare in piedi",
+   "unit": "09"
+  },
+  {
+   "base": "keep",
+   "n": "tenere",
+   "unit": "09"
+  },
+  {
+   "base": "hold",
+   "n": "tenere (in mano)",
+   "unit": "09"
+  },
+  {
+   "base": "show",
+   "n": "mostrare",
+   "unit": "09"
+  },
+  {
+   "base": "grow",
+   "n": "crescere",
+   "unit": "09"
+  },
+  {
+   "base": "build",
+   "n": "costruire",
+   "unit": "10"
+  },
+  {
+   "base": "move",
+   "n": "trasferirsi, muovere",
+   "unit": "10"
+  },
+  {
+   "base": "rent",
+   "n": "affittare",
+   "unit": "10"
+  },
+  {
+   "base": "prefer",
+   "n": "preferire",
+   "unit": "10"
+  },
+  {
+   "base": "fall",
+   "n": "cadere",
+   "unit": "11"
+  },
+  {
+   "base": "freeze",
+   "n": "gelare",
+   "unit": "11"
+  },
+  {
+   "base": "shake",
+   "n": "tremare, scuotere",
+   "unit": "11"
+  },
+  {
+   "base": "break",
+   "n": "rompere",
+   "unit": "12"
+  },
+  {
+   "base": "hurt",
+   "n": "fare male",
+   "unit": "12"
+  },
+  {
+   "base": "cut",
+   "n": "tagliare",
+   "unit": "12"
+  },
+  {
+   "base": "hit",
+   "n": "colpire",
+   "unit": "12"
+  },
+  {
+   "base": "bite",
+   "n": "mordere",
+   "unit": "12"
+  },
+  {
+   "base": "sting",
+   "n": "pungere",
+   "unit": "12"
+  },
+  {
+   "base": "plan",
+   "n": "pianificare",
+   "unit": "13"
+  },
+  {
+   "base": "promise",
+   "n": "promettere",
+   "unit": "13"
+  },
+  {
+   "base": "hope",
+   "n": "sperare",
+   "unit": "13"
+  },
+  {
+   "base": "decide",
+   "n": "decidere",
+   "unit": "13"
+  },
+  {
+   "base": "bake",
+   "n": "cuocere al forno",
+   "unit": "13"
+  },
+  {
+   "base": "mix",
+   "n": "mescolare",
+   "unit": "13"
+  },
+  {
+   "base": "invite",
+   "n": "invitare",
+   "unit": "14"
+  },
+  {
+   "base": "agree",
+   "n": "essere d'accordo",
+   "unit": "14"
+  },
+  {
+   "base": "mind",
+   "n": "dispiacere, badare",
+   "unit": "14"
+  },
+  {
+   "base": "travel",
+   "n": "viaggiare",
+   "unit": "15"
+  },
+  {
+   "base": "fly",
+   "n": "volare",
+   "unit": "15"
+  },
+  {
+   "base": "book",
+   "n": "prenotare",
+   "unit": "15"
+  },
+  {
+   "base": "visit",
+   "n": "visitare",
+   "unit": "15"
+  },
+  {
+   "base": "swim",
+   "n": "nuotare",
+   "unit": "15"
+  },
+  {
+   "base": "spend",
+   "n": "spendere, trascorrere",
+   "unit": "15"
+  },
+  {
+   "base": "change",
+   "n": "cambiare",
+   "unit": "16"
+  },
+  {
+   "base": "stay",
+   "n": "restare",
+   "unit": "16"
+  },
+  {
+   "base": "understand",
+   "n": "capire",
+   "unit": "16"
+  },
+  {
+   "base": "mean",
+   "n": "significare",
+   "unit": "16"
+  },
+  {
+   "base": "explain",
+   "n": "spiegare",
+   "unit": "16"
+  },
+  {
+   "base": "set",
+   "n": "mettere, regolare",
+   "unit": "17"
+  },
+  {
+   "base": "throw",
+   "n": "buttare",
+   "unit": "17"
+  },
+  {
+   "base": "pick",
+   "n": "scegliere, raccogliere",
+   "unit": "17"
+  },
+  {
+   "base": "plug",
+   "n": "attaccare (la spina)",
+   "unit": "17"
+  },
+  {
+   "base": "heat",
+   "n": "riscaldare",
+   "unit": "17"
+  },
+  {
+   "base": "believe",
+   "n": "credere",
+   "unit": "18"
+  },
+  {
+   "base": "argue",
+   "n": "discutere",
+   "unit": "18"
+  },
+  {
+   "base": "win",
+   "n": "vincere",
+   "unit": "18"
+  },
+  {
+   "base": "lead",
+   "n": "guidare, condurre",
+   "unit": "18"
+  },
+  {
+   "base": "suggest",
+   "n": "suggerire",
+   "unit": "19"
+  },
+  {
+   "base": "admit",
+   "n": "ammettere",
+   "unit": "19"
+  },
+  {
+   "base": "warn",
+   "n": "avvertire",
+   "unit": "19"
+  },
+  {
+   "base": "wish",
+   "n": "desiderare",
+   "unit": "20"
+  },
+  {
+   "base": "regret",
+   "n": "rimpiangere",
+   "unit": "20"
+  },
+  {
+   "base": "apply",
+   "n": "fare domanda",
+   "unit": "20"
+  },
+  {
+   "base": "sign up",
+   "n": "iscriversi",
+   "unit": "20"
+  },
+  {
+   "base": "cancel",
+   "n": "cancellare",
+   "unit": "21"
+  },
+  {
+   "base": "delay",
+   "n": "ritardare",
+   "unit": "21"
+  },
+  {
+   "base": "steal",
+   "n": "rubare",
+   "unit": "21"
+  },
+  {
+   "base": "hide",
+   "n": "nascondere",
+   "unit": "21"
+  },
+  {
+   "base": "climb",
+   "n": "arrampicarsi",
+   "unit": "21"
+  },
+  {
+   "base": "require",
+   "n": "richiedere",
+   "unit": "22"
+  },
+  {
+   "base": "attach",
+   "n": "allegare",
+   "unit": "22"
+  },
+  {
+   "base": "review",
+   "n": "rivedere, valutare",
+   "unit": "22"
+  },
+  {
+   "base": "earn",
+   "n": "guadagnare",
+   "unit": "22"
+  },
+  {
+   "base": "deal",
+   "n": "trattare, occuparsi",
+   "unit": "22"
+  },
+  {
+   "base": "marry",
+   "n": "sposare",
+   "unit": "23"
+  },
+  {
+   "base": "dance",
+   "n": "ballare",
+   "unit": "23"
+  },
+  {
+   "base": "laugh",
+   "n": "ridere",
+   "unit": "23"
+  },
+  {
+   "base": "cry",
+   "n": "piangere",
+   "unit": "23"
+  },
+  {
+   "base": "sing",
+   "n": "cantare",
+   "unit": "23"
+  },
+  {
+   "base": "hang",
+   "n": "appendere",
+   "unit": "23"
+  },
+  {
+   "base": "light",
+   "n": "accendere",
+   "unit": "23"
+  },
+  {
+   "base": "dream",
+   "n": "sognare",
+   "unit": "24"
+  },
+  {
+   "base": "draw",
+   "n": "disegnare",
+   "unit": "24"
+  },
+  {
+   "base": "blow",
+   "n": "soffiare",
+   "unit": "24"
+  },
+  {
+   "base": "tear",
+   "n": "strappare",
+   "unit": "24"
+  },
+  {
+   "base": "rise",
+   "n": "sorgere, aumentare",
+   "unit": "24"
+  },
+  {
+   "base": "lie",
+   "n": "sdraiarsi",
+   "unit": "24"
+  },
+  {
+   "base": "lay",
+   "n": "posare",
+   "unit": "24"
+  },
+  {
+   "base": "shine",
+   "n": "splendere",
+   "unit": "24"
+  },
+  {
+   "base": "shoot",
+   "n": "sparare, girare (un film)",
+   "unit": "24"
+  },
+  {
+   "base": "shut",
+   "n": "chiudere",
+   "unit": "24"
+  },
+  {
+   "base": "sink",
+   "n": "affondare",
+   "unit": "24"
+  },
+  {
+   "base": "slide",
+   "n": "scivolare",
+   "unit": "24"
+  },
+  {
+   "base": "stick",
+   "n": "attaccare",
+   "unit": "24"
+  },
+  {
+   "base": "strike",
+   "n": "colpire, scioperare",
+   "unit": "24"
+  },
+  {
+   "base": "forgive",
+   "n": "perdonare",
+   "unit": "24"
+  },
+  {
+   "base": "feed",
+   "n": "nutrire",
+   "unit": "24"
+  },
+  {
+   "base": "fight",
+   "n": "litigare, combattere",
+   "unit": "24"
+  },
+  {
+   "base": "ring",
+   "n": "suonare (campanello)",
+   "unit": "24"
+  },
+  {
+   "base": "quit",
+   "n": "lasciare (un lavoro)",
+   "unit": "24"
+  },
+  {
+   "base": "lend",
+   "n": "prestare",
+   "unit": "24"
+  },
+  {
+   "base": "let",
+   "n": "lasciare, permettere",
+   "unit": "24"
+  },
+  {
+   "base": "spill",
+   "n": "rovesciare",
+   "unit": "24"
+  },
+  {
+   "base": "occur",
+   "n": "accadere",
+   "unit": "24"
+  },
+  {
+   "base": "refer",
+   "n": "riferirsi",
+   "unit": "24"
+  },
+  {
+   "base": "panic",
+   "n": "farsi prendere dal panico",
+   "unit": "24"
+  },
+  {
+   "base": "happen",
+   "n": "succedere",
+   "unit": "09"
+  },
+  {
+   "base": "seem",
+   "n": "sembrare",
+   "unit": "11"
+  },
+  {
+   "base": "sound",
+   "n": "sembrare (all'orecchio)",
+   "unit": "14"
+  },
+  {
+   "base": "matter",
+   "n": "importare",
+   "unit": "18"
+  },
+  {
+   "base": "allow",
+   "n": "permettere",
+   "unit": "22"
+  },
+  {
+   "base": "avoid",
+   "n": "evitare",
+   "unit": "23"
+  },
+  {
+   "base": "practise",
+   "n": "esercitarsi",
+   "unit": "16"
+  },
+  {
+   "base": "worry",
+   "n": "preoccuparsi",
+   "unit": "12"
+  },
+  {
+   "base": "hurry",
+   "n": "sbrigarsi",
+   "unit": "05"
+  },
+  {
+   "base": "die",
+   "n": "morire",
+   "unit": "24"
+  },
+  {
+   "base": "tie",
+   "n": "legare",
+   "unit": "23"
+  }
+ ]
+}

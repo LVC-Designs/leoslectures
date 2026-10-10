@@ -1,0 +1,16 @@
+{
+  "name": "due-sponde",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Due Sponde · Two Shores — a free, original two-way Italian ⇄ English course (A1–B1)",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "dev": "node build/serve.mjs",
+    "check": "node build/check.mjs",
+    "test": "node build/test.mjs",
+    "e2e": "node build/e2e.mjs",
+    "shot": "node build/shot.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

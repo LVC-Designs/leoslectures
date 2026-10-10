@@ -1,0 +1,74 @@
+{
+  "id": "01", "level": "A1",
+  "title": {"m": "Benvenuto a Roccamarina", "f": "Benvenuta a Roccamarina"},
+  "subtitle": "Welcome to Roccamarina",
+  "intro": "Smoke-test fixture. **Not course content.** Every block type appears once so the pipeline can be verified.",
+  "objectives": ["fixture objective one", "fixture objective two with [[prova|test]]"],
+  "canDo": ["A1 · fixture descriptor"],
+  "sections": [
+    {"id": "story", "kind": "story", "title": "Fixture scene", "intro": "intro text", "blocks": [
+      {"type": "dialogue", "title": "Alla stazione", "setting": "Binario 1", "register": "informale", "lines": [
+        {"stage": "Il treno arriva."},
+        {"who": "Dora", "t": "{{Benvenuto|Benvenuta}}, {hero}!", "n": "Welcome, {hero}!"},
+        {"who": "hero", "t": {"m": "Grazie! Sono stanco.", "f": "Grazie! Sono stanca.", "note": "Adjectives agree: -o for Luca, -a for Lucia."}, "n": "Thanks! I'm tired."},
+        {"who": "Dora", "t": "Andiamo a casa.", "n": "Let's go home.", "note": "fixture note"}
+      ], "notes": [{"phrase": "Andiamo", "note": "fixture key phrase"}]},
+      {"type": "scene", "title": "Scene with questions", "lines": [{"who": "Dora", "t": "Hai fame?", "n": "Are you hungry?"}], "questions": [{"kind": "tf", "q": "Dora asks about hunger.", "answer": true, "why": "fixture"}]},
+      {"type": "prose", "text": "Paragraph with {hero} and {{stanco|stanca}}.\n\n- list item\n- second item"},
+      {"type": "callout", "kind": "tip", "title": "Fixture tip", "text": "callout body"},
+      {"type": "proverb", "t": "Fixture proverbio.", "n": "Fixture proverb.", "meaning": "meaning"}
+    ]},
+    {"id": "words", "kind": "words", "title": "Fixture words", "blocks": [
+      {"type": "vocab", "theme": "Saluti", "n": "Greetings", "items": [
+        {"t": "stazione", "n": "station", "article": "la", "gender": "f", "plural": "stazioni", "pos": "noun", "ex": {"t": "La stazione è piccola.", "n": "The station is small."}},
+        {"t": "stanco", "n": "tired", "forms": "stanca, stanchi, stanche", "pos": "adj.", "ex": {"t": {"m": "Sono stanco.", "f": "Sono stanca."}, "n": "I'm tired."}, "note": "fixture note"}
+      ]},
+      {"type": "flashcards"},
+      {"type": "grid", "cols": 5, "items": [{"big": "1", "small": "uno"}, {"big": "2", "small": "due"}]},
+      {"type": "columns", "items": [{"title": "A", "list": ["uno", {"t": "due", "n": "two"}]}, {"title": "B", "list": ["tre"]}]},
+      {"type": "pairs", "caption": "pairs", "items": [["caro", "carro"], [{"t": "pala", "n": "shovel"}, {"t": "palla", "n": "ball"}]]}
+    ]},
+    {"id": "grammar", "kind": "grammar", "title": "Fixture grammar", "blocks": [
+      {"type": "grammar", "id": "g-essere", "title": "Essere", "category": "Verbs", "rule": "Essere is irregular.", "ref": "essere", "blocks": [
+        {"type": "conjugation", "verb": "essere", "tense": "presente"},
+        {"type": "conjugation", "verbs": ["andare", "alzarsi"], "tense": "passato_prossimo", "note": "compound with essere"},
+        {"type": "table", "head": ["Italian", "English"], "rows": [["sono", "I am"], ["sei", "you are"]], "speak": [0], "caption": "table"},
+        {"type": "examples", "items": [{"t": "Sono di Toronto.", "n": "I'm from Toronto."}, {"t": {"m": "Sono arrivato ieri.", "f": "Sono arrivata ieri."}, "n": "I arrived yesterday."}]},
+        {"type": "agreement", "intro": "Compare:", "items": [{"t": {"m": "Sono stanco", "f": "Sono stanca"}, "n": "I'm tired"}], "note": "fixture"},
+        {"type": "mistakes", "items": [{"wrong": "Io sono stanco molto", "right": "Sono molto stanco", "why": "adverb before adjective"}]},
+        {"type": "subhead", "text": "subhead"},
+        {"type": "two-col", "cols": [[{"type": "prose", "text": "left"}], [{"type": "prose", "text": "right"}]]}
+      ]}
+    ]},
+    {"id": "pron", "kind": "pron", "title": "Fixture pron", "blocks": [
+      {"type": "minimal", "caption": "double consonants", "pairs": [{"a": "pala", "b": "palla", "na": "shovel", "nb": "ball", "tip": "hold the l"}]},
+      {"type": "sounds", "items": [{"sound": "gn", "t": "bagno", "n": "bathroom", "ipa": "ˈbaɲɲo", "tip": "like ny"}]},
+      {"type": "map", "highlight": ["puglia"], "list": true, "caption": "Puglia"},
+      {"type": "compass", "caption": "compass"}
+    ]},
+    {"id": "practice", "kind": "practice", "title": "Fixture practice", "blocks": [
+      {"type": "exercises", "title": "Set", "items": [
+        {"kind": "mc", "q": "Luca says:", "options": ["Sono stanca", "Sono stanco"], "answer": 1, "why": "masculine"},
+        {"kind": "tf", "q": "fixture", "t": "Sono di Toronto.", "answer": true, "why": "fixture"},
+        {"kind": "fill", "q": "Io ___ {{stanco|stanca}}.", "answers": [["sono"]], "n": "I am tired."},
+        {"kind": "fill", "q": "{hero} è ___ ieri.", "answers": [[{"m": "arrivato", "f": "arrivata"}]], "n": "{hero} arrived yesterday."},
+        {"kind": "fill", "q": "Io sono ___.", "answers": [[{"m": "stanco", "f": "stanca", "who": "self"}]], "n": "I am tired.", "choices": [[{"m": "stanco", "f": "stanca", "who": "self"}, "stanchi"]]},
+        {"kind": "match", "pairs": [["uno", "one"], ["due", "two"], ["tre", "three"]]},
+        {"kind": "order", "answer": "Sono di Toronto.", "n": "I'm from Toronto."},
+        {"kind": "translate", "q": "I'm from Toronto.", "answers": ["Sono di Toronto", "Io sono di Toronto"]},
+        {"kind": "dictation", "text": "Benvenuti a Roccamarina.", "n": "Welcome to Roccamarina."},
+        {"kind": "reply", "line": {"t": "Come stai?", "n": "How are you?"}, "options": ["Bene, grazie.", "Sono di Toronto."], "answer": 0, "why": "fixture"},
+        {"kind": "conjugate", "verb": "essere", "tense": "presente", "answers": ["sono", "sei", "è", "siamo", "siete", "sono"]},
+        {"kind": "speak", "text": "Buongiorno!", "n": "Good morning!"},
+        {"kind": "write", "q": "Introduce yourself.", "model": "Ciao, sono {hero}, sono di Toronto."}
+      ]},
+      {"type": "exercises", "review": true, "items": [
+        {"kind": "mc", "q": "r1", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r2", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r3", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r4", "options": ["a", "b"], "answer": 0, "why": "w"},
+        {"kind": "mc", "q": "r5", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r6", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r7", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r8", "options": ["a", "b"], "answer": 0, "why": "w"},
+        {"kind": "mc", "q": "r9", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r10", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r11", "options": ["a", "b"], "answer": 0, "why": "w"}, {"kind": "mc", "q": "r12", "options": ["a", "b"], "answer": 0, "why": "w"}
+      ]}
+    ]},
+    {"id": "culture", "kind": "culture", "title": "Fixture culture", "blocks": [{"type": "callout", "kind": "culture", "title": "c", "text": "text"}]},
+    {"id": "summary", "kind": "summary", "title": "Fixture summary", "blocks": [{"type": "cheatsheet", "groups": [{"title": "g", "rows": [["ciao", "hi"], "plain text row"]}]}]}
+  ]
+}

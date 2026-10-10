@@ -1,0 +1,22 @@
+import { settings, progress, t, target, targetTag } from './store.js';
+import { ready, voicesFor, speak } from './tts.js';
+const form = document.querySelector('.settings-form'); const status = form.querySelector('.settings-status');
+const s = settings.get();
+const set = (name, v) => { const el = form.querySelector(`[name="${name}"][value="${v}"]`); if (el) el.checked = true; };
+set('hero', s.hero || 'm'); set('self', s.self || 'm'); set('theme', s.theme || 'auto');
+form.querySelector('[name=both]').checked = !!s.both; form.querySelector('[name=rate]').value = s.rate || 0.9;
+const voiceSel = form.querySelector('[name=voice]');
+ready().then(() => { voicesFor(targetTag()).forEach(v => voiceSel.insertAdjacentHTML('beforeend', `<option value="${v.voiceURI}">${v.name} (${v.lang})</option>`)); voiceSel.value = s.voice?.[target()] || ''; });
+document.addEventListener('ds:voices', () => { if (voiceSel.options.length <= 1) voicesFor(targetTag()).forEach(v => voiceSel.insertAdjacentHTML('beforeend', `<option value="${v.voiceURI}">${v.name} (${v.lang})</option>`)); });
+form.addEventListener('change', (e) => {
+  const n = e.target.name; if (!n) return;
+  if (n === 'both') settings.set({ both: e.target.checked });
+  else if (n === 'rate') settings.set({ rate: Number(e.target.value) });
+  else if (n === 'voice') settings.set({ voice: { ...settings.get().voice, [target()]: e.target.value } });
+  else settings.set({ [n]: e.target.value });
+  status.textContent = t('settings.saved'); setTimeout(() => (status.textContent = ''), 1500);
+});
+form.querySelector('.voice-test').addEventListener('click', () => speak(target() === 'it' ? 'Buongiorno! Benvenuti a Roccamarina.' : 'Hello! Welcome to Toronto, eh?', { lang: targetTag() }));
+form.querySelector('.reset-btn').addEventListener('click', (e) => { if (confirm(e.currentTarget.dataset.confirm)) { progress.reset(); status.textContent = e.currentTarget.dataset.done; } });
+form.querySelector('.export-btn').addEventListener('click', () => { const blob = new Blob([JSON.stringify(progress.exportAll(), null, 1)], { type: 'application/json' }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'due-sponde-progress.json'; a.click(); });
+form.querySelector('.import-btn input').addEventListener('change', async (e) => { const f = e.target.files[0]; if (!f) return; try { progress.importAll(JSON.parse(await f.text())); status.textContent = t('settings.saved'); settings.apply(); } catch { status.textContent = '✗'; } });

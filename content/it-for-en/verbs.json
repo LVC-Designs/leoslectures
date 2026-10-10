@@ -1,0 +1,946 @@
+{
+ "verbs": [
+  {
+   "inf": "essere",
+   "n": "to be",
+   "unit": "01"
+  },
+  {
+   "inf": "avere",
+   "n": "to have",
+   "unit": "02"
+  },
+  {
+   "inf": "chiamarsi",
+   "n": "to be called",
+   "unit": "01"
+  },
+  {
+   "inf": "parlare",
+   "n": "to speak",
+   "unit": "03"
+  },
+  {
+   "inf": "abitare",
+   "n": "to live (in a place)",
+   "unit": "03"
+  },
+  {
+   "inf": "lavorare",
+   "n": "to work",
+   "unit": "03"
+  },
+  {
+   "inf": "mangiare",
+   "n": "to eat",
+   "unit": "03"
+  },
+  {
+   "inf": "pagare",
+   "n": "to pay",
+   "unit": "03"
+  },
+  {
+   "inf": "studiare",
+   "n": "to study",
+   "unit": "03"
+  },
+  {
+   "inf": "cercare",
+   "n": "to look for",
+   "unit": "03"
+  },
+  {
+   "inf": "comprare",
+   "n": "to buy",
+   "unit": "03"
+  },
+  {
+   "inf": "prendere",
+   "n": "to take, to have (food)",
+   "unit": "03"
+  },
+  {
+   "inf": "ordinare",
+   "n": "to order",
+   "unit": "03"
+  },
+  {
+   "inf": "aspettare",
+   "n": "to wait",
+   "unit": "03"
+  },
+  {
+   "inf": "arrivare",
+   "n": "to arrive",
+   "unit": "03"
+  },
+  {
+   "inf": "entrare",
+   "n": "to enter",
+   "unit": "03"
+  },
+  {
+   "inf": "tornare",
+   "n": "to go back",
+   "unit": "03"
+  },
+  {
+   "inf": "guardare",
+   "n": "to look at, watch",
+   "unit": "03"
+  },
+  {
+   "inf": "ascoltare",
+   "n": "to listen",
+   "unit": "03"
+  },
+  {
+   "inf": "imparare",
+   "n": "to learn",
+   "unit": "03"
+  },
+  {
+   "inf": "cominciare",
+   "n": "to begin",
+   "unit": "03"
+  },
+  {
+   "inf": "giocare",
+   "n": "to play (a game)",
+   "unit": "03"
+  },
+  {
+   "inf": "fare",
+   "n": "to do, make",
+   "unit": "04"
+  },
+  {
+   "inf": "leggere",
+   "n": "to read",
+   "unit": "04"
+  },
+  {
+   "inf": "scrivere",
+   "n": "to write",
+   "unit": "04"
+  },
+  {
+   "inf": "vedere",
+   "n": "to see",
+   "unit": "04"
+  },
+  {
+   "inf": "vivere",
+   "n": "to live",
+   "unit": "04"
+  },
+  {
+   "inf": "conoscere",
+   "n": "to know (people, places)",
+   "unit": "04"
+  },
+  {
+   "inf": "credere",
+   "n": "to believe",
+   "unit": "04"
+  },
+  {
+   "inf": "chiedere",
+   "n": "to ask",
+   "unit": "04"
+  },
+  {
+   "inf": "rispondere",
+   "n": "to answer",
+   "unit": "04"
+  },
+  {
+   "inf": "perdere",
+   "n": "to lose",
+   "unit": "04"
+  },
+  {
+   "inf": "ricevere",
+   "n": "to receive",
+   "unit": "04"
+  },
+  {
+   "inf": "vendere",
+   "n": "to sell",
+   "unit": "04"
+  },
+  {
+   "inf": "mettere",
+   "n": "to put",
+   "unit": "04"
+  },
+  {
+   "inf": "correre",
+   "n": "to run",
+   "unit": "04"
+  },
+  {
+   "inf": "dormire",
+   "n": "to sleep",
+   "unit": "04"
+  },
+  {
+   "inf": "aprire",
+   "n": "to open",
+   "unit": "04"
+  },
+  {
+   "inf": "partire",
+   "n": "to leave",
+   "unit": "04"
+  },
+  {
+   "inf": "sentire",
+   "n": "to hear, feel",
+   "unit": "04"
+  },
+  {
+   "inf": "seguire",
+   "n": "to follow",
+   "unit": "04"
+  },
+  {
+   "inf": "offrire",
+   "n": "to offer",
+   "unit": "04"
+  },
+  {
+   "inf": "finire",
+   "n": "to finish",
+   "unit": "04",
+   "isc": true
+  },
+  {
+   "inf": "capire",
+   "n": "to understand",
+   "unit": "04",
+   "isc": true
+  },
+  {
+   "inf": "preferire",
+   "n": "to prefer",
+   "unit": "04",
+   "isc": true
+  },
+  {
+   "inf": "pulire",
+   "n": "to clean",
+   "unit": "04",
+   "isc": true
+  },
+  {
+   "inf": "spedire",
+   "n": "to send",
+   "unit": "04",
+   "isc": true
+  },
+  {
+   "inf": "costruire",
+   "n": "to build",
+   "unit": "04",
+   "isc": true
+  },
+  {
+   "inf": "andare",
+   "n": "to go",
+   "unit": "05"
+  },
+  {
+   "inf": "venire",
+   "n": "to come",
+   "unit": "05"
+  },
+  {
+   "inf": "stare",
+   "n": "to stay, to be",
+   "unit": "05"
+  },
+  {
+   "inf": "uscire",
+   "n": "to go out",
+   "unit": "05"
+  },
+  {
+   "inf": "dare",
+   "n": "to give",
+   "unit": "05"
+  },
+  {
+   "inf": "salire",
+   "n": "to go up, get on",
+   "unit": "05"
+  },
+  {
+   "inf": "scendere",
+   "n": "to go down, get off",
+   "unit": "05"
+  },
+  {
+   "inf": "girare",
+   "n": "to turn",
+   "unit": "05"
+  },
+  {
+   "inf": "attraversare",
+   "n": "to cross",
+   "unit": "05"
+  },
+  {
+   "inf": "trovare",
+   "n": "to find",
+   "unit": "05"
+  },
+  {
+   "inf": "alzarsi",
+   "n": "to get up",
+   "unit": "06"
+  },
+  {
+   "inf": "svegliarsi",
+   "n": "to wake up",
+   "unit": "06"
+  },
+  {
+   "inf": "lavarsi",
+   "n": "to wash (oneself)",
+   "unit": "06"
+  },
+  {
+   "inf": "vestirsi",
+   "n": "to get dressed",
+   "unit": "06"
+  },
+  {
+   "inf": "divertirsi",
+   "n": "to have fun",
+   "unit": "06"
+  },
+  {
+   "inf": "riposarsi",
+   "n": "to rest",
+   "unit": "06"
+  },
+  {
+   "inf": "dovere",
+   "n": "to have to, must",
+   "unit": "06"
+  },
+  {
+   "inf": "potere",
+   "n": "to be able to, can",
+   "unit": "06"
+  },
+  {
+   "inf": "volere",
+   "n": "to want",
+   "unit": "06"
+  },
+  {
+   "inf": "sapere",
+   "n": "to know (facts), know how",
+   "unit": "06"
+  },
+  {
+   "inf": "bere",
+   "n": "to drink",
+   "unit": "06"
+  },
+  {
+   "inf": "piacere",
+   "n": "to be pleasing (to like)",
+   "unit": "07"
+  },
+  {
+   "inf": "dire",
+   "n": "to say, tell",
+   "unit": "08"
+  },
+  {
+   "inf": "chiudere",
+   "n": "to close",
+   "unit": "08"
+  },
+  {
+   "inf": "compilare",
+   "n": "to fill in",
+   "unit": "08"
+  },
+  {
+   "inf": "firmare",
+   "n": "to sign",
+   "unit": "08"
+  },
+  {
+   "inf": "portare",
+   "n": "to bring, carry, wear",
+   "unit": "08"
+  },
+  {
+   "inf": "nascere",
+   "n": "to be born",
+   "unit": "09"
+  },
+  {
+   "inf": "morire",
+   "n": "to die",
+   "unit": "09"
+  },
+  {
+   "inf": "rimanere",
+   "n": "to stay, remain",
+   "unit": "09"
+  },
+  {
+   "inf": "succedere",
+   "n": "to happen",
+   "unit": "09"
+  },
+  {
+   "inf": "diventare",
+   "n": "to become",
+   "unit": "09"
+  },
+  {
+   "inf": "cadere",
+   "n": "to fall",
+   "unit": "09"
+  },
+  {
+   "inf": "crescere",
+   "n": "to grow",
+   "unit": "09"
+  },
+  {
+   "inf": "sedersi",
+   "n": "to sit down",
+   "unit": "09"
+  },
+  {
+   "inf": "decidere",
+   "n": "to decide",
+   "unit": "10"
+  },
+  {
+   "inf": "telefonare",
+   "n": "to phone",
+   "unit": "10"
+  },
+  {
+   "inf": "sembrare",
+   "n": "to seem",
+   "unit": "11"
+  },
+  {
+   "inf": "ricordare",
+   "n": "to remember",
+   "unit": "11"
+  },
+  {
+   "inf": "tradurre",
+   "n": "to translate",
+   "unit": "11"
+  },
+  {
+   "inf": "porre",
+   "n": "to put, place",
+   "unit": "11"
+  },
+  {
+   "inf": "spegnere",
+   "n": "to switch off",
+   "unit": "12"
+  },
+  {
+   "inf": "accendere",
+   "n": "to switch on",
+   "unit": "12"
+  },
+  {
+   "inf": "smettere",
+   "n": "to stop (doing)",
+   "unit": "12"
+  },
+  {
+   "inf": "tenere",
+   "n": "to hold, keep",
+   "unit": "13"
+  },
+  {
+   "inf": "promettere",
+   "n": "to promise",
+   "unit": "13"
+  },
+  {
+   "inf": "servire",
+   "n": "to be needed, to serve",
+   "unit": "13"
+  },
+  {
+   "inf": "mancare",
+   "n": "to be missing, to miss",
+   "unit": "13"
+  },
+  {
+   "inf": "scegliere",
+   "n": "to choose",
+   "unit": "14"
+  },
+  {
+   "inf": "riuscire",
+   "n": "to manage, succeed",
+   "unit": "15"
+  },
+  {
+   "inf": "provare",
+   "n": "to try",
+   "unit": "15"
+  },
+  {
+   "inf": "volerci",
+   "n": "to take (time)",
+   "unit": "15"
+  },
+  {
+   "inf": "metterci",
+   "n": "to take (time, effort)",
+   "unit": "15"
+  },
+  {
+   "inf": "sperare",
+   "n": "to hope",
+   "unit": "16"
+  },
+  {
+   "inf": "pensare",
+   "n": "to think",
+   "unit": "16"
+  },
+  {
+   "inf": "spendere",
+   "n": "to spend",
+   "unit": "17"
+  },
+  {
+   "inf": "vincere",
+   "n": "to win",
+   "unit": "18"
+  },
+  {
+   "inf": "discutere",
+   "n": "to discuss",
+   "unit": "18"
+  },
+  {
+   "inf": "raggiungere",
+   "n": "to reach",
+   "unit": "21"
+  },
+  {
+   "inf": "togliere",
+   "n": "to remove",
+   "unit": "21"
+  },
+  {
+   "inf": "produrre",
+   "n": "to produce",
+   "unit": "22"
+  },
+  {
+   "inf": "permettere",
+   "n": "to allow",
+   "unit": "22"
+  },
+  {
+   "inf": "piangere",
+   "n": "to cry",
+   "unit": "23"
+  },
+  {
+   "inf": "ridere",
+   "n": "to laugh",
+   "unit": "23"
+  },
+  {
+   "inf": "convincere",
+   "n": "to convince",
+   "unit": "23"
+  },
+  {
+   "inf": "rompere",
+   "n": "to break",
+   "unit": "23"
+  },
+  {
+   "inf": "muovere",
+   "n": "to move",
+   "unit": "24"
+  },
+  {
+   "inf": "cuocere",
+   "n": "to cook",
+   "unit": "24"
+  },
+  {
+   "inf": "valere",
+   "n": "to be worth",
+   "unit": "24"
+  },
+  {
+   "inf": "parere",
+   "n": "to seem",
+   "unit": "24"
+  },
+  {
+   "inf": "udire",
+   "n": "to hear",
+   "unit": "24"
+  },
+  {
+   "inf": "apparire",
+   "n": "to appear",
+   "unit": "24"
+  },
+  {
+   "inf": "nascondere",
+   "n": "to hide",
+   "unit": "24"
+  },
+  {
+   "inf": "esprimere",
+   "n": "to express",
+   "unit": "24"
+  },
+  {
+   "inf": "condividere",
+   "n": "to share",
+   "unit": "24"
+  },
+  {
+   "inf": "assumere",
+   "n": "to hire, assume",
+   "unit": "22"
+  },
+  {
+   "inf": "ottenere",
+   "n": "to obtain",
+   "unit": "22"
+  },
+  {
+   "inf": "appartenere",
+   "n": "to belong",
+   "unit": "24"
+  },
+  {
+   "inf": "proteggere",
+   "n": "to protect",
+   "unit": "24"
+  },
+  {
+   "inf": "risolvere",
+   "n": "to solve",
+   "unit": "24"
+  },
+  {
+   "inf": "stringere",
+   "n": "to tighten, squeeze",
+   "unit": "24"
+  },
+  {
+   "inf": "dipingere",
+   "n": "to paint",
+   "unit": "24"
+  },
+  {
+   "inf": "spingere",
+   "n": "to push",
+   "unit": "24"
+  },
+  {
+   "inf": "accorgersi",
+   "n": "to notice, realise",
+   "unit": "24"
+  },
+  {
+   "inf": "dirigere",
+   "n": "to direct, run",
+   "unit": "24"
+  },
+  {
+   "inf": "distinguere",
+   "n": "to distinguish",
+   "unit": "24"
+  },
+  {
+   "inf": "concludere",
+   "n": "to conclude",
+   "unit": "24"
+  },
+  {
+   "inf": "dividere",
+   "n": "to divide",
+   "unit": "24"
+  },
+  {
+   "inf": "difendere",
+   "n": "to defend",
+   "unit": "24"
+  },
+  {
+   "inf": "attendere",
+   "n": "to wait for",
+   "unit": "24"
+  },
+  {
+   "inf": "volgere",
+   "n": "to turn",
+   "unit": "24"
+  },
+  {
+   "inf": "sorgere",
+   "n": "to rise",
+   "unit": "24"
+  },
+  {
+   "inf": "fingere",
+   "n": "to pretend",
+   "unit": "24"
+  },
+  {
+   "inf": "piovere",
+   "n": "to rain",
+   "unit": "06"
+  },
+  {
+   "inf": "compiere",
+   "n": "to complete, to turn (age)",
+   "unit": "04"
+  },
+  {
+   "inf": "soddisfare",
+   "n": "to satisfy",
+   "unit": "24"
+  },
+  {
+   "inf": "rifare",
+   "n": "to redo",
+   "unit": "24"
+  },
+  {
+   "inf": "giungere",
+   "n": "to arrive (formal)",
+   "unit": "24"
+  },
+  {
+   "inf": "scuotere",
+   "n": "to shake",
+   "unit": "24"
+  },
+  {
+   "inf": "riprendere",
+   "n": "to resume, take back",
+   "unit": "24"
+  },
+  {
+   "inf": "sorprendere",
+   "n": "to surprise",
+   "unit": "24"
+  },
+  {
+   "inf": "comprendere",
+   "n": "to understand, include",
+   "unit": "24"
+  },
+  {
+   "inf": "iscrivere",
+   "n": "to enrol",
+   "unit": "22"
+  },
+  {
+   "inf": "descrivere",
+   "n": "to describe",
+   "unit": "24"
+  },
+  {
+   "inf": "trascorrere",
+   "n": "to spend (time)",
+   "unit": "24"
+  },
+  {
+   "inf": "rivedere",
+   "n": "to see again",
+   "unit": "24"
+  },
+  {
+   "inf": "divenire",
+   "n": "to become (formal)",
+   "unit": "24"
+  },
+  {
+   "inf": "intervenire",
+   "n": "to intervene",
+   "unit": "24"
+  },
+  {
+   "inf": "esistere",
+   "n": "to exist",
+   "unit": "24"
+  },
+  {
+   "inf": "ammettere",
+   "n": "to admit",
+   "unit": "24"
+  },
+  {
+   "inf": "uccidere",
+   "n": "to kill",
+   "unit": "24"
+  },
+  {
+   "inf": "offendere",
+   "n": "to offend",
+   "unit": "24"
+  },
+  {
+   "inf": "stendere",
+   "n": "to spread, hang out",
+   "unit": "24"
+  },
+  {
+   "inf": "tendere",
+   "n": "to tend",
+   "unit": "24"
+  },
+  {
+   "inf": "percuotere",
+   "n": "to strike",
+   "unit": "24"
+  },
+  {
+   "inf": "rivolgere",
+   "n": "to address, turn",
+   "unit": "24"
+  },
+  {
+   "inf": "porgere",
+   "n": "to hand",
+   "unit": "24"
+  },
+  {
+   "inf": "tingere",
+   "n": "to dye",
+   "unit": "24"
+  },
+  {
+   "inf": "soffrire",
+   "n": "to suffer",
+   "unit": "12"
+  },
+  {
+   "inf": "scoprire",
+   "n": "to discover",
+   "unit": "09"
+  },
+  {
+   "inf": "sciare",
+   "n": "to ski",
+   "unit": "21"
+  },
+  {
+   "inf": "inviare",
+   "n": "to send",
+   "unit": "22"
+  },
+  {
+   "inf": "cambiare",
+   "n": "to change",
+   "unit": "10"
+  },
+  {
+   "inf": "viaggiare",
+   "n": "to travel",
+   "unit": "15"
+  },
+  {
+   "inf": "noleggiare",
+   "n": "to rent (a vehicle)",
+   "unit": "13"
+  },
+  {
+   "inf": "riparare",
+   "n": "to repair",
+   "unit": "13"
+  },
+  {
+   "inf": "aiutare",
+   "n": "to help",
+   "unit": "05"
+  },
+  {
+   "inf": "chiacchierare",
+   "n": "to chat",
+   "unit": "18"
+  },
+  {
+   "inf": "sbagliare",
+   "n": "to make a mistake",
+   "unit": "14"
+  },
+  {
+   "inf": "sposarsi",
+   "n": "to get married",
+   "unit": "23"
+  },
+  {
+   "inf": "innamorarsi",
+   "n": "to fall in love",
+   "unit": "23"
+  },
+  {
+   "inf": "arrabbiarsi",
+   "n": "to get angry",
+   "unit": "14"
+  },
+  {
+   "inf": "preoccuparsi",
+   "n": "to worry",
+   "unit": "12"
+  },
+  {
+   "inf": "fermarsi",
+   "n": "to stop",
+   "unit": "05"
+  },
+  {
+   "inf": "trasferirsi",
+   "n": "to move (house)",
+   "unit": "09",
+   "isc": true
+  },
+  {
+   "inf": "sentirsi",
+   "n": "to feel",
+   "unit": "12"
+  },
+  {
+   "inf": "ricordarsi",
+   "n": "to remember",
+   "unit": "11"
+  },
+  {
+   "inf": "dimenticare",
+   "n": "to forget",
+   "unit": "11"
+  },
+  {
+   "inf": "insegnare",
+   "n": "to teach",
+   "unit": "04"
+  }
+ ]
+}
