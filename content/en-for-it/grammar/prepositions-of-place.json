@@ -1,0 +1,22 @@
+{"id": "prepositions-of-place", "title": "Le preposizioni di luogo", "category": "Preposizioni", "rule": "in per gli spazi chiusi e le aree, on per le superfici e i piani, at per i punti e i luoghi come funzione. Poi under, next to, behind, in front of, between, above, below, near, opposite.", "units": ["02"], "blocks": [
+  {"type": "table", "head": ["", "Quando", "Esempi"], "rows": [["in", "dentro uno spazio: stanze, edifici, città, paesi, contenitori", "in the kitchen, in the basement, in Toronto, in Canada, in the box, in the car"], ["on", "su una superficie; piani; strade (Nord America); mezzi grandi", "on the table, on the wall, on the floor, on the second floor, on Nairn Avenue, on the bus"], ["at", "un punto o un luogo visto come funzione", "at home, at work, at school, at the door, at the airport, at the bus stop, at the Ferrantes'"]], "speak": [2], "rowhead": true},
+  {"type": "table", "caption": "Le altre", "head": ["Preposizione", "Italiano", "Esempio"], "rows": [["under · below", "sotto", "under the bed · below zero"], ["above · over", "sopra (senza contatto)", "above the door · a lamp over the table"], ["next to · beside · by", "accanto a", "next to the bathroom · by the window"], ["near · close to", "vicino a", "near the station"], ["behind", "dietro", "behind the house"], ["in front of", "davanti a", "in front of the door"], ["opposite · across from", "di fronte a", "the café opposite the station · across from the park"], ["between", "tra (due)", "between the fridge and the stove"], ["among", "tra (molti)", "among the trees"], ["inside · outside", "dentro · fuori", "inside the house · outside the door"]], "speak": [2], "compact": true},
+  {"type": "examples", "items": [
+    {"t": "The keys are on the table in the kitchen.", "n": "Le chiavi sono sul tavolo in cucina."},
+    {"t": "Chiara is at home. She's in her room, in bed.", "n": "Chiara è a casa. È in camera sua, a letto.", "note": "in bed, at home: niente articolo"},
+    {"t": "The bakery is on Dundas Street, across from the park.", "n": "La panetteria è su Dundas Street, di fronte al parco.", "note": "on + nome della strada, in Nord America"},
+    {"t": "Franco is in the car, in front of the house.", "n": "Franco è in macchina, davanti alla casa."}
+  ]},
+  {"type": "callout", "kind": "warn", "title": "Dove l'italiano dice a e l'inglese no", "text": "[[at home]] (a casa), [[at work]] (al lavoro), [[in bed]] (a letto), [[on the wall]] (al muro), [[on the floor]] (a terra), [[in the car]] (in macchina), [[on the bus]] (sull'autobus), [[at the door]] (alla porta). Si imparano a gruppi, non con la logica."},
+  {"type": "mistakes", "items": [
+    {"wrong": "in the wall, in the floor", "right": "on the wall, on the floor", "why": "Superfici → on."},
+    {"wrong": "in home, in work", "right": "at home, at work", "why": "Luoghi come funzione → at."},
+    {"wrong": "in Nairn Avenue", "right": "on Nairn Avenue", "why": "In Nord America le strade vogliono on (nel Regno Unito in)."},
+    {"wrong": "next the door, in front the door", "right": "next to the door, in front of the door", "why": "Preposizioni composte: to e of fanno parte dell'espressione."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "Chiara is ___ home, ___ her room, ___ bed.", "answers": [["at"], ["in"], ["in"]], "n": "Chiara è a casa, in camera sua, a letto."},
+    {"kind": "fill", "q": "The bakery is ___ Dundas Street, ___ from the park.", "answers": [["on"], ["across"]], "n": "La panetteria è su Dundas Street, di fronte al parco."},
+    {"kind": "match", "q": "Abbina.", "pairs": [["under", "sotto"], ["behind", "dietro"], ["between", "tra"], ["opposite", "di fronte a"], ["above", "sopra"]]}
+  ]}
+]}

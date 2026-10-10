@@ -1,0 +1,24 @@
+{"id": "this-that-these-those", "title": "this, that, these, those", "category": "Dimostrativi", "rule": "This / these per il vicino, that / those per il lontano; una forma sola per maschile e femminile. Aggettivi (this room) o pronomi (this is). That's = that is.", "units": ["02"], "blocks": [
+  {"type": "table", "head": ["", "vicino", "lontano", "italiano"], "rows": [["singolare", "this", "that", "questo/a · quello/a"], ["plurale", "these", "those", "questi/e · quelli/e"]], "speak": [1, 2], "rowhead": true},
+  {"type": "subhead", "text": "Gli usi"},
+  {"type": "examples", "items": [
+    {"t": "This room is small. That room is big.", "n": "Questa stanza è piccola. Quella stanza è grande.", "note": "aggettivo: davanti al nome"},
+    {"t": "This is my room. That's the bathroom.", "n": "Questa è la mia camera. Quello è il bagno.", "note": "pronome: da solo"},
+    {"t": "This is Teresa. These are my cousins.", "n": "Questa è Teresa. Questi sono i miei cugini.", "note": "per presentare le persone"},
+    {"t": "Hello, this is Chiara. Is that Sofia?", "n": "Pronto, sono Chiara. Sei Sofia?", "note": "al telefono: this is chi parla, that chi risponde"},
+    {"t": "What's this? What are those?", "n": "Cos'è questo? Cosa sono quelli?"},
+    {"t": "That's right. That's nothing. That's it.", "n": "Esatto. È niente. Ecco tutto.", "note": "that per riprendere quello che è stato detto"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Vicino e lontano nel tempo", "text": "[[this week]], [[this morning]] (questa settimana, stamattina) sono vicini; [[that day]], [[those years]] (quel giorno, quegli anni) sono lontani. Stessa logica."},
+  {"type": "mistakes", "items": [
+    {"wrong": "She is Teresa. (presentando)", "right": "This is Teresa.", "why": "Le persone si presentano con this is."},
+    {"wrong": "This chairs are old.", "right": "These chairs are old.", "why": "Plurale → these."},
+    {"wrong": "That's are the keys.", "right": "Those are the keys.", "why": "That's contiene già is: non può reggere un plurale."},
+    {"wrong": "I am Chiara. (al telefono)", "right": "This is Chiara. / It's Chiara.", "why": "Al telefono ci si presenta con this is o it's."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "___ is my room, and ___ over there is Sofia's.", "answers": [["This"], ["that"]], "n": "Questa è la mia camera, e quella là è di Sofia."},
+    {"kind": "fill", "q": "Who are ___ people in the photo? — ___ are our neighbours.", "answers": [["those", "these"], ["Those", "These", "They"]], "n": "Chi sono quelle persone nella foto? — Sono i nostri vicini."},
+    {"kind": "reply", "line": {"t": "Hello, is that Chiara?", "n": "Pronto, sei Chiara?"}, "options": ["Yes, this is Chiara.", "Yes, I am Chiara here.", "Yes, that is Chiara."], "answer": 0, "why": "Al telefono: this is per chi parla."}
+  ]}
+]}

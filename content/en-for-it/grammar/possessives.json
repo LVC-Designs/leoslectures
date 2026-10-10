@@ -1,0 +1,26 @@
+{"id": "possessives", "title": "I possessivi e il genitivo sassone", "category": "Possessivi", "rule": "my, your, his, her, its, our, their non cambiano con la cosa posseduta e non vogliono l'articolo. His / her / its seguono il proprietario. Nome + 's = di. I pronomi possessivi (mine, yours…) nell'unità 10.", "units": ["02"], "blocks": [
+  {"type": "table", "head": ["Soggetto", "Aggettivo possessivo", "Pronome possessivo (unità 10)", "Italiano"], "rows": [["I", "my", "mine", "mio/a/i/e"], ["you", "your", "yours", "tuo, suo (Lei), vostro"], ["he", "his", "his", "suo (di lui)"], ["she", "her", "hers", "suo (di lei)"], ["it", "its", "—", "suo (di cosa, animale)"], ["we", "our", "ours", "nostro"], ["they", "their", "theirs", "loro"]], "speak": [1, 2], "rowhead": true},
+  {"type": "subhead", "text": "Tre differenze con l'italiano"},
+  {"type": "prose", "text": "1. **Niente articolo**: [[my room]], non *the my room*. Vale anche per la famiglia: [[my mother]], [[my cousins]].\n\n2. **Il possessivo non concorda con la cosa**: [[my room]], [[my rooms]], [[my car]], [[my cars]]: sempre my.\n\n3. **His / her / its concordano con il proprietario**: [[Luca's room → his room]], [[Lucia's room → her room]], [[the house → its door]]. In italiano *la sua camera* non dice se è di Luca o di Lucia; in inglese sì, sempre."},
+  {"type": "agreement", "intro": "Con il tuo protagonista:", "items": [
+    {"t": {"m": "Luca and his parents. His room. His posters.", "f": "Lucia and her parents. Her room. Her posters."}, "n": "{hero} e i suoi genitori. La sua camera. I suoi poster."}
+  ], "note": "Nota che parents è plurale e room è singolare, ma his / her non cambia: conta solo chi possiede."},
+  {"type": "subhead", "text": "Il genitivo sassone"},
+  {"type": "table", "head": ["Caso", "Esempio", "Nota"], "rows": [["persona + 's", "Teresa's lasagna, Franco's car, {hero}'s room", "la regola base"], ["nome in -s + '", "the Ferrantes' house, my parents' house, James' (o James's) car", "plurale regolare: solo apostrofo"], ["plurale irregolare + 's", "the children's room, people's names", ""], ["due proprietari", "Franco and Teresa's house", "'s solo sull'ultimo se la cosa è in comune"], ["tempo", "today's newspaper, a week's holiday", "anche con il tempo"], ["cose: of", "the door of the house, the name of the street", "con le cose non persone, di solito of"]], "speak": [1]},
+  {"type": "examples", "items": [
+    {"t": "Whose keys are these? — They're Teresa's.", "n": "Di chi sono queste chiavi? — Sono di Teresa.", "note": "whose = di chi; Teresa's da solo = quelle di Teresa"},
+    {"t": "We're at the Ferrantes' for dinner.", "n": "Siamo dai Ferrante a cena.", "note": "at + nome + 's = a casa di"},
+    {"t": "It's my parents' house, not mine.", "n": "È la casa dei miei genitori, non la mia."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "the my house", "right": "my house", "why": "Mai l'articolo."},
+    {"wrong": "Lucia and his car", "right": "Lucia and her car", "why": "Lucia possiede: her."},
+    {"wrong": "the car of Franco", "right": "Franco's car", "why": "Persone: 's."},
+    {"wrong": "it's door, their's house", "right": "its door, their house", "why": "I possessivi non hanno mai l'apostrofo. It's = it is."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "Sofia is 22. ___ room is upstairs. {hero} is 30. ___ room is next to Sofia's.", "answers": [["Her"], [{"m": "His", "f": "Her"}]], "n": "Sofia ha 22 anni. La sua camera è di sopra. {hero} ha 30 anni. La sua camera è accanto a quella di Sofia."},
+    {"kind": "mc", "q": "«La casa dei miei genitori»", "options": ["my parents' house", "my parent's house", "the house of my parents"], "answer": 0, "why": "Parents è plurale: apostrofo dopo la s."},
+    {"kind": "translate", "q": "Di chi sono queste chiavi? — Sono di Franco.", "answers": ["Whose keys are these? They're Franco's", "Whose keys are these? — They're Franco's", "Whose keys are these? They are Franco's", "Whose are these keys? They're Franco's"]}
+  ]}
+]}

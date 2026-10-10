@@ -35,6 +35,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** subject-pronouns, verb-be, a-an, plural-nouns, nationalities.
 - **Originality:** the two scenes (border control at Pearson; the arrivals hall with Franco and Teresa), all 42 vocabulary examples, tables, 40 exercises and the cultural notes were written for this project. The "Vivere lì" notes describe Canada (provinces, official languages, time difference), the working-holiday arrival procedure (permit issued at the port of entry, proof of funds and insurance, customs declaration), small-talk conventions and forms of address from general knowledge; readers are pointed to the CBSA site for current rules.
 
+#### Unit 2 · The house on Nairn Avenue (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken production: describe where one lives in simple phrases; spoken interaction: ask and answer simple questions about objects and places, say what one has and whose things are; listening: understand simple instructions and familiar words about everyday surroundings; reading: understand short simple notices (bin labels); writing: write simple phrases about where one lives.
+- **Grammar:** *there is / there are*; *have* with do/does (have got noted as British); *this, that, these, those*; prepositions of place (in, on, at, under, next to, behind, in front of, between, above, near); possessive adjectives and the possessive 's (his/her by owner, shown with the Luca/Lucia variant); *the* for known things; irregular plurals.
+- **Reference pages added:** there-is-there-are, verb-have, this-that-these-those, prepositions-of-place, possessives (plural-nouns extended).
+- **Originality:** the two scenes (the house tour with shoes off, two kitchens and Luca's/Lucia's old room; the bins and the thermostat), all 40 vocabulary examples, tables, 40 exercises and the cultural notes (Canadian house types, basements, shoes off, thermostat etiquette, Toronto's green/blue/garbage bins, "make yourself at home", the Italian-Canadian "good living room") were written for this project from general knowledge of life in Toronto.
+
 ## Shared tools
 
 - **Conjugators** (`src/js/conj-it.js`, `src/js/conj-en.js`): rule-based, with irregular-verb dictionaries compiled from general linguistic knowledge. Verb lists and their glosses in `content/*/verbs.json` are the project's own.

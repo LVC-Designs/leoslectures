@@ -1,0 +1,336 @@
+{
+  "id": "02",
+  "level": "A1",
+  "title": "The house on Nairn Avenue",
+  "subtitle": "La casa dei Ferrante",
+  "intro": "Scarpe fuori, due cucine, un seminterrato che è una casa dentro la casa, e la camera di {hero} con i poster ancora al muro. In questa unità impari a descrivere una casa, a dire dove sono le cose e di chi sono, e a capire il termostato prima di toccarlo.",
+  "objectives": [
+    "Nominare le stanze di una casa canadese e gli oggetti che ci sono dentro",
+    "Dire cosa c'è e cosa non c'è con [[there is]] e [[there are]], e cosa hai con [[have]]",
+    "Indicare le cose vicine e lontane con [[this, that, these, those]]",
+    "Dire dove sono le cose: [[in]], [[on]], [[under]], [[next to]], [[behind]], [[in front of]], [[between]]",
+    "Dire di chi è una cosa: [[my, your, his, her]] e il genitivo sassone, [[{hero}'s room]]"
+  ],
+  "canDo": [
+    "A1 · Produzione orale: sa descrivere dove vive con frasi semplici.",
+    "A1 · Interazione orale: sa fare e rispondere a domande semplici su oggetti e luoghi, dire cosa ha e di chi sono le cose.",
+    "A1 · Ascolto: sa capire istruzioni semplici e riconoscere parole familiari sull'ambiente quotidiano.",
+    "A1 · Lettura: sa capire avvisi brevi e semplici (etichette dei bidoni, un cartello sulla porta).",
+    "A1 · Scrittura: sa scrivere frasi semplici su dove vive."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Shoes off",
+      "intro": "Franco e Teresa mostrano la casa, poi Teresa spiega i bidoni e il termostato. Ascolta tutti i [[there is]] e i [[there are]], e nota come [[his]] e [[her]] cambiano con il tuo protagonista.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-house", "title": "The house", "setting": "Nairn Avenue, Corso Italia. Una casa a schiera di mattoni rossi, un portico, una porta a rete. Franco porta le valigie.", "register": "informale", "lines": [
+          {"who": "Teresa", "t": "Shoes off, please. This is the mudroom: boots here, coats there.", "n": "Scarpe fuori, per favore. Questo è il mudroom: stivali qui, cappotti là.", "note": "In Canada le scarpe si tolgono all'ingresso, sempre. Il mudroom (\"stanza del fango\") è l'ingresso dove restano."},
+          {"who": "Chiara", "t": "Oh! Sorry. Okay, shoes off.", "n": "Oh! Scusa. Va bene, scarpe fuori."},
+          {"who": "Franco", "t": "This is the living room. That's the kitchen. But the real kitchen is in the basement.", "n": "Questo è il soggiorno. Quella è la cucina. Ma la cucina vera è nel seminterrato."},
+          {"who": "Chiara", "t": "There are two kitchens?", "n": "Ci sono due cucine?"},
+          {"who": "Teresa", "t": "Yes. Upstairs is for show. Downstairs is for cooking.", "n": "Sì. Quella di sopra è per bellezza. Quella di sotto è per cucinare."},
+          {"who": "Franco", "t": "And there's a bathroom on every floor. Three bathrooms!", "n": "E c'è un bagno a ogni piano. Tre bagni!"},
+          {"who": "Chiara", "t": "Three bathrooms, two kitchens… Is there a bidet?", "n": "Tre bagni, due cucine… C'è un bidet?"},
+          {"who": "Franco", "t": "No bidet. This is Canada.", "n": "Niente bidet. Questo è il Canada."},
+          {"who": "Teresa", "t": {"m": "Come upstairs. This is Luca's old room. His posters are still on the wall.", "f": "Come upstairs. This is Lucia's old room. Her posters are still on the wall.", "note": "Luca's / Lucia's: la 's dice \"di\". His / her concorda con chi possiede: i poster di Luca sono his posters, quelli di Lucia her posters."}, "n": "Vieni di sopra. Questa è la vecchia camera di {hero}. I suoi poster sono ancora al muro."},
+          {"who": "Chiara", "t": "The Blue Jays! And who are these?", "n": "I Blue Jays! E questi chi sono?"},
+          {"who": "Teresa", "t": {"m": "Those are his friends from high school. Don't ask.", "f": "Those are her friends from high school. Don't ask.", "note": "Those (quelli) per cose lontane; his / her di nuovo secondo il proprietario."}, "n": "Quelli sono i suoi amici del liceo. Non chiedere."},
+          {"who": "Chiara", "t": "Is there Wi-Fi?", "n": "C'è il Wi-Fi?"},
+          {"who": "Franco", "t": "Of course. The password is on the fridge, under the magnet. The big magnet.", "n": "Certo. La password è sul frigo, sotto la calamita. La calamita grande."},
+          {"who": "Teresa", "t": "The towels are in the closet, next to the bathroom. Make yourself at home, Chiara.", "n": "Gli asciugamani sono nell'armadio, accanto al bagno. Fai come se fossi a casa tua, Chiara."}
+        ], "notes": [
+          {"phrase": "Shoes off.", "note": "Letteralmente \"scarpe via\". Anche coat off, hat off. Senza verbo: è un'istruzione, non una frase."},
+          {"phrase": "for show", "note": "\"Per bellezza\", \"per far vedere\". Il soggiorno buono delle famiglie italo-canadesi."},
+          {"phrase": "upstairs / downstairs", "note": "Di sopra / di sotto. Una parola sola, senza preposizione: Come upstairs. The kitchen is downstairs."},
+          {"phrase": "Of course.", "note": "Certo, ovviamente. Attenzione: come risposta a una richiesta può suonare brusco; a una domanda va benissimo."},
+          {"phrase": "Make yourself at home.", "note": "\"Fai come se fossi a casa tua\". La frase che ogni ospite canadese sente. Vivere lì spiega cosa significa davvero."}
+        ]},
+        {"type": "scene", "id": "dlg-bins", "title": "The bins and the thermostat", "setting": "La cucina di sopra. Sul frigo, calamite, foto, la password del Wi-Fi e un calendario della città.", "register": "informale", "lines": [
+          {"who": "Teresa", "t": "Three bins. The green bin is for food: peels, bones, coffee. The blue bin is for recycling: paper, cans, bottles.", "n": "Tre bidoni. Il bidone verde è per il cibo: bucce, ossa, caffè. Il bidone blu è per il riciclo: carta, lattine, bottiglie."},
+          {"who": "Chiara", "t": "And this black one?", "n": "E questo nero?"},
+          {"who": "Teresa", "t": "That's garbage. Everything else. Pickup is on Tuesday morning: the bins go to the curb on Monday night.", "n": "Quello è l'immondizia. Tutto il resto. La raccolta è martedì mattina: i bidoni vanno sul marciapiede lunedì sera."},
+          {"who": "Chiara", "t": "Green, blue, black. Okay. And what's that on the wall?", "n": "Verde, blu, nero. Va bene. E cos'è quello sul muro?"},
+          {"who": "Teresa", "t": "That's the thermostat. It's at twenty-one. Don't touch it. Franco touches it.", "n": "Quello è il termostato. È a ventuno. Non toccarlo. Franco lo tocca."},
+          {"who": "Franco", "t": "I don't touch it!", "n": "Io non lo tocco!"},
+          {"who": "Teresa", "t": "He touches it. In winter it's at twenty, and we have sweaters. Lots of sweaters.", "n": "Lo tocca. D'inverno è a venti, e abbiamo i maglioni. Tanti maglioni."},
+          {"who": "Chiara", "t": "Twenty degrees? In the house?", "n": "Venti gradi? In casa?"},
+          {"who": "Franco", "t": "Twenty is warm, Chiara. Wait for January.", "n": "Venti è caldo, Chiara. Aspetta gennaio."}
+        ], "notes": [
+          {"phrase": "pickup", "note": "La raccolta (dei rifiuti). Garbage day = il giorno della raccolta."},
+          {"phrase": "the curb", "note": "Il bordo del marciapiede. I bidoni \"vanno al curb\" la sera prima. Ortografia canadese: curb, non kerb."},
+          {"phrase": "Don't touch it.", "note": "Non toccarlo. L'imperativo negativo con don't: unità 5."}
+        ], "questions": [
+          {"kind": "tf", "q": "Il bidone verde è per la carta.", "t": "The green bin is for food.", "answer": false, "why": "Il verde è per il cibo (organics); la carta va nel blu."},
+          {"kind": "mc", "q": "Quando vanno fuori i bidoni?", "options": ["Lunedì sera.", "Martedì sera.", "Ogni giorno."], "answer": 0, "why": "«The bins go to the curb on Monday night»: la raccolta è martedì mattina."},
+          {"kind": "fill", "q": "The password is ___ the fridge, ___ the magnet.", "answers": [["on"], ["under"]], "n": "La password è sul frigo, sotto la calamita."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "At home",
+      "intro": "Le stanze, le cose dentro, i bidoni. Impara i nomi con l'articolo the quando sono cose della casa (the fridge, the basement): in una casa ce n'è uno solo e tutti sanno quale.",
+      "blocks": [
+        {"type": "vocab", "theme": "The house", "n": "La casa", "items": [
+          {"t": "house", "n": "casa (l'edificio)", "pos": "noun", "ipa": "haʊs", "plural": "houses", "ex": {"t": "The Ferrantes' house is on Nairn Avenue.", "n": "La casa dei Ferrante è su Nairn Avenue."}, "note": "House è l'edificio; home è la casa come luogo degli affetti (unità 1). H sempre pronunciata."},
+          {"t": "room", "n": "stanza, camera", "pos": "noun", "ipa": "ruːm", "plural": "rooms", "ex": {"t": "This is {hero}'s old room.", "n": "Questa è la vecchia camera di {hero}."}},
+          {"t": "living room", "n": "soggiorno", "pos": "noun", "plural": "living rooms", "ex": {"t": "The living room is for show.", "n": "Il soggiorno è per bellezza."}, "note": "Anche family room (quello dove si vive davvero) e, nelle case italo-canadesi, the good living room."},
+          {"t": "kitchen", "n": "cucina", "pos": "noun", "ipa": "ˈkɪtʃən", "plural": "kitchens", "ex": {"t": "There are two kitchens in this house.", "n": "Ci sono due cucine in questa casa."}},
+          {"t": "bedroom", "n": "camera da letto", "pos": "noun", "plural": "bedrooms", "ex": {"t": "There are three bedrooms upstairs.", "n": "Ci sono tre camere di sopra."}, "note": "Negli annunci: 2-bedroom = con due camere."},
+          {"t": "bathroom", "n": "bagno", "pos": "noun", "ipa": "ˈbæθruːm", "plural": "bathrooms", "ex": {"t": "There's a bathroom on every floor.", "n": "C'è un bagno a ogni piano."}, "note": "Anche washroom (molto canadese) e restroom (nei luoghi pubblici). Toilet è il water, non la stanza."},
+          {"t": "basement", "n": "seminterrato", "pos": "noun", "ipa": "ˈbeɪsmənt", "plural": "basements", "ex": {"t": "The real kitchen is in the basement.", "n": "La cucina vera è nel seminterrato."}, "note": "Quasi tutte le case canadesi ne hanno uno; spesso è abitabile. Nell'italiese: il basamento."},
+          {"t": "backyard", "n": "giardino sul retro, cortile", "pos": "noun", "plural": "backyards", "ex": {"t": "There's a tomato garden in the backyard.", "n": "C'è un orto di pomodori nel cortile."}, "note": "Il front yard è il prato davanti."},
+          {"t": "garage", "n": "garage", "pos": "noun", "ipa": "ɡəˈrɑːʒ", "plural": "garages", "ex": {"t": "Franco's car is in the garage.", "n": "La macchina di Franco è in garage."}, "note": "Accento sulla seconda sillaba in Canada: ga-RAGE."},
+          {"t": "floor", "n": "piano; pavimento", "pos": "noun", "ipa": "flɔr", "plural": "floors", "ex": {"t": "The bedrooms are on the second floor.", "n": "Le camere sono al primo piano."}, "note": "In Nord America il first floor è il piano terra e il second floor è il nostro primo piano."},
+          {"t": "wall", "n": "muro, parete", "pos": "noun", "ipa": "wɔl", "plural": "walls", "ex": {"t": "The posters are on the wall.", "n": "I poster sono al muro."}},
+          {"t": "door", "n": "porta", "pos": "noun", "ipa": "dɔr", "plural": "doors", "ex": {"t": "The front door is red.", "n": "La porta d'ingresso è rossa."}},
+          {"t": "window", "n": "finestra", "pos": "noun", "ipa": "ˈwɪndoʊ", "plural": "windows", "ex": {"t": "The window is open.", "n": "La finestra è aperta."}},
+          {"t": "stairs", "n": "scale", "pos": "noun (pl.)", "ipa": "stɛrz", "ex": {"t": "The stairs are next to the door.", "n": "Le scale sono accanto alla porta."}, "note": "Upstairs = di sopra, downstairs = di sotto: avverbi, senza preposizione."},
+          {"t": "closet", "n": "armadio a muro, ripostiglio", "pos": "noun", "ipa": "ˈklɒzɪt", "plural": "closets", "ex": {"t": "The towels are in the closet.", "n": "Gli asciugamani sono nell'armadio."}, "note": "Le case nordamericane hanno armadi a muro; l'armadio mobile è a wardrobe."}
+        ]},
+        {"type": "vocab", "theme": "Things in the house", "n": "Le cose di casa", "items": [
+          {"t": "bed", "n": "letto", "pos": "noun", "ipa": "bɛd", "plural": "beds", "ex": {"t": "The bed is small but comfortable.", "n": "Il letto è piccolo ma comodo."}},
+          {"t": "table", "n": "tavolo", "pos": "noun", "ipa": "ˈteɪbəl", "plural": "tables", "ex": {"t": "There's a big table in the basement kitchen.", "n": "C'è un tavolo grande nella cucina del seminterrato."}},
+          {"t": "chair", "n": "sedia", "pos": "noun", "ipa": "tʃɛr", "plural": "chairs", "ex": {"t": "There are twelve chairs. For Sunday.", "n": "Ci sono dodici sedie. Per la domenica."}},
+          {"t": "couch", "n": "divano", "pos": "noun", "ipa": "kaʊtʃ", "plural": "couches", "ex": {"t": "The couch in the good living room has plastic on it.", "n": "Il divano del soggiorno buono ha la plastica sopra."}, "note": "Couch è la parola nordamericana; sofa si capisce ovunque."},
+          {"t": "fridge", "n": "frigorifero", "pos": "noun", "ipa": "frɪdʒ", "plural": "fridges", "ex": {"t": "The password is on the fridge.", "n": "La password è sul frigo."}, "note": "Forma breve di refrigerator, che nessuno dice."},
+          {"t": "stove", "n": "fornello, cucina (elettrodomestico)", "pos": "noun", "ipa": "stoʊv", "plural": "stoves", "ex": {"t": "The stove is electric.", "n": "Il fornello è elettrico."}, "note": "Oven è il forno; stove è la cucina con i fornelli, spesso elettrica in Canada."},
+          {"t": "microwave", "n": "microonde", "pos": "noun", "ipa": "ˈmaɪkrəweɪv", "plural": "microwaves", "ex": {"t": "Is there a microwave? — Of course.", "n": "C'è un microonde? — Certo."}},
+          {"t": "washer and dryer", "n": "lavatrice e asciugatrice", "pos": "noun", "ex": {"t": "The washer and dryer are in the basement.", "n": "La lavatrice e l'asciugatrice sono nel seminterrato."}, "note": "In Canada l'asciugatrice c'è sempre. Washing machine si dice, ma washer è più comune."},
+          {"t": "TV", "n": "televisore, televisione", "pos": "noun", "ipa": "ˌtiːˈviː", "plural": "TVs", "ex": {"t": "The TV in the basement is enormous.", "n": "Il televisore nel seminterrato è enorme."}},
+          {"t": "lamp", "n": "lampada", "pos": "noun", "ipa": "læmp", "plural": "lamps", "ex": {"t": "There's a lamp next to the bed.", "n": "C'è una lampada accanto al letto."}},
+          {"t": "poster", "n": "poster", "pos": "noun", "ipa": "ˈpoʊstər", "plural": "posters", "ex": {"t": {"m": "His posters are still on the wall.", "f": "Her posters are still on the wall."}, "n": "I suoi poster sono ancora al muro."}},
+          {"t": "towel", "n": "asciugamano", "pos": "noun", "ipa": "ˈtaʊəl", "plural": "towels", "ex": {"t": "The towels are in the closet.", "n": "Gli asciugamani sono nell'armadio."}},
+          {"t": "shoes", "n": "scarpe", "pos": "noun (pl.)", "ipa": "ʃuːz", "ex": {"t": "Shoes off, please!", "n": "Scarpe fuori, per favore!"}, "note": "Singolare shoe. Boots = stivali, slippers = pantofole."},
+          {"t": "key", "n": "chiave", "pos": "noun", "ipa": "kiː", "plural": "keys", "ex": {"t": "Here are your keys: front door and back door.", "n": "Ecco le tue chiavi: porta davanti e porta dietro."}},
+          {"t": "Wi-Fi / password", "n": "Wi-Fi / password", "pos": "noun", "ipa": "ˈwaɪfaɪ", "ex": {"t": "Is there Wi-Fi? What's the password?", "n": "C'è il Wi-Fi? Qual è la password?"}, "note": "Wi-Fi si pronuncia \"uai-fai\", non \"ui-fi\"."}
+        ]},
+        {"type": "vocab", "theme": "Bins and heat", "n": "Bidoni e riscaldamento", "items": [
+          {"t": "garbage", "n": "immondizia, spazzatura", "pos": "noun", "ipa": "ˈɡɑrbɪdʒ", "ex": {"t": "The black bin is for garbage.", "n": "Il bidone nero è per l'immondizia."}, "note": "Parola nordamericana; nel Regno Unito rubbish. Non numerabile: niente plurale. Nell'italiese: il garbiccio."},
+          {"t": "recycling", "n": "riciclo, raccolta differenziata", "pos": "noun", "ipa": "riːˈsaɪklɪŋ", "ex": {"t": "The blue bin is for recycling.", "n": "Il bidone blu è per il riciclo."}},
+          {"t": "green bin", "n": "bidone dell'organico", "pos": "noun", "plural": "green bins", "ex": {"t": "Food goes in the green bin.", "n": "Il cibo va nel bidone verde."}, "note": "A Toronto: verde = organico, blu = riciclo, nero o grigio = indifferenziato."},
+          {"t": "pickup", "n": "raccolta (dei rifiuti)", "pos": "noun", "ipa": "ˈpɪkʌp", "ex": {"t": "Garbage pickup is on Tuesday.", "n": "La raccolta dell'immondizia è martedì."}},
+          {"t": "thermostat", "n": "termostato", "pos": "noun", "ipa": "ˈθɜrməstæt", "plural": "thermostats", "ex": {"t": "The thermostat is at twenty-one. Don't touch it.", "n": "Il termostato è a ventuno. Non toccarlo."}, "note": "Th sordo + accento sulla prima sillaba: THER-mo-stat."},
+          {"t": "heating", "n": "riscaldamento", "pos": "noun", "ipa": "ˈhiːtɪŋ", "ex": {"t": "The heating is on from October to April.", "n": "Il riscaldamento è acceso da ottobre ad aprile."}, "note": "Central heating con la furnace (caldaia ad aria) nel seminterrato: unità 17."},
+          {"t": "warm", "n": "caldo (piacevole), tiepido", "pos": "adj.", "ipa": "wɔrm", "ex": {"t": "Twenty degrees is warm, Chiara.", "n": "Venti gradi è caldo, Chiara."}, "note": "Warm è il caldo buono; hot è il caldo forte. Un caffè è hot, una casa è warm."},
+          {"t": "cold", "n": "freddo", "pos": "adj.", "ipa": "koʊld", "ex": {"t": "The basement is cold in winter.", "n": "Il seminterrato è freddo d'inverno."}},
+          {"t": "clean / dirty", "n": "pulito / sporco", "pos": "adj.", "ipa": "kliːn / ˈdɜrti", "ex": {"t": "The kitchen is clean. The boots are dirty.", "n": "La cucina è pulita. Gli stivali sono sporchi."}},
+          {"t": "sweater", "n": "maglione", "pos": "noun", "ipa": "ˈswɛtər", "plural": "sweaters", "ex": {"t": "In winter we have sweaters. Lots of sweaters.", "n": "D'inverno abbiamo i maglioni. Tanti maglioni."}, "note": "Nel Regno Unito jumper. Lots of = tanti, tante."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "There is, have, this and that",
+      "intro": "Sei pezzi di grammatica per dire «There's a bathroom on every floor, this is {hero}'s room, the password is on the fridge». Ogni pezzo ha la sua scheda completa in fondo.",
+      "blocks": [
+        {"type": "grammar", "id": "g-there-is", "title": "there is / there are", "category": "Frasi", "rule": "C'è = there is (there's), ci sono = there are. L'ordine è fisso: there + be + cosa + luogo. Negativo con isn't / aren't; domanda con l'inversione: Is there…? Are there…?", "ref": "there-is-there-are", "blocks": [
+          {"type": "table", "head": ["", "Singolare", "Plurale"], "rows": [["affermativa", "There's a bathroom on every floor.", "There are two kitchens."], ["negativa", "There isn't a bidet.", "There aren't any bidets in Canada."], ["domanda", "Is there a microwave?", "Are there three bins?"], ["risposta breve", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]], "speak": [1, 2], "rowhead": true, "note": "There's si dice sempre; there're si scrive raramente. Nelle risposte brevi niente contrazione: Yes, there is."},
+          {"type": "examples", "items": [
+            {"t": "There's a lamp next to the bed.", "n": "C'è una lampada accanto al letto.", "note": "there is + a + cosa + dove"},
+            {"t": "In the basement there's a big table.", "n": "Nel seminterrato c'è un tavolo grande.", "note": "il luogo può anche andare all'inizio"},
+            {"t": "Is there Wi-Fi? — Yes, there is.", "n": "C'è il Wi-Fi? — Sì."},
+            {"t": "There are twelve chairs and there's no table.", "n": "Ci sono dodici sedie e non c'è un tavolo.", "note": "there's no = there isn't a"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "there is non è it is", "text": "[[There's a bathroom upstairs.|C'è un bagno di sopra.]] dice che esiste. [[It's small.|È piccolo.]] lo descrive. L'italiano fa la stessa differenza (c'è / è); l'errore tipico è dire *it is a bathroom upstairs* per \"c'è\"."},
+          {"type": "mistakes", "items": [
+            {"wrong": "It's a bathroom on every floor.", "right": "There's a bathroom on every floor.", "why": "Per dire che qualcosa esiste si usa there is, non it is."},
+            {"wrong": "There is two kitchens.", "right": "There are two kitchens.", "why": "Plurale → are. Nel parlato veloce si sente there's two, ma nello scritto no."},
+            {"wrong": "Have a lamp next to the bed. / It has a lamp.", "right": "There's a lamp next to the bed.", "why": "Il \"c'è\" italiano a volte si traduce con have in testa, ma l'inglese vuole there is."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-have", "title": "Il verbo have (avere)", "category": "Verbi", "rule": "I have, you have, he / she / it has, we have, they have. Domande e negativo con do / does: Do you have…? She doesn't have… In Canada have got è raro: si usa have.", "ref": "verb-have", "blocks": [
+          {"type": "conjugation", "verb": "have", "tense": "present_simple", "caption": "[[have|avere]] · present simple: affermativo, negativo, domanda"},
+          {"type": "examples", "items": [
+            {"t": "We have two kitchens and three bathrooms.", "n": "Abbiamo due cucine e tre bagni."},
+            {"t": "Franco has a car. Teresa has the keys.", "n": "Franco ha una macchina. Teresa ha le chiavi.", "note": "terza persona: has"},
+            {"t": "Do you have Wi-Fi? — Yes, we do.", "n": "Avete il Wi-Fi? — Sì.", "note": "domanda con do; risposta breve con do, non con have"},
+            {"t": "I don't have a bidet. This is Canada.", "n": "Non ho un bidet. Questo è il Canada."},
+            {"t": "Does the room have a window? — Yes, it does.", "n": "La camera ha una finestra? — Sì."}
+          ]},
+          {"type": "callout", "kind": "note", "title": "have got", "text": "[[I've got a car]], [[Have you got Wi-Fi?]] è inglese britannico e si capisce ovunque. In Canada e negli Stati Uniti la forma normale è [[I have a car]], [[Do you have Wi-Fi?]]. Impara questa; riconosci l'altra."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Have you a car?", "right": "Do you have a car?", "why": "La domanda con have vuole do / does (o la forma britannica have you got)."},
+            {"wrong": "She have a room upstairs.", "right": "She has a room upstairs.", "why": "Terza persona singolare: has."},
+            {"wrong": "I haven't a bidet.", "right": "I don't have a bidet.", "why": "Il negativo di have come verbo principale vuole don't / doesn't."},
+            {"wrong": "Do you have Wi-Fi? — Yes, I have.", "right": "Yes, I do.", "why": "La risposta breve riprende l'ausiliare della domanda: do."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-this-that", "title": "this, that, these, those", "category": "Dimostrativi", "rule": "This / these per ciò che è vicino, that / those per ciò che è lontano. Con un nome o da soli. This is… presenta le persone.", "ref": "this-that-these-those", "blocks": [
+          {"type": "table", "head": ["", "vicino", "lontano"], "rows": [["singolare", "this (questo, questa)", "that (quello, quella)"], ["plurale", "these (questi, queste)", "those (quelli, quelle)"]], "speak": [1, 2], "rowhead": true, "note": "Una forma per maschile e femminile: this room, this bin. Pronuncia: this /ðɪs/ breve, these /ðiːz/ lungo con la z."},
+          {"type": "examples", "items": [
+            {"t": "This is the living room. That's the kitchen.", "n": "Questo è il soggiorno. Quella è la cucina.", "note": "that's = that is"},
+            {"t": "This is Teresa. These are our neighbours.", "n": "Questa è Teresa. Questi sono i nostri vicini.", "note": "per presentare: this is, mai she is"},
+            {"t": "Who are these? — Those are his friends.", "n": "Questi chi sono? — Quelli sono i suoi amici."},
+            {"t": "What's that on the wall? — The thermostat.", "n": "Cos'è quello sul muro? — Il termostato."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "She is Teresa. (presentandola)", "right": "This is Teresa.", "why": "Per presentare qualcuno si dice this is, anche se la persona è lì davanti."},
+            {"wrong": "This bins. Those bin.", "right": "These bins. That bin.", "why": "Singolare con singolare, plurale con plurale."},
+            {"wrong": "That's are the keys.", "right": "Those are the keys.", "why": "That's è già that + is; con il plurale serve those are."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-prepositions", "title": "Dove? Le preposizioni di luogo", "category": "Preposizioni", "rule": "in (dentro), on (sopra, a contatto), at (in un punto), under (sotto), next to (accanto a), behind (dietro), in front of (davanti a), between (tra), above (sopra, senza contatto), near (vicino a).", "ref": "prepositions-of-place", "blocks": [
+          {"type": "table", "head": ["Preposizione", "Italiano", "Esempio"], "rows": [["in", "in, dentro", "in the basement, in the closet, in the kitchen"], ["on", "su (a contatto)", "on the fridge, on the wall, on the table, on the second floor"], ["at", "a (un punto, un luogo)", "at home, at the door, at the airport"], ["under", "sotto", "under the magnet, under the bed"], ["next to · beside", "accanto a", "next to the bathroom, beside the bed"], ["behind", "dietro", "behind the house"], ["in front of", "davanti a", "in front of the door"], ["between", "tra (due cose)", "between the fridge and the stove"], ["above · over", "sopra (senza contatto)", "above the table, the lamp over the couch"], ["near", "vicino a", "near the window"]], "speak": [2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "The password is on the fridge, under the magnet.", "n": "La password è sul frigo, sotto la calamita."},
+            {"t": "The towels are in the closet next to the bathroom.", "n": "Gli asciugamani sono nell'armadio accanto al bagno."},
+            {"t": "The bins are in front of the house, on the curb.", "n": "I bidoni sono davanti alla casa, sul marciapiede."},
+            {"t": "The thermostat is on the wall between the two doors.", "n": "Il termostato è sul muro tra le due porte."}
+          ]},
+          {"type": "callout", "kind": "warn", "title": "in / on / at: i tre che confondono", "text": "[[in the kitchen]] (dentro uno spazio), [[on the wall]] (su una superficie), [[at home]] / [[at the door]] (in un punto). L'italiano usa *a* per molti di questi: *a casa* è at home, *al muro* è on the wall, *in cucina* è in the kitchen. Tempo e luogo insieme nell'unità 5."},
+          {"type": "mistakes", "items": [
+            {"wrong": "The posters are in the wall.", "right": "The posters are on the wall.", "why": "Una superficie vuole on."},
+            {"wrong": "I'm in home. I'm at the kitchen.", "right": "I'm at home. I'm in the kitchen.", "why": "Home vuole at; una stanza vuole in."},
+            {"wrong": "The lamp is next the bed.", "right": "The lamp is next to the bed.", "why": "Next to, con to. Lo stesso per in front of, con of."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-possessives", "title": "my, your, his, her e il genitivo sassone", "category": "Possessivi", "rule": "Gli aggettivi possessivi non cambiano con la cosa posseduta e non vogliono l'articolo: my room, my rooms. His e her dipendono da chi possiede. La 's dopo un nome vuol dire \"di\": {hero}'s room.", "ref": "possessives", "blocks": [
+          {"type": "table", "head": ["Pronome", "Possessivo", "Italiano", "Esempio"], "rows": [["I", "my", "mio, mia, miei, mie", "my room, my keys"], ["you", "your", "tuo, suo (Lei), vostro", "your towels"], ["he", "his", "suo (di lui)", "his posters"], ["she", "her", "suo (di lei)", "her posters"], ["it", "its", "suo (di una cosa)", "its door (la sua porta, della casa)"], ["we", "our", "nostro", "our neighbours"], ["they", "their", "loro", "their house"]], "speak": [3], "rowhead": true, "note": "Its (possessivo) senza apostrofo; it's = it is. Lo sbagliano anche i canadesi."},
+          {"type": "agreement", "intro": "His o her? Dipende dal proprietario, non dalla cosa. In italiano \"la sua camera\" non dice chi è; in inglese sì.", "items": [
+            {"t": {"m": "This is Luca's room. His posters are on the wall.", "f": "This is Lucia's room. Her posters are on the wall."}, "n": "Questa è la camera di {hero}. I suoi poster sono al muro."},
+            {"t": {"m": "Those are his friends. That's his guitar.", "f": "Those are her friends. That's her guitar."}, "n": "Quelli sono i suoi amici. Quella è la sua chitarra."}
+          ], "note": "La chitarra è femminile in italiano, ma his guitar se è di Luca: in inglese conta solo chi possiede."},
+          {"type": "subhead", "text": "Il genitivo sassone: 's"},
+          {"type": "examples", "items": [
+            {"t": "{hero}'s room · Teresa's lasagna · Franco's car", "n": "la camera di {hero} · le lasagne di Teresa · la macchina di Franco", "note": "nome + 's + cosa: l'ordine è il contrario dell'italiano"},
+            {"t": "the Ferrantes' house · my parents' house", "n": "la casa dei Ferrante · la casa dei miei genitori", "note": "con un plurale in -s si aggiunge solo l'apostrofo"},
+            {"t": "the children's room", "n": "la camera dei bambini", "note": "plurale irregolare: 's normale"},
+            {"t": "the door of the house · the end of the street", "n": "la porta della casa · la fine della strada", "note": "con le cose, spesso of"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "the my room, the his car", "right": "my room, his car", "why": "Mai l'articolo davanti al possessivo."},
+            {"wrong": "Lucia and his posters", "right": "Lucia and her posters", "why": "Lucia possiede: her. His è solo per un uomo."},
+            {"wrong": "the room of Luca", "right": "Luca's room", "why": "Con le persone si usa la 's; of suona strano."},
+            {"wrong": "The house has it's door open.", "right": "The house has its door open.", "why": "Its possessivo, senza apostrofo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-the-plurals", "title": "the, e i plurali irregolari", "category": "Articoli e nomi", "rule": "The è l'articolo determinativo, una forma sola per tutto: the fridge, the keys. Si usa quando si sa di cosa si parla. Alcuni plurali non prendono -s: children, men, women, people, feet, teeth, mice.", "ref": "plural-nouns", "blocks": [
+          {"type": "table", "caption": "a / an → the: nuovo → già noto", "head": ["Prima volta", "Dopo"], "rows": [["There's a lamp next to the bed.", "The lamp is old."], ["There are two kitchens.", "The kitchen upstairs is for show."], ["This is a house with a basement.", "The basement is the real house."]], "speak": [0, 1], "note": "Cose uniche in un contesto: the fridge, the thermostat, the front door. Si pronuncia /ðə/ davanti a consonante e /ði/ davanti a vocale: the fridge, the oven."},
+          {"type": "table", "caption": "Plurali irregolari", "head": ["Singolare", "Plurale", "Italiano"], "rows": [["child", "children", "bambino / bambini"], ["man", "men", "uomo / uomini"], ["woman", "women", "donna / donne"], ["person", "people", "persona / persone"], ["foot", "feet", "piede / piedi"], ["tooth", "teeth", "dente / denti"], ["mouse", "mice", "topo / topi"]], "speak": [0, 1], "compact": true, "note": "Women si pronuncia \"uimin\": la o diventa i. People è già plurale: two people, mai two peoples."},
+          {"type": "examples", "items": [
+            {"t": "Shoes off: your feet, their floor.", "n": "Scarpe fuori: i tuoi piedi, il loro pavimento."},
+            {"t": "There are twelve people at Sunday dinner.", "n": "Ci sono dodici persone alla cena della domenica."},
+            {"t": "The children's room is upstairs.", "n": "La camera dei bambini è di sopra."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "two childs, three mans", "right": "two children, three men", "why": "Irregolari: si imparano a memoria."},
+            {"wrong": "five peoples", "right": "five people", "why": "People è il plurale di person."},
+            {"wrong": "I love the music. The life is hard.", "right": "I love music. Life is hard.", "why": "Anticipazione dell'unità 6: in senso generale l'inglese non mette the."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "Short and long vowels, and the h",
+      "intro": "L'italiano ha sette suoni vocalici, tutti della stessa lunghezza. L'inglese ne ha più di dieci, e la lunghezza cambia il significato: ship non è sheep, full non è fool. Poi c'è l'h, che si pronuncia sempre tranne quando non si pronuncia.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "ɪ", "t": "ship", "n": "nave", "ipa": "ʃɪp", "tip": "Breve e rilassata, tra la i e la e italiane. Bocca quasi ferma. Kitchen, bin, big, this, is."},
+          {"sound": "iː", "t": "sheep", "n": "pecora", "ipa": "ʃiːp", "tip": "Lunga e tesa, come una i italiana allungata. Clean, these, key, three."},
+          {"sound": "ʊ", "t": "full", "n": "pieno", "ipa": "fʊl", "tip": "Breve, labbra appena arrotondate. Good, book, put, look."},
+          {"sound": "uː", "t": "fool", "n": "sciocco", "ipa": "fuːl", "tip": "Lunga, labbra strette. Room, shoes, food, two."},
+          {"sound": "h", "t": "house", "n": "casa", "ipa": "haʊs", "tip": "Un soffio dalla gola: house, home, hello, his, her, hungry. Muta solo in hour, honest, honour, heir."},
+          {"sound": "ð", "t": "this", "n": "questo", "ipa": "ðɪs", "tip": "Il th sonoro apre this, that, these, those, there, the: le parole più frequenti di questa unità."}
+        ]},
+        {"type": "minimal", "caption": "Breve o lunga? Ascolta, poi ripeti", "pairs": [
+          {"a": "ship", "b": "sheep", "na": "nave", "nb": "pecora"},
+          {"a": "bit", "b": "beat", "na": "pezzetto", "nb": "battere", "tip": "Lo stesso per sit / seat, live / leave, fill / feel."},
+          {"a": "full", "b": "fool", "na": "pieno", "nb": "sciocco", "tip": "Pull / pool, look / Luke."},
+          {"a": "this", "b": "these", "na": "questo", "nb": "questi", "tip": "La differenza tra singolare e plurale è tutta nella vocale (e nella s finale, che in these è sonora)."},
+          {"a": "his", "b": "is", "na": "suo (di lui)", "nb": "è", "tip": "Senza il soffio della h, his diventa is: \"is posters\" non vuol dire niente."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "L'abitudine da costruire", "text": "Gli italiani tendono a dire tutte le i come /iː/: *sheep* per ship, *leave* per live. Il trucco per la ɪ breve: non sorridere. La iː lunga si fa con le labbra tirate, la ɪ breve con la bocca neutra e un suono che dura metà."},
+        {"type": "examples", "items": [
+          {"t": "This is his kitchen. It's clean.", "n": "Questa è la sua cucina. È pulita.", "note": "ɪ · ɪ · ɪ · ɪ · ɪ · iː"},
+          {"t": "Put the food in the fridge, not in the room.", "n": "Metti il cibo nel frigo, non nella stanza.", "note": "ʊ · uː · ɪ · uː"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Quaranta esercizi in cinque serie e un ripasso misto. Le contrazioni sono accettate (there's / there is). Dopo un errore puoi vedere la risposta.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · There is, there are", "items": [
+          {"kind": "fill", "q": "___ a bathroom on every floor.", "choices": [["There's", "There are", "It's"]], "answers": [["There's", "There is"]], "n": "C'è un bagno a ogni piano."},
+          {"kind": "fill", "q": "___ two kitchens in the house.", "choices": [["There are", "There is", "They are"]], "answers": [["There are"]], "n": "Ci sono due cucine in casa."},
+          {"kind": "fill", "q": "___ there a microwave? — Yes, there ___.", "answers": [["Is"], ["is"]], "n": "C'è un microonde? — Sì."},
+          {"kind": "fill", "q": "There ___ a bidet. This is Canada.", "answers": [["isn't", "is not", "'s no", "is no"]], "n": "Non c'è un bidet. Questo è il Canada."},
+          {"kind": "mc", "q": "«C'è una lampada accanto al letto.»", "options": ["It's a lamp next to the bed.", "There's a lamp next to the bed.", "Has a lamp next to the bed."], "answer": 1, "why": "Esistenza: there is. It's a lamp risponde a \"cos'è?\"."},
+          {"kind": "order", "answer": "There are three bins in front of the house.", "n": "Ci sono tre bidoni davanti alla casa."},
+          {"kind": "translate", "q": "Non ci sono bidet in Canada.", "answers": ["There aren't any bidets in Canada", "There are no bidets in Canada", "There aren't bidets in Canada"]}
+        ]},
+        {"type": "exercises", "title": "2 · Have", "items": [
+          {"kind": "conjugate", "verb": "have", "tense": "present simple", "n": "avere", "answers": ["have", "have", "has", "have", "have", "have"]},
+          {"kind": "fill", "q": "Franco ___ a car. Teresa ___ the keys.", "answers": [["has"], ["has"]], "n": "Franco ha una macchina. Teresa ha le chiavi."},
+          {"kind": "fill", "q": "___ you ___ Wi-Fi? — Yes, we ___.", "answers": [["Do"], ["have"], ["do"]], "n": "Avete il Wi-Fi? — Sì."},
+          {"kind": "mc", "q": "«Non ho un bidet.»", "options": ["I haven't a bidet.", "I don't have a bidet.", "I no have a bidet."], "answer": 1, "why": "Negativo con don't. (I haven't got a bidet è la forma britannica.)"},
+          {"kind": "reply", "line": {"t": "Does the room have a window?", "n": "La camera ha una finestra?"}, "options": ["Yes, it does.", "Yes, it has.", "Yes, it is."], "answer": 0, "why": "La risposta breve riprende does."}
+        ]},
+        {"type": "exercises", "title": "3 · This, that, these, those", "items": [
+          {"kind": "fill", "q": "___ is the living room, and ___ is the kitchen over there.", "answers": [["This"], ["that"]], "n": "Questo è il soggiorno, e quella là è la cucina."},
+          {"kind": "fill", "q": "Who are ___? (in the photo, close) — ___ are his friends.", "answers": [["these"], ["Those", "These", "They"]], "n": "Questi chi sono? — Quelli sono i suoi amici."},
+          {"kind": "mc", "q": "Presenti Teresa a un amico. Dici:", "options": ["She is Teresa.", "This is Teresa.", "That is Teresa."], "answer": 1, "why": "Per presentare si usa this is, anche se la persona è accanto a te."},
+          {"kind": "match", "q": "Abbina.", "pairs": [["this", "questo (vicino)"], ["that", "quello (lontano)"], ["these", "questi (vicino)"], ["those", "quelli (lontano)"]]},
+          {"kind": "dictation", "text": "This is the living room. That's the kitchen.", "n": "Questo è il soggiorno. Quella è la cucina."}
+        ]},
+        {"type": "exercises", "title": "4 · Where? Prepositions", "items": [
+          {"kind": "fill", "q": "The posters are ___ the wall.", "choices": [["on", "in", "at"]], "answers": [["on"]], "n": "I poster sono al muro."},
+          {"kind": "fill", "q": "The washer and dryer are ___ the basement.", "choices": [["in", "on", "under"]], "answers": [["in"]], "n": "Lavatrice e asciugatrice sono nel seminterrato."},
+          {"kind": "fill", "q": "The towels are in the closet ___ the bathroom.", "answers": [["next to", "beside", "near"]], "n": "Gli asciugamani sono nell'armadio accanto al bagno."},
+          {"kind": "fill", "q": "The thermostat is on the wall ___ the two doors.", "answers": [["between"]], "n": "Il termostato è sul muro tra le due porte."},
+          {"kind": "fill", "q": "Franco is ___ home. He's ___ the kitchen.", "answers": [["at"], ["in"]], "n": "Franco è a casa. È in cucina."},
+          {"kind": "mc", "q": "«I bidoni sono davanti alla casa.»", "options": ["The bins are in front of the house.", "The bins are in front the house.", "The bins are before the house."], "answer": 0, "why": "In front of, tutto intero. Before è \"prima\" nel tempo."},
+          {"kind": "translate", "q": "La lampada è sotto la finestra, accanto al letto.", "answers": ["The lamp is under the window, next to the bed", "The lamp is under the window, beside the bed"]}
+        ]},
+        {"type": "exercises", "title": "5 · Possessives, 's and plurals", "items": [
+          {"kind": "fill", "q": "This is {hero}'s room. ___ posters are on the wall.", "answers": [[{"m": "His", "f": "Her"}]], "n": "Questa è la camera di {hero}. I suoi poster sono al muro.", "hint": "dipende dal tuo protagonista"},
+          {"kind": "fill", "q": "Teresa has the keys. They're ___ keys.", "answers": [["her"]], "n": "Teresa ha le chiavi. Sono le sue chiavi."},
+          {"kind": "mc", "q": "«La macchina di Franco»", "options": ["the car of Franco", "Franco's car", "Franco car"], "answer": 1, "why": "Genitivo sassone: nome + 's + cosa."},
+          {"kind": "fill", "q": "This is ___ house. (noi) ___ neighbours are Portuguese. (loro)", "answers": [["our"], ["Their"]], "n": "Questa è casa nostra. I loro vicini sono portoghesi."},
+          {"kind": "fill", "q": "one child, two ___ · one man, two ___ · one foot, two ___", "answers": [["children"], ["men"], ["feet"]], "n": "un bambino, due bambini · un uomo, due uomini · un piede, due piedi"},
+          {"kind": "tf", "q": "«It's» e «its» sono la stessa parola.", "answer": false, "why": "It's = it is. Its = suo (di una cosa). The house has its own basement."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Tutta l'unità, mescolata.", "items": [
+          {"kind": "translate", "q": "La password è sul frigo, sotto la calamita.", "answers": ["The password is on the fridge, under the magnet", "The password's on the fridge, under the magnet"]},
+          {"kind": "fill", "q": "Is there Wi-Fi? — Yes, there ___. The password is on the ___.", "answers": [["is"], ["fridge"]], "n": "C'è il Wi-Fi? — Sì. La password è sul frigo."},
+          {"kind": "order", "answer": "The green bin is for food.", "n": "Il bidone verde è per il cibo."},
+          {"kind": "fill", "q": "{hero} is in Italy, but ___ room is still here, with ___ posters.", "answers": [[{"m": "his", "f": "her"}], [{"m": "his", "f": "her"}]], "n": "{hero} è in Italia, ma la sua camera è ancora qui, con i suoi poster."},
+          {"kind": "match", "q": "Dov'è?", "pairs": [["in the basement", "nel seminterrato"], ["on the wall", "al muro"], ["under the bed", "sotto il letto"], ["next to the door", "accanto alla porta"], ["at home", "a casa"]]},
+          {"kind": "write", "q": "Descrivi la tua casa in quattro o cinque frasi: quante stanze ci sono, cosa c'è e cosa non c'è, dove sono le cose.", "model": "My apartment is small. There are two rooms, a kitchen and a bathroom. There's a big window in the bedroom and there's a couch in the living room. The washer is in the bathroom. There isn't a dryer, but there's a balcony.", "hint": "There is… · There are… · There isn't… · … is in / on / next to…"},
+          {"kind": "speak", "text": "This is the kitchen. The fridge is between the stove and the door.", "n": "Questa è la cucina. Il frigo è tra il fornello e la porta.", "tip": "Th sonoro in this e the; ɪ breve in this, kitchen, is, fridge."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Scarpe fuori, termostato e bidoni",
+      "intro": "Com'è fatta una casa canadese, perché ci si toglie le scarpe, chi comanda sul termostato, e cosa vuol dire davvero \"make yourself at home\".",
+      "blocks": [
+        {"type": "subhead", "text": "La casa canadese"},
+        {"type": "prose", "text": "La casa dei Ferrante è una [[semi-detached]]: due case attaccate per un muro, ognuna con il suo ingresso, il suo prato davanti ([[front yard]]) e il cortile dietro ([[backyard]]). Le altre forme comuni: [[detached]] (indipendente), [[townhouse]] (a schiera), [[condo]] (appartamento in un palazzo, di proprietà) e [[apartment]] (in affitto). Quasi tutte le case hanno un [[basement]], il seminterrato, che spesso è finito e abitato: una seconda cucina, la TV grande, la lavanderia, e nelle case italo-canadesi la [[cantina]] con il vino e i pomodori in barattolo. Un basement apartment è un seminterrato affittato come casa a sé: Chiara ne cercherà uno nell'unità 10.\n\nL'ingresso ha spesso un [[mudroom]] o almeno un tappeto e una scarpiera; le finestre hanno le zanzariere ([[screens]]) e le porte una seconda porta a rete ([[screen door]]). Il riscaldamento è centrale, ad aria calda, con una caldaia ([[furnace]]) nel seminterrato e le bocchette a pavimento; d'estate la stessa macchina fa aria condizionata."},
+        {"type": "callout", "kind": "real", "title": "Shoes off", "text": "In Canada le scarpe si tolgono entrando in casa, sempre, a casa propria e a casa d'altri. Non è una regola della famiglia Ferrante: è la regola del paese, per via della neve, del sale e del fango di otto mesi all'anno. Nessuno te lo chiede più di una volta. Porta calzini decenti."},
+        {"type": "subhead", "text": "Il termostato"},
+        {"type": "prose", "text": "Ventuno gradi è la temperatura \"normale\" di casa in Canada; venti è risparmio, ventidue è lusso. Toccare il termostato di casa d'altri non si fa, e in molte famiglie non si fa nemmeno in casa propria senza discussione. Il riscaldamento resta acceso da ottobre ad aprile; a gennaio, con meno venti fuori, venti dentro sembra davvero caldo. Il consiglio di Franco vale: aspetta gennaio, e nel frattempo compra un maglione."},
+        {"type": "subhead", "text": "I bidoni di Toronto"},
+        {"type": "prose", "text": "La città raccoglie i rifiuti porta a porta con bidoni con le ruote: il [[green bin]] per l'organico (cibo, ossa, bucce, fazzoletti sporchi), ogni settimana; il [[blue bin]] per il riciclo (carta, cartone, plastica, lattine, vetro) e il bidone dell'indifferenziato ([[garbage]]) a settimane alterne; il [[yard waste]] (foglie, rami) in sacchi di carta nella bella stagione. I bidoni vanno sul bordo del marciapiede ([[the curb]]) la sera prima e si riportano dentro dopo. Il calendario è sul sito della città e, nelle case per bene, sul frigo. Le bottiglie di vino e birra si possono riportare al negozio ([[The Beer Store]]) per il deposito: unità 7."},
+        {"type": "subhead", "text": "Make yourself at home"},
+        {"type": "prose", "text": "Vuol dire: siediti, non chiedere il permesso per tutto, apri il frigo se hai sete. Non vuol dire: cucina a mezzanotte, invita amici, alza il termostato. La misura canadese è: comportati come a casa tua, ma come ti comporteresti a casa tua se ci fosse tua suocera. Nelle famiglie italo-canadesi la frase è sincera al cento per cento per quanto riguarda il cibo: il frigo è tuo, e rifiutare un piatto è un errore più grave di qualunque errore di grammatica."},
+        {"type": "callout", "kind": "culture", "title": "Il soggiorno buono", "text": "Molte case italo-canadesi della generazione di Franco hanno due soggiorni: quello di sopra, con i divani belli (a volte ancora con la plastica), le foto dei matrimoni e i centrini, dove non entra nessuno; e quello di sotto, nel basement, dove si vive, si mangia, si guarda l'hockey e si litiga. Teresa lo dice con una frase: upstairs is for show, downstairs is for cooking."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Una schermata prima della prossima unità, poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "there is / there are", "rows": [["There's a bathroom upstairs.", "C'è un bagno di sopra."], ["There are two kitchens.", "Ci sono due cucine."], ["There isn't a bidet. / There's no bidet.", "Non c'è un bidet."], ["Is there Wi-Fi? — Yes, there is.", "C'è il Wi-Fi? — Sì."]]},
+          {"title": "have", "rows": [["I have · he / she has", "ho · ha"], ["Do you have…? — Yes, I do.", "Hai…? — Sì."], ["I don't have… / She doesn't have…", "Non ho… / Non ha…"]]},
+          {"title": "this · that · these · those", "rows": [["This is the living room.", "Questo è il soggiorno."], ["That's the kitchen.", "Quella è la cucina."], ["These are the keys. Those are his friends.", "Queste sono le chiavi. Quelli sono i suoi amici."], ["This is Teresa.", "Questa è Teresa (presentazione)."]]},
+          {"title": "Dove?", "rows": [["in the basement · in the closet", "nel seminterrato · nell'armadio"], ["on the fridge · on the wall", "sul frigo · al muro"], ["at home · at the door", "a casa · alla porta"], ["under · next to · behind · in front of · between", "sotto · accanto a · dietro · davanti a · tra"]]},
+          {"title": "Possessivi", "rows": [["my · your · his · her · its · our · their", "mio · tuo · suo (di lui) · suo (di lei) · suo (di cosa) · nostro · loro"], ["{hero}'s room · the Ferrantes' house", "la camera di {hero} · la casa dei Ferrante"], ["its ≠ it's", "suo ≠ è"]]},
+          {"title": "the · plurali irregolari", "rows": [["a lamp → the lamp", "nuovo → già noto"], ["child → children · man → men · woman → women", "bambini · uomini · donne"], ["person → people · foot → feet · tooth → teeth", "persone · piedi · denti"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

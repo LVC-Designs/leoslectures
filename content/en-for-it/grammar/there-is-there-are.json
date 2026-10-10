@@ -1,0 +1,23 @@
+{"id": "there-is-there-are", "title": "there is / there are", "category": "Frasi", "rule": "There is (there's) per il singolare e i non numerabili, there are per il plurale. Ordine: there + be + cosa + luogo. Domanda con l'inversione, negativo con not / no.", "units": ["02"], "blocks": [
+  {"type": "table", "head": ["", "Singolare / non numerabile", "Plurale"], "rows": [["+", "There's a bathroom upstairs. There's milk in the fridge.", "There are two kitchens."], ["−", "There isn't a bidet. There's no milk.", "There aren't any chairs. There are no chairs."], ["?", "Is there a microwave?", "Are there any towels?"], ["risposta", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]], "speak": [1, 2], "rowhead": true, "note": "Any nelle domande e nei negativi plurali: unità 3. There's no = there isn't a (più deciso)."},
+  {"type": "subhead", "text": "Perché non it is"},
+  {"type": "prose", "text": "[[There is]] introduce qualcosa che esiste in un luogo; [[it is]] parla di qualcosa che già conosciamo. Prima [[there's a lamp next to the bed]], poi [[it's old]]. Lo stesso ordine dell'italiano *c'è… è…*. L'errore degli italiani non è confondere i due, ma dimenticare *there* e dire *is a lamp*, perché in italiano il soggetto manca."},
+  {"type": "examples", "items": [
+    {"t": "Is there a bathroom on this floor? — Yes, there is, behind the stairs.", "n": "C'è un bagno a questo piano? — Sì, dietro le scale."},
+    {"t": "There are three bins in front of every house.", "n": "Ci sono tre bidoni davanti a ogni casa."},
+    {"t": "There's a lot of snow in January.", "n": "C'è molta neve a gennaio.", "note": "snow non numerabile → there's"},
+    {"t": "There's someone at the door.", "n": "C'è qualcuno alla porta."}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Altri tempi (più avanti)", "text": "[[There was]] / [[there were]] (c'era, c'erano): unità 11. [[There will be]] (ci sarà): unità 13. [[There has been]]: unità 15."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Is a bathroom upstairs.", "right": "There is a bathroom upstairs.", "why": "There è obbligatorio: l'inglese non lascia vuoto il posto del soggetto."},
+    {"wrong": "It's a lot of snow in January.", "right": "There's a lot of snow in January.", "why": "Esistenza, non descrizione."},
+    {"wrong": "There is two kitchens.", "right": "There are two kitchens.", "why": "Plurale → are."},
+    {"wrong": "Yes, there's.", "right": "Yes, there is.", "why": "Niente contrazione a fine frase."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "___ a microwave in the kitchen? — No, there ___.", "answers": [["Is there"], ["isn't", "is not"]], "n": "C'è un microonde in cucina? — No."},
+    {"kind": "order", "answer": "There are twelve chairs in the basement.", "n": "Ci sono dodici sedie nel seminterrato."},
+    {"kind": "translate", "q": "C'è molta neve.", "answers": ["There's a lot of snow", "There is a lot of snow", "There's lots of snow"]}
+  ]}
+]}

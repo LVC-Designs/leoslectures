@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 12 (units 1–2) · EN: 5 (unit 1) |
+| Grammar reference pages | IT: 12 (units 1–2) · EN: 10 (units 1–2) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -52,7 +52,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | # | Unit | Level | State |
 |---|---|---|---|
 | 1 | Welcome to Canada | A1 | ● 2026-10-10 |
-| 2 | The house on Nairn Avenue | A1 | ☐ |
+| 2 | The house on Nairn Avenue | A1 | ● 2026-10-10 |
 | 3 | A double-double, please | A1 | ☐ |
 | 4 | Sunday dinner | A1 | ☐ |
 | 5 | Taking the streetcar | A1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 2 · The house on Nairn Avenue.**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 3 · Al Bar del Corso.**
 
 ## Session log
 
+- **2026-10-10 (4)** · English track Unit 2 written (2 scenes, 40 words, 6 grammar points + 5 reference pages, short/long vowels and h, 40 exercises, culture, summary). Build, check, tests and headless audit pass. Committed.
 - **2026-10-10 (3)** · Italian track Unit 2 written (2 scenes, 40 words, 6 grammar points + 6 reference pages, c/g pronunciation, 40 exercises, culture, summary). Unit 1 'dammi del tu' note and translation fixed after review. Build, check, tests and headless audit pass. Committed.
 - **2026-10-10 (2)** · English track Unit 1 written (2 scenes, 42 words, 6 grammar points + 5 reference pages, pronunciation, 40 exercises, culture, summary); conjugation block now shows +/−/? columns for English. Build, check, tests and headless audit as Luca and as Lucia pass. Committed.
 - **2026-10-10** · Syllabi approved. Italian track Unit 1 written (2 scenes, 40 words, 6 grammar points + 6 reference pages, pronunciation, 40 exercises, culture, summary); build, check, unit tests and headless audit as Luca and as Lucia pass. Committed.

@@ -1,0 +1,23 @@
+{"id": "verb-have", "title": "Il verbo have (avere)", "category": "Verbi", "rule": "have / has al presente. Come verbo principale fa domande e negativo con do / does. Have got è la variante britannica. Have è anche l'ausiliare del present perfect (unità 15) e l'ha in have breakfast, have a shower.", "units": ["02"], "blocks": [
+  {"type": "conjugation", "verb": "have", "tense": "present_simple", "caption": "[[have]] · present simple"},
+  {"type": "subhead", "text": "Gli usi"},
+  {"type": "table", "head": ["Uso", "Esempio", "Nota"], "rows": [["possesso", "I have a car. She has two cats.", ""], ["famiglia, caratteristiche", "He has two sisters. She has brown eyes.", "in italiano avere, uguale"], ["pasti, bevande", "have breakfast, have a coffee, have dinner", "= fare colazione, prendere un caffè, cenare"], ["azioni quotidiane", "have a shower, have a break, have a look", "= farsi la doccia, fare una pausa, dare un'occhiata"], ["ausiliare del present perfect", "I have seen it. She has gone.", "unità 15"], ["obbligo: have to", "I have to work on Sunday.", "= devo, unità 12"]], "speak": [1]},
+  {"type": "examples", "items": [
+    {"t": "Do you have a minute? — Yes, I do.", "n": "Hai un minuto? — Sì."},
+    {"t": "Does Franco have a garage? — Yes, he does.", "n": "Franco ha un garage? — Sì."},
+    {"t": "We don't have a bidet, but we have three bathrooms.", "n": "Non abbiamo un bidet, ma abbiamo tre bagni."},
+    {"t": "Let's have a coffee.", "n": "Prendiamo un caffè."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "Quando l'italiano ha e l'inglese è", "text": "[[I'm hungry]], [[I'm thirsty]], [[I'm cold]], [[I'm 27]], [[I'm afraid]], [[I'm right]]: fame, sete, freddo, anni, paura, ragione si hanno in italiano ma si è in inglese. Vedi la scheda del verbo be."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Have you a minute?", "right": "Do you have a minute?", "why": "Domanda con do (o have you got, britannico)."},
+    {"wrong": "He don't have a car.", "right": "He doesn't have a car.", "why": "Terza persona: doesn't + have (non has)."},
+    {"wrong": "She doesn't has a car.", "right": "She doesn't have a car.", "why": "Dopo doesn't il verbo torna alla forma base."},
+    {"wrong": "I have 27 years.", "right": "I'm 27.", "why": "L'età con be."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "___ Teresa ___ a car? — No, she ___.", "answers": [["Does"], ["have"], ["doesn't", "does not"]], "n": "Teresa ha una macchina? — No."},
+    {"kind": "mc", "q": "«Facciamo colazione.»", "options": ["Let's have breakfast.", "Let's make breakfast.", "Let's do breakfast."], "answer": 0, "why": "I pasti si hanno: have breakfast, have lunch, have dinner."},
+    {"kind": "translate", "q": "Non abbiamo l'asciugatrice.", "answers": ["We don't have a dryer", "We do not have a dryer", "We haven't got a dryer"]}
+  ]}
+]}
