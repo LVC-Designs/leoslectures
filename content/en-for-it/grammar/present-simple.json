@@ -1,0 +1,25 @@
+{"id": "present-simple", "title": "Present simple", "category": "Verbi", "rule": "Abitudini, fatti, gusti, orari. Forma base per I / you / we / they; -s alla terza persona singolare. Negativo con don't / doesn't + base; domanda con do / does + soggetto + base.", "units": ["03"], "blocks": [
+  {"type": "conjugation", "verb": "work", "tense": "present_simple", "caption": "[[work]] · present simple"},
+  {"type": "table", "caption": "La terza persona (unità 4)", "head": ["Regola", "Esempi"], "rows": [["+ -s", "works, drinks, likes, tips"], ["+ -es dopo s, sh, ch, x, o", "misses, washes, watches, fixes, goes, does"], ["consonante + y → -ies", "studies, tries, carries"], ["have → has", "She has breakfast at seven."]], "speak": [1], "compact": true},
+  {"type": "subhead", "text": "Quando si usa"},
+  {"type": "table", "head": ["Uso", "Esempio"], "rows": [["abitudini e routine", "I have breakfast at the coffee shop. She works on Sundays."], ["fatti e verità generali", "Water boils at 100 degrees. Canadians drink a lot of coffee."], ["gusti, opinioni, stati (verbi di stato)", "I like coffee. I think so. I know. She wants milk."], ["orari e programmi fissi", "The store opens at nine. The train leaves at six."], ["istruzioni e indicazioni", "You turn left and you take the subway."]], "speak": [1]},
+  {"type": "subhead", "text": "Gli avverbi di frequenza (unità 4)"},
+  {"type": "examples", "items": [
+    {"t": "I always have coffee in the morning.", "n": "La mattina prendo sempre il caffè.", "note": "prima del verbo"},
+    {"t": "I'm never late.", "n": "Non sono mai in ritardo.", "note": "dopo be"},
+    {"t": "We sometimes tip at the counter.", "n": "A volte diamo la mancia al bancone."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "Present simple vs presente italiano", "text": "L'italiano ha un presente solo; l'inglese due. [[I drink coffee]] = bevo caffè (di solito). [[I'm drinking coffee]] = sto bevendo un caffè (adesso). I verbi di stato (like, want, know, think, have = possedere) stanno quasi sempre al simple: [[I want milk]], mai *I'm wanting*. L'unità 6 mette a confronto i due tempi."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I no like tea. I not like tea.", "right": "I don't like tea.", "why": "Negativo con don't."},
+    {"wrong": "You like coffee?", "right": "Do you like coffee?", "why": "Domanda con do."},
+    {"wrong": "Yes, I like. / Yes, I have.", "right": "Yes, I do.", "why": "Risposta breve con do."},
+    {"wrong": "She don't work. She doesn't works.", "right": "She doesn't work.", "why": "Terza persona: doesn't + forma base."},
+    {"wrong": "I am agree. I am want.", "right": "I agree. I want.", "why": "Verbi, non aggettivi: niente be."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "I ___ (drink) coffee, but I ___ (not drink) tea.", "answers": [["drink"], ["don't drink", "do not drink"]], "n": "Bevo caffè, ma non bevo tè."},
+    {"kind": "fill", "q": "___ you ___ (work) on Sundays? — No, I ___.", "answers": [["Do"], ["work"], ["don't", "do not"]], "n": "Lavori la domenica? — No."},
+    {"kind": "order", "answer": "They don't tip at the counter.", "n": "Al bancone non danno la mancia."}
+  ]}
+]}

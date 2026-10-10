@@ -1,0 +1,34 @@
+{"id": "numbers", "title": "I numeri", "category": "Numeri", "rule": "0–12 a memoria; 13–19 in -teen; le decine in -ty; 21–99 con il trattino; hundred, thousand, million invariabili con un numero davanti. Ordinali e date nell'unità 6.", "units": ["01", "03"], "blocks": [
+  {"type": "grid", "cols": 7, "items": [
+    {"big": "0", "small": "zero"}, {"big": "1", "small": "one"}, {"big": "2", "small": "two"}, {"big": "3", "small": "three"}, {"big": "4", "small": "four"}, {"big": "5", "small": "five"}, {"big": "6", "small": "six"},
+    {"big": "7", "small": "seven"}, {"big": "8", "small": "eight"}, {"big": "9", "small": "nine"}, {"big": "10", "small": "ten"}, {"big": "11", "small": "eleven"}, {"big": "12", "small": "twelve"}, {"big": "13", "small": "thirteen"},
+    {"big": "14", "small": "fourteen"}, {"big": "15", "small": "fifteen"}, {"big": "16", "small": "sixteen"}, {"big": "17", "small": "seventeen"}, {"big": "18", "small": "eighteen"}, {"big": "19", "small": "nineteen"}, {"big": "20", "small": "twenty"}
+  ]},
+  {"type": "table", "caption": "Decine, centinaia, migliaia", "head": ["", "", "", ""], "rows": [["20 twenty", "30 thirty", "40 forty", "50 fifty"], ["60 sixty", "70 seventy", "80 eighty", "90 ninety"], ["100 a / one hundred", "200 two hundred", "1,000 a / one thousand", "1,000,000 a / one million"]], "speak": [0, 1, 2, 3], "compact": true},
+  {"type": "table", "caption": "Regole", "head": ["Regola", "Esempi"], "rows": [["21–99: trattino", "twenty-one, thirty-five, ninety-nine"], ["and dopo le centinaia (CA / UK)", "a hundred and one, two hundred and fifty (US: two hundred fifty)"], ["hundred / thousand / million invariabili", "three hundred, five thousand, two million (ma hundreds of people, senza numero davanti)"], ["cifre tonde a centinaia", "1,500 = fifteen hundred; 2,000 = two thousand (non twenty hundred)"], ["virgola per le migliaia, punto per i decimali", "1,250.50 = one thousand two hundred and fifty point five zero"], ["zero", "zero · oh (nei numeri di telefono) · nil (nel calcio) · love (nel tennis)"]], "speak": [1]},
+  {"type": "subhead", "text": "-teen e -ty"},
+  {"type": "minimal", "caption": "Accento alla fine (-TEEN) o all'inizio (-ty)", "pairs": [
+    {"a": "thirteen", "b": "thirty", "na": "13", "nb": "30", "tip": "thir-TEEN con la i lunga; THIR-ty breve."},
+    {"a": "fourteen", "b": "forty", "na": "14", "nb": "40"},
+    {"a": "fifteen", "b": "fifty", "na": "15", "nb": "50"},
+    {"a": "eighteen", "b": "eighty", "na": "18", "nb": "80"}
+  ]},
+  {"type": "subhead", "text": "Prezzi, telefono, anni"},
+  {"type": "examples", "items": [
+    {"t": "That's nine twenty-eight. / Nine dollars and twenty-eight cents.", "n": "Fanno nove e ventotto."},
+    {"t": "My number is four one six, five five five, zero one two three.", "n": "Il mio numero è 416 555 0123.", "note": "una cifra alla volta; 416 è il prefisso storico di Toronto"},
+    {"t": "Nineteen eighty-five. Two thousand and ten. Twenty twenty-six.", "n": "1985. 2010. 2026.", "note": "anni a coppie di cifre, tranne 2000–2009"},
+    {"t": "Twenty-one degrees. Minus twenty.", "n": "Ventuno gradi. Meno venti."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "two hundreds, three thousands dollars", "right": "two hundred, three thousand dollars", "why": "Invariabili."},
+    {"wrong": "fourty, fiveteen", "right": "forty, fifteen", "why": "Ortografia irregolare."},
+    {"wrong": "1.250,50", "right": "1,250.50", "why": "Virgola e punto sono invertiti rispetto all'italiano."},
+    {"wrong": "two thousand twenty-six (per il 2026, parlando)", "right": "twenty twenty-six", "why": "Gli anni dopo il 2009 si leggono a coppie; two thousand and twenty-six si capisce ma è raro."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "41 = ___ · 68 = ___ · 115 = a hundred ___ fifteen", "answers": [["forty-one", "forty one"], ["sixty-eight", "sixty eight"], ["and"]], "n": "quarantuno · sessantotto · centoquindici"},
+    {"kind": "match", "q": "Abbina.", "pairs": [["thirteen", "13"], ["thirty", "30"], ["fifteen hundred", "1,500"], ["two million", "2,000,000"]]},
+    {"kind": "dictation", "text": "Three hundred and thirty-three, nineteen ninety-nine, forty.", "n": "333, 1999, 40."}
+  ]}
+]}

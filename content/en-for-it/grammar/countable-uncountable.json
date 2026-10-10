@@ -1,0 +1,23 @@
+{"id": "countable-uncountable", "title": "Numerabili e non numerabili", "category": "Nomi", "rule": "I non numerabili (sostanze, liquidi, astratti) non hanno plurale e non prendono a/an: coffee, milk, bread, money, information. Si contano con una misura: a cup of coffee, a piece of information. How much? per i non numerabili, how many? per i numerabili. Lista completa nell'unità 7.", "units": ["03"], "blocks": [
+  {"type": "table", "head": ["Tipo", "Esempi", "Come si contano"], "rows": [["liquidi", "water, milk, coffee, tea, juice, beer, wine", "a glass of, a cup of, a bottle of, a litre of"], ["cibo come sostanza", "bread, cheese, meat, rice, pasta, sugar, butter", "a slice of, a piece of, a kilo of, a loaf of"], ["materiali", "paper, wood, glass, plastic", "a piece of, a sheet of"], ["astratti", "information, advice, news, work, homework, music, time", "a piece of, a bit of, some"], ["collettivi", "furniture, luggage, equipment, money", "a piece of furniture, a suitcase, a dollar"]], "speak": [1, 2], "rowhead": true},
+  {"type": "callout", "kind": "warn", "title": "Le parole che tradiscono gli italiani", "text": "Numerabili in italiano, non numerabili in inglese: [[information]] (un'informazione = a piece of information), [[advice]] (un consiglio = a piece of advice), [[news]] (una notizia = a piece of news), [[furniture]] (un mobile = a piece of furniture), [[luggage]] (una valigia = a suitcase), [[homework]], [[work]] (un lavoro = a job), [[bread]], [[hair]] (i capelli = hair, singolare). L'unità 7 le esercita tutte."},
+  {"type": "subhead", "text": "Doppi: sostanza o porzione"},
+  {"type": "examples", "items": [
+    {"t": "I like coffee. / Two coffees, please.", "n": "Mi piace il caffè. / Due caffè, per favore.", "note": "sostanza / due tazze"},
+    {"t": "We need paper. / The paper is on the table.", "n": "Ci serve carta. / Il giornale è sul tavolo.", "note": "materiale / giornale"},
+    {"t": "She has long hair. / There's a hair in my soup.", "n": "Ha i capelli lunghi. / C'è un capello nella zuppa."},
+    {"t": "I have no time. / Three times a day.", "n": "Non ho tempo. / Tre volte al giorno."}
+  ]},
+  {"type": "table", "caption": "How much / how many", "head": ["", "domanda", "risposta"], "rows": [["non numerabile", "How much milk? How much money?", "A lot. A little. Not much. Some."], ["numerabile", "How many muffins? How many people?", "A lot. A few. Not many. Some. Three."], ["prezzo", "How much is it? How much are they?", "Two dollars. Nine twenty-eight."]], "speak": [1, 2], "rowhead": true},
+  {"type": "mistakes", "items": [
+    {"wrong": "an information, two advices, the news are", "right": "some information, two pieces of advice, the news is", "why": "Non numerabili: niente a/an, niente plurale, verbo al singolare."},
+    {"wrong": "How many money? How much people?", "right": "How much money? How many people?", "why": "Much con i non numerabili, many con i plurali."},
+    {"wrong": "I have a long hair.", "right": "I have long hair.", "why": "Hair = i capelli, non numerabile. A hair è un singolo capello."},
+    {"wrong": "two breads", "right": "two loaves of bread / two slices of bread", "why": "Bread non si conta."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "How ___ sugar do you take? — Two, please. How ___ cups?", "answers": [["much"], ["many"]], "n": "Quanto zucchero prendi? — Due, per favore. Quante tazze?"},
+    {"kind": "mc", "q": "«Ho un'informazione per te.»", "options": ["I have some information for you.", "I have an information for you.", "I have informations for you."], "answer": 0, "why": "Information è non numerabile: some information, a piece of information."},
+    {"kind": "fill", "q": "a ___ of bread · a ___ of water · a ___ of advice", "answers": [["slice", "loaf", "piece"], ["glass", "bottle"], ["piece", "bit"]], "n": "una fetta di pane · un bicchiere d'acqua · un consiglio"}
+  ]}
+]}

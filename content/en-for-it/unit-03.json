@@ -1,0 +1,309 @@
+{
+  "id": "03",
+  "level": "A1",
+  "title": "A double-double, please",
+  "subtitle": "Al coffee shop",
+  "intro": "Un menù al muro pieno di parole sconosciute, un caffè che arriva in un bicchiere da mezzo litro, un prezzo che cresce alla cassa e uno schermo che ti chiede la mancia. In questa unità impari a ordinare, a capire le misure e i prezzi, a pagare, e il present simple per dire cosa fai e cosa non fai.",
+  "objectives": [
+    "Ordinare da mangiare e da bere e rispondere a [[For here or to go?]]",
+    "Usare il present simple con [[I, you, we, they]]: affermativo, negativo con [[don't]], domande con [[do]]",
+    "Dire cosa ti piace con [[like]] + nome, senza articolo",
+    "Capire i numeri fino a mille e i prezzi in dollari e centesimi, tasse comprese",
+    "Distinguere [[a coffee]] da [[coffee]]: i primi nomi numerabili e non numerabili"
+  ],
+  "canDo": [
+    "A1 · Interazione orale: sa ordinare da mangiare e da bere con frasi semplici e chiedere quanto costa.",
+    "A1 · Interazione orale: sa dire cosa gli piace e cosa non gli piace in modo semplice.",
+    "A1 · Ascolto: sa capire prezzi e domande semplici in una situazione di servizio, se dette lentamente.",
+    "A1 · Lettura: sa capire un menù o un listino semplice.",
+    "A1 · Produzione orale: sa descrivere abitudini quotidiane con frasi molto semplici (I work, I eat, I drink)."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "What can I get you?",
+      "intro": "Sofia porta Chiara al coffee shop. Due scene: l'ordine, con le parole che non si capiscono, e lo schermo della mancia. Ascolta i prezzi e le domande della barista: le sentirai in ogni negozio del Canada.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-counter", "title": "At the counter", "setting": "Un coffee shop su St. Clair West, ore 9. Una fila ordinata, musica bassa, un menù al muro con parole che Chiara non conosce.", "register": "informale", "lines": [
+          {"who": "Barista", "t": "Hi there! What can I get you?", "n": "Ciao! Cosa vi porto?", "note": "La domanda standard di chi serve. Anche What can I get for you? e What would you like?"},
+          {"who": "Sofia", "t": "A medium double-double, please.", "n": "Un double-double medio, per favore.", "note": "Double-double: caffè filtro con due panne e due zuccheri. La parola canadese per eccellenza; sta nel dizionario."},
+          {"who": "Chiara", "t": "A… coffee, please.", "n": "Un… caffè, per favore."},
+          {"who": "Barista", "t": "What size? Small, medium or large?", "n": "Che misura? Piccolo, medio o grande?"},
+          {"who": "Chiara", "t": "Small.", "n": "Piccolo."},
+          {"who": "Barista", "t": "Room for cream?", "n": "Spazio per la panna?", "note": "Room = spazio: ti chiede se lasciare posto nel bicchiere per il latte. Cream qui è latte intero o panna da caffè, non panna montata."},
+          {"who": "Chiara", "t": "Sorry?", "n": "Come?"},
+          {"who": "Sofia", "t": "Do you want milk? She means milk.", "n": "Vuoi il latte? Intende il latte."},
+          {"who": "Chiara", "t": "No milk, thank you. Black. Do you have espresso?", "n": "Niente latte, grazie. Nero. Avete l'espresso?"},
+          {"who": "Barista", "t": "We do! One espresso. Anything else?", "n": "Sì! Un espresso. Altro?", "note": "We do = sì, ce l'abbiamo. La risposta breve riprende do."},
+          {"who": "Sofia", "t": "Two blueberry muffins.", "n": "Due muffin ai mirtilli."},
+          {"who": "Barista", "t": "For here or to go?", "n": "Qui o da portare via?"},
+          {"who": "Sofia", "t": "For here.", "n": "Qui."},
+          {"who": "Barista", "t": "That's nine twenty-eight. Tap or chip?", "n": "Fanno nove e ventotto. Contactless o chip?", "note": "Nine twenty-eight = $9.28. Tap = avvicinare la carta; chip = inserirla e digitare il PIN."},
+          {"who": "Chiara", "t": "Nine dollars? For two coffees and two muffins?", "n": "Nove dollari? Per due caffè e due muffin?"},
+          {"who": "Sofia", "t": "Plus tax. And the tip screen. Welcome to Canada.", "n": "Più le tasse. E lo schermo della mancia. Benvenuta in Canada."}
+        ], "notes": [
+          {"phrase": "What can I get you?", "note": "\"Cosa le porto?\" La risposta: Can I get a…, I'll have a…, oppure solo il nome della cosa + please."},
+          {"phrase": "For here or to go?", "note": "Qui o da portare via. Negli Stati Uniti anche to stay or to go; nel Regno Unito eat in or take away."},
+          {"phrase": "Anything else?", "note": "Altro? La risposta: That's it, thanks. oppure That's all."},
+          {"phrase": "plus tax", "note": "Più le tasse. In Canada i prezzi esposti sono senza tasse: alla cassa si aggiunge il 13% (HST in Ontario)."}
+        ]},
+        {"type": "scene", "id": "dlg-tip", "title": "The tip screen", "setting": "Il terminale del pagamento gira verso Chiara. Sullo schermo: 15% · 18% · 20% · No tip.", "register": "informale", "lines": [
+          {"who": "Barista", "t": "It's just asking a question.", "n": "Fa solo una domanda."},
+          {"who": "Chiara", "t": "Fifteen, eighteen, twenty… per cent? For a coffee?", "n": "Quindici, diciotto, venti… per cento? Per un caffè?"},
+          {"who": "Sofia", "t": "You can press \"no tip\". It's a counter. We don't tip at the counter. Well, sometimes.", "n": "Puoi premere \"no tip\". È un bancone. Al bancone non diamo la mancia. Beh, a volte.", "note": "We don't tip: il negativo del present simple con don't. Tip è anche un verbo: dare la mancia."},
+          {"who": "Chiara", "t": "And in a restaurant?", "n": "E al ristorante?"},
+          {"who": "Sofia", "t": "Fifteen to twenty per cent. Always. The servers don't make much.", "n": "Dal quindici al venti per cento. Sempre. I camerieri non guadagnano molto.", "note": "Make money = guadagnare. Server = cameriere, camerierа: la parola neutra, al posto di waiter / waitress."},
+          {"who": "Chiara", "t": "In Italy we don't tip.", "n": "In Italia non diamo la mancia."},
+          {"who": "Sofia", "t": "I know. {hero} says the same thing every Christmas. Here, your espresso. It's tiny.", "n": "Lo so. {hero} dice la stessa cosa ogni Natale. Ecco, il tuo espresso. È minuscolo.", "note": "Says: terza persona, con la -s. Unità 4."},
+          {"who": "Chiara", "t": "It's perfect.", "n": "È perfetto."}
+        ], "notes": [
+          {"phrase": "Well, sometimes.", "note": "Beh, a volte. Well all'inizio della frase è il \"beh\" italiano."},
+          {"phrase": "I know.", "note": "Lo so. Senza pronome oggetto: in inglese know basta."},
+          {"phrase": "tiny", "note": "Minuscolo. Più piccolo di small."}
+        ], "questions": [
+          {"kind": "tf", "q": "Al bancone del coffee shop la mancia è obbligatoria.", "t": "We don't tip at the counter.", "answer": false, "why": "Sofia: «We don't tip at the counter. Well, sometimes.» Al bancone è facoltativa; al ristorante no."},
+          {"kind": "mc", "q": "Quanto si lascia al ristorante, secondo Sofia?", "options": ["Dal 15 al 20 per cento.", "Il 5 per cento.", "Niente, come in Italia."], "answer": 0, "why": "«Fifteen to twenty per cent. Always.»"},
+          {"kind": "fill", "q": "For here or to ___?", "answers": [["go"]], "n": "Qui o da portare via?"}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Coffee shop words",
+      "intro": "Quello che bevi, quello che mangi, come paghi. Le monete canadesi hanno nomignoli che userai ogni giorno.",
+      "blocks": [
+        {"type": "vocab", "theme": "Drinks", "n": "Da bere", "items": [
+          {"t": "coffee", "n": "caffè (filtro, lungo)", "pos": "noun", "ipa": "ˈkɒfi", "ex": {"t": "A small coffee, please. Black.", "n": "Un caffè piccolo, per favore. Nero."}, "note": "Accento sulla prima sillaba: COF-fee. Non numerabile come sostanza (I like coffee), numerabile come tazza (two coffees)."},
+          {"t": "espresso", "n": "espresso", "pos": "noun", "ipa": "ɛˈsprɛsoʊ", "plural": "espressos", "ex": {"t": "Do you have espresso? — We do!", "n": "Avete l'espresso? — Sì!"}, "note": "Si scrive espresso, con la s. Molti canadesi dicono \"expresso\": non correggerli."},
+          {"t": "double-double", "n": "caffè con due panne e due zuccheri", "pos": "noun", "plural": "double-doubles", "ex": {"t": "A medium double-double, please.", "n": "Un double-double medio, per favore."}, "note": "Nato da Tim Hortons, ora nel dizionario canadese. Triple-triple esiste."},
+          {"t": "cream", "n": "panna da caffè; crema", "pos": "noun", "ipa": "kriːm", "ex": {"t": "Room for cream? — No, thanks.", "n": "Spazio per la panna? — No, grazie."}, "note": "Nel caffè canadese cream è una panna liquida leggera (18%). Whipped cream è la panna montata."},
+          {"t": "milk", "n": "latte", "pos": "noun", "ipa": "mɪlk", "ex": {"t": "Do you want milk? — No milk, thank you.", "n": "Vuoi il latte? — Niente latte, grazie."}, "note": "Non numerabile: some milk, a glass of milk."},
+          {"t": "sugar", "n": "zucchero", "pos": "noun", "ipa": "ˈʃʊɡər", "ex": {"t": "One sugar or two?", "n": "Una bustina di zucchero o due?"}, "note": "Si pronuncia \"sciugar\". Nel coffee shop one sugar = una dose."},
+          {"t": "tea", "n": "tè", "pos": "noun", "ipa": "tiː", "plural": "teas", "ex": {"t": "A tea with milk, please.", "n": "Un tè con il latte, per favore."}, "note": "In Canada il tè nero si beve con il latte, all'inglese. Herbal tea = tisana."},
+          {"t": "hot chocolate", "n": "cioccolata calda", "pos": "noun", "ex": {"t": "A hot chocolate for the kids.", "n": "Una cioccolata calda per i bambini."}, "note": "Molto più liquida di quella italiana."},
+          {"t": "juice", "n": "succo", "pos": "noun", "ipa": "dʒuːs", "ex": {"t": "Orange juice or apple juice?", "n": "Succo d'arancia o di mela?"}},
+          {"t": "water", "n": "acqua", "pos": "noun", "ipa": "ˈwɔtər", "ex": {"t": "Can I get a glass of water? — Tap water is free.", "n": "Posso avere un bicchiere d'acqua? — L'acqua del rubinetto è gratis."}, "note": "Tap water (del rubinetto) è gratis e normale ovunque. Bottled water si paga. Sparkling = frizzante."},
+          {"t": "size", "n": "misura, taglia", "pos": "noun", "ipa": "saɪz", "plural": "sizes", "ex": {"t": "What size? Small, medium or large?", "n": "Che misura? Piccolo, medio o grande?"}, "note": "Small, medium, large, extra-large: anche per i vestiti (S, M, L, XL)."}
+        ]},
+        {"type": "vocab", "theme": "Food", "n": "Da mangiare", "items": [
+          {"t": "muffin", "n": "muffin", "pos": "noun", "ipa": "ˈmʌfɪn", "plural": "muffins", "ex": {"t": "Two blueberry muffins, please.", "n": "Due muffin ai mirtilli, per favore."}, "note": "Blueberry = mirtillo; chocolate chip = con gocce di cioccolato; bran = alla crusca."},
+          {"t": "bagel", "n": "bagel", "pos": "noun", "ipa": "ˈbeɪɡəl", "plural": "bagels", "ex": {"t": "A toasted bagel with cream cheese.", "n": "Un bagel tostato con formaggio spalmabile."}, "note": "Montréal e New York litigano su chi lo fa meglio."},
+          {"t": "donut", "n": "ciambella", "pos": "noun", "ipa": "ˈdoʊnʌt", "plural": "donuts", "ex": {"t": "A dozen donuts for the office.", "n": "Una dozzina di ciambelle per l'ufficio."}, "note": "Ortografia canadese: donut; nel Regno Unito doughnut. Timbits = i buchi delle ciambelle, piccole palline."},
+          {"t": "toast", "n": "pane tostato", "pos": "noun", "ipa": "toʊst", "ex": {"t": "Toast with butter and jam.", "n": "Pane tostato con burro e marmellata."}, "note": "Non numerabile: a piece of toast, two slices of toast. Il toast italiano (farcito) è a grilled cheese o a panini."},
+          {"t": "eggs", "n": "uova", "pos": "noun", "ipa": "ɛɡz", "ex": {"t": "Two eggs, bacon and toast: the Canadian breakfast.", "n": "Due uova, pancetta e pane tostato: la colazione canadese."}, "note": "Singolare egg. Scrambled = strapazzate, fried = al tegamino, boiled = sode."},
+          {"t": "bacon", "n": "pancetta affumicata", "pos": "noun", "ipa": "ˈbeɪkən", "ex": {"t": "Bacon or sausage? — Bacon.", "n": "Pancetta o salsiccia? — Pancetta."}, "note": "Peameal bacon è la specialità di Toronto: lombo di maiale nella farina di mais."},
+          {"t": "sandwich", "n": "panino, tramezzino", "pos": "noun", "ipa": "ˈsænwɪtʃ", "plural": "sandwiches", "ex": {"t": "A turkey sandwich to go.", "n": "Un panino al tacchino da portare via."}, "note": "La d non si sente: \"sanuic\"."},
+          {"t": "breakfast", "n": "colazione", "pos": "noun", "ipa": "ˈbrɛkfəst", "ex": {"t": "I have breakfast at seven.", "n": "Faccio colazione alle sette."}, "note": "Have breakfast = fare colazione. Pronuncia \"brek-fast\", non \"break\"."},
+          {"t": "lunch", "n": "pranzo", "pos": "noun", "ipa": "lʌntʃ", "ex": {"t": "We have lunch at noon.", "n": "Pranziamo a mezzogiorno."}, "note": "Il pranzo canadese è alle dodici, leggero e veloce."},
+          {"t": "dinner", "n": "cena", "pos": "noun", "ipa": "ˈdɪnər", "ex": {"t": "Dinner is at six. Six!", "n": "La cena è alle sei. Alle sei!"}, "note": "Anche supper, soprattutto fuori città. Si cena presto."}
+        ]},
+        {"type": "vocab", "theme": "Money", "n": "Soldi", "items": [
+          {"t": "dollar", "n": "dollaro", "pos": "noun", "ipa": "ˈdɒlər", "plural": "dollars", "ex": {"t": "That's nine dollars and twenty-eight cents.", "n": "Fanno nove dollari e ventotto centesimi."}, "note": "Il simbolo va prima: $9.28. Bucks = dollari, informale: ten bucks."},
+          {"t": "cent", "n": "centesimo", "pos": "noun", "ipa": "sɛnt", "plural": "cents", "ex": {"t": "Twenty-eight cents.", "n": "Ventotto centesimi."}, "note": "La moneta da un cent non esiste più in Canada: i contanti si arrotondano ai 5 cent."},
+          {"t": "loonie", "n": "moneta da un dollaro", "pos": "noun", "ipa": "ˈluːni", "plural": "loonies", "ex": {"t": "Do you have a loonie for the cart?", "n": "Hai un dollaro per il carrello?"}, "note": "Dal loon, l'uccello (strolaga) sulla moneta."},
+          {"t": "toonie", "n": "moneta da due dollari", "pos": "noun", "ipa": "ˈtuːni", "plural": "toonies", "ex": {"t": "A toonie and a loonie: three dollars.", "n": "Una moneta da due e una da uno: tre dollari."}, "note": "Two + loonie = toonie. Bicolore, con l'orso polare."},
+          {"t": "quarter", "n": "moneta da 25 cent", "pos": "noun", "ipa": "ˈkwɔrtər", "plural": "quarters", "ex": {"t": "Four quarters make a dollar.", "n": "Quattro quarti fanno un dollaro."}, "note": "Le altre: dime (10), nickel (5)."},
+          {"t": "bill", "n": "banconota; conto", "pos": "noun", "ipa": "bɪl", "plural": "bills", "ex": {"t": "A twenty-dollar bill. / Can we have the bill, please?", "n": "Una banconota da venti. / Il conto, per favore."}, "note": "Due significati. Le banconote canadesi sono di plastica e colorate: 5 blu, 10 viola, 20 verde, 50 rossa, 100 marrone."},
+          {"t": "change", "n": "resto; spiccioli", "pos": "noun", "ipa": "tʃeɪndʒ", "ex": {"t": "Keep the change.", "n": "Tenga il resto."}, "note": "Anche cambiamento, e il verbo cambiare."},
+          {"t": "tax", "n": "tassa, imposta", "pos": "noun", "ipa": "tæks", "plural": "taxes", "ex": {"t": "Nine twenty-eight, plus tax.", "n": "Nove e ventotto, più le tasse."}, "note": "In Ontario l'HST è il 13%, aggiunto alla cassa a quasi tutto."},
+          {"t": "tip", "n": "mancia; dare la mancia", "pos": "noun / verb", "ipa": "tɪp", "plural": "tips", "ex": {"t": "We don't tip at the counter. We tip at restaurants.", "n": "Al bancone non diamo la mancia. Al ristorante sì."}},
+          {"t": "receipt", "n": "scontrino, ricevuta", "pos": "noun", "ipa": "rɪˈsiːt", "plural": "receipts", "ex": {"t": "Do you want a receipt? — No, thanks.", "n": "Vuoi lo scontrino? — No, grazie."}, "note": "La p è muta: \"ri-SIT\". In Canada lo scontrino è facoltativo."},
+          {"t": "cash / card", "n": "contanti / carta", "pos": "noun", "ipa": "kæʃ / kɑrd", "ex": {"t": "Cash or card? — Card. Tap.", "n": "Contanti o carta? — Carta. Contactless."}, "note": "Debit = bancomat, credit = carta di credito. Tap = avvicinare, senza PIN sotto i 250 dollari circa."}
+        ]},
+        {"type": "subhead", "text": "Numbers 20–1,000"},
+        {"type": "grid", "cols": 6, "items": [
+          {"big": "20", "small": "twenty"}, {"big": "21", "small": "twenty-one"}, {"big": "30", "small": "thirty"}, {"big": "40", "small": "forty"}, {"big": "50", "small": "fifty"}, {"big": "60", "small": "sixty"},
+          {"big": "70", "small": "seventy"}, {"big": "80", "small": "eighty"}, {"big": "90", "small": "ninety"}, {"big": "100", "small": "a hundred"}, {"big": "250", "small": "two hundred and fifty"}, {"big": "1,000", "small": "a thousand"}
+        ]},
+        {"type": "callout", "kind": "memo", "title": "Tre cose sui numeri", "text": "- Da 21 a 99 si scrive con il trattino: [[twenty-one]], [[ninety-nine]].\n- [[Forty]] non ha la u di four; [[fifty]] non è five-ty. [[Hundred]] e [[thousand]] non prendono la -s: two hundred, five thousand.\n- L'inglese britannico e canadese mette and dopo le centinaia: [[two hundred and fifty]]. Le migliaia prendono la virgola, i decimali il punto: 1,250.50, il contrario dell'italiano."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Present simple, e quanto costa",
+      "intro": "Cinque pezzi: il present simple con I, you, we, they; le frasi per ordinare; like senza articolo; i numeri e i prezzi; i primi nomi non numerabili. Schede complete in fondo a ogni blocco.",
+      "blocks": [
+        {"type": "grammar", "id": "g-present-simple", "title": "Present simple: I work, I don't work, do you work?", "category": "Verbi", "rule": "Con I, you, we, they il verbo resta uguale all'infinito: I work, we tip. Negativo con don't + verbo; domanda con do + soggetto + verbo. Risposta breve: Yes, I do. / No, I don't.", "ref": "present-simple", "blocks": [
+          {"type": "conjugation", "verb": "work", "tense": "present_simple", "caption": "[[work|lavorare]] · present simple (la terza persona, con la -s, è nell'unità 4)"},
+          {"type": "table", "head": ["", "Affermativa", "Negativa", "Domanda", "Risposta breve"], "rows": [["I", "I drink coffee.", "I don't drink tea.", "Do I pay here?", "Yes, you do."], ["you", "You speak English.", "You don't speak French.", "Do you have espresso?", "Yes, we do."], ["we", "We tip at restaurants.", "We don't tip at the counter.", "Do we pay first?", "No, you don't."], ["they", "They make muffins.", "They don't make bagels.", "Do they have Wi-Fi?", "No, they don't."]], "speak": [1, 2, 3, 4], "rowhead": true},
+          {"type": "subhead", "text": "A cosa serve"},
+          {"type": "examples", "items": [
+            {"t": "I have breakfast at the coffee shop.", "n": "Faccio colazione al coffee shop.", "note": "abitudini"},
+            {"t": "We don't tip at the counter.", "n": "Al bancone non diamo la mancia.", "note": "regole, fatti generali"},
+            {"t": "Do you want milk? — No, I don't.", "n": "Vuoi il latte? — No.", "note": "gusti e preferenze"},
+            {"t": "Canadians drink a lot of coffee.", "n": "I canadesi bevono molto caffè.", "note": "verità generali"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Non è il presente italiano", "text": "L'italiano usa il presente per tutto: *bevo un caffè* (adesso) e *bevo caffè* (abitudine). L'inglese ha due tempi: [[I drink coffee]] (abitudine, present simple) e [[I'm drinking a coffee]] (adesso, present continuous, unità 6). Per ora: present simple = abitudini, fatti, gusti."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I no drink tea. I not drink tea.", "right": "I don't drink tea.", "why": "Il negativo vuole don't (do not)."},
+            {"wrong": "You want milk?", "right": "Do you want milk?", "why": "La domanda vuole do davanti al soggetto. Con la sola intonazione si capisce, ma non è una domanda inglese."},
+            {"wrong": "Yes, I want. / Yes, I have.", "right": "Yes, I do.", "why": "La risposta breve usa do, non il verbo."},
+            {"wrong": "Do you have espresso? — Yes, we have.", "right": "Yes, we do.", "why": "Stesso errore, con have."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-ordering", "title": "Ordinare: Can I get…, I'd like…, I'll have…", "category": "Frasi", "rule": "Tre modi cortesi: Can I get a…? (il più canadese), I'd like a… (I would like), I'll have a… (I will have). Poi please. Il nome da solo con please va bene al bancone.", "blocks": [
+          {"type": "table", "head": ["Tu dici", "Italiano", "Nota"], "rows": [["A small coffee, please.", "Un caffè piccolo, per favore.", "nome + please: sempre giusto"], ["Can I get a medium latte?", "Mi dà un latte medio?", "can I get: informale, il più comune in Canada"], ["I'd like a tea, please.", "Vorrei un tè, per favore.", "I'd like = I would like: cortese, universale"], ["I'll have the soup.", "Prendo la zuppa.", "I'll have: al ristorante, scegliendo dal menù"], ["Could I have the bill, please?", "Potrei avere il conto?", "could I have: ancora più cortese"], ["That's it, thanks. / That's all.", "Basta così, grazie.", "risposta a anything else?"], ["For here. / To go.", "Qui. / Da portare via.", ""]], "speak": [0]},
+          {"type": "table", "caption": "Quello che senti", "head": ["Loro dicono", "Italiano"], "rows": [["What can I get you? / What would you like?", "Cosa le porto? / Cosa desidera?"], ["What size?", "Che misura?"], ["Room for cream? / Milk and sugar?", "Spazio per la panna? / Latte e zucchero?"], ["Anything else?", "Altro?"], ["For here or to go?", "Qui o da portare via?"], ["That's nine twenty-eight.", "Fanno nove e ventotto."], ["Tap or chip? / Cash or card?", "Contactless o chip? / Contanti o carta?"], ["Do you want a receipt?", "Vuole lo scontrino?"], ["Have a good one!", "Buona giornata!"]], "speak": [0]},
+          {"type": "mistakes", "items": [
+            {"wrong": "I want a coffee.", "right": "Can I get a coffee, please? / I'd like a coffee.", "why": "I want è grammaticale ma brusco: in inglese si ordina chiedendo, non volendo. Please non è facoltativo."},
+            {"wrong": "Give me a coffee.", "right": "Can I get a coffee?", "why": "L'imperativo con chi serve suona maleducato, anche con please."},
+            {"wrong": "A coffee. (e basta)", "right": "A coffee, please.", "why": "Senza please sembra un ordine militare."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-like", "title": "like + nome, senza articolo; some / any", "category": "Verbi e articoli", "rule": "I like coffee: niente articolo per parlare di una cosa in generale. I like the coffee here: con the, un caffè preciso. Some per una quantità indefinita nelle affermative, any nelle domande e nei negativi.", "ref": "some-any", "blocks": [
+          {"type": "examples", "items": [
+            {"t": "I like coffee. I don't like tea.", "n": "Mi piace il caffè. Non mi piace il tè.", "note": "generale: nessun articolo"},
+            {"t": "I like the coffee at this place.", "n": "Mi piace il caffè di questo posto.", "note": "specifico: the"},
+            {"t": "Do you like muffins? — I love muffins!", "n": "Ti piacciono i muffin? — Adoro i muffin!", "note": "like è un verbo normale: I like, do you like; niente mi piacciono"},
+            {"t": "I'd like some water, please.", "n": "Vorrei dell'acqua, per favore.", "note": "some: un po' di, affermativa e richieste"},
+            {"t": "Do you have any muffins? — Sorry, we don't have any.", "n": "Avete dei muffin? — Mi dispiace, non ne abbiamo.", "note": "any: domande e negativi"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "like non è piacere", "text": "In italiano la cosa è il soggetto (*mi piace il caffè*). In inglese il soggetto sei tu: [[I like coffee]], [[she likes coffee]], [[do you like coffee?]]. Niente mi, niente piacciono: like si coniuga come work."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I like the coffee. (in generale)", "right": "I like coffee.", "why": "L'italiano mette l'articolo (il caffè), l'inglese no quando parla in generale."},
+            {"wrong": "Me like coffee. / To me likes the coffee.", "right": "I like coffee.", "why": "Soggetto I, verbo like, oggetto coffee."},
+            {"wrong": "I don't have some change.", "right": "I don't have any change.", "why": "Nei negativi any."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-numbers", "title": "Numeri fino a 1,000 e prezzi", "category": "Numeri", "rule": "Decine + unità con il trattino; hundred e thousand invariabili, con and dopo le centinaia. I prezzi si dicono come due numeri: nine twenty-eight, oppure nine dollars and twenty-eight cents.", "ref": "numbers", "blocks": [
+          {"type": "table", "head": ["", "", "", ""], "rows": [["21 twenty-one", "32 thirty-two", "45 forty-five", "99 ninety-nine"], ["100 a hundred / one hundred", "101 a hundred and one", "250 two hundred and fifty", "999 nine hundred and ninety-nine"], ["1,000 a thousand", "1,500 fifteen hundred / one thousand five hundred", "2,000 two thousand", "10,000 ten thousand"]], "speak": [0, 1, 2, 3], "compact": true},
+          {"type": "table", "caption": "Prezzi", "head": ["Scritto", "Detto"], "rows": [["$9.28", "nine twenty-eight · nine dollars and twenty-eight cents"], ["$2.50", "two fifty"], ["$0.75", "seventy-five cents"], ["$12", "twelve dollars · twelve bucks"], ["$1,200", "twelve hundred dollars · one thousand two hundred dollars"], ["13%", "thirteen per cent"]], "speak": [1]},
+          {"type": "examples", "items": [
+            {"t": "That's nine twenty-eight.", "n": "Fanno nove e ventotto."},
+            {"t": "A coffee is two dollars; with tax it's two twenty-six.", "n": "Un caffè costa due dollari; con le tasse due e ventisei."},
+            {"t": "The rent is fifteen hundred a month.", "n": "L'affitto è millecinquecento al mese.", "note": "fifteen hundred: le cifre tonde fino a 9,999 si dicono spesso a centinaia"},
+            {"t": "Toronto has three million people.", "n": "Toronto ha tre milioni di abitanti.", "note": "three million, senza -s"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "two hundreds, five thousands", "right": "two hundred, five thousand", "why": "Invariabili con un numero davanti."},
+            {"wrong": "nine dollars twenty-eight", "right": "nine twenty-eight / nine dollars and twenty-eight cents", "why": "O solo le cifre, o tutto per intero."},
+            {"wrong": "twenty one, fourty", "right": "twenty-one, forty", "why": "Trattino; forty senza u."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-countable", "title": "a coffee / coffee: numerabili e non numerabili", "category": "Nomi", "rule": "Le sostanze (coffee, milk, sugar, water, bread) non si contano: niente a/an, niente plurale. Si contano le porzioni: a cup of coffee, two coffees (due tazze), a glass of water. How much? per i non numerabili, how many? per i numerabili.", "ref": "countable-uncountable", "blocks": [
+          {"type": "table", "head": ["Non numerabile", "Numerabile (porzione)", "Italiano"], "rows": [["coffee", "a coffee · two coffees · a cup of coffee", "caffè · un caffè · due caffè"], ["milk", "a glass of milk · a carton of milk", "latte · un bicchiere di latte"], ["sugar", "a sugar (una bustina) · a spoon of sugar", "zucchero"], ["water", "a bottle of water · a glass of water", "acqua"], ["bread", "a slice of bread · a loaf of bread", "pane · una fetta · una pagnotta"], ["toast", "a piece of toast · two slices of toast", "pane tostato"], ["money", "a dollar · ten dollars", "soldi · un dollaro"]], "speak": [0, 1], "rowhead": true, "note": "L'elenco completo, con informazioni, advice, furniture e gli altri che tradiscono gli italiani, è nell'unità 7."},
+          {"type": "examples", "items": [
+            {"t": "How much is a coffee? — Two dollars.", "n": "Quanto costa un caffè? — Due dollari.", "note": "how much + is: il prezzo"},
+            {"t": "How much coffee do you drink? — A lot.", "n": "Quanto caffè bevi? — Molto.", "note": "how much + non numerabile: la quantità"},
+            {"t": "How many muffins? — Two.", "n": "Quanti muffin? — Due.", "note": "how many + numerabile plurale"},
+            {"t": "Can I get some water? — Still or sparkling?", "n": "Posso avere dell'acqua? — Naturale o frizzante?"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "two breads, a bread", "right": "two loaves of bread, a slice of bread", "why": "Bread non si conta: si contano le pagnotte o le fette."},
+            {"wrong": "How many money?", "right": "How much money?", "why": "Money è non numerabile."},
+            {"wrong": "an information, a news", "right": "some information, some news", "why": "Anticipazione dell'unità 7: due parole che in italiano si contano e in inglese no."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "th, the Canadian r, and COFfee",
+      "intro": "Tre cose che fanno riconoscere un italiano al coffee shop: il th di thanks che diventa \"tanks\", la r di water che sparisce o che rotola, e l'accento di coffee messo sulla sillaba sbagliata.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "θ", "t": "thanks", "n": "grazie", "ipa": "θæŋks", "tip": "Lingua tra i denti, aria che passa. Thanks, three, thirty, thousand, with (alla fine)."},
+          {"sound": "ð", "t": "that's", "n": "fanno, quello è", "ipa": "ðæts", "tip": "Stessa posizione con la voce: that, this, the, there, they, with (a volte)."},
+          {"sound": "r", "t": "water", "n": "acqua", "ipa": "ˈwɔtər", "tip": "La r canadese dopo vocale si pronuncia sempre ma non rotola: la lingua si ritrae senza toccare il palato. Water, order, sugar, dollar, quarter, cream, large."},
+          {"sound": "ˈkɒ-", "t": "coffee", "n": "caffè", "ipa": "ˈkɒfi", "tip": "Accento sulla prima sillaba: COF-fee. L'italiano caffè ha l'accento sulla seconda; chi dice \"coFFEE\" non viene capito al primo colpo."},
+          {"sound": "ɑr", "t": "large", "n": "grande", "ipa": "lɑrdʒ", "tip": "Vocale aperta lunga + r + g dolce: \"lahrg\"."}
+        ]},
+        {"type": "minimal", "caption": "th o t? th o s? Ascolta e ripeti", "pairs": [
+          {"a": "three", "b": "tree", "na": "tre", "nb": "albero", "tip": "Three coffees, non \"tree coffees\"."},
+          {"a": "thank", "b": "tank", "na": "ringraziare", "nb": "serbatoio"},
+          {"a": "think", "b": "sink", "na": "pensare", "nb": "lavandino", "tip": "Alcuni italiani dicono \"sink\" per think: lingua tra i denti, non dietro."},
+          {"a": "they", "b": "day", "na": "loro", "nb": "giorno", "tip": "Th sonoro contro d."},
+          {"a": "with", "b": "wit", "na": "con", "nb": "arguzia", "tip": "Il th finale: with milk, with sugar."}
+        ]},
+        {"type": "subhead", "text": "L'accento nelle parole del coffee shop"},
+        {"type": "prose", "text": "Ascolta dove cade l'accento: [[COFfee]], [[MUFfin]], [[BAgel]], [[DOnut]], [[ESpresso|espresso: e-SPRES-so]], [[reCEIPT]], [[DOLlar]], [[QUARter]], [[BREAKfast]]. Gli italiani tendono a spostare l'accento verso la fine, come in italiano; in inglese cade più spesso all'inizio."},
+        {"type": "examples", "items": [
+          {"t": "Three coffees with milk, thanks. That's thirteen thirty.", "n": "Tre caffè con il latte, grazie. Fanno tredici e trenta.", "note": "quattro th sordi e un th sonoro"},
+          {"t": "A large water and a quarter for the cart.", "n": "Un'acqua grande e un quarto di dollaro per il carrello.", "note": "r dopo vocale: large, water, quarter, cart"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Quaranta esercizi in cinque serie e un ripasso misto. Contrazioni accettate (don't / do not). Dopo un errore puoi vedere la risposta.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Present simple", "items": [
+          {"kind": "conjugate", "verb": "drink", "tense": "present simple (I, you, we, they: stessa forma)", "n": "bere", "persons": ["I", "you", "we", "they"], "answers": ["drink", "drink", "drink", "drink"]},
+          {"kind": "fill", "q": "I ___ coffee every morning. (drink)", "answers": [["drink"]], "n": "Bevo caffè ogni mattina."},
+          {"kind": "fill", "q": "We ___ tip at the counter. (negativo)", "answers": [["don't", "do not"]], "n": "Al bancone non diamo la mancia."},
+          {"kind": "fill", "q": "___ you ___ milk? — No, I ___. (want)", "answers": [["Do"], ["want"], ["don't", "do not"]], "n": "Vuoi il latte? — No."},
+          {"kind": "fill", "q": "___ they ___ espresso? — Yes, they ___.", "answers": [["Do"], ["have"], ["do"]], "n": "Hanno l'espresso? — Sì."},
+          {"kind": "mc", "q": "«Non mangio pancetta.»", "options": ["I don't eat bacon.", "I no eat bacon.", "I not eat bacon."], "answer": 0, "why": "Negativo con don't."},
+          {"kind": "order", "answer": "Do you have blueberry muffins?", "n": "Avete muffin ai mirtilli?"},
+          {"kind": "reply", "line": {"t": "Do you like coffee?", "n": "Ti piace il caffè?"}, "options": ["Yes, I do.", "Yes, I like.", "Yes, me too."], "answer": 0, "why": "Risposta breve con do."}
+        ]},
+        {"type": "exercises", "title": "2 · Ordering", "items": [
+          {"kind": "reply", "line": {"t": "Hi there! What can I get you?", "n": "Ciao! Cosa le porto?"}, "options": ["Can I get a small coffee, please?", "I want a small coffee.", "Give me a small coffee."], "answer": 0, "why": "Si ordina chiedendo: can I get… please."},
+          {"kind": "reply", "line": {"t": "For here or to go?", "n": "Qui o da portare via?"}, "options": ["To go, please.", "I go, please.", "For me, please."], "answer": 0, "why": "To go = da portare via; for here = qui."},
+          {"kind": "reply", "line": {"t": "Anything else?", "n": "Altro?"}, "options": ["That's it, thanks.", "Nothing, no.", "Yes, no."], "answer": 0, "why": "That's it / that's all: basta così."},
+          {"kind": "fill", "q": "Can I ___ a medium latte, please? — Room for ___?", "answers": [["get", "have"], ["cream", "milk"]], "n": "Mi dà un latte medio, per favore? — Spazio per la panna?"},
+          {"kind": "match", "q": "Abbina.", "pairs": [["What size?", "Che misura?"], ["Tap or chip?", "Contactless o chip?"], ["That's nine twenty-eight.", "Fanno nove e ventotto."], ["Have a good one!", "Buona giornata!"], ["Keep the change.", "Tenga il resto."]]},
+          {"kind": "order", "answer": "I'd like a tea with milk, please.", "n": "Vorrei un tè con il latte, per favore."},
+          {"kind": "dictation", "text": "Two coffees and a blueberry muffin to go, please.", "n": "Due caffè e un muffin ai mirtilli da portare via, per favore."}
+        ]},
+        {"type": "exercises", "title": "3 · like, some, any", "items": [
+          {"kind": "mc", "q": "«Mi piace il caffè.» (in generale)", "options": ["I like coffee.", "I like the coffee.", "Me likes coffee."], "answer": 0, "why": "Soggetto I, verbo like, niente articolo per il generale."},
+          {"kind": "fill", "q": "I like ___ coffee at this place. (specifico)", "answers": [["the"]], "n": "Mi piace il caffè di questo posto.", "hint": "un caffè preciso: quello di qui"},
+          {"kind": "fill", "q": "I'd like ___ water, please. Do you have ___ sparkling water?", "answers": [["some"], ["any"]], "n": "Vorrei dell'acqua, per favore. Avete dell'acqua frizzante?"},
+          {"kind": "fill", "q": "Sorry, we don't have ___ bagels today.", "answers": [["any"]], "n": "Mi dispiace, oggi non abbiamo bagel."},
+          {"kind": "translate", "q": "Ti piacciono i muffin? — Sì, moltissimo.", "answers": ["Do you like muffins? Yes, a lot", "Do you like muffins? — Yes, a lot", "Do you like muffins? Yes, very much", "Do you like muffins? — Yes, very much", "Do you like muffins? I love them", "Do you like muffins? — I love them"]}
+        ]},
+        {"type": "exercises", "title": "4 · Numbers and prices", "items": [
+          {"kind": "match", "q": "Abbina.", "pairs": [["nine twenty-eight", "$9.28"], ["two fifty", "$2.50"], ["seventy-five cents", "$0.75"], ["fifteen hundred dollars", "$1,500"], ["thirteen per cent", "13%"]]},
+          {"kind": "fill", "q": "40 = ___ · 50 = ___ · 99 = ___", "answers": [["forty"], ["fifty"], ["ninety-nine", "ninety nine"]], "n": "quaranta · cinquanta · novantanove"},
+          {"kind": "fill", "q": "250 = two ___ and fifty · 1,000 = a ___", "answers": [["hundred"], ["thousand"]], "n": "duecentocinquanta · mille"},
+          {"kind": "dictation", "text": "That's seven dollars and forty-five cents.", "n": "Fanno sette dollari e quarantacinque centesimi."},
+          {"kind": "mc", "q": "«Due monete da due dollari e una da uno»", "options": ["Two toonies and a loonie.", "Two loonies and a toonie.", "Two quarters and a dollar."], "answer": 0, "why": "Toonie = $2, loonie = $1: cinque dollari in tutto."},
+          {"kind": "fill", "q": "A coffee is $2.00. With 13% tax it's two ___. (ventisei)", "answers": [["twenty-six", "twenty six"]], "n": "Un caffè costa 2 dollari. Con il 13% di tasse fa due e ventisei."},
+          {"kind": "speak", "text": "Thirty, forty, fifty, three hundred and thirty-three.", "n": "Trenta, quaranta, cinquanta, trecentotrentatré.", "tip": "Th sordo in thirty, three, thirty-three; forty senza u."}
+        ]},
+        {"type": "exercises", "title": "5 · Countable, uncountable, how much", "items": [
+          {"kind": "fill", "q": "How ___ is a bagel? — Two dollars.", "answers": [["much"]], "n": "Quanto costa un bagel? — Due dollari."},
+          {"kind": "fill", "q": "How ___ muffins do you want? — Three.", "answers": [["many"]], "n": "Quanti muffin vuoi? — Tre."},
+          {"kind": "mc", "q": "Quale è corretta?", "options": ["Can I get a water?", "Can I get a bottle of water?", "Can I get two waters bottle?"], "answer": 1, "why": "Water non si conta: a bottle of water, a glass of water. (A water si sente, ma è colloquiale.)"},
+          {"kind": "fill", "q": "a ___ of toast · a ___ of milk · a ___ of coffee", "answers": [["piece", "slice"], ["glass", "carton"], ["cup"]], "n": "una fetta di pane tostato · un bicchiere di latte · una tazza di caffè"},
+          {"kind": "tf", "q": "«Two coffees, please» è corretto.", "answer": true, "why": "Coffee come sostanza non si conta, ma two coffees = due tazze, e al bancone è normale."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Tutta l'unità, mescolata.", "items": [
+          {"kind": "translate", "q": "Mi dà un caffè piccolo da portare via, per favore?", "answers": ["Can I get a small coffee to go, please", "Can I have a small coffee to go, please", "Could I have a small coffee to go, please", "I'd like a small coffee to go, please"]},
+          {"kind": "fill", "q": "In Italy we ___ tip. In Canada they ___ fifteen to twenty per cent.", "answers": [["don't", "do not"], ["tip", "leave", "give"]], "n": "In Italia non diamo la mancia. In Canada lasciano dal 15 al 20 per cento."},
+          {"kind": "order", "answer": "Do you have any espresso?", "n": "Avete l'espresso?"},
+          {"kind": "write", "q": "Ordina per tre persone: un caffè medio con latte per te, un tè per Sofia, due muffin. Qui. Poi chiedi lo scontrino.", "model": "Hi! Can I get a medium coffee with milk, a tea and two muffins, please? For here. And can I have a receipt, please?", "hint": "Can I get… · For here. · Can I have a receipt?"},
+          {"kind": "speak", "text": "Three coffees with milk, please. For here. Thanks!", "n": "Tre caffè con il latte, per favore. Qui. Grazie!", "tip": "Th in three e thanks; r in for e here; accento su COF-fee."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Tim Hortons, tasse e mance",
+      "intro": "Il coffee shop canadese non è il bar italiano: si ordina in fila, si paga subito, il prezzo cresce alla cassa e lo schermo chiede la mancia. Le regole che nessuno scrive.",
+      "blocks": [
+        {"type": "subhead", "text": "Tim's"},
+        {"type": "prose", "text": "[[Tim Hortons]], per tutti [[Tim's]] o [[Timmies]], è la catena di caffè e ciambelle fondata nel 1964 da un giocatore di hockey, e per molti canadesi è un pezzo di identità nazionale più della bandiera: ce n'è uno in ogni paese, in ogni ospedale, in ogni stazione di servizio. Il caffè è caffè filtro, debole per un palato italiano, servito in bicchieri da small a extra-large; il [[double-double]] (due panne, due zuccheri) è l'ordine nazionale. Poi ci sono le catene (Starbucks, Second Cup) e i coffee shop indipendenti, dove l'espresso è buono e costa il doppio. A Toronto trovi tutto, compresi i bar italiani di Corso Italia e College Street dove il caffè è un caffè."},
+        {"type": "subhead", "text": "Il prezzo che cresce"},
+        {"type": "prose", "text": "I prezzi esposti in Canada sono quasi sempre senza tasse. In Ontario si aggiunge alla cassa l'[[HST]] (Harmonized Sales Tax), il 13%: un caffè da 2 dollari ne costa 2,26. Alcuni alimenti di base al supermercato sono esenti, ma al coffee shop e al ristorante no. Dopo una settimana fai il calcolo in testa senza accorgertene; dopo un mese ti sembra normale; dopo un anno ti arrabbi in Italia perché il prezzo è già tutto compreso e non puoi lamentarti."},
+        {"type": "callout", "kind": "real", "title": "La mancia: quanto e dove", "text": "**Ristorante con servizio al tavolo:** dal 15 al 20% sul prezzo prima delle tasse, sempre; i camerieri hanno un salario minimo più basso e vivono di mance. Lo schermo propone 18, 20, 25: 18 è normale, 15 è il minimo educato. **Bancone, coffee shop, da portare via:** facoltativa; lo schermo chiede comunque, e premere [[No tip]] è legittimo. **Taxi, parrucchiere, consegne:** dal 10 al 15%. **Bar:** un dollaro o due a bevanda. La mancia si chiama [[tip]] o [[gratuity]]; sullo scontrino del ristorante la riga è [[Tip]] o [[Gratuity]], da compilare prima di firmare o sullo schermo del terminale."},
+        {"type": "subhead", "text": "Le misure"},
+        {"type": "prose", "text": "Il [[small]] canadese è grande per un italiano: circa 280 ml, come due tazze da tè. Il [[medium]] è 400 ml, il [[large]] 560, l'[[extra-large]] 700. Il caffè è in un bicchiere di carta con il coperchio anche se lo bevi dentro, e si cammina bevendolo: la cultura del caffè canadese è un caffè che dura un'ora, non un minuto. L'[[espresso]] esiste, è buono nei posti giusti, e arriva in una tazzina che fa ridere i canadesi."},
+        {"type": "subhead", "text": "Pagare"},
+        {"type": "prose", "text": "Quasi tutto si paga con la carta, [[tap]] sotto i 250 dollari, senza PIN. I contanti vanno bene ma nessuno li aspetta; la moneta da un cent non esiste più e i totali in contanti si arrotondano ai 5 cent. Le monete hanno nomi: [[loonie]] (1 dollaro, con la strolaga), [[toonie]] (2 dollari), [[quarter]] (25 cent), [[dime]] (10), [[nickel]] (5). Le banconote sono di plastica, colorate, e si lavano in lavatrice senza danni. Lo scontrino è facoltativo e spesso ti chiedono se lo vuoi: [[Do you want a receipt?]]"},
+        {"type": "callout", "kind": "culture", "title": "Have a good one", "text": "Chi serve ti saluta con [[Have a good one!]], [[Have a great day!]], [[Take care!]]. Non vuole niente, non è ironico: è il modo canadese di dire arrivederci, e si risponde [[You too!]]. Chiara ci metterà due settimane a non sentirsi presa in giro."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Una schermata prima della prossima unità, poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Present simple (I, you, we, they)", "rows": [["I drink coffee.", "bevo caffè (abitudine)"], ["I don't drink tea.", "non bevo tè"], ["Do you drink coffee? — Yes, I do. / No, I don't.", "bevi caffè? — sì / no"]]},
+          {"title": "Ordering", "rows": [["Can I get a small coffee, please?", "mi dà un caffè piccolo?"], ["I'd like… / I'll have…", "vorrei… / prendo…"], ["For here. / To go.", "qui / da portare via"], ["That's it, thanks.", "basta così"], ["What size? Room for cream? Anything else?", "che misura? spazio per la panna? altro?"]]},
+          {"title": "like · some · any", "rows": [["I like coffee. (no article)", "mi piace il caffè"], ["I like the coffee here.", "specifico"], ["some water (affermativa) · any muffins? (domanda) · not any (negativo)", ""]]},
+          {"title": "Numbers and money", "rows": [["twenty-one · forty · a hundred and ten · a thousand", "21 · 40 · 110 · 1.000"], ["nine twenty-eight · two fifty · seventy-five cents", "$9.28 · $2.50 · $0.75"], ["loonie $1 · toonie $2 · quarter 25¢", "monete"], ["plus tax (13%) · tip 15–20% at restaurants", "tasse e mance"]]},
+          {"title": "Countable / uncountable", "rows": [["coffee · a coffee · a cup of coffee", "sostanza · tazza"], ["water · a glass of water · a bottle of water", ""], ["How much is…? How much coffee? How many muffins?", "prezzo · quantità · numero"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

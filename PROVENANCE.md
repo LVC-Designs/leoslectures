@@ -47,6 +47,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** there-is-there-are, verb-have, this-that-these-those, prepositions-of-place, possessives (plural-nouns extended).
 - **Originality:** the two scenes (the house tour with shoes off, two kitchens and Luca's/Lucia's old room; the bins and the thermostat), all 40 vocabulary examples, tables, 40 exercises and the cultural notes (Canadian house types, basements, shoes off, thermostat etiquette, Toronto's green/blue/garbage bins, "make yourself at home", the Italian-Canadian "good living room") were written for this project from general knowledge of life in Toronto.
 
+#### Unit 3 · A double-double, please (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: order food and drink with simple phrases, ask how much something costs, say what one likes and dislikes; listening: understand prices and simple service questions spoken slowly; reading: understand a simple menu or price list; spoken production: describe daily habits with very simple sentences.
+- **Grammar:** present simple with I/you/we/they (don't, do, short answers); ordering phrases (Can I get, I'd like, I'll have, for here or to go); *like* + noun without article; *some / any* intro; numbers 20–1,000 and prices in dollars and cents; first countable / uncountable nouns with how much / how many; th, the Canadian postvocalic r, word stress.
+- **Reference pages added:** present-simple, some-any, numbers, countable-uncountable.
+- **Originality:** the two scenes (ordering at the counter with "room for cream?", and the tip screen), all 42 vocabulary examples, tables, 40 exercises and the cultural notes (Tim Hortons, HST added at the till, tipping norms, cup sizes, Canadian coins and bills, "have a good one") were written for this project from general knowledge of Canadian daily life.
+
 ## Shared tools
 
 - **Conjugators** (`src/js/conj-it.js`, `src/js/conj-en.js`): rule-based, with irregular-verb dictionaries compiled from general linguistic knowledge. Verb lists and their glosses in `content/*/verbs.json` are the project's own.

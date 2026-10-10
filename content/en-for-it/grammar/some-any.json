@@ -1,0 +1,23 @@
+{"id": "some-any", "title": "some, any, no", "category": "Quantificatori", "rule": "Some nelle affermative (e nelle richieste e offerte), any nelle domande e nei negativi, no = not any. Con i plurali e con i non numerabili.", "units": ["03"], "blocks": [
+  {"type": "table", "head": ["", "plurale", "non numerabile"], "rows": [["affermativa: some", "There are some muffins.", "There's some milk in the fridge."], ["domanda: any", "Are there any muffins?", "Is there any milk?"], ["negativa: any", "There aren't any muffins.", "There isn't any milk."], ["negativa: no", "There are no muffins.", "There's no milk."]], "speak": [1, 2], "rowhead": true},
+  {"type": "subhead", "text": "some nelle domande"},
+  {"type": "examples", "items": [
+    {"t": "Would you like some coffee?", "n": "Vuoi del caffè?", "note": "offerta: si usa some perché la risposta attesa è sì"},
+    {"t": "Can I have some water, please?", "n": "Posso avere dell'acqua?", "note": "richiesta: some"},
+    {"t": "Do you have any muffins?", "n": "Avete dei muffin?", "note": "domanda vera: any"}
+  ]},
+  {"type": "subhead", "text": "Con i composti"},
+  {"type": "table", "head": ["some-", "any-", "no-", "italiano"], "rows": [["someone / somebody", "anyone / anybody", "no one / nobody", "qualcuno / nessuno"], ["something", "anything", "nothing", "qualcosa / niente"], ["somewhere", "anywhere", "nowhere", "da qualche parte / da nessuna parte"]], "speak": [0, 1, 2], "compact": true, "note": "Stesse regole: Is there anything else? There's nothing. I don't want anything."},
+  {"type": "callout", "kind": "warn", "title": "Un solo negativo", "text": "L'italiano accumula i negativi: *non ho niente*. L'inglese ne vuole uno solo: [[I don't have anything]] oppure [[I have nothing]], mai *I don't have nothing*."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I don't have some change.", "right": "I don't have any change.", "why": "Negativo → any."},
+    {"wrong": "Do you have some muffins? (domanda neutra)", "right": "Do you have any muffins?", "why": "Domanda vera → any. Some solo per offrire o chiedere qualcosa."},
+    {"wrong": "I don't want nothing.", "right": "I don't want anything.", "why": "Un negativo solo."},
+    {"wrong": "I have any questions.", "right": "I have some questions. / I have a question.", "why": "Affermativa → some."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "Is there ___ milk? — Yes, there's ___ milk in the fridge, but there isn't ___ sugar.", "answers": [["any"], ["some"], ["any"]], "n": "C'è del latte? — Sì, c'è del latte in frigo, ma non c'è zucchero."},
+    {"kind": "mc", "q": "«Vuoi del caffè?» (offerta)", "options": ["Would you like some coffee?", "Would you like any coffee?", "Would you like no coffee?"], "answer": 0, "why": "Offerte con some."},
+    {"kind": "translate", "q": "Non ho niente.", "answers": ["I don't have anything", "I have nothing", "I do not have anything"]}
+  ]}
+]}
