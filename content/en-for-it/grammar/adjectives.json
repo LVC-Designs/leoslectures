@@ -1,0 +1,24 @@
+{"id": "adjectives", "title": "Gli aggettivi: forma e posizione", "category": "Aggettivi", "rule": "Una forma sola, mai il plurale, mai il femminile. Prima del nome o dopo be / seem / look. Con più aggettivi: opinione, dimensione, età, forma, colore, origine, materiale, scopo.", "units": ["04"], "blocks": [
+  {"type": "table", "head": ["Italiano", "Inglese"], "rows": [["un ragazzo alto · una ragazza alta · ragazzi alti · ragazze alte", "a tall boy · a tall girl · tall boys · tall girls"], ["una macchina rossa · le macchine rosse", "a red car · red cars"], ["È stanco. Sono stanche.", "He's tired. They're tired."]], "speak": [1], "note": "Niente concordanza: un'intera categoria di errori italiani sparisce. In cambio l'ordine è rigido."},
+  {"type": "subhead", "text": "Posizione"},
+  {"type": "table", "head": ["Regola", "Esempio"], "rows": [["prima del nome", "a quiet cousin, long hair, a big house, Italian wine"], ["dopo be, seem, look, feel, get", "She is quiet. He looks tired. It seems expensive."], ["mai dopo il nome", "a house big ✗ → a big house"], ["something / anything / nothing + aggettivo", "something good, nothing new, anything else"]], "speak": [1]},
+  {"type": "subhead", "text": "L'ordine con più aggettivi"},
+  {"type": "table", "head": ["1 opinione", "2 dimensione", "3 età", "4 forma", "5 colore", "6 origine", "7 materiale", "8 scopo", "nome"], "rows": [["nice", "big", "old", "round", "brown", "Italian", "wooden", "kitchen", "table"], ["beautiful", "long", "", "", "brown", "", "", "", "hair"], ["", "small", "new", "", "red", "Canadian", "", "", "car"]], "compact": true, "note": "Raramente più di tre: a nice old Italian man, long brown hair, a small red car. Senza and tra gli aggettivi, tranne con due colori: black and white."},
+  {"type": "subhead", "text": "-ed e -ing"},
+  {"type": "examples", "items": [
+    {"t": "I'm bored. The film is boring.", "n": "Sono annoiato. Il film è noioso.", "note": "-ed: come mi sento; -ing: com'è la cosa"},
+    {"t": "She's interested in hockey. Hockey is interesting.", "n": "È interessata all'hockey. L'hockey è interessante."},
+    {"t": "I'm tired. The trip was tiring.", "n": "Sono stanca. Il viaggio è stato stancante."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "the greens eyes, talls cousins", "right": "green eyes, tall cousins", "why": "Mai la -s sull'aggettivo."},
+    {"wrong": "a man tall, a car red", "right": "a tall man, a red car", "why": "Aggettivo prima del nome."},
+    {"wrong": "a red small car", "right": "a small red car", "why": "Dimensione prima del colore."},
+    {"wrong": "I'm boring. (per \"mi annoio\")", "right": "I'm bored.", "why": "I'm boring = sono una persona noiosa."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "order", "answer": "She has long brown hair.", "n": "Ha i capelli lunghi e castani."},
+    {"kind": "fill", "q": "a ___ ___ ___ table (vecchio · grande · di legno)", "answers": [["big", "large"], ["old"], ["wooden"]], "n": "un grande tavolo vecchio di legno"},
+    {"kind": "mc", "q": "«Il film è noioso e io sono annoiato.»", "options": ["The film is boring and I'm bored.", "The film is bored and I'm boring.", "The film is boring and I'm boring."], "answer": 0, "why": "-ing per la cosa, -ed per la persona."}
+  ]}
+]}

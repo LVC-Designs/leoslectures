@@ -1,0 +1,16 @@
+{"id": "frequency-adverbs", "title": "Gli avverbi di frequenza", "category": "Avverbi", "rule": "always, usually, often, sometimes, rarely, never: prima del verbo principale, dopo be, tra ausiliare e verbo. Le espressioni di frequenza (every day, twice a week, on Mondays) alla fine o all'inizio.", "units": ["04"], "blocks": [
+  {"type": "table", "head": ["Avverbio", "Frequenza", "Italiano"], "rows": [["always", "100%", "sempre"], ["almost always · nearly always", "90%", "quasi sempre"], ["usually · normally · generally", "80%", "di solito"], ["often · frequently", "60%", "spesso"], ["sometimes · occasionally", "40%", "a volte, ogni tanto"], ["rarely · seldom · hardly ever", "10%", "raramente, quasi mai"], ["never", "0%", "mai"]], "speak": [0], "rowhead": true},
+  {"type": "table", "caption": "Dove vanno", "head": ["Posizione", "Esempio"], "rows": [["prima del verbo principale", "I always have breakfast. She never cooks."], ["dopo be", "He is always late. We are never at home on Sundays."], ["tra ausiliare e verbo", "I don't usually work on Sundays. Do you often call? She has never been to Italy."], ["nelle risposte brevi, prima dell'ausiliare", "Do you call? — I always do. — I never do."], ["sometimes, usually, often: anche all'inizio o alla fine", "Sometimes I cook. I cook sometimes."], ["mai all'inizio: always, never", "Always she calls. ✗ Never he cooks. ✗ (solo in stile letterario)"]], "speak": [1]},
+  {"type": "table", "caption": "Espressioni di frequenza", "head": ["Espressione", "Italiano"], "rows": [["every day · every morning · every Sunday", "ogni giorno · ogni mattina · ogni domenica"], ["once a week · twice a month · three times a year", "una volta alla settimana · due volte al mese · tre volte all'anno"], ["on Mondays · on weekends · at the weekend", "il lunedì · nei weekend"], ["all the time · now and then · from time to time", "sempre, di continuo · ogni tanto"], ["How often…?", "Quanto spesso…?"]], "speak": [0], "compact": true, "note": "Once e twice, poi three times, four times. Un giorno della settimana con la -s = tutti: on Mondays."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I go always to the bar.", "right": "I always go to the bar.", "why": "Prima del verbo."},
+    {"wrong": "She always is tired.", "right": "She is always tired.", "why": "Dopo be."},
+    {"wrong": "I don't go never.", "right": "I never go.", "why": "Never è negativo da solo."},
+    {"wrong": "two times a week", "right": "twice a week", "why": "Twice, non two times (che si capisce ma è infantile)."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "order", "answer": "I don't usually work on Sundays.", "n": "Di solito non lavoro la domenica."},
+    {"kind": "fill", "q": "How ___ do you call home? — ___ a week. (due volte)", "answers": [["often"], ["Twice"]], "n": "Quanto spesso chiami casa? — Due volte alla settimana."},
+    {"kind": "mc", "q": "«Non è mai in ritardo.»", "options": ["He is never late.", "He never is late.", "He isn't never late."], "answer": 0, "why": "Dopo be, e un negativo solo."}
+  ]}
+]}

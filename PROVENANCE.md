@@ -59,6 +59,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** present-simple, some-any, numbers, countable-uncountable.
 - **Originality:** the two scenes (ordering at the counter with "room for cream?", and the tip screen), all 42 vocabulary examples, tables, 40 exercises and the cultural notes (Tim Hortons, HST added at the till, tipping norms, cup sizes, Canadian coins and bills, "have a good one") were written for this project from general knowledge of Canadian daily life.
 
+#### Unit 4 · Sunday dinner (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken production: describe one's family and people one knows (who they are, what they do, what they look like); spoken interaction: ask and answer questions about age, family, occupation and habits; listening: understand basic phrases about family and people; writing: write short sentences about oneself and one's family; reading: understand a short personal profile.
+- **Grammar:** present simple third person (-s/-es/-ies, does/doesn't, short answers, everybody/nobody); possessive 's in full and *whose*; invariable adjectives, position and order, describing people (be / have / with / wear); frequency adverbs and their position; *What do you do?* vs *What are you doing?*; the three sounds of final -s; the schwa.
+- **Reference pages added:** frequency-adverbs, adjectives (present-simple and possessives extended).
+- **Originality:** the two scenes (Sunday dinner with aunt Rosa's questions and the untranslatable cousins' jobs; "what about Luca/Lucia?"), the characters Rosa, Joe, Daniel, Jessica, all 49 vocabulary examples, tables, 40 exercises and the cultural notes (Italian-Canadian families, mangia-cake, "What do you do?" as small talk, the basement cantina, mixed families in Toronto) were written for this project from general knowledge.
+
 ## Shared tools
 
 - **Conjugators** (`src/js/conj-it.js`, `src/js/conj-en.js`): rule-based, with irregular-verb dictionaries compiled from general linguistic knowledge. Verb lists and their glosses in `content/*/verbs.json` are the project's own.

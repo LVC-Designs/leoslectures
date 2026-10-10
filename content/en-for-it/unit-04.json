@@ -1,0 +1,315 @@
+{
+  "id": "04",
+  "level": "A1",
+  "title": "Sunday dinner",
+  "subtitle": "La famiglia e il lavoro",
+  "intro": "Venti persone, due lingue, il vino di Franco e cugini che fanno lavori che non si traducono. In questa unità impari a parlare della famiglia, dei lavori e delle abitudini degli altri, a descrivere le persone, e la -s della terza persona, la lettera più dimenticata dell'inglese.",
+  "objectives": [
+    "Parlare di quello che fanno gli altri: [[she works]], [[he doesn't drive]], [[does she study?]]",
+    "Dire di chi è cosa con il genitivo sassone completo e con [[whose]]",
+    "Descrivere le persone con aggettivi che non cambiano mai: [[tall]], [[friendly]], [[long brown hair]]",
+    "Dire quanto spesso con [[always]], [[usually]], [[often]], [[sometimes]], [[never]], al posto giusto",
+    "Fare la domanda che tutti fanno a cena: [[What do you do?]]"
+  ],
+  "canDo": [
+    "A1 · Produzione orale: sa descrivere la propria famiglia e le persone che conosce con frasi semplici (chi sono, cosa fanno, come sono).",
+    "A1 · Interazione orale: sa fare e rispondere a domande su età, famiglia, lavoro e abitudini.",
+    "A1 · Ascolto: sa capire parole familiari e frasi di base su famiglia e persone, se dette lentamente.",
+    "A1 · Scrittura: sa scrivere frasi brevi e semplici su di sé e sulla propria famiglia.",
+    "A1 · Lettura: sa capire una breve descrizione di una persona o un profilo personale."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Twenty people",
+      "intro": "La cena della domenica dai Ferrante. Ascolta la -s alla fine dei verbi (works, takes, cleans, sleeps) e i possessivi: his, her, our, Michele's.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-dinner", "title": "Sunday dinner", "setting": "Domenica, ore 14. La cucina del basement. Un tavolo per venti, il vino di Franco in bottiglie senza etichetta.", "register": "informale", "lines": [
+          {"who": "Teresa", "t": "Chiara, this is my sister Rosa, and her husband Joe.", "n": "Chiara, questa è mia sorella Rosa, e suo marito Joe."},
+          {"who": "Rosa", "t": "Welcome, sweetheart! So you're Michele's daughter. How old are you now?", "n": "Benvenuta, tesoro! Allora sei la figlia di Michele. Quanti anni hai adesso?", "note": "Michele's daughter: il genitivo sassone. Sweetheart, honey, dear: le zie canadesi li usano con tutti."},
+          {"who": "Chiara", "t": "Twenty-seven.", "n": "Ventisette."},
+          {"who": "Rosa", "t": "Twenty-seven! And you're not married?", "n": "Ventisette! E non sei sposata?"},
+          {"who": "Teresa", "t": "Rosa!", "n": "Rosa!"},
+          {"who": "Joe", "t": "She asks everybody. Chiara, this is our son Daniel. He's a project manager.", "n": "Lo chiede a tutti. Chiara, questo è nostro figlio Daniel. È project manager.", "note": "She asks: terza persona, con la -s. He's a project manager: mestiere con a."},
+          {"who": "Chiara", "t": "A… project manager. What does he manage?", "n": "Un… project manager. Cosa gestisce?", "note": "What does he + verbo: la domanda alla terza persona vuole does, e il verbo torna senza -s."},
+          {"who": "Joe", "t": "Projects. Nobody knows. He works downtown, he takes the subway, he gets home at seven.", "n": "Progetti. Nessuno lo sa. Lavora in centro, prende la metro, torna a casa alle sette.", "note": "Works, takes, gets: tre -s. Nobody knows: anche nobody è terza persona."},
+          {"who": "Daniel", "t": "Dad.", "n": "Papà."},
+          {"who": "Rosa", "t": "And this is Jessica, his wife. She's a dental hygienist. She cleans teeth.", "n": "E questa è Jessica, sua moglie. È igienista dentale. Pulisce i denti.", "note": "His wife: la moglie di lui. Teeth: plurale irregolare di tooth."},
+          {"who": "Chiara", "t": "Nice to meet you. And what does Sofia do? Does she work?", "n": "Piacere. E Sofia cosa fa? Lavora?", "note": "What does she do? = che lavoro fa. Does she work? = lavora?"},
+          {"who": "Teresa", "t": "She studies. She has a part-time job at a bookstore. She works on Saturdays.", "n": "Studia. Ha un lavoro part-time in una libreria. Lavora il sabato.", "note": "Studies: -y dopo consonante → -ies. On Saturdays: con la -s = tutti i sabati."},
+          {"who": "Franco", "t": "And she sleeps. She sleeps a lot.", "n": "E dorme. Dorme tanto."},
+          {"who": "Sofia", "t": "I'm right here, Dad.", "n": "Sono qui, papà.", "note": "Right here = proprio qui. Right rafforza: right now, right there."}
+        ], "notes": [
+          {"phrase": "She asks everybody.", "note": "Lo chiede a tutti. Ask + persona, senza preposizione: ask me, ask everybody."},
+          {"phrase": "Nobody knows.", "note": "Nessuno lo sa. Nobody, everybody, somebody sono singolari: nobody knows, everybody has a car."},
+          {"phrase": "a part-time job", "note": "Un lavoro part-time. Full-time = a tempo pieno. Job si conta (a job, two jobs); work no."},
+          {"phrase": "downtown", "note": "In centro. Avverbio: he works downtown, senza preposizione. Il centro città in Nord America."}
+        ]},
+        {"type": "scene", "id": "dlg-cousin", "title": "And what about {hero}?", "setting": "Tra il secondo e il dolce. Rosa si gira verso Teresa.", "register": "informale", "lines": [
+          {"who": "Rosa", "t": {"m": "And Luca? What does he do in Italy? Does he have a job? Does he eat?", "f": "And Lucia? What does she do in Italy? Does she have a job? Does she eat?", "note": "Does he / does she: il pronome cambia con il protagonista, does no."}, "n": "E {hero}? Cosa fa in Italia? Ha un lavoro? Mangia?"},
+          {"who": "Teresa", "t": {"m": "He has a plan. He wants to open a bike shop.", "f": "She has a plan. She wants to open a bike shop."}, "n": "Ha un progetto. Vuole aprire un negozio di biciclette.", "note": "Has e wants: due -s di terza persona. Want to + verbo."},
+          {"who": "Rosa", "t": "A bike shop! In Italy! Everybody has a car.", "n": "Un negozio di biciclette! In Italia! Tutti hanno la macchina."},
+          {"who": "Chiara", "t": "Not in Roccamarina. Everybody has a Vespa.", "n": "Non a Roccamarina. Tutti hanno una Vespa."},
+          {"who": "Franco", "t": {"m": "Luca calls every Sunday at eight. He always says the same thing: \"Dad, the coffee here is better.\"", "f": "Lucia calls every Sunday at eight. She always says the same thing: \"Dad, the coffee here is better.\""}, "n": "{hero} chiama ogni domenica alle otto. Dice sempre la stessa cosa: «Papà, qui il caffè è più buono».", "note": "Always tra soggetto e verbo: he always says. Every Sunday alla fine."},
+          {"who": "Rosa", "t": {"m": "Is he happy?", "f": "Is she happy?"}, "n": "È felice?"},
+          {"who": "Teresa", "t": {"m": "He's happy. He doesn't call on Saturdays, so he has friends.", "f": "She's happy. She doesn't call on Saturdays, so she has friends."}, "n": "È felice. Non chiama il sabato, quindi ha amici.", "note": "Doesn't call: negativo di terza persona, e il verbo torna senza -s."},
+          {"who": "Rosa", "t": {"m": "Good. Does he have someone?", "f": "Good. Does she have someone?"}, "n": "Bene. Ha qualcuno?"},
+          {"who": "Teresa", "t": "Rosa!", "n": "Rosa!"},
+          {"who": "Rosa", "t": "I ask everybody.", "n": "Lo chiedo a tutti."}
+        ], "notes": [
+          {"phrase": "the same thing", "note": "La stessa cosa. Same vuole sempre the."},
+          {"phrase": "better", "note": "Migliore, meglio. Il comparativo di good, irregolare: unità 10."},
+          {"phrase": "so", "note": "Quindi, perciò. So he has friends = quindi ha amici. Diverso da so = così (so tired)."}
+        ], "questions": [
+          {"kind": "tf", "q": "Sofia lavora il sabato.", "t": "She works on Saturdays.", "answer": true, "why": "«She has a part-time job at a bookstore. She works on Saturdays.»"},
+          {"kind": "mc", "q": "Cosa vuole fare {hero} in Italia?", "options": ["Aprire un negozio di biciclette.", "Fare il project manager.", "Comprare una Vespa."], "answer": 0, "why": "«{hero} wants to open a bike shop.»"},
+          {"kind": "fill", "q": "Daniel works ___ and takes the subway.", "answers": [["downtown"]], "n": "Daniel lavora in centro e prende la metro."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Family, work, people",
+      "intro": "La famiglia allargata, i lavori e i posti di lavoro, le parole per descrivere una persona, e gli avverbi di frequenza. Gli aggettivi inglesi hanno una forma sola: impara la parola, non le desinenze.",
+      "blocks": [
+        {"type": "vocab", "theme": "The family", "n": "La famiglia", "items": [
+          {"t": "sister / brother", "n": "sorella / fratello", "pos": "noun", "ipa": "ˈsɪstər / ˈbrʌðər", "ex": {"t": "This is my sister Rosa. Franco has two brothers.", "n": "Questa è mia sorella Rosa. Franco ha due fratelli."}, "note": "Siblings = fratelli e sorelle insieme: Do you have any siblings?"},
+          {"t": "son / daughter", "n": "figlio / figlia", "pos": "noun", "ipa": "sʌn / ˈdɔtər", "ex": {"t": "Our son Daniel. Michele's daughter.", "n": "Nostro figlio Daniel. La figlia di Michele."}, "note": "Daughter si pronuncia \"DO-ter\": gh muto. Children = figli (e bambini)."},
+          {"t": "husband / wife", "n": "marito / moglie", "pos": "noun", "ipa": "ˈhʌzbənd / waɪf", "ex": {"t": "Rosa and her husband Joe. Jessica is Daniel's wife.", "n": "Rosa e suo marito Joe. Jessica è la moglie di Daniel."}, "note": "Plurale irregolare: wives. Married = sposato/a."},
+          {"t": "grandmother / grandfather", "n": "nonna / nonno", "pos": "noun", "ex": {"t": "My grandmother Rosa makes pasticciotti at Christmas.", "n": "Mia nonna Rosa fa i pasticciotti a Natale."}, "note": "Familiari: grandma, grandpa, nonna, nonno (nelle famiglie italo-canadesi si dice nonna). Grandparents = nonni."},
+          {"t": "grandson / granddaughter", "n": "nipote (di nonni)", "pos": "noun", "ex": {"t": "{hero} is Cosimo's {{grandson|granddaughter}}.", "n": "{hero} è {{il nipote|la nipote}} di Cosimo."}, "note": "Grandchild / grandchildren: neutro. L'inglese distingue nipote di nonni (grandson) da nipote di zii (nephew)."},
+          {"t": "nephew / niece", "n": "nipote (di zii)", "pos": "noun", "ipa": "ˈnɛfjuː / niːs", "ex": {"t": "Daniel is Teresa's nephew; Sofia is Rosa's niece.", "n": "Daniel è il nipote di Teresa; Sofia è la nipote di Rosa."}},
+          {"t": "cousin", "n": "cugino, cugina", "pos": "noun", "ipa": "ˈkʌzən", "plural": "cousins", "ex": {"t": "Chiara and {hero} are second cousins.", "n": "Chiara e {hero} sono cugini di secondo grado."}},
+          {"t": "relatives", "n": "parenti", "pos": "noun", "ipa": "ˈrɛlətɪvz", "ex": {"t": "Twenty relatives at one table.", "n": "Venti parenti a un tavolo."}, "note": "Parents = genitori; relatives = parenti. Il falso amico più comune di questa unità."},
+          {"t": "in-laws", "n": "suoceri, parenti acquisiti", "pos": "noun", "ex": {"t": "Joe is Teresa's brother-in-law.", "n": "Joe è il cognato di Teresa."}, "note": "Mother-in-law (suocera), father-in-law, sister-in-law (cognata), brother-in-law (cognato). Plurale: mothers-in-law."},
+          {"t": "sweetheart", "n": "tesoro, caro/a", "pos": "noun", "ipa": "ˈswiːthɑrt", "ex": {"t": "Welcome, sweetheart!", "n": "Benvenuta, tesoro!"}, "note": "Honey, dear, sweetie: le zie e le cameriere di una certa età li usano con tutti. Non è intimità."},
+          {"t": "married / single", "n": "sposato/a / single", "pos": "adj.", "ipa": "ˈmɛrid", "ex": {"t": "Daniel is married. Sofia is single.", "n": "Daniel è sposato. Sofia è single."}, "note": "Married to someone (non with). Divorced, separated, engaged (fidanzato ufficialmente)."}
+        ]},
+        {"type": "vocab", "theme": "Work", "n": "Il lavoro", "intro": "What do you do? è la domanda; la risposta è I'm a + lavoro, con a.", "items": [
+          {"t": "job", "n": "lavoro, impiego", "pos": "noun", "ipa": "dʒɒb", "plural": "jobs", "ex": {"t": "Sofia has a part-time job at a bookstore.", "n": "Sofia ha un lavoro part-time in una libreria."}, "note": "Job si conta: a job, two jobs. Work (il lavoro in generale) no: I have a lot of work, non *a work*."},
+          {"t": "project manager", "n": "project manager, responsabile di progetto", "pos": "noun", "plural": "project managers", "ex": {"t": "Daniel is a project manager. Nobody knows what he does.", "n": "Daniel è project manager. Nessuno sa cosa fa."}, "note": "Manager = responsabile, dirigente. In Canada tutti sono manager di qualcosa."},
+          {"t": "dental hygienist", "n": "igienista dentale", "pos": "noun", "ipa": "ˌdɛntəl haɪˈdʒiːnɪst", "ex": {"t": "Jessica is a dental hygienist. She cleans teeth.", "n": "Jessica è igienista dentale. Pulisce i denti."}, "note": "Un lavoro comune in Canada, con un college di tre anni. Dentist = dentista."},
+          {"t": "driver", "n": "autista, conducente", "pos": "noun", "ipa": "ˈdraɪvər", "plural": "drivers", "ex": {"t": "Cousin Tony is an Uber driver on weekends.", "n": "Il cugino Tony fa l'autista per Uber nei weekend."}, "note": "Truck driver = camionista, bus driver, taxi driver."},
+          {"t": "teacher", "n": "insegnante, maestro/a", "pos": "noun", "ipa": "ˈtiːtʃər", "plural": "teachers", "ex": {"t": "Teresa isn't a teacher; she's a school secretary.", "n": "Teresa non è insegnante; è segretaria scolastica."}, "note": "Una parola per maestro, professore e insegnante. Professor è solo all'università."},
+          {"t": "nurse", "n": "infermiere, infermiera", "pos": "noun", "ipa": "nɜrs", "plural": "nurses", "ex": {"t": "Rosa's daughter is a nurse at St. Joseph's.", "n": "La figlia di Rosa è infermiera al St. Joseph's."}, "note": "Una forma per uomini e donne, come teacher, doctor, lawyer."},
+          {"t": "engineer", "n": "ingegnere", "pos": "noun", "ipa": "ˌɛndʒɪˈnɪr", "plural": "engineers", "ex": {"t": "Joe is an engineer. He builds roads.", "n": "Joe è ingegnere. Costruisce strade."}, "note": "Accento sull'ultima sillaba: engi-NEER. An, perché comincia con vocale."},
+          {"t": "lawyer", "n": "avvocato", "pos": "noun", "ipa": "ˈlɔɪər", "plural": "lawyers", "ex": {"t": "My cousin's wife is a lawyer.", "n": "La moglie di mio cugino è avvocato."}},
+          {"t": "cook / chef", "n": "cuoco / chef", "pos": "noun", "ipa": "kʊk / ʃɛf", "ex": {"t": "Franco is a good cook. Chiara is a pastry chef.", "n": "Franco è un bravo cuoco. Chiara è pasticcera."}, "note": "Cook = chi cucina (anche a casa); chef = cuoco professionista. Cook è anche il verbo cucinare."},
+          {"t": "office", "n": "ufficio", "pos": "noun", "ipa": "ˈɒfɪs", "plural": "offices", "ex": {"t": "Daniel works in an office downtown.", "n": "Daniel lavora in un ufficio in centro."}, "note": "Falso amico: office = ufficio; officina = garage, workshop."},
+          {"t": "part-time / full-time", "n": "part-time / a tempo pieno", "pos": "adj.", "ex": {"t": "She works part-time. He works full-time.", "n": "Lavora part-time. Lavora a tempo pieno."}, "note": "Shift = turno: morning shift, night shift."},
+          {"t": "retired", "n": "in pensione", "pos": "adj.", "ipa": "rɪˈtaɪərd", "ex": {"t": "Franco is retired. He was a tile-setter.", "n": "Franco è in pensione. Faceva il piastrellista."}, "note": "Be retired = essere in pensione; retire = andare in pensione."}
+        ]},
+        {"type": "vocab", "theme": "What is he like?", "n": "Com'è?", "intro": "Gli aggettivi inglesi non cambiano mai: tall per Sofia, Franco, i cugini e le cugine.", "items": [
+          {"t": "tall / short", "n": "alto / basso", "pos": "adj.", "ipa": "tɔl / ʃɔrt", "ex": {"t": "Sofia is tall. Franco is short.", "n": "Sofia è alta. Franco è basso."}},
+          {"t": "slim / heavy", "n": "magro, snello / robusto", "pos": "adj.", "ipa": "slɪm / ˈhɛvi", "ex": {"t": "Teresa is slim. Joe is a bit heavy.", "n": "Teresa è magra. Joe è un po' robusto."}, "note": "Slim è gentile, thin neutro, skinny un po' negativo. Fat è brusco: heavy, big, overweight sono più educati."},
+          {"t": "hair", "n": "capelli", "pos": "noun", "ipa": "hɛr", "ex": {"t": "She has long brown hair. He has short grey hair.", "n": "Ha i capelli lunghi e castani. Ha i capelli corti e grigi."}, "note": "Singolare e non numerabile: hair is, non *hairs are*. Blond(e), brown, black, red, grey, white; straight (lisci), curly (ricci), wavy (mossi); bald = calvo."},
+          {"t": "eyes", "n": "occhi", "pos": "noun", "ipa": "aɪz", "ex": {"t": "Sofia has green eyes.", "n": "Sofia ha gli occhi verdi."}, "note": "Blue, green, brown, hazel (nocciola), dark. Niente articolo: green eyes, non *the green eyes*."},
+          {"t": "beard / moustache", "n": "barba / baffi", "pos": "noun", "ipa": "bɪrd / ˈmʌstæʃ", "ex": {"t": "Franco has a moustache. Daniel has a beard.", "n": "Franco ha i baffi. Daniel ha la barba."}, "note": "A moustache, singolare in inglese. Ortografia canadese: moustache (US: mustache)."},
+          {"t": "glasses", "n": "occhiali", "pos": "noun (pl.)", "ipa": "ˈɡlæsɪz", "ex": {"t": "Pasquale wears glasses. Teresa has glasses too.", "n": "Pasquale porta gli occhiali. Anche Teresa ha gli occhiali."}, "note": "Sempre plurale: a pair of glasses. Wear glasses = portare gli occhiali."},
+          {"t": "young / old", "n": "giovane / vecchio, anziano", "pos": "adj.", "ipa": "jʌŋ / oʊld", "ex": {"t": "The doctor is young. My grandparents are old.", "n": "Il medico è giovane. I miei nonni sono anziani."}, "note": "Elderly = anziano, più gentile. Old anche per \"di anni\": a thirty-year-old man."},
+          {"t": "friendly / kind", "n": "cordiale, amichevole / gentile", "pos": "adj.", "ipa": "ˈfrɛndli / kaɪnd", "ex": {"t": "Canadians are friendly. Teresa is very kind.", "n": "I canadesi sono cordiali. Teresa è molto gentile."}, "note": "Nice = simpatico, carino, gentile: la parola passe-partout. Sympathetic = comprensivo, non simpatico."},
+          {"t": "funny / serious", "n": "divertente, buffo / serio", "pos": "adj.", "ipa": "ˈfʌni / ˈsɪriəs", "ex": {"t": "Franco is funny. Teresa is serious.", "n": "Franco è divertente. Teresa è seria."}, "note": "Funny = che fa ridere; fun = divertente (un'attività). Funny anche = strano: that's funny."},
+          {"t": "quiet / lazy", "n": "silenzioso, tranquillo / pigro", "pos": "adj.", "ipa": "ˈkwaɪət / ˈleɪzi", "ex": {"t": "Daniel is quiet. Sofia is a bit lazy, says Franco.", "n": "Daniel è silenzioso. Sofia è un po' pigra, dice Franco."}, "note": "Quiet (silenzioso) non è quite (abbastanza): si pronunciano diversamente."},
+          {"t": "smart", "n": "intelligente, sveglio", "pos": "adj.", "ipa": "smɑrt", "ex": {"t": "Sofia is smart. She studies and works.", "n": "Sofia è intelligente. Studia e lavora."}, "note": "In Nord America smart = intelligente; nel Regno Unito anche elegante. Clever e intelligent si capiscono ovunque."}
+        ]},
+        {"type": "vocab", "theme": "How often?", "n": "Quanto spesso?", "items": [
+          {"t": "always", "n": "sempre", "pos": "adv.", "ipa": "ˈɔlweɪz", "ex": {"t": "{hero} always says the same thing.", "n": "{hero} dice sempre la stessa cosa."}, "note": "Prima del verbo, dopo be: she always calls; she's always late."},
+          {"t": "usually", "n": "di solito", "pos": "adv.", "ipa": "ˈjuːʒuəli", "ex": {"t": "We usually have dinner at six.", "n": "Di solito ceniamo alle sei."}},
+          {"t": "often", "n": "spesso", "pos": "adv.", "ipa": "ˈɒfən", "ex": {"t": "Rosa often asks personal questions.", "n": "Rosa fa spesso domande personali."}, "note": "La t non si pronuncia (o si pronuncia: sono giuste tutte e due)."},
+          {"t": "sometimes", "n": "a volte", "pos": "adv.", "ipa": "ˈsʌmtaɪmz", "ex": {"t": "Sometimes Franco cooks. Franco sometimes cooks.", "n": "A volte cucina Franco."}, "note": "Può stare anche all'inizio o alla fine."},
+          {"t": "never", "n": "mai", "pos": "adv.", "ipa": "ˈnɛvər", "ex": {"t": "Daniel never talks about his job.", "n": "Daniel non parla mai del suo lavoro."}, "note": "Never è già negativo: niente don't. Never talks, non *doesn't never talk*."},
+          {"t": "every day", "n": "ogni giorno, tutti i giorni", "pos": "adv.", "ex": {"t": "Franco calls Italy every Sunday. Sofia studies every day.", "n": "Franco chiama l'Italia ogni domenica. Sofia studia tutti i giorni."}, "note": "Alla fine della frase. Every day (due parole) = ogni giorno; everyday (una parola) = quotidiano, aggettivo."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "La terza persona, e di chi è",
+      "intro": "Cinque pezzi: la -s della terza persona con does e doesn't; il genitivo sassone completo e whose; gli aggettivi invariabili e il loro posto; gli avverbi di frequenza; la domanda What do you do? Schede complete in fondo a ogni blocco.",
+      "blocks": [
+        {"type": "grammar", "id": "g-third-person", "title": "He works, she doesn't work, does he work?", "category": "Verbi", "rule": "Con he, she, it (e con ogni nome singolare) il present simple prende la -s: works, studies, goes, has. Negativo: doesn't + verbo senza -s. Domanda: does + soggetto + verbo senza -s. La -s va o sul verbo o su does, mai su tutti e due.", "ref": "present-simple", "blocks": [
+          {"type": "conjugation", "verb": "work", "tense": "present_simple", "caption": "[[work]] · present simple, tutte le persone"},
+          {"type": "table", "caption": "L'ortografia della -s", "head": ["Regola", "Esempi"], "rows": [["+ -s", "works, takes, cleans, sleeps, calls, lives, likes"], ["+ -es dopo s, ss, sh, ch, x, z, o", "misses, washes, watches, fixes, goes, does"], ["consonante + y → -ies", "studies, tries, carries, flies"], ["vocale + y + -s", "plays, says, buys, enjoys"], ["irregolari", "have → has · be → is"]], "speak": [1], "compact": true},
+          {"type": "table", "caption": "Negativo e domanda", "head": ["", "Affermativa", "Negativa", "Domanda", "Risposta breve"], "rows": [["he", "He works downtown.", "He doesn't work downtown.", "Does he work downtown?", "Yes, he does. / No, he doesn't."], ["she", "She studies.", "She doesn't study.", "Does she study?", "Yes, she does."], ["it", "It costs a lot.", "It doesn't cost a lot.", "Does it cost a lot?", "No, it doesn't."], ["Sofia", "Sofia has a job.", "Sofia doesn't have a job.", "Does Sofia have a job?", "Yes, she does."]], "speak": [1, 2, 3, 4], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Daniel works downtown and takes the subway.", "n": "Daniel lavora in centro e prende la metro."},
+            {"t": "Sofia studies, but she doesn't study on Sundays.", "n": "Sofia studia, ma la domenica non studia.", "note": "doesn't + study, senza -s"},
+            {"t": "What does Jessica do? — She cleans teeth.", "n": "Cosa fa Jessica? — Pulisce i denti."},
+            {"t": "Everybody has a car. Nobody knows what he does.", "n": "Tutti hanno la macchina. Nessuno sa cosa fa.", "note": "everybody, nobody, somebody: terza persona singolare"}
+          ]},
+          {"type": "callout", "kind": "warn", "title": "La -s dimenticata", "text": "È l'errore più frequente degli italiani a tutti i livelli: [[she work]], [[he live in Toronto]]. Non cambia il senso, ma si sente subito. La -s della terza persona è l'unica desinenza verbale rimasta in inglese: usala."},
+          {"type": "mistakes", "items": [
+            {"wrong": "She work. He live downtown.", "right": "She works. He lives downtown.", "why": "-s alla terza persona."},
+            {"wrong": "She doesn't works. Does he works?", "right": "She doesn't work. Does he work?", "why": "Una sola -s: su does, non sul verbo."},
+            {"wrong": "He don't call.", "right": "He doesn't call.", "why": "Terza persona: doesn't."},
+            {"wrong": "She studys. He gos.", "right": "She studies. He goes.", "why": "Ortografia: -ies, -es."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-genitive", "title": "Michele's daughter, Daniel's wife: il genitivo sassone e whose", "category": "Possessivi", "rule": "Nome + 's = \"di\": Michele's daughter, Rosa's husband. Nome plurale in -s + ' : my parents' house. Whose…? chiede di chi è.", "ref": "possessives", "blocks": [
+          {"type": "table", "head": ["Caso", "Esempio", "Italiano"], "rows": [["persona + 's + cosa", "Michele's daughter, Rosa's husband, Franco's wine", "la figlia di Michele, il marito di Rosa, il vino di Franco"], ["nome in -s + '", "my parents' house, the Ferrantes' table", "la casa dei miei genitori, il tavolo dei Ferrante"], ["plurale irregolare + 's", "the children's table, people's jobs", "il tavolo dei bambini, i lavori della gente"], ["due proprietari", "Rosa and Joe's son", "il figlio di Rosa e Joe"], ["senza il nome della cosa", "This is Franco's. We're at Rosa's.", "È di Franco. Siamo da Rosa."], ["whose", "Whose wine is this? — It's Franco's.", "Di chi è questo vino? — È di Franco."]], "speak": [1]},
+          {"type": "examples", "items": [
+            {"t": "Jessica is Daniel's wife, and Daniel is Rosa's son.", "n": "Jessica è la moglie di Daniel, e Daniel è il figlio di Rosa."},
+            {"t": "Whose glasses are these? — They're Teresa's.", "n": "Di chi sono questi occhiali? — Sono di Teresa."},
+            {"t": "{hero}'s room is upstairs; {{his|her}} bike is in the garage.", "n": "La camera di {hero} è di sopra; la sua bici è in garage.", "note": "{hero}'s e his / her dicono la stessa cosa"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "the daughter of Michele", "right": "Michele's daughter", "why": "Con le persone, 's."},
+            {"wrong": "my parent's house (per \"dei miei genitori\")", "right": "my parents' house", "why": "Parents è plurale: apostrofo dopo la s."},
+            {"wrong": "Who's wine is this?", "right": "Whose wine is this?", "why": "Whose = di chi; who's = who is. Si pronunciano uguali."},
+            {"wrong": "the Daniel's wife", "right": "Daniel's wife", "why": "Niente articolo davanti al nome con 's."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-adjectives", "title": "Gli aggettivi: una forma sola, prima del nome", "category": "Aggettivi", "rule": "L'aggettivo inglese non concorda: a tall man, a tall woman, tall people. Va prima del nome (long hair, a quiet cousin) o dopo be (she is quiet). Più aggettivi: opinione prima, poi dimensione, età, colore.", "ref": "adjectives", "blocks": [
+          {"type": "table", "head": ["Italiano", "Inglese", "Nota"], "rows": [["un uomo alto · una donna alta · uomini alti", "a tall man · a tall woman · tall men", "una forma sola"], ["capelli lunghi · una casa grande", "long hair · a big house", "aggettivo prima del nome"], ["È alta. Sono simpatici.", "She's tall. They're nice.", "dopo be"], ["capelli lunghi e castani", "long brown hair", "dimensione prima del colore, senza and"], ["una bella casa vecchia", "a nice old house", "opinione prima dell'età"]], "speak": [1], "rowhead": false},
+          {"type": "table", "caption": "Descrivere una persona", "head": ["", "Esempio"], "rows": [["be + aggettivo", "She's tall and slim. He's short and heavy."], ["have + capelli / occhi + aggettivi", "She has long brown hair. He has blue eyes."], ["with + caratteristica", "a man with a moustache, a woman with glasses"], ["wear (portare)", "He wears glasses. She wears a uniform."], ["carattere: be + aggettivo", "She's friendly, funny and a bit lazy."], ["età: be + numero", "He's fifty-eight. A fifty-eight-year-old man."]], "speak": [1]},
+          {"type": "examples", "items": [
+            {"t": "Sofia is tall. She has long brown hair and green eyes.", "n": "Sofia è alta. Ha i capelli lunghi e castani e gli occhi verdi."},
+            {"t": "Franco is a short, heavy man with a moustache.", "n": "Franco è un uomo basso e robusto con i baffi."},
+            {"t": "Rosa is friendly and very curious.", "n": "Rosa è cordiale e molto curiosa."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "She has the hairs long.", "right": "She has long hair.", "why": "Hair singolare, aggettivo prima, niente articolo."},
+            {"wrong": "a man tall, cousins nices", "right": "a tall man, nice cousins", "why": "Aggettivo prima del nome e invariabile."},
+            {"wrong": "She has the eyes green.", "right": "She has green eyes.", "why": "Colore prima del nome, niente the."},
+            {"wrong": "He's very sympathetic. (per simpatico)", "right": "He's very nice. / He's very friendly.", "why": "Sympathetic = comprensivo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-frequency", "title": "Always, usually, often, sometimes, never", "category": "Avverbi", "rule": "Gli avverbi di frequenza vanno prima del verbo principale e dopo be: she always calls, she is always late. Le espressioni lunghe (every day, on Saturdays, twice a week) vanno alla fine.", "ref": "frequency-adverbs", "blocks": [
+          {"type": "table", "head": ["100%", "", "", "", "", "0%"], "rows": [["always", "usually", "often", "sometimes", "rarely · hardly ever", "never"], ["sempre", "di solito", "spesso", "a volte", "raramente · quasi mai", "mai"]], "speak": [0, 1, 2, 3, 4, 5], "compact": true},
+          {"type": "table", "caption": "La posizione", "head": ["Regola", "Esempio"], "rows": [["prima del verbo", "Franco always calls on Sundays. Sofia never cooks."], ["dopo be", "He is always late. They are never at home."], ["tra ausiliare e verbo", "She doesn't usually work on Sundays. Does he often call?"], ["sometimes / usually: anche all'inizio", "Sometimes Franco cooks. Usually Teresa cooks."], ["espressioni di tempo: alla fine", "She works on Saturdays. He calls every Sunday. We eat out twice a month."], ["la domanda", "How often do you call Italy? — Every Sunday."]], "speak": [1]},
+          {"type": "examples", "items": [
+            {"t": "{hero} always says the same thing.", "n": "{hero} dice sempre la stessa cosa."},
+            {"t": "Rosa is always curious.", "n": "Rosa è sempre curiosa."},
+            {"t": "Daniel never talks about his job.", "n": "Daniel non parla mai del suo lavoro.", "note": "never = non… mai, senza don't"},
+            {"t": "How often does Sofia work? — Once a week, on Saturdays.", "n": "Quanto spesso lavora Sofia? — Una volta alla settimana, il sabato."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "She calls always. Always she calls.", "right": "She always calls.", "why": "Prima del verbo principale."},
+            {"wrong": "She always is late.", "right": "She is always late.", "why": "Dopo be."},
+            {"wrong": "He doesn't never cook.", "right": "He never cooks.", "why": "Never è già negativo: un negativo solo."},
+            {"wrong": "Every day she studies. (ok) / She every day studies.", "right": "She studies every day.", "why": "Le espressioni lunghe vanno alla fine (o all'inizio), mai in mezzo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-what-do", "title": "What do you do? What does he do?", "category": "Frasi", "rule": "What do you do? = che lavoro fai (abitudine, present simple). What are you doing? = cosa stai facendo (adesso, present continuous, unità 6). Due domande, due risposte diverse.", "ref": "present-simple", "blocks": [
+          {"type": "table", "head": ["Domanda", "Significato", "Risposta"], "rows": [["What do you do?", "Che lavoro fai?", "I'm a pastry chef. I work at a bakery."], ["What does he do?", "Che lavoro fa (lui)?", "He's a project manager."], ["Where do you work?", "Dove lavori?", "At a bakery on Dundas Street."], ["Who do you work for?", "Per chi lavori?", "For a small company. / For myself."], ["Do you like your job?", "Ti piace il tuo lavoro?", "I love it. / It's okay."], ["What are you doing? (unità 6)", "Cosa stai facendo?", "I'm eating. I'm waiting for Sofia."]], "speak": [0, 2]},
+          {"type": "examples", "items": [
+            {"t": "What do you do, Chiara? — I'm a pastry chef. I make cakes.", "n": "Che lavoro fai, Chiara? — Sono pasticcera. Faccio torte."},
+            {"t": "What does Joe do? — He's an engineer. He builds roads.", "n": "Che lavoro fa Joe? — È ingegnere. Costruisce strade."},
+            {"t": "And what does Rosa do? — She asks questions.", "n": "E Rosa cosa fa? — Fa domande."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "What is your job? (va bene, ma raro) / What work do you do?", "right": "What do you do?", "why": "La domanda standard, anche nello small talk."},
+            {"wrong": "What do you do? — I'm pastry chef.", "right": "I'm a pastry chef.", "why": "Mestiere con a / an."},
+            {"wrong": "What does he does?", "right": "What does he do?", "why": "Does + verbo base."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "The -s ending and the schwa",
+      "intro": "Due cose che non si vedono nell'ortografia: la -s finale ha tre suoni, e la vocale più frequente dell'inglese, lo schwa, non ha una lettera sua.",
+      "blocks": [
+        {"type": "table", "caption": "La -s finale: tre suoni (verbi e plurali)", "head": ["Suono", "Dopo", "Esempi"], "rows": [["/s/", "consonante sorda: p, t, k, f, th", "works, takes, sleeps, gets, likes, laughs, months"], ["/z/", "vocale o consonante sonora: b, d, g, v, l, m, n, r", "lives, calls, cleans, studies, plays, drives, goes, has"], ["/ɪz/", "s, z, sh, ch, x, ge: una sillaba in più", "misses, washes, watches, fixes, manages, uses, houses"]], "speak": [2], "rowhead": true, "note": "Stessa regola per i plurali: cats /s/, dogs /z/, buses /ɪz/. Gli italiani tendono a dire sempre /s/: calls e cleans vogliono la z."},
+        {"type": "sounds", "items": [
+          {"sound": "/z/", "t": "lives", "n": "vive", "ipa": "lɪvz", "tip": "Sonoro, come la s di \"rosa\". Lives, calls, has, is, does, goes."},
+          {"sound": "/ɪz/", "t": "watches", "n": "guarda", "ipa": "ˈwɒtʃɪz", "tip": "Due sillabe: WOT-chiz. Anche misses, washes, manages."},
+          {"sound": "ə", "t": "about", "n": "circa, riguardo a", "ipa": "əˈbaʊt", "tip": "Lo schwa: una vocale breve, neutra, senza accento, tra a ed e. La prima sillaba di about, la seconda di teacher, Canada, sister."},
+          {"sound": "ə", "t": "Canada", "n": "Canada", "ipa": "ˈkænədə", "tip": "CA-nə-də: solo la prima sillaba ha una vocale piena. Un italiano dice ca-NA-da con tre a piene."},
+          {"sound": "ə", "t": "doctor", "n": "medico", "ipa": "ˈdɒktər", "tip": "La o finale non è una o: doc-tər. Lo stesso per teacher, manager, driver, sister, brother, daughter."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "Lo schwa in una frase", "text": "Le sillabe senza accento si riducono a schwa: [[a cup of coffee]] si dice \"ə cʌp əv COFfee\"; [[What does he do?]] diventa \"wə-dəz-i-DO\". Non devi produrlo perfettamente; devi riconoscerlo, perché senza lo schwa non si capisce l'inglese parlato."},
+        {"type": "minimal", "caption": "Ascolta la -s", "pairs": [
+          {"a": "works", "b": "lives", "na": "lavora", "nb": "vive", "tip": "/s/ contro /z/."},
+          {"a": "takes", "b": "goes", "na": "prende", "nb": "va"},
+          {"a": "likes", "b": "watches", "na": "piace", "nb": "guarda", "tip": "Una sillaba contro due."},
+          {"a": "cats", "b": "dogs", "na": "gatti", "nb": "cani"}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "He works downtown, takes the subway and gets home at seven.", "n": "Lavora in centro, prende la metro e torna a casa alle sette.", "note": "tre /s/"},
+          {"t": "She studies, cleans teeth and watches hockey.", "n": "Studia, pulisce i denti e guarda l'hockey.", "note": "/z/ · /z/ · /ɪz/"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Quaranta esercizi in cinque serie e un ripasso misto. La -s conta: she work è sbagliato. Contrazioni accettate.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Third person -s", "items": [
+          {"kind": "conjugate", "verb": "work", "tense": "present simple", "n": "lavorare", "answers": ["work", "work", "works", "work", "work", "work"]},
+          {"kind": "fill", "q": "Daniel ___ (work) downtown and ___ (take) the subway.", "answers": [["works"], ["takes"]], "n": "Daniel lavora in centro e prende la metro."},
+          {"kind": "fill", "q": "Sofia ___ (study) and ___ (have) a part-time job.", "answers": [["studies"], ["has"]], "n": "Sofia studia e ha un lavoro part-time."},
+          {"kind": "fill", "q": "Jessica ___ (clean) teeth. Franco ___ (go) to the bar every morning.", "answers": [["cleans"], ["goes"]], "n": "Jessica pulisce i denti. Franco va al bar ogni mattina."},
+          {"kind": "fill", "q": "{hero} ___ (not call) on Saturdays. ___ {hero} ___ (have) friends? — Yes, {{he|she}} ___.", "answers": [["doesn't call", "does not call"], ["Does"], ["have"], ["does"]], "n": "{hero} non chiama il sabato. {hero} ha amici? — Sì."},
+          {"kind": "mc", "q": "Quale è corretta?", "options": ["She doesn't work on Sundays.", "She doesn't works on Sundays.", "She don't work on Sundays."], "answer": 0, "why": "Doesn't + verbo senza -s."},
+          {"kind": "order", "answer": "What does Jessica do?", "n": "Che lavoro fa Jessica?"},
+          {"kind": "translate", "q": "Daniel non parla del suo lavoro.", "answers": ["Daniel doesn't talk about his job", "Daniel does not talk about his job", "Daniel doesn't talk about his work"]}
+        ]},
+        {"type": "exercises", "title": "2 · 's and whose", "items": [
+          {"kind": "fill", "q": "Chiara is ___ daughter. (Michele) Jessica is ___ wife. (Daniel)", "answers": [["Michele's"], ["Daniel's"]], "n": "Chiara è la figlia di Michele. Jessica è la moglie di Daniel."},
+          {"kind": "mc", "q": "«La casa dei miei genitori»", "options": ["my parents' house", "my parent's house", "the house of my parents"], "answer": 0, "why": "Plurale in -s: solo l'apostrofo."},
+          {"kind": "fill", "q": "___ wine is this? — It's ___. (Franco)", "answers": [["Whose"], ["Franco's"]], "n": "Di chi è questo vino? — È di Franco."},
+          {"kind": "match", "q": "Chi è chi?", "pairs": [["Rosa's husband", "Joe"], ["Teresa's sister", "Rosa"], ["Daniel's wife", "Jessica"], ["{hero}'s sister", "Sofia"], ["Michele's daughter", "Chiara"]]},
+          {"kind": "translate", "q": "Il figlio di Rosa e Joe è project manager.", "answers": ["Rosa and Joe's son is a project manager"]}
+        ]},
+        {"type": "exercises", "title": "3 · Describing people", "items": [
+          {"kind": "fill", "q": "Sofia is ___ (alta) and has ___ (lunghi) ___ (castani) hair.", "answers": [["tall"], ["long"], ["brown"]], "n": "Sofia è alta e ha i capelli lunghi e castani."},
+          {"kind": "order", "answer": "Franco is a short man with a moustache.", "n": "Franco è un uomo basso con i baffi."},
+          {"kind": "mc", "q": "«Hanno gli occhi verdi.»", "options": ["They have green eyes.", "They have the eyes green.", "They have greens eyes."], "answer": 0, "why": "Aggettivo prima del nome, invariabile, senza the."},
+          {"kind": "fill", "q": "Teresa ___ (wear) glasses. She ___ (be) slim and serious.", "answers": [["wears"], ["is", "'s"]], "n": "Teresa porta gli occhiali. È magra e seria."},
+          {"kind": "match", "q": "Contrari.", "pairs": [["tall", "short"], ["slim", "heavy"], ["young", "old"], ["funny", "serious"], ["quiet", "loud"]]},
+          {"kind": "tf", "q": "«He's very sympathetic» vuol dire «è molto simpatico».", "answer": false, "why": "Sympathetic = comprensivo. Simpatico = nice, friendly, fun."},
+          {"kind": "translate", "q": "Mia zia è cordiale e un po' curiosa.", "answers": ["My aunt is friendly and a bit curious", "My aunt is friendly and a little curious"]}
+        ]},
+        {"type": "exercises", "title": "4 · How often?", "items": [
+          {"kind": "order", "answer": "Franco always calls Italy on Sundays.", "n": "Franco chiama sempre l'Italia la domenica."},
+          {"kind": "order", "answer": "Rosa is always curious.", "n": "Rosa è sempre curiosa."},
+          {"kind": "fill", "q": "Daniel ___ talks about his job. (mai)", "answers": [["never"]], "n": "Daniel non parla mai del suo lavoro."},
+          {"kind": "mc", "q": "«Di solito ceniamo alle sei.»", "options": ["We usually have dinner at six.", "We have usually dinner at six.", "Usually we have dinner at six o'clock usually."], "answer": 0, "why": "Prima del verbo principale."},
+          {"kind": "fill", "q": "How ___ does Sofia work? — ___ a week, on Saturdays.", "answers": [["often"], ["Once"]], "n": "Quanto spesso lavora Sofia? — Una volta alla settimana, il sabato."},
+          {"kind": "dictation", "text": "Sofia studies every day and works on Saturdays.", "n": "Sofia studia tutti i giorni e lavora il sabato."}
+        ]},
+        {"type": "exercises", "title": "5 · What do you do?", "items": [
+          {"kind": "reply", "line": {"t": "What do you do?", "n": "Che lavoro fai?"}, "options": ["I'm a pastry chef.", "I'm pastry chef.", "I do pastry chef."], "answer": 0, "why": "I'm a + mestiere."},
+          {"kind": "reply", "line": {"t": "What does your father do?", "n": "Che lavoro fa tuo padre?"}, "options": ["He's a mechanic.", "He's mechanic.", "He does mechanic."], "answer": 0, "why": "He's a + mestiere."},
+          {"kind": "fill", "q": "What ___ Joe ___? — He's an engineer. He ___ (build) roads.", "answers": [["does"], ["do"], ["builds"]], "n": "Che lavoro fa Joe? — È ingegnere. Costruisce strade."},
+          {"kind": "fill", "q": "Where ___ Daniel work? — ___ an office downtown.", "answers": [["does"], ["In"]], "n": "Dove lavora Daniel? — In un ufficio in centro."},
+          {"kind": "translate", "q": "Ti piace il tuo lavoro? — Sì.", "answers": ["Do you like your job? Yes, I do", "Do you like your job? — Yes, I do", "Do you like your job? Yes", "Do you like your job? — Yes"]},
+          {"kind": "speak", "text": "What does she do? — She's a nurse. She works at a hospital.", "n": "Che lavoro fa? — È infermiera. Lavora in un ospedale.", "tip": "Does she: la -s di does è /z/; works è /s/; nurse ha la r canadese."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Tutta l'unità, mescolata.", "items": [
+          {"kind": "fill", "q": "My cousin Daniel ___ (be) a project manager. He ___ (work) downtown, he ___ (not drive) and he ___ (get) home at seven.", "answers": [["is", "'s"], ["works"], ["doesn't drive", "does not drive"], ["gets"]], "n": "Mio cugino Daniel è project manager. Lavora in centro, non guida e torna a casa alle sette."},
+          {"kind": "fill", "q": "{hero} ___ calls every Sunday. (sempre) {{He|She}} ___ calls on Saturdays. (mai)", "answers": [["always"], ["never"]], "n": "{hero} chiama sempre la domenica. Non chiama mai il sabato."},
+          {"kind": "mc", "q": "«Di chi è questa bici? — È di {hero}.»", "options": ["Whose bike is this? — It's {hero}'s.", "Who's bike is this? — It's of {hero}.", "Whose is this bike? — It's the {hero}'s."], "answer": 0, "why": "Whose + nome; risposta con 's."},
+          {"kind": "write", "q": "Descrivi una persona della tua famiglia in cinque frasi brevi: chi è, età, lavoro, aspetto, carattere, un'abitudine.", "model": "My aunt Rosa is sixty-two. She's a retired nurse. She's short, with grey hair and glasses. She's friendly and very curious. She always asks personal questions.", "hint": "She's… · She's a… · She has… · She always…"},
+          {"kind": "speak", "text": "My sister is smart. She studies every day and she never cooks.", "n": "Mia sorella è intelligente. Studia tutti i giorni e non cucina mai.", "tip": "Studies e cooks: /z/ e /s/. Never prima del verbo."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "La cena della domenica",
+      "intro": "Le famiglie italo-canadesi, il lavoro come biglietto da visita, e la domanda che in Canada si fa a tutti: What do you do?",
+      "blocks": [
+        {"type": "subhead", "text": "La famiglia italo-canadese"},
+        {"type": "prose", "text": "A Toronto vivono circa mezzo milione di persone di origine italiana, la comunità italiana più grande fuori dall'Italia dopo San Paolo e Buenos Aires. La generazione di Franco è arrivata bambina negli anni Cinquanta e Sessanta; i figli, come Daniel e Sofia, sono canadesi che capiscono l'italiano (o il dialetto) e rispondono in inglese; i nipoti lo studiano a scuola il sabato, se lo studiano. La famiglia resta larga e si vede la domenica: il pranzo, che qui si chiama [[Sunday dinner]] anche se è alle due, dura tutto il pomeriggio, si cucina nel basement e si serve in quantità che i cugini anglofoni raccontano agli amici.\n\nDue parole che senti solo qui: [[mangia-cake]] (o [[mangiacake]]), il canadese non italiano, quello che \"mangia torta\" invece del pane vero, detto con affetto e un po' di superiorità; e [[nonna]], che in inglese si pronuncia \"NO-na\" e si usa come nome proprio."},
+        {"type": "subhead", "text": "What do you do?"},
+        {"type": "prose", "text": "In Canada il lavoro è la prima cosa che si chiede, dopo il nome: [[What do you do?]] arriva entro i primi due minuti di qualunque conversazione, alla cena, alla festa, sull'aereo. Non è invadente: è il modo canadese di sapere chi sei. La risposta è breve, [[I'm a pastry chef]], e la domanda successiva è [[Do you like it?]] o [[Where?]]. Lo stipendio, invece, non si chiede mai.\n\nI titoli di lavoro sono spesso intraducibili: [[project manager]], [[account executive]], [[in HR]] (risorse umane), [[consultant]], [[analyst]]. Chiedere [[What does that mean?]] è normale e divertente: metà delle volte la persona non lo sa nemmeno lei, come Daniel."},
+        {"type": "callout", "kind": "real", "title": "Le domande di zia Rosa", "text": "[[How old are you?]], [[Are you married?]], [[Do you have kids?]], [[Do you have someone?]] sono domande che una zia italo-canadese fa; un canadese non italiano non le fa a una persona appena conosciuta, e all'inizio nemmeno dopo. Età, stato civile, religione, politica e soldi sono gli argomenti che lo small talk canadese evita. Zia Rosa non lo sa, o non le importa: unità 14."},
+        {"type": "subhead", "text": "Il basement, di nuovo"},
+        {"type": "prose", "text": "Nella casa italo-canadese tipica la cucina di sopra è pulita e la cucina di sotto è viva. Nel basement ci sono il secondo frigo, il congelatore con i sughi di settembre, la [[cantina]] con il vino fatto in casa (Franco compra l'uva a settembre al terminal di Vaughan, come tutti), e il tavolo lungo. La frutta e la verdura arrivano dal [[garden]] nel backyard: pomodori, zucchine, basilico, fichi in vaso che d'inverno vanno in garage. Non è nostalgia: è un modo di organizzare la casa che è durato sessant'anni perché funziona."},
+        {"type": "callout", "kind": "culture", "title": "Il multiculturalismo a tavola", "text": "A tavola dai Ferrante ci sono Jessica, che è filippino-canadese, e il fidanzato di una cugina, che è coreano. A Toronto più della metà delle persone è nata all'estero e le famiglie miste sono la norma. [[Where are you from?]] si chiede a tutti, e la risposta più comune è [[Here, but my parents are from…]]. Il trattino (Italian-Canadian, Filipino-Canadian) è una categoria normale, non un problema."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Una schermata prima della prossima unità, poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Third person", "rows": [["he works · she studies · it goes · she has", "-s · -ies · -es · has"], ["She doesn't work. Does he work? — Yes, he does.", "una sola -s: su does"], ["Everybody has… Nobody knows…", "terza persona"]]},
+          {"title": "Di chi?", "rows": [["Michele's daughter · my parents' house · Rosa and Joe's son", "'s · s' · 's sull'ultimo"], ["Whose wine is this? — It's Franco's.", "di chi? — di Franco"], ["his wife · her husband · their son", "possessivi"]]},
+          {"title": "Describing people", "rows": [["She's tall and slim. He's short and heavy.", "be + aggettivo (invariabile)"], ["She has long brown hair and green eyes.", "have + aggettivi + nome, senza the"], ["a man with a moustache · he wears glasses", "with · wear"], ["friendly · funny · quiet · smart · lazy · serious", "carattere"]]},
+          {"title": "How often", "rows": [["always · usually · often · sometimes · never", "prima del verbo, dopo be"], ["every day · on Saturdays · once a week", "alla fine"], ["How often do you…?", "quanto spesso?"]]},
+          {"title": "Work", "rows": [["What do you do? — I'm a nurse.", "che lavoro fai? — sono infermiera"], ["What does he do? — He's a project manager.", ""], ["a job (si conta) · work (non si conta) · part-time · retired", ""], ["relatives ≠ parents", "parenti ≠ genitori"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
