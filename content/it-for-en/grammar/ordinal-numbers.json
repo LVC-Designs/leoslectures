@@ -1,0 +1,23 @@
+{"id": "ordinal-numbers", "title": "Ordinal numbers", "category": "Numbers", "rule": "1–10 have their own forms (primo … decimo); from 11 the cardinal drops its final vowel and takes -esimo. Ordinals are adjectives: they agree and usually precede the noun. Used for floors, times, positions, centuries, kings and popes, and the first of the month.", "units": ["08"], "blocks": [
+  {"type": "table", "head": ["", "", "", ""], "rows": [["1° primo", "2° secondo", "3° terzo", "4° quarto"], ["5° quinto", "6° sesto", "7° settimo", "8° ottavo"], ["9° nono", "10° decimo", "11° undicesimo", "12° dodicesimo"], ["13° tredicesimo", "17° diciassettesimo", "20° ventesimo", "21° ventunesimo"], ["23° ventitreesimo", "26° ventiseiesimo", "30° trentesimo", "40° quarantesimo"], ["100° centesimo", "101° centunesimo", "1000° millesimo", "ultimo · penultimo · terzultimo"]], "speak": [0, 1, 2, 3], "compact": true, "note": "Written with ° (or º) for masculine and ª for feminine: 1°, 1ª; or with Roman numerals for centuries and rulers: XXI, XIV."},
+  {"type": "subhead", "text": "Uses"},
+  {"type": "examples", "items": [
+    {"t": "Il primo piano, la seconda porta, il terzo sportello.", "n": "The first floor, the second door, the third counter."},
+    {"t": "La prima volta, l'ultima volta, per la terza volta.", "n": "The first time, the last time, for the third time."},
+    {"t": "Il primo maggio, il primo gennaio.", "n": "1 May, 1 January.", "note": "only the first in dates"},
+    {"t": "Il ventunesimo secolo, il XXI secolo. Papa Giovanni ventitreesimo. Enrico ottavo.", "n": "The 21st century. Pope John XXIII. Henry VIII."},
+    {"t": "È arrivato primo. Sono arrivata seconda.", "n": "He came first. I came second.", "note": "no article after arrivare"},
+    {"t": "Un terzo, due quinti, tre quarti d'ora.", "n": "A third, two fifths, three quarters of an hour.", "note": "fractions use ordinals, except mezzo"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "il uno piano, il due volta", "right": "il primo piano, la seconda volta", "why": "Ordinals, not cardinals."},
+    {"wrong": "undicimo, ventimo, centimo", "right": "undicesimo, ventesimo, centesimo", "why": "-esimo."},
+    {"wrong": "ventitresimo", "right": "ventitreesimo", "why": "Compounds of tre keep the e."},
+    {"wrong": "il secolo ventuno", "right": "il ventunesimo secolo", "why": "Centuries take the ordinal before the noun."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "È la ___ volta (5th) che vengo. Abito al ___ piano (4th). Il ___ secolo (20th).", "answers": [["quinta"], ["quarto"], ["ventesimo"]], "n": "It's the fifth time I've come. I live on the fourth floor. The 20th century."},
+    {"kind": "match", "q": "Match.", "pairs": [["ottavo", "8°"], ["dodicesimo", "12°"], ["trentesimo", "30°"], ["centesimo", "100°"], ["ultimo", "last"]]},
+    {"kind": "translate", "q": "Take the second street on the left; the office is on the third floor.", "answers": ["Prendi la seconda a sinistra; l'ufficio è al terzo piano", "Prenda la seconda a sinistra; l'ufficio è al terzo piano", "Prendi la seconda strada a sinistra; l'ufficio è al terzo piano"]}
+  ]}
+]}

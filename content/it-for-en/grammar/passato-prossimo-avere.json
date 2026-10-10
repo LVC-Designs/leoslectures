@@ -1,0 +1,25 @@
+{"id": "passato-prossimo-avere", "title": "Passato prossimo with avere", "category": "Verbs", "rule": "Present of avere + past participle (-ato, -uto, -ito). Used for completed actions in the past, recent or not, and for \"have done\". The participle does not agree with the subject (it agrees with a preceding direct object pronoun, unit 10). Adverbs già, ancora, mai, sempre, appena, più go between the two parts.", "units": ["08"], "blocks": [
+  {"type": "conjugation", "verbs": ["parlare", "avere", "dormire"], "tense": "passato_prossimo", "caption": "Three regular participles: -ato, -uto, -ito"},
+  {"type": "table", "caption": "Which auxiliary?", "head": ["avere (this page)", "essere (unit 9)"], "rows": [["almost all verbs with a direct object: mangiare, comprare, vedere, fare, dire, leggere…", "movement and change of state: andare, venire, arrivare, partire, nascere, morire, diventare…"], ["many without an object too: dormire, lavorare, parlare, camminare, viaggiare", "reflexive and reciprocal verbs: alzarsi, vedersi…"], ["avere itself: ho avuto", "essere itself: sono stato / stata · stare: sono stato"]], "speak": [0, 1], "compact": true},
+  {"type": "subhead", "text": "Uses"},
+  {"type": "examples", "items": [
+    {"t": "Ieri ho lavorato otto ore.", "n": "Yesterday I worked eight hours.", "note": "finished action, when stated"},
+    {"t": "Ho già mangiato.", "n": "I've already eaten.", "note": "result relevant now"},
+    {"t": "Non ho mai visto Roma.", "n": "I've never seen Rome.", "note": "life experience"},
+    {"t": "Ho abitato a Toronto per trent'anni.", "n": "I lived in Toronto for thirty years.", "note": "a completed period: per"},
+    {"t": "Ho appena finito.", "n": "I've just finished.", "note": "appena = just"},
+    {"t": "Non ho più fumato.", "n": "I haven't smoked since / any more.", "note": "non… più = no longer"}
+  ]},
+  {"type": "table", "caption": "Adverbs in the middle", "head": ["Italian", "English"], "rows": [["Ho già finito.", "I've already finished."], ["Non ho ancora finito.", "I haven't finished yet."], ["Non ho mai finito.", "I've never finished."], ["Hai mai provato?", "Have you ever tried?"], ["Ho sempre lavorato.", "I've always worked."], ["Ho appena telefonato.", "I've just phoned."], ["Non ho più telefonato.", "I didn't phone again."]], "speak": [0], "compact": true},
+  {"type": "mistakes", "items": [
+    {"wrong": "Ieri lavoro otto ore.", "right": "Ieri ho lavorato otto ore.", "why": "A finished action needs the past."},
+    {"wrong": "Ho compilata il modulo. (Lucia speaking)", "right": "Ho compilato il modulo.", "why": "With avere, no agreement with the subject."},
+    {"wrong": "Ho mangiato già. Già ho mangiato.", "right": "Ho già mangiato.", "why": "Già in the middle."},
+    {"wrong": "Abito qui per due mesi. (still here)", "right": "Abito qui da due mesi.", "why": "Ongoing → present + da."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "vendere", "tense": "passato prossimo", "n": "to sell", "answers": ["ho venduto", "hai venduto", "ha venduto", "abbiamo venduto", "avete venduto", "hanno venduto"]},
+    {"kind": "fill", "q": "Stamattina Nando ___ (aprire) alle sei e ___ (servire) cento caffè. Non ___ ancora ___ (mangiare).", "answers": [["ha aperto"], ["ha servito"], ["ha"], ["mangiato"]], "n": "This morning Nando opened at six and served a hundred coffees. He hasn't eaten yet."},
+    {"kind": "translate", "q": "Have you ever tried a pasticciotto? — Yes, I tried one yesterday.", "answers": ["Hai mai provato un pasticciotto? Sì, ne ho provato uno ieri", "Hai mai provato un pasticciotto? — Sì, ne ho provato uno ieri", "Hai mai provato un pasticciotto? Sì, ho provato uno ieri", "Hai mai mangiato un pasticciotto? Sì, ne ho mangiato uno ieri"]}
+  ]}
+]}

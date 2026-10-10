@@ -1,0 +1,21 @@
+{"id": "da-since-for", "title": "da: since, for, how long", "category": "Prepositions", "rule": "A situation that began in the past and continues takes the present tense + da: da due mesi (for two months), dal 2024 (since 2024), da quando (since when). Finished periods take the passato prossimo + per. Future durations take per or fra.", "units": ["08"], "blocks": [
+  {"type": "table", "head": ["Italian", "English", "Note"], "rows": [["Abito qui da due mesi.", "I've lived here for two months.", "present + da + duration"], ["Abito qui dal 2024. / dal primo giugno. / da settembre.", "I've lived here since 2024 / 1 June / September.", "present + da + starting point"], ["Da quanto tempo abiti qui?", "How long have you lived here?", "the duration question"], ["Da quando abiti qui?", "Since when have you lived here?", "the starting-point question"], ["Ho abitato a Toronto per trent'anni.", "I lived in Toronto for thirty years.", "finished → passato prossimo + per"], ["Non lo vedo da un anno.", "I haven't seen him for a year.", "negative: present + da"], ["È da un'ora che aspetto. / Sono tre ore che aspetto.", "I've been waiting for an hour. / for three hours.", "emphatic forms"], ["Resto per due mesi. / Torno fra due mesi.", "I'm staying for two months. / I'm coming back in two months.", "future durations"]], "speak": [0]},
+  {"type": "examples", "items": [
+    {"t": "Da quanto tempo è a Roccamarina? — Da due mesi. Dal primo giugno.", "n": "How long have you been in Roccamarina? — Two months. Since 1 June."},
+    {"t": "Nando lavora al bar da trent'anni e non ha mai preso una vacanza.", "n": "Nando has worked at the bar for thirty years and has never taken a holiday."},
+    {"t": "Dora e Pasquale si conoscono da cinquant'anni e litigano da quarantanove.", "n": "Dora and Pasquale have known each other for fifty years and have argued for forty-nine."},
+    {"t": "Non mangio carne da tre anni.", "n": "I haven't eaten meat for three years."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "The tense is the trap", "text": "English: *I have lived* (perfect). Italian: [[abito]] (present), because the living goes on. The passato prossimo ([[ho abitato]]) tells the listener it's over. The same with the imperfetto later: [[abitavo qui da due mesi quando…|I had been living here for two months when…]]."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Ho abitato qui da due mesi. (still here)", "right": "Abito qui da due mesi.", "why": "Present + da."},
+    {"wrong": "Abito qui per due mesi. (still here)", "right": "Abito qui da due mesi.", "why": "Da, not per."},
+    {"wrong": "Da quanto tempo hai abitato qui?", "right": "Da quanto tempo abiti qui?", "why": "Present in the question."},
+    {"wrong": "Sono qui da 2024.", "right": "Sono qui dal 2024.", "why": "Years take the article: dal."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Chiara ___ (lavorare) in pasticceria ___ cinque anni. Prima ___ (lavorare) al bar ___ due anni.", "answers": [["lavora"], ["da"], ["ha lavorato"], ["per"]], "n": "Chiara has worked at the pastry shop for five years. Before, she worked at the bar for two years."},
+    {"kind": "mc", "q": "«Since when have you known Dora?»", "options": ["Da quando conosci Dora?", "Da quanto hai conosciuto Dora?", "Per quando conosci Dora?"], "answer": 0, "why": "Da quando + present."},
+    {"kind": "translate", "q": "I haven't seen Chiara for a week.", "answers": ["Non vedo Chiara da una settimana"]}
+  ]}
+]}

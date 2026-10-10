@@ -1,0 +1,301 @@
+{
+  "id": "08",
+  "level": "A1",
+  "title": "All'ufficio anagrafe",
+  "subtitle": "At the registry office",
+  "intro": "A numbered ticket, a form in triplicate, a stamp that costs sixteen euros and is sold somewhere else. The comune is where you learn to say what you have already done, in the formal register, with patience. This unit closes A1: it adds the first past tense, the formal Lei in practice, ordinals and dates, and ends with the A1 checkpoint.",
+  "objectives": [
+    "Say what you have done with the [[passato prossimo]]: [[ho compilato]], [[ho portato]], [[ho fatto]]",
+    "Use [[già]] and [[non… ancora]]: [[ho già pagato]], [[non ho ancora la marca]]",
+    "Give personal details formally and fill in a form: [[luogo e data di nascita]], [[stato civile]]",
+    "Use the ordinals and say how long: [[il primo]], [[il terzo piano]], [[da due mesi]]",
+    "Handle an office with [[Lei]]: [[Mi dica]], [[Scusi]], [[Si accomodi]], [[Firmi qui]]"
+  ],
+  "canDo": [
+    "A1 · Spoken interaction: can give personal details in a formal situation and understand simple questions about them.",
+    "A1 · Writing: can fill in a form with personal details (name, address, date and place of birth, nationality, marital status).",
+    "A1 · Spoken production: can say what they have done, in simple sentences, with time references.",
+    "A1 · Listening: can understand simple instructions in an office and the time and date of an appointment.",
+    "A1 · Reading: can understand a simple official notice, a form and an appointment slip."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Numero dodici",
+      "intro": "Tuesday at the comune, Thursday again with the stamp. Listen for the passato prossimo (ho compilato, ho portato, ha pagato) and for the Lei forms (ha, mi dica, firmi, torni).",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-anagrafe", "title": "Mi dica", "setting": "Comune di Roccamarina, ufficio anagrafe, martedì ore 9. Il numero 12 in mano. Allo sportello, la dottoressa Antonella Moro, tre timbri e una pianta.", "register": "formale", "lines": [
+          {"who": "Antonella", "t": "Dodici! Buongiorno. Mi dica.", "n": "Twelve! Good morning. How can I help?", "note": "Mi dica: literally \"tell me\", the formal imperative. The standard opening at any counter."},
+          {"who": "hero", "t": "Buongiorno, dottoressa. Vorrei fare l'iscrizione anagrafica. La residenza.", "n": "Good morning, dottoressa. I'd like to register as a resident. Residency."},
+          {"who": "Antonella", "t": "Ha compilato il modulo?", "n": "Have you filled in the form?", "note": "Ha compilato: the passato prossimo with Lei. Avere + participle in -ato."},
+          {"who": "hero", "t": "Sì, ho compilato il modulo e ho portato i documenti: passaporto, codice fiscale, contratto d'affitto.", "n": "Yes, I've filled in the form and I've brought the documents: passport, tax code, rental contract."},
+          {"who": "Antonella", "t": "Ha già il codice fiscale?", "n": "Do you already have the tax code?"},
+          {"who": "hero", "t": "Sì. L'ho fatto la settimana scorsa all'Agenzia delle Entrate, a Lecce.", "n": "Yes. I did it last week at the tax office, in Lecce.", "note": "L'ho fatto: \"I did it\", with the pronoun lo (unit 10) and the irregular participle fatto."},
+          {"who": "Antonella", "t": "Bene. Luogo e data di nascita?", "n": "Good. Place and date of birth?"},
+          {"who": "hero", "t": "Toronto, il dodici marzo millenovecentonovantasei.", "n": "Toronto, 12 March 1996."},
+          {"who": "Antonella", "t": "Stato civile?", "n": "Marital status?"},
+          {"who": "hero", "t": {"m": "Celibe.", "f": "Nubile.", "note": "Unmarried: celibe for a man, nubile for a woman. On every Italian form. Single is also understood."}, "n": "Single."},
+          {"who": "Antonella", "t": "Cittadinanza italiana?", "n": "Italian citizenship?"},
+          {"who": "hero", "t": "Sì. Ho preso la cittadinanza due anni fa, a Toronto. Mio nonno è nato qui.", "n": "Yes. I got my citizenship two years ago, in Toronto. My grandfather was born here.", "note": "Ho preso: irregular participle of prendere. Due anni fa: two years ago. È nato: the passato prossimo with essere, unit 9."},
+          {"who": "Antonella", "t": "Manca la marca da bollo. Sedici euro. Dal tabaccaio, di fronte.", "n": "The revenue stamp is missing. Sixteen euros. At the tobacconist's, opposite."},
+          {"who": "hero", "t": "Ma ho già pagato…", "n": "But I've already paid…", "note": "Già between avere and the participle."},
+          {"who": "Antonella", "t": "Ha pagato i diritti di segreteria. La marca da bollo è un'altra cosa. Non ha ancora la marca? Allora torni giovedì, con appuntamento. Alle dieci e un quarto. Firmi qui.", "n": "You paid the administrative fee. The stamp is another thing. You don't have the stamp yet? Then come back on Thursday, by appointment. At a quarter past ten. Sign here.", "note": "Torni, firmi: formal imperatives. Non… ancora: not yet."}
+        ], "notes": [
+          {"phrase": "l'iscrizione anagrafica", "note": "Registration in the town's population register: it makes you officially resident. Living there."},
+          {"phrase": "Ha compilato? — Ho compilato.", "note": "The question and the answer in the passato prossimo: Lei form ha, io form ho, same participle."},
+          {"phrase": "due anni fa · la settimana scorsa", "note": "Two years ago, last week. Fa after the time; scorso / scorsa after the noun."},
+          {"phrase": "Manca…", "note": "… is missing. Mancare: to be missing, to be lacking. Manca la marca, mancano due fotocopie."}
+        ]},
+        {"type": "scene", "id": "dlg-giovedi", "title": "Giovedì, dieci e un quarto", "setting": "Martedì, la tabaccheria di fronte al comune. Poi giovedì, lo stesso sportello.", "register": "formale", "lines": [
+          {"who": "hero", "t": "Buongiorno. Una marca da bollo da sedici euro, per favore.", "n": "Good morning. A sixteen-euro revenue stamp, please."},
+          {"who": "Tabaccaio", "t": "Per il comune? Ecco. Sedici euro. Ha spiccioli?", "n": "For the comune? Here. Sixteen euros. Do you have change?"},
+          {"stage": "Thursday, 10:15. No ticket this time: an appointment."},
+          {"who": "Antonella", "t": "Buongiorno. Ha portato tutto?", "n": "Good morning. Have you brought everything?"},
+          {"who": "hero", "t": "Ho portato tutto. Ho comprato la marca, ho fatto le fotocopie, ho scritto l'indirizzo sul modulo. Ho anche letto le istruzioni.", "n": "I've brought everything. I bought the stamp, I made the photocopies, I wrote the address on the form. I even read the instructions.", "note": "Fatto, scritto, letto: three irregular participles in one breath."},
+          {"who": "Antonella", "t": "Le istruzioni? Nessuno legge le istruzioni. Da quanto tempo è a Roccamarina?", "n": "The instructions? Nobody reads the instructions. How long have you been in Roccamarina?", "note": "Da quanto tempo è…? Present tense + da for \"how long have you been\"."},
+          {"who": "hero", "t": "Da due mesi. Dal primo giugno.", "n": "For two months. Since the first of June.", "note": "Da due mesi: for two months. Dal primo giugno: since 1 June. Same da."},
+          {"who": "Antonella", "t": "Bene. Un vigile passa a casa per controllare. È normale. Poi arriva la lettera.", "n": "Good. A municipal officer comes to the house to check. It's normal. Then the letter arrives."},
+          {"stage": "Three stamps. A signature. A fourth stamp."},
+          {"who": "Antonella", "t": {"m": "Fatto. Benvenuto a Roccamarina, ufficialmente.", "f": "Fatto. Benvenuta a Roccamarina, ufficialmente."}, "n": "Done. Welcome to Roccamarina, officially."},
+          {"who": "hero", "t": "Grazie, dottoressa. È stato… veloce.", "n": "Thank you, dottoressa. That was… quick.", "note": "È stato: it was. Essere's own passato prossimo, unit 9."},
+          {"who": "Antonella", "t": "Due visite. Per il comune è un record. Arrivederci.", "n": "Two visits. For the comune it's a record. Goodbye."}
+        ], "notes": [
+          {"phrase": "Ha spiccioli?", "note": "Do you have change (small coins)? Tobacconists and bars live on coins."},
+          {"phrase": "il vigile", "note": "The municipal police officer (vigile urbano). For residency, one visits your address to confirm you live there. Be home, or leave a note."},
+          {"phrase": "Fatto.", "note": "Done. The participle alone, as a word. The most satisfying sound in Italian bureaucracy."}
+        ], "questions": [
+          {"kind": "tf", "q": "The stamp is sold at the comune.", "t": "Dal tabaccaio, di fronte.", "answer": false, "why": "At the tobacconist's opposite. Never at the office that requires it."},
+          {"kind": "mc", "q": "How long has the protagonist been in Roccamarina?", "options": ["Two months, since 1 June.", "Two years.", "Two weeks."], "answer": 0, "why": "Da due mesi. Dal primo giugno."},
+          {"kind": "fill", "q": "Ho ___ la marca, ho ___ le fotocopie, ho ___ l'indirizzo. (bought, made, wrote)", "answers": [["comprato"], ["fatto"], ["scritto"]], "n": "I bought the stamp, made the photocopies, wrote the address."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Documenti, moduli, uffici",
+      "intro": "The words on the form, the documents in the folder, the office and its rituals, and the verbs of getting things done, with their participles.",
+      "blocks": [
+        {"type": "vocab", "theme": "I documenti", "n": "Documents", "items": [
+          {"t": "documento", "n": "document; ID", "article": "il", "gender": "m", "plural": "i documenti", "pos": "noun", "ex": {"t": "Ha un documento? — Il passaporto.", "n": "Do you have ID? — My passport."}, "note": "Un documento = any official ID. I documenti = the papers."},
+          {"t": "passaporto", "n": "passport", "article": "il", "gender": "m", "plural": "i passaporti", "pos": "noun", "ex": {"t": "Ho due passaporti: canadese e italiano.", "n": "I have two passports: Canadian and Italian."}},
+          {"t": "carta d'identità", "n": "identity card", "article": "la", "gender": "f", "plural": "le carte d'identità", "pos": "noun", "ex": {"t": "La carta d'identità si fa al comune.", "n": "The ID card is issued at the comune."}, "note": "Every Italian has one; residents can get one too. Now electronic (CIE)."},
+          {"t": "codice fiscale", "n": "tax code", "article": "il", "gender": "m", "plural": "i codici fiscali", "pos": "noun", "ex": {"t": "Senza codice fiscale non si fa niente.", "n": "Without a tax code you can't do anything."}, "note": "Sixteen letters and digits, from your name, birth date and place. Needed for contracts, phones, health card, everything."},
+          {"t": "tessera sanitaria", "n": "health card", "article": "la", "gender": "f", "plural": "le tessere sanitarie", "pos": "noun", "ex": {"t": "Con la residenza ho diritto alla tessera sanitaria.", "n": "With residency I'm entitled to the health card."}, "note": "Also carries the codice fiscale. Unit 12."},
+          {"t": "residenza", "n": "residency, registered address", "article": "la", "gender": "f", "plural": "le residenze", "pos": "noun", "ex": {"t": "Vorrei fare la residenza a Roccamarina.", "n": "I'd like to register as resident in Roccamarina."}, "note": "Prendere / fare / chiedere la residenza. L'iscrizione anagrafica is the official name."},
+          {"t": "certificato", "n": "certificate", "article": "il", "gender": "m", "plural": "i certificati", "pos": "noun", "ex": {"t": "Un certificato di nascita, un certificato di residenza.", "n": "A birth certificate, a residency certificate."}},
+          {"t": "cittadinanza", "n": "citizenship", "article": "la", "gender": "f", "pos": "noun", "ex": {"t": "Ho la cittadinanza italiana da due anni.", "n": "I've had Italian citizenship for two years."}, "note": "Cittadino / cittadina: citizen."},
+          {"t": "contratto", "n": "contract", "article": "il", "gender": "m", "plural": "i contratti", "pos": "noun", "ex": {"t": "Il contratto d'affitto è registrato.", "n": "The rental contract is registered."}},
+          {"t": "marca da bollo", "n": "revenue stamp", "article": "la", "gender": "f", "plural": "le marche da bollo", "pos": "noun", "ex": {"t": "Manca la marca da bollo da sedici euro.", "n": "The sixteen-euro revenue stamp is missing."}, "note": "A sticker you buy at the tabaccheria and stick on official papers. Sixteen euros is the standard one. Nobody knows why."},
+          {"t": "fotocopia", "n": "photocopy", "article": "la", "gender": "f", "plural": "le fotocopie", "pos": "noun", "ex": {"t": "Due fotocopie del passaporto, fronte e retro.", "n": "Two photocopies of the passport, front and back."}, "note": "Fare una fotocopia. Offices want copies; bring more than they ask."},
+          {"t": "modulo", "n": "form", "article": "il", "gender": "m", "plural": "i moduli", "pos": "noun", "ex": {"t": "Ha compilato il modulo?", "n": "Have you filled in the form?"}, "note": "Compilare un modulo: to fill in a form. In stampatello: in block capitals."},
+          {"t": "firma", "n": "signature", "article": "la", "gender": "f", "plural": "le firme", "pos": "noun", "ex": {"t": "Firmi qui. Manca la firma.", "n": "Sign here. The signature is missing."}, "note": "Firmare: to sign."}
+        ]},
+        {"type": "vocab", "theme": "Sul modulo", "n": "On the form", "items": [
+          {"t": "luogo di nascita", "n": "place of birth", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Luogo di nascita: Toronto (Canada).", "n": "Place of birth: Toronto (Canada)."}, "note": "Nascita: birth. Nato / nata a: born in. Nascere, unit 9."},
+          {"t": "data di nascita", "n": "date of birth", "article": "la", "gender": "f", "pos": "noun", "ex": {"t": "Data di nascita: 12/03/1996.", "n": "Date of birth: 12/03/1996."}, "note": "Day / month / year, like Canada's official format and unlike the US."},
+          {"t": "stato civile", "n": "marital status", "article": "lo", "gender": "m", "pos": "noun", "ex": {"t": "Stato civile: celibe / nubile / coniugato / divorziato / vedovo.", "n": "Marital status: single (m / f) / married / divorced / widowed."}, "note": "Celibe (m.) and nubile (f.) for unmarried; coniugato/a or sposato/a for married; vedovo/a widowed."},
+          {"t": "indirizzo", "n": "address", "article": "l'", "gender": "m", "plural": "gli indirizzi", "pos": "noun", "ex": {"t": "Indirizzo: via delle Rose 12, 73100 Roccamarina (LE).", "n": "Address: Via delle Rose 12, 73100 Roccamarina (LE)."}, "note": "Street, number, postcode (CAP), town, province in brackets."},
+          {"t": "professione", "n": "occupation", "article": "la", "gender": "f", "plural": "le professioni", "pos": "noun", "ex": {"t": "Professione: meccanico di biciclette. Per ora: nessuna.", "n": "Occupation: bicycle mechanic. For now: none."}},
+          {"t": "numero di telefono", "n": "phone number", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Il numero di telefono italiano comincia con 3.", "n": "An Italian mobile number starts with 3."}, "note": "Il cellulare, il telefonino: mobile phone. Also l'email, l'indirizzo email."},
+          {"t": "cognome e nome", "n": "surname and first name", "pos": "phrase", "ex": {"t": "Cognome e nome, in stampatello.", "n": "Surname and first name, in block capitals."}, "note": "Forms put the surname first. In stampatello: block letters."}
+        ]},
+        {"type": "vocab", "theme": "In ufficio", "n": "At the office", "items": [
+          {"t": "ufficio", "n": "office", "article": "l'", "gender": "m", "plural": "gli uffici", "pos": "noun", "ex": {"t": "L'ufficio anagrafe è al primo piano.", "n": "The registry office is on the first floor."}, "note": "L'anagrafe: the population registry. L'ufficio postale, l'ufficio del turismo."},
+          {"t": "sportello", "n": "counter, window", "article": "lo", "gender": "m", "plural": "gli sportelli", "pos": "noun", "ex": {"t": "Allo sportello tre, con il numero.", "n": "At counter three, with the ticket number."}, "note": "Lo sportello: s + consonant. Also the ATM slot and a car door."},
+          {"t": "appuntamento", "n": "appointment", "article": "l'", "gender": "m", "plural": "gli appuntamenti", "pos": "noun", "ex": {"t": "Ho un appuntamento giovedì alle dieci e un quarto.", "n": "I have an appointment on Thursday at 10:15."}, "note": "Prendere un appuntamento: to make one. Su appuntamento: by appointment only."},
+          {"t": "impiegato", "n": "clerk, office worker", "article": "l'", "gender": "m", "plural": "gli impiegati", "pos": "noun", "forms": "l'impiegata, le impiegate", "ex": {"t": "L'impiegata è gentile ma precisa.", "n": "The clerk is kind but precise."}},
+          {"t": "pratica", "n": "file, paperwork, procedure", "article": "la", "gender": "f", "plural": "le pratiche", "pos": "noun", "ex": {"t": "La pratica è chiusa. Fatto.", "n": "The file is closed. Done."}, "note": "Una pratica: one administrative matter from start to finish. Fare una pratica: to go through a procedure."},
+          {"t": "timbro", "n": "stamp (rubber)", "article": "il", "gender": "m", "plural": "i timbri", "pos": "noun", "ex": {"t": "Tre timbri e una firma.", "n": "Three stamps and a signature."}, "note": "Timbrare: to stamp. Not the marca da bollo, which is a sticker."},
+          {"t": "orario", "n": "opening hours; timetable", "article": "l'", "gender": "m", "plural": "gli orari", "pos": "noun", "ex": {"t": "Orario di apertura al pubblico: 8:30–13:00.", "n": "Opening hours to the public: 8:30–13:00."}},
+          {"t": "settimana scorsa", "n": "last week", "article": "la", "gender": "f", "pos": "phrase", "ex": {"t": "L'ho fatto la settimana scorsa.", "n": "I did it last week."}, "note": "Scorso / scorsa after the noun: il mese scorso, l'anno scorso, lunedì scorso. Prossimo: next."},
+          {"t": "fa", "n": "ago", "pos": "adv.", "ex": {"t": "Due anni fa. Un'ora fa. Poco fa.", "n": "Two years ago. An hour ago. A short while ago."}, "note": "After the time expression, like English."},
+          {"t": "compilare", "n": "to fill in (a form)", "pos": "verb", "ex": {"t": "Ho compilato il modulo in stampatello.", "n": "I filled in the form in block capitals."}, "note": "Participle: compilato."},
+          {"t": "firmare", "n": "to sign", "pos": "verb", "ex": {"t": "Firmi qui. Ho firmato tre volte.", "n": "Sign here. I signed three times."}},
+          {"t": "portare", "n": "to bring, to take (along)", "pos": "verb", "ex": {"t": "Ha portato tutto? — Ho portato tutto.", "n": "Have you brought everything? — I've brought everything."}, "note": "Also to carry and to wear (porto la M). Participle: portato."}
+        ]},
+        {"type": "subhead", "text": "I numeri ordinali"},
+        {"type": "grid", "cols": 6, "items": [
+          {"big": "1°", "small": "primo"}, {"big": "2°", "small": "secondo"}, {"big": "3°", "small": "terzo"}, {"big": "4°", "small": "quarto"}, {"big": "5°", "small": "quinto"}, {"big": "6°", "small": "sesto"},
+          {"big": "7°", "small": "settimo"}, {"big": "8°", "small": "ottavo"}, {"big": "9°", "small": "nono"}, {"big": "10°", "small": "decimo"}, {"big": "11°", "small": "undicesimo"}, {"big": "20°", "small": "ventesimo"}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Ho fatto, ho già, da due mesi, Lei",
+      "intro": "Five pieces: the passato prossimo with avere, the irregular participles, ordinals and dates, da for \"since\" and \"for\", and the formal Lei in an office. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-passato", "title": "Passato prossimo with avere: ho compilato", "category": "Verbs", "rule": "The past of most verbs: the present of avere + the past participle. Regular participles: -are → -ato, -ere → -uto, -ire → -ito. It covers English \"I did\", \"I have done\" and \"I was doing something (once)\". Già, ancora, mai, sempre go between avere and the participle.", "ref": "passato-prossimo-avere", "blocks": [
+          {"type": "conjugation", "verbs": ["compilare", "ricevere", "finire"], "tense": "passato_prossimo", "caption": "[[compilare]], [[ricevere]], [[finire]] · passato prossimo", "note": "The participle does not agree with the subject when the auxiliary is avere: ho compilato, whether Luca or Lucia is talking. With essere (unit 9) it does."},
+          {"type": "table", "head": ["", "Italian", "English"], "rows": [["statement", "Ho compilato il modulo.", "I filled in / I've filled in the form."], ["question", "Ha compilato il modulo?", "Did you / have you filled in the form?"], ["negative", "Non ho compilato il modulo.", "I didn't / haven't filled in the form."], ["already", "Ho già pagato.", "I've already paid."], ["not yet", "Non ho ancora pagato.", "I haven't paid yet."], ["never", "Non ho mai visto il vigile.", "I've never seen the officer."], ["ever", "Ha mai fatto la residenza?", "Have you ever registered?"], ["time markers", "ieri · la settimana scorsa · due anni fa · nel 2024 · stamattina · già · appena", "yesterday · last week · two years ago · in 2024 · this morning · already · just"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Ho portato i documenti e ho pagato i diritti.", "n": "I brought the documents and paid the fees."},
+            {"t": "Ieri Dora ha pulito le scale. Stamattina ha comprato il pane.", "n": "Yesterday Dora cleaned the stairs. This morning she bought bread."},
+            {"t": "Avete finito? — Non abbiamo ancora finito.", "n": "Have you finished? — We haven't finished yet."},
+            {"t": "Hai mai mangiato un pasticciotto? — Sì, ne ho mangiati tre.", "n": "Have you ever eaten a pasticciotto? — Yes, I've eaten three.", "note": "ne… mangiati: agreement with ne, unit 14; recognise"},
+            {"t": "L'ho fatto la settimana scorsa.", "n": "I did it last week.", "note": "lo + ho → l'ho"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "One Italian tense, three English ones", "text": "[[Ho pagato]] = I paid, I have paid, I did pay. Italian does not separate \"finished past\" from \"relevant to now\" the way English does with the simple past and present perfect: the passato prossimo does both. The imperfetto (unit 11) covers \"I was paying\" and \"I used to pay\"."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Io compilato il modulo. Ho compilare.", "right": "Ho compilato il modulo.", "why": "Both parts: avere + participle."},
+            {"wrong": "Ho già pagato → Già ho pagato. Ho pagato già.", "right": "Ho già pagato.", "why": "Già sits between the two."},
+            {"wrong": "Non ho pagato ancora. (acceptable in speech) / Non ancora ho pagato.", "right": "Non ho ancora pagato.", "why": "Ancora, like già, goes in the middle."},
+            {"wrong": "Ho finuto. Ho ricevito.", "right": "Ho finito. Ho ricevuto.", "why": "-ire → -ito, -ere → -uto."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-participi", "title": "The first irregular participles", "category": "Verbs", "rule": "Many -ere verbs and a few others have irregular participles. The nine most useful now: fatto, detto, preso, messo, visto, letto, scritto, aperto, chiuso. Learn each with its verb.", "ref": "irregular-participles", "blocks": [
+          {"type": "table", "head": ["Verb", "Participle", "Example"], "rows": [["fare", "fatto", "Ho fatto le fotocopie. Che cosa hai fatto ieri?"], ["dire", "detto", "Ha detto: torni giovedì. Cosa ha detto?"], ["prendere", "preso", "Ho preso il numero. Ho preso la cittadinanza."], ["mettere", "messo", "Ho messo la marca sul modulo."], ["vedere", "visto", "Non ho visto il vigile."], ["leggere", "letto", "Ho letto le istruzioni."], ["scrivere", "scritto", "Ho scritto l'indirizzo."], ["aprire", "aperto", "Hanno aperto alle otto e mezza."], ["chiudere", "chiuso", "Hanno chiuso la pratica."], ["bere", "bevuto", "Ho bevuto un caffè."], ["chiedere", "chiesto", "Ho chiesto un appuntamento."], ["rispondere", "risposto", "Non ha risposto."], ["offrire", "offerto", "Pasquale ha offerto il caffè."], ["perdere", "perso", "Ho perso lo scontrino."], ["decidere", "deciso", "Ho deciso: resto."]], "speak": [1, 2], "rowhead": true, "note": "Families: -tto (fatto, detto, letto, scritto), -so (preso, perso, chiuso, deciso), -sso (messo), -sto (visto, chiesto, risposto), -erto (aperto, offerto). The full list is on the reference page, and the Verbs page shows every participle."},
+          {"type": "examples", "items": [
+            {"t": "Ho fatto il codice fiscale a Lecce. Ho preso il treno delle sette.", "n": "I did the tax code in Lecce. I took the seven o'clock train."},
+            {"t": "Antonella ha detto: manca la marca. Ho letto le istruzioni, ho scritto tutto, ho messo la firma.", "n": "Antonella said: the stamp is missing. I read the instructions, wrote everything, put my signature."},
+            {"t": "Hai visto Chiara? — No, non l'ho vista oggi.", "n": "Have you seen Chiara? — No, I haven't seen her today.", "note": "l'ho vista: the participle agrees with a preceding la (unit 10)"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ho fatto → ho faciuto; ho dicuto; ho prenduto", "right": "ho fatto; ho detto; ho preso", "why": "Irregular: no -uto."},
+            {"wrong": "ho aprito, ho offrito", "right": "ho aperto, ho offerto", "why": "The -ire verbs with -erto."},
+            {"wrong": "ho vedo, ho leggo", "right": "ho visto, ho letto", "why": "Participle, not present."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-ordinali", "title": "Ordinals and dates", "category": "Numbers", "rule": "Primo to decimo are their own words; from 11 on, drop the final vowel and add -esimo (undicesimo, ventesimo, trentatreesimo). Ordinals are adjectives and agree: la prima volta, il terzo piano, le prime due. Written: 1°, 1ª, or 1º. Dates use cardinals except the first.", "ref": "ordinal-numbers", "blocks": [
+          {"type": "table", "head": ["", "", "", ""], "rows": [["1° primo", "2° secondo", "3° terzo", "4° quarto"], ["5° quinto", "6° sesto", "7° settimo", "8° ottavo"], ["9° nono", "10° decimo", "11° undicesimo", "12° dodicesimo"], ["20° ventesimo", "21° ventunesimo", "23° ventitreesimo", "30° trentesimo"], ["50° cinquantesimo", "100° centesimo", "1000° millesimo", "ultimo (last)"]], "speak": [0, 1, 2, 3], "compact": true, "note": "Numbers ending in -tré and -sei keep the vowel: ventitreesimo, ventiseiesimo."},
+          {"type": "examples", "items": [
+            {"t": "L'ufficio anagrafe è al primo piano, sportello tre.", "n": "The registry office is on the first floor, counter three."},
+            {"t": "È la seconda volta. La prima volta mancava la marca.", "n": "It's the second time. The first time the stamp was missing."},
+            {"t": "Il primo maggio è festa. Il due giugno è la Festa della Repubblica.", "n": "1 May is a holiday. 2 June is Republic Day.", "note": "dates: only the first is ordinal"},
+            {"t": "Papa Francesco, Luigi XIV (quattordicesimo), il XXI (ventunesimo) secolo.", "n": "Pope Francis, Louis XIV, the 21st century.", "note": "kings, popes and centuries take ordinals, often in Roman numerals"},
+            {"t": "Prendi la prima a destra e la seconda a sinistra.", "n": "Take the first right and the second left."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "il tre primo, il uno maggio", "right": "il terzo, il primo maggio", "why": "Ordinals have their own forms; dates use cardinals except the first."},
+            {"wrong": "undicimo, ventimo", "right": "undicesimo, ventesimo", "why": "-esimo after dropping the final vowel."},
+            {"wrong": "la primo volta, il prima piano", "right": "la prima volta, il primo piano", "why": "Ordinals agree."},
+            {"wrong": "il secolo ventuno", "right": "il ventunesimo secolo / il XXI secolo", "why": "Centuries take the ordinal."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-da", "title": "da: since and for, with the present", "category": "Prepositions", "rule": "Something that started in the past and is still true takes the present tense + da: abito qui da due mesi (I've lived here for two months), dal primo giugno (since 1 June). Ask with da quanto tempo…?", "ref": "da-since-for", "blocks": [
+          {"type": "table", "head": ["Italian (present + da)", "English (present perfect)"], "rows": [["Abito a Roccamarina da due mesi.", "I've lived in Roccamarina for two months."], ["Sono qui dal primo giugno.", "I've been here since 1 June."], ["Ho la cittadinanza da due anni.", "I've had citizenship for two years."], ["Dora conosce Pasquale da cinquant'anni.", "Dora has known Pasquale for fifty years."], ["Da quanto tempo è a Roccamarina? — Da due mesi.", "How long have you been in Roccamarina? — Two months."], ["Da quando studi l'italiano? — Da settembre.", "Since when have you studied Italian? — Since September."]], "speak": [0]},
+          {"type": "callout", "kind": "compare", "title": "The English trap", "text": "English uses the present perfect: *I have lived here for two months*. Italian uses the plain present, because you still live here. [[Ho abitato qui da due mesi]] is wrong; it would mean you no longer do. The passato prossimo + per is for finished periods: [[Ho abitato a Toronto per trent'anni|I lived in Toronto for thirty years]] (and then left)."},
+          {"type": "examples", "items": [
+            {"t": "Da quanto tempo aspetti? — Da un'ora. Ho il numero dodici da un'ora.", "n": "How long have you been waiting? — For an hour. I've had number twelve for an hour."},
+            {"t": "Nando lavora al bar da trent'anni. Ha lavorato a Milano per due anni, prima.", "n": "Nando has worked at the bar for thirty years. He worked in Milan for two years, before.", "note": "present + da (still true) vs passato prossimo + per (finished)"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ho abitato qui da due mesi.", "right": "Abito qui da due mesi.", "why": "Still true → present + da."},
+            {"wrong": "Abito qui per due mesi.", "right": "Abito qui da due mesi.", "why": "Da, not per, for a period that continues."},
+            {"wrong": "Da quanto tempo hai aspettato?", "right": "Da quanto tempo aspetti?", "why": "Present in the question too."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-lei-ufficio", "title": "Lei at the counter", "category": "Register", "rule": "In an office, Lei in both directions. The verb is third person (ha, vuole, può), the pronouns are Le (to you) and La (you), and instructions come as formal imperatives: mi dica, si accomodi, firmi qui, torni giovedì, aspetti un attimo.", "ref": "tu-and-lei", "blocks": [
+          {"type": "table", "head": ["They say", "English", "Form"], "rows": [["Mi dica. / Prego. / Dica pure.", "How can I help? Go ahead.", "dire, Lei imperative"], ["Si accomodi.", "Take a seat. / Come in.", "accomodarsi"], ["Ha un documento? Ha compilato il modulo?", "Do you have ID? Have you filled in the form?", "avere, Lei"], ["Firmi qui. Scriva in stampatello.", "Sign here. Write in block capitals.", "-are / -ere imperatives: -i / -a"], ["Aspetti un attimo. Torni giovedì. Prenda il numero.", "Wait a moment. Come back Thursday. Take a number.", "aspettare, tornare, prendere"], ["Le serve altro? Posso aiutarLa?", "Do you need anything else? Can I help you?", "Le = to you, La = you"], ["Mi dispiace, manca…", "I'm sorry, … is missing.", ""]], "speak": [0]},
+          {"type": "table", "caption": "You say", "head": ["Italian", "English"], "rows": [["Buongiorno. Vorrei fare / chiedere / rinnovare…", "Good morning. I'd like to do / request / renew…"], ["Scusi, dov'è l'ufficio…? A che sportello?", "Excuse me, where is the … office? Which counter?"], ["Ho un appuntamento alle dieci con la dottoressa Moro.", "I have an appointment at ten with Dr Moro."], ["Ho compilato / portato / pagato…", "I've filled in / brought / paid…"], ["Che documenti servono? Quanto costa? Quanto tempo ci vuole?", "What documents are needed? How much is it? How long does it take?"], ["Può ripetere, per favore? Non ho capito.", "Can you repeat, please? I didn't understand."], ["Grazie, molto gentile. Arrivederci.", "Thank you, very kind. Goodbye."]], "speak": [0]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Hai compilato? (to the clerk) · Dimmi.", "right": "Ha compilato? · Mi dica.", "why": "Lei forms in an office, both ways."},
+            {"wrong": "Grazie a te, dottoressa.", "right": "Grazie a Lei, dottoressa.", "why": "Stressed pronoun Lei after a."},
+            {"wrong": "Posso aiutarti? (clerk to you)", "right": "Posso aiutarLa?", "why": "La (you, object) with Lei."},
+            {"wrong": "Signora Moro (to a graduate official)", "right": "Dottoressa Moro", "why": "Titles are used; dottore / dottoressa for any graduate."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "L'accento che cambia tutto",
+      "intro": "Italian writes the accent only when the stress falls on the last vowel, and in a handful of words to tell them apart. But every word has a stressed syllable, written or not, and getting it wrong changes the word or makes it unrecognisable. A1 ends with a review of stress.",
+      "blocks": [
+        {"type": "table", "caption": "Written accents that distinguish words", "head": ["With accent", "Without", "Both"], "rows": [["è (is)", "e (and)", "Dora è gentile e precisa."], ["dà (gives)", "da (from)", "Dora dà le chiavi da un mese."], ["sì (yes)", "si (oneself, one)", "Sì, si firma qui."], ["là (there)", "la (the, her)", "La marca è là."], ["né (nor)", "ne (of it)", "Né marca né fotocopie."], ["sé (oneself)", "se (if)", "Se parla di sé…"], ["tè (tea)", "te (you)", "Un tè per te."], ["lì (there)", "li (them)", "Li vedo lì."]], "speak": [2], "compact": true},
+        {"type": "table", "caption": "Stress with no accent written: where it falls", "head": ["Pattern", "Examples"], "rows": [["penultimate (most words)", "sporTELlo, appuntaMENto, docuMENto, fotoCOpia, resiDENza, cittadiNANza, TIMbro, FIRma"], ["antepenultimate (learn them one by one)", "MOdulo, NUmero, TAvolo, SAbato, TElefono, MEdico, aNAgrafe, SPICcioli, CElibe, NUbile"], ["verbs: io / tu / lui / loro on the stem; noi / voi on the ending", "comPIlo, comPIli, comPIla, comPIlano · compiLIAmo, compiLAte"], ["participles: on the ending", "compiLAto, riceVUto, fiNIto · FATto, DETto, PREso (irregular: on the stem)"], ["final written accent", "cittÀ, perCHÉ, venerDÌ, caFFÈ, lunedÌ, giÀ, piÙ"]], "speak": [1]},
+        {"type": "minimal", "caption": "Same letters, different stress", "pairs": [
+          {"a": "ancora", "b": "àncora", "na": "still, again (an-CO-ra)", "nb": "anchor (AN-co-ra)"},
+          {"a": "principi", "b": "princìpi", "na": "princes (PRIN-ci-pi)", "nb": "principles (prin-CI-pi)"},
+          {"a": "capitano", "b": "càpitano", "na": "captain (ca-pi-TA-no)", "nb": "they happen (CA-pi-ta-no)"},
+          {"a": "compilo", "b": "compilò", "na": "I fill in", "nb": "he / she filled in (passato remoto, unit 17)", "tip": "The accent at the end turns the present into a literary past."},
+          {"a": "parlano", "b": "parlano", "na": "they speak (PAR-la-no: right)", "nb": "(par-LA-no: wrong, the classic error)", "tip": "Same word; only the second is wrong."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "Two habits to keep", "text": "Type the accents: the exercises accept a missing one as \"almost right\", but an Italian form, a name on a document, an email, do not. And say the loro form of every verb with the stress on the stem: [[PARlano]], [[LAvorano]], [[comPIlano]]. It is the one thing in pronunciation that marks a learner more than the r."},
+        {"type": "examples", "items": [
+          {"t": "È già giovedì? Sì. Dà la marca, la mette là e firma.", "n": "Is it Thursday already? Yes. She hands over the stamp, puts it there and signs.", "note": "è · già · sì · dà · là: five written accents"},
+          {"t": "Gli impiegati compilano i moduli e timbrano i documenti.", "n": "The clerks fill in the forms and stamp the documents.", "note": "comPIlano, TIMbrano"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te · A1 checkpoint",
+      "intro": "Thirty exercises on this unit, then a ten-exercise A1 checkpoint that mixes everything from units 1 to 8. If you get eight or more of the ten, you are ready for A2.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Passato prossimo con avere", "items": [
+          {"kind": "conjugate", "verb": "compilare", "tense": "passato prossimo", "n": "to fill in", "answers": ["ho compilato", "hai compilato", "ha compilato", "abbiamo compilato", "avete compilato", "hanno compilato"]},
+          {"kind": "fill", "q": "Ieri ___ (io, portare) i documenti e ___ (pagare) i diritti.", "answers": [["ho portato"], ["ho pagato"]], "n": "Yesterday I brought the documents and paid the fees."},
+          {"kind": "fill", "q": "Dora ___ (pulire) le scale e ___ (comprare) il pane.", "answers": [["ha pulito"], ["ha comprato"]], "n": "Dora cleaned the stairs and bought bread."},
+          {"kind": "fill", "q": "___ (voi, finire)? — No, non ___ ancora ___.", "answers": [["Avete finito"], ["abbiamo"], ["finito"]], "n": "Have you finished? — No, we haven't finished yet."},
+          {"kind": "fill", "q": "Ho ___ pagato. (already) Non ho ___ la marca. (yet)", "answers": [["già"], ["ancora"]], "n": "I've already paid. I don't have the stamp yet."},
+          {"kind": "order", "answer": "Non ho mai visto il vigile.", "n": "I've never seen the officer."},
+          {"kind": "mc", "q": "«I paid» / «I have paid» / «I did pay» in Italian:", "options": ["Ho pagato, for all three.", "Ho pagato / avevo pagato / pagai.", "Pago / ho pagato / pagato."], "answer": 0, "why": "The passato prossimo covers all three English forms."},
+          {"kind": "translate", "q": "I filled in the form last week.", "answers": ["Ho compilato il modulo la settimana scorsa", "La settimana scorsa ho compilato il modulo"]}
+        ]},
+        {"type": "exercises", "title": "2 · Participi irregolari", "items": [
+          {"kind": "fill", "q": "fare → ___ · dire → ___ · prendere → ___ · mettere → ___", "answers": [["fatto"], ["detto"], ["preso"], ["messo"]], "n": "done · said · taken · put"},
+          {"kind": "fill", "q": "vedere → ___ · leggere → ___ · scrivere → ___ · aprire → ___ · chiudere → ___", "answers": [["visto"], ["letto"], ["scritto"], ["aperto"], ["chiuso"]], "n": "seen · read · written · opened · closed"},
+          {"kind": "fill", "q": "Ho ___ (fare) le fotocopie e ho ___ (scrivere) l'indirizzo.", "answers": [["fatto"], ["scritto"]], "n": "I made the photocopies and wrote the address."},
+          {"kind": "fill", "q": "Antonella ha ___ (dire): manca la marca. Hanno ___ (chiudere) la pratica giovedì.", "answers": [["detto"], ["chiuso"]], "n": "Antonella said: the stamp is missing. They closed the file on Thursday."},
+          {"kind": "fill", "q": "Hai ___ (leggere) le istruzioni? — Sì, e ho ___ (prendere) il numero.", "answers": [["letto"], ["preso"]], "n": "Did you read the instructions? — Yes, and I took a number."},
+          {"kind": "mc", "q": "Which is right?", "options": ["Ho aperto la porta.", "Ho aprito la porta.", "Ho apruto la porta."], "answer": 0, "why": "Aprire → aperto."},
+          {"kind": "dictation", "text": "Ho fatto il codice fiscale e ho preso il treno delle sette.", "n": "I did the tax code and took the seven o'clock train."}
+        ]},
+        {"type": "exercises", "title": "3 · Ordinali, date, da", "items": [
+          {"kind": "fill", "q": "L'ufficio è al ___ piano (1st). È la ___ volta (2nd). Prendi la ___ a destra (3rd).", "answers": [["primo"], ["seconda"], ["terza"]], "n": "The office is on the first floor. It's the second time. Take the third right."},
+          {"kind": "fill", "q": "11° = ___ · 20° = ___ · 100° = ___", "answers": [["undicesimo"], ["ventesimo"], ["centesimo"]], "n": "eleventh · twentieth · hundredth"},
+          {"kind": "fill", "q": "Abito qui ___ due mesi. Sono qui ___ primo giugno. (for / since)", "answers": [["da"], ["dal"]], "n": "I've lived here for two months. I've been here since 1 June."},
+          {"kind": "mc", "q": "«I've had citizenship for two years.»", "options": ["Ho la cittadinanza da due anni.", "Ho avuto la cittadinanza da due anni.", "Ho la cittadinanza per due anni."], "answer": 0, "why": "Still true: present + da."},
+          {"kind": "fill", "q": "___ quanto tempo aspetti? — ___ un'ora.", "answers": [["Da"], ["Da"]], "n": "How long have you been waiting? — For an hour."},
+          {"kind": "translate", "q": "Nando has worked at the bar for thirty years.", "answers": ["Nando lavora al bar da trent'anni", "Nando lavora al bar da trenta anni"]}
+        ]},
+        {"type": "exercises", "title": "4 · Allo sportello, con Lei", "items": [
+          {"kind": "reply", "line": {"t": "Mi dica.", "n": "How can I help?"}, "options": ["Buongiorno. Vorrei fare la residenza.", "Ciao. Voglio la residenza.", "Dimmi tu."], "answer": 0, "why": "Formal, with vorrei."},
+          {"kind": "fill", "q": "___ compilato il modulo? (Lei) — Sì, ___ compilato tutto.", "answers": [["Ha"], ["ho"]], "n": "Have you filled in the form? — Yes, I've filled in everything."},
+          {"kind": "match", "q": "Match the formal instruction.", "pairs": [["Firmi qui.", "Sign here."], ["Si accomodi.", "Take a seat."], ["Aspetti un attimo.", "Wait a moment."], ["Torni giovedì.", "Come back on Thursday."], ["Prenda il numero.", "Take a number."]]},
+          {"kind": "fill", "q": "Stato civile? — ___. (single, about you)", "answers": [[{"m": "Celibe", "f": "Nubile", "who": "self"}]], "n": "Marital status? — Single.", "hint": "your own form: celibe (m.) / nubile (f.)"},
+          {"kind": "fill", "q": "Luogo e data ___ nascita? — Toronto, ___ dodici marzo 1996.", "answers": [["di"], ["il"]], "n": "Place and date of birth? — Toronto, 12 March 1996."},
+          {"kind": "mc", "q": "The clerk asks «Posso aiutarLa?». La is:", "options": ["you (object), formal", "her", "the"], "answer": 0, "why": "Capital L: the formal you as object. Le = to you."}
+        ]},
+        {"type": "exercises", "title": "5 · A1 checkpoint · Units 1–8", "intro": "Ten exercises across everything so far. Eight or more: you are ready for A2.", "review": true, "items": [
+          {"kind": "fill", "q": "Ciao! ___ (io, chiamarsi) {hero}, ___ (essere) canadese e ___ (abitare) a Roccamarina ___ due mesi.", "answers": [["mi chiamo"], ["sono"], ["abito"], ["da"]], "n": "Hi! My name is {hero}, I'm Canadian and I've lived in Roccamarina for two months."},
+          {"kind": "fill", "q": "Dora ___ (avere) sessantotto anni e ___ (fare) la cuoca per tutti. ___ (essere) gentile ma precisa.", "answers": [["ha"], ["fa"], ["È"]], "n": "Dora is sixty-eight and cooks for everyone. She's kind but precise."},
+          {"kind": "fill", "q": "In cucina ___ un tavolo e ___ quattro sedie; non ___ la lavastoviglie.", "answers": [["c'è"], ["ci sono"], ["c'è"]], "n": "In the kitchen there's a table and there are four chairs; there's no dishwasher."},
+          {"kind": "fill", "q": "Vado ___ bar (a + il), ___ posta (a + la) e poi torno ___ comune (da + il).", "answers": [["al"], ["alla"], ["dal"]], "n": "I go to the bar, the post office and then come back from the town hall."},
+          {"kind": "fill", "q": "A Dora ___ le albicocche; a me ___ il caffè. Vorrei ___ pane e due ___ di prosciutto.", "answers": [["piacciono"], ["piace"], ["del"], ["etti"]], "n": "Dora likes apricots; I like coffee. I'd like some bread and 200 g of ham."},
+          {"kind": "fill", "q": "Mi ___ (svegliarsi) alle sei e ___ (dovere) fare colazione al bar. Il pomeriggio non ___ (potere) fare niente.", "answers": [["sveglio"], ["devo"], ["posso"]], "n": "I wake up at six and have to have breakfast at the bar. In the afternoon I can't do anything."},
+          {"kind": "fill", "q": "Che ore sono? — ___ le tre e un quarto. A che ora chiude? — ___ una.", "answers": [["Sono"], ["All'"]], "n": "What time is it? — Quarter past three. What time does it close? — At one."},
+          {"kind": "fill", "q": "Ieri ___ (io, comprare) una camicia ___ (bianco) e due magliette ___ (blu).", "answers": [["ho comprato"], ["bianca"], ["blu"]], "n": "Yesterday I bought a white shirt and two blue T-shirts."},
+          {"kind": "translate", "q": "Excuse me (formal), is there a pharmacy near here? — Yes, opposite the church.", "answers": ["Scusi, c'è una farmacia qui vicino? Sì, di fronte alla chiesa", "Scusi, c'è una farmacia qui vicino? — Sì, di fronte alla chiesa"]},
+          {"kind": "write", "q": "Write six sentences about yourself for the comune: name, nationality, date and place of birth, how long you've been here, your address, and two things you have already done this week.", "model": "Mi chiamo {hero} Ferrante e sono canadese. Sono {{nato|nata}} a Toronto il dodici marzo 1996. Abito a Roccamarina da due mesi, in via delle Rose 12. Questa settimana ho fatto il codice fiscale e ho compilato il modulo per la residenza. Ho anche comprato la marca da bollo.", "hint": "Mi chiamo… · Sono… · Sono nato/a… · Abito… da… · Ho fatto…"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Il comune e le carte",
+      "intro": "The codice fiscale, residency, the stamp from the tobacconist, the photocopies, and the one skill the Italian state teaches better than any school: patience.",
+      "blocks": [
+        {"type": "subhead", "text": "Il codice fiscale"},
+        {"type": "prose", "text": "Sixteen characters built from your surname, first name, birth date, sex and birthplace: [[FRRLCU96C12Z404X]] is a Luca Ferrante born in Toronto on 12 March 1996. You need it for everything: a rental contract, a phone contract, a bank account, the health card, a job, a gym. It is issued free by the [[Agenzia delle Entrate]] (the tax agency) on the spot, with a passport, or by an Italian consulate abroad before you leave. Get it first; nothing moves without it."},
+        {"type": "subhead", "text": "La residenza"},
+        {"type": "prose", "text": "Registering as resident ([[iscrizione anagrafica]]) at the comune makes you officially a citizen of that town: it gives you the health card, the ID card, the right to vote locally if you're a citizen, lower utility rates, and a place in the system. You need an ID, the codice fiscale, proof that you live at the address (a registered rental contract or the owner's declaration), and for non-EU citizens the permesso di soggiorno. Italian citizens by descent, like the protagonist, just need their citizenship recorded. After the application a [[vigile]] visits the address to confirm you really live there; be home, or leave your name on the bell and the mailbox. The certificate arrives within forty-five days, in theory."},
+        {"type": "callout", "kind": "real", "title": "The kit", "text": "Before any office: the original and two photocopies of every document, front and back; passport photos; a [[marca da bollo]] of sixteen euros (from a tabaccheria, never from the office); cash for fees; a pen; the form already filled in, in block capitals ([[in stampatello]]); and the number from the machine, taken on arrival. If the office opens at 8:30, the queue starts at 8. If they say [[torni giovedì]], go Thursday, not Friday."},
+        {"type": "subhead", "text": "Cittadinanza per discendenza"},
+        {"type": "prose", "text": "Italy grants citizenship by descent ([[iure sanguinis]]): a child of an Italian citizen is Italian, whenever and wherever born, as long as the line was never broken by renunciation. Millions of Italo-Canadians, Italo-Argentines and Italo-Americans qualify through a grandparent or great-grandparent, and consulates have waiting lists of years. The rules were tightened in 2025 to limit how far back the line can go; anyone with an Italian parent or grandparent should check the current rules at a consulate. The protagonist did it in Toronto, with nonno Cosimo's birth certificate from this same comune, and the whole file took two years. Antonella's two visits really are a record."},
+        {"type": "subhead", "text": "SPID, PEC and the rest"},
+        {"type": "prose", "text": "Much of Italian bureaucracy has moved online and needs a digital identity, [[SPID]], which you get from a provider with your codice fiscale and an ID, and sometimes a certified email address, [[PEC]], which is legally equivalent to registered post. Both are unit 22. For now: the comune still has a counter, a number machine and Antonella, and for residency you go in person."},
+        {"type": "callout", "kind": "culture", "title": "Pazienza", "text": "An Italian office is not slow out of malice. It is slow because every document protects a clerk from a mistake, every stamp proves someone checked, and every rule was written after someone cheated. The people behind the counter are mostly competent and often kind, and they will help the person who arrives prepared, polite and with the Lei. [[Dottoressa]], a [[grazie, molto gentile]], and a smile at the second visit buy more than any argument. [[Fatto]] is worth waiting for."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi · A1",
+      "intro": "This unit, then the whole of A1 on one screen. Then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Passato prossimo (avere)", "rows": [["ho · hai · ha · abbiamo · avete · hanno + participle", "compilato · ricevuto · finito"], ["Ho già pagato. Non ho ancora pagato. Non ho mai visto.", "already · not yet · never"], ["fatto · detto · preso · messo · visto · letto · scritto · aperto · chiuso", "irregular participles"], ["ieri · la settimana scorsa · due anni fa · nel 2024", "time markers"]]},
+          {"title": "Ordinali · da", "rows": [["primo · secondo · terzo · quarto · quinto · … · decimo · undicesimo · ventesimo", "agree: la prima volta"], ["Abito qui da due mesi. Dal primo giugno. Da quanto tempo?", "present + da = have been"]]},
+          {"title": "Allo sportello", "rows": [["Mi dica. Si accomodi. Firmi qui. Torni giovedì. Prenda il numero.", "formal imperatives"], ["Ha compilato? Ha un documento? Posso aiutarLa?", "Lei + third person"], ["luogo e data di nascita · stato civile · celibe / nubile · indirizzo · codice fiscale · marca da bollo", "the form"]]},
+          {"title": "A1 in one screen", "rows": [["essere · avere · c'è / ci sono · -are / -ere / -ire · -isc- · andare, venire, stare, uscire, dare, fare · dovere, potere, volere, sapere · riflessivi · passato prossimo (avere)", "verbs"], ["il / lo / l' / la · i / gli / le · un / uno / una / un' · del / della / dei / delle · al / nel / dal / sul", "articles and prepositions"], ["-o / -a / -i / -e · -e / -i · mio, tuo, suo · questo, quello · mi piace / mi piacciono", "agreement and pointing"], ["numbers to a million · time · days · months · dates · ordinals · weather", "numbers and time"], ["tu / Lei · greetings · ordering · directions · shopping · the office", "situations"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

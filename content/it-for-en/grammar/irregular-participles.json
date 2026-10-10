@@ -1,0 +1,20 @@
+{"id": "irregular-participles", "title": "Irregular past participles", "category": "Verbs", "rule": "Most -are verbs are regular (-ato); most -ire verbs are regular (-ito); many -ere verbs are irregular, and so are a few -ire verbs. The irregulars fall into families: -tto, -so, -sso, -sto, -nto, -erto. The Verbs page shows every participle.", "units": ["08"], "blocks": [
+  {"type": "table", "head": ["Family", "Verb → participle"], "rows": [["-tto", "fare → fatto · dire → detto · leggere → letto · scrivere → scritto · rompere → rotto · cuocere → cotto · tradurre → tradotto · dirigere → diretto"], ["-so", "prendere → preso · chiudere → chiuso · decidere → deciso · perdere → perso · spendere → speso · accendere → acceso · scendere → sceso · ridere → riso · dividere → diviso"], ["-sso", "mettere → messo · promettere → promesso · permettere → permesso · succedere → successo · discutere → discusso · muovere → mosso"], ["-sto", "vedere → visto · chiedere → chiesto · rispondere → risposto · rimanere → rimasto · nascondere → nascosto · porre → posto"], ["-nto", "vincere → vinto · spegnere → spento · piangere → pianto · dipingere → dipinto · raggiungere → raggiunto"], ["-erto", "aprire → aperto · offrire → offerto · scoprire → scoperto · soffrire → sofferto · coprire → coperto"], ["-lto", "scegliere → scelto · togliere → tolto · risolvere → risolto · raccogliere → raccolto"], ["others", "essere → stato · venire → venuto · bere → bevuto · vivere → vissuto · morire → morto · nascere → nato · conoscere → conosciuto · piacere → piaciuto · correre → corso"]], "speak": [1], "rowhead": true},
+  {"type": "callout", "kind": "note", "title": "Compounds follow the base verb", "text": "If [[mettere]] is messo, then [[promettere]] is promesso, [[permettere]] permesso, [[ammettere]] ammesso. [[Prendere]] → preso, so [[riprendere]] → ripreso, [[sorprendere]] → sorpreso. Learn the base, get the family."},
+  {"type": "examples", "items": [
+    {"t": "Cosa hai fatto ieri? — Ho letto, ho scritto a mia madre e ho visto Chiara.", "n": "What did you do yesterday? — I read, wrote to my mother and saw Chiara."},
+    {"t": "Hanno aperto alle otto e hanno chiuso all'una. Ho preso il numero e ho chiesto un appuntamento.", "n": "They opened at eight and closed at one. I took a number and asked for an appointment."},
+    {"t": "Ho messo la marca, ho deciso di aspettare e ho perso la pazienza.", "n": "I put the stamp on, decided to wait and lost my patience."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "ho prenduto, ho scrivuto, ho leggiuto", "right": "ho preso, ho scritto, ho letto", "why": "Irregular -ere participles."},
+    {"wrong": "ho aprito, ho offrito", "right": "ho aperto, ho offerto", "why": "The -erto family."},
+    {"wrong": "ho rispondito, ho chiedito", "right": "ho risposto, ho chiesto", "why": "The -sto family."},
+    {"wrong": "ho vedito, ho vedo", "right": "ho visto", "why": "Vedere → visto, the -sto family."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "chiedere → ___ · rispondere → ___ · scegliere → ___ · spendere → ___ · bere → ___", "answers": [["chiesto"], ["risposto"], ["scelto"], ["speso"], ["bevuto"]], "n": "asked · answered · chosen · spent · drunk"},
+    {"kind": "fill", "q": "Ieri ho ___ (perdere) le chiavi, ho ___ (rompere) un bicchiere e ho ___ (promettere) di stare attento.", "answers": [["perso"], ["rotto"], ["promesso"]], "n": "Yesterday I lost the keys, broke a glass and promised to be careful."},
+    {"kind": "dictation", "text": "Ho detto tutto, ho scritto tutto e ho fatto tutto.", "n": "I said everything, wrote everything and did everything."}
+  ]}
+]}
