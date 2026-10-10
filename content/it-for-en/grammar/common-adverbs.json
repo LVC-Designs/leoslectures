@@ -1,0 +1,27 @@
+{"id": "common-adverbs", "title": "Common adverbs and where they go", "category": "Adverbs", "rule": "Anche and solo go before the word they refer to. Già, ancora, sempre, mai, spesso, molto go after the verb. With compound tenses (unit 8), già / ancora / sempre / mai go between the auxiliary and the participle.", "units": ["03"], "blocks": [
+  {"type": "table", "head": ["Adverb", "Meaning", "Where", "Example"], "rows": [["anche", "also, too, even", "before the word it adds", "Anche Dora parla inglese. / Dora parla anche inglese."], ["neanche · nemmeno", "not even, neither", "before the word", "Neanche io. / Non parlo neanche francese."], ["solo · soltanto", "only", "before the word it limits", "Mangio solo un cornetto. / Solo Nando lavora la domenica."], ["già", "already", "after the verb", "Ho già il cappuccino. / È già qui."], ["ancora", "still; yet; again; more", "after the verb", "Lavora ancora. / Non pago ancora. / Ancora un caffè?"], ["sempre", "always; still", "after the verb", "Pago sempre alla cassa."], ["mai", "never (with non)", "after the verb", "Non mangio mai la mattina."], ["spesso", "often", "after the verb", "Vado spesso al bar."], ["molto", "a lot; very", "after the verb; before an adjective", "Parla molto. / È molto stanco."], ["poco", "little; not very", "after the verb; before an adjective", "Mangia poco. / È poco simpatico."], ["qui · lì", "here · there", "flexible", "Qui costa meno. / Lì è il bagno."], ["adesso · ora", "now", "flexible", "Adesso pago."], ["dopo · poi", "later · then", "flexible", "Pago dopo. / Poi mangiamo."]], "speak": [3], "rowhead": true},
+  {"type": "subhead", "text": "anche: position changes meaning"},
+  {"type": "examples", "items": [
+    {"t": "Anche Nando lavora la domenica.", "n": "Nando too works on Sundays (as well as other people)."},
+    {"t": "Nando lavora anche la domenica.", "n": "Nando works on Sundays as well (as other days)."},
+    {"t": "Nando anche lavora. (rare)", "n": "Nando works, among other things.", "note": "possible but unusual; avoid"}
+  ]},
+  {"type": "subhead", "text": "ancora: four meanings"},
+  {"type": "examples", "items": [
+    {"t": "Lavora ancora.", "n": "He's still working."},
+    {"t": "Non lavora ancora.", "n": "He isn't working yet."},
+    {"t": "Ancora un caffè?", "n": "Another coffee?"},
+    {"t": "Dillo ancora.", "n": "Say it again."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Io anche.", "right": "Anche io.", "why": "Anche precedes."},
+    {"wrong": "Già sono qui.", "right": "Sono già qui.", "why": "Già follows the verb."},
+    {"wrong": "Mai mangio la mattina.", "right": "Non mangio mai la mattina.", "why": "Mai needs non before the verb (unit 9)."},
+    {"wrong": "Molto mi piace.", "right": "Mi piace molto.", "why": "Molto follows the verb."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "order", "answer": "Dora parla anche inglese.", "n": "Dora also speaks English."},
+    {"kind": "fill", "q": "Non ho ___ fame. (yet) · Ho ___ fame. (still)", "answers": [["ancora"], ["ancora"]], "n": "I'm not hungry yet. · I'm still hungry."},
+    {"kind": "mc", "q": "«Only Nando works on Sundays.»", "options": ["Solo Nando lavora la domenica.", "Nando lavora solo la domenica.", "Nando solo lavora la domenica."], "answer": 0, "why": "Solo before Nando limits the person; before la domenica it would limit the day."}
+  ]}
+]}

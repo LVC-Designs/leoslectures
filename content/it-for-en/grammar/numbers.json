@@ -1,27 +1,352 @@
-{"id": "numbers", "title": "Numbers", "category": "Numbers", "rule": "0–20 are learned one by one; from 20 the tens combine with units in one word. This page grows: hundreds and thousands in unit 3, ordinals in unit 8.", "units": ["01", "02"], "blocks": [
-  {"type": "grid", "cols": 7, "items": [
-    {"big": "0", "small": "zero"}, {"big": "1", "small": "uno"}, {"big": "2", "small": "due"}, {"big": "3", "small": "tre"}, {"big": "4", "small": "quattro"}, {"big": "5", "small": "cinque"}, {"big": "6", "small": "sei"},
-    {"big": "7", "small": "sette"}, {"big": "8", "small": "otto"}, {"big": "9", "small": "nove"}, {"big": "10", "small": "dieci"}, {"big": "11", "small": "undici"}, {"big": "12", "small": "dodici"}, {"big": "13", "small": "tredici"},
-    {"big": "14", "small": "quattordici"}, {"big": "15", "small": "quindici"}, {"big": "16", "small": "sedici"}, {"big": "17", "small": "diciassette"}, {"big": "18", "small": "diciotto"}, {"big": "19", "small": "diciannove"}, {"big": "20", "small": "venti"}
-  ]},
-  {"type": "table", "caption": "The tens", "head": ["", "", "", "", ""], "rows": [["20 venti", "30 trenta", "40 quaranta", "50 cinquanta", "60 sessanta"], ["70 settanta", "80 ottanta", "90 novanta", "100 cento", ""]], "speak": [0, 1, 2, 3, 4], "compact": true},
-  {"type": "subhead", "text": "Rules for 21–99"},
-  {"type": "table", "head": ["Rule", "Examples"], "rows": [["one word", "ventidue, trentacinque, novantanove"], ["drop the ten's vowel before uno and otto", "ventuno, ventotto, trentuno, trentotto, quarantuno, novantotto"], ["accent on tre at the end", "ventitré, trentatré, cinquantatré (but tre alone, no accent)"], ["uno agrees before a noun", "ventun anni / ventuno · trentun euro"]], "speak": [1]},
-  {"type": "examples", "items": [
-    {"t": "Dora ha sessantotto anni, Pasquale settantadue.", "n": "Dora is sixty-eight, Pasquale seventy-two."},
-    {"t": "Via delle Rose, numero dodici, interno ventitré.", "n": "Via delle Rose, number 12, flat 23."},
-    {"t": "Trentatré trentini entrarono a Trento.", "n": "Thirty-three people from Trento entered Trento.", "note": "the Italian tongue-twister for tr and tre"}
-  ]},
-  {"type": "callout", "kind": "memo", "title": "sei, sette and their cousins", "text": "[[sei]] is six and you are; [[sette]] is seven and has a double t; [[sedici]] and [[diciassette]] show the switch from -dici to dici- at 17. [[Undici]] (11) and [[dodici]] (12) begin like uno and due, which helps."},
-  {"type": "mistakes", "items": [
-    {"wrong": "ventiuno", "right": "ventuno", "why": "Vowel dropped before uno."},
-    {"wrong": "trentatre", "right": "trentatré", "why": "Accent on compounds with tre."},
-    {"wrong": "cinquanta-due, cinquanta e due", "right": "cinquantadue", "why": "One word, no hyphen, no \"and\"."},
-    {"wrong": "ventuno anni", "right": "ventun anni (or ventuno anni)", "why": "Before a noun, ventuno usually drops the final o."}
-  ]},
-  {"type": "exercises", "title": "Check yourself", "items": [
-    {"kind": "fill", "q": "41 = ___ · 68 = ___ · 93 = ___", "answers": [["quarantuno"], ["sessantotto"], ["novantatré"]], "n": "forty-one · sixty-eight · ninety-three"},
-    {"kind": "match", "q": "Match.", "pairs": [["diciassette", "17"], ["settanta", "70"], ["ventotto", "28"], ["ottantatré", "83"]]},
-    {"kind": "dictation", "text": "Trentatré, quarantotto, novantuno, cento.", "n": "Thirty-three, forty-eight, ninety-one, one hundred."}
-  ]}
-]}
+{
+ "id": "numbers",
+ "title": "Numbers",
+ "category": "Numbers",
+ "rule": "0–20 are learned one by one; from 20 the tens combine with units in one word; cento and mille build the hundreds and thousands. Ordinals in unit 8.",
+ "units": [
+  "01",
+  "02",
+  "03"
+ ],
+ "blocks": [
+  {
+   "type": "grid",
+   "cols": 7,
+   "items": [
+    {
+     "big": "0",
+     "small": "zero"
+    },
+    {
+     "big": "1",
+     "small": "uno"
+    },
+    {
+     "big": "2",
+     "small": "due"
+    },
+    {
+     "big": "3",
+     "small": "tre"
+    },
+    {
+     "big": "4",
+     "small": "quattro"
+    },
+    {
+     "big": "5",
+     "small": "cinque"
+    },
+    {
+     "big": "6",
+     "small": "sei"
+    },
+    {
+     "big": "7",
+     "small": "sette"
+    },
+    {
+     "big": "8",
+     "small": "otto"
+    },
+    {
+     "big": "9",
+     "small": "nove"
+    },
+    {
+     "big": "10",
+     "small": "dieci"
+    },
+    {
+     "big": "11",
+     "small": "undici"
+    },
+    {
+     "big": "12",
+     "small": "dodici"
+    },
+    {
+     "big": "13",
+     "small": "tredici"
+    },
+    {
+     "big": "14",
+     "small": "quattordici"
+    },
+    {
+     "big": "15",
+     "small": "quindici"
+    },
+    {
+     "big": "16",
+     "small": "sedici"
+    },
+    {
+     "big": "17",
+     "small": "diciassette"
+    },
+    {
+     "big": "18",
+     "small": "diciotto"
+    },
+    {
+     "big": "19",
+     "small": "diciannove"
+    },
+    {
+     "big": "20",
+     "small": "venti"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "caption": "The tens",
+   "head": [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": [
+    [
+     "20 venti",
+     "30 trenta",
+     "40 quaranta",
+     "50 cinquanta",
+     "60 sessanta"
+    ],
+    [
+     "70 settanta",
+     "80 ottanta",
+     "90 novanta",
+     "100 cento",
+     ""
+    ]
+   ],
+   "speak": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "compact": true
+  },
+  {
+   "type": "subhead",
+   "text": "Rules for 21–99"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Rule",
+    "Examples"
+   ],
+   "rows": [
+    [
+     "one word",
+     "ventidue, trentacinque, novantanove"
+    ],
+    [
+     "drop the ten's vowel before uno and otto",
+     "ventuno, ventotto, trentuno, trentotto, quarantuno, novantotto"
+    ],
+    [
+     "accent on tre at the end",
+     "ventitré, trentatré, cinquantatré (but tre alone, no accent)"
+    ],
+    [
+     "uno agrees before a noun",
+     "ventun anni / ventuno · trentun euro"
+    ]
+   ],
+   "speak": [
+    1
+   ]
+  },
+  {
+   "type": "subhead",
+   "text": "Hundreds, thousands, prices"
+  },
+  {
+   "type": "table",
+   "head": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": [
+    [
+     "100 cento",
+     "200 duecento",
+     "300 trecento",
+     "900 novecento"
+    ],
+    [
+     "101 centouno",
+     "110 centodieci",
+     "250 duecentocinquanta",
+     "999 novecentonovantanove"
+    ],
+    [
+     "1.000 mille",
+     "2.000 duemila",
+     "1.500 millecinquecento",
+     "10.000 diecimila"
+    ],
+    [
+     "100.000 centomila",
+     "1.000.000 un milione",
+     "2.000.000 due milioni",
+     "1.000.000.000 un miliardo"
+    ]
+   ],
+   "speak": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "compact": true,
+   "note": "Cento is invariable; mille → -mila. Milione and miliardo are nouns: un milione di euro, due milioni di abitanti. Thousands take a dot, decimals a comma: 1.250,50."
+  },
+  {
+   "type": "table",
+   "caption": "Prices and years",
+   "head": [
+    "Written",
+    "Said"
+   ],
+   "rows": [
+    [
+     "€ 1,10",
+     "un euro e dieci"
+    ],
+    [
+     "€ 2,50",
+     "due e cinquanta"
+    ],
+    [
+     "€ 0,90",
+     "novanta centesimi"
+    ],
+    [
+     "€ 450",
+     "quattrocentocinquanta euro"
+    ],
+    [
+     "1985",
+     "millenovecentottantacinque"
+    ],
+    [
+     "2026",
+     "duemilaventisei"
+    ]
+   ],
+   "speak": [
+    1
+   ]
+  },
+  {
+   "type": "examples",
+   "items": [
+    {
+     "t": "Dora ha sessantotto anni, Pasquale settantadue.",
+     "n": "Dora is sixty-eight, Pasquale seventy-two."
+    },
+    {
+     "t": "Via delle Rose, numero dodici, interno ventitré.",
+     "n": "Via delle Rose, number 12, flat 23."
+    },
+    {
+     "t": "Trentatré trentini entrarono a Trento.",
+     "n": "Thirty-three people from Trento entered Trento.",
+     "note": "the Italian tongue-twister for tr and tre"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "kind": "memo",
+   "title": "sei, sette and their cousins",
+   "text": "[[sei]] is six and you are; [[sette]] is seven and has a double t; [[sedici]] and [[diciassette]] show the switch from -dici to dici- at 17. [[Undici]] (11) and [[dodici]] (12) begin like uno and due, which helps."
+  },
+  {
+   "type": "mistakes",
+   "items": [
+    {
+     "wrong": "ventiuno",
+     "right": "ventuno",
+     "why": "Vowel dropped before uno."
+    },
+    {
+     "wrong": "trentatre",
+     "right": "trentatré",
+     "why": "Accent on compounds with tre."
+    },
+    {
+     "wrong": "cinquanta-due, cinquanta e due",
+     "right": "cinquantadue",
+     "why": "One word, no hyphen, no \"and\"."
+    },
+    {
+     "wrong": "ventuno anni",
+     "right": "ventun anni (or ventuno anni)",
+     "why": "Before a noun, ventuno usually drops the final o."
+    }
+   ]
+  },
+  {
+   "type": "exercises",
+   "title": "Check yourself",
+   "items": [
+    {
+     "kind": "fill",
+     "q": "41 = ___ · 68 = ___ · 93 = ___",
+     "answers": [
+      [
+       "quarantuno"
+      ],
+      [
+       "sessantotto"
+      ],
+      [
+       "novantatré"
+      ]
+     ],
+     "n": "forty-one · sixty-eight · ninety-three"
+    },
+    {
+     "kind": "match",
+     "q": "Match.",
+     "pairs": [
+      [
+       "diciassette",
+       "17"
+      ],
+      [
+       "settanta",
+       "70"
+      ],
+      [
+       "ventotto",
+       "28"
+      ],
+      [
+       "ottantatré",
+       "83"
+      ]
+     ]
+    },
+    {
+     "kind": "dictation",
+     "text": "Trentatré, quarantotto, novantuno, cento.",
+     "n": "Thirty-three, forty-eight, ninety-one, one hundred."
+    }
+   ]
+  }
+ ]
+}

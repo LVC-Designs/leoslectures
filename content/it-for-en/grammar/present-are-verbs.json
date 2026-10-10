@@ -1,0 +1,23 @@
+{"id": "present-are-verbs", "title": "Present tense: regular -are verbs", "category": "Verbs", "rule": "Stem + -o, -i, -a, -iamo, -ate, -ano. Spelling keeps the sound: -care/-gare add h before i; -ciare/-giare/-iare drop the stem's i before i. Stress stays on the stem in the loro form.", "units": ["03"], "blocks": [
+  {"type": "conjugation", "verbs": ["parlare", "cercare", "mangiare", "studiare"], "tense": "presente", "caption": "Four patterns: regular, -care, -giare, -iare"},
+  {"type": "table", "head": ["Group", "Verbs", "What happens", "Example"], "rows": [["-are regular", "parlare, lavorare, abitare, aspettare, comprare, guardare, ascoltare, ordinare, arrivare, entrare, tornare", "nothing special", "tu lavori, noi lavoriamo"], ["-care, -gare", "cercare, pagare, giocare, dimenticare, spiegare", "h before the endings in -i and -iamo", "tu cerchi, noi paghiamo"], ["-ciare, -giare, -sciare", "cominciare, mangiare, lasciare, viaggiare, noleggiare", "the stem's i merges with the ending's i", "tu cominci, noi mangiamo"], ["-iare (unstressed i)", "studiare, cambiare, copiare", "same merge", "tu studi, noi cambiamo"], ["-iare (stressed i)", "sciare, inviare, spiare", "keep both i's in tu", "tu scii, tu invii"]], "speak": [3], "rowhead": true},
+  {"type": "subhead", "text": "What the present covers"},
+  {"type": "examples", "items": [
+    {"t": "Lavoro al bar.", "n": "I work at the bar. / I'm working at the bar.", "note": "habit and present action"},
+    {"t": "Domani lavoro.", "n": "I'm working tomorrow.", "note": "near future, with a time word"},
+    {"t": "Abito qui da un mese.", "n": "I've been living here for a month.", "note": "present + da for \"have been doing\": unit 8"},
+    {"t": "Parli inglese? — Sì, parlo inglese.", "n": "Do you speak English? — Yes, I do.", "note": "no \"do\"; the verb repeats in the answer"}
+  ]},
+  {"type": "callout", "kind": "warn", "title": "Stress in the loro form", "text": "[[PARlano]], [[LAvorano]], [[ORdinano]], [[TElefonano]]: the stress is where it is in the io form. Saying parLAno is the single most common pronunciation error in this tense, and Italians hear it instantly."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Io sono parlare italiano.", "right": "Parlo italiano.", "why": "No auxiliary \"am\"; the simple present does it."},
+    {"wrong": "Tu pagi, tu cerci", "right": "Tu paghi, tu cerchi", "why": "H to keep the hard sound."},
+    {"wrong": "Noi mangiiamo", "right": "Noi mangiamo", "why": "One i."},
+    {"wrong": "Ascolto a la radio. Guardo a la TV.", "right": "Ascolto la radio. Guardo la TV.", "why": "Direct objects, no preposition."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "cercare", "tense": "presente", "n": "to look for", "answers": ["cerco", "cerchi", "cerca", "cerchiamo", "cercate", "cercano"]},
+    {"kind": "conjugate", "verb": "cominciare", "tense": "presente", "n": "to begin", "answers": ["comincio", "cominci", "comincia", "cominciamo", "cominciate", "cominciano"]},
+    {"kind": "fill", "q": "Dora e Nando ___ (parlare) in dialetto; io ___ (ascoltare) e non ___ (capire)… quasi.", "answers": [["parlano"], ["ascolto"], ["capisco"]], "n": "Dora and Nando speak dialect; I listen and don't understand… almost.", "hint": "capire is unit 4: capisco"}
+  ]}
+]}

@@ -1,0 +1,314 @@
+{
+  "id": "03",
+  "level": "A1",
+  "title": "Al Bar del Corso",
+  "subtitle": "At the Bar del Corso",
+  "intro": "Seven thirty, five people at the counter, no queue. You order at the wrong place, pay at the wrong moment, and get a nickname. In this unit you learn how an Italian bar works, how to order and pay, how to say what you like, and your first full set of regular verbs.",
+  "objectives": [
+    "Order food and drink at a bar and ask how much it costs",
+    "Use the regular [[-are]] verbs in all six persons: [[parlo]], [[mangi]], [[paga]]…",
+    "Say what you like with [[mi piace]] and [[mi piacciono]]",
+    "Count to a thousand and beyond, and understand prices in euros and cents",
+    "Use [[anche]], [[solo]], [[ancora]] and [[già]] in the right place"
+  ],
+  "canDo": [
+    "A1 · Spoken interaction: can order food and drink using simple phrases and ask how much something costs.",
+    "A1 · Spoken interaction: can say what they like and dislike in simple terms.",
+    "A1 · Listening: can understand prices and simple questions in a service situation when spoken slowly.",
+    "A1 · Reading: can understand a simple price list or menu.",
+    "A1 · Spoken production: can describe daily habits with very simple sentences (I work, I eat, I speak)."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Cassa, scontrino, bancone",
+      "intro": "Two scenes at Nando's bar: the first coffee, done wrong and then right, and Pasquale's breakfast lesson. Listen for the prices.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-bancone", "title": "Al bancone", "setting": "Bar del Corso, ore 7:30. Al bancone cinque persone, nessuna fila. Nando è dietro la macchina del caffè; Rita, sua moglie, è alla cassa.", "register": "informale", "lines": [
+          {"who": "hero", "t": "Buongiorno! Un cappuccino, per favore.", "n": "Good morning! A cappuccino, please."},
+          {"who": "Nando", "t": "Buongiorno! Lo scontrino?", "n": "Good morning! The receipt?"},
+          {"who": "hero", "t": "Lo scontrino? Ma… pago dopo?", "n": "The receipt? But… do I pay afterwards?"},
+          {"who": "Nando", "t": "No, prima. Cassa, scontrino, bancone. In quest'ordine.", "n": "No, first. Till, receipt, counter. In that order."},
+          {"who": "hero", "t": "Ho capito, scusi. Un cappuccino e un cornetto. Quant'è?", "n": "Got it, sorry. A cappuccino and a croissant. How much is it?", "note": "At the till, to Rita. Quant'è? is the question for the total; quanto costa? asks the price of one thing."},
+          {"who": "Rita", "t": "Due e cinquanta.", "n": "Two fifty.", "note": "Prices are said without euro: due e cinquanta = €2.50."},
+          {"who": "hero", "t": "Ecco. … Ecco lo scontrino!", "n": "Here. … Here's the receipt!"},
+          {"who": "Nando", "t": {"m": "Bravo! Cappuccino e cornetto. Tu sei il nipote di Cosimo, no? Il canadese!", "f": "Brava! Cappuccino e cornetto. Tu sei la nipote di Cosimo, no? La canadese!", "note": "Bravo / brava agrees, and so does the nickname: il canadese for Luca, la canadese for Lucia. Canadese itself doesn't change; the article does the work."}, "n": "Well done! Cappuccino and croissant. You're Cosimo's grandchild, right? The Canadian!"},
+          {"who": "hero", "t": "Sì! Ma come lo sa?", "n": "Yes! But how do you know?", "note": "The protagonist keeps Lei with Nando for now (lo sa). Nando uses tu with everyone."},
+          {"who": "Nando", "t": "Roccamarina è piccola. Io sono Nando. Qui lavoro dalle sei alle otto di sera. Zucchero?", "n": "Roccamarina is small. I'm Nando. I work here from six to eight at night. Sugar?"},
+          {"who": "hero", "t": "No, grazie. Lei… tu… parli inglese?", "n": "No, thanks. Do you (Lei… tu…) speak English?"},
+          {"who": "Nando", "t": "\"Yes, a little.\" Scherzo! Un po'. I turisti ordinano, io capisco. Mangi al bancone o al tavolo?", "n": "\"Yes, a little.\" Joking! A bit. The tourists order, I understand. Are you eating at the counter or at a table?"},
+          {"who": "hero", "t": "Che differenza c'è?", "n": "What's the difference?"},
+          {"who": "Nando", "t": "Al tavolo costa di più. Al bancone costa meno, e parli con me.", "n": "At a table it costs more. At the counter it costs less, and you talk to me."},
+          {"who": "hero", "t": "Al bancone, allora.", "n": "At the counter, then."}
+        ], "notes": [
+          {"phrase": "Quant'è?", "note": "How much is it (all together)? Quanto + è. The answer comes without the word euro: tre e venti."},
+          {"phrase": "lo scontrino", "note": "The receipt from the till. At most bars you pay first, then show it at the counter. See Living there."},
+          {"phrase": "Scherzo!", "note": "Just kidding! From scherzare, to joke. Nando's favourite word."},
+          {"phrase": "costa di più / costa meno", "note": "It costs more / it costs less. Comparisons arrive in unit 10; these two are useful now."}
+        ]},
+        {"type": "scene", "id": "dlg-pasquale", "title": "Offro io", "setting": "Ore 8. Entra Pasquale con il giornale sotto il braccio.", "register": "formale e informale", "lines": [
+          {"who": "Pasquale", "t": {"m": "Buongiorno, Nando. Buongiorno, canadese. Un caffè. E cosa prende il nipote di Cosimo?", "f": "Buongiorno, Nando. Buongiorno, canadese. Un caffè. E cosa prende la nipote di Cosimo?"}, "n": "Good morning, Nando. Good morning, Canadian. A coffee. And what's Cosimo's grandchild having?", "note": "Cosa prende? (Lei form) is the question you will hear in every bar and restaurant: what are you having?"},
+          {"who": "hero", "t": "Niente, grazie. Ho già il cappuccino.", "n": "Nothing, thanks. I already have my cappuccino."},
+          {"who": "Pasquale", "t": "Allora un altro cornetto. Offro io.", "n": "Then another croissant. My treat."},
+          {"who": "hero", "t": "Grazie, professore. Ma non mangio molto la mattina.", "n": "Thank you, professor. But I don't eat much in the morning."},
+          {"who": "Pasquale", "t": "In Italia la colazione è piccola: un caffè, un cornetto. Non uova e pancetta.", "n": "In Italy breakfast is small: a coffee, a croissant. Not eggs and bacon."},
+          {"who": "Nando", "t": "Il professore paga, tu mangi. Qui funziona così.", "n": "The professor pays, you eat. That's how it works here."},
+          {"who": "hero", "t": "Allora grazie. Un cornetto alla crema.", "n": "Then thank you. A cream croissant."},
+          {"who": "Pasquale", "t": "Nando, quant'è?", "n": "Nando, how much is it?"},
+          {"who": "Nando", "t": "Due e venti. Professore, il caffè costa un euro e dieci, come sempre.", "n": "Two twenty. Professor, the coffee is one euro ten, like always."},
+          {"who": "Pasquale", "t": "Nel 1985 costava trecento lire.", "n": "In 1985 it cost three hundred lire.", "note": "Costava: \"it used to cost\", the imperfetto of unit 11. Pasquale remembers every price since the lira."}
+        ], "notes": [
+          {"phrase": "Offro io.", "note": "I'm paying, it's on me. Literally \"I offer\". The reply is grazie, not a fight over the bill: that comes later, when you know each other."},
+          {"phrase": "Qui funziona così.", "note": "That's how it works here. The sentence that explains Italy."},
+          {"phrase": "alla crema", "note": "Cream-filled. Also al cioccolato, alla marmellata, vuoto (plain). Alla / al = \"with\" for fillings and flavours."}
+        ], "questions": [
+          {"kind": "tf", "q": "Pasquale pays for the croissant.", "t": "Offro io.", "answer": true, "why": "Offro io: he's paying."},
+          {"kind": "mc", "q": "How much is a coffee at the Bar del Corso?", "options": ["One euro ten.", "Two euros twenty.", "Three hundred lire."], "answer": 0, "why": "Un euro e dieci, come sempre. The 300 lire was 1985."},
+          {"kind": "fill", "q": "In Italia la colazione è ___.", "answers": [["piccola"]], "n": "In Italy breakfast is small."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Al bar",
+      "intro": "What you drink, what you eat, how you pay, and twelve regular -are verbs that run your day. Say the drinks aloud: cappuccino has two double consonants, and the Pronunciation section is about exactly that.",
+      "blocks": [
+        {"type": "vocab", "theme": "Da bere e da mangiare", "n": "Drinks and food", "items": [
+          {"t": "caffè", "n": "coffee (an espresso)", "article": "il", "gender": "m", "plural": "i caffè", "pos": "noun", "ex": {"t": "Un caffè, per favore.", "n": "A coffee, please."}, "note": "Always an espresso. A long one is un caffè lungo; with a drop of milk, un caffè macchiato."},
+          {"t": "cappuccino", "n": "cappuccino", "article": "il", "gender": "m", "plural": "i cappuccini", "pos": "noun", "ex": {"t": "Il cappuccino è una cosa da mattina.", "n": "Cappuccino is a morning thing."}},
+          {"t": "latte", "n": "milk", "article": "il", "gender": "m", "plural": "i latti", "pos": "noun", "ex": {"t": "Un latte? Un bicchiere di latte freddo?", "n": "A latte? A glass of cold milk?"}, "note": "Order un latte and you get a glass of milk. The coffee drink is un latte macchiato or un caffellatte."},
+          {"t": "tè", "n": "tea", "article": "il", "gender": "m", "plural": "i tè", "pos": "noun", "ex": {"t": "Un tè al limone, per favore.", "n": "A tea with lemon, please."}, "note": "With the accent: tè. Without it, te means \"you\"."},
+          {"t": "acqua", "n": "water", "article": "l'", "gender": "f", "plural": "le acque", "pos": "noun", "ex": {"t": "Acqua naturale o frizzante?", "n": "Still or sparkling water?"}, "note": "You will be asked this at every table in Italy."},
+          {"t": "spremuta", "n": "fresh-squeezed juice", "article": "la", "gender": "f", "plural": "le spremute", "pos": "noun", "ex": {"t": "Una spremuta d'arancia.", "n": "A fresh orange juice."}, "note": "Il succo is bottled juice; la spremuta is squeezed in front of you."},
+          {"t": "cornetto", "n": "croissant", "article": "il", "gender": "m", "plural": "i cornetti", "pos": "noun", "ex": {"t": "Un cornetto alla crema o vuoto?", "n": "A cream croissant or plain?"}, "note": "Cornetto in the centre and south, brioche in the north. Both are sweeter and softer than a French croissant."},
+          {"t": "panino", "n": "sandwich, filled roll", "article": "il", "gender": "m", "plural": "i panini", "pos": "noun", "ex": {"t": "Un panino con prosciutto e formaggio.", "n": "A ham and cheese roll."}, "note": "One panino, two panini. \"A panini\" is a Canadian mistake."},
+          {"t": "tramezzino", "n": "triangular sandwich (soft white bread)", "article": "il", "gender": "m", "plural": "i tramezzini", "pos": "noun", "ex": {"t": "I tramezzini sono per il pranzo veloce.", "n": "Tramezzini are for a quick lunch."}},
+          {"t": "zucchero", "n": "sugar", "article": "lo", "gender": "m", "pos": "noun", "ex": {"t": "Zucchero? — No, grazie, amaro.", "n": "Sugar? — No thanks, black (bitter)."}, "note": "Lo zucchero: z takes lo. Amaro = no sugar."},
+          {"t": "colazione", "n": "breakfast", "article": "la", "gender": "f", "plural": "le colazioni", "pos": "noun", "ex": {"t": "Faccio colazione al bar.", "n": "I have breakfast at the bar."}, "note": "Fare colazione = to have breakfast. Dialect and the north say also prima colazione."},
+          {"t": "pranzo", "n": "lunch", "article": "il", "gender": "m", "plural": "i pranzi", "pos": "noun", "ex": {"t": "Il pranzo è all'una.", "n": "Lunch is at one."}},
+          {"t": "cena", "n": "dinner", "article": "la", "gender": "f", "plural": "le cene", "pos": "noun", "ex": {"t": "A Roccamarina la cena è alle nove.", "n": "In Roccamarina dinner is at nine."}, "note": "Soft c: \"CHEH-na\"."}
+        ]},
+        {"type": "vocab", "theme": "Pagare", "n": "Paying", "items": [
+          {"t": "scontrino", "n": "receipt (from the till)", "article": "lo", "gender": "m", "plural": "gli scontrini", "pos": "noun", "ex": {"t": "Prima lo scontrino, poi il caffè.", "n": "First the receipt, then the coffee."}},
+          {"t": "cassa", "n": "till, cash desk", "article": "la", "gender": "f", "plural": "le casse", "pos": "noun", "ex": {"t": "Si paga alla cassa.", "n": "You pay at the till."}},
+          {"t": "bancone", "n": "counter, bar", "article": "il", "gender": "m", "plural": "i banconi", "pos": "noun", "ex": {"t": "Al bancone costa meno.", "n": "At the counter it costs less."}},
+          {"t": "tavolo", "n": "table", "article": "il", "gender": "m", "plural": "i tavoli", "pos": "noun", "ex": {"t": "Al tavolo costa di più.", "n": "At a table it costs more."}, "note": "Il tavolino is the little café table outside."},
+          {"t": "prezzo", "n": "price", "article": "il", "gender": "m", "plural": "i prezzi", "pos": "noun", "ex": {"t": "I prezzi sono sul listino.", "n": "The prices are on the price list."}},
+          {"t": "euro", "n": "euro", "article": "l'", "gender": "m", "plural": "gli euro", "pos": "noun", "ex": {"t": "Due euro e cinquanta.", "n": "Two euros fifty."}, "note": "Invariable: un euro, dieci euro. Never euri."},
+          {"t": "centesimo", "n": "cent", "article": "il", "gender": "m", "plural": "i centesimi", "pos": "noun", "ex": {"t": "Un euro e dieci centesimi.", "n": "One euro and ten cents."}, "note": "Usually dropped: un euro e dieci."},
+          {"t": "resto", "n": "change (money back)", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Ecco il resto: cinquanta centesimi.", "n": "Here's your change: fifty cents."}, "note": "Tenga il resto = keep the change (rare in a bar)."},
+          {"t": "contanti", "n": "cash", "article": "i", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "Contanti o carta? — Carta.", "n": "Cash or card? — Card."}, "note": "Pago in contanti = I pay cash."},
+          {"t": "carta", "n": "card", "article": "la", "gender": "f", "plural": "le carte", "pos": "noun", "ex": {"t": "Posso pagare con la carta?", "n": "Can I pay by card?"}, "note": "Also paper, and a playing card. Il bancomat is the debit card and the ATM."},
+          {"t": "mancia", "n": "tip", "article": "la", "gender": "f", "plural": "le mance", "pos": "noun", "ex": {"t": "In Italia la mancia non è obbligatoria.", "n": "In Italy a tip is not expected."}},
+          {"t": "listino", "n": "price list", "article": "il", "gender": "m", "plural": "i listini", "pos": "noun", "ex": {"t": "Il listino è sopra la cassa.", "n": "The price list is above the till."}}
+        ]},
+        {"type": "vocab", "theme": "Dodici verbi in -are", "n": "Twelve -are verbs", "intro": "All regular. Learn the infinitive and the io form; the rest follows the pattern in How it works.", "items": [
+          {"t": "parlare", "n": "to speak, to talk", "pos": "verb", "ex": {"t": "Parlo inglese e un po' di italiano.", "n": "I speak English and a little Italian."}},
+          {"t": "mangiare", "n": "to eat", "pos": "verb", "ex": {"t": "Non mangio molto la mattina.", "n": "I don't eat much in the morning."}, "note": "Tu mangi, with one i."},
+          {"t": "pagare", "n": "to pay", "pos": "verb", "ex": {"t": "Pago alla cassa.", "n": "I pay at the till."}, "note": "Tu paghi, with an h."},
+          {"t": "lavorare", "n": "to work", "pos": "verb", "ex": {"t": "Nando lavora dalle sei alle otto di sera.", "n": "Nando works from six to eight at night."}},
+          {"t": "abitare", "n": "to live (in a place)", "pos": "verb", "ex": {"t": "Abito in via delle Rose.", "n": "I live on Via delle Rose."}, "note": "For where you live. Vivere (to live, to be alive) is unit 4."},
+          {"t": "ordinare", "n": "to order", "pos": "verb", "ex": {"t": "I turisti ordinano in inglese.", "n": "The tourists order in English."}},
+          {"t": "aspettare", "n": "to wait (for)", "pos": "verb", "ex": {"t": "Aspetto Dora al bar.", "n": "I'm waiting for Dora at the bar."}, "note": "No preposition: aspetto Dora, not aspetto per Dora."},
+          {"t": "cercare", "n": "to look for", "pos": "verb", "ex": {"t": "Cerco un tavolo.", "n": "I'm looking for a table."}, "note": "Tu cerchi, with an h. No preposition: cerco un tavolo."},
+          {"t": "comprare", "n": "to buy", "pos": "verb", "ex": {"t": "Compro il pane al forno.", "n": "I buy the bread at the bakery."}},
+          {"t": "studiare", "n": "to study", "pos": "verb", "ex": {"t": "Studio l'italiano ogni giorno.", "n": "I study Italian every day."}, "note": "Tu studi, one i."},
+          {"t": "guardare", "n": "to look at, to watch", "pos": "verb", "ex": {"t": "Nando guarda la partita al bar.", "n": "Nando watches the match at the bar."}},
+          {"t": "ascoltare", "n": "to listen (to)", "pos": "verb", "ex": {"t": "Ascolto la radio la mattina.", "n": "I listen to the radio in the morning."}, "note": "No preposition: ascolto la radio."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "I verbi in -are, e quanto costa",
+      "intro": "The first regular conjugation, the phrases that get you a coffee, the two forms of piacere, prices, and four little adverbs that go in a specific place. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-are", "title": "Regular -are verbs: parlo, parli, parla", "category": "Verbs", "rule": "Take off -are and add -o, -i, -a, -iamo, -ate, -ano. The stress stays on the stem in the loro form: PARlano, not parLAno.", "ref": "present-are-verbs", "blocks": [
+          {"type": "conjugation", "verbs": ["parlare", "mangiare", "pagare"], "tense": "presente", "caption": "[[parlare]], [[mangiare]], [[pagare]] · presente", "note": "Mangiare: tu mangi, noi mangiamo (the i of the stem merges with the i of the ending). Pagare: tu paghi, noi paghiamo (the h keeps the hard g). The same goes for cercare → cerchi, giocare → giochi, studiare → studi, cominciare → cominci."},
+          {"type": "table", "head": ["", "ending", "parlare", "lavorare", "aspettare"], "rows": [["io", "-o", "parlo", "lavoro", "aspetto"], ["tu", "-i", "parli", "lavori", "aspetti"], ["lui / lei / Lei", "-a", "parla", "lavora", "aspetta"], ["noi", "-iamo", "parliamo", "lavoriamo", "aspettiamo"], ["voi", "-ate", "parlate", "lavorate", "aspettate"], ["loro", "-ano", "parlano", "lavorano", "aspettano"]], "speak": [2, 3, 4], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Lavoro dalle sei alle otto.", "n": "I work from six to eight."},
+            {"t": "Mangi al bancone o al tavolo?", "n": "Are you eating at the counter or at a table?", "note": "the present covers English \"I eat\", \"I'm eating\" and \"I do eat\""},
+            {"t": "Nando parla con tutti.", "n": "Nando talks to everyone."},
+            {"t": "Abitiamo in via delle Rose.", "n": "We live on Via delle Rose."},
+            {"t": "I turisti ordinano in inglese e pagano in euro.", "n": "The tourists order in English and pay in euros."}
+          ]},
+          {"type": "callout", "kind": "memo", "title": "One present, three English tenses", "text": "[[Mangio un cornetto.]] can mean *I eat a croissant*, *I'm eating a croissant* or *I do eat a croissant*. There is no separate continuous tense you need now ([[sto mangiando]] exists and comes in unit 12). The simple present does the work."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Loro parLAno italiano.", "right": "Loro PARlano italiano.", "why": "The loro form is stressed on the stem, like the io form. English speakers move the stress to the ending."},
+            {"wrong": "Tu mangii. Tu pagi.", "right": "Tu mangi. Tu paghi.", "why": "Spelling: -giare drops an i, -gare adds an h."},
+            {"wrong": "Aspetto per Dora. Cerco per un tavolo.", "right": "Aspetto Dora. Cerco un tavolo.", "why": "Aspettare, cercare, ascoltare, guardare take a direct object: no \"for\", no \"to\", no \"at\"."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-ordinare", "title": "Ordering: vorrei, prendo, per me", "category": "Phrases", "rule": "Three ways to order, all polite: vorrei (I'd like), prendo (I'll have), per me (for me). Then quant'è? for the total.", "blocks": [
+          {"type": "table", "head": ["You say", "English", "Note"], "rows": [["Un caffè, per favore.", "A coffee, please.", "the simplest: noun + per favore"], ["Vorrei un cappuccino.", "I'd like a cappuccino.", "vorrei is a form of volere (unit 14); for now, a fixed polite phrase"], ["Prendo un cornetto.", "I'll have a croissant.", "literally \"I take\": the most common way"], ["Per me un tè, per lui un caffè.", "A tea for me, a coffee for him.", "when ordering for a group"], ["Quant'è?", "How much is it?", "the total"], ["Quanto costa un cappuccino?", "How much is a cappuccino?", "one item; plural: quanto costano i cornetti?"], ["Posso pagare con la carta?", "Can I pay by card?", "posso = I can, unit 6"]], "speak": [0]},
+          {"type": "table", "caption": "What they say to you", "head": ["They say", "English"], "rows": [["Prego? / Dimmi. / Mi dica.", "Yes? What can I get you? (informal / formal)"], ["Cosa prendi? / Cosa prende?", "What are you having? (tu / Lei)"], ["Al bancone o al tavolo?", "At the counter or at a table?"], ["Lo scontrino, per favore.", "The receipt, please."], ["Altro?", "Anything else?"], ["Sono due e cinquanta.", "That's two fifty."]], "speak": [0]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Posso avere un caffè?", "right": "Un caffè, per favore. / Vorrei un caffè.", "why": "Grammatical but heavy. Italians order with the noun, prendo or vorrei; \"can I have\" is an English habit."},
+            {"wrong": "Un latte, per favore. (expecting a latte)", "right": "Un latte macchiato, per favore.", "why": "Un latte is a glass of milk."},
+            {"wrong": "Quanto è?", "right": "Quant'è?", "why": "Elided, always."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-piace", "title": "mi piace, mi piacciono", "category": "Verbs", "rule": "To say you like something: mi piace + singular, mi piacciono + plural. The thing you like is the subject; you are the one it \"is pleasing to\".", "ref": "piacere", "blocks": [
+          {"type": "table", "head": ["", "singular thing", "plural things", "an activity"], "rows": [["I like", "Mi piace il caffè.", "Mi piacciono i cornetti.", "Mi piace mangiare al bar."], ["you like (tu)", "Ti piace il cappuccino?", "Ti piacciono i tramezzini?", "Ti piace lavorare qui?"], ["I don't like", "Non mi piace il tè.", "Non mi piacciono le uova.", "Non mi piace aspettare."]], "speak": [1, 2, 3], "rowhead": true, "note": "Lui / lei / noi / voi / loro forms in unit 7."},
+          {"type": "examples", "items": [
+            {"t": "Mi piace il cappuccino, ma non mi piace lo zucchero.", "n": "I like cappuccino, but I don't like sugar."},
+            {"t": "Ti piacciono i cornetti alla crema? — Molto!", "n": "Do you like cream croissants? — Very much!"},
+            {"t": "Mi piace Roccamarina.", "n": "I like Roccamarina."},
+            {"t": "Mi piace parlare con Nando.", "n": "I like talking to Nando.", "note": "piace + infinitive, always singular"}
+          ]},
+          {"type": "callout", "kind": "why", "title": "Why piacciono", "text": "Literally [[mi piacciono i cornetti]] is \"croissants are pleasing to me\": the croissants are the subject, so the verb is plural. Think of English \"it pleases me / they please me\" and the forms stop looking strange."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Mi piace i cornetti.", "right": "Mi piacciono i cornetti.", "why": "Plural thing, plural verb."},
+            {"wrong": "Io piaccio il caffè.", "right": "Mi piace il caffè.", "why": "Io piaccio means \"I am likeable\". The liker is mi."},
+            {"wrong": "Mi piacciono mangiare.", "right": "Mi piace mangiare.", "why": "An infinitive counts as singular."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-numeri", "title": "Numbers to 1,000 and beyond; prices", "category": "Numbers", "rule": "cento, duecento… novecento; mille, duemila… ; un milione. Prices: euro invariable, cents after e, usually without the words euro and centesimi.", "ref": "numbers", "blocks": [
+          {"type": "table", "head": ["", "", "", ""], "rows": [["100 cento", "200 duecento", "300 trecento", "500 cinquecento"], ["101 centouno", "150 centocinquanta", "999 novecentonovantanove", "1.000 mille"], ["1.100 millecento", "2.000 duemila", "10.000 diecimila", "100.000 centomila"], ["1.000.000 un milione", "2.000.000 due milioni", "1.000.000.000 un miliardo", ""]], "speak": [0, 1, 2, 3], "compact": true, "note": "Cento never changes; mille becomes -mila in the plural. Italian writes thousands with a dot and decimals with a comma: 1.250,50."},
+          {"type": "table", "caption": "Prices", "head": ["Written", "Said"], "rows": [["€ 1,10", "un euro e dieci"], ["€ 2,50", "due e cinquanta"], ["€ 0,90", "novanta centesimi"], ["€ 12,00", "dodici euro"], ["€ 450,00", "quattrocentocinquanta euro"], ["€ 1.200,00", "milleduecento euro"]], "speak": [1]},
+          {"type": "examples", "items": [
+            {"t": "Quant'è? — Tre e venti.", "n": "How much? — Three twenty."},
+            {"t": "L'affitto è quattrocentocinquanta euro al mese.", "n": "The rent is 450 euros a month."},
+            {"t": "Nel millenovecentottantacinque il caffè costava trecento lire.", "n": "In 1985 coffee cost 300 lire.", "note": "years are read as full numbers"},
+            {"t": "Roccamarina ha ventimila abitanti.", "n": "Roccamarina has twenty thousand inhabitants."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "dieci euri", "right": "dieci euro", "why": "Euro is invariable."},
+            {"wrong": "duemille", "right": "duemila", "why": "Mille → -mila in compounds."},
+            {"wrong": "due euro cinquanta", "right": "due euro e cinquanta / due e cinquanta", "why": "The e joins euros and cents."},
+            {"wrong": "uno cento", "right": "cento", "why": "No \"one\" before cento or mille: cento, mille."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-avverbi", "title": "anche, solo, ancora, già", "category": "Adverbs", "rule": "Anche (also) goes before the word it refers to; solo (only) too. Ancora (still, yet) and già (already) go after the verb.", "ref": "common-adverbs", "blocks": [
+          {"type": "examples", "items": [
+            {"t": "Anche io prendo un caffè.", "n": "I'll have a coffee too.", "note": "anche + the thing it refers to (io)"},
+            {"t": "Prendo anche un cornetto.", "n": "I'll have a croissant as well.", "note": "anche before cornetto: the croissant is the extra"},
+            {"t": "Mangio solo un cornetto.", "n": "I eat only a croissant."},
+            {"t": "Ho già il cappuccino.", "n": "I already have my cappuccino."},
+            {"t": "Non pago ancora? — No, ancora no.", "n": "Don't I pay yet? — No, not yet."},
+            {"t": "Nando lavora ancora.", "n": "Nando is still working."}
+          ]},
+          {"type": "table", "head": ["Adverb", "Meaning", "Position"], "rows": [["anche", "also, too, even", "right before the word it adds to"], ["solo / soltanto", "only", "right before the word it limits"], ["già", "already", "after the verb"], ["ancora", "still; yet (with non); again; more", "after the verb"], ["sempre", "always", "after the verb"], ["molto", "a lot, very", "after the verb; before an adjective"]], "speak": [0], "compact": true},
+          {"type": "mistakes", "items": [
+            {"wrong": "Io prendo un caffè anche.", "right": "Anche io prendo un caffè. / Prendo anche un caffè.", "why": "Anche does not go at the end; where you put it changes what it refers to."},
+            {"wrong": "Già ho il cappuccino.", "right": "Ho già il cappuccino.", "why": "Già follows the verb."},
+            {"wrong": "Non ho ancora fame? (meaning \"I'm still hungry\")", "right": "Ho ancora fame.", "why": "Non… ancora = not yet; ancora without non = still."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "Le doppie",
+      "intro": "The number one problem for English speakers. A double consonant is held longer, and the vowel before it is shorter. It is never decoration: pala is a shovel, palla is a ball.",
+      "blocks": [
+        {"type": "minimal", "caption": "Single or double? The meaning changes", "pairs": [
+          {"a": "pala", "b": "palla", "na": "shovel", "nb": "ball"},
+          {"a": "nono", "b": "nonno", "na": "ninth", "nb": "grandfather", "tip": "Nonno is the one you have. Get it right at Sunday lunch."},
+          {"a": "sete", "b": "sette", "na": "thirst", "nb": "seven"},
+          {"a": "caro", "b": "carro", "na": "dear, expensive", "nb": "cart", "tip": "Double r: a longer trill."},
+          {"a": "fato", "b": "fatto", "na": "fate", "nb": "done, fact"},
+          {"a": "papa", "b": "pappa", "na": "pope", "nb": "baby food"},
+          {"a": "casa", "b": "cassa", "na": "house", "nb": "till", "tip": "The one you need today: si paga alla cassa, not alla casa."},
+          {"a": "cane", "b": "canne", "na": "dog", "nb": "reeds"}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "How to make a double", "text": "Stop on the consonant and hold it for a beat before letting go: cap-PUC-cino, not \"capuchino\". For p, t, c, hold the closure (silence) longer. For l, m, n, r, s, keep the sound going longer. The vowel before a double is short and sharp: the *a* of [[palla]] is shorter than the *a* of [[pala]]. If it feels exaggerated, it is right."},
+        {"type": "sounds", "items": [
+          {"sound": "pp · cc", "t": "cappuccino", "n": "cappuccino", "ipa": "kapputˈtʃiːno", "tip": "Two doubles in one word. Hold the p, then hold the ch."},
+          {"sound": "tt", "t": "latte", "n": "milk", "ipa": "ˈlatte", "tip": "LAT-te: the t is held. English \"latte\" has no double."},
+          {"sound": "zz", "t": "pizza", "n": "pizza", "ipa": "ˈpittsa", "tip": "PIT-tsa, with a long stop. Never \"pee-za\"."},
+          {"sound": "ss", "t": "cassa", "n": "till", "ipa": "ˈkassa", "tip": "A long hiss."},
+          {"sound": "ll", "t": "bello", "n": "beautiful", "ipa": "ˈbɛllo", "tip": "Hold the l with the tongue on the ridge."},
+          {"sound": "rr", "t": "arrivederci", "n": "goodbye", "ipa": "arriveˈdertʃi", "tip": "A longer trill than the single r of caro."}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "Un cappuccino e un cornetto, per favore. Sette e cinquanta? No, due e cinquanta.", "n": "A cappuccino and a croissant, please. Seven fifty? No, two fifty.", "note": "cappuccino · cornetto · sette: three doubles to hold"},
+          {"t": "Nonno Cosimo pagava alla cassa, non alla casa.", "n": "Grandpa Cosimo paid at the till, not at the house."}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty exercises in five sets and a mixed review. Spelling counts: paghi, cerchi, mangi. Type with the accent bar.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · I verbi in -are", "items": [
+          {"kind": "conjugate", "verb": "parlare", "tense": "presente", "n": "to speak", "answers": ["parlo", "parli", "parla", "parliamo", "parlate", "parlano"]},
+          {"kind": "conjugate", "verb": "pagare", "tense": "presente", "n": "to pay", "answers": ["pago", "paghi", "paga", "paghiamo", "pagate", "pagano"]},
+          {"kind": "fill", "q": "Nando ___ (lavorare) dalle sei alle otto.", "answers": [["lavora"]], "n": "Nando works from six to eight."},
+          {"kind": "fill", "q": "Tu ___ (mangiare) al bancone? — No, io ___ (mangiare) al tavolo.", "answers": [["mangi"], ["mangio"]], "n": "Are you eating at the counter? — No, I'm eating at a table."},
+          {"kind": "fill", "q": "I turisti ___ (ordinare) in inglese e ___ (pagare) in euro.", "answers": [["ordinano"], ["pagano"]], "n": "The tourists order in English and pay in euros."},
+          {"kind": "fill", "q": "Noi ___ (abitare) in via delle Rose e ___ (cercare) un locale.", "answers": [["abitiamo"], ["cerchiamo"]], "n": "We live on Via delle Rose and we're looking for premises."},
+          {"kind": "mc", "q": "Which is spelled right?", "options": ["tu cerchi", "tu cerci", "tu cercci"], "answer": 0, "why": "Cercare keeps the hard c with an h before i: cerchi, cerchiamo."},
+          {"kind": "translate", "q": "I'm waiting for Dora.", "answers": ["Aspetto Dora", "Io aspetto Dora"], "hint": "no preposition"}
+        ]},
+        {"type": "exercises", "title": "2 · Al bar: ordinare e pagare", "items": [
+          {"kind": "order", "answer": "Vorrei un cappuccino e un cornetto.", "n": "I'd like a cappuccino and a croissant."},
+          {"kind": "reply", "line": {"t": "Cosa prende?", "n": "What are you having?"}, "options": ["Prendo un caffè, grazie.", "Prendo un caffè? Grazie.", "Sono un caffè, grazie."], "answer": 0, "why": "Prendo + the thing: \"I'll have\"."},
+          {"kind": "reply", "line": {"t": "Sono due e cinquanta.", "n": "That's two fifty."}, "options": ["Ecco. Posso pagare con la carta?", "Quant'è?", "Prego."], "answer": 0, "why": "They told you the price; now you pay. Quant'è? asks what you already know."},
+          {"kind": "mc", "q": "You want a milky coffee, not a glass of milk. You order:", "options": ["Un latte.", "Un latte macchiato.", "Un caffè con il latte caldo e grande."], "answer": 1, "why": "Un latte is a glass of milk; un latte macchiato is the drink."},
+          {"kind": "fill", "q": "Prima si paga alla ___, poi si mostra lo ___ al bancone.", "answers": [["cassa"], ["scontrino"]], "n": "First you pay at the till, then you show the receipt at the counter."},
+          {"kind": "match", "q": "Match.", "pairs": [["Quant'è?", "How much is it?"], ["Altro?", "Anything else?"], ["Offro io.", "My treat."], ["Al bancone o al tavolo?", "At the counter or at a table?"], ["Contanti o carta?", "Cash or card?"]]},
+          {"kind": "dictation", "text": "Un caffè e un cornetto alla crema, per favore. Quant'è?", "n": "A coffee and a cream croissant, please. How much is it?"}
+        ]},
+        {"type": "exercises", "title": "3 · Mi piace, mi piacciono", "items": [
+          {"kind": "fill", "q": "Mi ___ il cappuccino. Mi ___ i cornetti.", "choices": [["piace", "piacciono"], ["piacciono", "piace"]], "answers": [["piace"], ["piacciono"]], "n": "I like cappuccino. I like croissants."},
+          {"kind": "fill", "q": "Ti ___ mangiare al bar?", "answers": [["piace"]], "n": "Do you like eating at the bar?", "hint": "an infinitive counts as singular"},
+          {"kind": "fill", "q": "Non mi ___ le uova la mattina.", "answers": [["piacciono"]], "n": "I don't like eggs in the morning."},
+          {"kind": "translate", "q": "I like Roccamarina, but I don't like the water heater.", "answers": ["Mi piace Roccamarina, ma non mi piace lo scaldabagno", "Mi piace Roccamarina ma non mi piace lo scaldabagno"]},
+          {"kind": "tf", "q": "Is this sentence right?", "t": "Io piaccio il caffè.", "answer": false, "why": "That means \"coffee likes me\" (I am pleasing to the coffee). Mi piace il caffè."}
+        ]},
+        {"type": "exercises", "title": "4 · Numeri e prezzi", "items": [
+          {"kind": "match", "q": "Match the prices.", "pairs": [["un euro e dieci", "€ 1,10"], ["due e cinquanta", "€ 2,50"], ["novanta centesimi", "€ 0,90"], ["dodici euro", "€ 12,00"], ["milleduecento euro", "€ 1.200,00"]]},
+          {"kind": "fill", "q": "100 = ___ · 500 = ___ · 1.000 = ___", "answers": [["cento"], ["cinquecento"], ["mille"]], "n": "one hundred · five hundred · one thousand"},
+          {"kind": "fill", "q": "2.000 = ___ · 10.000 = ___", "answers": [["duemila"], ["diecimila"]], "n": "two thousand · ten thousand"},
+          {"kind": "dictation", "text": "Sono tre euro e venti.", "n": "That's three euros twenty."},
+          {"kind": "mc", "q": "«dieci euro» or «dieci euri»?", "options": ["dieci euro: euro never changes", "dieci euri: regular plural", "both are fine"], "answer": 0, "why": "Euro is invariable in Italian."},
+          {"kind": "fill", "q": "Il caffè costa un euro e dieci; il cappuccino costa un euro e cinquanta. Insieme: ___ euro e ___.", "answers": [["due"], ["sessanta"]], "n": "Coffee is 1.10; cappuccino is 1.50. Together: two sixty."},
+          {"kind": "speak", "text": "Trecento, cinquecento, settecento, mille, duemila.", "n": "300, 500, 700, 1000, 2000.", "tip": "Hold the double t of settecento; soft c in cento and cinquecento."}
+        ]},
+        {"type": "exercises", "title": "5 · Anche, solo, ancora, già", "items": [
+          {"kind": "order", "answer": "Anche io prendo un cappuccino.", "n": "I'll have a cappuccino too."},
+          {"kind": "fill", "q": "Ho ___ il cappuccino, grazie. (already)", "answers": [["già"]], "n": "I already have my cappuccino, thanks."},
+          {"kind": "fill", "q": "Non pago ___? — No, ___ no. (yet / not yet)", "answers": [["ancora"], ["ancora"]], "n": "Don't I pay yet? — No, not yet."},
+          {"kind": "mc", "q": "«I eat only a croissant in the morning.»", "options": ["Mangio solo un cornetto la mattina.", "Mangio un cornetto solo la mattina.", "Solo mangio un cornetto la mattina."], "answer": 0, "why": "Solo goes right before what it limits (un cornetto). Option 2 means \"only in the morning\"."},
+          {"kind": "fill", "q": "Nando lavora ___ alle otto di sera. (still)", "answers": [["ancora"]], "n": "Nando is still working at eight at night."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "translate", "q": "I work at the bar and I speak with the tourists.", "answers": ["Lavoro al bar e parlo con i turisti", "Io lavoro al bar e parlo con i turisti"]},
+          {"kind": "fill", "q": "Pasquale: «Cosa ___ (prendere, Lei)?» — {hero}: «Niente, grazie. ___ già il cappuccino.»", "answers": [["prende"], ["Ho"]], "n": "Pasquale: \"What are you having?\" — {hero}: \"Nothing, thanks. I already have my cappuccino.\""},
+          {"kind": "reply", "line": {"t": "Offro io.", "n": "My treat."}, "options": ["Grazie, professore!", "No, offro io, no, io, no!", "Quant'è?"], "answer": 0, "why": "First time, from an older person: accept with thanks. The fight over the bill is for friends."},
+          {"kind": "write", "q": "Write the order for a table of three: a cappuccino and a croissant for you, a coffee for Dora, a tea for Pasquale. Then ask the total.", "model": "Buongiorno! Per me un cappuccino e un cornetto, per Dora un caffè e per il professore un tè. Quant'è?", "hint": "Per me… · per lei… · per lui… · Quant'è?"},
+          {"kind": "speak", "text": "Un cappuccino e un cornetto alla crema. Quant'è? — Due e cinquanta.", "n": "A cappuccino and a cream croissant. How much? — Two fifty.", "tip": "Doubles: cappuccino (pp, cc), cornetto (tt), cinquanta? No double there. Quant'è with the stress at the end."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Come funziona un bar",
+      "intro": "The bar is where Italy starts its day, settles its arguments and keeps its gossip. A few rules nobody writes down.",
+      "blocks": [
+        {"type": "subhead", "text": "Cassa, scontrino, bancone"},
+        {"type": "prose", "text": "In most bars, especially busy ones and in cities, you pay first at the [[cassa]], get the [[scontrino]], then go to the [[bancone]] and order showing the receipt (or putting it on the counter with a coin on it, if you want to leave a small tip). In a small-town bar like Nando's, the regulars order first and pay when they leave, and the barista keeps the account in his head. When in doubt, look at what the person in front of you does, or ask: [[Pago prima o dopo?|Do I pay before or after?]]\n\nThe receipt is also a legal thing: the bar must give it to you, and in theory you must keep it until you leave. Nobody checks any more, but the habit remains."},
+        {"type": "subhead", "text": "Bancone o tavolo"},
+        {"type": "prose", "text": "Standing at the counter is the normal way to have a coffee: one minute, a word with the barista, done. Sitting at a table, especially outside, is a service and costs more, sometimes twice as much; the price list shows both ([[banco]] and [[tavolo]]). Nobody will hurry you at a table, and you can sit for an hour with one coffee. Nobody will stop you standing at the counter for an hour either, if the conversation is good."},
+        {"type": "callout", "kind": "real", "title": "The coffee menu", "text": "[[un caffè]]: an espresso · [[un caffè lungo]]: a bit longer · [[un ristretto]]: shorter · [[un macchiato]]: with a drop of milk foam · [[un cappuccino]]: espresso, steamed milk, foam · [[un caffellatte]] / [[latte macchiato]]: mostly milk · [[un caffè corretto]]: with a shot of grappa or sambuca · [[un americano]]: espresso with hot water · [[un decaffeinato]] / [[un deca]] · [[un caffè d'orzo]]: barley, no caffeine · [[un caffè freddo]] or [[shakerato]]: cold, in summer. Milk after lunch is unusual: a cappuccino at four will not be refused, but it will be noticed."},
+        {"type": "subhead", "text": "Colazione"},
+        {"type": "prose", "text": "Italian breakfast is small and sweet: a coffee or cappuccino and a cornetto, standing, in five minutes, at home or at the bar. Eggs, bacon, cheese and anything salty belong to lunch. Sweet biscuits and milk at home are normal for children and adults alike. Pasquale is right about the eggs, and he is only slightly exaggerating about the lire: coffee was about 300 lire in the mid-eighties, roughly fifteen cents."},
+        {"type": "subhead", "text": "Offro io"},
+        {"type": "prose", "text": "Paying for someone's coffee is a small, common gesture, and in a group someone usually pays for everyone and the next time someone else does. Accept with a [[grazie]] and return it another day. Splitting the bill at a bar is rare; splitting it at a restaurant, [[pagare alla romana]], is common among friends but not when someone has invited you. Tipping at the bar is not expected; leaving the small coins is enough and never required."},
+        {"type": "callout", "kind": "culture", "title": "Il caffè sospeso", "text": "A Neapolitan tradition: you pay for two coffees and drink one; the second is \"suspended\" for someone who cannot afford it and asks for it later. Some bars elsewhere in Italy have adopted it. Nando's does, on a chalkboard by the till."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen before the next unit, then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Verbi in -are", "rows": [["parlo · parli · parla", "-o · -i · -a"], ["parliamo · parlate · parlano", "-iamo · -ate · -ano"], ["paghi, cerchi · mangi, studi", "spelling: h · one i"]]},
+          {"title": "Al bar", "rows": [["Un caffè, per favore. / Vorrei… / Prendo…", "ordering"], ["Quant'è? — Due e cinquanta.", "the total"], ["Cosa prende? Altro? Al bancone o al tavolo?", "what you'll hear"], ["Lo scontrino · la cassa · il bancone", "receipt · till · counter"], ["Offro io.", "my treat"]]},
+          {"title": "piacere", "rows": [["Mi piace il caffè.", "I like coffee."], ["Mi piacciono i cornetti.", "I like croissants."], ["Mi piace mangiare al bar.", "I like eating at the bar."], ["Ti piace…? Non mi piace…", "do you like…? I don't like…"]]},
+          {"title": "Numeri e prezzi", "rows": [["cento · duecento · mille · duemila", "100 · 200 · 1,000 · 2,000"], ["un euro e dieci · tre e venti", "€1.10 · €3.20"], ["euro: invariable", "dieci euro"]]},
+          {"title": "Avverbi", "rows": [["Anche io. / Prendo anche un cornetto.", "anche before the word"], ["Mangio solo un cornetto.", "solo before the word"], ["Ho già… / Lavoro ancora. / Non… ancora", "already / still / not yet"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

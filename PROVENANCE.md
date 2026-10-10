@@ -27,6 +27,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** avere, ce-ci-sono, indefinite-article, plurals, question-words, numbers.
 - **Originality:** the two scenes (Dora shows the flat; the three rules of the building, with Pasquale's "Ho sentito!" from downstairs), all 40 vocabulary examples, tables, 40 exercises and the cultural notes (lease types, deposit, spese condominiali, bidet, shutters, drying racks, waste sorting, quiet hours, portone / citofono / pianerottolo) were written for this project from general knowledge of Italian housing.
 
+#### Unit 3 · Al Bar del Corso (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: order food and drink with simple phrases, ask how much something costs, say what one likes and dislikes; listening: understand prices and simple service questions spoken slowly; reading: understand a simple price list; spoken production: describe daily habits with very simple sentences.
+- **Grammar:** regular *-are* verbs (all persons, spelling of -care/-gare/-ciare/-giare/-iare, stress in the loro form); ordering phrases (vorrei, prendo, per me, quant'è); *mi piace / mi piacciono* (+ infinitive); numbers 100–1,000,000, prices and years; *anche, solo, già, ancora* placement; double consonants.
+- **Reference pages added:** present-are-verbs, piacere (full table for later units), common-adverbs; numbers page extended with hundreds, thousands, prices.
+- **Originality:** the two scenes (the first coffee ordered in the wrong order; Pasquale's "offro io" breakfast lesson with the 1985 lire), Rita the cashier, all 37 vocabulary examples, tables, 40 exercises and the cultural notes (cassa/scontrino/bancone, counter vs table prices, the coffee menu, breakfast, paying for others, caffè sospeso) were written for this project from general knowledge of Italian bar customs.
+
 ### English for Italian speakers (`content/en-for-it/`)
 
 #### Unit 1 · Welcome to Canada (A1) · written 2026-10-10

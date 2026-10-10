@@ -1,0 +1,24 @@
+{"id": "piacere", "title": "piacere: mi piace, mi piacciono", "category": "Verbs", "rule": "The thing liked is the subject; the person is an indirect object: mi (to me), ti (to you), gli / le (to him / her), ci, vi, gli (to them). Piace with a singular or an infinitive, piacciono with a plural.", "units": ["03"], "blocks": [
+  {"type": "table", "head": ["Person", "+ singular / infinitive", "+ plural", "English"], "rows": [["mi", "mi piace il caffè · mi piace ballare", "mi piacciono i cornetti", "I like"], ["ti", "ti piace il tè?", "ti piacciono le spremute?", "you like (tu)"], ["gli", "gli piace Roccamarina", "gli piacciono i bar", "he likes"], ["le", "le piace il mare", "le piacciono le foto", "she likes · you like (Lei)"], ["ci", "ci piace mangiare bene", "ci piacciono i tramezzini", "we like"], ["vi", "vi piace la casa?", "vi piacciono le stanze?", "you like (voi)"], ["gli (a loro)", "gli piace il calcio", "gli piacciono i cornetti", "they like"]], "speak": [1, 2], "rowhead": true, "note": "Units 3 and 7 use mi and ti; the full table is for reference now and for unit 7."},
+  {"type": "subhead", "text": "With a name or a stressed pronoun"},
+  {"type": "examples", "items": [
+    {"t": "A Dora piace il caffè amaro.", "n": "Dora likes her coffee without sugar.", "note": "a + name replaces gli / le"},
+    {"t": "A me piace il cappuccino, a lui piace il caffè.", "n": "I like cappuccino, he likes coffee.", "note": "a me, a te, a lui, a lei for emphasis and contrast"},
+    {"t": "A chi piace il tè? — A nessuno.", "n": "Who likes tea? — Nobody."},
+    {"t": "Anche a me. / Neanche a me.", "n": "Me too. / Me neither.", "note": "not anche io: the liker is a me"}
+  ]},
+  {"type": "subhead", "text": "Other verbs like piacere"},
+  {"type": "table", "head": ["Verb", "Example", "English"], "rows": [["mancare", "Mi manca Toronto. Mi mancano i miei.", "I miss Toronto. I miss my family."], ["servire", "Mi serve una chiave. Mi servono due tazzine.", "I need a key. I need two cups."], ["interessare", "Mi interessa la storia.", "I'm interested in history."], ["bastare", "Mi basta un caffè.", "A coffee is enough for me."], ["sembrare", "Mi sembra giusto.", "It seems right to me."], ["dispiacere", "Mi dispiace.", "I'm sorry."]], "speak": [1], "compact": true, "note": "All built the same way; unit 13 practises them."},
+  {"type": "callout", "kind": "note", "title": "Piacere is also a verb like the others", "text": "[[Io piaccio a Dora]] = Dora likes me (I am pleasing to Dora). [[Piaci a tutti]] = everyone likes you. Useful, but rarer than mi piace. The full conjugation is on the Verbs page."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Mi piace i cornetti.", "right": "Mi piacciono i cornetti.", "why": "Plural subject."},
+    {"wrong": "Anche io! (answering mi piace il caffè)", "right": "Anche a me!", "why": "The liker is an indirect object: a me."},
+    {"wrong": "Mi piacciono ballare e cantare.", "right": "Mi piace ballare e cantare.", "why": "Infinitives are singular, even two of them."},
+    {"wrong": "Dora piace il caffè.", "right": "A Dora piace il caffè.", "why": "The person needs a (or gli / le)."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "A Pasquale ___ il caffè amaro; a Dora ___ i cornetti alla crema.", "answers": [["piace"], ["piacciono"]], "n": "Pasquale likes black coffee; Dora likes cream croissants."},
+    {"kind": "reply", "line": {"t": "Mi piace molto Roccamarina.", "n": "I really like Roccamarina."}, "options": ["Anche a me.", "Anche io.", "Anche mi."], "answer": 0, "why": "Me too, with piacere: anche a me."},
+    {"kind": "translate", "q": "I miss Toronto.", "answers": ["Mi manca Toronto"]}
+  ]}
+]}
