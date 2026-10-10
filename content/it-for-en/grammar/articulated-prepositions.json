@@ -1,0 +1,25 @@
+{"id": "articulated-prepositions", "title": "Articulated prepositions", "category": "Prepositions", "rule": "di, a, da, in, su fuse with the definite article: del, al, dal, nel, sul and their feminine and plural forms. Con and per do not (col and pel exist but are rare). No article, no fusion.", "units": ["05"], "blocks": [
+  {"type": "table", "head": ["", "il", "lo", "l'", "la", "i", "gli", "le"], "rows": [["di", "del", "dello", "dell'", "della", "dei", "degli", "delle"], ["a", "al", "allo", "all'", "alla", "ai", "agli", "alle"], ["da", "dal", "dallo", "dall'", "dalla", "dai", "dagli", "dalle"], ["in", "nel", "nello", "nell'", "nella", "nei", "negli", "nelle"], ["su", "sul", "sullo", "sull'", "sulla", "sui", "sugli", "sulle"], ["con", "con il (col)", "con lo", "con l'", "con la", "con i (coi)", "con gli", "con le"], ["per", "per il", "per lo", "per l'", "per la", "per i", "per gli", "per le"]], "speak": [1, 2, 3, 4, 5, 6, 7], "rowhead": true},
+  {"type": "subhead", "text": "How to build one"},
+  {"type": "prose", "text": "1. Decide the article the noun would take alone: [[il bar]], [[lo stadio]], [[l'ospedale]], [[la posta]], [[i negozi]], [[gli zii]], [[le chiavi]].\n2. Add the preposition in front and fuse: [[al bar]], [[allo stadio]], [[all'ospedale]], [[alla posta]], [[ai negozi]], [[agli zii]], [[alle chiavi]].\n\nThe l doubles in all the fused forms except dei / dai / nei / sui and the plural gli forms."},
+  {"type": "examples", "items": [
+    {"t": "Vado al bar, alla posta e all'ospedale.", "n": "I'm going to the bar, the post office and the hospital."},
+    {"t": "Vengo dalla stazione; esco dal comune; torno dagli zii.", "n": "I'm coming from the station; I'm leaving the town hall; I'm coming back from my aunt and uncle's."},
+    {"t": "Nel cassetto, nella scatola, nei negozi, negli uffici.", "n": "In the drawer, in the box, in the shops, in the offices."},
+    {"t": "Sul tavolo, sulla sedia, sui libri, sugli scaffali.", "n": "On the table, on the chair, on the books, on the shelves."},
+    {"t": "La casa del nonno, dello zio, dell'amica, della nonna, dei cugini, degli zii, delle sorelle.", "n": "The house of grandpa, uncle, the friend, grandma, the cousins, the aunts and uncles, the sisters."},
+    {"t": "Alle nove, all'una, dalle otto alle due, verso le sette.", "n": "At nine, at one, from eight to two, around seven.", "note": "hours take le / l'"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Dei, delle: also \"some\"", "text": "[[Compro delle viti e dei chiodi.|I buy some screws and some nails.]] The plural of di + article doubles as the partitive article: unit 7."},
+  {"type": "mistakes", "items": [
+    {"wrong": "a il bar · in la cucina · su il tavolo", "right": "al bar · nella cucina (in cucina) · sul tavolo", "why": "Always fuse."},
+    {"wrong": "nel stazione · sulla tavolo · degli zia", "right": "nella stazione · sul tavolo · della zia", "why": "Match the noun's gender and number."},
+    {"wrong": "Vado dal Chiara. Vengo dalla Bari.", "right": "Vado da Chiara. Vengo da Bari.", "why": "Names take no article."},
+    {"wrong": "a la una", "right": "all'una", "why": "L'una: elided article → all'."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ stadio (a + lo) · ___ amici (da + gli) · ___ scatola (in + la) · ___ scaffali (su + gli)", "answers": [["allo"], ["dagli"], ["nella"], ["sugli"]], "n": "to the stadium · from the friends · in the box · on the shelves"},
+    {"kind": "fill", "q": "Le chiavi ___ appartamento sono ___ tavolo ___ cucina.", "answers": [["dell'"], ["sul"], ["della", "in"]], "n": "The keys to the flat are on the kitchen table."},
+    {"kind": "translate", "q": "I'm going to the bank at nine and to the doctor's at eleven.", "answers": ["Vado in banca alle nove e dal medico alle undici", "Vado alla banca alle nove e dal medico alle undici", "Vado in banca alle nove e dal dottore alle undici"]}
+  ]}
+]}

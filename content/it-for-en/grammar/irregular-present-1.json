@@ -1,0 +1,42 @@
+{"id": "irregular-present-1", "title": "Irregular present: andare, venire, stare, uscire, dare", "category": "Verbs", "rule": "Five high-frequency irregular verbs. The noi and voi forms are regular; the other four forms change the stem. Learn each as a chant.", "units": ["05"], "blocks": [
+  {"type": "conjugation", "verbs": ["andare", "venire", "stare", "uscire", "dare"], "tense": "presente", "caption": "The five, side by side"},
+  {"type": "subhead", "text": "andare"},
+  {"type": "examples", "items": [
+    {"t": "Vado a Lecce. Vado in Puglia. Vado al mare. Vado da Dora.", "n": "I go to Lecce. To Puglia. To the sea. To Dora's.", "note": "a + city, in + region, al + place, da + person"},
+    {"t": "Andiamo! Andiamo a casa?", "n": "Let's go! Shall we go home?", "note": "noi form as a suggestion"},
+    {"t": "Come va? — Va bene. Tutto va bene.", "n": "How's it going? — Fine. Everything's fine."},
+    {"t": "Vado a prendere il pane.", "n": "I'm going to get the bread.", "note": "andare a + infinitive: going to do"}
+  ]},
+  {"type": "subhead", "text": "venire"},
+  {"type": "examples", "items": [
+    {"t": "Vieni con me? Vengo da Toronto. Viene dal Canada.", "n": "Are you coming with me? I come from Toronto. He comes from Canada.", "note": "venire da = to come from"},
+    {"t": "Vengo subito! Veniamo a cena domenica.", "n": "I'm coming right away! We're coming to dinner on Sunday."},
+    {"t": "Vieni a prendere un caffè?", "n": "Will you come and have a coffee?"}
+  ]},
+  {"type": "subhead", "text": "stare"},
+  {"type": "examples", "items": [
+    {"t": "Come stai? — Sto bene. Sto male. Sto così così.", "n": "How are you? — I'm well. I'm unwell. So-so.", "note": "health and mood"},
+    {"t": "Oggi sto a casa. Stiamo in un piccolo appartamento.", "n": "Today I'm staying home. We live in a small flat.", "note": "staying; in the south, also living"},
+    {"t": "Stai attento! Sta' zitto! Stai tranquillo.", "n": "Be careful! Be quiet! Don't worry.", "note": "fixed phrases"},
+    {"t": "Sto mangiando.", "n": "I'm eating.", "note": "stare + gerund: unit 12"}
+  ]},
+  {"type": "subhead", "text": "uscire and dare"},
+  {"type": "examples", "items": [
+    {"t": "Esco di casa alle otto. Esce dall'ufficio all'una.", "n": "I leave the house at eight. He leaves the office at one.", "note": "di casa (fixed) / da + article"},
+    {"t": "Usciamo stasera? Esci con Chiara?", "n": "Shall we go out tonight? Are you going out with Chiara?", "note": "going out, socially"},
+    {"t": "Mi dai le chiavi? Do le viti a Dora. Dà un consiglio a tutti.", "n": "Will you give me the keys? I give the screws to Dora. He gives advice to everyone."},
+    {"t": "Dare del tu / del Lei. Dammi del tu!", "n": "To use tu / Lei with someone. Call me tu!"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Accents that distinguish", "text": "[[dà]] (gives) vs [[da]] (from) · [[sta]] (is, stays) has no accent · [[do]] (I give) vs the musical note do. In writing, the accent on dà is required."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Io ando, tu andi.", "right": "Io vado, tu vai.", "why": "Stem change."},
+    {"wrong": "Loro veniscono.", "right": "Loro vengono.", "why": "Venire is irregular, not an -isc- verb."},
+    {"wrong": "Come sei oggi?", "right": "Come stai oggi?", "why": "Stare for how someone is."},
+    {"wrong": "Vado a Dora. Vengo con tu.", "right": "Vado da Dora. Vengo con te.", "why": "Da + person; te after prepositions."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "uscire", "tense": "presente", "n": "to go out", "answers": ["esco", "esci", "esce", "usciamo", "uscite", "escono"]},
+    {"kind": "conjugate", "verb": "dare", "tense": "presente", "n": "to give", "answers": ["do", "dai", "dà", "diamo", "date", "danno"]},
+    {"kind": "fill", "q": "Stasera ___ (noi, uscire)? — No, ___ (io, stare) a casa: ___ (venire) Chiara.", "answers": [["usciamo"], ["sto"], ["viene"]], "n": "Shall we go out tonight? — No, I'm staying home: Chiara is coming."}
+  ]}
+]}

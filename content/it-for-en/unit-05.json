@@ -1,0 +1,312 @@
+{
+  "id": "05",
+  "level": "A1",
+  "title": "In giro per il paese",
+  "subtitle": "Around town",
+  "intro": "A hand-drawn map, a hardware store that closes at one, three people with three different answers, and the town hall where the whole town already knows about your drying rack. In this unit you learn to find your way, tell the time, understand opening hours, and use five of the most frequent irregular verbs in Italian.",
+  "objectives": [
+    "Ask for and give directions: [[dov'è…?]], [[a destra]], [[a sinistra]], [[dritto]], [[accanto a]]",
+    "Use [[andare]], [[venire]], [[stare]], [[uscire]] and [[dare]] in the present",
+    "Combine prepositions and articles: [[al]], [[alla]], [[dal]], [[nel]], [[sul]]",
+    "Tell the time and ask about opening hours: [[che ore sono?]], [[a che ora apre?]], [[dalle nove all'una]]",
+    "Say where you are going and how: [[vado al mare in bici]]"
+  ],
+  "canDo": [
+    "A1 · Spoken interaction: can ask for and give simple directions and understand short, simple instructions about how to get from X to Y.",
+    "A1 · Spoken interaction: can ask and tell the time and ask about opening hours.",
+    "A1 · Listening: can understand simple directions and times when spoken slowly.",
+    "A1 · Reading: can understand signs and notices (open, closed, opening hours, days).",
+    "A1 · Spoken production: can say where they are going, when and how."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "La mappa di Chiara",
+      "intro": "Monday: Chiara draws a map. Tuesday: the map is right, the town is complicated. Listen for the articulated prepositions (alla, dalla, accanto alla, di fronte alla) and the times.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-mappa", "title": "La mappa", "setting": "Lunedì mattina, Bar del Corso. Chiara disegna una mappa su un foglio.", "register": "informale", "lines": [
+          {"who": "Chiara", "t": "Allora. Questa è la piazza. Qui c'è la chiesa, qui il comune, qui il Bar del Corso.", "n": "So. This is the square. Here's the church, here the town hall, here the Bar del Corso."},
+          {"who": "hero", "t": "E la ferramenta? Ho bisogno di viti per lo stendino.", "n": "And the hardware store? I need screws for the drying rack.", "note": "Ho bisogno di = I need (literally \"I have need of\")."},
+          {"who": "Chiara", "t": "La ferramenta è in via Garibaldi. Dalla piazza vai dritto, poi giri a sinistra dopo la farmacia. È accanto alla posta.", "n": "The hardware store is on Via Garibaldi. From the square you go straight, then you turn left after the pharmacy. It's next to the post office.", "note": "Dalla = da + la; alla = a + la. The articulated prepositions of this unit."},
+          {"who": "hero", "t": "Dritto, a sinistra dopo la farmacia, accanto alla posta. E a che ora apre?", "n": "Straight, left after the pharmacy, next to the post office. And what time does it open?"},
+          {"who": "Chiara", "t": "Alle nove. Ma chiude all'una e riapre alle cinque.", "n": "At nine. But it closes at one and reopens at five.", "note": "Alle nove, all'una, alle cinque: a + article + the hour."},
+          {"who": "hero", "t": "Chiude all'una?", "n": "It closes at one?"},
+          {"who": "Chiara", "t": "Tutti chiudono all'una. Dall'una alle cinque il paese dorme. Che ore sono adesso?", "n": "Everybody closes at one. From one to five the town sleeps. What time is it now?"},
+          {"who": "hero", "t": "Sono le dodici e mezza.", "n": "It's half past twelve."},
+          {"who": "Chiara", "t": "Allora vai domani. Oggi vieni al mare con me. Io vado in bici, tu vieni a piedi: è vicino.", "n": "Then go tomorrow. Today come to the sea with me. I'm going by bike, you come on foot: it's close.", "note": "Vai, vieni, vado: andare and venire, two irregular verbs you will use every day."},
+          {"who": "hero", "t": "Perché a piedi?", "n": "Why on foot?"},
+          {"who": "Chiara", "t": "Perché non hai una bici. Ancora.", "n": "Because you don't have a bike. Yet."}
+        ], "notes": [
+          {"phrase": "Ho bisogno di…", "note": "I need… Avere bisogno di + noun or infinitive: ho bisogno di viti, ho bisogno di dormire."},
+          {"phrase": "Vai dritto, giri a sinistra.", "note": "Chiara gives directions with tu forms of the present: you go straight, you turn left. Also used as instructions."},
+          {"phrase": "Che ore sono?", "note": "What time is it? Plural, because the hours are. The answer: sono le… (except è l'una, è mezzogiorno)."},
+          {"phrase": "Ancora.", "note": "Yet, still. Non hai una bici ancora = you don't have a bike yet. The foreshadowing of unit 13."}
+        ]},
+        {"type": "scene", "id": "dlg-ferramenta", "title": "Scusi, dov'è la ferramenta?", "setting": "Martedì, ore 9:30. In piazza. Il foglio di Chiara in mano.", "register": "formale", "lines": [
+          {"who": "hero", "t": "Scusi, signora, dov'è la ferramenta?", "n": "Excuse me, madam, where's the hardware store?"},
+          {"who": "Signora", "t": "La ferramenta di Carmine? Vada dritto, poi a destra. È di fronte alla chiesa.", "n": "Carmine's hardware store? Go straight, then right. It's opposite the church.", "note": "Vada: the formal Lei imperative of andare. Recognise it; you'll learn to produce it in unit 14."},
+          {"who": "hero", "t": "Di fronte alla chiesa. Grazie!", "n": "Opposite the church. Thanks!"},
+          {"stage": "In front of the church there is no hardware store. A man with a dog."},
+          {"who": "hero", "t": "Scusi, la ferramenta?", "n": "Excuse me, the hardware store?"},
+          {"who": "Signore", "t": "Quale? Quella di Carmine è chiusa: Carmine è in ferie. Quella nuova è lontana, vicino alla stazione. Ma oggi è martedì, e il martedì mattina è chiusa.", "n": "Which one? Carmine's is closed: Carmine is on holiday. The new one is far, near the station. But today is Tuesday, and on Tuesday mornings it's closed.", "note": "Il martedì, with the article = every Tuesday. Oggi è martedì, without = today is Tuesday."},
+          {"who": "hero", "t": "Chiusa il martedì mattina.", "n": "Closed on Tuesday mornings."},
+          {"who": "Signore", "t": "Vai al comune: lì c'è Antonella, la figlia di Carmine. Ha le chiavi.", "n": "Go to the town hall: Antonella is there, Carmine's daughter. She has the keys.", "note": "The man switches to tu. Older people in small towns often do with anyone younger."},
+          {"stage": "At the town hall. An office on the first floor. A woman at a desk with three stamps."},
+          {"who": "hero", "t": "Buongiorno. Cerco… la ferramenta?", "n": "Good morning. I'm looking for… the hardware store?"},
+          {"who": "Antonella", "t": {"m": "La ferramenta di mio padre? Lei è il canadese. Dora dice che Lei ha uno stendino rotto.", "f": "La ferramenta di mio padre? Lei è la canadese. Dora dice che Lei ha uno stendino rotto."}, "n": "My father's hardware store? You're the Canadian. Dora says you have a broken drying rack.", "note": "Il / la canadese again, and Antonella uses Lei: this is the comune."},
+          {"who": "hero", "t": "Tutto il paese lo sa?", "n": "Does the whole town know?"},
+          {"who": "Antonella", "t": "Tutto il paese. Le viti sono qui. Due euro. Il comune è aperto dalle otto e mezza all'una. Arrivederci.", "n": "The whole town. The screws are here. Two euros. The town hall is open from half past eight to one. Goodbye."}
+        ], "notes": [
+          {"phrase": "in ferie", "note": "On holiday (from work). Chiuso per ferie is the sign on every shop in August."},
+          {"phrase": "Quale? Quella di Carmine…", "note": "Which one? Carmine's one… Quale asks which; quella (that one) answers. Unit 7."},
+          {"phrase": "dalle otto e mezza all'una", "note": "From 8:30 to 1:00. Da + le = dalle; a + l' = all'. The formula for every opening sign in Italy."}
+        ], "questions": [
+          {"kind": "tf", "q": "Carmine's hardware store is open.", "t": "Quella di Carmine è chiusa: Carmine è in ferie.", "answer": false, "why": "Chiusa: Carmine is on holiday."},
+          {"kind": "mc", "q": "Where are the screws, in the end?", "options": ["At the town hall, with Antonella.", "At the new hardware store near the station.", "At the post office."], "answer": 0, "why": "Antonella, Carmine's daughter, has them at the comune."},
+          {"kind": "fill", "q": "Il comune è aperto dalle otto e mezza ___ una.", "answers": [["all'"]], "n": "The town hall is open from half past eight to one."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Il paese, le direzioni, l'ora",
+      "intro": "The places of a small town, the words for finding them, the ways of getting there, and the time. Then five irregular verbs that do most of the moving.",
+      "blocks": [
+        {"type": "vocab", "theme": "In paese", "n": "In town", "items": [
+          {"t": "piazza", "n": "square", "article": "la", "gender": "f", "plural": "le piazze", "pos": "noun", "ex": {"t": "La piazza è il centro del paese.", "n": "The square is the centre of town."}},
+          {"t": "chiesa", "n": "church", "article": "la", "gender": "f", "plural": "le chiese", "pos": "noun", "ex": {"t": "La chiesa è in piazza.", "n": "The church is on the square."}, "note": "In piazza, in chiesa: no article after in with some places (unit 15)."},
+          {"t": "comune", "n": "town hall; municipality", "article": "il", "gender": "m", "plural": "i comuni", "pos": "noun", "ex": {"t": "Il comune è aperto dalle otto e mezza all'una.", "n": "The town hall is open from 8:30 to 1."}, "note": "Both the building (il municipio) and the local authority. Italy has about 7,900 comuni."},
+          {"t": "farmacia", "n": "pharmacy", "article": "la", "gender": "f", "plural": "le farmacie", "pos": "noun", "ex": {"t": "Giri a sinistra dopo la farmacia.", "n": "Turn left after the pharmacy."}, "note": "Stress: farmaCIa. The green cross."},
+          {"t": "posta", "n": "post office", "article": "la", "gender": "f", "plural": "le poste", "pos": "noun", "ex": {"t": "La ferramenta è accanto alla posta.", "n": "The hardware store is next to the post office."}, "note": "Also l'ufficio postale. Poste Italiane is also a bank."},
+          {"t": "ferramenta", "n": "hardware store", "article": "la", "gender": "f", "plural": "le ferramenta", "pos": "noun", "ex": {"t": "La ferramenta di Carmine è in via Garibaldi.", "n": "Carmine's hardware store is on Via Garibaldi."}, "note": "Invariable in the plural. Viti = screws, chiodi = nails, martello = hammer."},
+          {"t": "supermercato", "n": "supermarket", "article": "il", "gender": "m", "plural": "i supermercati", "pos": "noun", "ex": {"t": "Il supermercato è fuori dal paese.", "n": "The supermarket is outside the town."}},
+          {"t": "banca", "n": "bank", "article": "la", "gender": "f", "plural": "le banche", "pos": "noun", "ex": {"t": "La banca apre alle otto e venti.", "n": "The bank opens at 8:20."}, "note": "Plural with h: banche. Il bancomat: the ATM and the debit card."},
+          {"t": "negozio", "n": "shop", "article": "il", "gender": "m", "plural": "i negozi", "pos": "noun", "ex": {"t": "I negozi chiudono all'una.", "n": "The shops close at one."}},
+          {"t": "panificio", "n": "bakery", "article": "il", "gender": "m", "plural": "i panifici", "pos": "noun", "ex": {"t": "Il panificio apre alle sei.", "n": "The bakery opens at six."}, "note": "Also il forno. The pastry shop is la pasticceria."},
+          {"t": "ospedale", "n": "hospital", "article": "l'", "gender": "m", "plural": "gli ospedali", "pos": "noun", "ex": {"t": "L'ospedale è a Lecce, a venti chilometri.", "n": "The hospital is in Lecce, twenty kilometres away."}},
+          {"t": "mare", "n": "sea; seaside", "article": "il", "gender": "m", "plural": "i mari", "pos": "noun", "ex": {"t": "Andiamo al mare! È vicino.", "n": "Let's go to the sea! It's close."}, "note": "Al mare = to / at the seaside. La spiaggia = the beach."},
+          {"t": "strada", "n": "road, street", "article": "la", "gender": "f", "plural": "le strade", "pos": "noun", "ex": {"t": "Che strada prendo?", "n": "Which road do I take?"}, "note": "Via for the name of a street (via Garibaldi); strada for the road in general; corso for a main street."},
+          {"t": "incrocio", "n": "crossroads, intersection", "article": "l'", "gender": "m", "plural": "gli incroci", "pos": "noun", "ex": {"t": "All'incrocio giri a destra.", "n": "At the intersection turn right."}},
+          {"t": "semaforo", "n": "traffic light", "article": "il", "gender": "m", "plural": "i semafori", "pos": "noun", "ex": {"t": "Al semaforo vai dritto.", "n": "At the traffic light go straight."}, "note": "Roccamarina has one. It blinks."},
+          {"t": "angolo", "n": "corner", "article": "l'", "gender": "m", "plural": "gli angoli", "pos": "noun", "ex": {"t": "Il bar è all'angolo.", "n": "The bar is on the corner."}}
+        ]},
+        {"type": "vocab", "theme": "Le direzioni", "n": "Directions", "items": [
+          {"t": "a destra", "n": "on / to the right", "pos": "phrase", "ex": {"t": "Giri a destra dopo la chiesa.", "n": "Turn right after the church."}, "note": "A sinistra: left. La prima a destra: the first on the right."},
+          {"t": "dritto", "n": "straight on", "pos": "adv.", "ex": {"t": "Vai dritto fino alla piazza.", "n": "Go straight to the square."}, "note": "Also diritto. Sempre dritto: straight on and on. Fino a = as far as, until."},
+          {"t": "vicino", "n": "near, close", "pos": "adj. / adv.", "forms": "vicina, vicini, vicine", "ex": {"t": "Il mare è vicino. La posta è vicino alla chiesa.", "n": "The sea is close. The post office is near the church."}, "note": "Vicino a + place: near. Qui vicino: nearby."},
+          {"t": "lontano", "n": "far", "pos": "adj. / adv.", "forms": "lontana, lontani, lontane", "ex": {"t": "La stazione è lontana. È lontano da qui?", "n": "The station is far. Is it far from here?"}, "note": "Lontano da + place."},
+          {"t": "davanti a", "n": "in front of", "pos": "phrase", "ex": {"t": "C'è un parcheggio davanti alla stazione.", "n": "There's a car park in front of the station."}, "note": "Davanti alla, davanti al: a + article."},
+          {"t": "dietro", "n": "behind", "pos": "prep.", "ex": {"t": "Il cortile è dietro la casa.", "n": "The courtyard is behind the house."}, "note": "No preposition after dietro (dietro la casa), except with pronouns: dietro di me."},
+          {"t": "accanto a", "n": "next to", "pos": "phrase", "ex": {"t": "La ferramenta è accanto alla posta.", "n": "The hardware store is next to the post office."}, "note": "Also vicino a. With a + article."},
+          {"t": "di fronte a", "n": "opposite", "pos": "phrase", "ex": {"t": "Il bar è di fronte alla chiesa.", "n": "The bar is opposite the church."}},
+          {"t": "dopo", "n": "after", "pos": "prep. / adv.", "ex": {"t": "A sinistra dopo la farmacia.", "n": "Left after the pharmacy."}, "note": "Prima di = before: prima del semaforo."},
+          {"t": "qui / lì", "n": "here / there", "pos": "adv.", "ex": {"t": "Qui c'è la chiesa, lì c'è il comune.", "n": "Here's the church, there's the town hall."}, "note": "Qui = qua; lì = là. Là is a bit further than lì, in theory."},
+          {"t": "fino a", "n": "as far as, until", "pos": "phrase", "ex": {"t": "Vai dritto fino al semaforo.", "n": "Go straight as far as the traffic light."}}
+        ]},
+        {"type": "vocab", "theme": "Come ci vai?", "n": "How do you get there?", "items": [
+          {"t": "a piedi", "n": "on foot", "pos": "phrase", "ex": {"t": "Vado al bar a piedi.", "n": "I walk to the bar."}, "note": "Andare a piedi = to walk (somewhere). Camminare = to walk (the activity)."},
+          {"t": "in bici", "n": "by bike", "pos": "phrase", "ex": {"t": "Chiara va al lavoro in bici.", "n": "Chiara goes to work by bike."}, "note": "Short for in bicicletta. In + means of transport: in macchina, in autobus, in treno, in aereo, in moto. Exception: a piedi, a cavallo."},
+          {"t": "in macchina", "n": "by car", "pos": "phrase", "ex": {"t": "L'ospedale è lontano: ci andiamo in macchina.", "n": "The hospital is far: we go there by car."}, "note": "Ci = there (unit 10)."},
+          {"t": "in autobus", "n": "by bus", "pos": "phrase", "ex": {"t": "Per Lecce c'è l'autobus alle sette.", "n": "For Lecce there's the bus at seven."}, "note": "L'autobus, gli autobus: invariable. Il pullman is the coach."},
+          {"t": "in treno", "n": "by train", "pos": "phrase", "ex": {"t": "In treno il mare è a dieci minuti.", "n": "By train the sea is ten minutes away."}}
+        ]},
+        {"type": "vocab", "theme": "L'ora e i giorni", "n": "Time and days", "items": [
+          {"t": "ora", "n": "hour; time (of day)", "article": "l'", "gender": "f", "plural": "le ore", "pos": "noun", "ex": {"t": "Che ora è? Che ore sono?", "n": "What time is it?"}, "note": "Both forms are fine; sono le is the common answer."},
+          {"t": "mezzogiorno", "n": "noon", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "A mezzogiorno il paese chiude.", "n": "At noon the town closes."}, "note": "È mezzogiorno, a mezzogiorno: no article. Mezzanotte: midnight."},
+          {"t": "mezza", "n": "half (past)", "pos": "noun", "ex": {"t": "Sono le dodici e mezza.", "n": "It's half past twelve."}, "note": "E mezza or e mezzo: both heard. Un quarto: a quarter."},
+          {"t": "minuto", "n": "minute", "article": "il", "gender": "m", "plural": "i minuti", "pos": "noun", "ex": {"t": "È a dieci minuti a piedi.", "n": "It's ten minutes on foot."}},
+          {"t": "aperto / chiuso", "n": "open / closed", "pos": "adj.", "forms": "aperta, aperti, aperte / chiusa, chiusi, chiuse", "ex": {"t": "La farmacia è aperta; la ferramenta è chiusa.", "n": "The pharmacy is open; the hardware store is closed."}, "note": "Aprire = to open, chiudere = to close: apre alle nove, chiude all'una."},
+          {"t": "oggi / domani / ieri", "n": "today / tomorrow / yesterday", "pos": "adv.", "ex": {"t": "Oggi è martedì. Domani vado alla ferramenta.", "n": "Today is Tuesday. Tomorrow I'm going to the hardware store."}, "note": "Dopodomani: the day after tomorrow. L'altro ieri: the day before yesterday."},
+          {"t": "settimana", "n": "week", "article": "la", "gender": "f", "plural": "le settimane", "pos": "noun", "ex": {"t": "Il mercato c'è una volta alla settimana.", "n": "The market is once a week."}, "note": "Il weekend / il fine settimana: the weekend."}
+        ]},
+        {"type": "subhead", "text": "I giorni della settimana"},
+        {"type": "grid", "cols": 7, "items": [
+          {"big": "lun", "small": "lunedì", "sub": "Monday", "say": "lunedì"}, {"big": "mar", "small": "martedì", "sub": "Tuesday", "say": "martedì"}, {"big": "mer", "small": "mercoledì", "sub": "Wednesday", "say": "mercoledì"}, {"big": "gio", "small": "giovedì", "sub": "Thursday", "say": "giovedì"}, {"big": "ven", "small": "venerdì", "sub": "Friday", "say": "venerdì"}, {"big": "sab", "small": "sabato", "sub": "Saturday", "say": "sabato"}, {"big": "dom", "small": "domenica", "sub": "Sunday", "say": "domenica"}
+        ]},
+        {"type": "callout", "kind": "memo", "title": "Three things about the days", "text": "- No capital letters, and the week starts on Monday.\n- Five of them end in **-dì** with a written accent, from the Latin *dies*: [[lunedì]] is the moon's day, [[martedì]] Mars's day. [[Sabato]] and [[domenica]] are the exceptions, and domenica is the only feminine one: [[la domenica]].\n- The article means \"every\": [[il martedì è chiusa|it's closed on Tuesdays]]. No article means one specific day: [[oggi è martedì|today is Tuesday]], [[martedì vado a Lecce|on Tuesday I'm going to Lecce]]."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Andare, venire, e le preposizioni",
+      "intro": "Five pieces: five irregular verbs, the simple prepositions, the prepositions fused with the article, places and directions, and the time. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-irregolari", "title": "andare, venire, stare, uscire, dare", "category": "Verbs", "rule": "Five irregular verbs of movement and being. Irregular in the singular and loro forms; noi and voi are regular (andiamo, andate). Learn them as a set.", "ref": "irregular-present-1", "blocks": [
+          {"type": "conjugation", "verbs": ["andare", "venire", "stare"], "tense": "presente", "caption": "[[andare|to go]], [[venire|to come]], [[stare|to stay, to be]] · presente"},
+          {"type": "conjugation", "verbs": ["uscire", "dare"], "tense": "presente", "caption": "[[uscire|to go out]], [[dare|to give]] · presente", "note": "Dà (he / she gives) has an accent to tell it from da (from). Do (I give) looks like English \"do\" and isn't."},
+          {"type": "table", "head": ["Verb", "Used for", "Examples"], "rows": [["andare a / in", "going somewhere", "Vado al mare. Vado in centro. Andiamo a casa."], ["venire con / a", "coming (towards the speaker, or with them)", "Vieni con me? Chiara viene al bar."], ["stare", "staying; being (health, location, in phrases)", "Come stai? Sto bene. Sto a casa oggi. Stai attento!"], ["uscire", "going out (of a place, for the evening)", "Esco alle otto. Esce dall'ufficio all'una. Usciamo stasera?"], ["dare", "giving", "Dai le chiavi a Dora. Mi dai un foglio?"]], "speak": [2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Dove vai? — Vado alla ferramenta. — Vengo con te.", "n": "Where are you going? — I'm going to the hardware store. — I'll come with you."},
+            {"t": "Come stai? — Sto bene, grazie. E tu?", "n": "How are you? — I'm fine, thanks. And you?", "note": "stare for health, not essere"},
+            {"t": "Nando esce dal bar alle otto di sera.", "n": "Nando leaves the bar at eight at night."},
+            {"t": "Dora dà le chiavi a tutti.", "n": "Dora gives keys to everyone."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Io ando. Loro andano.", "right": "Io vado. Loro vanno.", "why": "Irregular: vado, vai, va, andiamo, andate, vanno."},
+            {"wrong": "Come sei? (asking after health)", "right": "Come stai?", "why": "Health and mood take stare. Come sei? asks what you are like."},
+            {"wrong": "Vengo a te. / Vengo al bar con tu.", "right": "Vengo da te. / Vengo al bar con te.", "why": "Da + person = to someone's place; after a preposition, tu becomes te."},
+            {"wrong": "Esco di casa alle otto. (not wrong!) / Esco dalla ufficio.", "right": "Esco di casa / dall'ufficio.", "why": "Uscire di casa is a fixed phrase; otherwise uscire da + article."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-preposizioni", "title": "The simple prepositions", "category": "Prepositions", "rule": "Eight small words carry most of the relations in Italian: di, a, da, in, con, su, per, tra / fra. Each one has several English meanings; learn them with the phrases.", "ref": "prepositions", "blocks": [
+          {"type": "table", "head": ["", "Main meanings", "Examples"], "rows": [["di", "of; from (origin); made of; about", "la casa di Dora · sono di Toronto · un tavolo di legno · parlo di te"], ["a", "to; at; in (cities)", "vado a Lecce · sono a casa · a mezzogiorno · a piedi"], ["da", "from; at / to someone's place; since, for (time)", "vengo da Bari · vado da Dora · da un mese"], ["in", "in; to (countries, regions, large places); by (transport)", "in Italia · in piazza · in centro · in bici"], ["con", "with", "con Chiara · con il treno · con piacere"], ["su", "on; about", "sul tavolo · un libro su Roma"], ["per", "for; through; in order to", "per te · per Lecce · per la piazza · per arrivare"], ["tra / fra", "between; among; in (time from now)", "tra la posta e il bar · tra amici · tra dieci minuti"]], "speak": [2], "rowhead": true, "note": "Tra and fra mean the same; choose the one that sounds better (tra fratelli, fra tre giorni)."},
+          {"type": "table", "caption": "a or in? The two that compete", "head": ["a", "in"], "rows": [["cities and towns: a Roma, a Roccamarina, a Toronto", "countries, regions, continents: in Italia, in Puglia, in Canada, in Europa"], ["small or specific places: a casa, a scuola, a letto, a teatro", "larger or enclosed places: in centro, in piazza, in ufficio, in banca, in montagna, in chiesa"], ["al + article for most buildings: al bar, al mare, al cinema, alla stazione", "with transport: in bici, in treno, in macchina (but a piedi)"]], "speak": [0, 1], "compact": true},
+          {"type": "mistakes", "items": [
+            {"wrong": "Vado in Roma. Abito in Toronto.", "right": "Vado a Roma. Abito a Toronto.", "why": "Cities take a."},
+            {"wrong": "Vado a Italia. Sono a Puglia.", "right": "Vado in Italia. Sono in Puglia.", "why": "Countries and regions take in."},
+            {"wrong": "Vado a Dora. Sono a Nando. (meaning at their place)", "right": "Vado da Dora. Sono da Nando.", "why": "Da + person = at / to their place or shop."},
+            {"wrong": "Vado al centro. Sono al ufficio.", "right": "Vado in centro. Sono in ufficio.", "why": "Some places take in without an article: in centro, in ufficio, in piazza, in chiesa, in banca."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-articolate", "title": "Preposizioni articolate: al, alla, dal, nel, sul", "category": "Prepositions", "rule": "When di, a, da, in and su meet a definite article, they fuse into one word: a + il = al, a + la = alla, in + il = nel, su + lo = sullo. Con and per usually stay separate.", "ref": "articulated-prepositions", "blocks": [
+          {"type": "table", "head": ["", "il", "lo", "l'", "la", "i", "gli", "le"], "rows": [["di", "del", "dello", "dell'", "della", "dei", "degli", "delle"], ["a", "al", "allo", "all'", "alla", "ai", "agli", "alle"], ["da", "dal", "dallo", "dall'", "dalla", "dai", "dagli", "dalle"], ["in", "nel", "nello", "nell'", "nella", "nei", "negli", "nelle"], ["su", "sul", "sullo", "sull'", "sulla", "sui", "sugli", "sulle"]], "speak": [1, 2, 3, 4, 5, 6, 7], "rowhead": true, "note": "Same logic every time: the preposition + the article you would use with that noun. In and di double the l (nel, della); a, da, su double it too (alla, dalla, sulla)."},
+          {"type": "examples", "items": [
+            {"t": "Vado al bar, alla posta, all'ospedale, allo stadio.", "n": "I'm going to the bar, the post office, the hospital, the stadium."},
+            {"t": "Esco dal comune. Vengo dalla stazione. Torno dagli zii.", "n": "I'm leaving the town hall. I'm coming from the station. I'm coming back from my aunt and uncle's."},
+            {"t": "Le viti sono nel cassetto, nella scatola, sul tavolo.", "n": "The screws are in the drawer, in the box, on the table."},
+            {"t": "La casa della nonna. Il bar del Corso. Le chiavi dell'appartamento.", "n": "Grandma's house. The bar on the Corso. The keys to the flat."},
+            {"t": "Apre alle nove e chiude all'una.", "n": "It opens at nine and closes at one.", "note": "a + le ore = alle; a + l'una = all'una"}
+          ]},
+          {"type": "callout", "kind": "why", "title": "When there is no article, there is no fusion", "text": "[[a casa]], [[in centro]], [[in piazza]], [[a scuola]], [[in bici]]: these places and means take no article, so the preposition stays simple. [[al mare]], [[alla stazione]], [[nel cortile]], [[sul terrazzo]] take one, so it fuses. The article decides, not the preposition."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Vado a il bar. In la cucina.", "right": "Vado al bar. Nella cucina. (In cucina.)", "why": "Preposition + article always fuse."},
+            {"wrong": "alla una, a le nove", "right": "all'una, alle nove", "why": "L'una takes all'; le nove takes alle."},
+            {"wrong": "nel piazza, sul tavola", "right": "nella piazza (in piazza), sulla tavola (sul tavolo)", "why": "The fused form must match the noun's gender: use the article you'd use alone."},
+            {"wrong": "Vado dal Dora.", "right": "Vado da Dora.", "why": "No article with a name, so no fusion. Dal dottore, dalla parrucchiera: yes, with nouns."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-direzioni", "title": "Where is it? Asking and giving directions", "category": "Phrases", "rule": "Dov'è…? C'è un… qui vicino? Then: vai / vada dritto, gira / giri a destra, prendi / prenda la prima a sinistra, è davanti a, dietro, accanto a, di fronte a, vicino a, lontano da.", "ref": "place-and-directions", "blocks": [
+          {"type": "table", "caption": "Asking", "head": ["You say", "English"], "rows": [["Scusi, dov'è la stazione?", "Excuse me, where's the station?"], ["C'è una farmacia qui vicino?", "Is there a pharmacy nearby?"], ["È lontano? È lontana la posta?", "Is it far? Is the post office far?"], ["Quanto ci vuole a piedi?", "How long does it take on foot?"], ["Per andare al mare?", "To get to the sea?"], ["Da che parte è il comune?", "Which way is the town hall?"]], "speak": [0]},
+          {"type": "table", "caption": "Answering: tu and Lei forms", "head": ["tu (Chiara)", "Lei (the signora)", "English"], "rows": [["Vai dritto.", "Vada dritto.", "Go straight."], ["Gira a destra / a sinistra.", "Giri a destra / a sinistra.", "Turn right / left."], ["Prendi la prima a sinistra.", "Prenda la prima a sinistra.", "Take the first on the left."], ["Attraversa la piazza.", "Attraversi la piazza.", "Cross the square."], ["Continua fino al semaforo.", "Continui fino al semaforo.", "Keep going to the traffic light."], ["Torna indietro.", "Torni indietro.", "Go back."]], "speak": [0, 1], "note": "The tu forms are imperatives: vai and prendi look like the present, gira and attraversa look like the lui / lei form. Use them as fixed phrases now and recognise the Lei forms. The imperative proper is unit 12; the Lei imperative, unit 14."},
+          {"type": "table", "caption": "Where things are", "head": ["Italian", "English", "Example"], "rows": [["davanti a", "in front of", "davanti alla chiesa"], ["dietro", "behind", "dietro il comune"], ["accanto a · vicino a", "next to · near", "accanto alla posta · vicino al bar"], ["di fronte a", "opposite", "di fronte alla stazione"], ["lontano da", "far from", "lontano dal centro"], ["all'angolo (di)", "on the corner (of)", "all'angolo di via Roma"], ["in fondo a", "at the end of", "in fondo alla strada"], ["tra … e …", "between … and …", "tra la posta e la banca"], ["sopra · sotto", "above · below", "sopra il bar · sotto casa"]], "speak": [2], "compact": true},
+          {"type": "mistakes", "items": [
+            {"wrong": "Gira a diritto. Vai a dritto.", "right": "Vai dritto.", "why": "Dritto takes no preposition."},
+            {"wrong": "Accanto la posta. Davanti la chiesa.", "right": "Accanto alla posta. Davanti alla chiesa.", "why": "These take a + article."},
+            {"wrong": "Dietro alla casa.", "right": "Dietro la casa.", "why": "Dietro goes straight to the noun (dietro di me only with pronouns)."},
+            {"wrong": "Dove è la stazione?", "right": "Dov'è la stazione?", "why": "Elided before è."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-ora", "title": "Che ore sono? Telling the time", "category": "Time", "rule": "Sono le + hour (plural), except è l'una, è mezzogiorno, è mezzanotte. Minutes with e; before the hour with meno. At a time: alle, all'una, a mezzogiorno. From / to: dalle… alle…", "ref": "time-and-days", "blocks": [
+          {"type": "table", "head": ["Time", "Italian", "Note"], "rows": [["1:00", "È l'una.", "singular: one hour"], ["2:00", "Sono le due.", "plural from two on"], ["12:00", "È mezzogiorno. / Sono le dodici.", ""], ["00:00", "È mezzanotte.", ""], ["3:15", "Sono le tre e un quarto. / Sono le tre e quindici.", ""], ["3:30", "Sono le tre e mezza.", "also e mezzo"], ["3:45", "Sono le quattro meno un quarto. / Sono le tre e quarantacinque.", "meno = to"], ["3:50", "Sono le quattro meno dieci.", ""], ["8:20", "Sono le otto e venti.", ""], ["13:00 / 20:00", "Sono le tredici. / Sono le venti.", "24-hour clock: timetables, offices, the radio"], ["morning / afternoon / evening", "le otto di mattina · le quattro del pomeriggio · le nove di sera", "in conversation, 12-hour + di mattina etc."]], "speak": [1]},
+          {"type": "table", "caption": "At what time?", "head": ["Italian", "English"], "rows": [["A che ora apre? — Alle nove.", "What time does it open? — At nine."], ["A che ora chiude? — All'una.", "What time does it close? — At one."], ["A mezzogiorno. A mezzanotte.", "At noon. At midnight."], ["Dalle otto e mezza all'una.", "From 8:30 to 1:00."], ["Dalle cinque alle otto di sera.", "From 5 to 8 pm."], ["Verso le sette. Tra dieci minuti. Fra un'ora.", "Around seven. In ten minutes. In an hour."]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "Che ore sono? — Sono le dodici e mezza. — Allora tutto è chiuso.", "n": "What time is it? — It's half past twelve. — Then everything is closed."},
+            {"t": "Il comune è aperto dalle otto e mezza all'una, dal lunedì al venerdì.", "n": "The town hall is open from 8:30 to 1, Monday to Friday."},
+            {"t": "Il martedì mattina la ferramenta è chiusa.", "n": "On Tuesday mornings the hardware store is closed.", "note": "il martedì = every Tuesday"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sono l'una. È le due.", "right": "È l'una. Sono le due.", "why": "One is singular, the rest plural."},
+            {"wrong": "Alle una. A le nove.", "right": "All'una. Alle nove.", "why": "Articulated: all', alle."},
+            {"wrong": "Sono le tre e trenta minuti.", "right": "Sono le tre e mezza. / Sono le tre e trenta.", "why": "Minuti is not said."},
+            {"wrong": "Chiude a una ora.", "right": "Chiude all'una.", "why": "The hour, not the word ora."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "La erre",
+      "intro": "The Italian r is made with the tip of the tongue tapping the ridge behind the teeth: once for a single r, several times for a double. The English r, made further back with the tongue curled, is the single most recognisable foreign accent in Italian.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "r", "t": "caro", "n": "dear", "ipa": "ˈkaːro", "tip": "One tap, like the quick t in American \"butter\" or \"water\". Try saying \"cadda\" fast: that tap is the Italian r."},
+          {"sound": "rr", "t": "carro", "n": "cart", "ipa": "ˈkarro", "tip": "A trill: the tongue vibrates two or three times. Hold it. Arrivederci, ferramenta, terra, birra."},
+          {"sound": "r-", "t": "Roma", "n": "Rome", "ipa": "ˈroːma", "tip": "At the start of a word the r is often a short trill. Roccamarina, rosso, Rita."},
+          {"sound": "tr · pr · dr", "t": "treno", "n": "train", "ipa": "ˈtrɛːno", "tip": "In clusters the r is a single tap: treno, prendo, dritto, tre. Not the English \"tr\" of \"tree\"."},
+          {"sound": "-r", "t": "bar", "n": "bar", "ipa": "bar", "tip": "A final r is a tap, not a vowel colouring: bar, per, mar."}
+        ]},
+        {"type": "minimal", "caption": "One tap or a trill: the meaning changes", "pairs": [
+          {"a": "caro", "b": "carro", "na": "dear", "nb": "cart"},
+          {"a": "sera", "b": "serra", "na": "evening", "nb": "greenhouse"},
+          {"a": "coro", "b": "corro", "na": "choir", "nb": "I run"},
+          {"a": "aria", "b": "arria", "na": "air", "nb": "(not a word: just the trill)", "tip": "Practice pair: say aria, then force the trill."},
+          {"a": "ferie", "b": "ferro", "na": "holidays", "nb": "iron", "tip": "Chiuso per ferie; la ferramenta sells ferro."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "If you cannot trill", "text": "Many Italians can't either, and nobody minds: the single tap matters more than the trill. Get the tap right (tongue tip, one quick touch, no curling) and say doubles slightly longer. Practise with [[tre]], [[treno]], [[dritto]], [[prendi]], then [[Roccamarina]], which has both a tap and a trill."},
+        {"type": "examples", "items": [
+          {"t": "Per arrivare alla ferramenta, prendi la prima a destra dopo il bar.", "n": "To get to the hardware store, take the first right after the bar.", "note": "eleven r's; count the doubles"},
+          {"t": "Il treno per Roma parte alle tre e un quarto.", "n": "The train for Rome leaves at a quarter past three."}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty exercises in five sets and a mixed review. Articulated prepositions count: a il is wrong, al is right.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Andare, venire, stare, uscire, dare", "items": [
+          {"kind": "conjugate", "verb": "andare", "tense": "presente", "n": "to go", "answers": ["vado", "vai", "va", "andiamo", "andate", "vanno"]},
+          {"kind": "conjugate", "verb": "venire", "tense": "presente", "n": "to come", "answers": ["vengo", "vieni", "viene", "veniamo", "venite", "vengono"]},
+          {"kind": "fill", "q": "Dove ___ (tu, andare)? — ___ (io, andare) al mare. ___ (tu, venire) con me?", "answers": [["vai"], ["Vado"], ["Vieni"]], "n": "Where are you going? — I'm going to the sea. Are you coming with me?"},
+          {"kind": "fill", "q": "Come ___ (tu, stare)? — ___ (io, stare) bene, grazie.", "answers": [["stai"], ["Sto"]], "n": "How are you? — I'm fine, thanks."},
+          {"kind": "fill", "q": "Nando ___ (uscire) dal bar alle otto. Dora ___ (dare) le chiavi a tutti.", "answers": [["esce"], ["dà"]], "n": "Nando leaves the bar at eight. Dora gives keys to everyone."},
+          {"kind": "fill", "q": "Chiara e Tommaso ___ (andare) al lavoro in bici; noi ___ (andare) a piedi.", "answers": [["vanno"], ["andiamo"]], "n": "Chiara and Tommaso go to work by bike; we walk."},
+          {"kind": "mc", "q": "«How are you?» in Italian:", "options": ["Come stai?", "Come sei?", "Come vai?"], "answer": 0, "why": "Health and mood: stare."},
+          {"kind": "translate", "q": "I'm going to Dora's.", "answers": ["Vado da Dora", "Io vado da Dora"], "hint": "da + person"}
+        ]},
+        {"type": "exercises", "title": "2 · Preposizioni semplici e articolate", "items": [
+          {"kind": "fill", "q": "Vado ___ Lecce, ___ Italia, ___ casa.", "choices": [["a", "in"], ["in", "a"], ["a", "in"]], "answers": [["a"], ["in"], ["a"]], "n": "I'm going to Lecce, to Italy, home."},
+          {"kind": "fill", "q": "Vado ___ bar (a + il) e poi ___ posta (a + la).", "answers": [["al"], ["alla"]], "n": "I'm going to the bar and then to the post office."},
+          {"kind": "fill", "q": "Le viti sono ___ cassetto (in + il), ___ scatola (in + la).", "answers": [["nel"], ["nella"]], "n": "The screws are in the drawer, in the box."},
+          {"kind": "fill", "q": "Esco ___ comune (da + il) e torno ___ zii (da + gli).", "answers": [["dal"], ["dagli"]], "n": "I leave the town hall and go back to my aunt and uncle's."},
+          {"kind": "fill", "q": "Il calendario è ___ frigorifero (su + il). La chiave è ___ tavolo (su + il).", "answers": [["sul"], ["sul"]], "n": "The calendar is on the fridge. The key is on the table."},
+          {"kind": "fill", "q": "La casa ___ nonna (di + la). Le chiavi ___ appartamento (di + l').", "answers": [["della"], ["dell'"]], "n": "Grandma's house. The keys to the flat."},
+          {"kind": "mc", "q": "«in centro» or «nel centro»?", "options": ["in centro: no article with this place", "nel centro: always fuse", "both are wrong"], "answer": 0, "why": "In centro, in piazza, in ufficio, a casa, a scuola: no article, so nothing to fuse."},
+          {"kind": "translate", "q": "Chiara goes to work by bike.", "answers": ["Chiara va al lavoro in bici", "Chiara va al lavoro in bicicletta"]}
+        ]},
+        {"type": "exercises", "title": "3 · Dov'è?", "items": [
+          {"kind": "reply", "line": {"t": "Scusi, dov'è la posta?", "n": "Excuse me, where's the post office?"}, "options": ["Vai dritto, poi a destra. È accanto alla banca.", "Vai dritto, poi a destra. È accanto la banca.", "Vai a dritto, poi a destra. È accanto della banca."], "answer": 0, "why": "Dritto without a; accanto a + article."},
+          {"kind": "fill", "q": "La ferramenta è ___ fronte ___ chiesa. (opposite)", "answers": [["di"], ["alla"]], "n": "The hardware store is opposite the church."},
+          {"kind": "fill", "q": "Il cortile è ___ la casa. (behind) Il bar è ___ angolo. (on the corner)", "answers": [["dietro"], ["all'"]], "n": "The courtyard is behind the house. The bar is on the corner."},
+          {"kind": "order", "answer": "C'è una farmacia qui vicino?", "n": "Is there a pharmacy nearby?"},
+          {"kind": "match", "q": "Match.", "pairs": [["a destra", "on the right"], ["dritto", "straight on"], ["in fondo a", "at the end of"], ["lontano da", "far from"], ["fino a", "as far as"]]},
+          {"kind": "dictation", "text": "Vai dritto fino al semaforo, poi gira a sinistra.", "n": "Go straight to the traffic light, then turn left."}
+        ]},
+        {"type": "exercises", "title": "4 · Che ore sono?", "items": [
+          {"kind": "match", "q": "Match the times.", "pairs": [["È l'una.", "1:00"], ["Sono le tre e mezza.", "3:30"], ["Sono le quattro meno un quarto.", "3:45"], ["È mezzogiorno.", "12:00"], ["Sono le otto e venti.", "8:20"]]},
+          {"kind": "fill", "q": "Che ore sono? — ___ le due e un quarto. (2:15)", "answers": [["Sono"]], "n": "What time is it? — It's a quarter past two."},
+          {"kind": "fill", "q": "Che ore sono? — ___ l'una e mezza. (1:30)", "answers": [["È"]], "n": "What time is it? — It's half past one."},
+          {"kind": "fill", "q": "A che ora apre la banca? — ___ otto e venti. A che ora chiude? — ___ una.", "answers": [["Alle"], ["All'"]], "n": "What time does the bank open? — At 8:20. What time does it close? — At one."},
+          {"kind": "fill", "q": "Il comune è aperto ___ otto e mezza ___ una, ___ lunedì ___ venerdì.", "answers": [["dalle"], ["all'"], ["dal"], ["al"]], "n": "The town hall is open from 8:30 to 1, Monday to Friday."},
+          {"kind": "mc", "q": "«On Tuesdays the hardware store is closed.»", "options": ["Il martedì la ferramenta è chiusa.", "Martedì la ferramenta è chiusa.", "A martedì la ferramenta è chiusa."], "answer": 0, "why": "The article makes it habitual: il martedì = every Tuesday. Martedì alone = this Tuesday."},
+          {"kind": "speak", "text": "Sono le tre e un quarto. Il treno parte alle quattro meno dieci.", "n": "It's a quarter past three. The train leaves at ten to four.", "tip": "Tap the r in tre, treno, parte, quarto, quattro."}
+        ]},
+        {"type": "exercises", "title": "5 · Dove vai e come?", "items": [
+          {"kind": "fill", "q": "Vado al mare ___ bici e torno ___ piedi.", "answers": [["in"], ["a"]], "n": "I go to the sea by bike and come back on foot."},
+          {"kind": "order", "answer": "Domani vado alla ferramenta in macchina.", "n": "Tomorrow I'm going to the hardware store by car."},
+          {"kind": "tf", "q": "Is this right?", "t": "Il mare è vicino: andiamo in piedi.", "answer": false, "why": "A piedi. In goes with vehicles (in bici, in macchina); on foot is a piedi."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "fill", "q": "Chiara: «___ (io, andare) in bici, tu ___ (venire) a piedi. Il mare è ___ (vicino).»", "answers": [["Vado"], ["vieni"], ["vicino"]], "n": "Chiara: \"I'm going by bike, you're coming on foot. The sea is close.\""},
+          {"kind": "translate", "q": "Where is the town hall? — Opposite the church, next to the bar.", "answers": ["Dov'è il comune? Di fronte alla chiesa, accanto al bar", "Dov'è il comune? — Di fronte alla chiesa, accanto al bar", "Dove è il comune? Di fronte alla chiesa, accanto al bar"]},
+          {"kind": "reply", "line": {"t": "A che ora chiude la ferramenta?", "n": "What time does the hardware store close?"}, "options": ["All'una. Riapre alle cinque.", "A l'una. Riapre a le cinque.", "Alla una. Riapre alle cinque."], "answer": 0, "why": "All'una, alle cinque."},
+          {"kind": "write", "q": "Give directions from the Bar del Corso to the station in four or five short sentences. Invent the route; use dritto, a destra / sinistra, dopo, accanto a, fino a.", "model": "Dal bar vai dritto fino al semaforo. Al semaforo giri a destra. Continui fino alla farmacia e poi a sinistra. La stazione è in fondo alla strada, accanto al supermercato. Sono dieci minuti a piedi.", "hint": "Vai dritto… · Gira a… · È accanto a… · … minuti a piedi"},
+          {"kind": "speak", "text": "Scusi, dov'è la stazione? È lontana? — No, è vicina: dieci minuti a piedi.", "n": "Excuse me, where's the station? Is it far? — No, it's close: ten minutes on foot.", "tip": "Stazione: sta-TSYO-ne. Lontana / vicina agree with stazione."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Orari, passeggiata e cartelli",
+      "intro": "Why the town sleeps from one to five, what happens in the piazza at seven, and the signs on the doors.",
+      "blocks": [
+        {"type": "subhead", "text": "Gli orari"},
+        {"type": "prose", "text": "In much of Italy, and in nearly all of the south, shops and offices keep split hours: open in the morning from about 8:30 or 9 to 1, closed for lunch and the hottest hours, open again from 4:30 or 5 to 8. Supermarkets and shops in big cities increasingly stay open all day ([[orario continuato]]), but Roccamarina does not. The comune, the post office and the bank are morning-only, with one or two afternoons a week; the pharmacy follows a rota so one in the area is always open ([[la farmacia di turno]], listed on every pharmacy door).\n\nSunday is closed, except the bar, the pastry shop and, in summer, the shops on the seafront. Many shops also close one half-day a week, the [[giorno di chiusura]]: often Monday morning for clothes shops, Wednesday or Thursday afternoon for food shops, Monday for barbers. In August the sign [[chiuso per ferie]] appears on half the doors, with the dates, and the town empties to the beach."},
+        {"type": "callout", "kind": "real", "title": "Reading the sign on the door", "text": "[[Orario di apertura|Opening hours]] · [[lun-ven 9:00-13:00 / 17:00-20:00]] · [[sabato 9:00-13:00]] · [[domenica chiuso]] · [[chiuso il lunedì mattina]] · [[chiuso per ferie dal 10 al 24 agosto]] · [[torno subito|back in a minute]] · [[aperto]] / [[chiuso]] · [[tirare]] / [[spingere|pull / push]] · [[entrata]] / [[uscita]] · [[vietato fumare|no smoking]] · [[suonare|ring the bell]]."},
+        {"type": "subhead", "text": "La passeggiata"},
+        {"type": "prose", "text": "At about seven in the evening, when the shops reopen and the heat drops, the town walks. Families, couples, groups of teenagers and groups of old men move slowly up and down the Corso and around the piazza, stop, talk, start again. Nobody is going anywhere: the [[passeggiata]] is the point. It is where news is exchanged, where you are seen, where you learn who is back from Milano and who has a new car. The bar fills, the gelateria has a queue, children run between the benches. In summer it goes on until eleven. A newcomer who joins it will be introduced to twenty people in a week; a newcomer who doesn't will be talked about anyway."},
+        {"type": "subhead", "text": "La piazza"},
+        {"type": "prose", "text": "Every Italian town is built around its piazza, and the piazza is built around the church, the comune and the bar. Benches on the shady side belong, by custom, to the retired men, who sit there from the morning coffee to lunch and from the afternoon reopening to dinner and who know everything that moves. Ask them the way: you will get the answer, the history of the shop, the owner's family and an opinion. Directions in a small town are not about streets but about landmarks and people: [[dopo la farmacia]], [[di fronte alla chiesa]], [[la ferramenta di Carmine]]. Street names are for the postman."},
+        {"type": "callout", "kind": "culture", "title": "Vicino", "text": "[[È vicino|It's close]] in a town of twenty thousand means anything up to twenty minutes on foot. [[È lontano|It's far]] means you need the car, and the car is usually a Fiat Panda. Chiara's bike is, by local standards, slightly eccentric; the protagonist's plan to sell bikes to the town is, by local standards, insane. Unit 13."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen before the next unit, then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Verbi irregolari", "rows": [["vado · vai · va · andiamo · andate · vanno", "andare"], ["vengo · vieni · viene · veniamo · venite · vengono", "venire"], ["sto · stai · sta · stiamo · state · stanno", "stare"], ["esco · esci · esce · usciamo · uscite · escono", "uscire"], ["do · dai · dà · diamo · date · danno", "dare"]]},
+          {"title": "Preposizioni", "rows": [["a Lecce · in Italia · a casa · in centro · da Dora", "cities · countries · home · centre · someone's"], ["al bar · alla posta · all'una · dal comune · nel cassetto · sul tavolo", "articulated"], ["in bici · in macchina · in treno · a piedi", "transport"]]},
+          {"title": "Dov'è?", "rows": [["Scusi, dov'è…? C'è un… qui vicino? È lontano?", "asking"], ["Vai dritto. Gira a destra / sinistra. Prendi la prima a sinistra.", "giving (tu)"], ["davanti a · dietro · accanto a · di fronte a · vicino a · lontano da · in fondo a · all'angolo", "where"]]},
+          {"title": "L'ora", "rows": [["Che ore sono? — Sono le tre. È l'una. È mezzogiorno.", "the time"], ["le tre e un quarto · e mezza · le quattro meno un quarto", "quarters and halves"], ["A che ora? — Alle nove. All'una. Dalle otto alle due.", "at / from / to"], ["lunedì · martedì · mercoledì · giovedì · venerdì · sabato · domenica", "il martedì = every Tuesday"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

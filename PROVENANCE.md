@@ -39,6 +39,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** present-ere-ire-verbs, fare, possessives (adjective-agreement and avere extended).
 - **Originality:** the two scenes (Chiara's arrival with pasticciotti and the napkin family tree; describing the Toronto family to Dora), the cast details (Michele, Anna, Oronzo), all 47 vocabulary examples, tables, 40 exercises and the cultural notes (the extended family, post-war emigration to Canada and Pier 21, name days and nicknames, italo-canadese / oriundo, the pasticciotto) were written for this project from general knowledge.
 
+#### Unit 5 · In giro per il paese (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: ask for and give simple directions, understand short simple instructions about how to get from X to Y, ask and tell the time, ask about opening hours; listening: understand simple directions and times spoken slowly; reading: understand signs and notices (open, closed, hours, days); spoken production: say where one is going, when and how.
+- **Grammar:** irregular present of *andare, venire, stare, uscire, dare*; the simple prepositions; articulated prepositions; position and direction phrases (tu forms, Lei forms for recognition); the time, at/from/to, days of the week with and without article; the Italian r (tap vs trill).
+- **Reference pages added:** irregular-present-1, prepositions, articulated-prepositions, place-and-directions, time-and-days.
+- **Originality:** the two scenes (Chiara's hand-drawn map; three answers to "dov'è la ferramenta?" ending at the comune with Antonella), the characters Carmine and Antonella Moro, all 47 vocabulary examples, tables, 40 exercises and the cultural notes (split opening hours, giorno di chiusura, chiuso per ferie, signs, the passeggiata, the piazza, "vicino") were written for this project from general knowledge of small-town Italy.
+
 ### English for Italian speakers (`content/en-for-it/`)
 
 #### Unit 1 · Welcome to Canada (A1) · written 2026-10-10

@@ -1,0 +1,24 @@
+{"id": "prepositions", "title": "The simple prepositions", "category": "Prepositions", "rule": "di, a, da, in, con, su, per, tra/fra. Each covers several English prepositions; the choice depends on the verb and the noun as much as on the meaning. Learn them in phrases.", "units": ["05"], "blocks": [
+  {"type": "table", "head": ["", "Uses", "Examples"], "rows": [["di", "possession · origin (city) · material · topic · partitive · comparison", "il libro di Dora · sono di Bari · di legno · parliamo di calcio · un po' di pane · più alto di me"], ["a", "to / at (cities, small places) · time · manner · indirect object", "a Roma · a casa · alle tre · a piedi · do le chiavi a Dora"], ["da", "from (movement, origin of a journey) · at / to someone's place · since / for (time) · purpose · agent", "vengo da Bari · vado dal medico · da due anni · occhiali da sole · fatto da Chiara"], ["in", "in / to (countries, regions, large or enclosed places) · transport · seasons, months, years", "in Italia · in centro · in bici · in estate · in agosto · nel 2026"], ["con", "with · by (transport, alternative)", "con Chiara · con calma · con il treno"], ["su", "on · about · approximately", "sul tavolo · un libro sulla Puglia · sui trent'anni"], ["per", "for · through · in order to · duration · destination", "per te · per la piazza · per imparare · per due ore · il treno per Roma"], ["tra / fra", "between · among · in (future time)", "tra la posta e il bar · tra amici · fra dieci minuti"]], "speak": [2], "rowhead": true},
+  {"type": "subhead", "text": "di vs da: the two \"froms\""},
+  {"type": "examples", "items": [
+    {"t": "Sono di Toronto.", "n": "I'm from Toronto.", "note": "origin, with essere: di"},
+    {"t": "Vengo da Toronto. Il treno da Bari.", "n": "I come from Toronto. The train from Bari.", "note": "movement from: da"},
+    {"t": "Vado dal medico. Sono da Nando. Ceniamo da Dora.", "n": "I'm going to the doctor's. I'm at Nando's. We're having dinner at Dora's.", "note": "da + person or professional = their place"},
+    {"t": "Abito qui da un mese.", "n": "I've been living here for a month.", "note": "da + time with the present: since / for"}
+  ]},
+  {"type": "subhead", "text": "a vs in: places"},
+  {"type": "table", "head": ["a", "in"], "rows": [["cities, towns, villages: a Roma, a Roccamarina", "countries, regions, continents, islands (large): in Italia, in Puglia, in Europa, in Sicilia"], ["a casa, a scuola, a letto, a teatro, a tavola, a Natale", "in centro, in piazza, in ufficio, in banca, in chiesa, in montagna, in campagna, in città, in vacanza"], ["al / alla + most buildings: al bar, al mare, al cinema, alla stazione, all'università", "in + transport: in bici, in treno, in macchina (a piedi, a cavallo)"]], "speak": [0, 1], "compact": true},
+  {"type": "mistakes", "items": [
+    {"wrong": "Vado in Roma.", "right": "Vado a Roma.", "why": "Cities take a."},
+    {"wrong": "Vado a Puglia.", "right": "Vado in Puglia.", "why": "Regions take in."},
+    {"wrong": "Vado a casa di Dora. (not wrong, but)", "right": "Vado da Dora.", "why": "Da + person is the idiomatic form."},
+    {"wrong": "Penso a te. (meaning \"I think about you\") – fine; Penso di te.", "right": "Penso a te. / Cosa pensi di Dora?", "why": "Pensare a = think about (have in mind); pensare di = have an opinion about."},
+    {"wrong": "Ho bisogno per…", "right": "Ho bisogno di…", "why": "Fixed: avere bisogno di."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Sono ___ Toronto, ma vengo ___ Bari con il treno. Abito ___ Roccamarina ___ un mese.", "answers": [["di"], ["da"], ["a"], ["da"]], "n": "I'm from Toronto, but I'm coming from Bari by train. I've lived in Roccamarina for a month."},
+    {"kind": "fill", "q": "Ceniamo ___ Dora ___ otto; poi usciamo ___ Chiara.", "answers": [["da"], ["alle"], ["con"]], "n": "We're having dinner at Dora's at eight; then we're going out with Chiara."},
+    {"kind": "mc", "q": "«In ten minutes»", "options": ["tra dieci minuti", "in dieci minuti", "per dieci minuti"], "answer": 0, "why": "Tra / fra for \"in\" meaning from now. In dieci minuti = within ten minutes (duration); per dieci minuti = for ten minutes."}
+  ]}
+]}
