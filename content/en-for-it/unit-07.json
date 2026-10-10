@@ -1,0 +1,309 @@
+{
+  "id": "07",
+  "level": "A1",
+  "title": "Groceries and a winter coat",
+  "subtitle": "La spesa e il centro commerciale",
+  "intro": "Un carrello che vuole un dollaro, sacchetti a pagamento, prezzi alla libbra e senza tasse, e un cappotto vero per gennaio con le taglie in lettere. In questa unità impari a fare la spesa e a comprare vestiti, a dire quanto ne vuoi, e i nomi che l'inglese non conta: la lista che tradisce gli italiani.",
+  "objectives": [
+    "Contare quello che si conta e misurare quello che non si conta: [[two apples]], [[some milk]], [[a litre of milk]]",
+    "Usare [[some]], [[any]], [[no]], [[much]], [[many]], [[a lot of]], [[a few]], [[a little]] e chiedere [[How much?]] / [[How many?]]",
+    "Usare i pronomi oggetto: [[me]], [[you]], [[him]], [[her]], [[it]], [[us]], [[them]]",
+    "Comprare vestiti: [[Can I try it on?]], [[What size are you?]], [[It's too big]], [[Do you have it in a medium?]]",
+    "Restituire qualcosa, capire un'offerta, leggere uno scontrino"
+  ],
+  "canDo": [
+    "A1 · Interazione orale: sa fare acquisti semplici, chiedere quantità, taglie e colori, e chiedere il prezzo.",
+    "A1 · Interazione orale: sa dire cosa gli piace e cosa non gli piace e chiedere agli altri.",
+    "A1 · Ascolto: sa capire prezzi, quantità e le domande di chi serve.",
+    "A1 · Lettura: sa capire una lista della spesa, un'etichetta con prezzo e taglia, uno scontrino semplice.",
+    "A1 · Scrittura: sa scrivere una lista della spesa e un breve messaggio su cosa comprare."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "A loonie for the cart",
+      "intro": "Il supermercato con Teresa, poi il centro commerciale con Sofia. Ascolta some e any, much e many, e i pronomi it e them.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-grocery", "title": "At No Frills", "setting": "Sabato mattina. Il parcheggio di un No Frills giallo. Teresa con una lista e un dollaro in mano.", "register": "informale", "lines": [
+          {"who": "Teresa", "t": "Do you have a loonie? The cart needs a loonie.", "n": "Hai un dollaro? Il carrello vuole un dollaro.", "note": "Il carrello si sblocca con una moneta da un dollaro, che torna indietro. Cart in Nord America; trolley nel Regno Unito."},
+          {"who": "Chiara", "t": "Here. What do we need?", "n": "Ecco. Cosa ci serve?", "note": "We need = ci serve. Need + nome, senza preposizione."},
+          {"who": "Teresa", "t": "Milk, a dozen eggs, bread, some cheese, two pounds of apples and a bag of carrots. And chicken for tomorrow.", "n": "Latte, una dozzina di uova, pane, del formaggio, due libbre di mele e un sacchetto di carote. E pollo per domani.", "note": "Milk, bread, cheese, chicken: non numerabili, senza articolo. A dozen eggs: senza of. Two pounds of apples: si pesa in libbre."},
+          {"who": "Chiara", "t": "How much cheese?", "n": "Quanto formaggio?", "note": "How much + non numerabile."},
+          {"who": "Teresa", "t": "A lot. Daniel and Jessica are coming on Sunday.", "n": "Tanto. Daniel e Jessica vengono domenica.", "note": "A lot da solo; a lot of cheese con il nome."},
+          {"who": "Chiara", "t": "Is there any mozzarella here?", "n": "C'è della mozzarella qui?", "note": "Any nelle domande."},
+          {"who": "Teresa", "t": "No, there isn't any. Not real mozzarella. We get it at the Italian store on St. Clair.", "n": "No, non ce n'è. Non quella vera. La prendiamo al negozio italiano su St. Clair.", "note": "There isn't any: any nei negativi. We get it: it = la mozzarella."},
+          {"who": "Chiara", "t": "How many apples do you want? These are two dollars a pound.", "n": "Quante mele vuoi? Queste costano due dollari alla libbra.", "note": "How many + plurale. A pound = circa 450 grammi."},
+          {"who": "Teresa", "t": "Six. The red ones. Put them in the bag.", "n": "Sei. Quelle rosse. Mettile nel sacchetto.", "note": "The red ones: ones sostituisce il nome. Put them: them = le mele."},
+          {"stage": "At the checkout. The cashier scans the items; a screen shows the total."},
+          {"who": "Cashier", "t": "That's sixty-four twenty. Do you need bags? They're five cents each.", "n": "Fanno sessantaquattro e venti. Vi servono sacchetti? Costano cinque centesimi l'uno."},
+          {"who": "Teresa", "t": "No, thanks. I have mine.", "n": "No, grazie. Ho i miei.", "note": "Mine = i miei (sacchetti). I pronomi possessivi, unità 10."},
+          {"who": "Chiara", "t": "Sixty-four dollars? For this?", "n": "Sessantaquattro dollari? Per questo?"},
+          {"who": "Teresa", "t": "Welcome to Canada. And that's without tax. Food has no tax. Most food.", "n": "Benvenuta in Canada. Ed è senza tasse. Il cibo non ha tasse. Quasi tutto."}
+        ], "notes": [
+          {"phrase": "a dozen eggs", "note": "Una dozzina di uova, senza of. Le uova in Canada si vendono a dozzine e a mezze dozzine e sono bianche."},
+          {"phrase": "a pound", "note": "Una libbra, circa 454 grammi. I prezzi al supermercato sono alla libbra (lb) e al chilo insieme; la gente pensa in libbre."},
+          {"phrase": "the Italian store", "note": "Il negozio italiano: a Toronto ce ne sono decine, con la mozzarella vera, il prosciutto e il pane. Store = negozio, anche piccolo."},
+          {"phrase": "five cents each", "note": "Cinque centesimi l'uno. Each = ciascuno, alla fine della frase."}
+        ]},
+        {"type": "scene", "id": "dlg-coat", "title": "The coat", "setting": "L'Eaton Centre, sabato pomeriggio. Un negozio di abbigliamento, un muro di cappotti. Sofia con un caffè, Chiara con un cappotto in mano.", "register": "informale", "lines": [
+          {"who": "Chiara", "t": "I like this one. Can I try it on?", "n": "Questo mi piace. Posso provarlo?", "note": "Try on = provare (un capo). It va in mezzo: try it on, non *try on it*."},
+          {"who": "Clerk", "t": "Sure. What size are you?", "n": "Certo. Che taglia porta?", "note": "What size are you? letteralmente \"che taglia sei?\"."},
+          {"who": "Chiara", "t": "In Italy I'm a forty-four.", "n": "In Italia porto la quarantaquattro."},
+          {"who": "Clerk", "t": "Here that's a small. Maybe an extra-small. Try the small.", "n": "Qui è una small. Forse una extra-small. Provi la small.", "note": "Le taglie in Nord America: XS, S, M, L, XL. Per i jeans, in pollici."},
+          {"stage": "Two minutes later."},
+          {"who": "Chiara", "t": "It's too big. The sleeves are too long. Do you have it in an extra-small?", "n": "È troppo grande. Le maniche sono troppo lunghe. Ce l'avete in extra-small?", "note": "Too + aggettivo = troppo. Do you have it in…? = ce l'avete in…?"},
+          {"who": "Clerk", "t": "Let me check. … Here. This one's a bit shorter, too.", "n": "Controllo. … Ecco. Questo è anche un po' più corto.", "note": "Let me check = controllo, un attimo. Shorter: il comparativo, unità 10."},
+          {"who": "Chiara", "t": "It fits. How much is it?", "n": "Mi sta bene. Quanto costa?", "note": "It fits = mi va bene (di misura). It suits you = ti sta bene (di stile)."},
+          {"who": "Clerk", "t": "One eighty. But it's on sale: thirty per cent off. So one twenty-six, plus tax.", "n": "Centottanta. Ma è in offerta: trenta per cento di sconto. Quindi centoventisei, più le tasse."},
+          {"who": "Sofia", "t": "Take it. January is coming. Do you need gloves? Return those. They don't fit me.", "n": "Prendilo. Gennaio arriva. Ti servono guanti? Restituisci quelli. A me non vanno bene.", "note": "Take it, return those: imperativi con pronomi. Them, me: pronomi oggetto."},
+          {"who": "Chiara", "t": "Hi. I'd like to return these gloves.", "n": "Salve. Vorrei restituire questi guanti."},
+          {"who": "Clerk", "t": "Do you have the receipt?", "n": "Ha lo scontrino?"},
+          {"who": "Sofia", "t": "No. Sorry.", "n": "No. Mi dispiace."},
+          {"who": "Clerk", "t": "No problem. I can give you store credit. Forty dollars.", "n": "Nessun problema. Posso darle un buono del negozio. Quaranta dollari.", "note": "Store credit: un buono da spendere nello stesso negozio. Senza scontrino niente soldi indietro, ma il buono sì."},
+          {"who": "Sofia", "t": "Perfect. Now the LCBO: wine for Dad. The government sells the wine here, Chiara.", "n": "Perfetto. Ora l'LCBO: il vino per papà. Qui il vino lo vende lo Stato, Chiara."}
+        ], "notes": [
+          {"phrase": "thirty per cent off", "note": "Il trenta per cento di sconto. Off = di sconto: 30% off, ten dollars off. On sale = in offerta (sale = i saldi; for sale = in vendita)."},
+          {"phrase": "Let me check.", "note": "Controllo, vedo. Let me + verbo = lascia che io… Frase di chi serve."},
+          {"phrase": "the LCBO", "note": "Liquor Control Board of Ontario: i negozi dello Stato dove si vende vino e alcolici. Vivere lì spiega."}
+        ], "questions": [
+          {"kind": "tf", "q": "Chiara in Canada porta una large.", "t": "Here that's a small. Maybe an extra-small.", "answer": false, "why": "Una 44 italiana è una small o extra-small."},
+          {"kind": "mc", "q": "Quanto costa il cappotto, con lo sconto e senza tasse?", "options": ["Centoventisei dollari.", "Centottanta dollari.", "Quaranta dollari."], "answer": 0, "why": "«One eighty, thirty per cent off: one twenty-six, plus tax.»"},
+          {"kind": "fill", "q": "Can I try ___ on? Do you have ___ in an extra-small?", "answers": [["it"], ["it"]], "n": "Posso provarlo? Ce l'avete in extra-small?"}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Food, shops, clothes",
+      "intro": "Quello che si compra, dove, e con quali parole. Per ogni cibo, impara se si conta o no: decide l'articolo, il plurale e la domanda.",
+      "blocks": [
+        {"type": "vocab", "theme": "Food", "n": "Il cibo", "intro": "U = non numerabile (uncountable), C = numerabile.", "items": [
+          {"t": "milk", "n": "latte (U)", "pos": "noun", "ipa": "mɪlk", "ex": {"t": "We need milk. A litre of milk. Some milk.", "n": "Ci serve del latte. Un litro di latte."}, "note": "In Canada il latte si vende anche in sacchetti di plastica da quattro litri: the bag of milk. Non è uno scherzo."},
+          {"t": "egg", "n": "uovo (C)", "pos": "noun", "ipa": "ɛɡ", "plural": "eggs", "ex": {"t": "A dozen eggs. Two eggs for breakfast.", "n": "Una dozzina di uova. Due uova a colazione."}, "note": "Numerabile: an egg, three eggs. Le uova canadesi sono bianche e stanno in frigo."},
+          {"t": "bread", "n": "pane (U)", "pos": "noun", "ipa": "brɛd", "ex": {"t": "A loaf of bread. Two slices of bread.", "n": "Una pagnotta. Due fette di pane."}, "note": "Non numerabile: niente a bread, niente breads. Una pagnotta = a loaf, una fetta = a slice, un panino = a roll / a bun."},
+          {"t": "cheese", "n": "formaggio (U)", "pos": "noun", "ipa": "tʃiːz", "ex": {"t": "How much cheese? — A lot. A piece of cheese.", "n": "Quanto formaggio? — Tanto. Un pezzo di formaggio."}, "note": "Cheddar è il formaggio canadese; old cheddar = stagionato."},
+          {"t": "butter", "n": "burro (U)", "pos": "noun", "ipa": "ˈbʌtər", "ex": {"t": "A pound of butter. Salted or unsalted?", "n": "Una libbra di burro. Salato o non salato?"}, "note": "Il burro canadese è salato di default: per i dolci, unsalted."},
+          {"t": "meat / chicken", "n": "carne / pollo (U)", "pos": "noun", "ipa": "miːt / ˈtʃɪkən", "ex": {"t": "I don't eat much meat. Chicken for Sunday.", "n": "Non mangio molta carne. Pollo per domenica."}, "note": "Come cibo non si contano: some chicken, a piece of chicken. A chicken = un pollo intero (animale)."},
+          {"t": "fish", "n": "pesce (U / C)", "pos": "noun", "ipa": "fɪʃ", "ex": {"t": "Fish is expensive here. Two fish in the lake.", "n": "Il pesce è caro qui. Due pesci nel lago."}, "note": "Come cibo non numerabile; come animale numerabile, con plurale fish."},
+          {"t": "rice / pasta / flour / sugar", "n": "riso / pasta / farina / zucchero (U)", "pos": "noun", "ipa": "raɪs / ˈpɑstə / ˈflaʊər / ˈʃʊɡər", "ex": {"t": "A bag of rice, a box of pasta, two kilos of flour.", "n": "Un sacchetto di riso, una scatola di pasta, due chili di farina."}, "note": "Tutte sostanze: si misurano, non si contano. Flour si pronuncia come flower (fiore)."},
+          {"t": "fruit / vegetables", "n": "frutta (U) / verdura (C, plurale)", "pos": "noun", "ipa": "fruːt / ˈvɛdʒtəbəlz", "ex": {"t": "Fruit is cheap in summer. Vegetables are in aisle three.", "n": "La frutta è economica d'estate. La verdura è nella corsia tre."}, "note": "Fruit non numerabile (a piece of fruit); vegetables plurale normale. Veggies, informale."},
+          {"t": "apple / banana / carrot / onion", "n": "mela / banana / carota / cipolla (C)", "pos": "noun", "ipa": "ˈæpəl / bəˈnænə / ˈkɛrət / ˈʌnjən", "ex": {"t": "Six apples, a bunch of bananas, a bag of carrots, two onions.", "n": "Sei mele, un casco di banane, un sacchetto di carote, due cipolle."}, "note": "Numerabili: si contano e prendono il plurale."},
+          {"t": "lettuce / tomato / potato", "n": "lattuga / pomodoro / patata", "pos": "noun", "ipa": "ˈlɛtɪs / təˈmeɪtoʊ / pəˈteɪtoʊ", "ex": {"t": "A head of lettuce, four tomatoes, five pounds of potatoes.", "n": "Un cespo di lattuga, quattro pomodori, cinque libbre di patate."}, "note": "Tomatoes e potatoes con -es. Lettuce non si conta: a head of lettuce."},
+          {"t": "dozen / pound / litre", "n": "dozzina / libbra / litro", "pos": "noun", "ipa": "ˈdʌzən / paʊnd / ˈliːtər", "ex": {"t": "A dozen eggs. Two pounds of apples. Four litres of milk.", "n": "Una dozzina di uova. Due libbre di mele. Quattro litri di latte."}, "note": "A dozen eggs senza of. Pound = 454 g, scritto lb. Litre con l'ortografia canadese (US: liter)."}
+        ]},
+        {"type": "vocab", "theme": "At the store", "n": "In negozio", "items": [
+          {"t": "grocery store", "n": "supermercato, negozio di alimentari", "pos": "noun", "ipa": "ˈɡroʊsəri", "plural": "grocery stores", "ex": {"t": "No Frills is a cheap grocery store. Do the groceries = fare la spesa.", "n": "No Frills è un supermercato economico."}, "note": "Groceries = la spesa (le cose). Supermarket si capisce ma si dice meno."},
+          {"t": "cart", "n": "carrello", "pos": "noun", "ipa": "kɑrt", "plural": "carts", "ex": {"t": "The cart needs a loonie. Put it in the cart.", "n": "Il carrello vuole un dollaro. Mettilo nel carrello."}, "note": "Basket = cestino. Nel Regno Unito trolley."},
+          {"t": "bag", "n": "sacchetto, borsa", "pos": "noun", "ipa": "bæɡ", "plural": "bags", "ex": {"t": "Do you need bags? They're five cents each.", "n": "Vi servono sacchetti? Costano cinque centesimi l'uno."}, "note": "Reusable bag = la borsa riutilizzabile che tutti portano. A bag of carrots = un sacchetto di carote."},
+          {"t": "aisle", "n": "corsia", "pos": "noun", "ipa": "aɪl", "plural": "aisles", "ex": {"t": "Where's the rice? — Aisle seven.", "n": "Dov'è il riso? — Corsia sette."}, "note": "Si pronuncia \"ail\": la s è muta."},
+          {"t": "checkout / cashier", "n": "cassa / cassiere, cassiera", "pos": "noun", "ipa": "ˈtʃɛkaʊt / kæˈʃɪr", "ex": {"t": "The self-checkout is faster. The cashier is friendly.", "n": "La cassa automatica è più veloce. La cassiera è gentile."}, "note": "Self-checkout: le casse fai-da-te, ovunque in Canada."},
+          {"t": "on sale / discount", "n": "in offerta / sconto", "pos": "phrase / noun", "ipa": "ˈdɪskaʊnt", "ex": {"t": "The coat is on sale: thirty per cent off.", "n": "Il cappotto è in offerta: trenta per cento di sconto."}, "note": "On sale = in offerta; for sale = in vendita; a sale / the sales = i saldi. Off = di sconto."},
+          {"t": "cheap / expensive", "n": "economico / caro", "pos": "adj.", "ipa": "tʃiːp / ɪkˈspɛnsɪv", "ex": {"t": "Fruit is cheap. The coat is expensive.", "n": "La frutta è economica. Il cappotto è caro."}, "note": "Cheap anche = scadente. Inexpensive = economico senza giudizio."},
+          {"t": "return", "n": "restituire, rendere; reso", "pos": "verb / noun", "ipa": "rɪˈtɜrn", "ex": {"t": "I'd like to return these gloves. Returns are at the back.", "n": "Vorrei restituire questi guanti. I resi sono in fondo."}, "note": "Anche exchange = cambiare. Refund = rimborso."},
+          {"t": "store credit", "n": "buono del negozio", "pos": "noun", "ex": {"t": "No receipt? I can give you store credit.", "n": "Niente scontrino? Posso darle un buono."}, "note": "Una carta con il valore da spendere nello stesso negozio, al posto dei soldi."},
+          {"t": "mall", "n": "centro commerciale", "pos": "noun", "ipa": "mɔl", "plural": "malls", "ex": {"t": "The Eaton Centre is the big mall downtown.", "n": "L'Eaton Centre è il grande centro commerciale in centro."}, "note": "Shopping mall, shopping centre. Si pronuncia come \"mol\"."},
+          {"t": "liquor store", "n": "negozio di alcolici", "pos": "noun", "ipa": "ˈlɪkər", "ex": {"t": "In Ontario the liquor store is the LCBO.", "n": "In Ontario il negozio di alcolici è l'LCBO."}, "note": "Liquor = alcolici, superalcolici. Si pronuncia \"LI-ker\"."}
+        ]},
+        {"type": "vocab", "theme": "Clothes", "n": "I vestiti", "items": [
+          {"t": "coat / jacket", "n": "cappotto / giacca, giubbotto", "pos": "noun", "ipa": "koʊt / ˈdʒækɪt", "ex": {"t": "A winter coat. A rain jacket.", "n": "Un cappotto invernale. Una giacca impermeabile."}, "note": "Parka = il cappotto imbottito lungo; il vero cappotto canadese. Jacket = giacca di qualsiasi tipo."},
+          {"t": "sweater / hoodie", "n": "maglione / felpa con cappuccio", "pos": "noun", "ipa": "ˈswɛtər / ˈhʊdi", "ex": {"t": "Lots of sweaters. Sofia lives in a hoodie.", "n": "Tanti maglioni. Sofia vive in felpa."}},
+          {"t": "jeans / pants", "n": "jeans / pantaloni", "pos": "noun (pl.)", "ipa": "dʒiːnz / pænts", "ex": {"t": "These jeans are too long. A pair of pants.", "n": "Questi jeans sono troppo lunghi. Un paio di pantaloni."}, "note": "Sempre plurali: jeans are. Pants = pantaloni in Nord America (nel Regno Unito = mutande: trousers)."},
+          {"t": "shirt / T-shirt", "n": "camicia / maglietta", "pos": "noun", "ipa": "ʃɜrt", "plural": "shirts", "ex": {"t": "A white shirt for work. Three T-shirts.", "n": "Una camicia bianca per il lavoro. Tre magliette."}},
+          {"t": "dress / skirt", "n": "vestito (da donna) / gonna", "pos": "noun", "ipa": "drɛs / skɜrt", "ex": {"t": "A red dress. A long skirt.", "n": "Un vestito rosso. Una gonna lunga."}, "note": "Dress è solo il vestito da donna; l'abito da uomo è a suit."},
+          {"t": "boots / shoes", "n": "stivali / scarpe", "pos": "noun (pl.)", "ipa": "buːts / ʃuːz", "ex": {"t": "Winter boots. What size shoes are you? — A seven.", "n": "Stivali invernali. Che numero di scarpe porti? — Un sette."}, "note": "Le scarpe hanno numeri diversi: una 38 italiana è circa un 7.5 da donna, una 42 circa un 9 da uomo."},
+          {"t": "gloves / scarf / hat", "n": "guanti / sciarpa / cappello", "pos": "noun", "ipa": "ɡlʌvz / skɑrf / hæt", "ex": {"t": "Gloves, a scarf and a hat: the winter uniform.", "n": "Guanti, sciarpa e cappello: la divisa dell'inverno."}, "note": "Mitts = le manopole, più calde. Toque = il berretto di lana (unità 11)."},
+          {"t": "size", "n": "taglia, misura", "pos": "noun", "ipa": "saɪz", "plural": "sizes", "ex": {"t": "What size are you? — A small. Do you have it in a medium?", "n": "Che taglia porti? — Una small. Ce l'avete in medium?"}, "note": "XS, S, M, L, XL per i vestiti; i jeans in pollici (30 x 32 = vita x gamba)."},
+          {"t": "try on", "n": "provare (un capo)", "pos": "phrasal verb", "ex": {"t": "Can I try it on? The fitting rooms are over there.", "n": "Posso provarlo? I camerini sono là."}, "note": "Il pronome va in mezzo: try it on, try them on. Fitting room = camerino."},
+          {"t": "fit / suit", "n": "andare bene (di misura) / stare bene (di stile)", "pos": "verb", "ipa": "fɪt / suːt", "ex": {"t": "It fits. The colour suits you.", "n": "Mi va bene. Il colore ti sta bene."}, "note": "Fit = la misura; suit = lo stile. Does it fit? Does it suit me?"},
+          {"t": "too / enough", "n": "troppo / abbastanza", "pos": "adv.", "ipa": "tuː / ɪˈnʌf", "ex": {"t": "It's too big. It isn't warm enough.", "n": "È troppo grande. Non è abbastanza caldo."}, "note": "Too prima dell'aggettivo, enough dopo. Enough si pronuncia \"i-NAF\"."},
+          {"t": "red / blue / green / black / white / grey / brown", "n": "rosso / blu / verde / nero / bianco / grigio / marrone", "pos": "adj.", "ex": {"t": "A black coat, brown boots and a grey scarf.", "n": "Un cappotto nero, stivali marroni e una sciarpa grigia."}, "note": "Ortografia canadese: grey (US: gray), colour (US: color). Invariabili, come tutti gli aggettivi."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Contare, misurare, e i pronomi oggetto",
+      "intro": "Cinque pezzi: i nomi non numerabili con la lista che tradisce gli italiani; some, any e le quantità; i pronomi oggetto; too, enough e le taglie; le frasi per comprare e restituire. Schede complete in fondo.",
+      "blocks": [
+        {"type": "grammar", "id": "g-uncountable", "title": "Numerabili e non numerabili: la lista", "category": "Nomi", "rule": "I non numerabili non hanno plurale e non prendono a/an: milk, bread, money, information. Si misurano con un contenitore o una porzione: a litre of milk, a slice of bread, a piece of information. Molti sono numerabili in italiano e non in inglese.", "ref": "countable-uncountable", "blocks": [
+          {"type": "table", "caption": "I non numerabili che tradiscono gli italiani", "head": ["Inglese (U)", "Italiano (si conta)", "Come dirlo"], "rows": [["information", "un'informazione, due informazioni", "a piece of information, some information"], ["advice", "un consiglio", "a piece of advice, some advice"], ["news", "una notizia", "a piece of news, some news (the news is…)"], ["furniture", "un mobile", "a piece of furniture"], ["luggage · baggage", "una valigia, un bagaglio", "a suitcase, a bag, a piece of luggage"], ["homework · work", "un compito · un lavoro", "some homework · a job (lavoro) / some work"], ["bread", "un pane", "a loaf of bread, a slice of bread"], ["hair", "i capelli", "hair is (singolare): she has long hair"], ["money", "i soldi", "money is: how much money?"], ["food", "i cibi", "some food, a lot of food"], ["weather", "il tempo", "the weather is: what's the weather like?"], ["fruit", "un frutto, la frutta", "a piece of fruit, some fruit"], ["spaghetti · pasta", "gli spaghetti", "spaghetti is (singolare in inglese!)"], ["research · evidence · progress · equipment · traffic", "una ricerca · una prova · un progresso · un'attrezzatura · il traffico", "a piece of research, some evidence, a lot of progress"]], "speak": [0], "rowhead": false},
+          {"type": "table", "caption": "Contenitori e porzioni", "head": ["", "Esempi"], "rows": [["a bottle / a glass / a cup / a can of", "a bottle of wine, a glass of water, a cup of coffee, a can of beans"], ["a bag / a box / a package / a carton / a jar of", "a bag of rice, a box of cereal, a carton of milk, a jar of jam"], ["a slice / a piece / a loaf of", "a slice of bread, a piece of cheese, a loaf of bread"], ["a bunch / a head / a dozen", "a bunch of bananas, a head of lettuce, a dozen eggs"], ["a pound / a kilo / a litre of", "two pounds of apples, a kilo of flour, a litre of milk"]], "speak": [1], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "We need milk, bread and some cheese.", "n": "Ci servono latte, pane e del formaggio.", "note": "nessun articolo, nessun plurale"},
+            {"t": "Can I give you some advice? Buy a parka.", "n": "Posso darti un consiglio? Compra un parka."},
+            {"t": "I have two suitcases. My luggage is heavy.", "n": "Ho due valigie. Il mio bagaglio è pesante."},
+            {"t": "Spaghetti is on sale. Eggs are two dollars a dozen.", "n": "Gli spaghetti sono in offerta. Le uova costano due dollari la dozzina."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "an information, two advices, the news are", "right": "some information, two pieces of advice, the news is", "why": "Non numerabili."},
+            {"wrong": "I have many furnitures. The luggages are heavy.", "right": "I have a lot of furniture. The luggage is heavy.", "why": "Niente plurale."},
+            {"wrong": "two breads, a bread", "right": "two loaves of bread, a loaf / a slice of bread", "why": "Si misura."},
+            {"wrong": "My hairs are long.", "right": "My hair is long.", "why": "Hair singolare."},
+            {"wrong": "The spaghetti are good.", "right": "The spaghetti is good.", "why": "Singolare in inglese."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-quantifiers", "title": "some, any, no; much, many, a lot of; a few, a little", "category": "Quantificatori", "rule": "Some nelle affermative e nelle offerte, any nelle domande e nei negativi, no = not any. Much con i non numerabili, many con i plurali, a lot of con tutti e due (e più comune nelle affermative). A few + plurale, a little + non numerabile. How much? / How many?", "ref": "quantifiers", "blocks": [
+          {"type": "table", "head": ["", "non numerabile (milk)", "numerabile (eggs)"], "rows": [["some (+)", "some milk", "some eggs"], ["any (?, −)", "Is there any milk? There isn't any milk.", "Are there any eggs? There aren't any eggs."], ["no", "There's no milk.", "There are no eggs."], ["molto, tanto", "a lot of milk · much milk (?, −)", "a lot of eggs · many eggs"], ["poco", "a little milk · little milk", "a few eggs · few eggs"], ["troppo", "too much milk", "too many eggs"], ["abbastanza", "enough milk", "enough eggs"], ["domanda", "How much milk?", "How many eggs?"]], "speak": [1, 2], "rowhead": true, "note": "Much e many nelle affermative suonano formali: I have a lot of friends, non I have many friends (che è giusto ma scritto). Nelle domande e nei negativi vanno benissimo: not much, how many."},
+          {"type": "examples", "items": [
+            {"t": "Is there any mozzarella? — No, there isn't any. There's some at the Italian store.", "n": "C'è della mozzarella? — No, non ce n'è. Ce n'è al negozio italiano."},
+            {"t": "How much cheese? — A lot. How many apples? — Six.", "n": "Quanto formaggio? — Tanto. Quante mele? — Sei."},
+            {"t": "I don't have much money. I have a few dollars.", "n": "Non ho molti soldi. Ho qualche dollaro."},
+            {"t": "There's too much sugar and not enough butter.", "n": "C'è troppo zucchero e non abbastanza burro."},
+            {"t": "A little milk, please. A few more minutes.", "n": "Un po' di latte, per favore. Ancora qualche minuto."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "a few / few, a little / little", "text": "Con l'articolo è positivo: [[a few friends]] = qualche amico (abbastanza), [[a little time]] = un po' di tempo. Senza è negativo: [[few friends]] = pochi amici, [[little time]] = poco tempo. L'italiano usa *pochi* per tutti e due; l'inglese distingue con una a."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I don't have some money.", "right": "I don't have any money.", "why": "Negativo → any."},
+            {"wrong": "How many money? How much eggs?", "right": "How much money? How many eggs?", "why": "Much per i non numerabili, many per i plurali."},
+            {"wrong": "I have much friends. There are much people.", "right": "I have a lot of friends. There are a lot of people.", "why": "Affermative → a lot of; many solo formale."},
+            {"wrong": "a little apples, a few milk", "right": "a few apples, a little milk", "why": "A few + plurale, a little + non numerabile."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-object-pronouns", "title": "I pronomi oggetto: me, you, him, her, it, us, them", "category": "Pronomi", "rule": "Dopo il verbo e dopo le preposizioni: put them in the bag, give it to me, come with us. Una forma sola per diretto e indiretto. Con i phrasal verb separabili il pronome va in mezzo: try it on.", "ref": "object-pronouns", "blocks": [
+          {"type": "table", "head": ["Soggetto", "Oggetto", "Italiano", "Esempio"], "rows": [["I", "me", "mi, me", "Give it to me. Call me."], ["you", "you", "ti, te, vi, voi, La, Le", "I'll help you. This is for you."], ["he", "him", "lo, gli, lui", "I know him. Give it to him."], ["she", "her", "la, le, lei", "I see her. Call her."], ["it", "it", "lo, la", "Take it. Put it in the cart."], ["we", "us", "ci, noi", "Come with us. Tell us."], ["they", "them", "li, le, loro", "Put them in the bag. I like them."]], "speak": [3], "rowhead": true, "note": "In inglese il pronome oggetto va dopo il verbo, mai prima: I see him, non *I him see*. L'italiano fa il contrario: lo vedo."},
+          {"type": "table", "caption": "Con i phrasal verb", "head": ["Separabile", "Con un nome", "Con un pronome"], "rows": [["try on", "try on the coat / try the coat on", "try it on (mai try on it)"], ["put on · take off", "put on your coat / put your coat on", "put it on · take them off"], ["pick up", "pick up the kids", "pick them up"], ["take back · bring back", "take back the gloves", "take them back"], ["give back", "give back the money", "give it back"]], "speak": [2], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Six apples. The red ones. Put them in the bag.", "n": "Sei mele. Quelle rosse. Mettile nel sacchetto."},
+            {"t": "I like this coat. Can I try it on?", "n": "Mi piace questo cappotto. Posso provarlo?"},
+            {"t": "Return those gloves. They don't fit me.", "n": "Restituisci quei guanti. A me non vanno bene."},
+            {"t": "Do you want the receipt? — Yes, give it to me, please.", "n": "Vuoi lo scontrino? — Sì, dammelo, per favore."},
+            {"t": "Daniel and Jessica? We see them on Sundays. Come with us!", "n": "Daniel e Jessica? Li vediamo la domenica. Vieni con noi!"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "I it like. Put in the bag them.", "right": "I like it. Put them in the bag.", "why": "Il pronome oggetto va subito dopo il verbo."},
+            {"wrong": "Try on it. Pick up them.", "right": "Try it on. Pick them up.", "why": "Phrasal verb separabile: il pronome in mezzo."},
+            {"wrong": "Come with we. It's for I.", "right": "Come with us. It's for me.", "why": "Dopo una preposizione, la forma oggetto."},
+            {"wrong": "I like. Do you want?", "right": "I like it. Do you want it?", "why": "L'inglese vuole sempre l'oggetto: it non si omette."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-too-enough", "title": "too, enough, e le taglie", "category": "Aggettivi e avverbi", "rule": "Too + aggettivo = troppo: too big, too expensive. Aggettivo + enough = abbastanza: big enough, warm enough. Enough + nome: enough money. Too much / too many con i nomi.", "blocks": [
+          {"type": "table", "head": ["", "Esempio", "Italiano"], "rows": [["too + aggettivo", "It's too big. The sleeves are too long. It's too expensive.", "troppo grande, troppo lunghe, troppo caro"], ["aggettivo + enough", "It's big enough. Is it warm enough? It isn't cheap enough.", "abbastanza grande, caldo, economico"], ["enough + nome", "Do you have enough money? Not enough time.", "abbastanza soldi, tempo"], ["too much / too many + nome", "too much sugar, too many people", "troppo zucchero, troppa gente"], ["too + aggettivo + to", "It's too cold to walk.", "troppo freddo per camminare"], ["aggettivo + enough + to", "It's warm enough to go out.", "abbastanza caldo per uscire"]], "speak": [1], "rowhead": true},
+          {"type": "table", "caption": "Taglie e misure", "head": ["Vestiti (Nord America)", "Italia (circa)", "Scarpe donna", "Scarpe uomo"], "rows": [["XS · S · M · L · XL · XXL", "40-42 · 44 · 46-48 · 50 · 52 · 54", "IT 37 = CA 6.5 · 38 = 7.5 · 39 = 8.5 · 40 = 9.5", "IT 41 = CA 8 · 42 = 9 · 43 = 10 · 44 = 11"]], "compact": true, "note": "Le conversioni variano da marca a marca: provare sempre. I jeans sono in pollici: 30 di vita = 76 cm. Pollice = inch = 2,54 cm; un piede (foot) = 12 pollici = 30 cm: l'altezza si dice in piedi e pollici (five foot six)."},
+          {"type": "examples", "items": [
+            {"t": "What size are you? — A small. — This one's too big. Try the extra-small.", "n": "Che taglia porti? — Una small. — Questo è troppo grande. Prova la extra-small."},
+            {"t": "Is it warm enough for January? — No. Nothing is warm enough for January.", "n": "È abbastanza caldo per gennaio? — No. Niente è abbastanza caldo per gennaio."},
+            {"t": "That's too much. I don't have enough money.", "n": "È troppo. Non ho abbastanza soldi."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "It's enough big. It's enough warm.", "right": "It's big enough. It's warm enough.", "why": "Enough dopo l'aggettivo."},
+            {"wrong": "It's too much big.", "right": "It's too big.", "why": "Too + aggettivo; too much + nome."},
+            {"wrong": "too many money, too much people", "right": "too much money, too many people", "why": "Much / many come sempre."},
+            {"wrong": "I'm a size forty-four. (in Canada)", "right": "I'm a small.", "why": "Le taglie sono in lettere."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-shopping", "title": "Comprare e restituire", "category": "Frasi", "rule": "Can I try it on? · Do you have it in a medium / in black? · It fits. It doesn't fit. · How much is it? · Is it on sale? · I'd like to return this. · Do you have the receipt? · Can I get a refund / store credit?", "blocks": [
+          {"type": "table", "caption": "In negozio", "head": ["Tu dici", "Italiano"], "rows": [["I'm just looking, thanks.", "Sto solo guardando, grazie."], ["Excuse me, where are the coats?", "Mi scusi, dove sono i cappotti?"], ["Can I try this on? Where are the fitting rooms?", "Posso provarlo? Dove sono i camerini?"], ["Do you have this in a medium? In black? In another colour?", "Ce l'avete in medium? In nero? In un altro colore?"], ["It fits. / It doesn't fit. / It's too small.", "Mi va. / Non mi va. / È troppo piccolo."], ["How much is this? Is it on sale?", "Quanto costa? È in offerta?"], ["I'll take it. / I'll think about it.", "Lo prendo. / Ci penso."], ["Can I pay by card? Do you take debit?", "Posso pagare con la carta? Accettate il bancomat?"], ["I'd like to return / exchange this.", "Vorrei restituire / cambiare questo."], ["Can I get a refund?", "Posso avere un rimborso?"]], "speak": [0]},
+          {"type": "table", "caption": "Quello che senti", "head": ["Loro dicono", "Italiano"], "rows": [["Can I help you? / Are you finding everything okay?", "Posso aiutarla? / Trova tutto?"], ["What size are you? What size do you need?", "Che taglia porta?"], ["Let me check in the back.", "Controllo nel magazzino."], ["It's on sale, thirty per cent off.", "È in offerta, trenta per cento di sconto."], ["Do you have the receipt? Do you have a points card?", "Ha lo scontrino? Ha la tessera punti?"], ["Cash or card? Tap? Do you want a bag? Do you want the receipt?", "Contanti o carta? Contactless? Vuole un sacchetto? Vuole lo scontrino?"], ["I can give you store credit. / I can do an exchange.", "Posso darle un buono. / Posso fare un cambio."], ["Have a good one!", "Buona giornata!"]], "speak": [0]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Can I prove it?", "right": "Can I try it on?", "why": "Provare un vestito = try on. Prove = dimostrare."},
+            {"wrong": "It goes well. (per \"mi va bene\")", "right": "It fits.", "why": "Fit per la misura."},
+            {"wrong": "I want to give back this.", "right": "I'd like to return this.", "why": "Return è la parola del negozio; e il pronome in mezzo (give it back)."},
+            {"wrong": "How much does it cost? (ok) / How much costs it?", "right": "How much is it? / How much does it cost?", "why": "Is it, oppure does it cost."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "Silent letters",
+      "intro": "L'inglese scrive lettere che non pronuncia: la k di knife, la b di climb, la p di receipt. Non c'è una regola, ma ci sono famiglie, e le parole di questa unità ne sono piene.",
+      "blocks": [
+        {"type": "table", "head": ["Lettera muta", "Esempi", "Si dice"], "rows": [["k davanti a n", "knife, know, knee, knock", "naif, nou, ni, nok"], ["b dopo m, davanti a t", "climb, comb, lamb, thumb · debt, doubt", "claim, coum, lam, tham · det, daut"], ["p in alcune parole", "receipt, psychology, cupboard", "ri-SIT, sai-CO-logy, CA-bord"], ["s in alcune parole", "island, aisle, isle", "AI-land, ail, ail"], ["l dopo a / o / u", "half, walk, talk, calm, salmon, could, should, would, folk", "haf, uok, tok, cam, SA-mon, cud, shud, wud, fouk"], ["h all'inizio", "hour, honest, honour, heir", "AU-er, O-nest, O-ner, er"], ["gh", "night, eight, light, right, weight, though, through", "nait, eit, lait, rait, ueit, dhou, thru"], ["w davanti a r e in alcune parole", "write, wrong, wrist · answer, sword, two", "rait, rong, rist · AN-ser, sord, tu"], ["t in -sten, -stle, e altre", "listen, castle, whistle, often (a volte), Christmas", "LI-sen, CA-sel, UI-sel, O-fen, CRIS-mas"], ["d, e altre", "Wednesday, handsome, sandwich", "UENZ-dei, HAN-som, SAN-uich"]], "speak": [1], "rowhead": true},
+        {"type": "sounds", "items": [
+          {"sound": "k muta", "t": "knife", "n": "coltello", "ipa": "naɪf", "tip": "Comincia con la n. Know, knee, knock, knit (lavorare a maglia)."},
+          {"sound": "p muta", "t": "receipt", "n": "scontrino", "ipa": "rɪˈsiːt", "tip": "Ri-SIT. La p si scrive e basta."},
+          {"sound": "l muta", "t": "half", "n": "metà", "ipa": "hæf", "tip": "Haf. Half past six, half a dozen. Anche walk, talk, could."},
+          {"sound": "gh muta", "t": "weight", "n": "peso", "ipa": "weɪt", "tip": "Come wait (aspettare): identiche. Eight, night, light, right."},
+          {"sound": "s muta", "t": "aisle", "n": "corsia", "ipa": "aɪl", "tip": "Ail, come isle (isola). Aisle seven, non \"ais-le\"."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "Il metodo", "text": "Quando impari una parola nuova, ascoltala prima di leggerla: l'ortografia inglese è storia, non istruzioni. Le lettere mute sono resti di pronunce di cinquecento anni fa. Ogni lista di parole in questo corso ha l'audio per questo."},
+        {"type": "examples", "items": [
+          {"t": "Half a dozen eggs, a knife, and the receipt from aisle eight.", "n": "Mezza dozzina di uova, un coltello e lo scontrino della corsia otto.", "note": "l · k · p · s · gh mute"},
+          {"t": "I could walk to the island on Wednesday night.", "n": "Potrei andare a piedi all'isola mercoledì sera.", "note": "l · l · s · d · gh"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Quaranta esercizi in cinque serie e un ripasso misto. Attenzione ai non numerabili: an information è sbagliato.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Countable or uncountable?", "items": [
+          {"kind": "mc", "q": "Quale è corretta?", "options": ["Can I give you some advice?", "Can I give you an advice?", "Can I give you some advices?"], "answer": 0, "why": "Advice non si conta."},
+          {"kind": "fill", "q": "We need ___ milk, ___ loaf of bread and ___ dozen eggs. (some / a / a)", "answers": [["some"], ["a"], ["a"]], "n": "Ci servono del latte, una pagnotta e una dozzina di uova."},
+          {"kind": "fill", "q": "The news ___ (be) good. Spaghetti ___ (be) on sale. My luggage ___ (be) heavy.", "answers": [["is"], ["is"], ["is"]], "n": "Le notizie sono buone. Gli spaghetti sono in offerta. Il mio bagaglio è pesante."},
+          {"kind": "fill", "q": "a ___ of cheese · a ___ of milk · a ___ of lettuce · a ___ of bananas", "answers": [["piece", "slice"], ["litre", "carton", "glass", "bag"], ["head"], ["bunch"]], "n": "un pezzo di formaggio · un litro di latte · un cespo di lattuga · un casco di banane"},
+          {"kind": "mc", "q": "«Ho i capelli lunghi.»", "options": ["I have long hair.", "I have long hairs.", "I have the hairs long."], "answer": 0, "why": "Hair non si conta."},
+          {"kind": "match", "q": "Si conta o no?", "pairs": [["egg", "countable"], ["bread", "uncountable"], ["apple", "countable"], ["information", "uncountable"], ["furniture", "uncountable"]]},
+          {"kind": "translate", "q": "Ho due informazioni per te.", "answers": ["I have two pieces of information for you", "I have some information for you"]},
+          {"kind": "fill", "q": "Two ___ (suitcase) and a lot of ___ (luggage).", "answers": [["suitcases"], ["luggage"]], "n": "Due valigie e tanto bagaglio."}
+        ]},
+        {"type": "exercises", "title": "2 · some, any, much, many", "items": [
+          {"kind": "fill", "q": "Is there ___ mozzarella? — No, there isn't ___. There's ___ at the Italian store.", "answers": [["any"], ["any"], ["some"]], "n": "C'è della mozzarella? — No, non ce n'è. Ce n'è al negozio italiano."},
+          {"kind": "fill", "q": "How ___ cheese do we need? How ___ apples?", "answers": [["much"], ["many"]], "n": "Quanto formaggio ci serve? Quante mele?"},
+          {"kind": "fill", "q": "I don't have ___ money. (molti) I have ___ dollars. (qualche)", "answers": [["much", "a lot of"], ["a few"]], "n": "Non ho molti soldi. Ho qualche dollaro."},
+          {"kind": "fill", "q": "There's too ___ sugar and not ___ butter. (troppo / abbastanza)", "answers": [["much"], ["enough"]], "n": "C'è troppo zucchero e non abbastanza burro."},
+          {"kind": "mc", "q": "«Ho tanti amici.»", "options": ["I have a lot of friends.", "I have much friends.", "I have many of friends."], "answer": 0, "why": "Affermativa: a lot of (many è formale)."},
+          {"kind": "mc", "q": "«Ho poco tempo.» (negativo)", "options": ["I have little time.", "I have a little time.", "I have few time."], "answer": 0, "why": "Little senza a = poco, negativo; time non si conta."},
+          {"kind": "order", "answer": "There are no eggs in the fridge.", "n": "Non ci sono uova in frigo."},
+          {"kind": "dictation", "text": "How many bags do you need? They're five cents each.", "n": "Quanti sacchetti le servono? Costano cinque centesimi l'uno."}
+        ]},
+        {"type": "exercises", "title": "3 · Object pronouns", "items": [
+          {"kind": "fill", "q": "I like this coat. Can I try ___ on?", "answers": [["it"]], "n": "Mi piace questo cappotto. Posso provarlo?"},
+          {"kind": "fill", "q": "Six apples. Put ___ in the bag. (le mele)", "answers": [["them"]], "n": "Sei mele. Mettile nel sacchetto."},
+          {"kind": "fill", "q": "Daniel and Jessica are coming. We see ___ on Sundays. Come with ___! (loro / noi)", "answers": [["them"], ["us"]], "n": "Daniel e Jessica vengono. Li vediamo la domenica. Vieni con noi!"},
+          {"kind": "fill", "q": "Sofia? I know ___. {hero}? I call ___ every Sunday.", "answers": [["her"], [{"m": "him", "f": "her"}]], "n": "Sofia? La conosco. {hero}? Lo/la chiamo ogni domenica.", "hint": "him o her secondo il tuo protagonista"},
+          {"kind": "mc", "q": "«Provali.» (i guanti)", "options": ["Try them on.", "Try on them.", "Try they on."], "answer": 0, "why": "Pronome in mezzo al phrasal verb."},
+          {"kind": "order", "answer": "Give it to me, please.", "n": "Dammelo, per favore."},
+          {"kind": "translate", "q": "Questi guanti non mi vanno bene. Li restituisco.", "answers": ["These gloves don't fit me. I'm returning them", "These gloves don't fit me. I'll return them", "These gloves don't fit me. I'm taking them back"]}
+        ]},
+        {"type": "exercises", "title": "4 · Clothes, sizes, too and enough", "items": [
+          {"kind": "fill", "q": "It's ___ big. The sleeves are ___ long. (troppo)", "answers": [["too"], ["too"]], "n": "È troppo grande. Le maniche sono troppo lunghe."},
+          {"kind": "fill", "q": "Is it warm ___ for January? (abbastanza) — No, and I don't have ___ money. (abbastanza)", "answers": [["enough"], ["enough"]], "n": "È abbastanza caldo per gennaio? — No, e non ho abbastanza soldi."},
+          {"kind": "mc", "q": "«È abbastanza grande.»", "options": ["It's big enough.", "It's enough big.", "It's too big enough."], "answer": 0, "why": "Enough dopo l'aggettivo."},
+          {"kind": "match", "q": "Abbina.", "pairs": [["coat", "cappotto"], ["gloves", "guanti"], ["scarf", "sciarpa"], ["boots", "stivali"], ["sweater", "maglione"]]},
+          {"kind": "fill", "q": "What ___ are you? — In Italy I'm a forty-four. — Here that's a ___.", "answers": [["size"], ["small"]], "n": "Che taglia porti? — In Italia una 44. — Qui è una small."}
+        ]},
+        {"type": "exercises", "title": "5 · Shopping", "items": [
+          {"kind": "reply", "line": {"t": "Can I help you?", "n": "Posso aiutarla?"}, "options": ["I'm just looking, thanks.", "No, I look.", "Yes, you can."], "answer": 0, "why": "La risposta standard quando non ti serve niente."},
+          {"kind": "reply", "line": {"t": "Do you have the receipt?", "n": "Ha lo scontrino?"}, "options": ["No. Can I get store credit?", "No. Give me my money.", "Yes, I have it no."], "answer": 0, "why": "Senza scontrino: il buono."},
+          {"kind": "fill", "q": "Do you have this ___ a medium? ___ black? (in / in)", "answers": [["in"], ["In"]], "n": "Ce l'avete in medium? In nero?"},
+          {"kind": "translate", "q": "È in offerta? — Sì, trenta per cento di sconto.", "answers": ["Is it on sale? Yes, thirty per cent off", "Is it on sale? — Yes, thirty per cent off", "Is it on sale? Yes, thirty percent off", "Is it on sale? — Yes, thirty percent off"]}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Tutta l'unità, mescolata.", "items": [
+          {"kind": "fill", "q": "We need ___ milk, a ___ eggs and ___ bread. Is there ___ cheese? — Not ___. (some / dozen / some / any / much)", "answers": [["some"], ["dozen"], ["some"], ["any"], ["much"]], "n": "Ci servono del latte, una dozzina di uova e del pane. C'è del formaggio? — Non molto."},
+          {"kind": "mc", "q": "«Posso provarlo? È troppo grande.»", "options": ["Can I try it on? It's too big.", "Can I prove it? It's too much big.", "Can I try on it? It's enough big."], "answer": 0, "why": "Try it on; too + aggettivo."},
+          {"kind": "fill", "q": "These gloves don't fit ___. I'd like to return ___. (me / them)", "answers": [["me"], ["them"]], "n": "Questi guanti non mi vanno. Vorrei restituirli."},
+          {"kind": "write", "q": "Scrivi la lista della spesa per la cena di domenica (otto persone): sei cose con le quantità, e una cosa che non c'è.", "model": "Two litres of milk, a dozen eggs, two loaves of bread, a lot of cheese, three pounds of tomatoes, a bag of carrots and a bottle of olive oil. There isn't any real mozzarella at No Frills: we need to go to the Italian store.", "hint": "a litre of… · a dozen… · a lot of… · There isn't any…"},
+          {"kind": "speak", "text": "Half a dozen eggs, a loaf of bread and a bunch of bananas, please. Do you have any mozzarella?", "n": "Mezza dozzina di uova, una pagnotta e un casco di banane, per favore. Avete della mozzarella?", "tip": "Half senza l; dozen con la ʌ; bananas con lo schwa: bə-NA-nəz."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Fare la spesa in Canada",
+      "intro": "I supermercati e i loro prezzi, le libbre e i pollici, i resi che funzionano davvero, e perché il vino lo vende lo Stato.",
+      "blocks": [
+        {"type": "subhead", "text": "I supermercati"},
+        {"type": "prose", "text": "Le grandi catene dell'Ontario sono [[Loblaws]] (e la sua versione economica, [[No Frills]], gialla e senza fronzoli), [[Metro]], [[Sobeys]] e [[FreshCo]], più [[Walmart]] e [[Costco]], dove si compra all'ingrosso con una tessera. I prezzi esposti sono senza tasse, ma la maggior parte degli alimentari di base è esente: il cibo da cucinare non ha l'HST, il cibo pronto e le bevande sì. I sacchetti si pagano o si portano da casa; il carrello si sblocca con un dollaro che torna indietro. I prezzi di frutta, verdura e carne sono alla libbra e al chilo insieme, e tutti pensano in libbre: [[two pounds of apples]]. Le casse automatiche ([[self-checkout]]) sono ovunque; la cassiera umana ti chiede se hai la tessera punti ([[PC Optimum]], [[Air Miles]]) e ti saluta con [[Have a good one]].\n\nPer il cibo italiano vero ci sono i negozi italiani di St. Clair West e Woodbridge, e i grandi supermercati italiani come [[Longo's]], fondato da tre fratelli di origine italiana. Il latte in sacchetti di plastica da quattro litri è reale, solo in Ontario e in Québec, e nessuno sa spiegarlo."},
+        {"type": "subhead", "text": "Libbre, pollici, piedi"},
+        {"type": "prose", "text": "Il Canada è ufficialmente metrico dal 1970, ma in pratica è misto: la temperatura in Celsius e la distanza in chilometri, ma il peso delle persone in libbre, l'altezza in piedi e pollici, la carne alla libbra, i tessuti e i mobili in pollici, le ricette in tazze e Fahrenheit. Una libbra sono 454 grammi; un pollice 2,54 cm; un piede 30 cm. [[I'm five foot six]] vuol dire un metro e sessantotto. Non serve convertire tutto: serve sapere che una libbra è un po' meno di mezzo chilo e che [[a pound of butter]] è il panetto grande."},
+        {"type": "callout", "kind": "real", "title": "I resi", "text": "In Canada si restituisce quasi tutto, quasi sempre: vestiti, scarpe, elettronica, perfino cibo, entro 14, 30 o 90 giorni secondo il negozio, con lo scontrino per il rimborso e spesso anche senza per un buono ([[store credit]]). Non serve una ragione: [[It didn't fit]], [[I changed my mind]] bastano. Gli italiani, abituati ai cartelli \"la merce venduta non si cambia\", lo trovano incredibile per i primi mesi e indispensabile dopo."},
+        {"type": "subhead", "text": "Le taglie"},
+        {"type": "prose", "text": "I vestiti vanno in lettere, [[XS]] a [[XXL]], e sono più grandi delle corrispondenti italiane: una 44 italiana è una small, spesso una extra-small. I jeans e i pantaloni da uomo si misurano in pollici, vita per lunghezza ([[32 x 30]]); i numeri da donna (0, 2, 4, 6…) seguono una scala americana che non corrisponde a niente. Le scarpe hanno numeri propri, diversi per uomo e donna, e le mezze misure esistono. L'unica regola che vale sempre: [[Can I try it on?]]"},
+        {"type": "subhead", "text": "LCBO e The Beer Store"},
+        {"type": "prose", "text": "In Ontario il vino, la birra e gli alcolici si vendono soprattutto nei negozi dello Stato: l'[[LCBO]] (vino e superalcolici, bei negozi, buona scelta, prezzi alti) e [[The Beer Store]] (birra, in casse, con il deposito sulle bottiglie che si riporta). Dal 2024 anche molti supermercati e minimarket vendono birra e vino, ma il vino italiano buono è all'LCBO, con l'aggiunta di accise e tasse che fanno costare dodici dollari una bottiglia da cinque euro. Franco, come la maggior parte degli italo-canadesi della sua generazione, risolve il problema facendo il vino in cantina: uva comprata a settembre, torchio nel garage, bottiglie senza etichetta. È legale, è normale, e nessuno lo chiama vino fatto in casa: lo chiama [[the wine]]."},
+        {"type": "callout", "kind": "culture", "title": "Kensington Market e i thrift store", "text": "[[Kensington Market]], vicino a Chinatown, è il quartiere-mercato di Toronto: bancarelle, botteghe di formaggi e spezie, negozi di vestiti usati ([[vintage]], [[thrift stores]]), caffè, graffiti. Comprare usato è normale e un po' di moda: [[Value Village]], i [[Goodwill]], i mercatini. Per tutto il resto, da una lampadina a una canoa, c'è [[Canadian Tire]], e per le cose da un dollaro (adesso da quattro) [[Dollarama]]."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Una schermata prima della prossima unità, poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Uncountable", "rows": [["milk, bread, cheese, meat, rice, fruit, money, hair", "niente a/an, niente plurale"], ["information, advice, news, furniture, luggage, homework", "la lista che tradisce"], ["a litre of · a slice of · a piece of · a dozen · a pound of", "contenitori e porzioni"]]},
+          {"title": "some · any · much · many", "rows": [["some (+, offerte) · any (?, −) · no", ""], ["much + U · many + plurale · a lot of + tutti", "molto"], ["a little + U · a few + plurale (little / few = poco, negativo)", ""], ["How much milk? How many eggs?", ""]]},
+          {"title": "Object pronouns", "rows": [["me · you · him · her · it · us · them", "dopo il verbo e le preposizioni"], ["I like it. Put them in the bag. Come with us.", ""], ["try it on · pick them up · give it back", "phrasal verb: pronome in mezzo"]]},
+          {"title": "too · enough", "rows": [["too big · too expensive · too much sugar · too many people", "troppo"], ["big enough · warm enough · enough money", "abbastanza (dopo l'aggettivo)"]]},
+          {"title": "Shopping", "rows": [["Can I try it on? What size are you? — A small.", ""], ["Do you have it in a medium? It fits. It doesn't fit.", ""], ["It's on sale, 30% off. I'd like to return this. Store credit.", ""], ["a loonie for the cart · bags are 5 cents · prices per pound · no tax on food", "la spesa"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

@@ -89,6 +89,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** imperative, modal-can, prepositions-of-movement, telling-the-time.
 - **Originality:** the two scenes (Sofia's route on the back of the gas bill; lost in the PATH with a stranger who says sorry four times), all 49 vocabulary examples, tables, 40 exercises and the cultural notes (TTC lines, Presto and transfers, the Yonge Street grid, Union Station and the PATH, "sorry" and the Apology Act, Bike Share) were written for this project from general knowledge of Toronto.
 
+#### Unit 7 · Groceries and a winter coat (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: make simple purchases, ask for quantities, sizes and colours, ask the price; express likes; listening: understand prices, quantities and a clerk's questions; reading: understand a shopping list, labels and a simple receipt; writing: write a shopping list.
+- **Grammar:** countable and uncountable nouns with the Italian false-count list (information, advice, news, furniture, luggage, hair…); some / any / no, much / many / a lot of, a few / a little, how much / how many; object pronouns and their position (incl. separable phrasal verbs); too / enough; shopping and return phrases; silent letters.
+- **Reference pages added:** quantifiers, object-pronouns (countable-uncountable extended).
+- **Originality:** the two scenes (No Frills with Teresa; the coat, the return and the LCBO at the mall with Sofia), all 45 vocabulary examples, tables, 40 exercises and the cultural notes (Ontario grocery chains, prices per pound and no tax on basic food, the mixed metric/imperial habit, generous return policies, North American sizes, the LCBO and homemade wine, Kensington Market and thrift stores) were written for this project from general knowledge.
+
 ## Shared tools
 
 - **Conjugators** (`src/js/conj-it.js`, `src/js/conj-en.js`): rule-based, with irregular-verb dictionaries compiled from general linguistic knowledge. Verb lists and their glosses in `content/*/verbs.json` are the project's own.

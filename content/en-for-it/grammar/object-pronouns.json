@@ -1,0 +1,25 @@
+{"id": "object-pronouns", "title": "I pronomi oggetto", "category": "Pronomi", "rule": "me, you, him, her, it, us, them: dopo il verbo e dopo le preposizioni, una forma sola per oggetto diretto e indiretto. Mai prima del verbo. Con i phrasal verb separabili vanno in mezzo. Con due oggetti: give it to me, oppure give me the book.", "units": ["07"], "blocks": [
+  {"type": "table", "head": ["Soggetto", "Oggetto", "Possessivo", "Italiano (oggetto)"], "rows": [["I", "me", "my", "mi, me"], ["you", "you", "your", "ti, te, vi, voi, La, Le"], ["he", "him", "his", "lo, gli, lui"], ["she", "her", "her", "la, le, lei"], ["it", "it", "its", "lo, la"], ["we", "us", "our", "ci, noi"], ["they", "them", "their", "li, le, gli, loro"]], "speak": [1], "rowhead": true, "note": "Her è sia oggetto (I see her) sia possessivo (her coat); you e it non cambiano."},
+  {"type": "subhead", "text": "Dove vanno"},
+  {"type": "table", "head": ["Posizione", "Esempio", "Italiano"], "rows": [["dopo il verbo", "I like it. She knows him. We help them.", "mi piace · lo conosce · li aiutiamo (prima del verbo!)"], ["dopo una preposizione", "Come with us. It's for her. Look at me.", "con noi · per lei · guardami"], ["con due oggetti: diretto + to / for + indiretto", "Give it to me. Buy it for her.", "dammelo · compraglielo"], ["con due oggetti: indiretto + diretto (senza to)", "Give me the receipt. Buy her a coat.", "dammi lo scontrino · comprale un cappotto"], ["phrasal verb separabile: in mezzo", "Try it on. Pick them up. Put it away.", "provalo · passa a prenderli · mettilo via"], ["phrasal verb inseparabile: dopo", "Look after them. Look for it.", "occupati di loro · cercalo"], ["imperativo", "Take it! Tell me! Don't touch it!", "prendilo · dimmi · non toccarlo"]], "speak": [1]},
+  {"type": "examples", "items": [
+    {"t": "Do you like the coat? — I love it. I'll take it.", "n": "Ti piace il cappotto? — Lo adoro. Lo prendo."},
+    {"t": "Sofia? I'll call her. Daniel and Jessica? We'll see them on Sunday.", "n": "Sofia? La chiamo. Daniel e Jessica? Li vediamo domenica."},
+    {"t": "Can you help me? Can I help you?", "n": "Mi puoi aiutare? Posso aiutarla?"},
+    {"t": "This is for you. Come with us. Tell him the truth.", "n": "Questo è per te. Vieni con noi. Digli la verità."},
+    {"t": "Give me the receipt. / Give it to me.", "n": "Dammi lo scontrino. / Dammelo."}
+  ]},
+  {"type": "callout", "kind": "warn", "title": "L'oggetto non si omette", "text": "In italiano *mi piace*, *lo so*, *non voglio* bastano. L'inglese vuole sempre l'oggetto quando c'è: [[I like it]], [[I know]] (ok) ma [[I want it]], [[I have it]], [[I don't need it]]. *I like* da solo lascia la frase a metà."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I him know. She it likes.", "right": "I know him. She likes it.", "why": "Dopo il verbo, sempre."},
+    {"wrong": "Try on it. Put on it.", "right": "Try it on. Put it on.", "why": "Pronome in mezzo al phrasal verb."},
+    {"wrong": "Give to me it. Give me it. (raro)", "right": "Give it to me. / Give me the book.", "why": "Due oggetti: diretto + to + indiretto, oppure indiretto + nome."},
+    {"wrong": "It's for I. Between you and I.", "right": "It's for me. Between you and me.", "why": "Dopo una preposizione, la forma oggetto (anche i canadesi sbagliano between you and I)."},
+    {"wrong": "I like. I don't want.", "right": "I like it. I don't want it.", "why": "L'oggetto ci vuole."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "This coat is nice. I'll take ___. These gloves are too small: I'll return ___. Sofia likes ___ (me). I like ___ (lei).", "answers": [["it"], ["them"], ["me"], ["her"]], "n": "Questo cappotto è bello. Lo prendo. Questi guanti sono troppo piccoli: li restituisco. A Sofia piaccio. Lei mi piace."},
+    {"kind": "mc", "q": "«Dammelo.»", "options": ["Give it to me.", "Give to me it.", "Give me it to."], "answer": 0, "why": "Diretto + to + indiretto."},
+    {"kind": "order", "answer": "Can you pick them up at six?", "n": "Puoi passare a prenderli alle sei?"}
+  ]}
+]}

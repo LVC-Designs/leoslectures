@@ -1,0 +1,23 @@
+{"id": "quantifiers", "title": "I quantificatori: some, any, much, many, a lot of, a few, a little", "category": "Quantificatori", "rule": "Some (+ e offerte), any (?, −), no. Much + non numerabile, many + plurale, a lot of / lots of + tutti e due. A few + plurale, a little + non numerabile; senza a diventano negativi. Too much / too many, enough, plenty of.", "units": ["07"], "blocks": [
+  {"type": "table", "head": ["", "non numerabile", "numerabile plurale", "italiano"], "rows": [["some", "some milk", "some eggs", "del, dei, un po' di, qualche"], ["any (?, −)", "any milk", "any eggs", "del (domanda), niente (negativo)"], ["no", "no milk", "no eggs", "niente, nessun"], ["a lot of · lots of", "a lot of milk", "a lot of eggs", "molto, tanto"], ["much (?, −, formale)", "much milk", "—", "molto"], ["many (?, −, formale)", "—", "many eggs", "molti"], ["a little", "a little milk", "—", "un po' di"], ["a few", "—", "a few eggs", "qualche, alcuni"], ["little · few (negativi)", "little time", "few friends", "poco · pochi"], ["too much · too many", "too much sugar", "too many people", "troppo · troppi"], ["enough", "enough money", "enough chairs", "abbastanza"], ["plenty of", "plenty of time", "plenty of eggs", "in abbondanza"], ["all · most · half of", "all the milk · most of the time", "all the eggs · most people · half of them", "tutto · la maggior parte · metà"]], "speak": [1, 2], "rowhead": true},
+  {"type": "subhead", "text": "Da soli, senza il nome"},
+  {"type": "examples", "items": [
+    {"t": "How much cheese? — A lot. / A little. / Not much.", "n": "Quanto formaggio? — Tanto. / Un po'. / Non molto.", "note": "a lot senza of quando non c'è il nome"},
+    {"t": "How many apples? — A few. / Not many. / None.", "n": "Quante mele? — Qualcuna. / Non molte. / Nessuna."},
+    {"t": "Do you want some? — No, I don't want any.", "n": "Ne vuoi? — No, non ne voglio."},
+    {"t": "Is there any left? — There's a little. / There's none left.", "n": "Ne è rimasto? — Un po'. / Non ne è rimasto niente."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "ne non esiste", "text": "L'italiano dice *ne voglio due*, *non ne ho*. L'inglese lascia il quantificatore da solo: [[I want two]], [[I don't have any]], [[I have a few]]. Non cercare una parola per ne: non c'è."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I have much friends. There are many of people.", "right": "I have a lot of friends. There are a lot of people.", "why": "Affermative: a lot of."},
+    {"wrong": "How much people? How many sugar?", "right": "How many people? How much sugar?", "why": "People è plurale (numerabile); sugar no."},
+    {"wrong": "a few milk, a little eggs", "right": "a little milk, a few eggs", "why": "Little con i non numerabili, few con i plurali."},
+    {"wrong": "I don't have some. I want any.", "right": "I don't have any. I want some.", "why": "Some affermativo, any negativo."},
+    {"wrong": "a lot of (senza nome): How much? — A lot of.", "right": "A lot.", "why": "Da solo, senza of."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "There are ___ apples (tante), but there isn't ___ milk (molto) and there's ___ bread (niente).", "answers": [["a lot of", "lots of", "many"], ["much", "a lot of", "any"], ["no"]], "n": "Ci sono tante mele, ma non c'è molto latte e non c'è pane."},
+    {"kind": "mc", "q": "«Ho qualche amico a Toronto.»", "options": ["I have a few friends in Toronto.", "I have few friends in Toronto.", "I have a little friends in Toronto."], "answer": 0, "why": "A few = qualche, positivo; few = pochi, negativo."},
+    {"kind": "translate", "q": "Quanto tempo abbiamo? — Non molto.", "answers": ["How much time do we have? Not much", "How much time do we have? — Not much", "How much time do we have? Not a lot", "How much time have we got? Not much"]}
+  ]}
+]}

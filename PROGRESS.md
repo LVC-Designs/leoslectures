@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 29 (units 1–7) · EN: 20 (units 1–5) |
+| Grammar reference pages | IT: 29 (units 1–7) · EN: 22 (units 1–5, 7) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -57,7 +57,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 4 | Sunday dinner | A1 | ● 2026-10-10 |
 | 5 | Taking the streetcar | A1 | ● 2026-10-10 |
 | 6 | A typical day | A1 | ☐ |
-| 7 | Groceries and a winter coat | A1 | ☐ |
+| 7 | Groceries and a winter coat | A1 | ● 2026-10-10 |
 | 8 | At the bank · checkpoint | A1 | ☐ |
 | 9 | The interview | A2 | ☐ |
 | 10 | Apartment hunting | A2 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 7 · Groceries and a winter coat. (English Unit 6 skipped for now: a generation attempt was stopped by a safety classifier; retry in a fresh session with a differently designed episode.)**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 8 · All'ufficio anagrafe (A1 checkpoint). English Unit 6 still to be written in a fresh session.**
 
 ## Session log
 
+- **2026-10-10 (13)** · English track Unit 7 written (2 scenes, 45 words, 5 grammar points + 2 reference pages, silent letters, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (12)** · Italian track Unit 7 written (2 scenes, 47 words, 5 grammar points + 2 reference pages, sc/sch/ch/gh, 40 exercises, culture, summary). Verified and committed. English Unit 6 skipped (see Next up).
 - **2026-10-10 (11)** · Italian track Unit 6 written (2 scenes, 46 words, 5 grammar points + 4 reference pages, s and z, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (10)** · English track Unit 5 written (2 scenes, 49 words, 5 grammar points + 4 reference pages, word stress and ou, 40 exercises, culture, summary). Verified and committed.
