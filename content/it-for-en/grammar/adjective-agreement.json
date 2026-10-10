@@ -1,0 +1,28 @@
+{"id": "adjective-agreement", "title": "Adjective agreement", "category": "Adjectives", "rule": "Adjectives agree in gender and number with the noun or person they describe: -o / -a / -i / -e for the first group, -e / -i for the second.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["", "masc. sing.", "fem. sing.", "masc. pl.", "fem. pl."], "rows": [["group 1: -o", "stanco", "stanca", "stanchi", "stanche"], ["", "italiano", "italiana", "italiani", "italiane"], ["", "contento", "contenta", "contenti", "contente"], ["group 2: -e", "canadese", "canadese", "canadesi", "canadesi"], ["", "grande", "grande", "grandi", "grandi"], ["", "francese", "francese", "francesi", "francesi"]], "speak": [1, 2, 3, 4], "rowhead": true, "note": "Plurals are introduced in unit 2. Note the h in stanchi / stanche: it keeps the hard c sound."},
+  {"type": "agreement", "intro": "The same sentence said by Luca and by Lucia:", "items": [
+    {"t": {"m": "Sono stanco.", "f": "Sono stanca."}, "n": "I'm tired."},
+    {"t": {"m": "Sono italiano e canadese.", "f": "Sono italiana e canadese."}, "n": "I'm Italian and Canadian."},
+    {"t": {"m": "Sono il nipote di Cosimo.", "f": "Sono la nipote di Cosimo."}, "n": "I'm Cosimo's grandchild."},
+    {"t": {"m": "Sono contento di essere qui.", "f": "Sono contenta di essere qui."}, "n": "I'm glad to be here."}
+  ], "note": "Only the -o adjectives move. Canadese is the same for both."},
+  {"type": "subhead", "text": "Mixed groups and things"},
+  {"type": "examples", "items": [
+    {"t": "Dora e Chiara sono stanche.", "n": "Dora and Chiara are tired.", "note": "all feminine → -e"},
+    {"t": "Dora e Pasquale sono stanchi.", "n": "Dora and Pasquale are tired.", "note": "mixed group → masculine plural"},
+    {"t": "Il viaggio è lungo.", "n": "The trip is long.", "note": "viaggio is masculine, so lungo, whoever is talking"},
+    {"t": "La città è grande.", "n": "The city is big."}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Invariable adjectives", "text": "A few adjectives never change: colours borrowed from nouns ([[blu]], [[rosa]], [[viola]]) and some foreign words ([[chic]]). Unit 7 lists them."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Lucia è stanco.", "right": "Lucia è stanca.", "why": "Agreement with the person described."},
+    {"wrong": "Dora è canadesa.", "right": "Dora è canadese.", "why": "No feminine form for -e adjectives."},
+    {"wrong": "Sono Italiano.", "right": "Sono italiano.", "why": "Nationality adjectives are lower-case."},
+    {"wrong": "I nonni sono stanci.", "right": "I nonni sono stanchi.", "why": "-co becomes -chi to keep the hard sound."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Chiara è ___ (italiano) e Sofia è ___ (canadese).", "answers": [["italiana"], ["canadese"]], "n": "Chiara is Italian and Sofia is Canadian."},
+    {"kind": "fill", "q": "Dora e Pasquale sono ___ (stanco).", "answers": [["stanchi"]], "n": "Dora and Pasquale are tired."},
+    {"kind": "fill", "q": "Io sono ___ (contento) di essere qui.", "answers": [[{"m": "contento", "f": "contenta", "who": "self"}]], "n": "I'm glad to be here."}
+  ]}
+]}

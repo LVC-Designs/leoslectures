@@ -55,6 +55,7 @@ T('variants hero', () => { const v = resolve('Ciao, sono {hero}.'); assert.equal
 T('variants inline', () => assert.equal(resolve('Sono {{stanco|stanca}}').f, 'Sono stanca'));
 T('variants object', () => { const v = resolve({ m: 'arrivato', f: 'arrivata', note: 'x', who: 'self' }); assert.equal(v.who, 'self'); assert.equal(v.note, 'x'); });
 T('variants flatten', () => assert.deepEqual(flatten({ q: '{hero} è {{stanco|stanca}}', answers: [[{ m: 'stanco', f: 'stanca' }]] }, 'f'), { q: 'Lucia è stanca', answers: [['stanca']] }));
+T('diffWords positional', () => { const d = diffWords('Il nipote di Cosimo! Lei è americano?', 'La nipote di Cosimo! Lei è americana?'); assert.deepEqual(d.f.filter(x => x.diff).map(x => x.t), ['La', 'americana?']); });
 T('diffWords', () => { const d = diffWords('sono arrivato ieri', 'sono arrivata ieri'); assert.deepEqual(d.m.filter(x => x.diff).map(x => x.t), ['arrivato']); });
 
 console.log(`${n} tests passed${process.exitCode ? ', some FAILED' : ''}`);

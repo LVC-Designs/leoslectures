@@ -1,0 +1,31 @@
+{"id": "questions-and-negation", "title": "Questions and negation", "category": "Sentences", "rule": "Yes/no questions keep the word order and raise the voice. Question words go first. Non goes immediately before the verb.", "units": ["01"], "blocks": [
+  {"type": "subhead", "text": "Yes / no questions"},
+  {"type": "examples", "items": [
+    {"t": "Dora è di Roccamarina.", "n": "Dora is from Roccamarina."},
+    {"t": "Dora è di Roccamarina?", "n": "Is Dora from Roccamarina?", "note": "same words, rising intonation"},
+    {"t": "È di Roccamarina, Dora?", "n": "Is Dora from Roccamarina?", "note": "the subject can also move to the end"},
+    {"t": "Sei canadese, no? / vero?", "n": "You're Canadian, right?", "note": "a tag asking for confirmation"},
+    {"t": "Sì, sono canadese. / No, sono italiano.", "n": "Yes, I'm Canadian. / No, I'm Italian."}
+  ]},
+  {"type": "subhead", "text": "Question words"},
+  {"type": "table", "head": ["", "", "Example"], "rows": [["chi", "who", "Chi è? — È Pasquale."], ["che / che cosa / cosa", "what", "Che cos'è? — È un cartello."], ["dove", "where", "Dov'è Dora? — È a casa."], ["di dove", "where from", "Di dove sei? — Sono di Toronto."], ["come", "how", "Come si scrive? Come stai?"], ["quando", "when", "Quando arriva il treno? (unit 5)"], ["perché", "why", "Perché sei qui? (unit 4)"], ["quanto / quanti", "how much / how many", "Quanto costa? (unit 3)"]], "speak": [2], "rowhead": true, "note": "Dove + è becomes dov'è; che cosa + è becomes che cos'è."},
+  {"type": "subhead", "text": "Negation"},
+  {"type": "examples", "items": [
+    {"t": "Non sono americano.", "n": "I'm not American."},
+    {"t": "Il treno non è in ritardo.", "n": "The train isn't late."},
+    {"t": "No, non sono io.", "n": "No, it isn't me.", "note": "no answers; non negates the verb"},
+    {"t": "Non sei stanco? — No.", "n": "Aren't you tired? — No (I'm not).", "note": "answer the fact, not the grammar of the question"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Coming later", "text": "Double negatives ([[non… mai|never]], [[non… niente|nothing]], [[non… nessuno|nobody]]) are correct Italian and arrive in unit 9."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Sono non stanco.", "right": "Non sono stanco.", "why": "Non precedes the verb."},
+    {"wrong": "Dove sei di?", "right": "Di dove sei?", "why": "The preposition travels with the question word to the front."},
+    {"wrong": "Fai tu parli italiano?", "right": "Parli italiano?", "why": "No auxiliary \"do\"."},
+    {"wrong": "Che è questo?", "right": "Che cos'è questo?", "why": "With essere, Italian prefers che cosa / cosa."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "order", "answer": "Non sei di Toronto?", "n": "Aren't you from Toronto?"},
+    {"kind": "fill", "q": "___ dove sei? — Sono di Bari.", "answers": [["Di"]], "n": "Where are you from? — I'm from Bari."},
+    {"kind": "translate", "q": "Dora isn't Canadian.", "answers": ["Dora non è canadese"]}
+  ]}
+]}

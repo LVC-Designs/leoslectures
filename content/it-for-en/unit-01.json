@@ -1,0 +1,350 @@
+{
+  "id": "01",
+  "level": "A1",
+  "title": {"m": "Benvenuto a Roccamarina", "f": "Benvenuta a Roccamarina"},
+  "subtitle": "Welcome to Roccamarina",
+  "intro": "A regional train, a platform, a landlady holding a sign with your name misspelled. In this first unit you learn the words that open every door in Italy: how to greet people, how to say who you are and where you are from, and how to spell your surname so the sign is right next time.",
+  "objectives": [
+    "Greet people and say goodbye, choosing between [[ciao]], [[buongiorno]] and [[buonasera]]",
+    "Introduce yourself: your name, where you are from, your nationality",
+    "Say what you are and are not with the verb [[essere|to be]], and ask simple yes/no questions",
+    "Tell [[tu]] from [[Lei]] and use the right one with Dora and with the neighbour",
+    "Spell your name with the Italian alphabet and count from 0 to 20"
+  ],
+  "canDo": [
+    "A1 · Spoken interaction: can introduce themselves and others, and ask and answer simple questions about personal details such as where they live and people they know.",
+    "A1 · Conversation: can use basic greeting and leave-taking expressions and make an introduction.",
+    "A1 · Spoken production: can describe themselves, where they are from and their nationality in simple phrases.",
+    "A1 · Listening: can follow speech that is very slow and carefully articulated, with long pauses to take in the meaning.",
+    "A1 · Writing: can spell their name and write simple personal details."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Sul binario",
+      "intro": "Listen first with the translation hidden. Then read line by line and press ▶ on anything you want to hear again. The first scene is informal; the second one, with the neighbour, is formal: watch how the verb changes.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-binario", "title": "Sul binario", "setting": "Stazione di Roccamarina, ore 14:30. Il treno regionale da Bari arriva. Una signora tiene un cartello: FERANTE.", "register": "informale", "lines": [
+          {"stage": "The train stops. {hero} steps down with two suitcases and looks for a face."},
+          {"who": "Dora", "t": "Scusa! Sei {hero} Ferrante?", "n": "Excuse me! Are you {hero} Ferrante?"},
+          {"who": "hero", "t": "Sì, sono io! Lei è la signora Caputo?", "n": "Yes, that's me! Are you Mrs Caputo?"},
+          {"who": "Dora", "t": "Sì, ma dammi del tu: sono Dora. {{Benvenuto|Benvenuta}} a Roccamarina!", "n": "Yes, but call me \"tu\": I'm Dora. Welcome to Roccamarina!", "note": "Dora drops the formal Lei straight away. Most people won't: see tu and Lei below."},
+          {"who": "hero", "t": "Grazie, Dora. Piacere!", "n": "Thank you, Dora. Nice to meet you!"},
+          {"who": "Dora", "t": "Piacere mio. Il viaggio? Lungo, eh?", "n": "Nice to meet you too. The trip? Long, eh?"},
+          {"who": "hero", "t": {"m": "Molto lungo. Sono stanco, ma sono contento.", "f": "Molto lunga... molto lungo. Sono stanca, ma sono contenta.", "note": "Adjectives agree with the person they describe: Luca is stanco and contento, Lucia is stanca and contenta. (And Lucia catches herself: the trip, il viaggio, is masculine, so it's lungo.)"}, "n": "Very long. I'm tired, but I'm happy."},
+          {"who": "Dora", "t": "Il cartello è sbagliato? \"Ferante\", con una erre...", "n": "Is the sign wrong? \"Ferante\", with one r..."},
+          {"who": "hero", "t": "Ferrante: effe, e, erre, erre, a, enne, ti, e. Due erre.", "n": "Ferrante: F, E, R, R, A, N, T, E. Two r's."},
+          {"who": "Dora", "t": "Due erre! Come \"arrivederci\". Sei canadese, no?", "n": "Two r's! Like \"arrivederci\". You're Canadian, right?"},
+          {"who": "hero", "t": "Sì, sono canadese, di Toronto. Ma mio nonno è di qui, di Roccamarina.", "n": "Yes, I'm Canadian, from Toronto. But my grandfather is from here, from Roccamarina."},
+          {"who": "Dora", "t": "Lo so, lo so. Cosimo Ferrante, via delle Rose, numero dodici. Andiamo a casa?", "n": "I know, I know. Cosimo Ferrante, 12 Via delle Rose. Shall we go home?"},
+          {"who": "hero", "t": "Volentieri. E... come si dice \"jet lag\" in italiano?", "n": "Gladly. And... how do you say \"jet lag\" in Italian?"},
+          {"who": "Dora", "t": "\"Jet lag\". Ma a Roccamarina si dice \"un caffè\".", "n": "\"Jet lag\". But in Roccamarina we say \"a coffee\"."}
+        ], "notes": [
+          {"phrase": "Dammi del tu.", "note": "Literally \"give me the tu\": an invitation to drop the formal Lei. You will hear it from people who want to be friendly; wait for it before you switch."},
+          {"phrase": "Sono io.", "note": "\"It's me\" / \"that's me\". Italian uses the subject pronoun here for emphasis: it is me, not someone else."},
+          {"phrase": "Lo so.", "note": "I know (it). Fixed phrase; the pronoun lo is explained later."},
+          {"phrase": "Come si dice… in italiano?", "note": "How do you say… in Italian? Your most useful question for the next year."},
+          {"phrase": "Volentieri.", "note": "Gladly, with pleasure. The warm way to say yes to an offer."}
+        ]},
+        {"type": "scene", "id": "dlg-vicino", "title": "Il vicino", "setting": "Via delle Rose, 12. Davanti al portone c'è un signore con il giornale sotto il braccio.", "register": "formale", "lines": [
+          {"who": "Pasquale", "t": "Buonasera, signora Caputo.", "n": "Good evening, Mrs Caputo."},
+          {"who": "Dora", "t": {"m": "Buonasera, professore. Questo è Luca, il nipote di Cosimo.", "f": "Buonasera, professore. Questa è Lucia, la nipote di Cosimo.", "note": "Questo / questa (this) and il nipote / la nipote (grandson / granddaughter) both agree with the protagonist."}, "n": {"m": "Good evening, professor. This is Luca, Cosimo's grandson.", "f": "Good evening, professor. This is Lucia, Cosimo's granddaughter."}},
+          {"who": "Pasquale", "t": {"m": "Il nipote di Cosimo Ferrante! Piacere, Pasquale Leone. Lei è americano?", "f": "La nipote di Cosimo Ferrante! Piacere, Pasquale Leone. Lei è americana?"}, "n": {"m": "Cosimo Ferrante's grandson! Pleased to meet you, Pasquale Leone. Are you American?", "f": "Cosimo Ferrante's granddaughter! Pleased to meet you, Pasquale Leone. Are you American?"}, "note": "Lei è…? Pasquale uses the formal Lei with a stranger, even a young one."},
+          {"who": "hero", "t": "No, sono canadese. Piacere, {hero}.", "n": "No, I'm Canadian. Pleased to meet you, {hero}."},
+          {"who": "Pasquale", "t": "Canadese! E parla italiano?", "n": "Canadian! And do you speak Italian?", "note": "Parla, not parli: with Lei the verb takes the same form as for lui / lei (he / she)."},
+          {"who": "hero", "t": "Un po'. Parlo inglese e un po' di italiano.", "n": "A little. I speak English and a little Italian."},
+          {"who": "Pasquale", "t": "Bene. Qui si impara in fretta. {{Benvenuto|Benvenuta}}.", "n": "Good. Here you learn fast. Welcome."},
+          {"who": "hero", "t": "Grazie, professore. Arrivederci!", "n": "Thank you, professor. Goodbye!"},
+          {"who": "Pasquale", "t": "Arrivederci. E… due erre, mi raccomando.", "n": "Goodbye. And… two r's, mind."}
+        ], "notes": [
+          {"phrase": "professore", "note": "Pasquale is a retired teacher, and in Italy the title stays for life. Titles (professore, dottore, ingegnere) are used as a form of address far more than in Canada."},
+          {"phrase": "Un po'.", "note": "A little. The apostrophe marks a dropped syllable (un poco → un po')."},
+          {"phrase": "Mi raccomando.", "note": "Untranslatable and essential: \"mind you\", \"please do\", \"I'm counting on you\"."}
+        ], "questions": [
+          {"kind": "tf", "q": "Pasquale uses the formal Lei with {hero}.", "answer": true, "why": "Yes: «Lei è…?», «parla italiano?». A stranger, a title, a first meeting: Lei."},
+          {"kind": "mc", "q": "Why does Pasquale ask «Lei è {{americano|americana}}?»", "options": ["He thinks {hero} is from the United States.", "He is asking about {hero}'s grandfather.", "He is offering a coffee."], "answer": 0, "why": "To many Italians, anyone from across the ocean is \"American\" until corrected. {hero} corrects him: «No, sono canadese»."},
+          {"kind": "fill", "q": "{hero} parla inglese e ___ di italiano.", "answers": [["un po'", "un po"]], "n": "{hero} speaks English and a little Italian."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Le prime parole",
+      "intro": "Thirty-odd words you will use every day from now on. Say each one aloud after the voice; nouns come with their article, because in Italian a noun without its gender is only half learned.",
+      "blocks": [
+        {"type": "vocab", "theme": "Saluti e cortesia", "n": "Greetings and politeness", "items": [
+          {"t": "ciao", "n": "hi; bye (informal)", "pos": "interj.", "ex": {"t": "Ciao, Dora! A domani.", "n": "Bye, Dora! See you tomorrow."}, "note": "Both hello and goodbye, only with people you call tu."},
+          {"t": "buongiorno", "n": "good morning, good day", "pos": "interj.", "ex": {"t": "Buongiorno, signora Caputo.", "n": "Good morning, Mrs Caputo."}, "note": "From waking up until early afternoon. Safe with everyone."},
+          {"t": "buonasera", "n": "good evening", "pos": "interj.", "ex": {"t": "Buonasera, professore.", "n": "Good evening, professor."}, "note": "From mid-afternoon on; in the south often from about four o'clock."},
+          {"t": "buonanotte", "n": "good night", "pos": "interj.", "ex": {"t": "Buonanotte, a domani!", "n": "Good night, see you tomorrow!"}, "note": "Only when someone is going to bed. Not a general evening greeting."},
+          {"t": "salve", "n": "hello (neutral)", "pos": "interj.", "ex": {"t": "Salve! Un caffè, per favore.", "n": "Hello! A coffee, please."}, "note": "Neither tu nor Lei: handy when you are not sure which to use."},
+          {"t": "arrivederci", "n": "goodbye", "pos": "interj.", "ex": {"t": "Arrivederci, a presto!", "n": "Goodbye, see you soon!"}},
+          {"t": "a presto", "n": "see you soon", "pos": "phrase", "ex": {"t": "Grazie di tutto, a presto.", "n": "Thanks for everything, see you soon."}},
+          {"t": "a domani", "n": "see you tomorrow", "pos": "phrase", "ex": {"t": "Buonanotte, Dora, a domani.", "n": "Good night, Dora, see you tomorrow."}},
+          {"t": "piacere", "n": "nice to meet you", "pos": "interj.", "ex": {"t": "Piacere, sono {hero}.", "n": "Nice to meet you, I'm {hero}."}, "note": "Literally \"pleasure\". The reply is piacere mio, \"the pleasure is mine\"."},
+          {"t": "grazie", "n": "thank you", "pos": "interj.", "ex": {"t": "Grazie, Dora. Grazie mille!", "n": "Thank you, Dora. Thanks a lot!"}, "note": "Grazie mille = \"a thousand thanks\"."},
+          {"t": "prego", "n": "you're welcome; please, go ahead", "pos": "interj.", "ex": {"t": "— Grazie! — Prego.", "n": "— Thank you! — You're welcome."}, "note": "Also what a shopkeeper says to mean \"how can I help?\" and what you say holding a door open."},
+          {"t": "scusa / scusi", "n": "excuse me, sorry (tu / Lei)", "pos": "interj.", "ex": {"t": "Scusi, Lei è la signora Caputo?", "n": "Excuse me, are you Mrs Caputo?"}, "note": "Scusa to a friend, scusi to a stranger. Dora says scusa to {hero} because she has already decided they are family."},
+          {"t": "per favore", "n": "please", "pos": "phrase", "ex": {"t": "Un caffè, per favore.", "n": "A coffee, please."}},
+          {"t": "benvenuto", "n": "welcome", "pos": "adj.", "forms": "benvenuta, benvenuti, benvenute", "ex": {"t": {"m": "Benvenuto a Roccamarina, Luca!", "f": "Benvenuta a Roccamarina, Lucia!"}, "n": "Welcome to Roccamarina, {hero}!"}, "note": "An adjective, so it agrees: benvenuto to Luca, benvenuta to Lucia, benvenuti to a group."},
+          {"t": "sì", "n": "yes", "pos": "adv.", "ex": {"t": "Sì, sono io.", "n": "Yes, that's me."}, "note": "With the accent. Without it, si is a different word."},
+          {"t": "no", "n": "no", "pos": "adv.", "ex": {"t": {"m": "No, non sono americano.", "f": "No, non sono americana."}, "n": "No, I'm not American."}, "note": "At the end of a sentence, no? means \"right?\": Sei canadese, no?"}
+        ]},
+        {"type": "vocab", "theme": "Presentarsi", "n": "Introducing yourself", "items": [
+          {"t": "nome", "n": "first name; name", "article": "il", "gender": "m", "plural": "i nomi", "pos": "noun", "ex": {"t": "Nome e cognome, per favore.", "n": "First name and surname, please."}},
+          {"t": "cognome", "n": "surname", "article": "il", "gender": "m", "plural": "i cognomi", "pos": "noun", "ex": {"t": "Il cognome è Ferrante, con due erre.", "n": "The surname is Ferrante, with two r's."}},
+          {"t": "signore", "n": "gentleman; Mr; sir", "article": "il", "gender": "m", "plural": "i signori", "pos": "noun", "ex": {"t": "Buonasera, signor Leone.", "n": "Good evening, Mr Leone."}, "note": "Before a name it loses the final -e: signor Leone."},
+          {"t": "signora", "n": "lady; Mrs; madam", "article": "la", "gender": "f", "plural": "le signore", "pos": "noun", "ex": {"t": "La signora Caputo è di Roccamarina.", "n": "Mrs Caputo is from Roccamarina."}},
+          {"t": "nonno", "n": "grandfather", "article": "il", "gender": "m", "plural": "i nonni", "pos": "noun", "ex": {"t": "Il nonno di {hero} è di Roccamarina.", "n": "{hero}'s grandfather is from Roccamarina."}, "note": "I nonni = the grandparents."},
+          {"t": "nonna", "n": "grandmother", "article": "la", "gender": "f", "plural": "le nonne", "pos": "noun", "ex": {"t": "La nonna si chiama Rosa.", "n": "The grandmother's name is Rosa."}},
+          {"t": "città", "n": "city", "article": "la", "gender": "f", "plural": "le città", "pos": "noun", "ex": {"t": "Toronto è la città di {hero}.", "n": "Toronto is {hero}'s city."}, "note": "Nouns ending in an accented vowel never change in the plural."},
+          {"t": "paese", "n": "town, village; country", "article": "il", "gender": "m", "plural": "i paesi", "pos": "noun", "ex": {"t": "Il paese è piccolo e tranquillo.", "n": "The town is small and quiet."}, "note": "Two meanings: a small town (il paese di nonno) and a country (il Canada è un paese grande)."},
+          {"t": "stazione", "n": "station", "article": "la", "gender": "f", "plural": "le stazioni", "pos": "noun", "ex": {"t": "La stazione di Roccamarina è piccola.", "n": "Roccamarina's station is small."}},
+          {"t": "treno", "n": "train", "article": "il", "gender": "m", "plural": "i treni", "pos": "noun", "ex": {"t": "Il treno è in ritardo.", "n": "The train is late."}},
+          {"t": "viaggio", "n": "trip, journey", "article": "il", "gender": "m", "plural": "i viaggi", "pos": "noun", "ex": {"t": "Il viaggio da Toronto è lungo.", "n": "The trip from Toronto is long."}},
+          {"t": "casa", "n": "house, home", "article": "la", "gender": "f", "plural": "le case", "pos": "noun", "ex": {"t": "Andiamo a casa?", "n": "Shall we go home?"}, "note": "A casa = (at) home, no article."},
+          {"t": "cartello", "n": "sign", "article": "il", "gender": "m", "plural": "i cartelli", "pos": "noun", "ex": {"t": "Il cartello è sbagliato.", "n": "The sign is wrong."}},
+          {"t": "caffè", "n": "coffee; café", "article": "il", "gender": "m", "plural": "i caffè", "pos": "noun", "ex": {"t": "Un caffè, Dora? — Volentieri.", "n": "A coffee, Dora? — Gladly."}, "note": "Un caffè is an espresso. Always."},
+          {"t": "via", "n": "street", "article": "la", "gender": "f", "plural": "le vie", "pos": "noun", "ex": {"t": "Via delle Rose, numero dodici.", "n": "Via delle Rose, number twelve."}},
+          {"t": "numero", "n": "number", "article": "il", "gender": "m", "plural": "i numeri", "pos": "noun", "ex": {"t": "Il numero di casa è dodici.", "n": "The house number is twelve."}}
+        ]},
+        {"type": "vocab", "theme": "Nazionalità", "n": "Nationalities", "intro": "No capital letter for nationalities in Italian. Adjectives in -o have a feminine in -a; adjectives in -e are the same for everyone.", "items": [
+          {"t": "italiano", "n": "Italian", "pos": "adj.", "forms": "italiana, italiani, italiane", "ex": {"t": "Dora è italiana.", "n": "Dora is Italian."}, "note": "The country: l'Italia."},
+          {"t": "canadese", "n": "Canadian", "pos": "adj.", "forms": "canadesi", "ex": {"t": "{hero} è canadese.", "n": "{hero} is Canadian."}, "note": "The country: il Canada. Same form for Luca and Lucia."},
+          {"t": "americano", "n": "American", "pos": "adj.", "forms": "americana, americani, americane", "ex": {"t": {"m": "Lei è americano?", "f": "Lei è americana?"}, "n": "Are you American?"}, "note": "The country: gli Stati Uniti (plural!)."},
+          {"t": "inglese", "n": "English", "pos": "adj.", "forms": "inglesi", "ex": {"t": "Parlo inglese.", "n": "I speak English."}, "note": "The country: l'Inghilterra. Also the language."},
+          {"t": "francese", "n": "French", "pos": "adj.", "forms": "francesi", "ex": {"t": "Il turista è francese.", "n": "The tourist is French."}, "note": "The country: la Francia."},
+          {"t": "tedesco", "n": "German", "pos": "adj.", "forms": "tedesca, tedeschi, tedesche", "ex": {"t": "La turista è tedesca.", "n": "The tourist (f.) is German."}, "note": "The country: la Germania. Note the h in the plural: tedeschi."},
+          {"t": "spagnolo", "n": "Spanish", "pos": "adj.", "forms": "spagnola, spagnoli, spagnole", "ex": {"t": "Carmen è spagnola.", "n": "Carmen is Spanish."}, "note": "The country: la Spagna."},
+          {"t": "irlandese", "n": "Irish", "pos": "adj.", "forms": "irlandesi", "ex": {"t": "Sofia non è irlandese, è canadese.", "n": "Sofia isn't Irish, she's Canadian."}, "note": "The country: l'Irlanda."}
+        ]},
+        {"type": "subhead", "text": "I numeri da 0 a 20"},
+        {"type": "grid", "cols": 7, "items": [
+          {"big": "0", "small": "zero"}, {"big": "1", "small": "uno"}, {"big": "2", "small": "due"}, {"big": "3", "small": "tre"}, {"big": "4", "small": "quattro"}, {"big": "5", "small": "cinque"}, {"big": "6", "small": "sei"},
+          {"big": "7", "small": "sette"}, {"big": "8", "small": "otto"}, {"big": "9", "small": "nove"}, {"big": "10", "small": "dieci"}, {"big": "11", "small": "undici"}, {"big": "12", "small": "dodici"}, {"big": "13", "small": "tredici"},
+          {"big": "14", "small": "quattordici"}, {"big": "15", "small": "quindici"}, {"big": "16", "small": "sedici"}, {"big": "17", "small": "diciassette"}, {"big": "18", "small": "diciotto"}, {"big": "19", "small": "diciannove"}, {"big": "20", "small": "venti"}
+        ]},
+        {"type": "callout", "kind": "memo", "title": "Three things about the numbers", "text": "- [[sei]] is both *six* and *you are*: [[Sei stanco?|Are you tired?]] has nothing to do with six.\n- 11 to 16 end in **-dici** (un-dici, do-dici…); 17 to 19 start with **dici-** (dici-assette, dici-otto, dici-annove). The switch happens at seventeen.\n- [[uno]] becomes *un* or *una* before a noun ([[un caffè]]), which is the indefinite article of unit 2."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Essere, e chi sei",
+      "intro": "Six small pieces of grammar, all of them needed to say «Sono {hero}, sono canadese, sono di Toronto» and to understand the answer. Each one has a full reference page linked at the end.",
+      "blocks": [
+        {"type": "grammar", "id": "g-pronomi", "title": "Subject pronouns: who is talking", "category": "Pronouns", "rule": "Italian has eight subject pronouns, but the verb ending already says who is talking, so the pronoun is usually left out.", "ref": "subject-pronouns", "blocks": [
+          {"type": "table", "head": ["Pronoun", "English", "Use it for"], "rows": [["io", "I", "yourself"], ["tu", "you", "one person you know well (informal)"], ["lui", "he", "a man or boy"], ["lei", "she", "a woman or girl"], ["Lei", "you", "one person, formal (capital L in writing)"], ["noi", "we", "yourself plus others"], ["voi", "you", "two or more people"], ["loro", "they", "two or more people, any gender"]], "speak": [0], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Sono canadese.", "n": "I'm Canadian.", "note": "No io: the ending -o of sono already means \"I\"."},
+            {"t": "Io sono canadese, lui è italiano.", "n": "I am Canadian, he is Italian.", "note": "Pronouns appear for contrast."},
+            {"t": "Sì, sono io.", "n": "Yes, it's me.", "note": "And for emphasis: me, not someone else."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Io sono Dora, io sono di Roccamarina, io sono stanca.", "right": "Sono Dora, sono di Roccamarina, sono stanca.", "why": "Repeating io sounds insistent, almost like shouting \"I! I! I!\". Say it once for contrast, or not at all."},
+            {"wrong": "lei è canadese? (to Pasquale)", "right": "Lei è canadese?", "why": "In writing, the formal you has a capital L. In speech it sounds exactly like lei (she), and context does the work."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-essere", "title": "The verb essere (to be)", "category": "Verbs", "rule": "Essere is irregular: learn all six forms by heart. Use it for who you are, where you are from, your nationality and how you feel.", "ref": "essere", "blocks": [
+          {"type": "conjugation", "verb": "essere", "tense": "presente", "caption": "[[essere|to be]] · presente"},
+          {"type": "examples", "items": [
+            {"t": "Sono Dora.", "n": "I'm Dora.", "note": "identity"},
+            {"t": "Sei di Toronto?", "n": "Are you from Toronto?", "note": "origin: essere di + city"},
+            {"t": "Pasquale è italiano.", "n": "Pasquale is Italian.", "note": "nationality"},
+            {"t": {"m": "Sono stanco.", "f": "Sono stanca."}, "n": "I'm tired.", "note": "a state: the adjective agrees"},
+            {"t": "Siamo di Roccamarina.", "n": "We're from Roccamarina."},
+            {"t": "Siete canadesi?", "n": "Are you (all) Canadian?"},
+            {"t": "I nonni sono di qui.", "n": "The grandparents are from here."}
+          ]},
+          {"type": "callout", "kind": "warn", "title": "è, not e", "text": "The accent is not decoration. [[è]] with the accent means *is*; [[e]] without it means *and*. [[Dora è di Roccamarina e Luca è di Toronto.|Dora is from Roccamarina and Luca is from Toronto.]] Type it with the accent bar under every exercise; a missing accent is marked \"almost right\", a wrong letter is wrong."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sono da Toronto.", "right": "Sono di Toronto.", "why": "With essere, origin takes di. (Da means \"from\" with movement: il treno da Bari, the train from Bari.)"},
+            {"wrong": "E stanco?", "right": "È stanco?", "why": "Capital È still needs its accent. On a keyboard without it, people write E' in a hurry; you can do better with the accent bar."},
+            {"wrong": "Tu è canadese.", "right": "Tu sei canadese.", "why": "Each person has its own form. È belongs to lui, lei and Lei."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-genere", "title": "Nouns have a gender: il, lo, la, l'", "category": "Nouns and articles", "rule": "Every noun is masculine or feminine. Nouns in -o are usually masculine, nouns in -a usually feminine, nouns in -e can be either. The definite article (the) changes with the gender and the first letter.", "ref": "nouns-and-definite-article", "blocks": [
+          {"type": "table", "head": ["Ending", "Gender", "Examples"], "rows": [["-o", "masculine (almost always)", "il treno, il nonno, il numero, il cartello"], ["-a", "feminine (almost always)", "la casa, la nonna, la via, la signora"], ["-e", "either: learn the article with the word", "il nome, il cognome, il paese · la stazione, la notte"], ["-à, -è, -ù (accented)", "fixed: learn it", "la città · il caffè"]], "speak": [2]},
+          {"type": "table", "caption": "The definite article, singular", "head": ["", "Before", "Examples"], "rows": [["il", "masculine + most consonants", "il treno, il nonno, il paese"], ["lo", "masculine + s + consonant, z, gn, ps, y", "lo studente, lo zio, lo gnocco"], ["l'", "masculine or feminine + vowel", "l'italiano, l'italiana, l'Italia"], ["la", "feminine + consonant", "la casa, la stazione, la signora"]], "speak": [2], "rowhead": true, "note": "Plurals (i, gli, le) arrive in unit 2, together with the indefinite article un / una."},
+          {"type": "examples", "items": [
+            {"t": "Il cartello è sbagliato.", "n": "The sign is wrong."},
+            {"t": "La stazione è piccola.", "n": "The station is small."},
+            {"t": "L'Italia è il paese di nonno Cosimo.", "n": "Italy is grandpa Cosimo's country."},
+            {"t": "Lo studente è irlandese.", "n": "The student is Irish."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "il stazione", "right": "la stazione", "why": "Stazione is feminine (most -zione nouns are). Learn the article as part of the word."},
+            {"wrong": "la nome", "right": "il nome", "why": "Nome ends in -e and is masculine: il nome, il cognome."},
+            {"wrong": "il zio", "right": "lo zio", "why": "Masculine nouns beginning with z take lo. English speakers rarely forget la; they forget lo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-accordo", "title": "Adjectives agree: stanco, stanca, canadese", "category": "Adjectives", "rule": "An adjective takes the gender of the person or thing it describes. Adjectives in -o become -a for a feminine; adjectives in -e do not change.", "ref": "adjective-agreement", "blocks": [
+          {"type": "agreement", "intro": "This is why the course has Luca and Lucia. Read the two columns aloud: only the last vowel moves.", "items": [
+            {"t": {"m": "Sono stanco.", "f": "Sono stanca."}, "n": "I'm tired."},
+            {"t": {"m": "Sono contento.", "f": "Sono contenta."}, "n": "I'm happy."},
+            {"t": {"m": "Benvenuto, Luca!", "f": "Benvenuta, Lucia!"}, "n": "Welcome!"},
+            {"t": {"m": "Sono italiano e canadese.", "f": "Sono italiana e canadese."}, "n": "I'm Italian and Canadian."}
+          ], "note": "Canadese, inglese, francese, irlandese end in -e and stay the same for everyone. Italiano, americano, tedesco, spagnolo, stanco, contento, benvenuto end in -o and change to -a."},
+          {"type": "table", "head": ["", "Masculine", "Feminine"], "rows": [["-o / -a", "Luca è stanco.", "Lucia è stanca."], ["", "Pasquale è italiano.", "Dora è italiana."], ["-e (no change)", "Luca è canadese.", "Lucia è canadese."], ["", "Il turista è francese.", "La turista è francese."]], "speak": [1, 2], "rowhead": true},
+          {"type": "callout", "kind": "why", "title": "Why it matters now", "text": "In English the ending never changes, so English speakers tend to say *stanco* for everyone. Italians will understand you, and they will notice. Get into the habit from the first week: when you are the one speaking, choose your own form in the settings and the exercises will hold you to it."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Lucia è stanco.", "right": "Lucia è stanca.", "why": "Lucia is feminine, so the adjective ends in -a."},
+            {"wrong": "Sono Canadese.", "right": "Sono canadese.", "why": "No capital letter for nationalities, languages or days of the week."},
+            {"wrong": "Dora è canadesa.", "right": "Dora è canadese.", "why": "Adjectives in -e have no separate feminine."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-domande", "title": "Questions and no: sei…? non sono…", "category": "Sentences", "rule": "A yes/no question uses the same words as the statement, with the voice rising at the end. To say no, put non right before the verb.", "ref": "questions-and-negation", "blocks": [
+          {"type": "examples", "items": [
+            {"t": "Sei canadese.", "n": "You are Canadian.", "note": "statement: voice falls"},
+            {"t": "Sei canadese?", "n": "Are you Canadian?", "note": "question: voice rises, words unchanged"},
+            {"t": "Sei canadese, no?", "n": "You're Canadian, right?", "note": "no? or vero? at the end asks for confirmation"},
+            {"t": {"m": "Non sono americano.", "f": "Non sono americana."}, "n": "I'm not American."},
+            {"t": "Dora non è di Toronto.", "n": "Dora isn't from Toronto."},
+            {"t": "No, non sono io.", "n": "No, it's not me.", "note": "No answers the question; non negates the verb. You often need both."}
+          ]},
+          {"type": "table", "caption": "The first question words", "head": ["Question", "Answer"], "rows": [["Come ti chiami?", "Mi chiamo Dora."], ["Di dove sei?", "Sono di Roccamarina."], ["Chi è?", "È Pasquale, il vicino."], ["Come si scrive?", "Effe, e, erre, erre, a, enne, ti, e."], ["Come si dice \"sign\" in italiano?", "Si dice \"cartello\"."]], "speak": [0, 1]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sono non stanco.", "right": "Non sono stanco.", "why": "Non goes before the verb, never after it."},
+            {"wrong": "Dove sei di?", "right": "Di dove sei?", "why": "Italian never leaves a preposition at the end. Di comes first."},
+            {"wrong": "Fai tu sei canadese?", "right": "Sei canadese?", "why": "There is no \"do\" in Italian questions. Statement, rising voice, done."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-tu-lei", "title": "tu and Lei: two ways to say you", "category": "Register", "rule": "Tu is for friends, family and children; Lei is for strangers, older people and anyone with a title. Lei takes the same verb form as lui / lei (he / she).", "ref": "tu-and-lei", "blocks": [
+          {"type": "table", "head": ["", "tu (informal)", "Lei (formal)"], "rows": [["to be", "Sei canadese?", "È canadese?"], ["excuse me", "Scusa", "Scusi"], ["your name", "Come ti chiami?", "Come si chiama?"], ["where from", "Di dove sei?", "Di dov'è?"], ["and you?", "E tu?", "E Lei?"], ["speak", "Parli italiano?", "Parla italiano?"], ["hello / bye", "Ciao", "Buongiorno · Arrivederci"]], "speak": [1, 2], "rowhead": true},
+          {"type": "table", "caption": "[[chiamarsi|to be called]] · the three forms you need now", "head": ["", ""], "rows": [["(io)", "mi chiamo"], ["(tu)", "ti chiami"], ["(lui / lei / Lei)", "si chiama"]], "speak": [1], "rowhead": true, "note": "Mi chiamo {hero} = literally \"I call myself {hero}\". The full verb is a reflexive verb, unit 6."},
+          {"type": "examples", "items": [
+            {"t": "Dora, sei di qui?", "n": "Dora, are you from here?", "note": "tu: Dora asked for it"},
+            {"t": "Professore, Lei è di qui?", "n": "Professor, are you from here?", "note": "Lei: a title, a stranger, an older man"},
+            {"t": "Come si chiama, signora?", "n": "What's your name, madam?"},
+            {"t": "Dammi del tu!", "n": "Call me tu!"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Lei sei canadese?", "right": "Lei è canadese?", "why": "Lei is grammatically third person: è, parla, si chiama."},
+            {"wrong": "Ciao, professore!", "right": "Buongiorno, professore!", "why": "Ciao belongs with tu. With Lei, greet with buongiorno / buonasera and leave with arrivederci."},
+            {"wrong": "Come si chiami?", "right": "Come si chiama?", "why": "Mixed forms: si goes with chiama (Lei), ti goes with chiami (tu)."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "Le vocali e l'alfabeto",
+      "intro": "Italian spelling is honest: what you see is what you say. The work for an English speaker is in the vowels, which must stay short and pure, and in the stress, which usually falls one syllable before the last.",
+      "blocks": [
+        {"type": "subhead", "text": "Seven vowel sounds, five letters"},
+        {"type": "sounds", "items": [
+          {"sound": "a", "t": "casa", "n": "house", "ipa": "a", "tip": "Open, like the a in \"father\", never like \"cat\" or \"cake\"."},
+          {"sound": "e", "t": "treno", "n": "train", "ipa": "e", "tip": "Closed, like the first part of \"day\" but without the glide to -y. Keep it short."},
+          {"sound": "è", "t": "caffè", "n": "coffee", "ipa": "ɛ", "tip": "Open, like \"bed\". The written accent on è and the è of \"is\" are this sound."},
+          {"sound": "i", "t": "Italia", "n": "Italy", "ipa": "i", "tip": "Like \"ee\" in \"see\", but short. Never like the i in \"sit\"."},
+          {"sound": "o", "t": "nonno", "n": "grandfather", "ipa": "o", "tip": "Closed, like \"go\" without the -w glide. Round the lips and stop."},
+          {"sound": "ò", "t": "no", "n": "no", "ipa": "ɔ", "tip": "Open, like \"got\" in British English. Still no glide: \"no\" is not \"nouh\"."},
+          {"sound": "u", "t": "uno", "n": "one", "ipa": "u", "tip": "Like \"oo\" in \"food\", short. Never like \"cut\" or \"cute\"."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "The one habit to break", "text": "English vowels glide: \"no\" ends in a w, \"day\" ends in a y. Italian vowels do not move. Say [[no]], [[sei]], [[io]] with the jaw frozen on the vowel, then stop. If it feels too short, it is right."},
+        {"type": "subhead", "text": "Stress and the written accent"},
+        {"type": "prose", "text": "Most Italian words are stressed on the second-to-last syllable: [[stazione]], [[canadese]], [[arrivederci]], [[Roccamarina]]. When the stress falls on the final vowel, it is written: [[città]], [[caffè]], [[perché|why / because]]. A few common words are stressed earlier, and you simply learn them: [[numero]], [[Napoli]], [[telefono]].\n\nThe accent also tells words apart. Listen to the pairs below: the first word of each pair has no written accent."},
+        {"type": "minimal", "caption": "Same letters, different word", "pairs": [
+          {"a": "e", "b": "è", "na": "and", "nb": "is", "tip": "The whole difference between \"Dora e Luca\" and \"Dora è Luca\"."},
+          {"a": "papa", "b": "papà", "na": "pope", "nb": "dad", "tip": "Stress on the last syllable, and a different person at dinner."},
+          {"a": "pero", "b": "però", "na": "pear tree", "nb": "but, however"},
+          {"a": "si", "b": "sì", "na": "oneself (si dice)", "nb": "yes"}
+        ]},
+        {"type": "subhead", "text": "L'alfabeto: how to spell your name"},
+        {"type": "prose", "text": "Italian has 21 letters; j, k, w, x and y appear in foreign words and have Italian names too. When you spell aloud, say the letter names below. For a double letter say [[due erre|two r's]] or [[doppia erre|double r]]."},
+        {"type": "grid", "cols": 7, "items": [
+          {"big": "A", "small": "a"}, {"big": "B", "small": "bi"}, {"big": "C", "small": "ci"}, {"big": "D", "small": "di"}, {"big": "E", "small": "e"}, {"big": "F", "small": "effe"}, {"big": "G", "small": "gi"},
+          {"big": "H", "small": "acca"}, {"big": "I", "small": "i"}, {"big": "L", "small": "elle"}, {"big": "M", "small": "emme"}, {"big": "N", "small": "enne"}, {"big": "O", "small": "o"}, {"big": "P", "small": "pi"},
+          {"big": "Q", "small": "cu"}, {"big": "R", "small": "erre"}, {"big": "S", "small": "esse"}, {"big": "T", "small": "ti"}, {"big": "U", "small": "u"}, {"big": "V", "small": "vu"}, {"big": "Z", "small": "zeta"},
+          {"big": "J", "small": "i lunga", "sub": "foreign"}, {"big": "K", "small": "cappa", "sub": "foreign"}, {"big": "W", "small": "doppia vu", "sub": "foreign"}, {"big": "X", "small": "ics", "sub": "foreign"}, {"big": "Y", "small": "ipsilon", "sub": "foreign"}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "Come si scrive Ferrante? — Effe, e, erre, erre, a, enne, ti, e.", "n": "How do you spell Ferrante? — F, E, R, R, A, N, T, E."},
+          {"t": "Toronto: ti, o, erre, o, enne, ti, o.", "n": "Toronto: T, O, R, O, N, T, O."},
+          {"t": "Con l'acca o senza acca?", "n": "With an h or without?", "note": "The question you will hear about names like Sarah, Thomas or Hannah, because Italian h is silent."}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty short exercises in five sets, then a mixed review. Type with the accent bar; press Enter to check. A missing accent counts as almost right, the other protagonist's form gets a hint, and you can always show the answer after a wrong try.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Saluti e presentazioni", "items": [
+          {"kind": "mc", "q": "It is nine in the morning. On the stairs you meet Pasquale, the neighbour. You say:", "options": ["Ciao!", "Buongiorno!", "Buonanotte!"], "answer": 1, "why": "Morning plus an older man you address as Lei: buongiorno. Ciao is for tu; buonanotte is only for someone going to bed."},
+          {"kind": "reply", "line": {"t": "Piacere, sono Dora.", "n": "Nice to meet you, I'm Dora."}, "options": ["Piacere mio, sono {hero}.", "Prego, sono {hero}.", "Arrivederci, sono {hero}."], "answer": 0, "why": "Piacere is answered with piacere or piacere mio. Prego answers grazie; arrivederci ends a conversation."},
+          {"kind": "match", "q": "Match the Italian with the English.", "pairs": [["grazie", "thank you"], ["prego", "you're welcome"], ["scusi", "excuse me (formal)"], ["a presto", "see you soon"], ["buonanotte", "good night"]]},
+          {"kind": "fill", "q": "— Grazie, Dora! — ___!", "answers": [["Prego"]], "n": "— Thank you, Dora! — You're welcome!"},
+          {"kind": "order", "answer": "Piacere, mi chiamo Dora.", "n": "Nice to meet you, my name is Dora."},
+          {"kind": "dictation", "text": {"m": "Benvenuto a Roccamarina, Luca!", "f": "Benvenuta a Roccamarina, Lucia!"}, "n": "Welcome to Roccamarina, {hero}!"}
+        ]},
+        {"type": "exercises", "title": "2 · Essere e pronomi", "items": [
+          {"kind": "conjugate", "verb": "essere", "tense": "presente", "n": "to be", "answers": ["sono", "sei", "è", "siamo", "siete", "sono"]},
+          {"kind": "fill", "q": "Dora ___ di Roccamarina.", "answers": [["è"]], "n": "Dora is from Roccamarina."},
+          {"kind": "fill", "q": "Noi ___ canadesi.", "answers": [["siamo"]], "n": "We are Canadian."},
+          {"kind": "fill", "q": "Tu ___ Dora? — Sì, ___ io.", "answers": [["sei"], ["sono"]], "n": "Are you Dora? — Yes, it's me."},
+          {"kind": "mc", "q": "Which pronoun fits? «___ siete di Toronto?»", "options": ["Noi", "Voi", "Loro"], "answer": 1, "why": "Siete is the voi form: you (plural)."},
+          {"kind": "translate", "q": "I'm from Toronto.", "answers": ["Sono di Toronto", "Io sono di Toronto"], "hint": "origin takes di"},
+          {"kind": "tf", "q": "Is this true? «Sei» can mean both \"you are\" and \"six\".", "t": "Sei stanco? Sei caffè!", "answer": true, "why": "Yes. Context decides: Sei stanco? (are you tired?) · sei caffè (six coffees)."}
+        ]},
+        {"type": "exercises", "title": "3 · Genere e articoli", "items": [
+          {"kind": "fill", "q": "___ stazione è piccola.", "choices": [["la", "il", "lo"]], "answers": [["la"]], "n": "The station is small."},
+          {"kind": "fill", "q": "___ cognome è Ferrante.", "choices": [["il", "la", "l'"]], "answers": [["il"]], "n": "The surname is Ferrante."},
+          {"kind": "fill", "q": "___ treno è in ritardo.", "answers": [["il"]], "n": "The train is late."},
+          {"kind": "match", "q": "Match each article with a noun it can go with.", "pairs": [["il", "treno"], ["la", "casa"], ["lo", "studente"], ["l'", "italiano"]]},
+          {"kind": "mc", "q": "«città»: which article, and why?", "options": ["il, because it ends in -à", "la, because it is feminine (nouns in -tà are feminine)", "lo, because it starts with c"], "answer": 1, "why": "La città. Nouns ending in -tà (città, università, libertà) are feminine and never change in the plural."}
+        ]},
+        {"type": "exercises", "title": "4 · Nazionalità e accordo", "items": [
+          {"kind": "fill", "q": "Dora è ___. (italiano)", "answers": [["italiana"]], "n": "Dora is Italian."},
+          {"kind": "fill", "q": "{hero} è ___. (canadese)", "answers": [["canadese"]], "n": "{hero} is Canadian.", "hint": "adjectives in -e do not change"},
+          {"kind": "fill", "q": "Pasquale: «{hero}, è ___?» (stanco)", "answers": [[{"m": "stanco", "f": "stanca"}]], "n": "{hero}, are you tired?"},
+          {"kind": "fill", "q": "Io sono ___ e ___. (contento, stanco)", "answers": [[{"m": "contento", "f": "contenta", "who": "self"}], [{"m": "stanco", "f": "stanca", "who": "self"}]], "n": "I am happy and tired.", "hint": "this is about you: use your own form"},
+          {"kind": "tf", "q": "Is this sentence correct?", "t": "Carmen è spagnolo.", "answer": false, "why": "Carmen is a woman: Carmen è spagnola."}
+        ]},
+        {"type": "exercises", "title": "5 · Domande, tu e Lei, numeri", "items": [
+          {"kind": "mc", "q": "You are talking to Pasquale, with Lei. How do you ask where he is from?", "options": ["Di dove sei?", "Di dov'è?", "Dove è di?"], "answer": 1, "why": "Lei takes the third-person form è, and di comes first: Di dov'è? (di dove è, with the e dropped before the vowel)."},
+          {"kind": "order", "answer": {"m": "Non sono americano.", "f": "Non sono americana.", "who": "self"}, "n": "I'm not American.", "why": "Non goes right before the verb."},
+          {"kind": "fill", "q": "Come ___ chiami? — Mi ___ {hero}.", "answers": [["ti"], ["chiamo"]], "n": "What's your name? — My name is {hero}."},
+          {"kind": "reply", "line": {"t": "Scusi, Lei è il professor Leone?", "n": "Excuse me, are you Professor Leone?"}, "options": ["Sì, sono io.", "Sì, sei tu.", "No, sono tu."], "answer": 0, "why": "\"Yes, it's me\" is sì, sono io. Sei tu would mean \"it's you\"."},
+          {"kind": "dictation", "text": "Via delle Rose, numero dodici.", "n": "Via delle Rose, number twelve."},
+          {"kind": "fill", "q": "sette + otto = ___", "answers": [["quindici"]], "n": "seven + eight = fifteen"},
+          {"kind": "speak", "text": "Ferrante: effe, e, erre, erre, a, enne, ti, e.", "n": "Ferrante: F, E, R, R, A, N, T, E.", "tip": "Roll the two r's and keep every vowel short."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "translate", "q": "Good evening, Mrs Caputo.", "answers": ["Buonasera, signora Caputo", "Buona sera, signora Caputo"]},
+          {"kind": "fill", "q": "Lei ___ canadese? — No, ___ italiana.", "answers": [["è"], ["sono"]], "n": "Are you Canadian? — No, I'm Italian."},
+          {"kind": "mc", "q": "The sign says «FERANTE». What is missing?", "options": ["una erre", "una effe", "una enne"], "answer": 0, "why": "Ferrante has two r's: due erre."},
+          {"kind": "order", "answer": "Di dove sei, Dora?", "n": "Where are you from, Dora?"},
+          {"kind": "match", "q": "Match the numbers.", "pairs": [["tredici", "13"], ["sedici", "16"], ["diciannove", "19"], ["undici", "11"]]},
+          {"kind": "write", "q": "Introduce yourself in three short sentences: your name, where you are from, your nationality. Greet and say \"nice to meet you\".", "model": "Ciao! Mi chiamo {hero}. Sono di Toronto e sono canadese. Piacere!", "hint": "Mi chiamo… · Sono di… · Sono…"},
+          {"kind": "speak", "text": "Buongiorno! Sono {hero}, sono canadese, di Toronto.", "n": "Good morning! I'm {hero}, I'm Canadian, from Toronto.", "tip": "Stress: buonGIORno, canaDEse, toRONto."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Saluti, baci e il canadese",
+      "intro": "Practical notes for the first days: which greeting, which \"you\", what happens when you meet someone, and what Italians think when they hear you are \"Italian-Canadian\".",
+      "blocks": [
+        {"type": "subhead", "text": "Ciao, buongiorno or salve?"},
+        {"type": "prose", "text": "[[Buongiorno]] works from waking up until early afternoon and is safe with everyone: the baker, the neighbour, the official. In the south [[buonasera]] starts early, often by four o'clock, and nobody will mind if you switch a little before or after. [[Buonanotte]] is only for someone who is going to bed; say it to the pharmacist at eight in the evening and she will smile.\n\n[[Ciao]] is warm and informal, and it is both hello and goodbye. Use it with people you call [[tu]]. When you are not sure, [[salve]] is the escape hatch: it commits you to nothing. Leaving, [[arrivederci]] is always right; [[a presto]] and [[a domani]] are friendlier."},
+        {"type": "table", "head": ["Situation", "Say"], "rows": [["entering a shop or office, morning", "Buongiorno"], ["entering a shop or office, from mid-afternoon", "Buonasera"], ["a friend, any time", "Ciao"], ["not sure which", "Salve"], ["leaving, formal", "Arrivederci"], ["leaving, friends", "Ciao · A presto · A domani"], ["someone going to bed", "Buonanotte"]], "speak": [1], "compact": true},
+        {"type": "subhead", "text": "tu and Lei in real life"},
+        {"type": "prose", "text": "Start with [[Lei]] with anyone you do not know, anyone older, and anyone behind a counter or a desk. Young people of your age in an informal place, a bar, a sports club, will usually go straight to [[tu]], and so can you. The switch happens when someone offers it: [[dammi del tu]], [[diamoci del tu|let's use tu with each other]]. Accept it and do not go back.\n\nTitles matter more than in Canada. A retired teacher is still [[professore]] on the stairs; anyone with a university degree can be [[dottore]] or [[dottoressa]]; the pharmacist, the lawyer and the accountant are addressed by profession. When in doubt, [[signore]] and [[signora]] are never wrong."},
+        {"type": "callout", "kind": "real", "title": "Handshakes, kisses and distance", "text": "Meeting someone formally: a handshake and [[piacere]], your name, and theirs. Among friends and family: two kisses on the cheeks, one on each side, and these are air-kisses, cheek to cheek. Which side first varies by region and nobody will correct you. Expect less personal space than in Toronto: people stand closer, touch your arm while talking, and raise their voices without being angry."},
+        {"type": "subhead", "text": "«Il canadese»"},
+        {"type": "prose", "text": "In a town like Roccamarina, a grandchild of emigrants who comes back is a known category. You will be [[il canadese|the Canadian]] or [[la canadese]] before you are {hero}, and many people will call you [[l'americano]] or [[l'americana]] regardless, because for a long time everyone who left for across the ocean was \"going to America\". Correct it gently, once: [[canadese, non americano|Canadian, not American]], and let it go.\n\nTwo things will surprise people. First, that you want to live here, when their own children left for Milano or London. Second, that nonno Cosimo's Italian, the Italian you heard at home, is not quite the Italian of the television. He left in 1962 with the dialect of this town and the Italian of a few years of school; what the family kept in Toronto is a photograph of that, with English words glued on. Italians find this moving, and sometimes funny. Neither reaction is unkind."},
+        {"type": "callout", "kind": "culture", "title": "The sign at the station", "text": "A misspelled name on a sign is a small Italian welcome. Surnames with double consonants (Ferrante, Russo, Caputo is single) get simplified in handwriting all the time, and the question [[con due erre?|with two r's?]] will follow you to the comune, the bank and the phone shop. Learn to spell your name in Italian letters before you learn anything else; it is the sentence you will say most often in the first month."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen to review before the next unit, then the flashcards for this unit's words.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Saluti", "rows": [["Buongiorno / Buonasera", "formal hello"], ["Ciao", "informal hello and bye"], ["Arrivederci · A presto", "goodbye · see you soon"], ["Piacere · Piacere mio", "nice to meet you · likewise"], ["Grazie · Prego", "thank you · you're welcome"], ["Scusa / Scusi", "excuse me (tu / Lei)"]]},
+          {"title": "Presentarsi", "rows": [["Mi chiamo {hero}.", "My name is {hero}."], ["Sono di Toronto.", "I'm from Toronto."], ["Sono canadese.", "I'm Canadian."], [{"m": "Sono stanco ma contento.", "f": "Sono stanca ma contenta."}, "I'm tired but happy."], ["Parlo inglese e un po' di italiano.", "I speak English and a little Italian."]]},
+          {"title": "essere", "rows": [["sono · sei · è", "I am · you are · he/she is, you (Lei) are"], ["siamo · siete · sono", "we are · you (pl.) are · they are"], ["è ≠ e", "is ≠ and"]]},
+          {"title": "Articoli (singolare)", "rows": [["il treno · lo studente · l'italiano", "masculine"], ["la casa · l'Italia", "feminine"], ["-o → m. · -a → f. · -e → learn it", "gender by ending"]]},
+          {"title": "Domande", "rows": [["Sei canadese? · Sei canadese, no?", "rising voice · \"right?\""], ["Non sono americano / americana.", "non before the verb"], ["Come ti chiami? / Come si chiama?", "tu / Lei"], ["Di dove sei? / Di dov'è?", "tu / Lei"], ["Come si scrive? · Come si dice…?", "how do you spell · how do you say"]]},
+          {"title": "Numeri 0–20", "rows": ["zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci", "undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti"]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{"id": "essere", "title": "The verb essere (to be)", "category": "Verbs", "rule": "sono, sei, è, siamo, siete, sono. Irregular in every tense; this page grows as the tenses are taught.", "units": ["01"], "blocks": [
+  {"type": "conjugation", "verb": "essere", "tense": "presente", "caption": "[[essere|to be]] · presente indicativo"},
+  {"type": "subhead", "text": "What essere is for"},
+  {"type": "table", "head": ["Use", "Example"], "rows": [["identity, name", "Sono Dora. È Pasquale."], ["origin: essere di + city / town", "Sono di Toronto. Dora è di Roccamarina."], ["nationality", "Sei canadese? Siamo italiani."], ["a state or quality (adjective agrees)", "Sono stanco / stanca. Il paese è piccolo."], ["location (from unit 2 with c'è)", "Dora è a casa. Il treno è alla stazione."], ["time and date (unit 5–6)", "È tardi. Sono le due."]], "speak": [1]},
+  {"type": "examples", "items": [
+    {"t": "Sono io.", "n": "It's me."},
+    {"t": "Non sei di qui?", "n": "Aren't you from here?"},
+    {"t": "È in ritardo, come sempre.", "n": "It (he, she) is late, as always."},
+    {"t": "Siamo stanchi ma contenti.", "n": "We're tired but happy."},
+    {"t": "Siete di Bari?", "n": "Are you (all) from Bari?"},
+    {"t": "I nonni sono di Roccamarina.", "n": "The grandparents are from Roccamarina."}
+  ]},
+  {"type": "callout", "kind": "warn", "title": "è and e", "text": "[[è]] = is (verb, with accent). [[e]] = and (conjunction, no accent). Capital: È. The accent is part of the spelling, not a decoration."},
+  {"type": "callout", "kind": "note", "title": "sono, twice", "text": "The io form and the loro form are identical: [[sono]]. Context or the pronoun tells them apart: [[Sono canadese.|I'm Canadian.]] · [[Sono canadesi.|They're Canadian.]] Here the plural adjective does the work."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Sono da Toronto.", "right": "Sono di Toronto.", "why": "Origin with essere takes di."},
+    {"wrong": "Tu è stanco.", "right": "Tu sei stanco.", "why": "Second person singular is sei."},
+    {"wrong": "Sono 30 anni.", "right": "Ho 30 anni.", "why": "Age uses avere (to have), unit 4. A classic English-speaker mistake."},
+    {"wrong": "E canadese?", "right": "È canadese?", "why": "Missing accent turns \"is\" into \"and\"."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "essere", "tense": "presente", "n": "to be", "answers": ["sono", "sei", "è", "siamo", "siete", "sono"]},
+    {"kind": "fill", "q": "Dora e Pasquale ___ di Roccamarina.", "answers": [["sono"]], "n": "Dora and Pasquale are from Roccamarina."},
+    {"kind": "fill", "q": "Voi ___ canadesi? — No, ___ italiani.", "answers": [["siete"], ["siamo"]], "n": "Are you Canadian? — No, we're Italian."}
+  ]}
+]}

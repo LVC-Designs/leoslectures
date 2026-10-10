@@ -15,7 +15,11 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 
 ### Italian for English speakers (`content/it-for-en/`)
 
-_No units written yet. Syllabus drafted on 2026-10-09 and awaiting review._
+#### Unit 1 · Benvenuto / Benvenuta a Roccamarina (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: introduce oneself and others, ask and answer simple questions about personal details; conversation: basic greeting and leave-taking expressions, make an introduction; spoken production: describe oneself, where one is from, nationality; listening: follow very slow, carefully articulated speech; writing: spell one's name and write simple personal details.
+- **Grammar:** subject pronouns; *essere* (present); gender of nouns and the singular definite article; adjective agreement (-o/-a, -e) with the Luca/Lucia contrast; yes/no questions, question words, negation with *non*; *tu* vs *Lei*; *chiamarsi* (mi chiamo / ti chiami / si chiama); numbers 0–20; the alphabet.
+- **Reference pages added:** subject-pronouns, essere, nouns-and-definite-article, adjective-agreement, questions-and-negation, tu-and-lei.
+- **Originality:** the two scenes (the platform with Dora's misspelled sign; the neighbour Pasquale at the door), all 40 vocabulary examples, all tables, all 40 exercises and the cultural notes were written for this project. No source text was consulted. The "Living there" notes describe general Italian customs (greetings by time of day, tu/Lei, titles, cheek kisses, the "americano" label for returning emigrants' grandchildren) from general knowledge.
 
 ### English for Italian speakers (`content/en-for-it/`)
 

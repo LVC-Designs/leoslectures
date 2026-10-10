@@ -48,6 +48,7 @@ export function genderFor(v, settings) {
 /** Word-level diff: returns [{t, diff}] token lists for m and f with the differing span marked. */
 export function diffWords(m, f) {
   const a = m.split(/(\s+)/), b = f.split(/(\s+)/);
+  if (a.length === b.length) return { m: a.map((t, i) => ({ t, diff: t !== b[i] && t.trim() !== '' })), f: b.map((t, i) => ({ t, diff: t !== a[i] && t.trim() !== '' })) };
   let pre = 0;
   while (pre < a.length && pre < b.length && a[pre] === b[pre]) pre++;
   let suf = 0;

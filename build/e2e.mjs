@@ -53,7 +53,26 @@ const check = async (name, expr, expect = true) => { let v; try { v = await ev(e
 try {
   await connect();
   const pages = process.argv.slice(2);
-  if (pages.length) { for (const p of pages) { await open(p); await check(`${p} loads`, 'document.title.length > 0'); } }
+  if (pages.length) {
+    // audit mode: load each page as Luca and as Lucia; every exercise initialised, every audio button has text,
+    // every variant has two different non-empty forms, no placeholder/undefined text, no console errors.
+    const AUDIT = `return (() => { const out = {}; out.ex = document.querySelectorAll('.ex').length; out.ready = document.querySelectorAll('.ex[data-ready]').length;
+      out.saySilent = [...document.querySelectorAll('.say')].filter(b => !(b.dataset.say || (b.dataset.sayM && b.dataset.sayF))).length;
+      out.varBad = [...document.querySelectorAll('.var')].filter(v => { const m = v.querySelector('.vm')?.textContent.trim(), f = v.querySelector('.vf')?.textContent.trim(); return !m || !f || m === f; }).length;
+      out.undef = (document.body.innerText.match(/undefined|\\[object Object\\]|NaN/g) || []).length;
+      out.title = document.title; return out; })()`;
+    for (const p of pages) {
+      for (const g of ['m', 'f']) {
+        await open(p);
+        await ev(`localStorage.setItem('ds:settings', JSON.stringify({hero:'${g}', self:'${g}', track:'${p.split('/')[0] === 'impara-inglese' ? 'en-for-it' : 'it-for-en'}'})); 1`);
+        await open(p);
+        const a = await ev(AUDIT);
+        const ok = a.ex === a.ready && a.saySilent === 0 && a.varBad === 0 && a.undef === 0 && a.title.length > 0;
+        ok ? pass++ : fail++;
+        console.log(`${ok ? 'ok ' : 'FAIL'} ${p} as ${g}: ${a.ex} exercises, ${a.saySilent} silent audio, ${a.varBad} bad variants, ${a.undef} undefined`);
+      }
+    }
+  }
   else {
     await open('index.html');
     await check('landing title', 'document.title.includes("Due Sponde")');
@@ -169,7 +188,7 @@ finally {
   if (errors.length) { fail += errors.length; console.log('\nBrowser errors:\n' + errors.join('\n')); }
   console.log(`\n${pass} passed, ${fail} failed`);
   try { ws?.close(); } catch {}
-  chrome.kill(); server.close(); fs.rmSync(profile, { recursive: true, force: true });
+  chrome.kill(); server.close(); await sleep(500); try { fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5 }); } catch {}
   if (scenario) { delete process.env.DS_CONTENT; await build(); console.log('rebuilt real site'); }
   process.exit(fail ? 1 : 0);
 }

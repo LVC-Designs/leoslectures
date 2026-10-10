@@ -1,0 +1,24 @@
+{"id": "tu-and-lei", "title": "tu and Lei: informal and formal you", "category": "Register", "rule": "Tu with friends, family, children and peers who offer it; Lei with strangers, older people, officials and anyone with a title. Lei takes third-person verb forms.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["", "tu", "Lei"], "rows": [["to be", "sei", "è"], ["to speak", "parli", "parla"], ["name", "Come ti chiami?", "Come si chiama?"], ["origin", "Di dove sei?", "Di dov'è?"], ["how are you (unit 3)", "Come stai?", "Come sta?"], ["excuse me", "scusa", "scusi"], ["please", "per favore", "per favore / per cortesia"], ["hello", "ciao", "buongiorno, buonasera, salve"], ["goodbye", "ciao, a presto", "arrivederci"], ["and you?", "e tu?", "e Lei?"]], "speak": [1, 2], "rowhead": true},
+  {"type": "subhead", "text": "Who gets which"},
+  {"type": "table", "head": ["tu", "Lei"], "rows": [["family, friends, partners", "strangers of any age in a formal setting"], ["children and teenagers", "older people you don't know"], ["classmates, teammates, people your age in a bar", "shop staff, officials, doctors, teachers"], ["colleagues, once it has been offered", "anyone with a title: professore, dottoressa, avvocato"], ["online, in most forums and chats", "customer service, letters, email to an office"]], "compact": true},
+  {"type": "examples", "items": [
+    {"t": "Dammi del tu.", "n": "Call me tu.", "note": "the offer; accept it"},
+    {"t": "Diamoci del tu!", "n": "Let's use tu with each other!"},
+    {"t": "Posso darLe del tu?", "n": "May I call you tu?", "note": "polite way to ask; the capital L is the formal pronoun"},
+    {"t": "Buongiorno, dottoressa. Lei è di qui?", "n": "Good morning, doctor. Are you from here?"},
+    {"t": "Ciao, Dora, sei a casa?", "n": "Hi, Dora, are you home?"}
+  ]},
+  {"type": "callout", "kind": "real", "title": "In the south", "text": "In parts of southern Italy, older people may use [[voi]] as a formal singular, a habit from the past: [[Voi siete il nipote di Cosimo?]] Understand it as Lei; answer with Lei."},
+  {"type": "callout", "kind": "culture", "title": "The direction of politeness", "text": "Using Lei with someone who expects tu sounds cold but is never rude. Using tu with someone who expects Lei can be. When unsure, start with Lei; the other person will fix it in one sentence."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Lei sei italiano?", "right": "Lei è italiano?", "why": "Lei + third-person verb."},
+    {"wrong": "Ciao, dottoressa!", "right": "Buongiorno, dottoressa!", "why": "Ciao is informal; a title calls for the formal greeting."},
+    {"wrong": "Scusa, signora, Lei è la signora Caputo?", "right": "Scusi, signora, Lei è la signora Caputo?", "why": "Keep the register consistent: scusi with Lei."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "mc", "q": "Pasquale, 72, retired teacher, first meeting. You ask his name:", "options": ["Come ti chiami?", "Come si chiama?", "Chi sei?"], "answer": 1, "why": "Lei with a stranger and a title."},
+    {"kind": "fill", "q": "Dora: «Dammi del tu!» — {hero}: «Va bene. Dora, ___ di qui?»", "answers": [["sei"]], "n": "Dora: \"Call me tu!\" — {hero}: \"All right. Dora, are you from here?\""},
+    {"kind": "translate", "q": "Excuse me (formal), are you Italian? (to a woman)", "answers": ["Scusi, Lei è italiana?", "Scusi, è italiana?"]}
+  ]}
+]}

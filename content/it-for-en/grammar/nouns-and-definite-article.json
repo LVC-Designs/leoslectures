@@ -1,0 +1,25 @@
+{"id": "nouns-and-definite-article", "title": "Gender of nouns and the definite article", "category": "Nouns and articles", "rule": "Nouns in -o are mostly masculine, nouns in -a mostly feminine, nouns in -e either. The article (il, lo, la, l' / i, gli, le) depends on gender, number and the first sound of the next word.", "units": ["01"], "blocks": [
+  {"type": "subhead", "text": "Gender"},
+  {"type": "table", "head": ["Ending", "Gender", "Examples", "Watch out"], "rows": [["-o", "masculine", "il treno, il nonno, il numero", "la mano (hand), la radio, la foto are feminine"], ["-a", "feminine", "la casa, la nonna, la via", "il problema, il cinema, il papà are masculine"], ["-e", "either", "il nome, il paese · la stazione, la notte", "learn the article with the noun; -zione and -sione are feminine"], ["-tà, -tù", "feminine", "la città, la verità, la virtù", "invariable in the plural"], ["-è, -ù, -ì (other accented)", "mostly masculine", "il caffè, il tabù, il lunedì", ""], ["consonant (foreign words)", "mostly masculine", "il bar, il film, lo sport", "invariable in the plural"]], "speak": [2]},
+  {"type": "subhead", "text": "The definite article"},
+  {"type": "table", "caption": "Singular", "head": ["", "Before", "Examples"], "rows": [["il", "masculine + consonant", "il treno, il nonno, il paese"], ["lo", "masculine + s+consonant, z, gn, ps, pn, x, y, i+vowel", "lo studente, lo zio, lo gnocco, lo psicologo, lo yogurt"], ["l'", "masculine or feminine + vowel", "l'italiano, l'italiana, l'Italia, l'ora"], ["la", "feminine + consonant", "la casa, la stazione, la zia"]], "speak": [2], "rowhead": true},
+  {"type": "table", "caption": "Plural (taught in unit 2, here for reference)", "head": ["", "Before", "Examples"], "rows": [["i", "masculine + consonant", "i treni, i nonni, i paesi"], ["gli", "masculine + vowel, s+consonant, z, gn, ps…", "gli italiani, gli studenti, gli zii"], ["le", "all feminine", "le case, le stazioni, le italiane"]], "speak": [2], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Il cartello è sbagliato.", "n": "The sign is wrong."},
+    {"t": "Lo studente è irlandese.", "n": "The student is Irish."},
+    {"t": "L'Italia è il paese di nonno Cosimo.", "n": "Italy is grandpa Cosimo's country."},
+    {"t": "La città è grande, il paese è piccolo.", "n": "The city is big, the town is small."}
+  ]},
+  {"type": "callout", "kind": "why", "title": "Why lo and l' exist", "text": "They make the words easier to say. *Il studente* would pile up three consonants (l-s-t); *lo studente* flows. *La Italia* would clash two vowels; *l'Italia* glides. Once you hear the rhythm, the rule takes care of itself."},
+  {"type": "mistakes", "items": [
+    {"wrong": "il stazione", "right": "la stazione", "why": "Feminine: nearly every -zione noun is."},
+    {"wrong": "la problema", "right": "il problema", "why": "Greek-origin nouns in -ma (problema, tema, sistema, programma) are masculine."},
+    {"wrong": "il zio", "right": "lo zio", "why": "Masculine + z takes lo."},
+    {"wrong": "la amica", "right": "l'amica", "why": "Before a vowel, both il and la become l'."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ treno, ___ stazione, ___ Italia, ___ studente", "answers": [["il"], ["la"], ["l'", "l"], ["lo"]], "n": "the train, the station, Italy, the student"},
+    {"kind": "mc", "q": "«problema» is…", "options": ["feminine, because it ends in -a", "masculine, like other -ma nouns of Greek origin", "either"], "answer": 1, "why": "Il problema, i problemi."},
+    {"kind": "match", "q": "Article and noun", "pairs": [["lo", "zio"], ["il", "cognome"], ["la", "città"], ["l'", "italiana"]]}
+  ]}
+]}

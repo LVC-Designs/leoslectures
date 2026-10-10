@@ -1,0 +1,23 @@
+{"id": "subject-pronouns", "title": "Subject pronouns", "category": "Pronouns", "rule": "io, tu, lui, lei, Lei, noi, voi, loro. The verb ending already shows the person, so the pronoun is used mainly for emphasis or contrast.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["Pronoun", "English", "Notes"], "rows": [["io", "I", "lower-case, even at the start of a sentence it is just io"], ["tu", "you (singular, informal)", "friends, family, children, people who offered it"], ["lui", "he", ""], ["lei", "she", ""], ["Lei", "you (singular, formal)", "capital L in writing; verb in the third person, like lui / lei"], ["noi", "we", ""], ["voi", "you (plural)", "any group, formal or informal, in everyday Italian"], ["loro", "they", "men, women or mixed"], ["Loro", "you (plural, very formal)", "rare: hotels, old-fashioned service. Recognise it, don't use it"]], "speak": [0], "rowhead": true},
+  {"type": "subhead", "text": "When the pronoun is used"},
+  {"type": "examples", "items": [
+    {"t": "Sono di Toronto.", "n": "I'm from Toronto.", "note": "normal: no pronoun"},
+    {"t": "Io sono di Toronto, lei è di Bari.", "n": "I am from Toronto, she is from Bari.", "note": "contrast between two people"},
+    {"t": "Chi è? — Sono io.", "n": "Who is it? — It's me.", "note": "emphasis, identification"},
+    {"t": "Anche io sono stanco.", "n": "I'm tired too.", "note": "after anche (also) and neanche (not even) the pronoun is needed"},
+    {"t": "E tu? E Lei?", "n": "And you?", "note": "alone, without a verb"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "egli, ella, esso, essa", "text": "Old grammar books list *egli* (he), *ella* (she), *esso / essa* (it) and *essi / esse* (they). You will meet them in literature and in formal writing; nobody says them. Spoken and modern written Italian use [[lui]], [[lei]], [[loro]]."},
+  {"type": "callout", "kind": "note", "title": "There is no \"it\"", "text": "Italian has no subject pronoun for things. [[Il treno è in ritardo.|The train is late.]] and then simply [[È in ritardo.|It is late.]]: the verb alone carries \"it\"."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Io sono Luca, io sono canadese, io sono di Toronto.", "right": "Sono Luca, sono canadese, sono di Toronto.", "why": "Dropping the pronoun is the default, not an option."},
+    {"wrong": "lei è canadese? (formal, in writing)", "right": "Lei è canadese?", "why": "Capital L marks the formal you in writing."},
+    {"wrong": "Esso è in ritardo.", "right": "È in ritardo.", "why": "No pronoun for things; the verb is enough."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "mc", "q": "«Siamo di Roccamarina.» Which pronoun is implied?", "options": ["noi", "voi", "loro"], "answer": 0, "why": "-iamo is the noi ending."},
+    {"kind": "fill", "q": "Chi è? — Sono ___!", "answers": [["io"]], "n": "Who is it? — It's me!"},
+    {"kind": "tf", "q": "In everyday spoken Italian, a group of people is addressed as voi, whether formal or not.", "answer": true, "why": "Loro as a formal plural survives only in very formal service situations."}
+  ]}
+]}
