@@ -1,0 +1,22 @@
+{"id": "indefinite-article", "title": "The indefinite article: un, uno, una, un'", "category": "Nouns and articles", "rule": "A / an. Masculine: un, or uno before s + consonant, z, gn, ps, pn, x, y. Feminine: una, or un' before a vowel. No plural: the partitive (dei, delle) does that job later.", "units": ["02"], "blocks": [
+  {"type": "table", "head": ["Definite", "Indefinite", "Before", "Examples"], "rows": [["il", "un", "masculine + consonant", "un letto, un tavolo, un portone"], ["l' (m.)", "un", "masculine + vowel", "un armadio, un appartamento, un amico"], ["lo", "uno", "masculine + s+cons., z, gn, ps, pn, x, y", "uno stendino, uno zaino, uno gnocco, uno psicologo, uno yogurt"], ["la", "una", "feminine + consonant", "una stanza, una chiave, una zia"], ["l' (f.)", "un'", "feminine + vowel", "un'asciugatrice, un'amica, un'ora, un'idea"]], "speak": [3], "rowhead": true},
+  {"type": "callout", "kind": "why", "title": "The apostrophe test", "text": "Un' is una with its a dropped, so only feminine nouns ever get it. [[un amico]] (m.) has no apostrophe because un has lost nothing; [[un'amica]] (f.) has one. If you see un' before a word, the word is feminine."},
+  {"type": "subhead", "text": "Uno is also the number one"},
+  {"type": "examples", "items": [
+    {"t": "C'è un bagno. / C'è un solo bagno.", "n": "There's a bathroom. / There's only one bathroom.", "note": "un = a, and also one; solo makes it \"only one\""},
+    {"t": "Quanti terrazzi? — Uno.", "n": "How many terraces? — One.", "note": "alone, the number is uno, feminine una"},
+    {"t": "una camera, una sola", "n": "one bedroom, just one"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "When Italian leaves the article out", "text": "Professions and nationalities after essere: [[Sono pasticcera.|I'm a pastry chef.]], [[È canadese.|He's a Canadian.]] English puts a / an there; Italian doesn't. Unit 4 returns to this."},
+  {"type": "mistakes", "items": [
+    {"wrong": "un stendino", "right": "uno stendino", "why": "s + consonant → uno."},
+    {"wrong": "un'armadio", "right": "un armadio", "why": "Masculine: no apostrophe."},
+    {"wrong": "una amica", "right": "un'amica", "why": "Feminine + vowel → un'."},
+    {"wrong": "Sono un pasticcere.", "right": "Sono pasticcere.", "why": "No article with a profession after essere."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ appartamento · ___ scaldabagno · ___ sedia · ___ amica", "answers": [["un"], ["uno"], ["una"], ["un'"]], "n": "a flat · a water heater · a chair · a (female) friend"},
+    {"kind": "mc", "q": "«un'idea» is…", "options": ["feminine, because of the apostrophe", "masculine, because of un", "either"], "answer": 0, "why": "The apostrophe gives it away: idea is feminine (l'idea, le idee)."},
+    {"kind": "translate", "q": "There's a table and a chair.", "answers": ["C'è un tavolo e una sedia", "Ci sono un tavolo e una sedia", "C'è un tavolo e c'è una sedia"]}
+  ]}
+]}

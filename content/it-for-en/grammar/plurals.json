@@ -1,0 +1,20 @@
+{"id": "plurals", "title": "Plurals: nouns, articles and adjectives", "category": "Nouns and articles", "rule": "-o → -i, -a → -e, -e → -i. Articles: il → i, lo and l' (m.) → gli, la and l' (f.) → le. Adjectives take the same endings. Accented and foreign nouns do not change.", "units": ["02"], "blocks": [
+  {"type": "table", "caption": "Regular plurals", "head": ["Ending", "Singular", "Plural"], "rows": [["-o → -i", "il letto · lo stendino · l'armadio", "i letti · gli stendini · gli armadi"], ["-a → -e", "la stanza · la sedia · l'amica", "le stanze · le sedie · le amiche"], ["-e → -i (m.)", "il portone · il nome · l'ascensore", "i portoni · i nomi · gli ascensori"], ["-e → -i (f.)", "la chiave · la stazione · l'asciugatrice", "le chiavi · le stazioni · le asciugatrici"]], "speak": [1, 2], "rowhead": true},
+  {"type": "table", "caption": "Invariable nouns", "head": ["Type", "Examples"], "rows": [["accented final vowel", "la città / le città · il caffè / i caffè · l'università / le università"], ["foreign words", "il bar / i bar · il film / i film · lo sport / gli sport · il computer / i computer"], ["one syllable", "il re / i re"], ["abbreviations", "la foto / le foto · la moto / le moto · il cinema / i cinema · la bici / le bici"], ["compounds in -stoviglie, -mano etc.", "la lavastoviglie / le lavastoviglie"]], "speak": [1], "compact": true},
+  {"type": "table", "caption": "The definite article, singular → plural", "head": ["Singular", "Plural", "Before"], "rows": [["il", "i", "masculine + consonant"], ["lo", "gli", "masculine + s+cons., z, gn, ps, y"], ["l' (m.)", "gli", "masculine + vowel"], ["la", "le", "feminine + consonant"], ["l' (f.)", "le", "feminine + vowel"]], "speak": [0, 1], "rowhead": true, "note": "Gli before a vowel is written in full: gli armadi, gli amici (gl'amici is old-fashioned)."},
+  {"type": "subhead", "text": "Spelling in the plural"},
+  {"type": "table", "head": ["Pattern", "Singular → plural", "Note"], "rows": [["-io (unstressed i)", "armadio → armadi · figlio → figli · orologio → orologi", "one i"], ["-io (stressed i)", "zio → zii", "two i's because the i carries the stress"], ["-co / -go (stress on the previous syllable)", "tedesco → tedeschi · albergo → alberghi · stanco → stanchi", "h keeps the hard sound"], ["-co / -go (stress two back)", "medico → medici · amico → amici", "no h, sound goes soft; amico is the famous exception"], ["-ca / -ga", "amica → amiche · riga → righe", "always h"], ["-cia / -gia", "arancia → arance · spiaggia → spiagge · valigia → valigie (or valige)", "unit 7"]], "speak": [1]},
+  {"type": "subhead", "text": "Adjectives"},
+  {"type": "table", "head": ["", "m. sing.", "f. sing.", "m. pl.", "f. pl."], "rows": [["-o", "nuovo", "nuova", "nuovi", "nuove"], ["-co", "stanco", "stanca", "stanchi", "stanche"], ["-e", "grande", "grande", "grandi", "grandi"]], "speak": [1, 2, 3, 4], "rowhead": true, "note": "A mixed group is masculine plural: Dora e Pasquale sono stanchi. Two feminine nouns: feminine plural: le sedie e le finestre sono vecchie."},
+  {"type": "mistakes", "items": [
+    {"wrong": "i armadi, i zii", "right": "gli armadi, gli zii", "why": "Masculine + vowel or z → gli."},
+    {"wrong": "le stanze è piccola", "right": "le stanze sono piccole", "why": "Verb and adjective agree with the plural noun."},
+    {"wrong": "i cafè, le cittàs", "right": "i caffè, le città", "why": "Accented nouns do not change; and caffè has two f's."},
+    {"wrong": "gli amichi", "right": "gli amici", "why": "Amico → amici, soft c. (But amica → amiche.)"}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "l'amico → gli ___ · l'amica → le ___ · lo zio → gli ___", "answers": [["amici"], ["amiche"], ["zii"]], "n": "the friend(s) · the (female) friend(s) · the uncle(s)"},
+    {"kind": "fill", "q": "Il caffè è caldo. → I ___ sono ___.", "answers": [["caffè"], ["caldi"]], "n": "The coffee is hot. → The coffees are hot."},
+    {"kind": "fill", "q": "Dora e Chiara sono ___ (stanco).", "answers": [["stanche"]], "n": "Dora and Chiara are tired."}
+  ]}
+]}

@@ -1,0 +1,24 @@
+{"id": "avere", "title": "The verb avere (to have)", "category": "Verbs", "rule": "ho, hai, ha, abbiamo, avete, hanno. Possession, and a set of states English expresses with \"to be\". This page grows as the tenses are taught.", "units": ["02"], "blocks": [
+  {"type": "conjugation", "verb": "avere", "tense": "presente", "caption": "[[avere|to have]] · presente indicativo"},
+  {"type": "callout", "kind": "note", "title": "The silent h", "text": "Four forms begin with h: [[ho]], [[hai]], [[ha]], [[hanno]]. The h is never pronounced; it exists to tell them apart on paper from [[o|or]], [[ai|to the]], [[a|to]] and [[anno|year]]."},
+  {"type": "subhead", "text": "What avere is for"},
+  {"type": "table", "head": ["Use", "Example"], "rows": [["possession", "Ho una moka. Dora ha una casa."], ["age (unit 4)", "Ho trent'anni. Quanti anni hai?"], ["physical states", "Ho fame / sete / caldo / freddo / sonno."], ["feelings and needs", "Ho paura. Ho fretta. Ho bisogno di un caffè."], ["being right / wrong", "Hai ragione. Ho torto."], ["auxiliary in the passato prossimo (unit 8)", "Ho capito. Ho sentito. Abbiamo mangiato."]], "speak": [1]},
+  {"type": "table", "caption": "Avere where English uses \"to be\"", "head": ["Italian", "English", "Literally"], "rows": [["avere fame", "to be hungry", "to have hunger"], ["avere sete", "to be thirsty", "to have thirst"], ["avere caldo", "to be hot", "to have heat"], ["avere freddo", "to be cold", "to have cold"], ["avere sonno", "to be sleepy", "to have sleep"], ["avere paura (di)", "to be afraid (of)", "to have fear"], ["avere fretta", "to be in a hurry", "to have haste"], ["avere ragione / torto", "to be right / wrong", "to have reason / wrong"], ["avere … anni", "to be … years old", "to have … years"], ["avere bisogno di", "to need", "to have need of"]], "speak": [0], "compact": true},
+  {"type": "examples", "items": [
+    {"t": "Hai la chiave? — Sì, ce l'ho.", "n": "Do you have the key? — Yes, I've got it.", "note": "ce l'ho: the everyday way to say \"I have it\"; pronouns in unit 10"},
+    {"t": "Non abbiamo l'asciugatrice.", "n": "We don't have a dryer."},
+    {"t": "I nonni hanno una casa a Roccamarina.", "n": "The grandparents have a house in Roccamarina."},
+    {"t": "Ho freddo. Hai fame? Ha fretta.", "n": "I'm cold. Are you hungry? He / she is in a hurry."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Sono fame.", "right": "Ho fame.", "why": "States of the body take avere."},
+    {"wrong": "Ho trenta anni. (spoken as two words)", "right": "Ho trent'anni.", "why": "Written both ways, but spoken with elision: trent'anni."},
+    {"wrong": "Avete ragione, voi.", "right": "Avete ragione.", "why": "Not wrong, but the pronoun at the end adds emphasis you may not want."},
+    {"wrong": "A un cane. O una casa.", "right": "Ha un cane. Ho una casa.", "why": "Without the h, these are prepositions and conjunctions."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "avere", "tense": "presente", "n": "to have", "answers": ["ho", "hai", "ha", "abbiamo", "avete", "hanno"]},
+    {"kind": "fill", "q": "Dora e Pasquale ___ sessantotto e settantadue anni.", "answers": [["hanno"]], "n": "Dora and Pasquale are sixty-eight and seventy-two."},
+    {"kind": "translate", "q": "I'm thirsty and I'm in a hurry.", "answers": ["Ho sete e ho fretta", "Ho sete e fretta"]}
+  ]}
+]}

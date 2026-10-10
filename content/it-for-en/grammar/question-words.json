@@ -1,0 +1,21 @@
+{"id": "question-words", "title": "Question words", "category": "Sentences", "rule": "chi, che cosa, dove, come, quando, perché, quanto. They go first; the verb follows; a preposition stays attached in front (di dove, con chi, a che ora).", "units": ["01", "02"], "blocks": [
+  {"type": "table", "head": ["", "English", "Example", "Note"], "rows": [["chi", "who", "Chi è? Con chi sei?", "invariable; with prepositions: di chi (whose), a chi, con chi"], ["che cosa · cosa · che", "what", "Che cos'è? Cosa c'è? Che fai?", "three forms, same meaning; che cos'è / cos'è before è"], ["dove", "where", "Dov'è il bagno? Dove sono le chiavi? Di dove sei?", "dov'è before è"], ["come", "how; what … like", "Come stai? Com'è la casa? Come ti chiami?", "com'è before è"], ["quando", "when", "Quando arriva Chiara?", ""], ["perché", "why; because", "Perché sei qui? — Perché sono stanco.", "the same word asks and answers"], ["quanto / quanta / quanti / quante", "how much / how many", "Quanto costa? Quanta acqua? Quanti bidoni? Quante stanze?", "agrees like an adjective; quanto before a verb is invariable"], ["quale / quali", "which", "Quale chiave? Quali stanze?", "qual è (no apostrophe) before è"]], "speak": [2], "rowhead": true},
+  {"type": "subhead", "text": "Word order"},
+  {"type": "examples", "items": [
+    {"t": "Dov'è Dora? / Dove è Dora?", "n": "Where is Dora?", "note": "elided form preferred"},
+    {"t": "Di dove sei? Di dov'è Lei?", "n": "Where are you from?", "note": "the preposition goes first with the question word"},
+    {"t": "Quante stanze ci sono? Quanto costa l'affitto?", "n": "How many rooms are there? How much is the rent?"},
+    {"t": "Qual è il tuo cognome?", "n": "What's your surname?", "note": "qual è: no apostrophe, because qual is a form in its own right"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Dove sei di? Chi sei con?", "right": "Di dove sei? Con chi sei?", "why": "Italian never strands a preposition at the end."},
+    {"wrong": "Qual'è?", "right": "Qual è?", "why": "A classic even among Italians: qual is truncated, not elided, so no apostrophe."},
+    {"wrong": "Quanti stanze? Quante bidoni?", "right": "Quante stanze? Quanti bidoni?", "why": "Quanto agrees with the noun."},
+    {"wrong": "Che cosa è questo?", "right": "Che cos'è questo?", "why": "Elide before è."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ è il tuo nome? ___ sei? ___ stanze ci sono?", "answers": [["Qual"], ["Di dove", "Chi"], ["Quante"]], "n": "What's your name? Where are you from? How many rooms are there?"},
+    {"kind": "mc", "q": "«With whom are you?»", "options": ["Con chi sei?", "Chi sei con?", "Chi con sei?"], "answer": 0, "why": "Preposition + question word, together, first."},
+    {"kind": "order", "answer": "Quanto costa l'affitto?", "n": "How much is the rent?"}
+  ]}
+]}

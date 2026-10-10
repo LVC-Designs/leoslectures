@@ -1,0 +1,28 @@
+{"id": "ce-ci-sono", "title": "c'è, ci sono, ecco", "category": "Sentences", "rule": "C'è = there is; ci sono = there are. Negative with non; question by intonation. Ecco presents what is in front of you.", "units": ["02"], "blocks": [
+  {"type": "table", "head": ["", "Singular", "Plural"], "rows": [["affirmative", "C'è un terrazzo.", "Ci sono due bagni."], ["negative", "Non c'è il microonde.", "Non ci sono finestre."], ["question", "C'è l'ascensore?", "Ci sono bidoni nel cortile?"], ["short answers", "Sì, c'è. / No, non c'è.", "Sì, ci sono. / No, non ci sono."]], "speak": [1, 2], "rowhead": true},
+  {"type": "subhead", "text": "Three uses"},
+  {"type": "examples", "items": [
+    {"t": "In bagno c'è la lavatrice.", "n": "In the bathroom there's the washing machine.", "note": "existence, presence"},
+    {"t": "C'è Dora? — No, non c'è. Torna alle cinque.", "n": "Is Dora in? — No, she isn't. She's back at five.", "note": "being present, being at home"},
+    {"t": "Che c'è? — Niente, sono stanco.", "n": "What's the matter? — Nothing, I'm tired.", "note": "che c'è? = what's up, what's wrong"},
+    {"t": "Non c'è problema.", "n": "No problem.", "note": "a fixed phrase you will say daily"}
+  ]},
+  {"type": "subhead", "text": "ecco"},
+  {"type": "examples", "items": [
+    {"t": "Ecco la casa. Ecco le chiavi.", "n": "Here's the flat. Here are the keys.", "note": "the same word for singular and plural"},
+    {"t": "Eccomi! Eccolo! Eccola!", "n": "Here I am! Here he / it is! Here she / it is!", "note": "with pronouns attached: unit 10"},
+    {"t": "Ecco perché.", "n": "That's why."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "c'è vs è, again", "text": "[[C'è un bagno|There is a bathroom]] introduces something new. [[Il bagno è piccolo|The bathroom is small]] describes something known. First c'è, then è: the same order as English \"there is… it is…\"."},
+  {"type": "mistakes", "items": [
+    {"wrong": "C'è tre stanze.", "right": "Ci sono tre stanze.", "why": "Plural noun, plural verb."},
+    {"wrong": "Ci è un problema.", "right": "C'è un problema.", "why": "Always contracted."},
+    {"wrong": "Ecco è la casa.", "right": "Ecco la casa.", "why": "Ecco stands alone, without a verb."},
+    {"wrong": "Là è una moka. (pointing)", "right": "Ecco una moka. / C'è una moka.", "why": "\"There is\" in the sense of pointing is ecco; in the sense of existing, c'è."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Nel cortile ___ quattro bidoni e ___ un albero.", "answers": [["ci sono"], ["c'è"]], "n": "In the courtyard there are four bins and there's a tree."},
+    {"kind": "reply", "line": {"t": "C'è Pasquale?", "n": "Is Pasquale in?"}, "options": ["No, non c'è.", "No, non è.", "No, non ci sono."], "answer": 0, "why": "One person, present or not: c'è / non c'è."},
+    {"kind": "translate", "q": "Here are the keys.", "answers": ["Ecco le chiavi"]}
+  ]}
+]}

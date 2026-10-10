@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 6 (unit 1) · EN: 5 (unit 1) |
+| Grammar reference pages | IT: 12 (units 1–2) · EN: 5 (unit 1) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -23,7 +23,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | # | Unit | Level | State |
 |---|---|---|---|
 | 1 | Benvenuto / Benvenuta a Roccamarina | A1 | ● 2026-10-10 |
-| 2 | La casa di Dora | A1 | ☐ |
+| 2 | La casa di Dora | A1 | ● 2026-10-10 |
 | 3 | Al Bar del Corso | A1 | ☐ |
 | 4 | La famiglia Ferrante | A1 | ☐ |
 | 5 | In giro per il paese | A1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 2 · La casa di Dora.**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 2 · The house on Nairn Avenue.**
 
 ## Session log
 
+- **2026-10-10 (3)** · Italian track Unit 2 written (2 scenes, 40 words, 6 grammar points + 6 reference pages, c/g pronunciation, 40 exercises, culture, summary). Unit 1 'dammi del tu' note and translation fixed after review. Build, check, tests and headless audit pass. Committed.
 - **2026-10-10 (2)** · English track Unit 1 written (2 scenes, 42 words, 6 grammar points + 5 reference pages, pronunciation, 40 exercises, culture, summary); conjugation block now shows +/−/? columns for English. Build, check, tests and headless audit as Luca and as Lucia pass. Committed.
 - **2026-10-10** · Syllabi approved. Italian track Unit 1 written (2 scenes, 40 words, 6 grammar points + 6 reference pages, pronunciation, 40 exercises, culture, summary); build, check, unit tests and headless audit as Luca and as Lucia pass. Committed.
 - **2026-10-09** · Repo created. Build system ported from the private project and rewritten for two tracks, i18n and Luca/Lucia variants. Engine written: renderer, exercise engine (11 kinds, accent-tolerant grading, variant-aware), TTS with per-language voices, flashcards (SRS), conjugators (IT rule-based + irregulars; EN spelling rules + irregulars), conjugation trainer with SRS, glossary, grammar index, phrasebook, placement test, settings, bilingual landing. Both syllabi drafted. Stopped for syllabus review before writing any unit.

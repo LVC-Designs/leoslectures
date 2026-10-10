@@ -21,6 +21,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** subject-pronouns, essere, nouns-and-definite-article, adjective-agreement, questions-and-negation, tu-and-lei.
 - **Originality:** the two scenes (the platform with Dora's misspelled sign; the neighbour Pasquale at the door), all 40 vocabulary examples, all tables, all 40 exercises and the cultural notes were written for this project. No source text was consulted. The "Living there" notes describe general Italian customs (greetings by time of day, tu/Lei, titles, cheek kisses, the "americano" label for returning emigrants' grandchildren) from general knowledge.
 
+#### Unit 2 · La casa di Dora (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken production: describe where one lives in simple phrases; spoken interaction: ask and answer simple questions about objects and places, say what one has; listening: understand simple instructions and familiar words about everyday surroundings; reading: understand short simple notices (house rules, rubbish calendar); writing: write simple phrases about where one lives.
+- **Grammar:** *avere* (present; avere fame/sete/caldo/freddo); *c'è / ci sono*, *ecco*; indefinite article (un, uno, una, un'); regular plurals of nouns, definite articles (i, gli, le) and adjectives, invariable nouns, mixed-group agreement; question words (che cos'è, dov'è, quanti, com'è); numbers 20–100; hard and soft c/g.
+- **Reference pages added:** avere, ce-ci-sono, indefinite-article, plurals, question-words, numbers.
+- **Originality:** the two scenes (Dora shows the flat; the three rules of the building, with Pasquale's "Ho sentito!" from downstairs), all 40 vocabulary examples, tables, 40 exercises and the cultural notes (lease types, deposit, spese condominiali, bidet, shutters, drying racks, waste sorting, quiet hours, portone / citofono / pianerottolo) were written for this project from general knowledge of Italian housing.
+
 ### English for Italian speakers (`content/en-for-it/`)
 
 #### Unit 1 · Welcome to Canada (A1) · written 2026-10-10

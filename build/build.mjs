@@ -95,7 +95,7 @@ function trackCtx(track) {
     uid(prefix) { this.counters[prefix] = (this.counters[prefix] || 0) + 1; return `${prefix}-${this.unit?.id || 'p'}-${this.sectionId || 'x'}-${this.counters[prefix]}`; },
   };
 }
-const sub = (ctx, extra) => ({ ...ctx, counters: {}, exercises: 0, ...extra });
+const sub = (ctx, extra) => ({ ...ctx, counters: {}, exercises: 0, vocab: [], grammar: [], ...extra });
 
 /* ---------- pages ---------- */
 function unitPage(ctx0, U, course, idx, built) {

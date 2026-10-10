@@ -1,0 +1,329 @@
+{
+  "id": "02",
+  "level": "A1",
+  "title": "La casa di Dora",
+  "subtitle": "Dora's house",
+  "intro": "Two rooms, a terrace, a bidet, no dryer, and a water heater with a personality. In this unit you learn to describe a home and say what is in it, what you have and what there is, and to ask the two questions you need in every new place: *che cos'è?* and *dov'è?*",
+  "objectives": [
+    "Name the rooms of a home and the things in them, with their articles",
+    "Say what you have with [[avere|to have]] and what there is with [[c'è|there is]] and [[ci sono|there are]]",
+    "Use the indefinite article [[un, uno, una, un']] and make nouns, articles and adjectives plural",
+    "Ask [[che cos'è?|what is it?]], [[dov'è?|where is it?]], [[quanti?|how many?]]",
+    "Count from 20 to 100"
+  ],
+  "canDo": [
+    "A1 · Spoken production: can describe where they live in simple phrases.",
+    "A1 · Spoken interaction: can ask and answer simple questions about objects and places, and indicate what they have and need.",
+    "A1 · Listening: can understand simple instructions and recognise familiar words about everyday surroundings.",
+    "A1 · Reading: can understand short, simple notices (house rules, rubbish calendar).",
+    "A1 · Writing: can write simple phrases about where they live."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Due stanze e un terrazzo",
+      "intro": "Dora shows the flat, then explains the rules of the building. Listen for every [[c'è]] and [[non c'è]]: Italian homes are described by what there is and what there isn't.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-casa", "title": "La casa", "setting": "Via delle Rose 12, secondo piano. Dora apre la porta con una chiave grande.", "register": "informale", "lines": [
+          {"who": "Dora", "t": "Ecco la casa. È piccola, ma c'è tutto.", "n": "Here's the flat. It's small, but it has everything."},
+          {"who": "hero", "t": "È bella! Quante stanze ci sono?", "n": "It's lovely! How many rooms are there?"},
+          {"who": "Dora", "t": "Due stanze, una cucina e un bagno. E c'è un terrazzo.", "n": "Two rooms, a kitchen and a bathroom. And there's a terrace."},
+          {"who": "hero", "t": "Un terrazzo! E… che cos'è questo?", "n": "A terrace! And… what's this?"},
+          {"who": "Dora", "t": "È un bidet. In Canada non c'è il bidet?", "n": "It's a bidet. Is there no bidet in Canada?"},
+          {"who": "hero", "t": "No! A Toronto non c'è.", "n": "No! Not in Toronto."},
+          {"who": "Dora", "t": "Qui c'è sempre. La cucina: c'è il frigorifero, c'è il forno, non c'è la lavastoviglie.", "n": "Here there always is. The kitchen: there's the fridge, there's the oven, there's no dishwasher."},
+          {"who": "hero", "t": "E l'asciugatrice?", "n": "And the dryer?"},
+          {"who": "Dora", "t": "L'asciugatrice? C'è il sole! Hai uno stendino sul terrazzo.", "n": "The dryer? There's the sun! You have a drying rack on the terrace.", "note": "Uno stendino: masculine nouns starting with s + consonant take uno, like lo studente."},
+          {"who": "hero", "t": "Ho capito. E questa è la moka?", "n": "Got it. And is this the moka?"},
+          {"who": "Dora", "t": "Sì. Hai una moka, hai le tazzine, hai tutto. Il caffè lo porto io.", "n": "Yes. You have a moka, you have the little cups, you have everything. I'll bring the coffee.", "note": "Lo porto io: \"I bring it\", with io at the end for emphasis. The pronoun lo comes in unit 10."},
+          {"who": "hero", "t": {"m": "Grazie, Dora. Sono fortunato.", "f": "Grazie, Dora. Sono fortunata.", "note": "Fortunato / fortunata (lucky) agrees with the speaker, like stanco / stanca in unit 1."}, "n": "Thank you, Dora. I'm lucky."},
+          {"who": "Dora", "t": "Lo scaldabagno è vecchio. Ha… un carattere.", "n": "The water heater is old. It has… a personality."},
+          {"who": "hero", "t": "Un carattere?", "n": "A personality?"},
+          {"who": "Dora", "t": "Acqua calda la mattina, acqua fredda la sera. Pazienza.", "n": "Hot water in the morning, cold water in the evening. Patience."}
+        ], "notes": [
+          {"phrase": "Ecco.", "note": "Here is / here are / there you go. Ecco la casa, ecco le chiavi, ecco Dora. One word for pointing at anything."},
+          {"phrase": "C'è tutto.", "note": "There's everything, it has everything. The landlady's favourite sentence."},
+          {"phrase": "Ho capito.", "note": "I understand, got it. Literally \"I have understood\": your first passato prossimo, as a fixed phrase."},
+          {"phrase": "Pazienza.", "note": "Oh well, never mind. The word that gets Italy through the day."}
+        ]},
+        {"type": "scene", "id": "dlg-regole", "title": "Le regole del condominio", "setting": "Sul pianerottolo. Dora indica le scale, poi il cortile.", "register": "informale", "lines": [
+          {"who": "Dora", "t": "Allora, tre regole. Uno: i bidoni sono nel cortile. Carta il lunedì, plastica il mercoledì, umido tutti i giorni.", "n": "So, three rules. One: the bins are in the courtyard. Paper on Monday, plastic on Wednesday, food waste every day."},
+          {"who": "hero", "t": "Carta, plastica, umido. C'è un calendario?", "n": "Paper, plastic, food waste. Is there a calendar?"},
+          {"who": "Dora", "t": "È sul frigorifero. Due: dopo le dieci di sera, silenzio. Il professore ha l'orecchio fino.", "n": "It's on the fridge. Two: after ten at night, silence. The professor has a sharp ear."},
+          {"who": "Pasquale", "t": "Ho sentito!", "n": "I heard that!", "note": "From the floor below. Ho sentito, like ho capito, is a past tense you can use now as a phrase."},
+          {"who": "Dora", "t": "Tre: la chiave del portone è una sola. Attenzione.", "n": "Three: there's only one front-door key. Careful."},
+          {"who": "hero", "t": "Ho capito. Dora, quanto costa l'affitto?", "n": "Got it. Dora, how much is the rent?"},
+          {"who": "Dora", "t": {"m": "Quattrocentocinquanta euro al mese, con le spese. Ma oggi no: oggi sei mio ospite.", "f": "Quattrocentocinquanta euro al mese, con le spese. Ma oggi no: oggi sei mia ospite.", "note": "Ospite (guest) is the same word for a man and a woman; the possessive shows the gender: mio ospite / mia ospite."}, "n": "Four hundred and fifty euros a month, bills included. But not today: today you're my guest."}
+        ], "notes": [
+          {"phrase": "Allora…", "note": "So, well, right then. The word Italians use to start anything."},
+          {"phrase": "le spese", "note": "The building charges (spese condominiali): cleaning, lift, lights on the stairs. Con le spese = included."},
+          {"phrase": "quattrocentocinquanta", "note": "450. Numbers above 100 are in unit 3; for now, recognise it."}
+        ], "questions": [
+          {"kind": "tf", "q": "The bins are on the terrace.", "t": "I bidoni sono nel cortile.", "answer": false, "why": "They're in the courtyard: nel cortile."},
+          {"kind": "mc", "q": "When does the building want silence?", "options": ["After ten at night.", "After ten in the morning.", "On Mondays."], "answer": 0, "why": "Dopo le dieci di sera, silenzio."},
+          {"kind": "fill", "q": "La chiave del portone è una ___.", "answers": [["sola"]], "n": "There's only one front-door key."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Stanze e oggetti",
+      "intro": "The rooms, the things in them, and ten adjectives to describe them. Learn every noun with its article: the plural and the agreement of unit 2 both depend on it.",
+      "blocks": [
+        {"type": "vocab", "theme": "La casa", "n": "The home", "items": [
+          {"t": "appartamento", "n": "flat, apartment", "article": "l'", "gender": "m", "plural": "gli appartamenti", "pos": "noun", "ex": {"t": "L'appartamento è al secondo piano.", "n": "The flat is on the second floor."}},
+          {"t": "stanza", "n": "room", "article": "la", "gender": "f", "plural": "le stanze", "pos": "noun", "ex": {"t": "Quante stanze ci sono? — Due.", "n": "How many rooms are there? — Two."}},
+          {"t": "camera", "n": "bedroom", "article": "la", "gender": "f", "plural": "le camere", "pos": "noun", "ex": {"t": "La camera è piccola ma luminosa.", "n": "The bedroom is small but bright."}, "note": "Short for camera da letto. A camera for photos is la macchina fotografica: a false friend in both directions."},
+          {"t": "cucina", "n": "kitchen", "article": "la", "gender": "f", "plural": "le cucine", "pos": "noun", "ex": {"t": "In cucina c'è il forno.", "n": "In the kitchen there's the oven."}},
+          {"t": "bagno", "n": "bathroom", "article": "il", "gender": "m", "plural": "i bagni", "pos": "noun", "ex": {"t": "Il bagno è piccolo. C'è il bidet.", "n": "The bathroom is small. There's a bidet."}},
+          {"t": "soggiorno", "n": "living room", "article": "il", "gender": "m", "plural": "i soggiorni", "pos": "noun", "ex": {"t": "Nel soggiorno c'è un divano vecchio.", "n": "In the living room there's an old sofa."}, "note": "Also il salotto."},
+          {"t": "terrazzo", "n": "terrace", "article": "il", "gender": "m", "plural": "i terrazzi", "pos": "noun", "ex": {"t": "Sul terrazzo c'è lo stendino.", "n": "On the terrace there's the drying rack."}, "note": "A small one is un balcone."},
+          {"t": "porta", "n": "door", "article": "la", "gender": "f", "plural": "le porte", "pos": "noun", "ex": {"t": "La porta è aperta.", "n": "The door is open."}},
+          {"t": "portone", "n": "front door of the building", "article": "il", "gender": "m", "plural": "i portoni", "pos": "noun", "ex": {"t": "La chiave del portone è una sola.", "n": "There's only one key to the front door."}},
+          {"t": "finestra", "n": "window", "article": "la", "gender": "f", "plural": "le finestre", "pos": "noun", "ex": {"t": "Ci sono due finestre grandi.", "n": "There are two big windows."}},
+          {"t": "chiave", "n": "key", "article": "la", "gender": "f", "plural": "le chiavi", "pos": "noun", "ex": {"t": "Ecco le chiavi: casa e portone.", "n": "Here are the keys: flat and front door."}},
+          {"t": "scale", "n": "stairs", "article": "le", "gender": "f", "pos": "noun (pl.)", "ex": {"t": "Non c'è l'ascensore, ci sono le scale.", "n": "There's no lift, there are the stairs."}, "note": "Plural in Italian. One step is un gradino."},
+          {"t": "cortile", "n": "courtyard", "article": "il", "gender": "m", "plural": "i cortili", "pos": "noun", "ex": {"t": "I bidoni sono nel cortile.", "n": "The bins are in the courtyard."}},
+          {"t": "piano", "n": "floor, storey", "article": "il", "gender": "m", "plural": "i piani", "pos": "noun", "ex": {"t": "Dora è al primo piano, io al secondo.", "n": "Dora is on the first floor, I'm on the second."}, "note": "Il piano terra is the ground floor; il primo piano is the floor above it, like British English."}
+        ]},
+        {"type": "vocab", "theme": "In casa", "n": "Around the home", "items": [
+          {"t": "letto", "n": "bed", "article": "il", "gender": "m", "plural": "i letti", "pos": "noun", "ex": {"t": "Il letto è nuovo.", "n": "The bed is new."}},
+          {"t": "tavolo", "n": "table", "article": "il", "gender": "m", "plural": "i tavoli", "pos": "noun", "ex": {"t": "In cucina c'è un tavolo e ci sono quattro sedie.", "n": "In the kitchen there's a table and there are four chairs."}},
+          {"t": "sedia", "n": "chair", "article": "la", "gender": "f", "plural": "le sedie", "pos": "noun", "ex": {"t": "Le sedie sono vecchie ma belle.", "n": "The chairs are old but nice."}},
+          {"t": "armadio", "n": "wardrobe", "article": "l'", "gender": "m", "plural": "gli armadi", "pos": "noun", "ex": {"t": "L'armadio è grande.", "n": "The wardrobe is big."}, "note": "Plural: -io becomes -i, not -ii."},
+          {"t": "divano", "n": "sofa", "article": "il", "gender": "m", "plural": "i divani", "pos": "noun", "ex": {"t": "Il divano è comodo.", "n": "The sofa is comfortable."}},
+          {"t": "frigorifero", "n": "fridge", "article": "il", "gender": "m", "plural": "i frigoriferi", "pos": "noun", "ex": {"t": "Il calendario è sul frigorifero.", "n": "The calendar is on the fridge."}, "note": "Everyone says il frigo."},
+          {"t": "forno", "n": "oven", "article": "il", "gender": "m", "plural": "i forni", "pos": "noun", "ex": {"t": "C'è il forno, non c'è il microonde.", "n": "There's an oven, there's no microwave."}},
+          {"t": "lavatrice", "n": "washing machine", "article": "la", "gender": "f", "plural": "le lavatrici", "pos": "noun", "ex": {"t": "La lavatrice è in bagno.", "n": "The washing machine is in the bathroom."}, "note": "Usually in the bathroom, not the kitchen."},
+          {"t": "lavastoviglie", "n": "dishwasher", "article": "la", "gender": "f", "plural": "le lavastoviglie", "pos": "noun", "ex": {"t": "Non c'è la lavastoviglie.", "n": "There's no dishwasher."}, "note": "Invariable in the plural: compound nouns in -stoviglie don't change."},
+          {"t": "asciugatrice", "n": "dryer", "article": "l'", "gender": "f", "plural": "le asciugatrici", "pos": "noun", "ex": {"t": "L'asciugatrice? C'è il sole!", "n": "The dryer? There's the sun!"}},
+          {"t": "stendino", "n": "drying rack", "article": "lo", "gender": "m", "plural": "gli stendini", "pos": "noun", "ex": {"t": "Hai uno stendino sul terrazzo.", "n": "You have a drying rack on the terrace."}, "note": "Lo / uno / gli: s + consonant."},
+          {"t": "moka", "n": "stovetop coffee maker", "article": "la", "gender": "f", "plural": "le moke", "pos": "noun", "ex": {"t": "La moka è sul fornello.", "n": "The moka is on the stove."}},
+          {"t": "tazzina", "n": "espresso cup", "article": "la", "gender": "f", "plural": "le tazzine", "pos": "noun", "ex": {"t": "Hai sei tazzine.", "n": "You have six little cups."}, "note": "Una tazza is a mug or cup; -ina makes it small."},
+          {"t": "scaldabagno", "n": "water heater", "article": "lo", "gender": "m", "plural": "gli scaldabagni", "pos": "noun", "ex": {"t": "Lo scaldabagno è vecchio.", "n": "The water heater is old."}},
+          {"t": "bidone", "n": "bin", "article": "il", "gender": "m", "plural": "i bidoni", "pos": "noun", "ex": {"t": "Ci sono quattro bidoni: carta, plastica, vetro, umido.", "n": "There are four bins: paper, plastic, glass, food waste."}},
+          {"t": "ascensore", "n": "lift", "article": "l'", "gender": "m", "plural": "gli ascensori", "pos": "noun", "ex": {"t": "Non c'è l'ascensore.", "n": "There's no lift."}}
+        ]},
+        {"type": "vocab", "theme": "Com'è?", "n": "What's it like?", "intro": "Ten adjectives. Those in -o have four forms, those in -e have two.", "items": [
+          {"t": "grande", "n": "big", "pos": "adj.", "forms": "grandi", "ex": {"t": "La cucina è grande.", "n": "The kitchen is big."}},
+          {"t": "piccolo", "n": "small", "pos": "adj.", "forms": "piccola, piccoli, piccole", "ex": {"t": "Le stanze sono piccole.", "n": "The rooms are small."}},
+          {"t": "nuovo", "n": "new", "pos": "adj.", "forms": "nuova, nuovi, nuove", "ex": {"t": "Il letto è nuovo.", "n": "The bed is new."}},
+          {"t": "vecchio", "n": "old", "pos": "adj.", "forms": "vecchia, vecchi, vecchie", "ex": {"t": "Lo scaldabagno è vecchio.", "n": "The water heater is old."}},
+          {"t": "bello", "n": "beautiful, nice", "pos": "adj.", "forms": "bella, belli, belle", "ex": {"t": "Che bella casa!", "n": "What a lovely house!"}, "note": "Before a noun bello changes like the article (bel, bell', begli): unit 10."},
+          {"t": "brutto", "n": "ugly, bad", "pos": "adj.", "forms": "brutta, brutti, brutte", "ex": {"t": "Il divano è brutto ma comodo.", "n": "The sofa is ugly but comfortable."}},
+          {"t": "caldo", "n": "hot, warm", "pos": "adj.", "forms": "calda, caldi, calde", "ex": {"t": "Acqua calda la mattina.", "n": "Hot water in the morning."}},
+          {"t": "freddo", "n": "cold", "pos": "adj.", "forms": "fredda, freddi, fredde", "ex": {"t": "Acqua fredda la sera.", "n": "Cold water in the evening."}},
+          {"t": "luminoso", "n": "bright (of a room)", "pos": "adj.", "forms": "luminosa, luminosi, luminose", "ex": {"t": "La camera è luminosa.", "n": "The bedroom is bright."}},
+          {"t": "comodo", "n": "comfortable", "pos": "adj.", "forms": "comoda, comodi, comode", "ex": {"t": "Le sedie non sono comode.", "n": "The chairs aren't comfortable."}}
+        ]},
+        {"type": "subhead", "text": "I numeri da 20 a 100"},
+        {"type": "grid", "cols": 6, "items": [
+          {"big": "20", "small": "venti"}, {"big": "21", "small": "ventuno"}, {"big": "22", "small": "ventidue"}, {"big": "23", "small": "ventitré"}, {"big": "28", "small": "ventotto"}, {"big": "30", "small": "trenta"},
+          {"big": "31", "small": "trentuno"}, {"big": "40", "small": "quaranta"}, {"big": "50", "small": "cinquanta"}, {"big": "60", "small": "sessanta"}, {"big": "70", "small": "settanta"}, {"big": "80", "small": "ottanta"},
+          {"big": "90", "small": "novanta"}, {"big": "99", "small": "novantanove"}, {"big": "100", "small": "cento"}
+        ]},
+        {"type": "callout", "kind": "memo", "title": "How the tens work", "text": "- Tens + units are written as one word: [[trentadue|32]], [[cinquantasette|57]].\n- Before **uno** and **otto** the ten drops its final vowel: [[ventuno]], [[ventotto]], [[quarantuno]], [[quarantotto]].\n- **Tre** takes an accent at the end of a compound: [[ventitré]], [[quarantatré]]. Alone it has none: [[tre]].\n- [[cento]] is 100, and it never changes: [[duecento]] (unit 3)."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Avere, c'è, un e il plurale",
+      "intro": "Six pieces, all needed to say «Ho una casa piccola, ci sono due stanze e un terrazzo». Reference pages are linked at the end of each one.",
+      "blocks": [
+        {"type": "grammar", "id": "g-avere", "title": "The verb avere (to have)", "category": "Verbs", "rule": "Ho, hai, ha, abbiamo, avete, hanno. The h is silent and only written: it tells ho (I have) from o (or) and ha (has) from a (to).", "ref": "avere", "blocks": [
+          {"type": "conjugation", "verb": "avere", "tense": "presente", "caption": "[[avere|to have]] · presente"},
+          {"type": "examples", "items": [
+            {"t": "Ho una moka e sei tazzine.", "n": "I have a moka and six little cups.", "note": "possession"},
+            {"t": "Hai la chiave del portone?", "n": "Do you have the front-door key?"},
+            {"t": "Dora ha una casa a via delle Rose.", "n": "Dora has a house on Via delle Rose."},
+            {"t": "Non abbiamo la lavastoviglie.", "n": "We don't have a dishwasher."},
+            {"t": "Ho fame. Hai sete? Ha freddo.", "n": "I'm hungry. Are you thirsty? He / she is cold.", "note": "states that English says with \"to be\""}
+          ]},
+          {"type": "table", "caption": "Avere where English has \"to be\"", "head": ["Italian", "English"], "rows": [["avere fame", "to be hungry"], ["avere sete", "to be thirsty"], ["avere caldo", "to be hot"], ["avere freddo", "to be cold"], ["avere fretta", "to be in a hurry"], ["avere ragione", "to be right"], ["avere … anni", "to be … years old (unit 4)"]], "speak": [0], "compact": true},
+          {"type": "mistakes", "items": [
+            {"wrong": "Io ho capito, io ho fame, io ho la chiave.", "right": "Ho capito, ho fame, ho la chiave.", "why": "As with essere: the ending carries the person, drop the pronoun."},
+            {"wrong": "Sono fame. Sono freddo.", "right": "Ho fame. Ho freddo.", "why": "Hunger, thirst, heat and cold are things you have in Italian. Sono freddo means \"I am a cold person\"."},
+            {"wrong": "O una casa. A un cane.", "right": "Ho una casa. Ha un cane.", "why": "The silent h is the whole spelling of the verb."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-ce", "title": "c'è and ci sono: there is, there are", "category": "Sentences", "rule": "C'è before a singular, ci sono before a plural. Negative: non c'è, non ci sono. Question: same words, rising voice. Ecco points at what is there.", "ref": "ce-ci-sono", "blocks": [
+          {"type": "table", "head": ["", "Singular", "Plural"], "rows": [["there is / are", "C'è un terrazzo.", "Ci sono due stanze."], ["there isn't / aren't", "Non c'è l'ascensore.", "Non ci sono tazzine."], ["is / are there…?", "C'è un calendario?", "Ci sono quattro bidoni?"], ["here is / are", "Ecco la chiave.", "Ecco le chiavi."]], "speak": [1, 2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "In cucina c'è il forno, non c'è il microonde.", "n": "In the kitchen there's the oven, there's no microwave."},
+            {"t": "Quante finestre ci sono? — Ce ne sono due.", "n": "How many windows are there? — There are two (of them).", "note": "Ce ne sono: recognise it; ne is unit 14."},
+            {"t": "C'è Dora? — No, non c'è.", "n": "Is Dora there (in)? — No, she isn't.", "note": "c'è also means \"is in\", \"is here\""},
+            {"t": "Ecco il bagno. Ecco la moka. Eccomi!", "n": "Here's the bathroom. Here's the moka. Here I am!"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "c'è vs è", "text": "[[C'è un bidet.|There is a bidet.]] says that it exists. [[Il bidet è in bagno.|The bidet is in the bathroom.]] says where it is. English makes the same split with \"there is\" and \"is\". In both languages, new things arrive with *there is* and known things with *is*."},
+          {"type": "mistakes", "items": [
+            {"wrong": "C'è due stanze.", "right": "Ci sono due stanze.", "why": "Plural → ci sono."},
+            {"wrong": "È un terrazzo. (to say the flat has one)", "right": "C'è un terrazzo.", "why": "To say something exists, use c'è. È un terrazzo answers \"what is it?\"."},
+            {"wrong": "Non ci è l'ascensore.", "right": "Non c'è l'ascensore.", "why": "Ci + è always contracts to c'è."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-un", "title": "The indefinite article: un, uno, una, un'", "category": "Nouns and articles", "rule": "A / an: un for masculine nouns, uno for masculine nouns starting with s + consonant, z, gn, ps, y; una for feminine nouns, un' for feminine nouns starting with a vowel.", "ref": "indefinite-article", "blocks": [
+          {"type": "table", "head": ["", "Before", "Examples", "Matches"], "rows": [["un", "masculine, consonant or vowel", "un letto, un tavolo, un armadio, un appartamento", "il, l'"], ["uno", "masculine + s+consonant, z, gn, ps, y", "uno stendino, uno scaldabagno, uno zaino, uno gnocco", "lo"], ["una", "feminine + consonant", "una stanza, una chiave, una cucina", "la"], ["un'", "feminine + vowel", "un'asciugatrice, un'amica, un'ora", "l'"]], "speak": [2], "rowhead": true, "note": "The apostrophe is the test of gender: un amico (m.), un'amica (f.)."},
+          {"type": "examples", "items": [
+            {"t": "C'è un terrazzo e c'è un bagno.", "n": "There's a terrace and there's a bathroom."},
+            {"t": "Hai uno stendino.", "n": "You have a drying rack."},
+            {"t": "Una cucina, una camera, una chiave.", "n": "A kitchen, a bedroom, a key."},
+            {"t": "Non c'è un'asciugatrice.", "n": "There isn't a dryer."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "un stendino, un zaino", "right": "uno stendino, uno zaino", "why": "Where the definite article is lo, the indefinite is uno."},
+            {"wrong": "un' armadio, un'amico", "right": "un armadio, un amico", "why": "Masculine nouns never take the apostrophe: un + vowel is just un."},
+            {"wrong": "una amica", "right": "un'amica", "why": "Feminine + vowel → un' with the apostrophe."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-plurale", "title": "Plurals: nouns, articles, adjectives", "category": "Nouns and articles", "rule": "-o becomes -i, -a becomes -e, -e becomes -i. The definite article becomes i, gli or le. Adjectives follow the same endings as their noun.", "ref": "plurals", "blocks": [
+          {"type": "table", "head": ["Singular", "Plural", "Rule"], "rows": [["il letto", "i letti", "-o → -i · il → i"], ["lo stendino", "gli stendini", "-o → -i · lo → gli"], ["l'armadio", "gli armadi", "-io → -i (one i) · l' (m.) → gli"], ["la stanza", "le stanze", "-a → -e · la → le"], ["l'asciugatrice", "le asciugatrici", "-e → -i · l' (f.) → le"], ["il portone", "i portoni", "-e → -i · il → i"], ["la chiave", "le chiavi", "-e → -i · la → le"]], "speak": [0, 1], "rowhead": true, "note": "Invariable: la città / le città, il caffè / i caffè (accented ending), la lavastoviglie / le lavastoviglie. The tricky groups (-co, -go, -ca, -ga, -cia, -gia) come in unit 7."},
+          {"type": "table", "caption": "Adjectives agree in number too", "head": ["", "singular", "plural"], "rows": [["masculine, -o", "il letto è nuovo", "i letti sono nuovi"], ["feminine, -a", "la stanza è piccola", "le stanze sono piccole"], ["-e, masculine", "il tavolo è grande", "i tavoli sono grandi"], ["-e, feminine", "la finestra è grande", "le finestre sono grandi"]], "speak": [1, 2], "rowhead": true},
+          {"type": "agreement", "intro": "Plural agreement with people: masculine for a mixed group.", "items": [
+            {"t": {"m": "Luca e Tommaso sono stanchi.", "f": "Lucia e Chiara sono stanche."}, "n": "They're tired."},
+            {"t": {"m": "Luca e Dora sono contenti.", "f": "Lucia e Dora sono contente."}, "n": "They're happy."}
+          ], "note": "Luca + Dora is a mixed group: masculine plural. Lucia + Dora are both feminine: -e. Vecchio and vecchia become vecchi and vecchie; stanco becomes stanchi, with an h to keep the hard sound."},
+          {"type": "mistakes", "items": [
+            {"wrong": "le stanze è piccola", "right": "le stanze sono piccole", "why": "Noun, verb and adjective all go plural together."},
+            {"wrong": "gli armadii", "right": "gli armadi", "why": "Nouns in -io with an unstressed i keep a single i in the plural."},
+            {"wrong": "i stendini, i armadi", "right": "gli stendini, gli armadi", "why": "Gli replaces lo and l' (masculine) in the plural."},
+            {"wrong": "le cittàs, le cittè", "right": "le città", "why": "Accented nouns do not change in the plural. English speakers add an -s in their heads; nothing changes but the article."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-domande", "title": "Che cos'è? Dov'è? Quanti?", "category": "Sentences", "rule": "The question words for things and places: che cosa (what), dove (where), quanto / quanti (how much / how many), and the answers with è, c'è and ci sono.", "ref": "question-words", "blocks": [
+          {"type": "table", "head": ["Question", "Answer", "Note"], "rows": [["Che cos'è questo?", "È un bidet.", "che cosa + è → che cos'è; also cos'è, che è"], ["Dov'è il bagno?", "È in fondo a destra.", "dove + è → dov'è"], ["Dove sono le chiavi?", "Sono sul tavolo.", "plural: dove sono"], ["Quante stanze ci sono?", "Ci sono due stanze.", "quanti (m.) / quante (f.) + plural noun"], ["Quanto costa l'affitto?", "Quattrocentocinquanta euro.", "quanto + verb: how much"], ["Chi è?", "È Dora.", "who"], ["Com'è la casa?", "È piccola ma luminosa.", "come + è → com'è: what is it like"]], "speak": [0, 1]},
+          {"type": "examples", "items": [
+            {"t": "Dov'è la moka? — Sul fornello.", "n": "Where's the moka? — On the stove."},
+            {"t": "Quanti bidoni ci sono? — Quattro.", "n": "How many bins are there? — Four."},
+            {"t": "Com'è la camera? — Piccola, ma c'è una finestra grande.", "n": "What's the bedroom like? — Small, but there's a big window."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Cosa è questo? Dove è il bagno?", "right": "Cos'è questo? Dov'è il bagno?", "why": "Before è, cosa and dove drop their final vowel. The full forms are understood but sound stilted."},
+            {"wrong": "Quanti stanze?", "right": "Quante stanze?", "why": "Quanto agrees like an adjective: quante with a feminine plural."},
+            {"wrong": "Come è la casa?", "right": "Com'è la casa?", "why": "Same elision: com'è."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-numeri", "title": "Numbers 20–100", "category": "Numbers", "rule": "Tens + units in one word; the ten drops its vowel before uno and otto; tre takes an accent at the end of a compound.", "ref": "numbers", "blocks": [
+          {"type": "table", "head": ["", "", "", ""], "rows": [["20 venti", "21 ventuno", "23 ventitré", "28 ventotto"], ["30 trenta", "31 trentuno", "33 trentatré", "38 trentotto"], ["40 quaranta", "50 cinquanta", "60 sessanta", "70 settanta"], ["80 ottanta", "90 novanta", "99 novantanove", "100 cento"]], "speak": [0, 1, 2, 3], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "L'affitto è quattrocentocinquanta euro al mese.", "n": "The rent is 450 euros a month.", "note": "quattro-cento-cinquanta: hundreds come in unit 3"},
+            {"t": "Dora ha sessantotto anni.", "n": "Dora is sixty-eight.", "note": "age with avere: unit 4"},
+            {"t": "Via delle Rose, numero dodici, interno ventitré.", "n": "Via delle Rose, number 12, flat 23."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "ventiuno, ventiotto", "right": "ventuno, ventotto", "why": "The ten loses its final vowel before uno and otto."},
+            {"wrong": "ventitre", "right": "ventitré", "why": "The accent marks the stress on the final syllable in compounds with tre."},
+            {"wrong": "venti e due", "right": "ventidue", "why": "No \"and\": one word."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "c e g: dure e dolci",
+      "intro": "The letters c and g each have two sounds, and the rule is the same for both: hard before a, o, u and before h; soft before e and i. Once you know it, you can read any Italian word aloud.",
+      "blocks": [
+        {"type": "table", "head": ["Spelling", "Sound", "Examples"], "rows": [["ca, co, cu", "hard /k/", "casa, cortile, cucina (cu-)"], ["che, chi", "hard /k/", "chiave, che cos'è, chi"], ["ce, ci", "soft /tʃ/ like English \"ch\"", "cucina (-ci-), cena, ciao, piacere"], ["ga, go, gu", "hard /g/", "gatto, gonna, gusto"], ["ghe, ghi", "hard /g/", "spaghetti, ghiaccio, Inghilterra"], ["ge, gi", "soft /dʒ/ like English \"j\"", "gelato, giardino, Giulia, soggiorno"]], "speak": [2], "rowhead": true, "note": "The h in Italian never has a sound of its own: it only hardens c and g. English speakers see \"chiave\" and want to say \"ch\"; Italians see \"ch\" and hear \"k\"."},
+        {"type": "sounds", "items": [
+          {"sound": "ci / ce", "t": "cucina", "n": "kitchen", "ipa": "kuˈtʃiːna", "tip": "Two c's, two sounds: cu- hard, -ci- soft. Say \"coo-CHEE-na\"."},
+          {"sound": "chi / che", "t": "chiave", "n": "key", "ipa": "ˈkjaːve", "tip": "\"KYAH-veh\". The h makes it hard."},
+          {"sound": "gi / ge", "t": "giardino", "n": "garden", "ipa": "dʒarˈdiːno", "tip": "Like English \"j\" in \"jar\"."},
+          {"sound": "ghi / ghe", "t": "ghiaccio", "n": "ice", "ipa": "ˈɡjattʃo", "tip": "Hard g, then the soft -cci- in the middle."},
+          {"sound": "sci / sce", "t": "scaldabagno", "n": "water heater", "ipa": "skaldaˈbaɲɲo", "tip": "Careful: sca- is hard \"sk\". Sce / sci are a different sound (\"sh\"), unit 7."}
+        ]},
+        {"type": "minimal", "caption": "Same letters, different sound", "pairs": [
+          {"a": "giro", "b": "ghiro", "na": "tour, turn", "nb": "dormouse", "tip": "Soft g vs hard g: the h is the only difference on paper."},
+          {"a": "ce", "b": "che", "na": "(there, of it)", "nb": "what, that", "tip": "\"cheh\" vs \"keh\"."},
+          {"a": "cena", "b": "schiena", "na": "dinner", "nb": "back", "tip": "Soft c against hard sch-."},
+          {"a": "Gina", "b": "ghigna", "na": "Gina (name)", "nb": "smirk", "tip": "The gn of ghigna is the ny sound from unit 4."}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "Ciao, Chiara! Che cos'è questo? È ghiaccio.", "n": "Hi, Chiara! What's this? It's ice.", "note": "ciao soft · Chiara hard · che hard · cos'è soft · ghiaccio hard then soft"},
+          {"t": "In cucina c'è il frigorifero e c'è gelato.", "n": "In the kitchen there's the fridge and there's ice cream."}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty exercises in five sets and a mixed review. Articles count: «il stendino» is wrong even if the noun is right. Type with the accent bar; a missing accent is almost right.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Avere", "items": [
+          {"kind": "conjugate", "verb": "avere", "tense": "presente", "n": "to have", "answers": ["ho", "hai", "ha", "abbiamo", "avete", "hanno"]},
+          {"kind": "fill", "q": "Io ___ una moka e sei tazzine.", "answers": [["ho"]], "n": "I have a moka and six little cups."},
+          {"kind": "fill", "q": "Dora ___ una casa in via delle Rose.", "answers": [["ha"]], "n": "Dora has a house on Via delle Rose."},
+          {"kind": "fill", "q": "Tu e Dora ___ le chiavi? — Sì, ___ le chiavi.", "answers": [["avete"], ["abbiamo"]], "n": "Do you and Dora have the keys? — Yes, we have the keys."},
+          {"kind": "mc", "q": "«I'm hungry» in Italian:", "options": ["Sono fame.", "Ho fame.", "Sono affamato."], "answer": 1, "why": "Hunger is something you have: ho fame. (Sono affamato exists but is strong: \"I'm starving\".)"},
+          {"kind": "translate", "q": "We don't have a dishwasher.", "answers": ["Non abbiamo la lavastoviglie", "Non abbiamo una lavastoviglie"]},
+          {"kind": "tf", "q": "Is this sentence right?", "t": "Pasquale a l'orecchio fino.", "answer": false, "why": "Ha, with the h: Pasquale ha l'orecchio fino. A without h is the preposition \"to\"."}
+        ]},
+        {"type": "exercises", "title": "2 · C'è e ci sono", "items": [
+          {"kind": "fill", "q": "In cucina ___ il forno.", "choices": [["c'è", "ci sono"]], "answers": [["c'è"]], "n": "In the kitchen there's the oven."},
+          {"kind": "fill", "q": "___ due finestre grandi.", "choices": [["Ci sono", "C'è"]], "answers": [["Ci sono"]], "n": "There are two big windows."},
+          {"kind": "fill", "q": "Non ___ l'ascensore, ___ le scale.", "answers": [["c'è"], ["ci sono"]], "n": "There's no lift, there are the stairs."},
+          {"kind": "reply", "line": {"t": "C'è un calendario?", "n": "Is there a calendar?"}, "options": ["Sì, è sul frigorifero.", "Sì, sono sul frigorifero.", "Sì, c'è il frigorifero."], "answer": 0, "why": "One calendar: è sul frigorifero. The question asks if it exists; the answer says where it is."},
+          {"kind": "order", "answer": "Non c'è la lavastoviglie.", "n": "There's no dishwasher."},
+          {"kind": "dictation", "text": "Ecco la casa: è piccola, ma c'è tutto.", "n": "Here's the flat: it's small, but it has everything."}
+        ]},
+        {"type": "exercises", "title": "3 · Un, uno, una, un'", "items": [
+          {"kind": "fill", "q": "___ stendino, ___ tavolo, ___ armadio", "answers": [["uno"], ["un"], ["un"]], "n": "a drying rack, a table, a wardrobe"},
+          {"kind": "fill", "q": "___ stanza, ___ asciugatrice, ___ chiave", "answers": [["una"], ["un'", "un"], ["una"]], "n": "a room, a dryer, a key"},
+          {"kind": "mc", "q": "«un'amica» or «un amica»?", "options": ["un'amica: feminine + vowel takes the apostrophe", "un amica: the apostrophe is optional", "una amica: no elision in Italian"], "answer": 0, "why": "Un' is una with the a dropped: feminine only. Un amico has no apostrophe because un is already complete."},
+          {"kind": "match", "q": "Match the article with its noun.", "pairs": [["uno", "scaldabagno"], ["un", "letto"], ["una", "cucina"], ["un'", "ora"]]},
+          {"kind": "translate", "q": "There's a terrace and a bathroom.", "answers": ["C'è un terrazzo e un bagno", "C'è un terrazzo e c'è un bagno", "Ci sono un terrazzo e un bagno"]}
+        ]},
+        {"type": "exercises", "title": "4 · Il plurale", "items": [
+          {"kind": "fill", "q": "il letto → i ___ · la sedia → le ___ · la chiave → le ___", "answers": [["letti"], ["sedie"], ["chiavi"]], "n": "the bed → the beds · the chair → the chairs · the key → the keys"},
+          {"kind": "fill", "q": "lo stendino → ___ stendini · l'armadio → ___ armadi", "answers": [["gli"], ["gli"]], "n": "the drying rack(s) · the wardrobe(s)"},
+          {"kind": "fill", "q": "l'armadio → gli ___", "answers": [["armadi"]], "n": "the wardrobe → the wardrobes", "hint": "one i"},
+          {"kind": "fill", "q": "Le stanze sono ___ (piccolo) ma ___ (luminoso).", "answers": [["piccole"], ["luminose"]], "n": "The rooms are small but bright."},
+          {"kind": "fill", "q": "I tavoli sono ___ (grande) e le sedie sono ___ (vecchio).", "answers": [["grandi"], ["vecchie"]], "n": "The tables are big and the chairs are old."},
+          {"kind": "mc", "q": "«la città» in the plural:", "options": ["le città", "le cittè", "le cittàs"], "answer": 0, "why": "Nouns with an accented final vowel never change; only the article does."},
+          {"kind": "fill", "q": "{hero} e Dora sono ___ (contento).", "answers": [["contenti"]], "n": "{hero} and Dora are happy.", "hint": "Dora is a woman, {hero} may not be: think about the group"}
+        ]},
+        {"type": "exercises", "title": "5 · Domande, aggettivi, numeri", "items": [
+          {"kind": "fill", "q": "___ è il bagno? — In fondo a destra.", "answers": [["Dov'", "Dove"]], "n": "Where's the bathroom? — At the end on the right."},
+          {"kind": "fill", "q": "___ stanze ci sono? — Due.", "answers": [["Quante"]], "n": "How many rooms are there? — Two."},
+          {"kind": "reply", "line": {"t": "Che cos'è questo?", "n": "What's this?"}, "options": ["È un bidet.", "C'è un bidet.", "Sono un bidet."], "answer": 0, "why": "\"What is it?\" is answered with è + un/una + noun. C'è un bidet answers \"is there a bidet?\"."},
+          {"kind": "order", "answer": "Com'è la casa di Dora?", "n": "What's Dora's house like?"},
+          {"kind": "match", "q": "Match the numbers.", "pairs": [["ventuno", "21"], ["trentotto", "38"], ["quarantatré", "43"], ["sessanta", "60"], ["novantanove", "99"]]},
+          {"kind": "fill", "q": "cinquanta + trenta = ___", "answers": [["ottanta"]], "n": "fifty + thirty = eighty"},
+          {"kind": "speak", "text": "Ventuno, ventotto, ventitré, cento.", "n": "Twenty-one, twenty-eight, twenty-three, one hundred.", "tip": "Final stress on ventitré; soft c in cento."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "translate", "q": "In the kitchen there are a table and four chairs.", "answers": ["In cucina ci sono un tavolo e quattro sedie", "In cucina c'è un tavolo e ci sono quattro sedie"]},
+          {"kind": "fill", "q": "Dora: «___ la chiave del portone?» — {hero}: «Sì, ___ la chiave.»", "answers": [["Hai"], ["ho"]], "n": "Dora: \"Do you have the front-door key?\" — {hero}: \"Yes, I have the key.\""},
+          {"kind": "dictation", "text": "Acqua calda la mattina, acqua fredda la sera.", "n": "Hot water in the morning, cold water in the evening."},
+          {"kind": "write", "q": "Describe your home in four or five short sentences: how many rooms there are, what there is and isn't, what it's like.", "model": "La casa è piccola ma luminosa. Ci sono due stanze, una cucina e un bagno. In cucina c'è un tavolo e ci sono quattro sedie. Non c'è la lavastoviglie, ma c'è un terrazzo. Sono {{contento|contenta}}.", "hint": "C'è… · Ci sono… · Non c'è… · È…"},
+          {"kind": "speak", "text": "Che cos'è questo? — È uno scaldabagno. È vecchio, ma ha un carattere.", "n": "What's this? — It's a water heater. It's old, but it has a personality.", "tip": "Hard sc- in scaldabagno and hard ca- in carattere; soft c in cos'è. Listen first, then repeat."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Affitti, bidet e bidoni",
+      "intro": "What renting involves, why Italian homes look the way they do, and the two things every building argues about: rubbish and noise.",
+      "blocks": [
+        {"type": "subhead", "text": "Renting in Italy"},
+        {"type": "prose", "text": "A standard residential lease is the [[contratto 4+4]]: four years, renewed for another four unless the landlord has a legal reason to end it. For stays of a few months there is the [[contratto transitorio]], and for students the [[contratto per studenti]]. Every contract must be registered with the tax office ([[registrato all'Agenzia delle Entrate]]); an unregistered rental leaves you without rights, however friendly the landlady.\n\nExpect to pay a deposit, the [[caparra]] or [[cauzione]], of up to three months' rent, returned at the end minus damage. The [[spese condominiali]] are the shared costs of the building (stairs, lift, cleaning, lights); [[le utenze]] are your own bills: electricity ([[la luce]]), gas, water. \"Con le spese\" or \"spese incluse\" in an ad means the building charges are in the price; the bills usually are not. Ask which."},
+        {"type": "callout", "kind": "real", "title": "Documents the landlord will want", "text": "Your [[codice fiscale]] (unit 8), an ID, and often proof of income or a guarantor ([[garante]]). Dora asks for none of these because she knew nonno Cosimo. Most landlords did not."},
+        {"type": "subhead", "text": "Why the flat looks like that"},
+        {"type": "prose", "text": "**The bidet** is in nearly every Italian bathroom and its absence abroad is a regular topic of conversation. **Tiled floors** everywhere, almost never carpet: cooler in summer, easier to mop. **Shutters** ([[persiane]] or roller [[tapparelle]]) keep the sun and the heat out; Italians close them in the afternoon, which looks to a Canadian like the whole street has gone to sleep. It has. **No dryer**: clothes dry on a rack ([[lo stendino]]) on the terrace, the balcony or in the bathroom, and the sun does the rest for nine months of the year. **The washing machine** is usually in the bathroom. **The moka** on the stove is the coffee machine; the kettle is rare, and a microwave is not a given. **The water heater** ([[lo scaldabagno]]) may be electric and small: hot water is a resource, not a right."},
+        {"type": "subhead", "text": "Bidoni: the rubbish calendar"},
+        {"type": "prose", "text": "Italy sorts its waste seriously, and every comune does it differently. The usual streams are [[carta]] (paper and cardboard), [[plastica]] (often with metal), [[vetro]] (glass), [[umido]] or [[organico]] (food waste) and [[indifferenziato]] or [[secco]] (the rest). Collection is often door to door on fixed days, [[porta a porta]], with a calendar from the comune, which is why Dora's is on the fridge. Put the wrong bag out on the wrong day and a neighbour will tell you, or the comune will fine you. Both happen."},
+        {"type": "subhead", "text": "Noise and the condominio"},
+        {"type": "prose", "text": "A block of flats is a [[condominio]], with an administrator, a yearly meeting famous for its arguments, and a set of rules, the [[regolamento]]. Quiet hours are typical: usually after ten or eleven at night, and in the south often in the early afternoon too. Walls are stone or brick and sound travels anyway. The professor's sharp ear is a stereotype because it is real."},
+        {"type": "callout", "kind": "culture", "title": "Il portone, il citofono, il pianerottolo", "text": "Three words for the building rather than the flat: the [[portone]] is the big street door, locked at night; the [[citofono]] is the intercom you buzz to get in; the [[pianerottolo]] is the landing, where neighbours meet and where half of Italian life is negotiated."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen before the next unit, then the flashcards for this one.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "avere", "rows": [["ho · hai · ha", "I have · you have · he/she has"], ["abbiamo · avete · hanno", "we have · you have · they have"], ["ho fame · ho sete · ho freddo", "I'm hungry · thirsty · cold"], ["Ho capito.", "Got it."]]},
+          {"title": "c'è · ci sono", "rows": [["C'è un terrazzo.", "There's a terrace."], ["Ci sono due stanze.", "There are two rooms."], ["Non c'è l'ascensore.", "There's no lift."], ["Ecco la chiave.", "Here's the key."]]},
+          {"title": "un · uno · una · un'", "rows": [["un letto · un armadio", "m. (il, l')"], ["uno stendino · uno zaino", "m. s+cons., z (lo)"], ["una stanza · un'asciugatrice", "f. (la, l')"]]},
+          {"title": "Plurale", "rows": [["il letto → i letti", "-o → -i"], ["la stanza → le stanze", "-a → -e"], ["la chiave → le chiavi · il portone → i portoni", "-e → -i"], ["lo stendino → gli stendini · l'armadio → gli armadi", "lo, l' (m.) → gli"], ["la città → le città", "accented: no change"], ["piccolo / piccola / piccoli / piccole · grande / grandi", "adjectives"]]},
+          {"title": "Domande", "rows": [["Che cos'è? — È un bidet.", "What is it?"], ["Dov'è? Dove sono?", "Where is it? Where are they?"], ["Quante stanze ci sono?", "How many rooms are there?"], ["Com'è? — È piccola ma luminosa.", "What's it like?"]]},
+          {"title": "Numeri 20–100", "rows": ["venti, ventuno, ventidue, ventitré, ventotto, trenta, quaranta, cinquanta", "sessanta, settanta, ottanta, novanta, cento"]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
