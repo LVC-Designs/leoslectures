@@ -27,7 +27,7 @@
           {"stage": "The train stops. {hero} steps down with two suitcases and looks for a face."},
           {"who": "Dora", "t": "Scusa! Sei {hero} Ferrante?", "n": "Excuse me! Are you {hero} Ferrante?"},
           {"who": "hero", "t": "Sì, sono io! Lei è la signora Caputo?", "n": "Yes, that's me! Are you Mrs Caputo?"},
-          {"who": "Dora", "t": "Sì, ma dammi del tu: sono Dora. {{Benvenuto|Benvenuta}} a Roccamarina!", "n": "Yes, but call me \"tu\": I'm Dora. Welcome to Roccamarina!", "note": "Dora drops the formal Lei straight away. Most people won't: see tu and Lei below."},
+          {"who": "Dora", "t": "Sì, ma dammi del tu: sono Dora. {{Benvenuto|Benvenuta}} a Roccamarina!", "n": "Yes, but no need for Lei. I'm Dora. Welcome to Roccamarina!", "note": "You answered with the formal Lei; Dora waves it away at once and wants tu. Most people won't offer that so fast: see tu and Lei below."},
           {"who": "hero", "t": "Grazie, Dora. Piacere!", "n": "Thank you, Dora. Nice to meet you!"},
           {"who": "Dora", "t": "Piacere mio. Il viaggio? Lungo, eh?", "n": "Nice to meet you too. The trip? Long, eh?"},
           {"who": "hero", "t": {"m": "Molto lungo. Sono stanco, ma sono contento.", "f": "Molto lunga... molto lungo. Sono stanca, ma sono contenta.", "note": "Adjectives agree with the person they describe: Luca is stanco and contento, Lucia is stanca and contenta. (And Lucia catches herself: the trip, il viaggio, is masculine, so it's lungo.)"}, "n": "Very long. I'm tired, but I'm happy."},
