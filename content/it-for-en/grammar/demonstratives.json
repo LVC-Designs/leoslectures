@@ -1,0 +1,24 @@
+{"id": "demonstratives", "title": "Demonstratives: questo, quello", "category": "Demonstratives", "rule": "Questo (this, near me) has four forms. Quello (that, away from me) follows the definite article when it precedes a noun (quel, quello, quell', quella, quei, quegli, quelle) and has four forms when alone (quello, quella, quelli, quelle). Codesto exists in Tuscany and legal texts; ignore it.", "units": ["07"], "blocks": [
+  {"type": "table", "head": ["Article", "questo + noun", "quello + noun", "quello alone"], "rows": [["il", "questo banco", "quel banco", "quello"], ["lo", "questo zucchino", "quello zucchino", "quello"], ["l' (m.)", "questo uovo / quest'uovo", "quell'uovo", "quello"], ["la", "questa pesca", "quella pesca", "quella"], ["l' (f.)", "questa arancia / quest'arancia", "quell'arancia", "quella"], ["i", "questi banchi", "quei banchi", "quelli"], ["gli", "questi zucchini · questi etti", "quegli zucchini · quegli etti", "quelli"], ["le", "queste pesche", "quelle pesche", "quelle"]], "speak": [1, 2, 3], "rowhead": true},
+  {"type": "subhead", "text": "Uses"},
+  {"type": "examples", "items": [
+    {"t": "Questa camicia mi piace; quella no.", "n": "I like this shirt; not that one."},
+    {"t": "Questo è Luca. Questa è Chiara. Quello è Pasquale.", "n": "This is Luca. This is Chiara. That's Pasquale.", "note": "introducing people"},
+    {"t": "Cos'è questo? Chi è quella?", "n": "What's this? Who's that (woman)?"},
+    {"t": "Quelli di Carmine sono chiusi; questi sono aperti.", "n": "Carmine's (ones) are closed; these are open.", "note": "quello di = the one of, someone's"},
+    {"t": "Questo qui, quello lì, quello là.", "n": "This one here, that one there, that one over there.", "note": "qui / lì / là reinforce"},
+    {"t": "Questa settimana. Quel giorno. In quegli anni.", "n": "This week. That day. In those years."}
+  ]},
+  {"type": "callout", "kind": "note", "title": "quello che, questo che", "text": "[[Quello che dici è vero|What you say is true]] (literally \"that which\"); [[Prendo quello che c'è|I'll take whatever there is]]. Relative clauses are unit 14; recognise the pattern now."},
+  {"type": "mistakes", "items": [
+    {"wrong": "quello banco, quelli banchi", "right": "quel banco, quei banchi", "why": "Before a noun, like the article."},
+    {"wrong": "quel zucchino, quei etti", "right": "quello zucchino, quegli etti", "why": "s+consonant, z, vowel: the lo / gli forms."},
+    {"wrong": "Mi piace quel.", "right": "Mi piace quello.", "why": "Alone: full form."},
+    {"wrong": "questo uova", "right": "queste uova", "why": "Feminine plural."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ albergo (that) · ___ amici (those) · ___ zia (that) · ___ scarpe (those)", "answers": [["quell'"], ["quegli"], ["quella"], ["quelle"]], "n": "that hotel · those friends · that aunt · those shoes"},
+    {"kind": "mc", "q": "«This is my cousin Chiara.»", "options": ["Questa è mia cugina Chiara.", "Questo è mia cugina Chiara.", "Quest'è mia cugina Chiara."], "answer": 0, "why": "Questa agrees with cugina."},
+    {"kind": "translate", "q": "Which one do you want, this one or that one?", "answers": ["Quale vuoi, questo o quello", "Quale vuoi, questa o quella", "Quale vuoi, questo o quello?", "Quale vuoi, questa o quella?"]}
+  ]}
+]}

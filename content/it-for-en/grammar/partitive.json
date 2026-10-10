@@ -1,0 +1,23 @@
+{"id": "partitive", "title": "The partitive: some, any, a bit of", "category": "Nouns and articles", "rule": "Some = di + definite article (del, dello, dell', della, dei, degli, delle), or un po' di for uncountables, qualche + singular / alcuni, alcune + plural for countables. After a quantity, di alone. In negatives, nothing: non c'è pane.", "units": ["07"], "blocks": [
+  {"type": "table", "head": ["", "m. + cons.", "m. + s+cons., z", "+ vowel", "f. + cons."], "rows": [["singular (some, a bit of)", "del pane", "dello zucchero", "dell'olio · dell'uva", "della frutta"], ["plural (some, a few)", "dei pomodori", "degli spinaci", "degli etti · delle arance", "delle pesche"]], "speak": [1, 2, 3, 4], "rowhead": true},
+  {"type": "table", "caption": "The alternatives", "head": ["Italian", "Use", "Example"], "rows": [["un po' di", "a bit of, uncountable", "un po' di pane, un po' di tempo, un po' di pazienza"], ["qualche + singular", "a few, some (countable)", "qualche pesca, qualche giorno, qualche amico"], ["alcuni / alcune + plural", "a few, some (countable)", "alcuni pomodori, alcune pesche"], ["molto / molta / molti / molte", "a lot of, much, many", "molto pane, molta frutta, molti amici"], ["poco / poca / pochi / poche", "little, few", "poco tempo, poche pesche"], ["troppo / -a / -i / -e", "too much, too many", "troppo sale, troppi turisti"], ["tanto, parecchio, abbastanza", "lots, quite a lot, enough", "tanta gente, abbastanza pane"], ["niente / nessuno", "no, none (with non)", "non c'è niente, non ho nessun problema"]], "speak": [2]},
+  {"type": "subhead", "text": "When there is no partitive"},
+  {"type": "examples", "items": [
+    {"t": "Non c'è pane. Non abbiamo pomodori.", "n": "There's no bread. We have no tomatoes.", "note": "negative: no article at all"},
+    {"t": "Vuoi acqua o vino?", "n": "Do you want water or wine?", "note": "general, offering: often no partitive"},
+    {"t": "Compro pane e latte.", "n": "I buy bread and milk.", "note": "lists, habits: optional"},
+    {"t": "Un chilo di pomodori, un litro di latte.", "n": "A kilo of tomatoes, a litre of milk.", "note": "after a measure: di only"}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "English some / any", "text": "Italian has no any. Questions use the partitive or nothing ([[Hai del pane?]] / [[Hai pane?]]); negatives drop it ([[Non ho pane]]). English speakers tend to put dei / delle after non: don't."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Non ho dei soldi.", "right": "Non ho soldi.", "why": "Nothing after non."},
+    {"wrong": "un chilo dei pomodori", "right": "un chilo di pomodori", "why": "Measure + di."},
+    {"wrong": "qualche amici", "right": "qualche amico / alcuni amici", "why": "Qualche + singular."},
+    {"wrong": "molto pesche", "right": "molte pesche", "why": "Molto agrees."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Vorrei ___ formaggio, ___ olive e un po' ___ pane. Non voglio ___ zucchero. (some / some / of / nothing)", "answers": [["del"], ["delle"], ["di"], ["—", "-", "x", "nothing"]], "n": "I'd like some cheese, some olives and a bit of bread. I don't want any sugar.", "hint": "write — if nothing goes there"},
+    {"kind": "mc", "q": "«A few days»", "options": ["qualche giorno", "qualche giorni", "dei giorno"], "answer": 0, "why": "Qualche + singular."},
+    {"kind": "translate", "q": "Do you have any apricots? — No, we have no apricots today.", "answers": ["Avete delle albicocche? No, oggi non abbiamo albicocche", "Avete albicocche? No, oggi non abbiamo albicocche", "Avete delle albicocche? — No, oggi non abbiamo albicocche", "Hai delle albicocche? No, oggi non abbiamo albicocche"]}
+  ]}
+]}

@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 27 (units 1–6) · EN: 20 (units 1–5) |
+| Grammar reference pages | IT: 29 (units 1–7) · EN: 20 (units 1–5) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -28,7 +28,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 4 | La famiglia Ferrante | A1 | ● 2026-10-10 |
 | 5 | In giro per il paese | A1 | ● 2026-10-10 |
 | 6 | Una settimana a Roccamarina | A1 | ● 2026-10-10 |
-| 7 | Al mercato del sabato | A1 | ☐ |
+| 7 | Al mercato del sabato | A1 | ● 2026-10-10 |
 | 8 | All'ufficio anagrafe · checkpoint | A1 | ☐ |
 | 9 | Com'è andata? | A2 | ☐ |
 | 10 | Cerco un locale | A2 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 6 · A typical day.**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 7 · Groceries and a winter coat. (English Unit 6 skipped for now: a generation attempt was stopped by a safety classifier; retry in a fresh session with a differently designed episode.)**
 
 ## Session log
 
+- **2026-10-10 (12)** · Italian track Unit 7 written (2 scenes, 47 words, 5 grammar points + 2 reference pages, sc/sch/ch/gh, 40 exercises, culture, summary). Verified and committed. English Unit 6 skipped (see Next up).
 - **2026-10-10 (11)** · Italian track Unit 6 written (2 scenes, 46 words, 5 grammar points + 4 reference pages, s and z, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (10)** · English track Unit 5 written (2 scenes, 49 words, 5 grammar points + 4 reference pages, word stress and ou, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (9)** · Italian track Unit 5 written (2 scenes, 47 words, 5 grammar points + 5 reference pages, the r, 40 exercises, culture, summary). Verified and committed.

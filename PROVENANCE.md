@@ -51,6 +51,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** reflexive-verbs, modal-verbs, dates-and-seasons, weather (common-adverbs extended).
 - **Originality:** the two scenes (the Sunday video call describing the week; the beach economics of a lido umbrella and Ferragosto), all 46 vocabulary examples, tables, 40 exercises and the cultural notes (southern daily rhythms, the weekly market, lido vs spiaggia libera, la digestione, Ferragosto and the rain on the 16th, scirocco and tramontana) were written for this project from general knowledge.
 
+#### Unit 7 · Al mercato del sabato (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: make simple purchases, ask for quantities, sizes and colours, ask the price; say what one likes and dislikes and ask about preferences; listening: understand prices, quantities and a shopkeeper's questions; reading: understand a shopping list and labels; writing: write a shopping list and a short message.
+- **Grammar:** partitive article and quantities (un chilo di, un etto, un po' di, qualche); *piacere* in all persons with indirect pronouns and *a* + name; *questo / quello* in all forms; colours and invariable adjectives; the difficult plurals (-co/-go, -ca/-ga, -cia/-gia, -io, invariable, irregular); sc / sch / ch / gh.
+- **Reference pages added:** partitive, demonstratives (piacere, plurals, adjective-agreement extended).
+- **Originality:** the two scenes (the greengrocer Ciccio and the cheese counter; Nunzia's clothes stall), all 47 vocabulary examples, tables, 40 exercises and the cultural notes (market rules, specialised shops, the regulated sales, the patron saint's feast) were written for this project from general knowledge.
+
 ### English for Italian speakers (`content/en-for-it/`)
 
 #### Unit 1 · Welcome to Canada (A1) · written 2026-10-10

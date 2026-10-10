@@ -1,0 +1,309 @@
+{
+  "id": "07",
+  "level": "A1",
+  "title": "Al mercato del sabato",
+  "subtitle": "At the Saturday market",
+  "intro": "Dora's list in her handwriting, a greengrocer who won't let you touch the tomatoes, a number from the machine at the cheese counter, and a shirt for the patron saint's feast. In this unit you learn to buy food by weight and quantity, clothes by size and colour, to say what you like and whose things you prefer, and the tricky plurals.",
+  "objectives": [
+    "Ask for quantities: [[un chilo di]], [[due etti di]], [[un po' di]], [[del pane]], [[delle pesche]]",
+    "Say what you and other people like with [[piacere]] in all persons: [[mi piace]], [[le piacciono]], [[a Dora piace]]",
+    "Point at things with [[questo]] and [[quello]] in all their forms",
+    "Use colours, sizes and the adjectives that never change: [[blu]], [[rosa]], [[viola]]",
+    "Make the difficult plurals: [[amici]], [[amiche]], [[arance]], [[uova]], [[le città]]"
+  ],
+  "canDo": [
+    "A1 · Spoken interaction: can make simple purchases, ask for quantities, sizes and colours, and ask the price.",
+    "A1 · Spoken interaction: can say what they like and dislike and ask others about their preferences.",
+    "A1 · Listening: can understand prices, quantities and simple questions from a shopkeeper.",
+    "A1 · Reading: can understand a shopping list, price labels and size labels.",
+    "A1 · Writing: can write a shopping list and a short message about what to buy."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "La lista di Dora",
+      "intro": "Saturday morning at the market with Dora's list: tomatoes, bread, mozzarella, peaches. Then the clothes stall. Listen for the quantities (chili, etti) and for questo and quello.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-frutta", "title": "Non si toccano", "setting": "Sabato, ore 8. Il mercato in piazza. In mano, la lista di Dora: pomodori (due chili), pane, mozzarella, pesche. Il banco della frutta di Ciccio.", "register": "formale", "lines": [
+          {"who": "hero", "t": "Buongiorno. Vorrei due chili di pomodori.", "n": "Good morning. I'd like two kilos of tomatoes.", "note": "Due chili di: quantity + di + thing, no article."},
+          {"stage": "{hero} reaches for a tomato."},
+          {"who": "Ciccio", "t": "Non si toccano! Dica a me. Questi o quelli? Questi sono per l'insalata, quelli sono per il sugo.", "n": "Don't touch! Tell me. These or those? These are for salad, those are for sauce.", "note": "Questi (these, near him) / quelli (those, further). The first rule of the market: you don't touch, you ask."},
+          {"who": "hero", "t": "Quelli per il sugo. Due chili. E un chilo di pesche.", "n": "Those for sauce. Two kilos. And a kilo of peaches."},
+          {"who": "Ciccio", "t": "Le pesche sono finite. Ci sono le albicocche. Le vuole?", "n": "The peaches are finished. There are apricots. Do you want them?", "note": "Le vuole: \"do you want them\", with the pronoun le (unit 10)."},
+          {"who": "hero", "t": "Sì, mezzo chilo. Quanto costano?", "n": "Yes, half a kilo. How much are they?", "note": "Costano: plural, the apricots."},
+          {"who": "Ciccio", "t": "Un euro e cinquanta al chilo. Altro? Del basilico? Lo regalo.", "n": "One fifty a kilo. Anything else? Some basil? It's on me.", "note": "Del basilico: \"some basil\", the partitive. Lo regalo: I give it as a gift."},
+          {"who": "hero", "t": "Grazie! Quant'è tutto?", "n": "Thanks! How much is everything?"},
+          {"who": "Ciccio", "t": {"m": "Quattro e sessanta. Lei è il canadese di Dora, no? Allora quattro.", "f": "Quattro e sessanta. Lei è la canadese di Dora, no? Allora quattro."}, "n": "Four sixty. You're Dora's Canadian, right? Then four."},
+          {"stage": "The cheese and cold-cuts counter. A queue, and a numbered ticket from a machine: 47."},
+          {"who": "Salumiere", "t": "Quarantasette!", "n": "Forty-seven!"},
+          {"who": "hero", "t": "Vorrei della mozzarella. Due etti. E un po' di prosciutto.", "n": "I'd like some mozzarella. Two hundred grams. And a bit of ham.", "note": "Un etto = 100 grams. Della mozzarella, un po' di prosciutto: two ways to say \"some\"."},
+          {"who": "Salumiere", "t": "Crudo o cotto?", "n": "Cured or cooked?"},
+          {"who": "hero", "t": "Crudo. Un etto. E del pane?", "n": "Cured. A hundred grams. And some bread?"},
+          {"who": "Salumiere", "t": "Il pane non è qui. Dal fornaio, dietro la chiesa. Si compra a peso: mezzo chilo, un chilo.", "n": "The bread isn't here. At the baker's, behind the church. You buy it by weight: half a kilo, a kilo."}
+        ], "notes": [
+          {"phrase": "Non si toccano.", "note": "They're not to be touched. Si + verb = one does / doesn't (unit 22). You will hear it at every stall."},
+          {"phrase": "al chilo · all'etto", "note": "Per kilo, per 100 g. Prices for food are per weight: un euro e cinquanta al chilo, due euro all'etto."},
+          {"phrase": "Lo regalo.", "note": "I'll throw it in, it's a gift. The greengrocer's basil, parsley and a smile are free."},
+          {"phrase": "a peso", "note": "By weight. Bread, cheese, cold cuts and most fruit are sold by weight, not by piece."}
+        ]},
+        {"type": "scene", "id": "dlg-camicia", "title": "La camicia", "setting": "Il banco dei vestiti, in fondo alla piazza. Camicie, magliette, pantaloni su una tavola. La venditrice, Nunzia.", "register": "formale", "lines": [
+          {"who": "Nunzia", "t": "Prego, dia un'occhiata! Cerca qualcosa?", "n": "Please, have a look! Are you looking for something?", "note": "Dare un'occhiata: to have a look. Dia is the Lei imperative."},
+          {"who": "hero", "t": "Una camicia per la festa patronale. Questa bianca mi piace.", "n": "A shirt for the patron saint's feast. I like this white one.", "note": "Questa bianca: questa + adjective, the noun understood."},
+          {"who": "Nunzia", "t": "Che taglia porta?", "n": "What size do you take?", "note": "Portare una taglia: to take / wear a size. Also: che taglia ha?"},
+          {"who": "hero", "t": "Media. In Canada porto la M.", "n": "Medium. In Canada I take an M."},
+          {"who": "Nunzia", "t": "Qui è una quarantotto. Provi questa. Le piace il blu?", "n": "Here it's a forty-eight. Try this one. Do you like blue?", "note": "Le piace: do you (Lei) like? Le = to you, formal. The blu: invariable adjective, and a noun for the colour."},
+          {"who": "hero", "t": "Mi piacciono i colori chiari. Il blu no. Quanto costa quella bianca?", "n": "I like light colours. Not blue. How much is that white one?", "note": "Quella bianca: that white one, further away on the table."},
+          {"who": "Nunzia", "t": "Venticinque. Per Lei venti. Due per trentacinque.", "n": "Twenty-five. For you twenty. Two for thirty-five."},
+          {"who": "hero", "t": "Una, grazie. Posso pagare con la carta?", "n": "One, thanks. Can I pay by card?"},
+          {"who": "Nunzia", "t": {"m": "Al mercato? Contanti, bello.", "f": "Al mercato? Contanti, bella.", "note": "Bello / bella as a form of address: \"dear\", \"love\". Market vendors use it with everyone; it agrees with you."}, "n": "At the market? Cash, dear."}
+        ], "notes": [
+          {"phrase": "Dia un'occhiata.", "note": "Have a look. The vendor's invitation; the customer's version is Posso dare un'occhiata? (May I have a look?)."},
+          {"phrase": "la festa patronale", "note": "The feast of the town's patron saint: procession, lights, band, fireworks, and a new shirt. Living there."},
+          {"phrase": "Per Lei venti.", "note": "For you, twenty. The market discount: offered, not negotiated. You may answer with a smile and e due per trentacinque? once, and no more."}
+        ], "questions": [
+          {"kind": "tf", "q": "You buy bread at the market.", "t": "Il pane non è qui. Dal fornaio.", "answer": false, "why": "Bread is at the baker's, behind the church."},
+          {"kind": "mc", "q": "What size is the protagonist in Italy?", "options": ["A 48.", "A 44.", "A medium 50."], "answer": 0, "why": "Media. Qui è una quarantotto."},
+          {"kind": "fill", "q": "Non si ___! Dica a me.", "answers": [["toccano"]], "n": "Don't touch! Tell me."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Frutta, verdura, vestiti, colori",
+      "intro": "What you buy at the market and how much of it, the shops of the town, clothes and sizes, and the colours. Learn the plurals with the words: this is the unit of the difficult ones.",
+      "blocks": [
+        {"type": "vocab", "theme": "Frutta e verdura", "n": "Fruit and vegetables", "items": [
+          {"t": "pomodoro", "n": "tomato", "article": "il", "gender": "m", "plural": "i pomodori", "pos": "noun", "ex": {"t": "Due chili di pomodori per il sugo.", "n": "Two kilos of tomatoes for the sauce."}},
+          {"t": "pesca", "n": "peach", "article": "la", "gender": "f", "plural": "le pesche", "pos": "noun", "ex": {"t": "Le pesche sono finite.", "n": "The peaches are finished."}, "note": "Plural with h: pesche. Pesce (fish) and pesche sound different: sh vs sk."},
+          {"t": "albicocca", "n": "apricot", "article": "l'", "gender": "f", "plural": "le albicocche", "pos": "noun", "ex": {"t": "Mezzo chilo di albicocche, per favore.", "n": "Half a kilo of apricots, please."}, "note": "-ca → -che."},
+          {"t": "mela", "n": "apple", "article": "la", "gender": "f", "plural": "le mele", "pos": "noun", "ex": {"t": "Una mela al giorno.", "n": "An apple a day."}},
+          {"t": "arancia", "n": "orange", "article": "l'", "gender": "f", "plural": "le arance", "pos": "noun", "ex": {"t": "Un chilo di arance per la spremuta.", "n": "A kilo of oranges for juice."}, "note": "-cia → -ce: arance, not arancie. Arancione: the colour."},
+          {"t": "limone", "n": "lemon", "article": "il", "gender": "m", "plural": "i limoni", "pos": "noun", "ex": {"t": "I limoni sono di Sorrento.", "n": "The lemons are from Sorrento."}},
+          {"t": "uva", "n": "grapes", "article": "l'", "gender": "f", "pos": "noun", "ex": {"t": "Un po' di uva nera.", "n": "Some black grapes."}, "note": "Singular in Italian: l'uva è buona. Un chicco d'uva = one grape."},
+          {"t": "melanzana", "n": "aubergine, eggplant", "article": "la", "gender": "f", "plural": "le melanzane", "pos": "noun", "ex": {"t": "Le melanzane sono per la parmigiana.", "n": "The aubergines are for parmigiana."}},
+          {"t": "zucchina", "n": "courgette, zucchini", "article": "la", "gender": "f", "plural": "le zucchine", "pos": "noun", "ex": {"t": "Quattro zucchine piccole.", "n": "Four small courgettes."}, "note": "Also lo zucchino / gli zucchini, in the north."},
+          {"t": "patata", "n": "potato", "article": "la", "gender": "f", "plural": "le patate", "pos": "noun", "ex": {"t": "Un chilo di patate.", "n": "A kilo of potatoes."}},
+          {"t": "cipolla", "n": "onion", "article": "la", "gender": "f", "plural": "le cipolle", "pos": "noun", "ex": {"t": "Due cipolle rosse.", "n": "Two red onions."}},
+          {"t": "insalata", "n": "salad; lettuce", "article": "l'", "gender": "f", "plural": "le insalate", "pos": "noun", "ex": {"t": "Questi pomodori sono per l'insalata.", "n": "These tomatoes are for salad."}},
+          {"t": "basilico", "n": "basil", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Del basilico? Lo regalo.", "n": "Some basil? It's on me."}, "note": "Stress: baSIlico. Il prezzemolo: parsley, also free."}
+        ]},
+        {"type": "vocab", "theme": "Al banco", "n": "At the counter", "items": [
+          {"t": "pane", "n": "bread", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Il pane si compra a peso: mezzo chilo.", "n": "Bread is bought by weight: half a kilo."}, "note": "Un panino is a roll; una pagnotta a loaf. Il fornaio: the baker."},
+          {"t": "formaggio", "n": "cheese", "article": "il", "gender": "m", "plural": "i formaggi", "pos": "noun", "ex": {"t": "Due etti di formaggio.", "n": "Two hundred grams of cheese."}},
+          {"t": "mozzarella", "n": "mozzarella", "article": "la", "gender": "f", "plural": "le mozzarelle", "pos": "noun", "ex": {"t": "Vorrei della mozzarella. — Di bufala o fior di latte?", "n": "I'd like some mozzarella. — Buffalo or cow's milk?"}},
+          {"t": "prosciutto", "n": "ham", "article": "il", "gender": "m", "plural": "i prosciutti", "pos": "noun", "ex": {"t": "Un etto di prosciutto crudo.", "n": "A hundred grams of cured ham."}, "note": "Crudo: cured (Parma, San Daniele). Cotto: cooked ham. Sciu = sh: pro-SHUT-to."},
+          {"t": "carne", "n": "meat", "article": "la", "gender": "f", "pos": "noun", "ex": {"t": "La carne si compra in macelleria.", "n": "Meat is bought at the butcher's."}, "note": "Il macellaio: the butcher. Di manzo (beef), di maiale (pork), di pollo (chicken)."},
+          {"t": "pesce", "n": "fish", "article": "il", "gender": "m", "plural": "i pesci", "pos": "noun", "ex": {"t": "Il pesce del mercato è di stamattina.", "n": "The market's fish is from this morning."}, "note": "Sce = sh: PEH-she. La pescheria: the fishmonger's, with sk."},
+          {"t": "uovo", "n": "egg", "article": "l'", "gender": "m", "plural": "le uova", "pos": "noun", "ex": {"t": "Sei uova. Un uovo è rotto.", "n": "Six eggs. One egg is broken."}, "note": "The famous irregular: masculine singular, feminine plural (le uova)."},
+          {"t": "chilo", "n": "kilo", "article": "il", "gender": "m", "plural": "i chili", "pos": "noun", "ex": {"t": "Un chilo e mezzo di pomodori.", "n": "A kilo and a half of tomatoes."}, "note": "Chi = k: KEE-lo. Mezzo chilo: half a kilo."},
+          {"t": "etto", "n": "100 grams", "article": "l'", "gender": "m", "plural": "gli etti", "pos": "noun", "ex": {"t": "Due etti di mozzarella, un etto di prosciutto.", "n": "200 g of mozzarella, 100 g of ham."}, "note": "Short for ettogrammo. The unit for cheese and cold cuts; nobody says grammi for these."},
+          {"t": "bottiglia", "n": "bottle", "article": "la", "gender": "f", "plural": "le bottiglie", "pos": "noun", "ex": {"t": "Una bottiglia di olio, due bottiglie d'acqua.", "n": "A bottle of oil, two bottles of water."}, "note": "Un litro: a litre. Un pacco di pasta: a packet of pasta. Una scatola: a box, a tin."},
+          {"t": "banco", "n": "stall, counter", "article": "il", "gender": "m", "plural": "i banchi", "pos": "noun", "ex": {"t": "Al banco dei formaggi c'è la fila.", "n": "At the cheese counter there's a queue."}, "note": "-co → -chi. Prendere il numero: take a number."},
+          {"t": "fila", "n": "queue, line", "article": "la", "gender": "f", "plural": "le file", "pos": "noun", "ex": {"t": "C'è la fila. Chi è l'ultimo?", "n": "There's a queue. Who's last?"}, "note": "Chi è l'ultimo? is how you join an Italian queue without a number."}
+        ]},
+        {"type": "vocab", "theme": "Vestiti e colori", "n": "Clothes and colours", "items": [
+          {"t": "camicia", "n": "shirt", "article": "la", "gender": "f", "plural": "le camicie", "pos": "noun", "ex": {"t": "Una camicia bianca per la festa.", "n": "A white shirt for the feast."}, "note": "-cia with the i stressed? No: ca-MI-cia, unstressed i, yet camicie keeps it. Learn it."},
+          {"t": "maglietta", "n": "T-shirt", "article": "la", "gender": "f", "plural": "le magliette", "pos": "noun", "ex": {"t": "Tre magliette per dieci euro.", "n": "Three T-shirts for ten euros."}, "note": "La maglia: a jumper, a sweater, or a football shirt."},
+          {"t": "pantaloni", "n": "trousers, pants", "article": "i", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "I pantaloni sono lunghi: taglia 48.", "n": "The trousers are long: size 48."}, "note": "Plural, like English. Un paio di pantaloni: a pair."},
+          {"t": "gonna", "n": "skirt", "article": "la", "gender": "f", "plural": "le gonne", "pos": "noun", "ex": {"t": "Chiara porta una gonna lunga.", "n": "Chiara is wearing a long skirt."}},
+          {"t": "vestito", "n": "dress; suit", "article": "il", "gender": "m", "plural": "i vestiti", "pos": "noun", "ex": {"t": "Un vestito rosso. I vestiti sono sul banco.", "n": "A red dress. The clothes are on the stall."}, "note": "Singular: a dress (woman) or a suit (man). Plural: clothes."},
+          {"t": "scarpe", "n": "shoes", "article": "le", "gender": "f", "pos": "noun (pl.)", "ex": {"t": "Che numero porta? — Il quarantadue.", "n": "What size shoe do you take? — A forty-two."}, "note": "Shoes have a numero, clothes a taglia. La scarpa: one shoe."},
+          {"t": "giacca", "n": "jacket", "article": "la", "gender": "f", "plural": "le giacche", "pos": "noun", "ex": {"t": "La sera serve una giacca.", "n": "In the evening you need a jacket."}, "note": "-ca → -che. Il giubbotto: a casual jacket, a bomber."},
+          {"t": "taglia", "n": "size (clothes)", "article": "la", "gender": "f", "plural": "le taglie", "pos": "noun", "ex": {"t": "Che taglia porta? — La quarantotto.", "n": "What size do you take? — A 48."}, "note": "Italian sizes: 44 ≈ XS, 46 ≈ S, 48 ≈ M, 50 ≈ L, 52 ≈ XL (men). Women's: 40–46 for S–L, roughly."},
+          {"t": "bianco", "n": "white", "pos": "adj.", "forms": "bianca, bianchi, bianche", "ex": {"t": "Una camicia bianca, due camicie bianche.", "n": "A white shirt, two white shirts."}, "note": "-co / -ca → -chi / -che."},
+          {"t": "nero", "n": "black", "pos": "adj.", "forms": "nera, neri, nere", "ex": {"t": "Le scarpe nere.", "n": "The black shoes."}},
+          {"t": "rosso", "n": "red", "pos": "adj.", "forms": "rossa, rossi, rosse", "ex": {"t": "Due cipolle rosse e un vestito rosso.", "n": "Two red onions and a red dress."}},
+          {"t": "blu", "n": "blue", "pos": "adj.", "forms": "blu (invariable)", "ex": {"t": "Una camicia blu, due camicie blu.", "n": "A blue shirt, two blue shirts."}, "note": "Invariable. Azzurro (light blue, sky blue) agrees normally: la maglia azzurra."},
+          {"t": "verde", "n": "green", "pos": "adj.", "forms": "verdi", "ex": {"t": "Gli occhi verdi, le mele verdi.", "n": "Green eyes, green apples."}},
+          {"t": "giallo", "n": "yellow", "pos": "adj.", "forms": "gialla, gialli, gialle", "ex": {"t": "I limoni sono gialli.", "n": "The lemons are yellow."}},
+          {"t": "grigio", "n": "grey", "pos": "adj.", "forms": "grigia, grigi, grigie", "ex": {"t": "I pantaloni grigi.", "n": "The grey trousers."}, "note": "-io → -i: grigi. Also marrone (brown, invariable in careful usage), arancione (orange)."},
+          {"t": "rosa / viola", "n": "pink / purple", "pos": "adj.", "forms": "invariable", "ex": {"t": "Una maglietta rosa, due magliette viola.", "n": "A pink T-shirt, two purple T-shirts."}, "note": "Colours that are also nouns (a rose, a violet) never change: rosa, viola, blu, beige, bordeaux."},
+          {"t": "chiaro / scuro", "n": "light / dark (of colour)", "pos": "adj.", "forms": "chiara, chiari, chiare / scura, scuri, scure", "ex": {"t": "Mi piacciono i colori chiari. Il blu scuro no.", "n": "I like light colours. Not dark blue."}, "note": "With a colour, both stay invariable: le camicie azzurro chiaro."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Del pane, mi piacciono, questo e quello",
+      "intro": "Five pieces: the partitive and quantities, piacere in all persons, questo and quello, colours and invariable adjectives, and the plurals that follow their own rules. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-partitivo", "title": "Some: del, della, dei, delle; un po' di; qualche", "category": "Nouns and articles", "rule": "\"Some\" is di + the definite article: del pane, della mozzarella, dei pomodori, delle pesche. With quantities, di alone: un chilo di pomodori. Un po' di = a bit of; qualche + singular = a few.", "ref": "partitive", "blocks": [
+          {"type": "table", "head": ["", "Singular (some, a bit of)", "Plural (some, a few)"], "rows": [["m.", "del pane · dello zucchero · dell'olio", "dei pomodori · degli spinaci · degli etti"], ["f.", "della mozzarella · dell'uva", "delle pesche · delle arance"]], "speak": [1, 2], "rowhead": true, "note": "The same forms as di + article (unit 5): the partitive is just that, used to mean \"some\"."},
+          {"type": "table", "caption": "Quantities: number or measure + di", "head": ["Italian", "English"], "rows": [["un chilo di pomodori · mezzo chilo di albicocche · un chilo e mezzo", "a kilo of · half a kilo of · a kilo and a half"], ["un etto di prosciutto · due etti di formaggio", "100 g of · 200 g of"], ["un litro di latte · una bottiglia d'olio · un bicchiere di vino", "a litre of · a bottle of · a glass of"], ["un pacco di pasta · una scatola di pomodori · un cartone di uova", "a packet of · a tin of · a carton of"], ["un po' di pane · un pezzo di formaggio · una fetta di prosciutto", "a bit of · a piece of · a slice of"], ["qualche pesca · alcune pesche", "a few peaches (qualche + singular; alcune + plural)"], ["molto pane · molta frutta · molti pomodori · poche pesche", "a lot of bread · a lot of fruit · many tomatoes · few peaches"], ["troppo · abbastanza · niente / nessun", "too much · enough · no"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "Vorrei del pane, della mozzarella e dei pomodori.", "n": "I'd like some bread, some mozzarella and some tomatoes."},
+            {"t": "Due chili di pomodori e un etto di prosciutto crudo.", "n": "Two kilos of tomatoes and 100 g of cured ham."},
+            {"t": "Un po' di basilico? — Sì, qualche foglia.", "n": "A bit of basil? — Yes, a few leaves."},
+            {"t": "Non c'è pane. Non ho soldi. Non voglio niente.", "n": "There's no bread. I have no money. I don't want anything.", "note": "in negatives, no partitive"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Vorrei pane. (fine but abrupt) · Vorrei un pane.", "right": "Vorrei del pane. / Vorrei un po' di pane.", "why": "Un pane = one loaf; some bread is del pane."},
+            {"wrong": "due chili dei pomodori", "right": "due chili di pomodori", "why": "After a quantity, di alone."},
+            {"wrong": "qualche pesche", "right": "qualche pesca / alcune pesche", "why": "Qualche takes the singular."},
+            {"wrong": "molti frutta", "right": "molta frutta", "why": "Molto agrees: frutta is feminine singular."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-piacere", "title": "piacere in all persons", "category": "Verbs", "rule": "The person who likes is an indirect pronoun: mi, ti, gli (him), le (her, you formal), ci, vi, gli (them). Or a + name / a + stressed pronoun: a Dora piace, a me piace. The verb agrees with the thing: piace / piacciono.", "ref": "piacere", "blocks": [
+          {"type": "table", "head": ["", "+ singular / infinitive", "+ plural"], "rows": [["mi (to me)", "Mi piace il blu.", "Mi piacciono i colori chiari."], ["ti (to you)", "Ti piace questa camicia?", "Ti piacciono le albicocche?"], ["gli (to him)", "A Nando piace il calcio. Gli piace il calcio.", "Gli piacciono le partite."], ["le (to her / to you, Lei)", "A Dora piace il caffè. Le piace il blu?", "Le piacciono le pesche?"], ["ci (to us)", "Ci piace Roccamarina.", "Ci piacciono i mercati."], ["vi (to you, pl.)", "Vi piace la casa?", "Vi piacciono le stanze?"], ["gli (to them) · a loro", "Gli piace il mare. A loro piace il mare.", "Gli piacciono le feste."]], "speak": [1, 2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Le piace il blu? — No, mi piacciono i colori chiari.", "n": "Do you like blue? — No, I like light colours.", "note": "Le = to you (formal); mi = to me"},
+            {"t": "A Dora piacciono le albicocche; a Pasquale non piace niente.", "n": "Dora likes apricots; Pasquale doesn't like anything."},
+            {"t": "Mi piace questa, non mi piace quella.", "n": "I like this one, I don't like that one."},
+            {"t": "Anche a me. Neanche a me. A me sì. A me no.", "n": "Me too. Me neither. I do. I don't.", "note": "agreeing and disagreeing about likes"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Dora piace il caffè.", "right": "A Dora piace il caffè.", "why": "The liker needs a (or a pronoun)."},
+            {"wrong": "Lui piace il calcio.", "right": "Gli piace il calcio. / A lui piace il calcio.", "why": "Lui is a subject; the liker is gli / a lui."},
+            {"wrong": "Mi piace le pesche.", "right": "Mi piacciono le pesche.", "why": "Plural thing, plural verb."},
+            {"wrong": "Anche io! (replying to mi piace)", "right": "Anche a me!", "why": "The liker is a me."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-dimostrativi", "title": "questo and quello", "category": "Demonstratives", "rule": "Questo (this) has four forms: questo, questa, questi, queste. Quello (that) before a noun behaves like the definite article: quel, quello, quell', quella, quei, quegli, quelle. Alone, quello has four forms: quello, quella, quelli, quelle.", "ref": "demonstratives", "blocks": [
+          {"type": "table", "head": ["", "questo (this)", "quello + noun (that)", "quello alone (that one)"], "rows": [["m. sing. + consonant", "questo pomodoro", "quel pomodoro", "quello"], ["m. sing. + s+cons., z", "questo zucchino", "quello zucchino", "quello"], ["m./f. sing. + vowel", "questo uovo · questa arancia (quest'uovo, quest'arancia)", "quell'uovo · quell'arancia", "quello · quella"], ["f. sing. + consonant", "questa camicia", "quella camicia", "quella"], ["m. pl. + consonant", "questi pomodori", "quei pomodori", "quelli"], ["m. pl. + vowel, s+cons., z", "questi zucchini · questi etti", "quegli zucchini · quegli etti", "quelli"], ["f. pl.", "queste pesche", "quelle pesche", "quelle"]], "speak": [1, 2, 3], "rowhead": true, "note": "Quel / quei like il / i; quello / quegli like lo / gli; quell' like l'; quella / quelle like la / le."},
+          {"type": "examples", "items": [
+            {"t": "Questi o quelli? Questi sono per l'insalata, quelli per il sugo.", "n": "These or those? These are for salad, those for sauce."},
+            {"t": "Quanto costa quella camicia bianca? E quel vestito?", "n": "How much is that white shirt? And that dress?"},
+            {"t": "Mi piace questa. Quella no.", "n": "I like this one. Not that one."},
+            {"t": "Quegli zucchini sono piccoli; quelle melanzane sono grandi.", "n": "Those courgettes are small; those aubergines are big."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "quello pomodoro, quelli pomodori", "right": "quel pomodoro, quei pomodori", "why": "Before a noun, quello follows the article pattern."},
+            {"wrong": "questo uova, quella uova", "right": "queste uova, quelle uova", "why": "Uova is feminine plural."},
+            {"wrong": "Mi piace quel. (alone)", "right": "Mi piace quello.", "why": "Alone, the full form."},
+            {"wrong": "quest'camicia", "right": "questa camicia", "why": "Elision only before a vowel."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-colori", "title": "Colours and the adjectives that don't change", "category": "Adjectives", "rule": "Most colours agree like any adjective (rosso, rossa, rossi, rosse; verde, verdi). Colours that come from nouns are invariable: blu, rosa, viola, beige, bordeaux, arancione (mostly), marrone (often). With chiaro / scuro, the whole colour is invariable.", "ref": "adjective-agreement", "blocks": [
+          {"type": "table", "head": ["Agree", "Invariable"], "rows": [["bianco/a/chi/che · nero · rosso · giallo · grigio/a/i/ie · azzurro · marrone (marroni) · verde/i · arancione (arancioni)", "blu · rosa · viola · beige · bordeaux · lilla · fucsia · and any colour + chiaro / scuro: verde chiaro, blu scuro"]], "speak": [0, 1], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Le scarpe nere, la camicia bianca, i pantaloni grigi.", "n": "The black shoes, the white shirt, the grey trousers."},
+            {"t": "Due magliette blu e una gonna rosa.", "n": "Two blue T-shirts and a pink skirt."},
+            {"t": "Le camicie verde chiaro, i vestiti rosso scuro.", "n": "The light green shirts, the dark red dresses."},
+            {"t": "Che colore ti piace? — Il blu. Di che colore è? — È rosso.", "n": "What colour do you like? — Blue. What colour is it? — It's red.", "note": "colours as nouns: il rosso, il blu"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "le camicie blue, bli", "right": "le camicie blu", "why": "Invariable."},
+            {"wrong": "le magliette rose", "right": "le magliette rosa", "why": "Rosa is invariable (le rose are roses)."},
+            {"wrong": "le scarpe verdi scure", "right": "le scarpe verde scuro", "why": "Colour + chiaro / scuro: invariable."},
+            {"wrong": "i limoni gialle", "right": "i limoni gialli", "why": "Agreement with the masculine plural."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-plurali", "title": "The difficult plurals", "category": "Nouns and articles", "rule": "-co / -go: usually -chi / -ghi (banchi, alberghi), but amici, medici. -ca / -ga: always -che / -ghe (amiche, pesche). -cia / -gia: -ce / -ge when the i is unstressed and preceded by a consonant (arance, spiagge), -cie / -gie after a vowel (camicie, valigie). -io: -i (grigi, zii only when stressed). Accented, one-syllable, foreign and abbreviated nouns don't change. A few are irregular: uomo / uomini, uovo / uova, mano / mani.", "ref": "plurals", "blocks": [
+          {"type": "table", "head": ["Pattern", "Singular → plural", "Rule of thumb"], "rows": [["-co, -go (stress on the syllable before)", "banco → banchi · albergo → alberghi · tedesco → tedeschi · bianco → bianchi · fungo → funghi", "add h, keep the hard sound"], ["-co, -go (stress two syllables before)", "medico → medici · amico → amici · nemico → nemici · psicologo → psicologi", "no h, sound goes soft; amico, nemico, greco are the famous exceptions with stress before"], ["-ca, -ga", "pesca → pesche · amica → amiche · albicocca → albicocche · riga → righe · giacca → giacche", "always h"], ["-cia, -gia, i unstressed after a consonant", "arancia → arance · spiaggia → spiagge · faccia → facce · pioggia → piogge", "drop the i"], ["-cia, -gia after a vowel, or i stressed", "camicia → camicie · valigia → valigie · farmacia → farmacie", "keep the i"], ["-io, i unstressed", "grigio → grigi · negozio → negozi · figlio → figli", "one i"], ["-io, i stressed", "zio → zii · addio → addii", "two i's"], ["invariable", "città · caffè · università · bar · film · sport · foto · moto · bici · re · serie", "accented, foreign, abbreviated, one syllable"], ["irregular", "uomo → uomini · uovo → le uova · mano → le mani · braccio → le braccia · dito → le dita · ginocchio → le ginocchia · paio → le paia · centinaio → le centinaia · bue → buoi · dio → gli dei", "learn them; the body ones are unit 12"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Due amici e due amiche, tre pesche e tre pesci.", "n": "Two male friends and two female friends, three peaches and three fish."},
+            {"t": "Le arance sono sul banco; le camicie sono sul banco di Nunzia.", "n": "The oranges are on the stall; the shirts are on Nunzia's stall."},
+            {"t": "Sei uova, due mani, cento euro, dieci foto.", "n": "Six eggs, two hands, a hundred euros, ten photos."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "amichi, medichi", "right": "amici, medici", "why": "Soft plural: the common exceptions."},
+            {"wrong": "arancie, spiaggie", "right": "arance, spiagge", "why": "Consonant + cia / gia → drop the i."},
+            {"wrong": "camice (for shirts)", "right": "camicie", "why": "Vowel before -cia: keep the i. (Il camice is a lab coat, plural camici.)"},
+            {"wrong": "gli uovi, le mane", "right": "le uova, le mani", "why": "Irregular."},
+            {"wrong": "le fote, i bars", "right": "le foto, i bar", "why": "Invariable."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "sc, sch, ch, gh",
+      "intro": "The market is where it matters: pesce is fish and pesche are peaches. The h is the switch, as with c and g in unit 2: without it, sce / sci is \"sh\"; with it, sche / schi is \"sk\".",
+      "blocks": [
+        {"type": "table", "head": ["Spelling", "Sound", "Examples"], "rows": [["sce, sci", "\"sh\" (long)", "pesce, prosciutto, sciarpa, scelta, uscita, lasciare"], ["sca, sco, scu", "\"sk\"", "scarpe, scuola, scusa, scontrino, mosca"], ["sche, schi", "\"sk\"", "pesche, schiena, maschio, tedeschi, mosche"], ["che, chi", "\"k\"", "chilo, zucchine, albicocche, pesche, chiesa, banchi"], ["ghe, ghi", "\"g\" (hard)", "spaghetti, alberghi, funghi, righe, ghiaccio"], ["ce, ci · ge, gi", "\"ch\" · \"j\"", "arance, camicie, cipolla · formaggio, giacca, grigio"]], "speak": [2], "rowhead": true},
+        {"type": "minimal", "caption": "The h changes the word", "pairs": [
+          {"a": "pesce", "b": "pesche", "na": "fish", "nb": "peaches", "tip": "PEH-sheh / PEH-skeh. Order the wrong one and you get the wrong lunch."},
+          {"a": "scena", "b": "schema", "na": "scene", "nb": "scheme, diagram"},
+          {"a": "mosce", "b": "mosche", "na": "limp (f. pl.)", "nb": "flies"},
+          {"a": "lasci", "b": "laschi", "na": "you leave", "nb": "loose (pl.)"},
+          {"a": "ceci", "b": "cechi", "na": "chickpeas", "nb": "Czechs", "tip": "Without sc: plain c. Soft / hard."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "The plurals, out loud", "text": "The h in plurals exists to keep the sound: [[amica → amiche]] stays \"k\" (a-MEE-keh), [[albicocca → albicocche]] too. Without the h, [[amice]] would be \"a-MEE-cheh\". Say the plural aloud when you learn it and the spelling takes care of itself."},
+        {"type": "examples", "items": [
+          {"t": "Due etti di prosciutto, un chilo di pesche, del pesce fresco e sei uova.", "n": "200 g of ham, a kilo of peaches, some fresh fish and six eggs.", "note": "sh · k · sk · sh · k"},
+          {"t": "Le mie amiche tedesche comprano le camicie bianche al mercato.", "n": "My German (female) friends buy white shirts at the market.", "note": "k · sk · ch · k"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty exercises in five sets and a mixed review. Plurals and agreement count; the partitive counts.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Del pane, un chilo di", "items": [
+          {"kind": "fill", "q": "Vorrei ___ pane, ___ mozzarella e ___ pomodori. (some)", "answers": [["del"], ["della"], ["dei"]], "n": "I'd like some bread, some mozzarella and some tomatoes."},
+          {"kind": "fill", "q": "Due chili ___ pomodori e un etto ___ prosciutto.", "answers": [["di"], ["di"]], "n": "Two kilos of tomatoes and 100 g of ham."},
+          {"kind": "fill", "q": "___ zucchero (some) · ___ uva (some) · ___ spinaci (some)", "answers": [["dello"], ["dell'"], ["degli"]], "n": "some sugar · some grapes · some spinach"},
+          {"kind": "mc", "q": "«A few peaches»", "options": ["qualche pesca", "qualche pesche", "qualchi pesche"], "answer": 0, "why": "Qualche + singular (or alcune pesche)."},
+          {"kind": "fill", "q": "Un ___ di prosciutto (100 g) · mezzo ___ di albicocche (500 g) · una ___ d'olio", "answers": [["etto"], ["chilo"], ["bottiglia"]], "n": "100 g of ham · half a kilo of apricots · a bottle of oil"},
+          {"kind": "match", "q": "Match the quantities.", "pairs": [["un etto", "100 g"], ["mezzo chilo", "500 g"], ["un chilo e mezzo", "1.5 kg"], ["un litro", "1 l"], ["una dozzina", "12"]]},
+          {"kind": "translate", "q": "A bit of basil and a few lemons, please.", "answers": ["Un po' di basilico e qualche limone, per favore", "Un po' di basilico e alcuni limoni, per favore"]},
+          {"kind": "dictation", "text": "Vorrei due etti di mozzarella e un chilo di arance.", "n": "I'd like 200 g of mozzarella and a kilo of oranges."}
+        ]},
+        {"type": "exercises", "title": "2 · Piacere", "items": [
+          {"kind": "fill", "q": "A Dora ___ le albicocche. A Pasquale non ___ niente.", "answers": [["piacciono"], ["piace"]], "n": "Dora likes apricots. Pasquale doesn't like anything."},
+          {"kind": "fill", "q": "Signora, ___ piace il blu? — No, ___ piacciono i colori chiari. (to you, Lei / to me)", "answers": [["Le"], ["mi"]], "n": "Madam, do you like blue? — No, I like light colours."},
+          {"kind": "fill", "q": "Nando? ___ piace il calcio. Dora e Rita? ___ piacciono le feste. (to him / to them)", "answers": [["Gli"], ["Gli", "A loro"]], "n": "Nando? He likes football. Dora and Rita? They like parties."},
+          {"kind": "fill", "q": "___ piace Roccamarina? (to you two) — Sì, ___ piace molto. (to us)", "answers": [["Vi"], ["ci"]], "n": "Do you (both) like Roccamarina? — Yes, we like it a lot."},
+          {"kind": "reply", "line": {"t": "Mi piacciono le pesche.", "n": "I like peaches."}, "options": ["Anche a me.", "Anche io.", "Anche mi."], "answer": 0, "why": "The liker is a me."},
+          {"kind": "mc", "q": "«Chiara likes the white shirt.»", "options": ["A Chiara piace la camicia bianca.", "Chiara piace la camicia bianca.", "Chiara le piace la camicia bianca."], "answer": 0, "why": "A + name, then piace."},
+          {"kind": "translate", "q": "Do you (tu) like these shoes? — No, I like those.", "answers": ["Ti piacciono queste scarpe? No, mi piacciono quelle", "Ti piacciono queste scarpe? — No, mi piacciono quelle"]}
+        ]},
+        {"type": "exercises", "title": "3 · Questo e quello", "items": [
+          {"kind": "fill", "q": "___ pomodori sono per l'insalata (these), ___ pomodori sono per il sugo (those).", "answers": [["Questi"], ["quei"]], "n": "These tomatoes are for salad, those tomatoes are for sauce."},
+          {"kind": "fill", "q": "Quanto costa ___ camicia bianca? E ___ vestito? E ___ zucchini? (that / that / those)", "answers": [["quella"], ["quel"], ["quegli"]], "n": "How much is that white shirt? And that dress? And those courgettes?"},
+          {"kind": "fill", "q": "Mi piace ___ (this one, f.), non mi piace ___ (that one, f.).", "answers": [["questa"], ["quella"]], "n": "I like this one, I don't like that one."},
+          {"kind": "mc", "q": "«Those eggs»", "options": ["quelle uova", "quegli uova", "quei uova"], "answer": 0, "why": "Uova is feminine plural: quelle."},
+          {"kind": "order", "answer": "Quelli per il sugo, due chili.", "n": "Those for sauce, two kilos."}
+        ]},
+        {"type": "exercises", "title": "4 · Plurali e colori", "items": [
+          {"kind": "fill", "q": "pesca → ___ · amico → ___ · amica → ___ · arancia → ___", "answers": [["pesche"], ["amici"], ["amiche"], ["arance"]], "n": "peaches · friends · (female) friends · oranges"},
+          {"kind": "fill", "q": "camicia → ___ · uovo → ___ · mano → ___ · uomo → ___", "answers": [["camicie"], ["uova"], ["mani"], ["uomini"]], "n": "shirts · eggs · hands · men"},
+          {"kind": "fill", "q": "banco → ___ · albergo → ___ · giacca → ___ · negozio → ___", "answers": [["banchi"], ["alberghi"], ["giacche"], ["negozi"]], "n": "stalls · hotels · jackets · shops"},
+          {"kind": "mc", "q": "Which is right?", "options": ["le città, i caffè, le foto", "le cittàs, i caffès, le fote", "le citte, i caffi, le foti"], "answer": 0, "why": "Accented and abbreviated nouns are invariable."},
+          {"kind": "fill", "q": "due magliette ___ (blu) · le scarpe ___ (nero) · i limoni ___ (giallo) · una gonna ___ (rosa)", "answers": [["blu"], ["nere"], ["gialli"], ["rosa"]], "n": "two blue T-shirts · the black shoes · the yellow lemons · a pink skirt"},
+          {"kind": "fill", "q": "Le camicie sono ___ (verde chiaro).", "answers": [["verde chiaro"]], "n": "The shirts are light green.", "hint": "colour + chiaro: invariable"},
+          {"kind": "tf", "q": "Is this right?", "t": "Mi piacciono le camicie bianche e i pantaloni grigi.", "answer": true, "why": "Bianche (-ca → -che), grigi (-io → -i). All correct."},
+          {"kind": "speak", "text": "Pesce o pesche? Pesche: un chilo di pesche e due etti di pesce.", "n": "Fish or peaches? Peaches: a kilo of peaches and 200 g of fish.", "tip": "sh for pesce, sk for pesche."}
+        ]},
+        {"type": "exercises", "title": "5 · Al mercato", "items": [
+          {"kind": "reply", "line": {"t": "Che taglia porta?", "n": "What size do you take?"}, "options": ["La quarantotto.", "Il quarantadue, per le scarpe.", "Due chili."], "answer": 0, "why": "Clothes take a taglia; shoes a numero; tomatoes a chilo."},
+          {"kind": "reply", "line": {"t": "Quarantasette!", "n": "Forty-seven!"}, "options": ["Sono io. Vorrei due etti di mozzarella.", "Quant'è?", "Non si toccano."], "answer": 0, "why": "Your number at the counter: say what you want."},
+          {"kind": "fill", "q": "Posso dare ___ (a look)? Quanto ___ (cost, pl.) le pesche? — Due euro ___ chilo.", "answers": [["un'occhiata"], ["costano"], ["al"]], "n": "May I have a look? How much are the peaches? — Two euros a kilo."},
+          {"kind": "mc", "q": "The vendor says «Per Lei venti». You:", "options": ["Say grazie, maybe ask once about two for thirty-five, and pay cash.", "Offer ten.", "Ask for a receipt and a card machine."], "answer": 0, "why": "The market discount is offered, not fought over; cash is the rule."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "fill", "q": "Dora: «Compra ___ pane, un ___ di prosciutto e ___ uova. A me ___ le albicocche: prendi un chilo di ___.» (some / 100 g / six / like / apricots)", "answers": [["del"], ["etto"], ["sei"], ["piacciono"], ["albicocche"]], "n": "Dora: \"Buy some bread, 100 g of ham and six eggs. I like apricots: get a kilo of them.\""},
+          {"kind": "translate", "q": "I like this white shirt. How much is that blue one?", "answers": ["Mi piace questa camicia bianca. Quanto costa quella blu", "Mi piace questa camicia bianca. Quanto costa quella blu?"]},
+          {"kind": "order", "answer": "Le pesche sono finite, ci sono le albicocche.", "n": "The peaches are finished, there are apricots."},
+          {"kind": "write", "q": "Write Dora's shopping list for Saturday as a message to the protagonist: five things with quantities, one colour, and what she likes.", "model": "Al mercato compra due chili di pomodori per il sugo, un chilo di pesche, tre etti di mozzarella, sei uova e del basilico. Le melanzane piccole, quelle nere. A me piacciono le pesche gialle, non quelle bianche. Grazie!", "hint": "due chili di… · un etto di… · quelle… · a me piace / piacciono…"},
+          {"kind": "speak", "text": "Vorrei un chilo di arance, delle pesche e un etto di prosciutto crudo.", "n": "I'd like a kilo of oranges, some peaches and 100 g of cured ham.", "tip": "Arance: a-RAN-che. Pesche: sk. Prosciutto: pro-SHUT-to with a long t."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Il mercato, i negozi, la festa",
+      "intro": "How to behave at a stall, where to buy what, when the sales are, and why the whole town needs a new shirt on the same weekend.",
+      "blocks": [
+        {"type": "subhead", "text": "Al mercato"},
+        {"type": "prose", "text": "Three rules. You don't touch the fruit and vegetables: you point, you say how much, the vendor chooses, and if you want to choose yourself you ask ([[Posso scegliere?]]) and are often told no. At counters with a queue you take a number from the machine, or you ask [[Chi è l'ultimo?]] and remember the face; nobody forms a line, everybody knows the order. You pay cash: the market runs on coins and small notes, and the card machine, if it exists, is for amounts over ten euros and for tourists.\n\nPrices are per kilo or per piece, written on a card stuck into the produce, and mostly fixed. The vendor rounds down, adds a lemon, throws in the basil: that is the negotiation. A customer who argues over fifty cents is remembered; a customer who comes back every Saturday is served first and gets the best tomatoes from under the counter."},
+        {"type": "subhead", "text": "I negozi"},
+        {"type": "prose", "text": "Small towns still have specialised shops, and the names tell you what they sell: [[il panificio]] or [[il forno]] (bread, by weight), [[la macelleria]] (meat), [[la pescheria]] (fish), [[il fruttivendolo]] (fruit and vegetables), [[la salumeria]] (cheese and cold cuts, often with [[alimentari]], general groceries), [[la pasticceria]] (pastries), [[la ferramenta]], [[la cartoleria]] (stationery), [[la tabaccheria]] (tobacco, stamps, bus tickets, phone top-ups, and bills). The supermarket exists, outside the centre, and people use it for the heavy things; for anything that has to be good, they go to the person whose name they know.\n\nIn a shop you are greeted and expected to greet back; browsing is allowed but you say [[do un'occhiata, grazie|I'm just looking, thanks]]. Cheese and cold cuts are ordered by the [[etto]]; you can ask for a taste ([[posso assaggiare?]]) of anything cut in front of you."},
+        {"type": "callout", "kind": "real", "title": "I saldi", "text": "Sales are regulated: the winter sales start in early January and the summer sales in early July, on dates set by each region, and last about two months. Outside those windows shops cannot advertise discounts, which is why half the country buys its clothes in the same two weeks. [[Saldi]] on the window, [[sconto del 30%]] on the tag, and the original price must stay visible by law."},
+        {"type": "subhead", "text": "La festa patronale"},
+        {"type": "prose", "text": "Every town has a patron saint and a feast for them, usually in summer: two or three days of a decorated main street with arches of lights ([[le luminarie]]), a procession with the saint's statue carried on shoulders, a brass band, stalls selling nougat and nuts, a concert in the piazza and fireworks at midnight. Emigrants come home for it, families eat together, and everyone wears something new. It is religious, civic and commercial at once, and the shirt from Nunzia's stall is part of the liturgy. Roccamarina's saint has his day in late August; unit 9 is set the morning after."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen before the next unit, then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Some, quantities", "rows": [["del pane · della mozzarella · dei pomodori · delle pesche", "some"], ["un chilo di · mezzo chilo di · un etto di · una bottiglia di", "quantity + di"], ["un po' di · qualche pesca · alcune pesche · molto · troppo", "a bit of · a few · a lot · too much"]]},
+          {"title": "piacere", "rows": [["mi · ti · gli · le · ci · vi · gli (a loro)", "to me · you · him · her / you (Lei) · us · you · them"], ["A Dora piace… A Nando piacciono…", "a + name"], ["Anche a me. Neanche a me.", "me too · me neither"]]},
+          {"title": "questo · quello", "rows": [["questo · questa · questi · queste", "this / these"], ["quel · quello · quell' · quella · quei · quegli · quelle + noun", "that / those (like the article)"], ["quello · quella · quelli · quelle (alone)", "that one / those"]]},
+          {"title": "Colori", "rows": [["bianco/a/chi/che · nero · rosso · giallo · verde/i · grigio/i", "agree"], ["blu · rosa · viola · beige · verde chiaro · blu scuro", "invariable"], ["Che colore ti piace? Di che colore è?", "asking"]]},
+          {"title": "Plurali difficili", "rows": [["pesca → pesche · amica → amiche · albicocca → albicocche", "-ca → -che"], ["banco → banchi · albergo → alberghi · ma amico → amici, medico → medici", "-co → -chi / -ci"], ["arancia → arance · camicia → camicie · grigio → grigi · zio → zii", "-cia · -io"], ["uovo → uova · mano → mani · uomo → uomini · città · foto · bar", "irregular · invariable"]]},
+          {"title": "Al mercato", "rows": [["Vorrei… Quanto costa / costano? Quant'è? Posso dare un'occhiata?", ""], ["Che taglia porta? — La 48. Che numero? — Il 42.", "clothes · shoes"], ["Non si toccano. Chi è l'ultimo? Contanti.", "the rules"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
