@@ -195,8 +195,17 @@ export function conjugation(b, ctx) {
   const tense = tables[0].tenses[b.tense];
   if (!tense) throw new Error(`conjugation block: unknown tense "${b.tense}" for ${verbs[0]}`);
   const persons = tense.persons;
-  const head = `<thead><tr><th></th>${tables.map(tb => `<th lang="${ctx.target}">${esc(tb.inf)}</th>`).join('')}</tr></thead>`;
-  const rows = persons.map((p, i) => `<tr><th>${esc(p)}</th>${tables.map(tb => { const f = tb.tenses[b.tense].forms[i]; return `<td>${ttext(f, ctx)}${say(f, ctx)}</td>`; }).join('')}</tr>`).join('');
+  const name = (tb) => tb.inf || tb.base;
+  const cellOf = (f) => `<td>${ttext(f, ctx)}${say(f, ctx)}</td>`;
+  let head, rows;
+  if (tables.length === 1 && tense.neg && tense.q) {
+    const T = tables[0].tenses[b.tense];
+    head = `<thead><tr><th></th><th>+</th><th>−</th><th>?</th></tr></thead>`;
+    rows = persons.map((p, i) => `<tr><th>${esc(p)}</th>${cellOf(T.forms[i])}${cellOf(T.neg[i])}${cellOf(T.q[i])}</tr>`).join('');
+  } else {
+    head = `<thead><tr><th></th>${tables.map(tb => `<th lang="${ctx.target}">${esc(name(tb))}</th>`).join('')}</tr></thead>`;
+    rows = persons.map((p, i) => `<tr><th>${esc(p)}</th>${tables.map(tb => cellOf(tb.tenses[b.tense].forms[i])).join('')}</tr>`).join('');
+  }
   return `<figure class="tbl-wrap conj"><figcaption>${b.caption ? inline(b.caption, ctx) : `<span lang="${ctx.target}">${esc(verbs.join(', '))}</span> · ${esc(tense.label)}`}</figcaption><table class="tbl">${head}<tbody>${rows}</tbody></table>${b.note ? `<p class="tbl-note">${inline(b.note, ctx)}</p>` : ''}</figure>`;
 }
 

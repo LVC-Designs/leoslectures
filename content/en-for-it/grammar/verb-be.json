@@ -1,0 +1,21 @@
+{"id": "verb-be", "title": "Il verbo be (essere)", "category": "Verbi", "rule": "am, are, is al presente; forme contratte nel parlato; negativo con not; domanda con l'inversione; risposte brevi. Questa scheda cresce con i tempi che si imparano.", "units": ["01"], "blocks": [
+  {"type": "conjugation", "verb": "be", "tense": "present_simple", "caption": "[[be]] · present simple"},
+  {"type": "table", "caption": "Contrazioni", "head": ["Affermativa", "Negativa (due forme)"], "rows": [["I'm", "I'm not"], ["you're", "you aren't · you're not"], ["he's · she's · it's", "he isn't · he's not"], ["we're", "we aren't · we're not"], ["they're", "they aren't · they're not"]], "speak": [0, 1], "note": "I'm not ha una sola forma: amn't non esiste. Nelle domande negative informali si usa aren't I?"},
+  {"type": "subhead", "text": "Gli usi"},
+  {"type": "table", "head": ["Uso", "Esempio", "Attenzione"], "rows": [["identità, nome", "I'm Chiara. This is Teresa.", ""], ["origine: be from", "I'm from Italy.", "from, non of"], ["nazionalità", "She's Italian.", "maiuscola"], ["mestiere: be a / an", "I'm a pastry chef.", "articolo obbligatorio"], ["età", "I'm twenty-seven (years old).", "be, non have"], ["stati fisici", "I'm hungry / thirsty / cold / hot / tired / sleepy / afraid.", "be, non have"], ["luogo", "Franco is at the airport. We're at home.", "at home senza articolo"], ["tempo, ore, distanze (it)", "It's cold. It's four o'clock. It's far.", "soggetto it"]], "speak": [1]},
+  {"type": "subhead", "text": "Domande e risposte brevi"},
+  {"type": "table", "head": ["Domanda", "Sì", "No"], "rows": [["Am I late?", "Yes, you are.", "No, you aren't."], ["Are you tired?", "Yes, I am.", "No, I'm not."], ["Is she Italian?", "Yes, she is.", "No, she isn't."], ["Is it far?", "Yes, it is.", "No, it isn't."], ["Are we late?", "Yes, we are.", "No, we aren't."], ["Are they Canadian?", "Yes, they are.", "No, they aren't."]], "speak": [0, 1, 2]},
+  {"type": "callout", "kind": "warn", "title": "La risposta breve affermativa non si contrae", "text": "[[Yes, I am.]] · [[Yes, it is.]] · [[Yes, they are.]] Mai *Yes, I'm.* Il motivo: la contrazione ha bisogno di qualcosa dopo."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I have 27 years.", "right": "I'm 27.", "why": "Età con be."},
+    {"wrong": "I have hunger / cold / fear.", "right": "I'm hungry / cold / afraid.", "why": "Gli stati fisici in inglese si esprimono con be + aggettivo."},
+    {"wrong": "You are tired?", "right": "Are you tired?", "why": "Domanda = inversione."},
+    {"wrong": "Yes, I'm.", "right": "Yes, I am.", "why": "Forma piena nelle risposte brevi affermative."},
+    {"wrong": "I'm agree.", "right": "I agree.", "why": "Agree (essere d'accordo) è un verbo, non un aggettivo: niente be. Lo stesso per I think, I hope."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "conjugate", "verb": "be", "tense": "present simple", "n": "essere", "answers": ["am", "are", "is", "are", "are", "are"]},
+    {"kind": "fill", "q": "Is Toronto far? — No, it ___.", "answers": [["isn't", "is not", "'s not"]], "n": "Toronto è lontana? — No."},
+    {"kind": "translate", "q": "Ho ventisette anni e ho fame.", "answers": ["I'm twenty-seven and I'm hungry", "I am twenty-seven and I am hungry", "I'm 27 and I'm hungry", "I'm twenty-seven years old and I'm hungry"]}
+  ]}
+]}

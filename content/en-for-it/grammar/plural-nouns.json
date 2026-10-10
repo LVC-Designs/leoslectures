@@ -1,0 +1,18 @@
+{"id": "plural-nouns", "title": "Il plurale dei nomi", "category": "Nomi", "rule": "Regolare: -s. Dopo s, ss, sh, ch, x, z: -es. Consonante + y: -ies. Alcuni in -o: -es. In -f / -fe: spesso -ves. Più i plurali irregolari.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["Regola", "Singolare → plurale"], "rows": [["+ -s", "passport → passports · day → days · cousin → cousins"], ["s, ss, sh, ch, x, z + -es", "bus → buses · class → classes · dish → dishes · church → churches · box → boxes"], ["consonante + y → -ies", "family → families · city → cities · country → countries · baby → babies"], ["vocale + y + -s", "day → days · key → keys · boy → boys"], ["-o + -es (parole comuni)", "tomato → tomatoes · potato → potatoes · hero → heroes"], ["-o + -s (parole straniere, abbreviazioni)", "photo → photos · piano → pianos · espresso → espressos"], ["-f, -fe → -ves", "knife → knives · leaf → leaves · wife → wives (ma roof → roofs)"]], "speak": [1], "rowhead": true},
+  {"type": "table", "caption": "Irregolari (unità 2)", "head": ["Singolare", "Plurale"], "rows": [["man", "men"], ["woman", "women"], ["child", "children"], ["person", "people"], ["foot", "feet"], ["tooth", "teeth"], ["mouse", "mice"], ["sheep · fish", "sheep · fish"]], "speak": [0, 1], "compact": true},
+  {"type": "subhead", "text": "La pronuncia della -s"},
+  {"type": "prose", "text": "Tre suoni, in base all'ultimo suono del singolare: /s/ dopo consonante sorda ([[passports]], [[flights]]), /z/ dopo vocale o consonante sonora ([[days]], [[cousins]]), /ɪz/ dopo s, sh, ch, x ([[buses]], [[suitcases]]). Dettagli nell'unità 4."},
+  {"type": "callout", "kind": "note", "title": "L'aggettivo non cambia", "text": "[[a big city → big cities]], [[an Italian cousin → Italian cousins]]. Mai *bigs*, mai *Italians cousins*."},
+  {"type": "mistakes", "items": [
+    {"wrong": "two suitcase", "right": "two suitcases", "why": "La -s ci vuole anche con il numero."},
+    {"wrong": "citys, familys", "right": "cities, families", "why": "Consonante + y → ies."},
+    {"wrong": "childs, mans", "right": "children, men", "why": "Irregolari."},
+    {"wrong": "Italians cousins", "right": "Italian cousins", "why": "Gli aggettivi sono invariabili."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "one city, two ___ · one bus, two ___ · one key, two ___", "answers": [["cities"], ["buses"], ["keys"]], "n": "una città, due città · un autobus, due autobus · una chiave, due chiavi"},
+    {"kind": "fill", "q": "one child, two ___ · one man, two ___", "answers": [["children"], ["men"]], "n": "un bambino, due bambini · un uomo, due uomini"},
+    {"kind": "mc", "q": "«Three ___ suitcases.»", "options": ["big", "bigs", "big's"], "answer": 0, "why": "L'aggettivo non prende la -s."}
+  ]}
+]}

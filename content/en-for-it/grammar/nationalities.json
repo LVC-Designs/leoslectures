@@ -1,0 +1,22 @@
+{"id": "nationalities", "title": "Paesi, nazionalità e lingue", "category": "Lessico e grammatica", "rule": "Maiuscola sempre. Paese senza articolo (tranne the US, the UK e pochi altri). L'aggettivo di nazionalità è invariabile; per la persona spesso serve a / an.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["Paese", "Aggettivo", "Lingua", "Una persona", "Il popolo"], "rows": [["Italy", "Italian", "Italian", "an Italian", "Italians / the Italians"], ["Canada", "Canadian", "English, French", "a Canadian", "Canadians"], ["the United States (the US, the USA)", "American", "English", "an American", "Americans"], ["England", "English", "English", "an Englishman / an Englishwoman", "the English"], ["the United Kingdom (the UK), Britain", "British", "English", "a British person, a Brit", "the British"], ["Scotland · Wales · Ireland", "Scottish · Welsh · Irish", "English (+ Gaelic, Welsh, Irish)", "a Scot · a Welsh person · an Irish person", "the Scots · the Welsh · the Irish"], ["France", "French", "French", "a French person, a Frenchman", "the French"], ["Germany", "German", "German", "a German", "Germans"], ["Spain", "Spanish", "Spanish", "a Spaniard", "the Spanish"], ["Portugal", "Portuguese", "Portuguese", "a Portuguese person", "the Portuguese"], ["Mexico", "Mexican", "Spanish", "a Mexican", "Mexicans"], ["Colombia", "Colombian", "Spanish", "a Colombian", "Colombians"], ["China", "Chinese", "Chinese (Mandarin, Cantonese)", "a Chinese person", "the Chinese"], ["India", "Indian", "Hindi, English and many others", "an Indian", "Indians"], ["Japan", "Japanese", "Japanese", "a Japanese person", "the Japanese"]], "speak": [0, 1, 2, 3, 4], "rowhead": true, "note": "Con gli aggettivi in -ese, -ish, -ch, la persona si dice con person (a Japanese person) o con il nome del popolo con the (the Japanese). Con quelli in -an basta a / an + aggettivo."},
+  {"type": "subhead", "text": "L'articolo con i paesi"},
+  {"type": "examples", "items": [
+    {"t": "Canada is big. Italy is beautiful.", "n": "Il Canada è grande. L'Italia è bella.", "note": "niente the"},
+    {"t": "The United States, the UK, the Netherlands, the Philippines.", "n": "Gli Stati Uniti, il Regno Unito, i Paesi Bassi, le Filippine.", "note": "the con i nomi plurali o composti (states, kingdom, lands)"},
+    {"t": "I'm from Italy. I live in Canada.", "n": "Vengo dall'Italia. Vivo in Canada."}
+  ]},
+  {"type": "subhead", "text": "Toronto, città di tutti"},
+  {"type": "prose", "text": "A Toronto più della metà degli abitanti è nata fuori dal Canada. Alla domanda [[Where are you from?]] un torontino può rispondere con il quartiere, con il paese dei genitori o con [[Here!]]; spesso ti chiederà la stessa cosa e vorrà davvero saperlo. [[Italian-Canadian]], [[Chinese-Canadian]], [[Indo-Canadian]]: il trattino è una categoria normale, non una contraddizione."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I'm italian.", "right": "I'm Italian.", "why": "Maiuscola."},
+    {"wrong": "the Canada", "right": "Canada", "why": "Niente articolo con il nome di un paese singolo."},
+    {"wrong": "I'm from Italian.", "right": "I'm from Italy. / I'm Italian.", "why": "From + paese."},
+    {"wrong": "She's a Chinese.", "right": "She's Chinese. / She's a Chinese person.", "why": "Gli aggettivi in -ese non si usano da soli come nomi di persona."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "Mateo is from Colombia. He is ___. He speaks ___.", "answers": [["Colombian"], ["Spanish"]], "n": "Mateo viene dalla Colombia. È colombiano. Parla spagnolo."},
+    {"kind": "mc", "q": "Quale frase è corretta?", "options": ["I live in the Canada.", "I live in Canada.", "I live in Canadian."], "answer": 1, "why": "Nome del paese, senza articolo."},
+    {"kind": "match", "q": "Paese e lingua.", "pairs": [["Germany", "German"], ["Spain", "Spanish"], ["Québec", "French"], ["Ontario", "English"]]}
+  ]}
+]}

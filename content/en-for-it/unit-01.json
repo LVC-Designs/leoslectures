@@ -1,0 +1,342 @@
+{
+  "id": "01",
+  "level": "A1",
+  "title": "Welcome to Canada",
+  "subtitle": "Benvenuta in Canada",
+  "intro": "Un volo di nove ore, un ufficiale che fa domande troppo in fretta, uno zio con un cartello. In questa prima unità impari le parole che aprono ogni porta in Canada: salutare, dire chi sei e da dove vieni, fare lo spelling del cognome e rispondere alla domanda che tutti fanno: *How was your flight?*",
+  "objectives": [
+    "Salutare e congedarti scegliendo tra [[hi]], [[hello]], [[good morning]] e [[good afternoon]]",
+    "Presentarti: nome, città, nazionalità, mestiere",
+    "Usare il verbo [[be|essere]] in tutte le forme, anche contratte e negative, e fare domande sì/no",
+    "Capire perché in inglese il pronome soggetto non si può mai lasciare fuori",
+    "Fare lo spelling del tuo nome con l'alfabeto inglese e contare da 0 a 20"
+  ],
+  "canDo": [
+    "A1 · Interazione orale: sa presentarsi e presentare altri, fare e rispondere a domande semplici su dati personali.",
+    "A1 · Conversazione: sa usare le formule di saluto e di commiato di base e fare una presentazione.",
+    "A1 · Produzione orale: sa descrivere se stesso, da dove viene e la propria nazionalità con frasi semplici.",
+    "A1 · Ascolto: sa seguire un discorso molto lento e articolato con cura, con lunghe pause.",
+    "A1 · Scrittura: sa fare lo spelling del proprio nome e scrivere dati personali semplici."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "At the airport",
+      "intro": "Ascolta prima con la traduzione nascosta. Poi leggi riga per riga e premi ▶ su tutto quello che vuoi risentire. La prima scena è formale, al controllo passaporti; la seconda, in sala arrivi, è la famiglia.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-border", "title": "At the border", "setting": "Toronto Pearson, Terminal 1. Ore 15:40 locali, le 21:40 in Italia. Controllo passaporti.", "register": "formale", "lines": [
+          {"stage": "Chiara arriva allo sportello con il passaporto in mano e una cartellina di documenti."},
+          {"who": "Officer", "t": "Good afternoon. Passport, please.", "n": "Buon pomeriggio. Passaporto, per favore."},
+          {"who": "Chiara", "t": "Hello. Here you are.", "n": "Salve. Ecco a lei."},
+          {"who": "Officer", "t": "What's the purpose of your visit?", "n": "Qual è lo scopo della sua visita?"},
+          {"who": "Chiara", "t": "Sorry? Can you repeat, please?", "n": "Come, scusi? Può ripetere, per favore?", "note": "Sorry? con intonazione ascendente vuol dire \"come?\". È la frase che userai di più nel primo mese."},
+          {"who": "Officer", "t": "Why are you in Canada? Work? Study? Holiday?", "n": "Perché è in Canada? Lavoro? Studio? Vacanza?"},
+          {"who": "Chiara", "t": "Work. I'm a pastry chef. I have a working holiday permit… a letter.", "n": "Lavoro. Sono pasticcera. Ho un permesso working holiday… una lettera.", "note": "I'm a pastry chef: in inglese i mestieri vogliono a / an. In italiano \"sono pasticcera\", senza articolo."},
+          {"who": "Officer", "t": "Perfect. Where are you staying?", "n": "Perfetto. Dove alloggia?"},
+          {"who": "Chiara", "t": "With my family. My cousins, in Toronto. Nairn Avenue.", "n": "Dalla mia famiglia. I miei cugini, a Toronto. Nairn Avenue."},
+          {"who": "Officer", "t": "How long are you staying?", "n": "Quanto tempo resta?"},
+          {"who": "Chiara", "t": "One year.", "n": "Un anno."},
+          {"who": "Officer", "t": "Welcome to Canada, Ms Ferrante. Enjoy your stay.", "n": "Benvenuta in Canada, signora Ferrante. Buona permanenza.", "note": "Ms (si pronuncia \"miz\") è il titolo neutro per una donna, sposata o no. Lo usano uffici, banche, scuole."},
+          {"who": "Chiara", "t": "Thank you! Thank you very much.", "n": "Grazie! Grazie mille."}
+        ], "notes": [
+          {"phrase": "Here you are.", "note": "\"Ecco\", \"tenga\": quando dai qualcosa a qualcuno. Anche Here you go."},
+          {"phrase": "Sorry? / Pardon?", "note": "\"Come, scusi?\". Con la voce che sale. Sorry con la voce che scende è invece \"mi dispiace\"."},
+          {"phrase": "Enjoy your stay.", "note": "\"Buona permanenza\". Enjoy + nome è la formula canadese per augurare: enjoy your meal, enjoy your weekend."}
+        ]},
+        {"type": "scene", "id": "dlg-arrivals", "title": "Arrivals", "setting": "La sala arrivi. Un uomo con un cartello scritto a mano: CHIARA FERRANTE – FAMIGLIA. Accanto, una donna con un cappotto leggero.", "register": "informale", "lines": [
+          {"who": "Franco", "t": "Chiara! Over here! Welcome, welcome!", "n": "Chiara! Di qua! Benvenuta, benvenuta!"},
+          {"who": "Chiara", "t": "Zio Franco? Hi! Hello!", "n": "Zio Franco? Ciao! Salve!"},
+          {"who": "Franco", "t": "I'm Franco, and this is Teresa. We're {hero}'s parents.", "n": "Io sono Franco e questa è Teresa. Siamo i genitori di {hero}.", "note": "{hero}'s parents: la 's dopo un nome vuol dire \"di\". Si impara nell'unità 2."},
+          {"who": "Teresa", "t": "Hi, Chiara. Nice to meet you. How was your flight?", "n": "Ciao, Chiara. Piacere. Com'è andato il volo?"},
+          {"who": "Chiara", "t": "Nice to meet you! The flight… long. Nine hours. I'm very tired.", "n": "Piacere! Il volo… lungo. Nove ore. Sono stanchissima."},
+          {"who": "Franco", "t": "Nine hours, that's nothing! Are you hungry? Teresa has lasagna in the car.", "n": "Nove ore, è niente! Hai fame? Teresa ha le lasagne in macchina.", "note": "Are you hungry? In inglese si è affamati (be hungry), non si ha fame."},
+          {"who": "Teresa", "t": "In the oven, Franco. At home.", "n": "Nel forno, Franco. A casa."},
+          {"who": "Chiara", "t": "Is Toronto far?", "n": "Toronto è lontana?"},
+          {"who": "Franco", "t": "No. Twenty minutes, maybe thirty. We take the 427 and then the Gardiner. You'll see.", "n": "No. Venti minuti, forse trenta. Prendiamo la 427 e poi la Gardiner. Vedrai."},
+          {"who": "Teresa", "t": {"m": "Luca says hi. He called this morning from Roccamarina. You're in his old room.", "f": "Lucia says hi. She called this morning from Roccamarina. You're in her old room.", "note": "He / she e his / her cambiano con la persona di cui si parla. Il possessivo concorda con chi possiede (his = di lui, her = di lei), non con la cosa posseduta: in italiano \"la sua camera\" non dice se è di Luca o di Lucia, in inglese sì."}, "n": "{hero} ti saluta. Ha chiamato stamattina da Roccamarina. Dormi nella sua vecchia camera."},
+          {"who": "Chiara", "t": "Thank you. Thank you both. Sorry, my English is… small.", "n": "Grazie. Grazie a tutti e due. Scusate, il mio inglese è… piccolo."},
+          {"who": "Teresa", "t": "Your English is fine. And it's \"little\", not \"small\". Welcome home, Chiara.", "n": "Il tuo inglese va bene. E si dice \"little\", non \"small\". Benvenuta a casa, Chiara."}
+        ], "notes": [
+          {"phrase": "Over here!", "note": "\"Di qua!\", \"qui!\". Per farsi vedere in mezzo alla folla."},
+          {"phrase": "That's nothing!", "note": "\"È niente!\", \"figurati!\". Franco minimizza: nove ore di volo contro le due settimane di nave di suo padre."},
+          {"phrase": "You'll see.", "note": "\"Vedrai.\" Il futuro con will arriva nell'unità 13; per ora è una frase fatta."},
+          {"phrase": "Welcome home.", "note": "\"Benvenuta a casa.\" Home senza articolo e senza preposizione: at home, go home, welcome home."}
+        ], "questions": [
+          {"kind": "tf", "q": "Franco e Teresa sono i genitori di {hero}.", "t": "We're {hero}'s parents.", "answer": true, "why": "Sì: «We're {hero}'s parents». Chiara è la cugina, quindi Franco è \"zio\" per affetto, non per anagrafe."},
+          {"kind": "mc", "q": "Perché Teresa corregge Chiara?", "options": ["Perché Chiara dice «small» invece di «little».", "Perché Chiara dice «hello» invece di «hi».", "Perché Chiara non dice «thank you»."], "answer": 0, "why": "Small è piccolo di dimensione; per \"poco\" (inglese, tempo, soldi) si dice little o a little. Teresa lo corregge con gentilezza: «Your English is fine»."},
+          {"kind": "fill", "q": "Nice to ___ you, Chiara.", "answers": [["meet"]], "n": "Piacere di conoscerti, Chiara."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "First words",
+      "intro": "Una quarantina di parole che userai ogni giorno. Ripeti ogni parola dopo la voce: l'ortografia inglese non dice come si pronuncia una parola, quindi l'orecchio deve lavorare dal primo giorno.",
+      "blocks": [
+        {"type": "vocab", "theme": "Greetings and politeness", "n": "Saluti e cortesia", "items": [
+          {"t": "hello", "n": "salve, buongiorno (neutro)", "pos": "interj.", "ipa": "həˈloʊ", "ex": {"t": "Hello, I'm Chiara.", "n": "Salve, sono Chiara."}, "note": "Va bene con tutti, a qualsiasi ora. La h si pronuncia: è un soffio."},
+          {"t": "hi", "n": "ciao (arrivando)", "pos": "interj.", "ipa": "haɪ", "ex": {"t": "Hi, Teresa! How are you?", "n": "Ciao, Teresa! Come stai?"}, "note": "Informale ma molto diffuso: in Canada lo senti anche in banca. Hey è ancora più informale."},
+          {"t": "good morning", "n": "buongiorno (fino a mezzogiorno)", "pos": "phrase", "ex": {"t": "Good morning! Coffee?", "n": "Buongiorno! Caffè?"}, "note": "Solo di mattina. Spesso abbreviato in Morning!"},
+          {"t": "good afternoon", "n": "buon pomeriggio", "pos": "phrase", "ex": {"t": "Good afternoon. Passport, please.", "n": "Buon pomeriggio. Passaporto, per favore."}, "note": "Da mezzogiorno alle cinque o sei. Più formale di hello."},
+          {"t": "good evening", "n": "buonasera", "pos": "phrase", "ex": {"t": "Good evening, Mrs Ferrante.", "n": "Buonasera, signora Ferrante."}, "note": "Per salutare arrivando, la sera. Non per andare via."},
+          {"t": "good night", "n": "buonanotte", "pos": "phrase", "ex": {"t": "Good night, see you tomorrow.", "n": "Buonanotte, a domani."}, "note": "Solo quando si va a dormire o ci si lascia la sera tardi. Come in italiano."},
+          {"t": "goodbye / bye", "n": "arrivederci / ciao (andando via)", "pos": "interj.", "ex": {"t": "Bye, Franco! See you later.", "n": "Ciao, Franco! A dopo."}, "note": "Goodbye è formale; bye e bye-bye quotidiani. Ciao per salutare andando via è bye, mai hi."},
+          {"t": "see you", "n": "ci vediamo", "pos": "phrase", "ex": {"t": "See you tomorrow! See you soon!", "n": "A domani! A presto!"}, "note": "See you later = a dopo. See you = ci vediamo."},
+          {"t": "nice to meet you", "n": "piacere (di conoscerti)", "pos": "phrase", "ex": {"t": "Nice to meet you, Teresa. — Nice to meet you too.", "n": "Piacere, Teresa. — Piacere mio."}, "note": "La risposta è Nice to meet you too. Non si risponde con il solo nome, come in italiano."},
+          {"t": "thank you / thanks", "n": "grazie", "pos": "phrase", "ipa": "θæŋk juː", "ex": {"t": "Thank you very much! Thanks a lot!", "n": "Grazie mille!"}, "note": "Il th di thank è il suono con la lingua tra i denti. Thanks è più informale."},
+          {"t": "you're welcome", "n": "prego (dopo un grazie)", "pos": "phrase", "ex": {"t": "— Thank you! — You're welcome.", "n": "— Grazie! — Prego."}, "note": "In Canada senti anche No problem e No worries. Il prego per far passare è Go ahead."},
+          {"t": "please", "n": "per favore", "pos": "adv.", "ipa": "pliːz", "ex": {"t": "A coffee, please.", "n": "Un caffè, per favore."}, "note": "Molto più frequente che in italiano: un ordine senza please suona brusco."},
+          {"t": "sorry", "n": "scusa, mi dispiace; come?", "pos": "interj.", "ipa": "ˈsɔri", "ex": {"t": "Sorry? Can you repeat, please?", "n": "Come? Può ripetere, per favore?"}, "note": "Tre usi: scusarsi, chiedere di ripetere (voce che sale), e in Canada quasi ogni contatto fisico o verbale. Lo senti cento volte al giorno."},
+          {"t": "excuse me", "n": "mi scusi, permesso", "pos": "phrase", "ex": {"t": "Excuse me, where is Terminal 1?", "n": "Mi scusi, dov'è il Terminal 1?"}, "note": "Per attirare l'attenzione o passare. Sorry è per dopo, excuse me per prima."},
+          {"t": "yes / no", "n": "sì / no", "pos": "adv.", "ex": {"t": "Are you tired? — Yes. Are you hungry? — No.", "n": "Sei stanca? — Sì. Hai fame? — No."}, "note": "Yeah e yep sono i sì informali; nope è il no informale."},
+          {"t": "welcome", "n": "benvenuto, benvenuta, benvenuti", "pos": "adj.", "ipa": "ˈwɛlkəm", "ex": {"t": "Welcome to Canada, Ms Ferrante.", "n": "Benvenuta in Canada, signora Ferrante."}, "note": "Una sola forma per tutti: niente accordo. Welcome to + luogo."}
+        ]},
+        {"type": "vocab", "theme": "Who you are", "n": "Chi sei", "items": [
+          {"t": "name", "n": "nome", "pos": "noun", "plural": "names", "ex": {"t": "What's your name? — My name's Chiara.", "n": "Come ti chiami? — Mi chiamo Chiara."}, "note": "First name = nome di battesimo; last name o surname = cognome."},
+          {"t": "last name", "n": "cognome", "pos": "noun", "plural": "last names", "ex": {"t": "Last name? — Ferrante. F, E, R, R, A, N, T, E.", "n": "Cognome? — Ferrante."}, "note": "Nei moduli canadesi trovi last name o surname, e family name."},
+          {"t": "passport", "n": "passaporto", "pos": "noun", "ipa": "ˈpæspɔrt", "plural": "passports", "ex": {"t": "Here is my passport.", "n": "Ecco il mio passaporto."}},
+          {"t": "flight", "n": "volo", "pos": "noun", "ipa": "flaɪt", "plural": "flights", "ex": {"t": "How was your flight? — Long!", "n": "Com'è andato il volo? — Lungo!"}, "note": "gh muto: si dice \"flait\"."},
+          {"t": "airport", "n": "aeroporto", "pos": "noun", "ipa": "ˈɛrpɔrt", "plural": "airports", "ex": {"t": "Pearson is Toronto's airport.", "n": "Pearson è l'aeroporto di Toronto."}},
+          {"t": "suitcase", "n": "valigia", "pos": "noun", "ipa": "ˈsuːtkeɪs", "plural": "suitcases", "ex": {"t": "Two suitcases and a backpack.", "n": "Due valigie e uno zaino."}, "note": "Luggage (bagaglio) non ha plurale: unità 7."},
+          {"t": "family", "n": "famiglia", "pos": "noun", "ipa": "ˈfæməli", "plural": "families", "ex": {"t": "I'm staying with my family.", "n": "Sto dalla mia famiglia."}, "note": "Plurale in -ies: family → families."},
+          {"t": "cousin", "n": "cugino, cugina", "pos": "noun", "ipa": "ˈkʌzən", "plural": "cousins", "ex": {"t": "{hero} is my cousin.", "n": "{hero} è {{mio cugino|mia cugina}}."}, "note": "Una sola parola per cugino e cugina. Si pronuncia \"casn\", non \"cusin\"."},
+          {"t": "uncle / aunt", "n": "zio / zia", "pos": "noun", "ipa": "ˈʌŋkəl / ænt", "ex": {"t": "Franco is my uncle and Teresa is my aunt.", "n": "Franco è mio zio e Teresa è mia zia."}, "note": "Aunt in Canada si pronuncia come ant (formica)."},
+          {"t": "parents", "n": "genitori", "pos": "noun", "ipa": "ˈpɛrənts", "ex": {"t": "Franco and Teresa are {hero}'s parents.", "n": "Franco e Teresa sono i genitori di {hero}."}, "note": "Falso amico: parents = genitori, non parenti. I parenti sono relatives."},
+          {"t": "home", "n": "casa (la propria)", "pos": "noun", "ipa": "hoʊm", "ex": {"t": "Welcome home! Let's go home.", "n": "Benvenuta a casa! Andiamo a casa."}, "note": "Home è la casa come luogo degli affetti; house è l'edificio (unità 2). Go home, at home: senza preposizione né articolo."},
+          {"t": "city", "n": "città", "pos": "noun", "plural": "cities", "ex": {"t": "Toronto is a big city.", "n": "Toronto è una città grande."}},
+          {"t": "country", "n": "paese, nazione", "pos": "noun", "ipa": "ˈkʌntri", "plural": "countries", "ex": {"t": "Canada is a big country.", "n": "Il Canada è un paese grande."}, "note": "Solo nel senso di nazione (o campagna). Il paese come piccola città è town."},
+          {"t": "work", "n": "lavoro", "pos": "noun", "ipa": "wɜrk", "ex": {"t": "Why are you in Canada? — Work.", "n": "Perché è in Canada? — Lavoro."}, "note": "Work è anche il verbo lavorare. Work permit = permesso di lavoro."},
+          {"t": "pastry chef", "n": "pasticcere, pasticcera", "pos": "noun", "ipa": "ˈpeɪstri ʃɛf", "plural": "pastry chefs", "ex": {"t": "I'm a pastry chef.", "n": "Sono pasticcera."}, "note": "Con a: in inglese i mestieri vogliono l'articolo."},
+          {"t": "tired", "n": "stanco, stanca", "pos": "adj.", "ipa": "ˈtaɪərd", "ex": {"t": "I'm very tired. Nine hours!", "n": "Sono stanchissima. Nove ore!"}, "note": "Una forma sola: tired per Luca, Lucia, Chiara e tutti i Ferrante."},
+          {"t": "hungry", "n": "affamato (avere fame)", "pos": "adj.", "ipa": "ˈhʌŋgri", "ex": {"t": "Are you hungry? — Yes, I am!", "n": "Hai fame? — Sì!"}, "note": "Be hungry, non have hunger: in inglese la fame si è, non si ha."},
+          {"t": "far", "n": "lontano", "pos": "adj.", "ex": {"t": "Is Toronto far? — No, twenty minutes.", "n": "Toronto è lontana? — No, venti minuti."}}
+        ]},
+        {"type": "vocab", "theme": "Countries and nationalities", "n": "Paesi e nazionalità", "intro": "Sempre con la maiuscola, e una sola forma per maschile, femminile e plurale.", "items": [
+          {"t": "Italian", "n": "italiano, italiana", "pos": "adj.", "ex": {"t": "Chiara is Italian. She speaks Italian.", "n": "Chiara è italiana. Parla italiano."}, "note": "Il paese: Italy. Un italiano: an Italian. Gli italiani: Italians."},
+          {"t": "Canadian", "n": "canadese", "pos": "adj.", "ipa": "kəˈneɪdiən", "ex": {"t": "Franco and Teresa are Canadian.", "n": "Franco e Teresa sono canadesi."}, "note": "Il paese: Canada. Accento su -na-: ca-NA-dian."},
+          {"t": "American", "n": "americano, statunitense", "pos": "adj.", "ex": {"t": "I'm not American, I'm Canadian!", "n": "Non sono americano, sono canadese!"}, "note": "Il paese: the United States, the US, o America. Attento a dire american a un canadese."},
+          {"t": "English / British", "n": "inglese / britannico", "pos": "adj.", "ex": {"t": "She's English. She's from London.", "n": "È inglese. È di Londra."}, "note": "Il paese: England; il Regno Unito: the UK, the United Kingdom. English è anche la lingua."},
+          {"t": "French", "n": "francese", "pos": "adj.", "ex": {"t": "In Québec, people speak French.", "n": "In Québec la gente parla francese."}, "note": "Il paese: France. French Canadian = franco-canadese."},
+          {"t": "German", "n": "tedesco", "pos": "adj.", "ipa": "ˈdʒɜrmən", "ex": {"t": "My neighbour is German.", "n": "Il mio vicino è tedesco."}, "note": "Il paese: Germany."},
+          {"t": "Spanish", "n": "spagnolo", "pos": "adj.", "ex": {"t": "Mateo isn't Spanish, he's Colombian. He speaks Spanish.", "n": "Mateo non è spagnolo, è colombiano. Parla spagnolo."}, "note": "Il paese: Spain. La lingua: Spanish."},
+          {"t": "Irish", "n": "irlandese", "pos": "adj.", "ipa": "ˈaɪrɪʃ", "ex": {"t": "Is Doug Irish? — No, he's Scottish-Canadian.", "n": "Doug è irlandese? — No, è scozzese-canadese."}, "note": "Il paese: Ireland."}
+        ]},
+        {"type": "subhead", "text": "Numbers 0–20"},
+        {"type": "grid", "cols": 7, "items": [
+          {"big": "0", "small": "zero"}, {"big": "1", "small": "one"}, {"big": "2", "small": "two"}, {"big": "3", "small": "three"}, {"big": "4", "small": "four"}, {"big": "5", "small": "five"}, {"big": "6", "small": "six"},
+          {"big": "7", "small": "seven"}, {"big": "8", "small": "eight"}, {"big": "9", "small": "nine"}, {"big": "10", "small": "ten"}, {"big": "11", "small": "eleven"}, {"big": "12", "small": "twelve"}, {"big": "13", "small": "thirteen"},
+          {"big": "14", "small": "fourteen"}, {"big": "15", "small": "fifteen"}, {"big": "16", "small": "sixteen"}, {"big": "17", "small": "seventeen"}, {"big": "18", "small": "eighteen"}, {"big": "19", "small": "nineteen"}, {"big": "20", "small": "twenty"}
+        ]},
+        {"type": "callout", "kind": "memo", "title": "Tre cose sui numeri", "text": "- Da 13 a 19 finiscono in **-teen**, con l'accento sulla fine: thir-TEEN, four-TEEN. [[Twenty]] ha l'accento all'inizio: sarà il problema dell'unità 8 (thirteen / thirty).\n- [[Eleven]] e [[twelve]] non seguono la regola: si imparano e basta.\n- Il th di [[three]] e [[thirteen]] è il suono della lingua tra i denti. Non è \"tri\" e non è \"fri\": vedi la Pronuncia."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Be, and who you are",
+      "intro": "Sei pezzi di grammatica, tutti necessari per dire «I'm Chiara, I'm Italian, I'm from Roccamarina» e per capire la risposta. Ognuno ha una scheda completa collegata in fondo.",
+      "blocks": [
+        {"type": "grammar", "id": "g-pronouns", "title": "I pronomi soggetto: obbligatori", "category": "Pronomi", "rule": "In inglese il verbo non cambia quasi mai con la persona, quindi il pronome soggetto c'è sempre. «Sono stanca» è I'm tired: senza I non è una frase.", "ref": "subject-pronouns", "blocks": [
+          {"type": "table", "head": ["Pronome", "Italiano", "Note"], "rows": [["I", "io", "sempre maiuscolo, anche in mezzo alla frase"], ["you", "tu, Lei, voi", "una sola parola per tutti i \"tu\": non esiste il Lei"], ["he", "lui", "una persona di sesso maschile"], ["she", "lei", "una persona di sesso femminile"], ["it", "esso, essa (cose, animali, tempo)", "il pronome che l'italiano non ha"], ["we", "noi", ""], ["you", "voi", "uguale al singolare"], ["they", "loro", "persone e anche cose: the suitcases → they"]], "speak": [0], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "I'm tired.", "n": "Sono stanca.", "note": "I è obbligatorio"},
+            {"t": "It's cold in Toronto.", "n": "Fa freddo a Toronto.", "note": "it: il tempo, le cose, le distanze"},
+            {"t": "Are you Italian?", "n": "Sei italiana? / È italiana? / Siete italiani?", "note": "you copre tu, Lei e voi"},
+            {"t": "Franco and Teresa? They're Canadian.", "n": "Franco e Teresa? Sono canadesi."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Niente Lei", "text": "L'ufficiale dice *you* a Chiara, Chiara dice *you* all'ufficiale, Franco dice *you* a tutti. La formalità in inglese non passa dal pronome ma dalle parole intorno: [[please]], [[Ms Ferrante]], [[Good afternoon]] al posto di [[hi]]. Vivere lì ne parla."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Am Italian.", "right": "I am Italian.", "why": "Il pronome non si omette mai: am da solo non dice chi parla."},
+            {"wrong": "Is cold today.", "right": "It is cold today.", "why": "Per il tempo, le ore, le distanze serve it. In italiano \"fa freddo\" non ha soggetto; in inglese sì."},
+            {"wrong": "She is Canadian? (rivolto a una signora)", "right": "Are you Canadian?", "why": "Non esiste il Lei di cortesia: alla persona davanti a te si dice sempre you."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-be", "title": "Il verbo be (essere)", "category": "Verbi", "rule": "am, are, is: tre forme per otto pronomi. Nel parlato quasi sempre contratte: I'm, you're, he's. Si usa per identità, origine, nazionalità, stati d'animo, mestiere ed età.", "ref": "verb-be", "blocks": [
+          {"type": "conjugation", "verb": "be", "tense": "present_simple", "caption": "[[be|essere]] · present simple: affermativo, negativo, domanda"},
+          {"type": "table", "caption": "Le forme contratte, quelle che senti davvero", "head": ["Piena", "Contratta", "Negativa contratta"], "rows": [["I am", "I'm", "I'm not"], ["you are", "you're", "you aren't / you're not"], ["he is · she is · it is", "he's · she's · it's", "he isn't · she isn't · it isn't"], ["we are", "we're", "we aren't"], ["they are", "they're", "they aren't"]], "speak": [0, 1, 2], "note": "L'apostrofo prende il posto delle lettere che cadono. Nello scritto formale (moduli, email a un ufficio) si usano le forme piene."},
+          {"type": "examples", "items": [
+            {"t": "I'm Chiara.", "n": "Sono Chiara.", "note": "identità"},
+            {"t": "I'm from Roccamarina, in Italy.", "n": "Sono di Roccamarina, in Italia.", "note": "origine: be from + luogo"},
+            {"t": "Teresa is Canadian.", "n": "Teresa è canadese.", "note": "nazionalità"},
+            {"t": "We're tired and hungry.", "n": "Siamo stanchi e affamati.", "note": "stati: l'aggettivo non cambia"},
+            {"t": "I'm a pastry chef.", "n": "Sono pasticcera.", "note": "mestiere: con a / an"},
+            {"t": "Sofia is twenty-two.", "n": "Sofia ha ventidue anni.", "note": "età: con be, non con have"}
+          ]},
+          {"type": "callout", "kind": "warn", "title": "L'età si è, non si ha", "text": "[[How old are you?|Quanti anni hai?]] letteralmente \"quanto vecchio sei?\". La risposta: [[I'm twenty-seven.]] oppure [[I'm twenty-seven years old.]] Mai *I have twenty-seven years*: è l'errore più riconoscibile di un italiano all'estero."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I have twenty-seven years.", "right": "I'm twenty-seven.", "why": "L'età con be. Years old è facoltativo, years da solo è sbagliato."},
+            {"wrong": "I'm of Italy. / I'm from Italian.", "right": "I'm from Italy. / I'm Italian.", "why": "From + paese, oppure be + aggettivo di nazionalità. Non si mescolano."},
+            {"wrong": "I have hunger. I have cold.", "right": "I'm hungry. I'm cold.", "why": "Fame, sete, freddo, caldo, paura, sonno: in inglese si è (be hungry, be thirsty, be cold, be hot, be afraid, be sleepy)."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-questions", "title": "Domande e risposte brevi con be", "category": "Frasi", "rule": "Per fare una domanda con be si invertono verbo e soggetto: You are tired → Are you tired? Si risponde con la risposta breve: Yes, I am. / No, I'm not.", "ref": "verb-be", "blocks": [
+          {"type": "table", "head": ["Affermazione", "Domanda", "Risposta breve"], "rows": [["You are Italian.", "Are you Italian?", "Yes, I am. / No, I'm not."], ["She is tired.", "Is she tired?", "Yes, she is. / No, she isn't."], ["Toronto is far.", "Is Toronto far?", "Yes, it is. / No, it isn't."], ["They are Canadian.", "Are they Canadian?", "Yes, they are. / No, they aren't."]], "speak": [0, 1, 2]},
+          {"type": "table", "caption": "Le prime domande con le parole interrogative", "head": ["Domanda", "Risposta"], "rows": [["What's your name?", "My name's Chiara. / I'm Chiara."], ["Where are you from?", "I'm from Italy."], ["How are you?", "Fine, thanks. And you?"], ["How old are you?", "I'm twenty-seven."], ["Who's that?", "That's Franco, my uncle."], ["How do you spell that?", "F, E, R, R, A, N, T, E."]], "speak": [0, 1], "note": "What's = what is; who's = who is; name's = name is. Where are you from? finisce con from: in inglese la preposizione può stare in fondo."},
+          {"type": "callout", "kind": "warn", "title": "Yes, I am. Mai *Yes, I'm.*", "text": "Nella risposta breve affermativa il verbo non si contrae: [[Yes, I am.]] · [[Yes, she is.]] · [[Yes, they are.]] Nella negativa sì: [[No, I'm not.]] · [[No, she isn't.]]"},
+          {"type": "mistakes", "items": [
+            {"wrong": "You are Italian?", "right": "Are you Italian?", "why": "Con la sola intonazione la domanda si capisce, ma è un italianismo. In inglese la domanda si vede dall'ordine delle parole."},
+            {"wrong": "Yes, I'm.", "right": "Yes, I am.", "why": "La contrazione non può chiudere una frase."},
+            {"wrong": "Where you are from?", "right": "Where are you from?", "why": "Anche dopo la parola interrogativa il verbo precede il soggetto."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-a-an", "title": "a / an", "category": "Articoli", "rule": "L'articolo indeterminativo è a davanti a un suono consonante e an davanti a un suono vocale. Conta il suono, non la lettera. In inglese si usa anche con i mestieri.", "ref": "a-an", "blocks": [
+          {"type": "table", "head": ["", "Esempi", "Perché"], "rows": [["a", "a passport, a flight, a city, a university", "suono consonante (university comincia con il suono \"iu\")"], ["an", "an airport, an Italian, an uncle, an hour", "suono vocale (hour ha la h muta)"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "I'm a pastry chef.", "n": "Sono pasticcera.", "note": "mestiere: articolo obbligatorio"},
+            {"t": "Franco is an electrician.", "n": "Franco è elettricista."},
+            {"t": "Toronto is a big city.", "n": "Toronto è una città grande."},
+            {"t": "It's an Italian passport.", "n": "È un passaporto italiano."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "I'm pastry chef.", "right": "I'm a pastry chef.", "why": "L'italiano omette l'articolo con i mestieri; l'inglese no, mai."},
+            {"wrong": "a Italian, a airport", "right": "an Italian, an airport", "why": "Suono vocale → an."},
+            {"wrong": "an university, an one-year permit", "right": "a university, a one-year permit", "why": "Cominciano con un suono consonante (\"iu\", \"u\" come in \"wan\"). Conta l'orecchio, non l'occhio."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-plural", "title": "Il plurale regolare: -s", "category": "Nomi", "rule": "Il plurale si fa con -s. Dopo s, sh, ch, x e o si aggiunge -es; la y dopo consonante diventa -ies. L'aggettivo non cambia mai.", "ref": "plural-nouns", "blocks": [
+          {"type": "table", "head": ["Regola", "Singolare", "Plurale"], "rows": [["+ -s", "passport · flight · cousin", "passports · flights · cousins"], ["dopo s, sh, ch, x, o: + -es", "bus · box · tomato", "buses · boxes · tomatoes"], ["consonante + y: -ies", "family · city · country", "families · cities · countries"], ["vocale + y: + -s", "day · key · boy", "days · keys · boys"]], "speak": [1, 2], "rowhead": true, "note": "I plurali irregolari (child → children, man → men) arrivano nell'unità 2. La pronuncia della -s (/s/, /z/, /ɪz/) nell'unità 4."},
+          {"type": "examples", "items": [
+            {"t": "Two suitcases and one backpack.", "n": "Due valigie e uno zaino."},
+            {"t": "Three big cities: Toronto, Montréal, Vancouver.", "n": "Tre grandi città: Toronto, Montréal, Vancouver.", "note": "big non cambia: l'aggettivo è invariabile"},
+            {"t": "My cousins are Canadian.", "n": "I miei cugini sono canadesi."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "two suitcase", "right": "two suitcases", "why": "Il plurale ci vuole sempre, anche con un numero davanti."},
+            {"wrong": "the familys", "right": "the families", "why": "Consonante + y → -ies."},
+            {"wrong": "Canadians cousins", "right": "Canadian cousins", "why": "L'aggettivo non prende la -s."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-countries", "title": "Paesi, nazionalità, lingue", "category": "Lessico e grammatica", "rule": "Paese, aggettivo di nazionalità e lingua hanno sempre la maiuscola. I nomi dei paesi vanno senza articolo, tranne pochi plurali o composti: the United States, the UK.", "ref": "nationalities", "blocks": [
+          {"type": "table", "head": ["Paese", "Aggettivo / nazionalità", "Lingua", "Una persona"], "rows": [["Italy", "Italian", "Italian", "an Italian"], ["Canada", "Canadian", "English, French", "a Canadian"], ["the United States (the US)", "American", "English", "an American"], ["England · the UK", "English · British", "English", "an Englishman, a Brit"], ["France", "French", "French", "a French person"], ["Germany", "German", "German", "a German"], ["Spain", "Spanish", "Spanish", "a Spaniard"], ["Ireland", "Irish", "English, Irish", "an Irish person"]], "speak": [0, 1, 2, 3], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "I'm from Italy. I'm Italian. I speak Italian.", "n": "Vengo dall'Italia. Sono italiana. Parlo italiano."},
+            {"t": "Chiara is in Canada. Canada is big.", "n": "Chiara è in Canada. Il Canada è grande.", "note": "Canada senza the"},
+            {"t": "Mateo is from Colombia. He speaks Spanish.", "n": "Mateo viene dalla Colombia. Parla spagnolo."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "I'm italian. I speak english.", "right": "I'm Italian. I speak English.", "why": "Maiuscola sempre: nazionalità, lingue, giorni, mesi."},
+            {"wrong": "the Canada, the Italy", "right": "Canada, Italy", "why": "Niente articolo con i nomi dei paesi. L'italiano lo mette (il Canada), l'inglese no."},
+            {"wrong": "I'm from Italian.", "right": "I'm from Italy.", "why": "From vuole il nome del paese."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "The alphabet, th and h",
+      "intro": "L'ortografia inglese non dice come si pronuncia: lo stesso suono si scrive in molti modi e la stessa lettera si legge in molti modi. Per questo l'alfabeto, per fare lo spelling, va imparato con l'orecchio. E due suoni che l'italiano non ha, th e h, vanno allenati dal primo giorno.",
+      "blocks": [
+        {"type": "subhead", "text": "L'alfabeto: come si chiamano le lettere"},
+        {"type": "prose", "text": "Le lettere trappola per un italiano sono quelle che si chiamano come un'altra lettera italiana: **A** si dice \"ei\", **E** si dice \"i\", **I** si dice \"ai\", **G** si dice \"gi\" e **J** \"gei\", **R** è \"ar\", **W** è \"dabliu\", **Y** è \"uai\". La **Z** in Canada (e nel Regno Unito) si dice \"zed\"; \"zi\" è americano. Sotto, la pronuncia approssimata in lettere italiane."},
+        {"type": "grid", "cols": 7, "items": [
+          {"big": "A", "small": "ei", "say": "A"}, {"big": "B", "small": "bi", "say": "B"}, {"big": "C", "small": "si", "say": "C"}, {"big": "D", "small": "di", "say": "D"}, {"big": "E", "small": "i", "say": "E"}, {"big": "F", "small": "ef", "say": "F"}, {"big": "G", "small": "gi", "say": "G"},
+          {"big": "H", "small": "eic", "say": "H"}, {"big": "I", "small": "ai", "say": "I"}, {"big": "J", "small": "gei", "say": "J"}, {"big": "K", "small": "kei", "say": "K"}, {"big": "L", "small": "el", "say": "L"}, {"big": "M", "small": "em", "say": "M"}, {"big": "N", "small": "en", "say": "N"},
+          {"big": "O", "small": "ou", "say": "O"}, {"big": "P", "small": "pi", "say": "P"}, {"big": "Q", "small": "kiu", "say": "Q"}, {"big": "R", "small": "ar", "say": "R"}, {"big": "S", "small": "es", "say": "S"}, {"big": "T", "small": "ti", "say": "T"}, {"big": "U", "small": "iu", "say": "U"},
+          {"big": "V", "small": "vi", "say": "V"}, {"big": "W", "small": "dabliu", "say": "W"}, {"big": "X", "small": "eks", "say": "X"}, {"big": "Y", "small": "uai", "say": "Y"}, {"big": "Z", "small": "zed", "sub": "CA / UK", "say": "Z"}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "How do you spell your last name? — F, E, R, R, A, N, T, E.", "n": "Come si scrive il suo cognome? — F, E, R, R, A, N, T, E."},
+          {"t": "Chiara: C, H, I, A, R, A. With an H.", "n": "Chiara: C, H, I, A, R, A. Con l'acca.", "note": "La C-H di Chiara in inglese si leggerebbe \"ci\": preparati a sentire \"Ciara\" e a spiegarlo"},
+          {"t": "Double R.", "n": "Due erre.", "note": "Per le doppie si dice double: double R, double L."}
+        ]},
+        {"type": "subhead", "text": "th e h: i due suoni nuovi"},
+        {"type": "sounds", "items": [
+          {"sound": "th", "t": "thank you", "n": "grazie", "ipa": "θ", "tip": "Sordo. La punta della lingua tra i denti, l'aria passa. Non è t, non è f: thank, three, thirteen, think."},
+          {"sound": "th", "t": "this", "n": "questo", "ipa": "ð", "tip": "Sonoro, stessa posizione ma con la voce. Non è d: this, that, the, they, mother."},
+          {"sound": "h", "t": "hello", "n": "salve", "ipa": "h", "tip": "Un soffio dalla gola, sempre pronunciato: hello, hi, how, home, hungry. L'italiano la salta; l'inglese la sente mancare. Muta solo in hour, honest, honour."},
+          {"sound": "-teen", "t": "thirteen", "n": "tredici", "ipa": "θɜrˈtiːn", "tip": "th sordo + accento finale. Il contrario di thirty (unità 8)."}
+        ]},
+        {"type": "minimal", "caption": "Coppie minime: ascolta e ripeti", "pairs": [
+          {"a": "three", "b": "tree", "na": "tre", "nb": "albero", "tip": "Lingua tra i denti per three; dietro i denti per tree."},
+          {"a": "thank", "b": "tank", "na": "ringraziare", "nb": "serbatoio"},
+          {"a": "they", "b": "day", "na": "loro", "nb": "giorno", "tip": "th sonoro contro d."},
+          {"a": "hi", "b": "I", "na": "ciao", "nb": "io", "tip": "Senza il soffio della h, hi diventa I."}
+        ]},
+        {"type": "subhead", "text": "L'accento di parola"},
+        {"type": "prose", "text": "In inglese ogni parola ha una sillaba forte e le altre si riducono. Sbagliare l'accento rende la parola irriconoscibile più di una consonante sbagliata. Ascolta: [[CAnada]], [[toRONto]], [[ITaly]], [[iTALian]], [[caNAdian]], [[aMERican]], [[PASSport]], [[AIRport]], [[FAmily]], [[WELcome]]. Nota che Canada e Canadian spostano l'accento: CA-na-da ma ca-NA-dian."}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Quaranta esercizi brevi in cinque serie, poi un ripasso misto. Premi Invio per controllare. Le forme contratte e quelle piene sono accettate tutte e due (I'm / I am); dopo un errore puoi sempre vedere la risposta.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Greetings", "items": [
+          {"kind": "mc", "q": "Sono le tre del pomeriggio. Entri in banca e saluti l'impiegata. Dici:", "options": ["Good morning!", "Good afternoon!", "Good night!"], "answer": 1, "why": "Dopo mezzogiorno: good afternoon. Good morning è solo di mattina; good night si dice andando a dormire."},
+          {"kind": "reply", "line": {"t": "Nice to meet you, Chiara.", "n": "Piacere, Chiara."}, "options": ["Nice to meet you too.", "You're welcome.", "Goodbye."], "answer": 0, "why": "A nice to meet you si risponde nice to meet you too. You're welcome risponde a thank you."},
+          {"kind": "match", "q": "Abbina inglese e italiano.", "pairs": [["thank you", "grazie"], ["you're welcome", "prego"], ["sorry", "scusa, mi dispiace"], ["see you", "ci vediamo"], ["good night", "buonanotte"]]},
+          {"kind": "fill", "q": "— Thank you! — You're ___.", "answers": [["welcome"]], "n": "— Grazie! — Prego."},
+          {"kind": "order", "answer": "Nice to meet you, Chiara.", "n": "Piacere di conoscerti, Chiara."},
+          {"kind": "dictation", "text": "Welcome to Canada, Chiara!", "n": "Benvenuta in Canada, Chiara!"}
+        ]},
+        {"type": "exercises", "title": "2 · Be and pronouns", "items": [
+          {"kind": "conjugate", "verb": "be", "tense": "present simple", "n": "essere", "answers": ["am", "are", "is", "are", "are", "are"]},
+          {"kind": "fill", "q": "Chiara ___ from Italy.", "answers": [["is", "'s"]], "n": "Chiara è italiana (viene dall'Italia)."},
+          {"kind": "fill", "q": "We ___ {hero}'s parents.", "answers": [["are", "'re"]], "n": "Siamo i genitori di {hero}."},
+          {"kind": "fill", "q": "{hero} ___ in Italy. ___ is in Roccamarina.", "answers": [["is", "'s"], [{"m": "He", "f": "She"}]], "n": "{hero} è in Italia. È a Roccamarina.", "hint": "il secondo spazio è un pronome"},
+          {"kind": "mc", "q": "Quale pronome? «___ is cold today.»", "options": ["It", "He", "This"], "answer": 0, "why": "Per il tempo atmosferico il soggetto è it: It's cold, it's hot, it's raining."},
+          {"kind": "translate", "q": "Sono stanca.", "answers": ["I am tired", "I'm tired"]},
+          {"kind": "tf", "q": "In inglese il pronome soggetto si può omettere, come in italiano.", "answer": false, "why": "No: il verbo non segnala la persona, quindi il pronome è obbligatorio. Am tired non esiste."}
+        ]},
+        {"type": "exercises", "title": "3 · a / an and plurals", "items": [
+          {"kind": "fill", "q": "Chiara is ___ pastry chef.", "choices": [["a", "an", "the"]], "answers": [["a"]], "n": "Chiara è pasticcera."},
+          {"kind": "fill", "q": "Franco has ___ Italian passport.", "choices": [["an", "a", "the"]], "answers": [["an"]], "n": "Franco ha un passaporto italiano."},
+          {"kind": "fill", "q": "two ___ (suitcase)", "answers": [["suitcases"]], "n": "due valigie"},
+          {"kind": "fill", "q": "three ___ (city)", "answers": [["cities"]], "n": "tre città"},
+          {"kind": "mc", "q": "«I'm ___ pastry chef.» Cosa va nello spazio?", "options": ["a", "niente", "the"], "answer": 0, "why": "I mestieri vogliono a / an: I'm a pastry chef, he's a teacher, she's an engineer."}
+        ]},
+        {"type": "exercises", "title": "4 · Countries and nationalities", "items": [
+          {"kind": "fill", "q": "Chiara is from ___. She is ___.", "answers": [["Italy"], ["Italian"]], "n": "Chiara viene dall'Italia. È italiana.", "hint": "maiuscole!"},
+          {"kind": "fill", "q": "Franco and Teresa are ___. (Canada)", "answers": [["Canadian"]], "n": "Franco e Teresa sono canadesi."},
+          {"kind": "mc", "q": "Quale frase è scritta bene?", "options": ["I'm italian.", "I'm Italian.", "I'm Italy."], "answer": 1, "why": "Nazionalità con la maiuscola. I'm Italy direbbe \"sono l'Italia\"."},
+          {"kind": "match", "q": "Paese e nazionalità.", "pairs": [["Italy", "Italian"], ["Canada", "Canadian"], ["France", "French"], ["Germany", "German"], ["Spain", "Spanish"]]},
+          {"kind": "tf", "q": "Si dice «the Canada», come in italiano «il Canada».", "answer": false, "why": "I nomi dei paesi vanno senza articolo: Canada is big. Fanno eccezione the United States, the UK, the Netherlands."}
+        ]},
+        {"type": "exercises", "title": "5 · Questions, numbers, spelling", "items": [
+          {"kind": "order", "answer": "Where are you from?", "n": "Di dove sei?"},
+          {"kind": "fill", "q": "___ your name? — My name's Chiara.", "answers": [["What's", "What is"]], "n": "Come ti chiami? — Mi chiamo Chiara."},
+          {"kind": "reply", "line": {"t": "Are you Italian?", "n": "Sei italiana?"}, "options": ["Yes, I am.", "Yes, I'm.", "Yes, I are."], "answer": 0, "why": "Risposta breve affermativa: pronome + verbo pieno, senza contrazione."},
+          {"kind": "fill", "q": "Are you tired? — No, I'm ___.", "answers": [["not"]], "n": "Sei stanca? — No."},
+          {"kind": "dictation", "text": "My name is Chiara. I'm from Italy.", "n": "Mi chiamo Chiara. Vengo dall'Italia."},
+          {"kind": "fill", "q": "seven + eight = ___", "answers": [["fifteen"]], "n": "sette + otto = quindici"},
+          {"kind": "speak", "text": "Ferrante: F, E, R, R, A, N, T, E.", "n": "Ferrante: effe, e, erre, erre, a, enne, ti, e.", "tip": "A si dice \"ei\", E si dice \"i\", R si dice \"ar\"."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Tutta l'unità, mescolata.", "items": [
+          {"kind": "translate", "q": "Buon pomeriggio. Passaporto, per favore.", "answers": ["Good afternoon. Passport, please"]},
+          {"kind": "fill", "q": "Where ___ you from? — I ___ from Roccamarina.", "answers": [["are"], ["am", "'m"]], "n": "Di dove sei? — Sono di Roccamarina."},
+          {"kind": "mc", "q": "«How old are you?» La risposta giusta:", "options": ["I have twenty years.", "I'm twenty.", "I'm twenty years."], "answer": 1, "why": "L'età si dice con be: I'm twenty oppure I'm twenty years old."},
+          {"kind": "order", "answer": "Is Toronto far from the airport?", "n": "Toronto è lontana dall'aeroporto?"},
+          {"kind": "match", "q": "Abbina i numeri.", "pairs": [["eleven", "11"], ["fourteen", "14"], ["eighteen", "18"], ["twenty", "20"]]},
+          {"kind": "write", "q": "Presentati in tre o quattro frasi brevi: saluto, nome, città e paese, nazionalità, \"piacere\".", "model": "Hello! My name is Chiara. I'm from Roccamarina, in Italy. I'm Italian. Nice to meet you!", "hint": "My name is… · I'm from… · I'm…"},
+          {"kind": "speak", "text": "Hi! I'm Chiara. I'm Italian, from Roccamarina.", "n": "Ciao! Sono Chiara. Sono italiana, di Roccamarina.", "tip": "Soffia la h di hi, lingua tra i denti? No: qui nessun th. Attenta all'accento: iTALian."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Il Canada in due minuti",
+      "intro": "Note pratiche per i primi giorni: il paese in cui sei atterrata, cosa succede davvero all'arrivo, e come funziona il saluto canadese, che è più sorriso che parole.",
+      "blocks": [
+        {"type": "subhead", "text": "Il paese"},
+        {"type": "prose", "text": "Il Canada è il secondo paese più grande del mondo per superficie e ha circa quaranta milioni di abitanti, meno dell'Italia su un territorio trentatré volte più grande. È diviso in dieci province e tre territori; Toronto è la capitale dell'Ontario e la città più popolosa del paese, ma la capitale federale è Ottawa. Le lingue ufficiali sono due, inglese e francese: il francese domina in Québec, l'inglese quasi ovunque altrove, e a Toronto si sentono per strada più di cento lingue, italiano compreso.\n\nToronto è sei ore indietro rispetto all'Italia: quando Chiara atterra alle quattro del pomeriggio, a Roccamarina sono le dieci di sera. Per la prima settimana il corpo lo sa anche se la testa lo dimentica."},
+        {"type": "subhead", "text": "L'arrivo"},
+        {"type": "prose", "text": "Chi arriva con un permesso working holiday non ha il permesso in tasca: ce l'ha in una lettera. Il permesso vero viene stampato all'aeroporto, allo sportello dell'immigrazione, dopo il controllo dei documenti: passaporto, lettera di introduzione, prova di avere fondi sufficienti, assicurazione sanitaria che copra tutto il soggiorno, e di solito un biglietto di ritorno o i soldi per comprarlo. L'ufficiale fa domande semplici e dirette: perché sei qui, dove stai, per quanto. Risposte corte e vere; non è un colloquio.\n\nPoi la dogana. Cibo da dichiarare sempre; salumi e carne non entrano, formaggi solo in piccole quantità e dichiarati. Le regole cambiano: controlla il sito dell'agenzia dei servizi di frontiera (CBSA) prima di partire, non la zia."},
+        {"type": "callout", "kind": "real", "title": "Le tre domande dell'ufficiale", "text": "[[What's the purpose of your visit?|Qual è lo scopo della visita?]] · [[Where are you staying?|Dove alloggia?]] · [[How long are you staying?|Quanto resta?]] Se non capisci, [[Sorry?]] o [[Can you repeat, please?]] vanno benissimo: lo sentono cento volte al giorno e rallentano."},
+        {"type": "subhead", "text": "Lo small talk: How was your flight?"},
+        {"type": "prose", "text": "[[How was your flight?]] non è una domanda, è un saluto. La risposta attesa è [[Good, thanks. Long!]] oppure [[Fine, a bit long.]], non il racconto. Lo stesso vale per [[How are you?]], che vuol dire \"ciao\" e si ricambia con [[Good, and you?]]. Il canadese sorride agli sconosciuti, tiene la porta, dice [[sorry]] se lo urti tu, e augura [[Have a good one!]] a chiunque esca da un negozio. Non è falsità e non è amicizia: è il livello normale di cortesia pubblica, e ci si abitua in una settimana."},
+        {"type": "subhead", "text": "Nomi, titoli e il Lei che non c'è"},
+        {"type": "prose", "text": "L'ufficiale dice [[Ms Ferrante]]; Teresa dice [[Chiara]] dopo tre secondi. In Canada si passa al nome di battesimo quasi subito, anche con persone più anziane, anche al lavoro, anche con il medico: [[Hi, I'm Doug]] è la presentazione normale del titolare. Quello che in italiano fa il Lei lo fanno le parole: [[please]], [[thank you]], [[would you mind]], i titoli nelle email. [[Ms]] (\"miz\") è il titolo neutro per le donne; [[Mrs]] (\"missiz\") indica una donna sposata ed è sempre meno usato; [[Mr]] per gli uomini. Senza punto, in Canada come nel Regno Unito."},
+        {"type": "callout", "kind": "culture", "title": "Zio Franco", "text": "Franco è il cugino del padre di Chiara, ma per lei è [[zio]] e resterà zio: nelle famiglie italo-canadesi la parentela si allarga per affetto. I Ferrante di Toronto sono arrivati nel 1962 con nonno Cosimo; Franco aveva sei anni. Parlano un inglese pieno di parole italiane e un italiano pieno di parole inglesi, il cosiddetto *italiese* ([[basement]] che diventa \"basamento\", [[garbage]] che diventa \"garbiccio\"). Non ridere: ne parliamo nell'unità 16."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Una schermata da rivedere prima della prossima unità, poi le flashcard con le parole di questa.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Saluti", "rows": [["Hello / Hi", "salve / ciao (arrivando)"], ["Good morning / afternoon / evening", "buongiorno / buon pomeriggio / buonasera"], ["Goodbye / Bye / See you", "arrivederci / ciao / ci vediamo"], ["Nice to meet you. — Nice to meet you too.", "piacere — piacere mio"], ["Thank you. — You're welcome.", "grazie — prego"], ["Sorry? / Excuse me", "come? / mi scusi"]]},
+          {"title": "Presentarsi", "rows": [["My name is Chiara. / I'm Chiara.", "Mi chiamo Chiara."], ["I'm from Roccamarina, in Italy.", "Sono di Roccamarina, in Italia."], ["I'm Italian. I speak Italian.", "Sono italiana. Parlo italiano."], ["I'm a pastry chef.", "Sono pasticcera (con a!)."], ["I'm twenty-seven.", "Ho ventisette anni (con be!)."], ["I'm tired and hungry.", "Sono stanca e ho fame."]]},
+          {"title": "be", "rows": [["I am · you are · he/she/it is", "I'm · you're · he's / she's / it's"], ["we are · you are · they are", "we're · you're · they're"], ["I'm not · you aren't · she isn't", "negativo"], ["Are you…? — Yes, I am. / No, I'm not.", "domanda e risposta breve"]]},
+          {"title": "Domande", "rows": [["What's your name?", "Come ti chiami?"], ["Where are you from?", "Di dove sei?"], ["How are you? — Good, and you?", "Come stai? — Bene, e tu?"], ["How old are you?", "Quanti anni hai?"], ["How do you spell that?", "Come si scrive?"]]},
+          {"title": "a / an · plurale", "rows": [["a passport · an airport · a university", "suono consonante / vocale"], ["suitcases · buses · families · days", "-s · -es · -ies · -s"], ["Canadian cousins", "l'aggettivo non cambia"]]},
+          {"title": "Numbers 0–20", "rows": ["zero, one, two, three, four, five, six, seven, eight, nine, ten", "eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty"]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

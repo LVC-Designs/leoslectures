@@ -1,0 +1,22 @@
+{"id": "a-an", "title": "L'articolo indeterminativo: a / an", "category": "Articoli", "rule": "a davanti a suono consonante, an davanti a suono vocale. Si usa con i nomi numerabili singolari, e sempre con i mestieri. Il the arriva nell'unità 2.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["", "Davanti a", "Esempi"], "rows": [["a", "suono consonante", "a passport, a city, a flight, a Canadian"], ["a", "u letta \"iu\", e la o di one", "a university, a European, a one-way ticket"], ["an", "suono vocale", "an airport, an Italian, an uncle, an egg"], ["an", "h muta", "an hour, an honest man, an honour"]], "speak": [2], "rowhead": true},
+  {"type": "subhead", "text": "Dove l'italiano non lo mette e l'inglese sì"},
+  {"type": "examples", "items": [
+    {"t": "I'm a pastry chef. Franco is an electrician.", "n": "Sono pasticcera. Franco è elettricista.", "note": "mestieri"},
+    {"t": "She's a Canadian. He's an Italian.", "n": "È canadese. È italiano.", "note": "nazionalità come nome: una persona"},
+    {"t": "What a long flight!", "n": "Che volo lungo!", "note": "esclamazioni con what"},
+    {"t": "twice a day · once a week", "n": "due volte al giorno · una volta alla settimana", "note": "frequenza"}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Solo al singolare", "text": "A / an non ha plurale. Al plurale si lascia vuoto o si usa [[some]] (unità 3): [[a suitcase → suitcases]], [[some suitcases]]."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I'm pastry chef.", "right": "I'm a pastry chef.", "why": "Mestiere: articolo obbligatorio."},
+    {"wrong": "a Italian, a hour", "right": "an Italian, an hour", "why": "Suono vocale (la h di hour è muta)."},
+    {"wrong": "an university, an one", "right": "a university, a one", "why": "Suono consonante iniziale (\"iu\", \"uan\")."},
+    {"wrong": "a suitcases", "right": "suitcases / some suitcases", "why": "Niente a/an con il plurale."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "___ airport · ___ university · ___ hour · ___ city", "answers": [["an"], ["a"], ["an"], ["a"]], "n": "un aeroporto · un'università · un'ora · una città"},
+    {"kind": "translate", "q": "Sono elettricista.", "answers": ["I'm an electrician", "I am an electrician"]},
+    {"kind": "mc", "q": "«Teresa is ___ Canadian.» (nel senso: una canadese)", "options": ["a", "an", "niente"], "answer": 0, "why": "Canadian comincia con un suono consonante: a Canadian."}
+  ]}
+]}

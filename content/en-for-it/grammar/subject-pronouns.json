@@ -1,0 +1,22 @@
+{"id": "subject-pronouns", "title": "I pronomi soggetto", "category": "Pronomi", "rule": "I, you, he, she, it, we, you, they. Sempre espressi: il verbo inglese non dice chi parla.", "units": ["01"], "blocks": [
+  {"type": "table", "head": ["Pronome", "Italiano", "Note"], "rows": [["I", "io", "sempre maiuscolo"], ["you", "tu, Lei, voi, Loro", "una forma per tutti; la cortesia passa da altre parole"], ["he", "lui", "persone (e animali domestici) di sesso maschile"], ["she", "lei", "persone (e animali domestici) di sesso femminile; per tradizione anche navi e paesi, raro oggi"], ["it", "esso, essa", "cose, animali, tempo atmosferico, ore, distanze, situazioni"], ["we", "noi", ""], ["you", "voi", ""], ["they", "loro", "persone e cose al plurale; anche una persona sola di genere non specificato: Someone called. They said…"]], "speak": [0], "rowhead": true},
+  {"type": "subhead", "text": "Perché non si può omettere"},
+  {"type": "prose", "text": "In italiano la desinenza del verbo identifica la persona: *sono*, *sei*, *è*. In inglese il verbo cambia pochissimo (*am*, *are*, *is*; *work*, *works*), e nella maggior parte dei tempi non cambia affatto. Senza pronome la frase è incompleta o ambigua: [[Am tired]] non si dice, [[I'm tired]] sì. L'unica eccezione è l'imperativo ([[Sit down.]]), dove il soggetto *you* è sottinteso."},
+  {"type": "examples", "items": [
+    {"t": "It's late. It's cold. It's far.", "n": "È tardi. Fa freddo. È lontano.", "note": "it per le frasi impersonali"},
+    {"t": "My cousin? She's in Italy.", "n": "{{Mio cugino|Mia cugina}}? È in Italia.", "note": "il pronome sostituisce il nome"},
+    {"t": "The suitcases? They're in the car.", "n": "Le valigie? Sono in macchina.", "note": "they per le cose"},
+    {"t": "You and I are cousins.", "n": "Io e te siamo cugini.", "note": "I va sempre per ultimo in una lista, per cortesia"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Am from Italy.", "right": "I am from Italy.", "why": "Pronome obbligatorio."},
+    {"wrong": "Is late.", "right": "It is late.", "why": "Le frasi impersonali italiane in inglese hanno it."},
+    {"wrong": "Me and Sofia are cousins.", "right": "Sofia and I are cousins.", "why": "Come soggetto si usa I, non me, e si mette per ultimo."},
+    {"wrong": "i am Chiara.", "right": "I am Chiara.", "why": "I è sempre maiuscolo."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "Teresa is Canadian. ___ is from Toronto.", "answers": [["She"]], "n": "Teresa è canadese. È di Toronto."},
+    {"kind": "fill", "q": "The flight is long. ___ is nine hours.", "answers": [["It"]], "n": "Il volo è lungo. Sono nove ore."},
+    {"kind": "mc", "q": "«Franco and Teresa are at the airport.» Il pronome che li sostituisce:", "options": ["They", "We", "You"], "answer": 0, "why": "Loro, di cui si parla: they."}
+  ]}
+]}

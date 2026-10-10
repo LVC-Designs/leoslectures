@@ -23,7 +23,11 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 
 ### English for Italian speakers (`content/en-for-it/`)
 
-_No units written yet. Syllabus drafted on 2026-10-09 and awaiting review._
+#### Unit 1 · Welcome to Canada (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: introduce oneself and others, ask and answer simple questions about personal details; conversation: basic greeting and leave-taking expressions, make an introduction; spoken production: describe oneself, where one is from, nationality; listening: follow very slow, carefully articulated speech; writing: spell one's name and write simple personal details.
+- **Grammar:** subject pronouns (obligatory; *it*; no formal *Lei*); *be* (full, contracted, negative, questions, short answers; uses incl. age and physical states); *a / an* (incl. professions); regular plurals (-s, -es, -ies); countries, nationalities, languages (capitals, zero article); numbers 0–20; the alphabet; th and h.
+- **Reference pages added:** subject-pronouns, verb-be, a-an, plural-nouns, nationalities.
+- **Originality:** the two scenes (border control at Pearson; the arrivals hall with Franco and Teresa), all 42 vocabulary examples, tables, 40 exercises and the cultural notes were written for this project. The "Vivere lì" notes describe Canada (provinces, official languages, time difference), the working-holiday arrival procedure (permit issued at the port of entry, proof of funds and insurance, customs declaration), small-talk conventions and forms of address from general knowledge; readers are pointed to the CBSA site for current rules.
 
 ## Shared tools
 
