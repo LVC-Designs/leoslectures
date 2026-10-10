@@ -1,0 +1,18 @@
+{"id": "imperative", "title": "L'imperativo", "category": "Verbi", "rule": "Verbo base, senza soggetto, per tu e voi. Negativo: don't + verbo. Noi: let's / let's not + verbo. Con please diventa una richiesta; con chi non conosci, meglio Can you…?", "units": ["05"], "blocks": [
+  {"type": "table", "head": ["", "Forma", "Esempi"], "rows": [["affermativo", "verbo base", "Come in. Sit down. Take a seat. Have a coffee."], ["negativo", "don't + verbo", "Don't touch it. Don't forget. Don't be late."], ["noi", "let's + verbo · let's not", "Let's go. Let's not wait."], ["cortese", "please · would you · could you", "Please wait here. Could you wait here, please?"], ["enfatico", "do + verbo", "Do come in! Do try the lasagna."], ["con soggetto, per contrasto o insistenza", "you + verbo", "You stay here, I'll go. Somebody help me!"], ["con always / never", "always / never + verbo", "Always tap your card. Never take Line 2 at rush hour."]], "speak": [2], "rowhead": true},
+  {"type": "subhead", "text": "Dove è normale"},
+  {"type": "table", "head": ["Situazione", "Esempi"], "rows": [["indicazioni stradali", "Turn left. Go straight. Take the first right."], ["istruzioni, ricette, manuali", "Tap your card. Add two eggs. Press start."], ["avvisi e cartelli", "Keep right. Mind the gap. Do not enter. Please stand behind the yellow line."], ["offerte e inviti", "Have a seat. Help yourself. Come in! Make yourself at home."], ["auguri", "Have a good one! Enjoy your meal! Take care! Get well soon!"], ["amici e famiglia", "Pass me the salt. Wait! Look at this."]], "speak": [1]},
+  {"type": "callout", "kind": "warn", "title": "Dove suona male", "text": "Con chi ti serve, con un collega, con uno sconosciuto: [[Give me a coffee]], [[Tell me the time]], [[Open the window]] suonano come ordini, anche con please. Usa [[Can I get a coffee?]], [[Could you tell me the time?]], [[Would you mind opening the window?]]. L'italiano usa l'imperativo con il Lei (*mi dica*, *scusi*) come forma cortese; l'inglese no."},
+  {"type": "mistakes", "items": [
+    {"wrong": "You take the subway. (come istruzione)", "right": "Take the subway.", "why": "Senza soggetto."},
+    {"wrong": "Not touch. No touch.", "right": "Don't touch.", "why": "Don't."},
+    {"wrong": "Don't be worry. Don't be hurry.", "right": "Don't worry. Don't hurry.", "why": "Worry e hurry sono verbi."},
+    {"wrong": "Let's to go.", "right": "Let's go.", "why": "Let's + verbo base."},
+    {"wrong": "Tell me where is the bank.", "right": "Can you tell me where the bank is?", "why": "Richiesta cortese; e nella domanda indiretta niente inversione."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "___ (entrare) and ___ (sedersi). ___ (non preoccuparsi) about the shoes.", "answers": [["Come in"], ["sit down", "take a seat", "have a seat"], ["Don't worry"]], "n": "Entra e siediti. Non preoccuparti delle scarpe."},
+    {"kind": "mc", "q": "A uno sconosciuto in metro vuoi sapere l'ora. Dici:", "options": ["Excuse me, could you tell me the time?", "Tell me the time.", "Say me the hour, please."], "answer": 0, "why": "Richiesta cortese con could you."},
+    {"kind": "order", "answer": "Let's not take the subway at rush hour.", "n": "Non prendiamo la metro all'ora di punta."}
+  ]}
+]}

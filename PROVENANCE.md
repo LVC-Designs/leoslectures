@@ -71,6 +71,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** frequency-adverbs, adjectives (present-simple and possessives extended).
 - **Originality:** the two scenes (Sunday dinner with aunt Rosa's questions and the untranslatable cousins' jobs; "what about Luca/Lucia?"), the characters Rosa, Joe, Daniel, Jessica, all 49 vocabulary examples, tables, 40 exercises and the cultural notes (Italian-Canadian families, mangia-cake, "What do you do?" as small talk, the basement cantina, mixed families in Toronto) were written for this project from general knowledge.
 
+#### Unit 5 · Taking the streetcar (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken interaction: ask for and give simple directions, understand short instructions about getting from X to Y, ask and tell the time, ask about opening hours; listening: understand directions and times spoken slowly; reading: understand signs and notices (stops, hours, exit); spoken production: say where one is going, when and how.
+- **Grammar:** the imperative (affirmative, don't, let's, please, and when not to use it); *can / can't* (ability, permission, possibility, requests); prepositions of movement and the phrasal verbs of moving (get on/off, get to); asking and giving directions; telling the time traditionally and digitally, a.m./p.m.; *in / on / at* for time; days of the week; word stress (nouns vs verbs, compounds), the ou diphthong and Canadian raising.
+- **Reference pages added:** imperative, modal-can, prepositions-of-movement, telling-the-time.
+- **Originality:** the two scenes (Sofia's route on the back of the gas bill; lost in the PATH with a stranger who says sorry four times), all 49 vocabulary examples, tables, 40 exercises and the cultural notes (TTC lines, Presto and transfers, the Yonge Street grid, Union Station and the PATH, "sorry" and the Apology Act, Bike Share) were written for this project from general knowledge of Toronto.
+
 ## Shared tools
 
 - **Conjugators** (`src/js/conj-it.js`, `src/js/conj-en.js`): rule-based, with irregular-verb dictionaries compiled from general linguistic knowledge. Verb lists and their glosses in `content/*/verbs.json` are the project's own.

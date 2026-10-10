@@ -1,0 +1,18 @@
+{"id": "modal-can", "title": "can, can't, could", "category": "Verbi modali", "rule": "Can + verbo base, invariabile. Negativo can't (cannot). Domanda con inversione. Abilità, permesso, possibilità, richieste. Could: passato di can, e forma più cortese nelle richieste.", "units": ["05"], "blocks": [
+  {"type": "table", "head": ["", "Esempio", "Nota"], "rows": [["+", "I can swim. She can speak French. They can come.", "stessa forma per tutti"], ["−", "I can't swim. He cannot come.", "can't nel parlato, cannot nello scritto (una parola)"], ["?", "Can you swim? Can she come?", "inversione, senza do"], ["risposta breve", "Yes, I can. / No, I can't.", ""], ["passato", "I could swim at five. I couldn't come yesterday.", "could = potevo, sapevo"], ["cortesia", "Could you help me? Could I have the bill?", "could è più cortese di can"]], "speak": [1], "rowhead": true},
+  {"type": "table", "caption": "Gli usi", "head": ["Uso", "Italiano", "Esempio"], "rows": [["abilità", "sapere fare", "Sofia can drive. I can't skate."], ["permesso", "potere", "Can I pay cash? You can't park here."], ["possibilità", "potere, essere possibile", "It can be cold in May. You can always take a bus."], ["richiesta", "puoi / può…?", "Can you repeat, please? Could you speak more slowly?"], ["offerta", "posso…?", "Can I help you? Can I get you a coffee?"], ["percezione", "vedere, sentire (con can)", "I can see the tower. I can't hear you."]], "speak": [2]},
+  {"type": "callout", "kind": "compare", "title": "can e i verbi di percezione", "text": "L'inglese dice [[I can see]], [[I can hear]], [[I can smell]] dove l'italiano dice *vedo*, *sento*. [[I can't hear you]] = non ti sento. Senza can suona strano."},
+  {"type": "callout", "kind": "note", "title": "Il futuro e il passato di can", "text": "Can non ha infinito né futuro: si usa be able to. [[I'll be able to come]] = potrò venire; [[I want to be able to drive]] = voglio saper guidare. Al passato could, oppure was able to per una singola occasione riuscita. Unità 12 e 13."},
+  {"type": "mistakes", "items": [
+    {"wrong": "She cans. He can to drive.", "right": "She can. He can drive.", "why": "Invariabile, senza to."},
+    {"wrong": "Do you can swim?", "right": "Can you swim?", "why": "Inversione diretta."},
+    {"wrong": "I know drive.", "right": "I can drive.", "why": "Abilità = can."},
+    {"wrong": "I will can come.", "right": "I'll be able to come.", "why": "Can non ha futuro."},
+    {"wrong": "I don't hear you.", "right": "I can't hear you.", "why": "Percezione con can."}
+  ]},
+  {"type": "exercises", "title": "Verifica", "items": [
+    {"kind": "fill", "q": "___ you drive? — Yes, I ___, but I ___ park downtown: it's too expensive.", "answers": [["Can"], ["can"], ["can't", "don't"]], "n": "Sai guidare? — Sì, ma non parcheggio in centro: costa troppo."},
+    {"kind": "mc", "q": "«Non ti sento.»", "options": ["I can't hear you.", "I don't hear you.", "I can't listen you."], "answer": 0, "why": "Percezione con can; hear, non listen."},
+    {"kind": "translate", "q": "Potrebbe parlare più lentamente, per favore?", "answers": ["Could you speak more slowly, please", "Could you speak more slowly please", "Can you speak more slowly, please"]}
+  ]}
+]}

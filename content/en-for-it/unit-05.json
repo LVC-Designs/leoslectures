@@ -1,0 +1,312 @@
+{
+  "id": "05",
+  "level": "A1",
+  "title": "Taking the streetcar",
+  "subtitle": "In giro per Toronto",
+  "intro": "Il tram 512, una tessera che non vuole saperne, la metro a Yonge and Bloor, Union Station e un labirinto sotterraneo chiamato PATH. In questa unità impari a muoverti in città, a chiedere e dare indicazioni, a dire l'ora, e l'imperativo: la forma più semplice dell'inglese, che però ha una trappola.",
+  "objectives": [
+    "Chiedere e dare indicazioni: [[How do I get to…?]], [[turn left]], [[go straight]], [[past the bank]]",
+    "Usare l'imperativo, anche negativo: [[Take the subway.]], [[Don't take Line 2.]]",
+    "Dire cosa puoi e cosa non puoi fare con [[can]] e [[can't]], e chiedere con [[Can you…?]]",
+    "Dire l'ora: [[half past nine]], [[quarter to five]], [[a.m.]] e [[p.m.]]",
+    "Usare [[in]], [[on]] e [[at]] per il tempo: [[at six]], [[on Monday]], [[in the morning]]"
+  ],
+  "canDo": [
+    "A1 · Interazione orale: sa chiedere e dare indicazioni semplici e capire istruzioni brevi per andare da X a Y.",
+    "A1 · Interazione orale: sa chiedere e dire l'ora e chiedere gli orari di apertura.",
+    "A1 · Ascolto: sa capire indicazioni e orari se detti lentamente.",
+    "A1 · Lettura: sa capire cartelli e avvisi (fermate, orari, aperto / chiuso, uscita).",
+    "A1 · Produzione orale: sa dire dove va, quando e con quale mezzo."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "The 512",
+      "intro": "Sofia spiega il percorso la sera prima; il giorno dopo Chiara si perde a Union Station. Ascolta gli imperativi (take, go, don't, tap) e le indicazioni dello sconosciuto gentile.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-route", "title": "The route", "setting": "Domenica sera, la cucina di sopra. Sofia disegna una mappa sul retro della bolletta del gas.", "register": "informale", "lines": [
+          {"who": "Sofia", "t": "Okay. Tomorrow you go downtown alone. It's easy. Take the 512 streetcar east, on St. Clair.", "n": "Okay. Domani vai in centro da sola. È facile. Prendi il tram 512 verso est, su St. Clair.", "note": "Take, go, turn: l'imperativo è la forma base del verbo, senza soggetto."},
+          {"who": "Chiara", "t": "East. Which way is east?", "n": "Est. Da che parte è est?"},
+          {"who": "Sofia", "t": "Towards the lake? No. Towards Yonge Street. Get off at St. Clair station and go down to the subway.", "n": "Verso il lago? No. Verso Yonge Street. Scendi alla stazione St. Clair e vai giù alla metro.", "note": "Get off = scendere (da un mezzo); get on = salire. Go down = scendere (le scale)."},
+          {"who": "Chiara", "t": "Can I pay cash on the streetcar?", "n": "Posso pagare in contanti sul tram?", "note": "Can I…? = posso…? Senza do, senza -s, senza to."},
+          {"who": "Sofia", "t": "You can, but don't. Use the Presto card. Tap it when you get on. Then you can transfer for free for two hours.", "n": "Puoi, ma non farlo. Usa la tessera Presto. Avvicinala quando sali. Poi puoi cambiare gratis per due ore.", "note": "Don't da solo = non farlo. Tap = avvicinare la carta al lettore."},
+          {"who": "Chiara", "t": "Okay. Subway. Which line?", "n": "Okay. Metro. Quale linea?"},
+          {"who": "Sofia", "t": "Line 1, the yellow one. Go south, towards Union. Don't take Line 2, that's east-west.", "n": "La linea 1, quella gialla. Vai verso sud, verso Union. Non prendere la linea 2, quella va est-ovest.", "note": "Don't + verbo: l'imperativo negativo."},
+          {"who": "Chiara", "t": "Line 1, south, Union. And then?", "n": "Linea 1, sud, Union. E poi?"},
+          {"who": "Sofia", "t": "Then walk to the CN Tower. Ten minutes. You can't miss it: it's the tall thing.", "n": "Poi vai a piedi alla CN Tower. Dieci minuti. Non puoi sbagliare: è quella cosa alta.", "note": "You can't miss it: la frase che chiude ogni indicazione in inglese. Letteralmente \"non puoi mancarla\"."},
+          {"who": "Chiara", "t": "What time does the subway start?", "n": "A che ora comincia la metro?"},
+          {"who": "Sofia", "t": "Six a.m. Eight on Sundays. It runs until one thirty at night. Don't worry, you can always take a bus.", "n": "Alle sei di mattina. Alle otto la domenica. Va avanti fino all'una e mezza di notte. Non preoccuparti, puoi sempre prendere un autobus."}
+        ], "notes": [
+          {"phrase": "Which way is east?", "note": "Da che parte è est? Which way = da che parte. Toronto si descrive con i punti cardinali: north, south, east, west."},
+          {"phrase": "Get on / get off", "note": "Salire / scendere da autobus, tram, metro, treno, aereo. Per la macchina: get in / get out of."},
+          {"phrase": "for free", "note": "Gratis. Anche free da solo: the transfer is free."},
+          {"phrase": "Don't worry.", "note": "Non preoccuparti. Imperativo negativo + worry."}
+        ]},
+        {"type": "scene", "id": "dlg-path", "title": "Lost in the PATH", "setting": "Lunedì, Union Station. Chiara è sotto terra da venti minuti. Davanti a lei, un corridoio di negozi che non finisce.", "register": "informale", "lines": [
+          {"who": "Chiara", "t": "Excuse me. How do I get to the CN Tower?", "n": "Mi scusi. Come arrivo alla CN Tower?", "note": "How do I get to…? La domanda standard per le indicazioni. Get to = arrivare a."},
+          {"who": "Stranger", "t": "Sorry! Sure. You're in the PATH. Go straight along here, past the food court, then take the stairs up to Front Street.", "n": "Scusi! Certo. È nel PATH. Vada dritto di qua, oltre la zona ristoranti, poi prenda le scale su fino a Front Street.", "note": "Sorry! prima di tutto: non ha fatto niente. È il modo canadese di iniziare. Along, past, up: le preposizioni di movimento."},
+          {"who": "Chiara", "t": "Along here, past the food court, up the stairs.", "n": "Di qua, oltre il food court, su per le scale."},
+          {"who": "Stranger", "t": "Then turn right and walk two blocks. You can't miss it.", "n": "Poi giri a destra e faccia due isolati. Non può sbagliare.", "note": "Two blocks: a Toronto le distanze si misurano in isolati."},
+          {"who": "Chiara", "t": "Is it far?", "n": "È lontano?"},
+          {"who": "Stranger", "t": "No, ten minutes. Sorry, five.", "n": "No, dieci minuti. Scusi, cinque."},
+          {"stage": "Chiara steps back and onto his foot."},
+          {"who": "Chiara", "t": "Oh! Sorry!", "n": "Oh! Scusi!"},
+          {"who": "Stranger", "t": "Sorry!", "n": "Scusi!", "note": "Il terzo sorry. Lei gli ha pestato un piede; lui si scusa. Vivere lì spiega."},
+          {"who": "Chiara", "t": "What time is it?", "n": "Che ore sono?"},
+          {"who": "Stranger", "t": "Quarter to twelve.", "n": "Mezzogiorno meno un quarto.", "note": "Quarter to twelve: un quarto a mezzogiorno. Il to vuol dire \"meno\"."},
+          {"who": "Chiara", "t": "Thank you! Thank you so much.", "n": "Grazie! Grazie mille."},
+          {"who": "Stranger", "t": "No worries. Sorry again. Have a good one!", "n": "Si figuri. Scusi ancora. Buona giornata!"}
+        ], "notes": [
+          {"phrase": "the food court", "note": "La zona ristoranti di un centro commerciale o di una stazione: tanti banchi, tavoli in comune."},
+          {"phrase": "No worries.", "note": "Figurati, di niente. Risposta a thank you, come you're welcome e no problem."},
+          {"phrase": "Sorry again.", "note": "Il quarto sorry. Record personale di Chiara per una conversazione di un minuto: quattro."}
+        ], "questions": [
+          {"kind": "tf", "q": "Chiara deve prendere la linea 2 per Union.", "t": "Don't take Line 2, that's east-west.", "answer": false, "why": "«Line 1, south, Union. Don't take Line 2.»"},
+          {"kind": "mc", "q": "Per quanto tempo si può cambiare mezzo gratis con la tessera Presto?", "options": ["Due ore.", "Venti minuti.", "Tutto il giorno."], "answer": 0, "why": "«You can transfer for free for two hours.»"},
+          {"kind": "fill", "q": "Turn ___ and walk two blocks. You can't ___ it.", "answers": [["right"], ["miss"]], "n": "Giri a destra e faccia due isolati. Non può sbagliare."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Getting around",
+      "intro": "I mezzi, la città, le parole per muoversi e l'ora. Toronto parla a punti cardinali e isolati: imparali insieme ai nomi delle cose.",
+      "blocks": [
+        {"type": "vocab", "theme": "Transit", "n": "I mezzi", "items": [
+          {"t": "streetcar", "n": "tram", "pos": "noun", "ipa": "ˈstriːtkɑr", "plural": "streetcars", "ex": {"t": "Take the 512 streetcar east.", "n": "Prendi il tram 512 verso est."}, "note": "La parola di Toronto; altrove tram o trolley. I tram hanno numeri da 501 a 512."},
+          {"t": "subway", "n": "metropolitana", "pos": "noun", "ipa": "ˈsʌbweɪ", "ex": {"t": "The subway starts at six a.m.", "n": "La metro comincia alle sei di mattina."}, "note": "Nel Regno Unito the Tube o the underground; a Montréal the metro. Accento su SUB."},
+          {"t": "bus", "n": "autobus", "pos": "noun", "ipa": "bʌs", "plural": "buses", "ex": {"t": "You can always take a bus.", "n": "Puoi sempre prendere un autobus."}, "note": "Bus stop = fermata; bus driver = autista."},
+          {"t": "line", "n": "linea", "pos": "noun", "ipa": "laɪn", "plural": "lines", "ex": {"t": "Line 1 is yellow and goes north-south. Line 2 is green.", "n": "La linea 1 è gialla e va nord-sud. La linea 2 è verde."}, "note": "Anche fila (in coda): wait in line."},
+          {"t": "station / stop", "n": "stazione / fermata", "pos": "noun", "ipa": "ˈsteɪʃən / stɒp", "ex": {"t": "Get off at St. Clair station. The streetcar stop is on the corner.", "n": "Scendi alla stazione St. Clair. La fermata del tram è all'angolo."}, "note": "Station per metro e treni, stop per autobus e tram."},
+          {"t": "platform", "n": "binario, banchina", "pos": "noun", "ipa": "ˈplætfɔrm", "plural": "platforms", "ex": {"t": "The southbound platform is downstairs.", "n": "Il binario in direzione sud è di sotto."}, "note": "Northbound, southbound, eastbound, westbound: in direzione nord, sud, est, ovest."},
+          {"t": "fare", "n": "tariffa, biglietto", "pos": "noun", "ipa": "fɛr", "plural": "fares", "ex": {"t": "The fare is three dollars and thirty-five cents.", "n": "La tariffa è tre dollari e trentacinque."}, "note": "Si pronuncia come fair (giusto)."},
+          {"t": "Presto card", "n": "tessera Presto", "pos": "noun", "ex": {"t": "Tap your Presto card when you get on.", "n": "Avvicina la tessera Presto quando sali."}, "note": "La tessera ricaricabile dei trasporti dell'Ontario. Presto è anche un'app sul telefono."},
+          {"t": "tap", "n": "avvicinare (la tessera); toccare", "pos": "verb", "ipa": "tæp", "ex": {"t": "Tap here. Tap on, tap off.", "n": "Avvicina qui. Avvicina salendo e scendendo."}, "note": "Sulla TTC si fa tap solo salendo; sui GO train anche scendendo."},
+          {"t": "transfer", "n": "cambio, coincidenza; cambiare", "pos": "noun / verb", "ipa": "ˈtrænsfər", "plural": "transfers", "ex": {"t": "You can transfer for free for two hours.", "n": "Puoi cambiare gratis per due ore."}, "note": "Transfer anche = il biglietto di coincidenza di carta."},
+          {"t": "schedule", "n": "orario (dei mezzi)", "pos": "noun", "ipa": "ˈskɛdʒuːl", "plural": "schedules", "ex": {"t": "The schedule is on the TTC app.", "n": "L'orario è sull'app della TTC."}, "note": "In Canada \"SKED-jul\"; nel Regno Unito \"SHED-jul\". Timetable è britannico."},
+          {"t": "rush hour", "n": "ora di punta", "pos": "noun", "ipa": "ˈrʌʃ aʊər", "ex": {"t": "Don't take the subway at rush hour.", "n": "Non prendere la metro all'ora di punta."}, "note": "Dalle 7 alle 9 e dalle 4 alle 6."}
+        ]},
+        {"type": "vocab", "theme": "The city", "n": "La città", "items": [
+          {"t": "downtown", "n": "il centro; in centro", "pos": "noun / adv.", "ipa": "ˌdaʊnˈtaʊn", "ex": {"t": "Tomorrow you go downtown alone.", "n": "Domani vai in centro da sola."}, "note": "Senza preposizione: go downtown, work downtown. Uptown = la parte nord della città."},
+          {"t": "block", "n": "isolato", "pos": "noun", "ipa": "blɒk", "plural": "blocks", "ex": {"t": "Walk two blocks and turn right.", "n": "Fai due isolati e gira a destra."}, "note": "L'unità di misura delle città nordamericane: it's three blocks away."},
+          {"t": "street / avenue", "n": "via, strada / viale", "pos": "noun", "ipa": "striːt / ˈævənjuː", "ex": {"t": "Yonge Street and St. Clair Avenue.", "n": "Yonge Street e St. Clair Avenue."}, "note": "Abbreviati St. e Ave. Road (Rd.), Drive (Dr.), Boulevard (Blvd.) negli indirizzi."},
+          {"t": "corner", "n": "angolo", "pos": "noun", "ipa": "ˈkɔrnər", "plural": "corners", "ex": {"t": "The stop is on the corner of Yonge and St. Clair.", "n": "La fermata è all'angolo tra Yonge e St. Clair."}, "note": "Gli incroci si nominano con and: Yonge and Bloor, King and Bay."},
+          {"t": "intersection", "n": "incrocio", "pos": "noun", "ipa": "ˌɪntərˈsɛkʃən", "plural": "intersections", "ex": {"t": "Cross at the intersection, at the lights.", "n": "Attraversa all'incrocio, al semaforo."}},
+          {"t": "traffic light", "n": "semaforo", "pos": "noun", "ipa": "ˈtræfɪk laɪt", "plural": "traffic lights", "ex": {"t": "Turn left at the second traffic light.", "n": "Gira a sinistra al secondo semaforo."}, "note": "Spesso solo the lights."},
+          {"t": "crosswalk", "n": "strisce pedonali", "pos": "noun", "ipa": "ˈkrɒswɔk", "plural": "crosswalks", "ex": {"t": "Use the crosswalk. Cars stop here.", "n": "Usa le strisce. Qui le macchine si fermano."}, "note": "Nel Regno Unito zebra crossing. Jaywalking = attraversare fuori dalle strisce: multa."},
+          {"t": "sidewalk", "n": "marciapiede", "pos": "noun", "ipa": "ˈsaɪdwɔk", "plural": "sidewalks", "ex": {"t": "The bins are on the sidewalk.", "n": "I bidoni sono sul marciapiede."}, "note": "Nel Regno Unito pavement."},
+          {"t": "building / tower", "n": "edificio, palazzo / torre", "pos": "noun", "ipa": "ˈbɪldɪŋ / ˈtaʊər", "ex": {"t": "The CN Tower is the tall thing. You can't miss it.", "n": "La CN Tower è quella cosa alta. Non puoi sbagliare."}},
+          {"t": "lake", "n": "lago", "pos": "noun", "ipa": "leɪk", "plural": "lakes", "ex": {"t": "The lake is south. Everything is north of the lake.", "n": "Il lago è a sud. Tutto è a nord del lago."}, "note": "A Toronto the lake è il lago Ontario: il punto di riferimento per orientarsi."},
+          {"t": "north / south / east / west", "n": "nord / sud / est / ovest", "pos": "noun / adv.", "ipa": "nɔrθ / saʊθ / iːst / wɛst", "ex": {"t": "Go south on Yonge. The lake is south, the highway is north.", "n": "Vai verso sud su Yonge. Il lago è a sud, l'autostrada a nord."}, "note": "Senza articolo e senza to: go north. Th sordo in north e south."},
+          {"t": "neighbourhood", "n": "quartiere", "pos": "noun", "ipa": "ˈneɪbərhʊd", "plural": "neighbourhoods", "ex": {"t": "Corso Italia is a neighbourhood on St. Clair West.", "n": "Corso Italia è un quartiere su St. Clair West."}, "note": "Ortografia canadese con la u. Neighbour = vicino di casa."}
+        ]},
+        {"type": "vocab", "theme": "Moving", "n": "Muoversi", "items": [
+          {"t": "turn", "n": "girare", "pos": "verb", "ipa": "tɜrn", "ex": {"t": "Turn right at the lights.", "n": "Gira a destra al semaforo."}, "note": "Turn left / right, turn around (girarsi), turn back (tornare indietro)."},
+          {"t": "go straight", "n": "andare dritto", "pos": "phrase", "ex": {"t": "Go straight along Front Street.", "n": "Vai dritto lungo Front Street."}, "note": "Anche go straight ahead, keep going."},
+          {"t": "walk", "n": "camminare, andare a piedi", "pos": "verb", "ipa": "wɔk", "ex": {"t": "Walk two blocks. It's a ten-minute walk.", "n": "Fai due isolati a piedi. Sono dieci minuti a piedi."}, "note": "La l non si pronuncia: \"uok\". A ten-minute walk: nome, con il trattino."},
+          {"t": "cross", "n": "attraversare", "pos": "verb", "ipa": "krɒs", "ex": {"t": "Cross the street at the lights.", "n": "Attraversa la strada al semaforo."}},
+          {"t": "get on / get off", "n": "salire / scendere (da un mezzo)", "pos": "phrasal verb", "ex": {"t": "Get on at St. Clair, get off at Union.", "n": "Sali a St. Clair, scendi a Union."}, "note": "Per la macchina e il taxi: get in / get out of."},
+          {"t": "get to", "n": "arrivare a", "pos": "phrasal verb", "ex": {"t": "How do I get to the CN Tower?", "n": "Come arrivo alla CN Tower?"}, "note": "Get home, get there, get downtown: senza to."},
+          {"t": "miss", "n": "perdere (un mezzo); mancare", "pos": "verb", "ipa": "mɪs", "ex": {"t": "Don't miss the last subway. You can't miss the tower.", "n": "Non perdere l'ultima metro. Non puoi sbagliare la torre."}, "note": "Miss the bus = perdere l'autobus (lose è perdere un oggetto). I miss you = mi manchi."},
+          {"t": "far / near", "n": "lontano / vicino", "pos": "adj.", "ipa": "fɑr / nɪr", "ex": {"t": "Is it far? — No, it's near the station.", "n": "È lontano? — No, è vicino alla stazione."}, "note": "Far from, near (senza to). Close to = vicino a."}
+        ]},
+        {"type": "vocab", "theme": "Time", "n": "L'ora", "items": [
+          {"t": "o'clock", "n": "in punto (ore intere)", "pos": "adv.", "ipa": "əˈklɒk", "ex": {"t": "It's six o'clock. The subway starts at six.", "n": "Sono le sei. La metro comincia alle sei."}, "note": "Solo con le ore piene: six o'clock, mai six thirty o'clock."},
+          {"t": "half past", "n": "e mezza", "pos": "phrase", "ex": {"t": "It's half past nine.", "n": "Sono le nove e mezza."}, "note": "Anche nine thirty. Mai half past nine thirty."},
+          {"t": "quarter", "n": "quarto (d'ora)", "pos": "noun", "ipa": "ˈkwɔrtər", "ex": {"t": "Quarter past twelve. Quarter to twelve.", "n": "Mezzogiorno e un quarto. Mezzogiorno meno un quarto."}, "note": "Past = e (dopo l'ora); to = meno (prima dell'ora)."},
+          {"t": "a.m. / p.m.", "n": "di mattina / di pomeriggio, sera", "pos": "adv.", "ipa": "ˌeɪˈɛm / ˌpiːˈɛm", "ex": {"t": "Six a.m. is early. Six p.m. is dinner time.", "n": "Le sei di mattina è presto. Le sei di sera è ora di cena."}, "note": "L'inglese non usa le 24 ore nel parlato: 18:00 si dice six p.m. o six in the evening."},
+          {"t": "noon / midnight", "n": "mezzogiorno / mezzanotte", "pos": "noun", "ipa": "nuːn / ˈmɪdnaɪt", "ex": {"t": "We have lunch at noon. The subway runs until midnight.", "n": "Pranziamo a mezzogiorno. La metro va fino a mezzanotte."}},
+          {"t": "early / late", "n": "presto, in anticipo / tardi, in ritardo", "pos": "adj. / adv.", "ipa": "ˈɜrli / leɪt", "ex": {"t": "The streetcar is late. Chiara is early.", "n": "Il tram è in ritardo. Chiara è in anticipo."}, "note": "Be late = essere in ritardo; be late for work. Late anche = tardi: it's late."}
+        ]},
+        {"type": "subhead", "text": "The days of the week"},
+        {"type": "grid", "cols": 7, "items": [
+          {"big": "Mon", "small": "Monday", "sub": "lunedì", "say": "Monday"}, {"big": "Tue", "small": "Tuesday", "sub": "martedì", "say": "Tuesday"}, {"big": "Wed", "small": "Wednesday", "sub": "mercoledì", "say": "Wednesday"}, {"big": "Thu", "small": "Thursday", "sub": "giovedì", "say": "Thursday"}, {"big": "Fri", "small": "Friday", "sub": "venerdì", "say": "Friday"}, {"big": "Sat", "small": "Saturday", "sub": "sabato", "say": "Saturday"}, {"big": "Sun", "small": "Sunday", "sub": "domenica", "say": "Sunday"}
+        ]},
+        {"type": "callout", "kind": "memo", "title": "Tre cose sui giorni", "text": "- Maiuscola sempre: [[Monday]], non monday. Lo stesso per i mesi.\n- [[Wednesday]] si dice \"UENZ-dei\": la prima d è muta. [[Tuesday]] e [[Thursday]] si confondono: TIUZ-dei e THERZ-dei, con il th.\n- [[On]] + giorno: on Monday (lunedì prossimo), on Mondays (il lunedì, tutti). In Canada la settimana comincia di domenica nei calendari, ma di lunedì nella testa delle persone."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "L'imperativo, can, e dove si va",
+      "intro": "Cinque pezzi: l'imperativo con la sua trappola, can e can't, le preposizioni di movimento, le frasi per le indicazioni, e l'ora con in / on / at. Schede complete in fondo.",
+      "blocks": [
+        {"type": "grammar", "id": "g-imperative", "title": "L'imperativo: Take the subway. Don't take Line 2.", "category": "Verbi", "rule": "L'imperativo è la forma base del verbo, senza soggetto, uguale per tu e voi: Turn left. Negativo: don't + verbo. Let's + verbo per noi. Please lo ammorbidisce.", "ref": "imperative", "blocks": [
+          {"type": "table", "head": ["", "Forma", "Esempi"], "rows": [["affermativo", "verbo base", "Take the 512. Turn right. Tap your card. Walk two blocks."], ["negativo", "don't + verbo base", "Don't take Line 2. Don't worry. Don't miss the last train."], ["con be", "be + aggettivo · don't be", "Be careful. Don't be late."], ["noi", "let's + verbo", "Let's go. Let's take the streetcar. Let's not walk."], ["cortese", "please (inizio o fine)", "Please tap your card. Tap your card, please."], ["enfatico", "do + verbo", "Do come in! Do sit down."]], "speak": [2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Get off at St. Clair and go down to the subway.", "n": "Scendi a St. Clair e vai giù alla metro."},
+            {"t": "Don't pay cash. Use the card.", "n": "Non pagare in contanti. Usa la tessera."},
+            {"t": "Let's take the subway. It's faster.", "n": "Prendiamo la metro. È più veloce."},
+            {"t": "Please stand behind the yellow line.", "n": "Si prega di stare dietro la linea gialla.", "note": "gli avvisi pubblici"}
+          ]},
+          {"type": "callout", "kind": "warn", "title": "La trappola", "text": "L'imperativo inglese è facile da formare e facile da usare male. A chi serve, a uno sconosciuto, a un collega, un imperativo secco suona da padrone: *Give me a coffee*, *Tell me where the station is*. Con chi non conosci usa [[Can you…?]], [[Could you…?]] o aggiungi please. L'imperativo va bene per le indicazioni (turn left), le istruzioni (tap your card), gli avvisi, e con amici e famiglia."},
+          {"type": "mistakes", "items": [
+            {"wrong": "You turn left. (come indicazione)", "right": "Turn left.", "why": "L'imperativo non ha soggetto. You turn left è una descrizione, non un'istruzione."},
+            {"wrong": "No take Line 2. Not take Line 2.", "right": "Don't take Line 2.", "why": "Negativo con don't."},
+            {"wrong": "Don't be worry.", "right": "Don't worry.", "why": "Worry è un verbo: don't + worry. (Don't be worried esiste, ma è un'altra cosa.)"},
+            {"wrong": "Tell me where is the station.", "right": "Can you tell me where the station is?", "why": "Richiesta cortese, e ordine indiretto senza inversione (unità 14)."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-can", "title": "can / can't", "category": "Verbi modali", "rule": "Can + verbo base, per tutte le persone: I can, she can. Negativo can't (cannot). Domanda con l'inversione: Can I…? Can you…? Niente do, niente -s, niente to. Abilità, permesso, possibilità, richieste.", "ref": "modal-can", "blocks": [
+          {"type": "table", "head": ["", "Esempio", "Italiano"], "rows": [["affermativa", "You can transfer for free. She can speak French.", "puoi cambiare gratis · sa parlare francese"], ["negativa", "You can't miss it. I can't swim.", "non puoi sbagliare · non so nuotare"], ["domanda", "Can I pay cash? Can you help me?", "posso pagare in contanti? · mi può aiutare?"], ["risposta breve", "Yes, you can. / No, you can't.", "sì / no"]], "speak": [1], "rowhead": true},
+          {"type": "table", "caption": "Quattro usi", "head": ["Uso", "Esempio"], "rows": [["abilità (sapere fare)", "Sofia can drive. Chiara can make croissants. I can't skate."], ["permesso (potere)", "Can I pay cash? You can't smoke here."], ["possibilità", "You can always take a bus. It can be cold in May."], ["richiesta", "Can you repeat, please? Can I have a transfer?"]], "speak": [1]},
+          {"type": "callout", "kind": "compare", "title": "can = potere e sapere", "text": "L'italiano distingue *posso* (permesso, possibilità) da *so* (abilità). L'inglese usa can per tutti e due: [[I can swim]] = so nuotare; [[I can come]] = posso venire. [[I know how to swim]] esiste ma è più raro. Attenzione: *I know swim* non esiste."},
+          {"type": "mistakes", "items": [
+            {"wrong": "She cans drive. Do you can help me?", "right": "She can drive. Can you help me?", "why": "Can non prende -s e fa la domanda da solo."},
+            {"wrong": "I can to swim.", "right": "I can swim.", "why": "Can + verbo base, senza to."},
+            {"wrong": "I know swim.", "right": "I can swim.", "why": "Abilità = can."},
+            {"wrong": "I don't can.", "right": "I can't.", "why": "Negativo can't."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-movement", "title": "Le preposizioni di movimento", "category": "Preposizioni", "rule": "To (verso, a), into / out of (dentro / fuori), along (lungo), across (attraverso, dall'altra parte), past (oltre), through (attraverso, dentro), up / down (su / giù), over (sopra), around (intorno). Con i verbi di movimento: go, walk, run, drive, take.", "ref": "prepositions-of-movement", "blocks": [
+          {"type": "table", "head": ["Preposizione", "Italiano", "Esempio"], "rows": [["to", "a, verso", "go to Union, walk to the tower, the streetcar to St. Clair"], ["into · out of", "dentro · fuori da", "go into the station · come out of the subway"], ["along", "lungo", "walk along Front Street · go straight along here"], ["across", "attraverso, dall'altra parte di", "walk across the street · the bank is across the road"], ["past", "oltre, dopo", "go past the food court · walk past the bank"], ["through", "attraverso (dentro)", "walk through the park · go through the PATH"], ["up · down", "su · giù", "take the stairs up · go down to the subway · walk up Yonge Street"], ["over", "sopra, al di là", "go over the bridge"], ["around", "intorno, in giro", "walk around the block · drive around the city"], ["towards", "verso", "go towards the lake"], ["from … to …", "da … a …", "the streetcar from St. Clair to Union"]], "speak": [2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Go straight along here, past the food court, then take the stairs up to Front Street.", "n": "Vai dritto di qua, oltre il food court, poi prendi le scale su fino a Front Street."},
+            {"t": "Walk across the street and into the station.", "n": "Attraversa la strada ed entra nella stazione."},
+            {"t": "The 512 goes along St. Clair from Keele to Yonge.", "n": "Il 512 va lungo St. Clair da Keele a Yonge."},
+            {"t": "Go home. Go downtown. Go upstairs.", "n": "Vai a casa. Vai in centro. Vai di sopra.", "note": "senza to: home, downtown, upstairs, there, here"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Go to home. Go to downtown.", "right": "Go home. Go downtown.", "why": "Home, downtown, upstairs, here, there: senza to."},
+            {"wrong": "Enter in the station.", "right": "Go into the station. / Enter the station.", "why": "Go into, oppure enter senza preposizione."},
+            {"wrong": "Walk through the street. (per \"attraversa\")", "right": "Walk across the street.", "why": "Across = da un lato all'altro; through = dentro qualcosa (un parco, un tunnel)."},
+            {"wrong": "Get down of the bus.", "right": "Get off the bus.", "why": "Get off per i mezzi."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-directions", "title": "How do I get to…? Chiedere e dare indicazioni", "category": "Frasi", "rule": "Excuse me, how do I get to…? / Where is…? / Is there a… near here? Poi: go straight, turn left / right, take the first / second street, it's on the left, next to, across from, you can't miss it.", "ref": "prepositions-of-movement", "blocks": [
+          {"type": "table", "caption": "Chiedere", "head": ["Inglese", "Italiano"], "rows": [["Excuse me, how do I get to Union Station?", "Mi scusi, come arrivo a Union Station?"], ["Excuse me, where's the subway?", "Mi scusi, dov'è la metro?"], ["Is there a bank near here?", "C'è una banca qui vicino?"], ["Is it far? How far is it?", "È lontano? Quanto è lontano?"], ["Which way is east?", "Da che parte è est?"], ["Which line goes to Union?", "Quale linea va a Union?"], ["Does this streetcar go to Yonge?", "Questo tram va a Yonge?"], ["I'm lost.", "Mi sono persa."]], "speak": [0]},
+          {"type": "table", "caption": "Rispondere", "head": ["Inglese", "Italiano"], "rows": [["Go straight (ahead). Keep going.", "Vai dritto. Continua."], ["Turn left / right at the lights.", "Gira a sinistra / destra al semaforo."], ["Take the first / second street on the left.", "Prendi la prima / seconda a sinistra."], ["Walk two blocks. It's about ten minutes.", "Fai due isolati. Sono circa dieci minuti."], ["It's on your left / on the right / on the corner.", "È sulla sinistra / a destra / all'angolo."], ["It's next to / across from / behind the bank.", "È accanto a / di fronte a / dietro la banca."], ["Go past the bank. It's just after the park.", "Oltrepassa la banca. È subito dopo il parco."], ["You can't miss it.", "Non puoi sbagliare."], ["Sorry, I'm not from here.", "Mi dispiace, non sono di qui."]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "Excuse me, how do I get to the CN Tower? — Go up to Front Street, turn right and walk two blocks.", "n": "Mi scusi, come arrivo alla CN Tower? — Salga a Front Street, giri a destra e faccia due isolati."},
+            {"t": "Is there a Presto machine near here? — Yes, at the station, next to the entrance.", "n": "C'è una macchina Presto qui vicino? — Sì, alla stazione, accanto all'entrata."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "How I get to Union? How do I arrive to Union?", "right": "How do I get to Union?", "why": "Domanda con do; get to, non arrive to (arrive at / in)."},
+            {"wrong": "Turn at left. Go to right.", "right": "Turn left. Go right.", "why": "Turn / go + left / right, senza preposizione."},
+            {"wrong": "It's on the right side of you.", "right": "It's on your right.", "why": "On your right / left."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-time", "title": "What time is it? E in / on / at per il tempo", "category": "Tempo", "rule": "It's six o'clock, half past six, quarter past / to six, six twenty. A.m. e p.m. al posto delle 24 ore. At + ora, on + giorno, in + mese / stagione / parte del giorno (ma at night).", "ref": "telling-the-time", "blocks": [
+          {"type": "table", "head": ["Ora", "Inglese", "Nota"], "rows": [["6:00", "It's six (o'clock).", "o'clock solo con le ore piene"], ["6:05", "It's five past six. / six oh five.", "past = e"], ["6:15", "It's quarter past six. / six fifteen.", "a quarter past, oppure quarter past"], ["6:30", "It's half past six. / six thirty.", "half past, mai half to"], ["6:45", "It's quarter to seven. / six forty-five.", "to = meno"], ["6:50", "It's ten to seven. / six fifty.", ""], ["12:00", "It's noon. / twelve o'clock. / midnight.", ""], ["18:00", "It's six p.m. / six in the evening.", "niente 24 ore nel parlato"], ["circa", "It's about six. / around six.", ""]], "speak": [1], "rowhead": true},
+          {"type": "table", "caption": "in / on / at con il tempo", "head": ["", "Con", "Esempi"], "rows": [["at", "ore, momenti precisi, night, the weekend (CA/UK)", "at six, at noon, at midnight, at night, at the weekend, at lunch, at Christmas"], ["on", "giorni, date, giorno + parte del giorno", "on Monday, on Mondays, on May 1st, on Sunday morning, on my birthday"], ["in", "mesi, stagioni, anni, parti del giorno", "in May, in winter, in 2026, in the morning, in the afternoon, in the evening"], ["niente preposizione", "today, tomorrow, yesterday, this / next / last / every", "this Monday, next week, last night, every day, tomorrow morning"]], "speak": [2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "What time is it? — Quarter to twelve.", "n": "Che ore sono? — Mezzogiorno meno un quarto."},
+            {"t": "The subway starts at six a.m. and runs until one thirty.", "n": "La metro comincia alle sei di mattina e va fino all'una e mezza."},
+            {"t": "I work on Saturdays, in the morning. At night I sleep.", "n": "Lavoro il sabato, la mattina. Di notte dormo."},
+            {"t": "What time does the bank open? — At nine thirty.", "n": "A che ora apre la banca? — Alle nove e mezza."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "It's six and a half. It's six and a quarter.", "right": "It's half past six. It's quarter past six.", "why": "Half past, quarter past: l'ordine è il contrario dell'italiano."},
+            {"wrong": "It's eighteen o'clock.", "right": "It's six p.m.", "why": "Le 24 ore non si dicono."},
+            {"wrong": "in Monday, at Monday", "right": "on Monday", "why": "Giorni → on."},
+            {"wrong": "in the night, in the weekend", "right": "at night, at the weekend / on the weekend", "why": "Night vuole at; weekend at (CA/UK) o on (US, molto comune anche in Canada)."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "Word stress, and the Canadian \"about\"",
+      "intro": "In inglese ogni parola ha una sillaba forte, e sbagliarla rende la parola irriconoscibile. Poi c'è il dittongo di out e about, che in Canada ha un suono tutto suo.",
+      "blocks": [
+        {"type": "table", "caption": "Dove cade l'accento", "head": ["Regola", "Esempi"], "rows": [["nomi di due sillabe: quasi sempre sulla prima", "SUBway, STREETcar, STAtion, PLATform, CORner, MONday, SIDEwalk"], ["verbi di due sillabe: spesso sulla seconda", "reLAX, beGIN, arRIVE, forGET, deCIDE"], ["stessa parola, nome o verbo", "a REcord (un disco) / to reCORD (registrare) · a PREsent (un regalo) / to preSENT (presentare) · an INcrease / to inCREASE"], ["nomi composti: sulla prima parte", "BUS stop, TRAFfic light, RUSH hour, CROSSwalk, FOOD court"], ["parole in -tion, -sion: sulla sillaba prima", "STAtion, interSECtion, inforMAtion, deCIsion"], ["parole lunghe: cerca lo schwa", "neighbourhood → NEIGH-bər-hood · intersection → in-tər-SEC-tion"]], "speak": [1]},
+        {"type": "minimal", "caption": "Nome o verbo? Ascolta l'accento", "pairs": [
+          {"a": "REcord", "b": "reCORD", "na": "disco (nome)", "nb": "registrare (verbo)"},
+          {"a": "PREsent", "b": "preSENT", "na": "regalo", "nb": "presentare"},
+          {"a": "OBject", "b": "obJECT", "na": "oggetto", "nb": "obiettare"},
+          {"a": "TRANSfer", "b": "transFER", "na": "coincidenza (nome)", "nb": "trasferire (verbo)", "tip": "Sulla TTC si usa quasi sempre il nome: a transfer."}
+        ]},
+        {"type": "sounds", "items": [
+          {"sound": "aʊ", "t": "out", "n": "fuori", "ipa": "aʊt", "tip": "Un dittongo: a che scivola verso u. Out, down, now, how, house, around, downtown."},
+          {"sound": "aʊ (CA)", "t": "about", "n": "circa, riguardo a", "ipa": "əˈbʌʊt", "tip": "Il Canadian raising: davanti a t, s, p, k la prima parte del dittongo si alza e about suona quasi \"a-boat\" agli americani. Non devi imitarlo: devi riconoscerlo. About, out, house (nome), south."},
+          {"sound": "ɔː", "t": "walk", "n": "camminare", "ipa": "wɔk", "tip": "La l è muta: \"uok\". Anche talk, chalk. In Canada walk e work sono diversi: wok / wërk."},
+          {"sound": "ɜr", "t": "turn", "n": "girare", "ipa": "tɜrn", "tip": "Vocale centrale lunga + r: turn, work, Thursday, early, first. Non è \"torn\" e non è \"tern\"."}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "Go out and turn around: the subway station is downtown, south of here.", "n": "Esci e girati: la stazione della metro è in centro, a sud di qui.", "note": "out, around, downtown, south: quattro aʊ"},
+          {"t": "Walk along Front Street, past the bus stop, to the traffic light.", "n": "Cammina lungo Front Street, oltre la fermata, fino al semaforo.", "note": "BUS stop, TRAFfic light: accento sulla prima parte"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Quaranta esercizi in cinque serie e un ripasso misto. L'imperativo non ha soggetto; can non ha -s.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Imperative", "items": [
+          {"kind": "fill", "q": "___ (prendere) the 512 streetcar and ___ (scendere) at St. Clair.", "answers": [["Take"], ["get off"]], "n": "Prendi il tram 512 e scendi a St. Clair."},
+          {"kind": "fill", "q": "___ (non prendere) Line 2. ___ (non preoccuparti).", "answers": [["Don't take", "Do not take"], ["Don't worry", "Do not worry"]], "n": "Non prendere la linea 2. Non preoccuparti."},
+          {"kind": "mc", "q": "«Giriamo a sinistra.» (noi)", "options": ["Let's turn left.", "We turn left.", "Turn we left."], "answer": 0, "why": "Let's + verbo base per noi."},
+          {"kind": "order", "answer": "Tap your card when you get on.", "n": "Avvicina la tessera quando sali."},
+          {"kind": "mc", "q": "A un collega che non conosci bene vuoi chiedere il caffè. Dici:", "options": ["Can you get me a coffee, please?", "Get me a coffee.", "You get me a coffee."], "answer": 0, "why": "Con chi non conosci: can you… please. L'imperativo secco suona da padrone."},
+          {"kind": "fill", "q": "___ careful. ___ late! (essere attento · non essere in ritardo)", "answers": [["Be"], ["Don't be", "Do not be"]], "n": "Stai attento. Non essere in ritardo!"},
+          {"kind": "dictation", "text": "Go down to the subway and take Line 1 south.", "n": "Scendi alla metro e prendi la linea 1 verso sud."}
+        ]},
+        {"type": "exercises", "title": "2 · Can and can't", "items": [
+          {"kind": "fill", "q": "You ___ transfer for free for two hours. (potere)", "answers": [["can"]], "n": "Puoi cambiare gratis per due ore."},
+          {"kind": "fill", "q": "You ___ miss it: it's the tall thing. (non potere)", "answers": [["can't", "cannot"]], "n": "Non puoi sbagliare: è quella cosa alta."},
+          {"kind": "fill", "q": "___ I pay cash? — Yes, you ___.", "answers": [["Can"], ["can"]], "n": "Posso pagare in contanti? — Sì."},
+          {"kind": "mc", "q": "«So nuotare.»", "options": ["I can swim.", "I know swim.", "I can to swim."], "answer": 0, "why": "Abilità con can + verbo base."},
+          {"kind": "fill", "q": "Sofia ___ drive, but she ___ drive downtown: it's too expensive to park.", "answers": [["can"], ["doesn't", "does not"]], "n": "Sofia sa guidare, ma non guida in centro: parcheggiare costa troppo.", "hint": "la seconda è un'abitudine, non un'abilità"},
+          {"kind": "reply", "line": {"t": "Can you help me? I'm lost.", "n": "Mi può aiutare? Mi sono persa."}, "options": ["Sure. Where do you want to go?", "Yes, I can help you to.", "No, I can."], "answer": 0, "why": "Sure / of course, poi la domanda."},
+          {"kind": "translate", "q": "Puoi sempre prendere un autobus.", "answers": ["You can always take a bus", "You can always take the bus"]}
+        ]},
+        {"type": "exercises", "title": "3 · Directions and movement", "items": [
+          {"kind": "fill", "q": "Go straight ___ Front Street, ___ the bank, and ___ the lights turn right. (lungo · oltre · a)", "answers": [["along"], ["past"], ["at"]], "n": "Vai dritto lungo Front Street, oltre la banca, e al semaforo gira a destra."},
+          {"kind": "fill", "q": "Take the stairs ___ to the street. Go ___ to the subway. (su · giù)", "answers": [["up"], ["down"]], "n": "Prendi le scale su fino alla strada. Vai giù alla metro."},
+          {"kind": "fill", "q": "Walk ___ the street and go ___ the station. (attraverso · dentro)", "answers": [["across"], ["into"]], "n": "Attraversa la strada ed entra nella stazione."},
+          {"kind": "mc", "q": "«Come arrivo a Union Station?»", "options": ["How do I get to Union Station?", "How I arrive to Union Station?", "How do I go in Union Station?"], "answer": 0, "why": "How do I get to…?"},
+          {"kind": "fill", "q": "Get ___ at St. Clair and get ___ at Union. Then go ___. (sali · scendi · a casa)", "answers": [["on"], ["off"], ["home"]], "n": "Sali a St. Clair e scendi a Union. Poi vai a casa."},
+          {"kind": "match", "q": "Abbina.", "pairs": [["turn left", "gira a sinistra"], ["go straight", "vai dritto"], ["walk two blocks", "fai due isolati"], ["across from", "di fronte a"], ["you can't miss it", "non puoi sbagliare"]]},
+          {"kind": "order", "answer": "Is there a bank near here?", "n": "C'è una banca qui vicino?"},
+          {"kind": "translate", "q": "Gira a destra al secondo semaforo. È sulla sinistra.", "answers": ["Turn right at the second traffic light. It's on the left", "Turn right at the second lights. It's on the left", "Turn right at the second traffic light. It's on your left"]}
+        ]},
+        {"type": "exercises", "title": "4 · What time is it?", "items": [
+          {"kind": "match", "q": "Abbina.", "pairs": [["half past six", "6:30"], ["quarter to seven", "6:45"], ["quarter past six", "6:15"], ["ten to seven", "6:50"], ["six o'clock", "6:00"]]},
+          {"kind": "fill", "q": "11:45 → It's quarter ___ twelve. 11:15 → It's quarter ___ eleven.", "answers": [["to"], ["past", "after"]], "n": "11:45 → mezzogiorno meno un quarto. 11:15 → le undici e un quarto."},
+          {"kind": "fill", "q": "18:00 → It's six ___. 6:00 → It's six ___.", "answers": [["p.m.", "pm", "in the evening"], ["a.m.", "am", "in the morning"]], "n": "Le sei di sera. Le sei di mattina."},
+          {"kind": "mc", "q": "«Sono le nove e mezza.»", "options": ["It's half past nine.", "It's nine and a half.", "It's half nine thirty."], "answer": 0, "why": "Half past nine (o nine thirty)."},
+          {"kind": "fill", "q": "What time ___ the subway start? — ___ six a.m.", "answers": [["does"], ["At"]], "n": "A che ora comincia la metro? — Alle sei di mattina."},
+          {"kind": "dictation", "text": "It's quarter to twelve. The bank opens at nine thirty.", "n": "È mezzogiorno meno un quarto. La banca apre alle nove e mezza."},
+          {"kind": "speak", "text": "It's half past six. The subway runs until one thirty.", "n": "Sono le sei e mezza. La metro va fino all'una e mezza.", "tip": "Half: la l è muta, \"haf\". Th sonoro in the, sordo in thirty."}
+        ]},
+        {"type": "exercises", "title": "5 · in, on, at", "items": [
+          {"kind": "fill", "q": "I work ___ Saturdays, ___ the morning. ___ night I sleep.", "answers": [["on"], ["in"], ["At"]], "n": "Lavoro il sabato, la mattina. Di notte dormo."},
+          {"kind": "fill", "q": "The subway starts ___ six, ___ Sundays ___ eight.", "answers": [["at"], ["on"], ["at"]], "n": "La metro comincia alle sei, la domenica alle otto."},
+          {"kind": "mc", "q": "Quale è corretta?", "options": ["See you on Monday at ten.", "See you in Monday at ten.", "See you at Monday in ten."], "answer": 0, "why": "On + giorno, at + ora."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Tutta l'unità, mescolata.", "items": [
+          {"kind": "fill", "q": "Sofia: «___ (prendere) the 512 east, ___ (scendere) at St. Clair, and ___ (non prendere) Line 2. You ___ (potere) transfer for free.»", "answers": [["Take"], ["get off"], ["don't take", "do not take"], ["can"]], "n": "Sofia: «Prendi il 512 verso est, scendi a St. Clair e non prendere la linea 2. Puoi cambiare gratis.»"},
+          {"kind": "reply", "line": {"t": "Excuse me, how do I get to Union Station?", "n": "Mi scusi, come arrivo a Union Station?"}, "options": ["Take Line 1 south. It's four stops. You can't miss it.", "You take Line 1 to south. Are four stops.", "Taking Line 1 south, four stops, not miss."], "answer": 0, "why": "Imperativo, it's + numero, you can't miss it."},
+          {"kind": "translate", "q": "Che ore sono? — Le undici meno un quarto.", "answers": ["What time is it? Quarter to eleven", "What time is it? — Quarter to eleven", "What time is it? It's quarter to eleven", "What time is it? — It's quarter to eleven", "What time is it? It's a quarter to eleven"]},
+          {"kind": "write", "q": "Dai indicazioni da casa tua alla fermata o stazione più vicina, in quattro o cinque frasi. Usa go, turn, walk, past, across, it's on the…", "model": "Go out and turn left. Walk along the street for two blocks, past the pharmacy. Cross at the lights. The streetcar stop is on the corner, across from the bank. It's a five-minute walk. You can't miss it.", "hint": "Go… · Turn… · Walk… blocks · past… · It's on the…"},
+          {"kind": "speak", "text": "Go straight along Front Street, past the station, and turn right at the lights.", "n": "Vai dritto lungo Front Street, oltre la stazione, e gira a destra al semaforo.", "tip": "Accento: aLONG, STAtion. Walk e talk senza l."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "La TTC, la griglia e il sorry",
+      "intro": "Come funziona il trasporto di Toronto, perché la città è una griglia che parla a punti cardinali, cosa c'è sotto il centro, e perché lo sconosciuto si è scusato quattro volte.",
+      "blocks": [
+        {"type": "subhead", "text": "La TTC"},
+        {"type": "prose", "text": "La [[TTC]] (Toronto Transit Commission) gestisce metro, tram e autobus della città. La metro ha tre linee che contano: la [[Line 1]] (gialla, a U: va da nord a Union Station e risale dall'altra parte), la [[Line 2]] (verde, est-ovest lungo Bloor e Danforth) e la [[Line 4]] (viola, corta, a nord-est). I tram, [[streetcars]], vanno sulle grandi vie est-ovest del centro (Queen, King, Dundas, College, St. Clair) e hanno numeri da 501 a 512; gli autobus coprono tutto il resto. Un viaggio costa poco più di tre dollari con la tessera [[Presto]], che si compra alle macchine delle stazioni o alle farmacie Shoppers e si ricarica online; si può anche pagare avvicinando una carta di credito. Con un tap hai due ore di [[transfer]] gratuiti in tutte le direzioni. La metro parte verso le sei (le otto la domenica) e finisce verso l'una e mezza; poi ci sono gli autobus notturni, [[the Blue Night Network]]."},
+        {"type": "callout", "kind": "real", "title": "Regole non scritte", "text": "Sulla scala mobile si sta a destra e si cammina a sinistra. Si lascia scendere prima di salire. Lo zaino si tiene in mano, non sulla schiena, quando è pieno. Nessuno parla al telefono a voce alta e nessuno ti guarda. Se qualcuno ti pesta un piede, dice sorry; se tu pesti un piede a qualcuno, dice sorry lo stesso."},
+        {"type": "subhead", "text": "La griglia"},
+        {"type": "prose", "text": "Toronto è una griglia: le vie vanno nord-sud o est-ovest e si incrociano ad angolo retto, e gli incroci si nominano con [[and]]: Yonge and Bloor, King and Bay. [[Yonge Street]] divide la città in est e ovest: gli indirizzi dicono [[East]] o [[West]] (St. Clair Avenue West, Queen Street East) e i numeri ricominciano da Yonge. Il [[lake]] è a sud e tutto sale verso nord: [[downtown]] è in basso, vicino al lago; [[uptown]] è in alto. Per orientarsi basta sapere dove sono il lago e la CN Tower, e da qualunque punto della città si capisce dove si è. Le distanze si dicono in isolati ([[blocks]]) e in minuti, mai in metri: [[it's a ten-minute walk]], [[it's three blocks north]]."},
+        {"type": "subhead", "text": "Union Station e il PATH"},
+        {"type": "prose", "text": "[[Union Station]] è il nodo di tutto: la metro, i treni regionali [[GO]] verso i sobborghi, i treni [[VIA Rail]] per Montréal e Ottawa, l'[[UP Express]] per l'aeroporto Pearson in venticinque minuti. Sotto il centro corre il [[PATH]], trenta chilometri di corridoi sotterranei che collegano stazioni, torri di uffici, centri commerciali e food court: d'inverno si può andare dal treno all'ufficio senza mai vedere la neve. È anche il posto dove si perdono tutti, compresi i torontini; la segnaletica è colorata (P rosso, A arancione, T blu, H giallo) e non aiuta nessuno. Chiedere è normale."},
+        {"type": "subhead", "text": "Sorry"},
+        {"type": "prose", "text": "Il canadese dice [[sorry]] quando ti urta, quando lo urti tu, quando ti passa accanto, quando vuole attirare la tua attenzione, quando non ha capito, quando non è d'accordo, e quando non ha niente di cui scusarsi. Non è senso di colpa: è una parola di contatto, un modo per dire \"ti ho visto, condividiamo lo spazio, va tutto bene\". In Ontario esiste perfino una legge, l'[[Apology Act]], che stabilisce che dire sorry non è un'ammissione di colpa. Lo sconosciuto del PATH ne ha detti quattro in un minuto; dopo tre mesi li dirà anche Chiara, e dopo un anno li dirà in Italia, dove nessuno capirà."},
+        {"type": "callout", "kind": "culture", "title": "In bici", "text": "Toronto ha piste ciclabili sulle grandi vie del centro e un sistema di bici condivise, [[Bike Share Toronto]], con stazioni ovunque. Si pedala da aprile a novembre; d'inverno pedalano solo i coraggiosi. Il casco non è obbligatorio per gli adulti, ma il tram ha le rotaie e le rotaie mangiano le ruote: attraversale di traverso. {hero} a Roccamarina pensa di vendere bici; a Toronto le vendono già."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Una schermata prima della prossima unità, poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Imperative", "rows": [["Take the subway. Turn left. Tap your card.", "verbo base, senza soggetto"], ["Don't take Line 2. Don't worry. Don't be late.", "don't + verbo"], ["Let's go. Please tap your card.", "noi · cortese"], ["Can you…? (a chi non conosci)", "non l'imperativo"]]},
+          {"title": "can", "rows": [["I can swim. She can drive.", "abilità (so)"], ["Can I pay cash? You can't smoke here.", "permesso (posso)"], ["Can you help me? — Sure.", "richiesta"], ["niente -s · niente do · niente to", ""]]},
+          {"title": "Directions", "rows": [["How do I get to…? Where's…? Is there a… near here?", "chiedere"], ["Go straight. Turn left / right. Walk two blocks. It's on your left.", "rispondere"], ["along · across · past · through · up · down · into · out of", "movimento"], ["get on / off · get to · go home / downtown", "senza to"]]},
+          {"title": "Time", "rows": [["six o'clock · half past six · quarter past six · quarter to seven", "6:00 · 6:30 · 6:15 · 6:45"], ["six a.m. / six p.m.", "niente 24 ore"], ["at six · on Monday · in the morning · at night", "in / on / at"], ["Monday, Tuesday, Wednesday… maiuscola", "on Mondays = il lunedì"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
