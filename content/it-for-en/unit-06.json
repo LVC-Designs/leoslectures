@@ -1,0 +1,322 @@
+{
+  "id": "06",
+  "level": "A1",
+  "title": "Una settimana a Roccamarina",
+  "subtitle": "A week in Roccamarina",
+  "intro": "Dora's radio at six, the bar at seven, a shop to find, the beach at seven in the evening, a video call home on Sunday. The first ordinary week, and the first scirocco. In this unit you learn to talk about your routine, how often you do things, the months and the weather, and what you must, can and want to do.",
+  "objectives": [
+    "Describe your day with reflexive verbs: [[mi sveglio]], [[mi alzo]], [[mi vesto]]",
+    "Say what you must, can and want to do: [[devo]], [[posso]], [[voglio]] + infinitive, and what you know how to do with [[so]]",
+    "Say how often: [[sempre]], [[spesso]], [[di solito]], [[qualche volta]], [[non… mai]], and make adverbs in [[-mente]]",
+    "Name the months and seasons and say the date: [[il primo maggio]], [[il tre giugno]]",
+    "Talk about the weather: [[fa caldo]], [[c'è il sole]], [[piove]]"
+  ],
+  "canDo": [
+    "A1 · Spoken production: can describe their daily routine and habits in a series of simple sentences.",
+    "A1 · Spoken interaction: can ask and answer questions about what people do, when and how often.",
+    "A1 · Spoken interaction: can say what they want, can and have to do, and ask permission.",
+    "A1 · Listening: can understand dates, times and simple weather information.",
+    "A1 · Writing: can write a short account of their day or week."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "La videochiamata",
+      "intro": "Sunday at eight, Roccamarina time; two in the afternoon in Toronto. The protagonist tells the family about the week. Then, at the beach with Chiara, the economics of an umbrella. Listen for the reflexive pronouns: mi sveglio, mi alzo, ti alzi.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-video", "title": "La videochiamata", "setting": "Domenica, ore 20. Il terrazzo. Sullo schermo, la cucina del basement a Toronto: Teresa, Franco e un pezzo di Sofia.", "register": "informale", "lines": [
+          {"who": "Teresa", "t": "Allora, raccontaci. Com'è una giornata a Roccamarina?", "n": "So, tell us. What's a day in Roccamarina like?"},
+          {"who": "hero", "t": "Mi sveglio alle sei, perché Dora accende la radio alle sei. Sempre.", "n": "I wake up at six, because Dora turns the radio on at six. Always.", "note": "Mi sveglio: svegliarsi, a reflexive verb. The mi says the action comes back to the speaker."},
+          {"who": "Franco", "t": "Alle sei! E poi?", "n": "At six! And then?"},
+          {"who": "hero", "t": "Mi alzo, mi lavo, mi vesto e faccio colazione al bar. Nando mi aspetta.", "n": "I get up, wash, get dressed and have breakfast at the bar. Nando waits for me."},
+          {"who": "Teresa", "t": "Mangi al bar ogni giorno?", "n": "You eat at the bar every day?"},
+          {"who": "hero", "t": "Ogni giorno. Un cappuccino e un cornetto. Poi devo cercare un locale per il negozio: giro il paese con Tommaso, un amico di Nando.", "n": "Every day. A cappuccino and a croissant. Then I have to look for premises for the shop: I go around town with Tommaso, a friend of Nando's.", "note": "Devo cercare: dovere + infinitive = I have to."},
+          {"who": "Franco", "t": "E il pomeriggio?", "n": "And in the afternoon?"},
+          {"who": "hero", "t": "Il pomeriggio non posso fare niente: tutto è chiuso dall'una alle cinque. Dormo, o leggo. Poi alle sette vado al mare con Chiara.", "n": "In the afternoon I can't do anything: everything's closed from one to five. I sleep, or read. Then at seven I go to the sea with Chiara.", "note": "Non posso fare: potere + infinitive. Non… niente: not… anything."},
+          {"who": "Sofia", "t": "Al mare alle sette di sera?", "n": "To the sea at seven at night?"},
+          {"who": "hero", "t": "Qui tutti vanno al mare la sera. Di giorno fa troppo caldo. Questa settimana c'è lo scirocco: quaranta gradi.", "n": "Here everyone goes to the sea in the evening. In the daytime it's too hot. This week there's the scirocco: forty degrees.", "note": "Fa caldo: weather with fare. C'è lo scirocco: the hot wind from the south."},
+          {"who": "Teresa", "t": "Quaranta! E la domenica cosa fai?", "n": "Forty! And on Sundays what do you do?"},
+          {"who": "hero", "t": "La domenica pranzo da Chiara. Mangio troppo e mi riposo. E vi chiamo.", "n": "On Sundays I have lunch at Chiara's. I eat too much and I rest. And I call you.", "note": "Mi riposo: riposarsi. Vi chiamo: I call you (plural): pronouns in unit 10."},
+          {"who": "Franco", "t": "E ti diverti?", "n": "And are you having fun?"},
+          {"who": "hero", "t": {"m": "Mi diverto. Sono stanco e mi diverto.", "f": "Mi diverto. Sono stanca e mi diverto."}, "n": "I'm having fun. I'm tired and I'm having fun."}
+        ], "notes": [
+          {"phrase": "Raccontaci.", "note": "Tell us. Raccontare = to tell (a story); the -ci is \"us\" attached to the imperative (unit 12)."},
+          {"phrase": "accende la radio", "note": "Turns on the radio. Accendere / spegnere: to switch on / off. Also for lights and the stove."},
+          {"phrase": "un amico di Nando", "note": "A friend of Nando's. Di + name for possession. Tommaso: remember the name."},
+          {"phrase": "Ti diverti?", "note": "Are you having fun? Divertirsi, reflexive: literally \"do you amuse yourself?\""}
+        ]},
+        {"type": "scene", "id": "dlg-mare", "title": "Al mare", "setting": "Lunedì, ore 19. Il lungomare. A sinistra un lido con file di ombrelloni blu; a destra la spiaggia libera.", "register": "informale", "lines": [
+          {"who": "Chiara", "t": "Vuoi un ombrellone al lido? Costa venti euro al giorno. Sessanta la settimana.", "n": "Do you want an umbrella at the lido? It costs twenty euros a day. Sixty a week.", "note": "Vuoi: volere. Al giorno, la settimana: per day, per week."},
+          {"who": "hero", "t": "Venti euro al giorno? Non posso spendere venti euro al giorno per un ombrellone.", "n": "Twenty euros a day? I can't spend twenty euros a day on an umbrella."},
+          {"who": "Chiara", "t": "Allora spiaggia libera. Ma devi portare l'ombrellone da casa, e devi arrivare presto: alle otto di mattina è già piena.", "n": "Then the free beach. But you have to bring the umbrella from home, and you have to arrive early: at eight in the morning it's already full."},
+          {"who": "hero", "t": "Alle otto? Io mi sveglio alle sei, posso arrivare alle sette.", "n": "At eight? I wake up at six, I can be here at seven."},
+          {"who": "Chiara", "t": "Sai nuotare?", "n": "Can you swim?", "note": "Sapere + infinitive = to know how to. Not potere."},
+          {"who": "hero", "t": {"m": "So nuotare. Non so stare al sole: dopo dieci minuti sono rosso come un pomodoro.", "f": "So nuotare. Non so stare al sole: dopo dieci minuti sono rossa come un pomodoro.", "note": "Rosso / rossa agrees with the speaker, like a tomato with the sun."}, "n": "I can swim. I can't stay in the sun: after ten minutes I'm red as a tomato."},
+          {"who": "Chiara", "t": "Allora l'ombrellone lo devi comprare. Al mercato del sabato costano quindici euro.", "n": "Then you have to buy the umbrella. At the Saturday market they cost fifteen euros.", "note": "Lo devi comprare: \"you have to buy it\", pronoun before the modal. Unit 10."},
+          {"who": "hero", "t": "Quando è il mercato?", "n": "When is the market?"},
+          {"who": "Chiara", "t": "Il sabato mattina, in piazza. Dalle sette all'una. E a Ferragosto non venire qui: il quindici agosto la spiaggia è un inferno.", "n": "On Saturday mornings, in the square. From seven to one. And at Ferragosto don't come here: on the fifteenth of August the beach is hell."},
+          {"who": "hero", "t": "Il quindici agosto. E il sedici?", "n": "The fifteenth of August. And the sixteenth?"},
+          {"who": "Chiara", "t": "Il sedici piove. Sempre. È una tradizione.", "n": "On the sixteenth it rains. Always. It's a tradition."}
+        ], "notes": [
+          {"phrase": "il lido", "note": "A private beach club: umbrellas, loungers, a bar, a fee. The spiaggia libera is the public beach next to it: free, no services, full by eight."},
+          {"phrase": "rosso come un pomodoro", "note": "Red as a tomato. The Italian for sunburnt."},
+          {"phrase": "Ferragosto", "note": "15 August, the midsummer holiday. Everything closes, everyone is at the beach, and the next day it traditionally rains. See Living there."}
+        ], "questions": [
+          {"kind": "tf", "q": "The umbrella at the lido costs fifteen euros a day.", "t": "Costa venti euro al giorno.", "answer": false, "why": "Twenty a day at the lido; fifteen to buy one at the market."},
+          {"kind": "mc", "q": "Why does the protagonist have to buy an umbrella?", "options": ["Because the free beach has none, and the sun is a problem.", "Because the lido is closed.", "Because Chiara sells them."], "answer": 0, "why": "Spiaggia libera: devi portare l'ombrellone da casa. And \"non so stare al sole\"."},
+          {"kind": "fill", "q": "Il mercato è ___ sabato mattina, ___ piazza.", "answers": [["il"], ["in"]], "n": "The market is on Saturday mornings, in the square."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "La giornata, i mesi, il tempo",
+      "intro": "The verbs of a day, the parts of the day, the months and seasons, the weather, and what you do when the shops are shut.",
+      "blocks": [
+        {"type": "vocab", "theme": "La routine", "n": "The routine", "intro": "Many of these are reflexive: the -si on the infinitive becomes mi, ti, si in the conjugation.", "items": [
+          {"t": "svegliarsi", "n": "to wake up", "pos": "verb (refl.)", "ex": {"t": "Mi sveglio alle sei.", "n": "I wake up at six."}, "note": "Svegliare (no -si) = to wake someone else: Dora mi sveglia."},
+          {"t": "alzarsi", "n": "to get up", "pos": "verb (refl.)", "ex": {"t": "Mi alzo subito, non sto a letto.", "n": "I get up right away, I don't stay in bed."}},
+          {"t": "lavarsi", "n": "to wash (oneself)", "pos": "verb (refl.)", "ex": {"t": "Mi lavo e mi vesto in dieci minuti.", "n": "I wash and get dressed in ten minutes."}, "note": "Lavarsi i denti = to brush one's teeth; farsi la doccia = to shower."},
+          {"t": "vestirsi", "n": "to get dressed", "pos": "verb (refl.)", "ex": {"t": "Chiara si veste sempre di bianco per il lavoro.", "n": "Chiara always dresses in white for work."}},
+          {"t": "pranzare", "n": "to have lunch", "pos": "verb", "ex": {"t": "Pranzo all'una e mezza.", "n": "I have lunch at half past one."}, "note": "Cenare: to have dinner. Fare colazione: to have breakfast."},
+          {"t": "riposarsi", "n": "to rest", "pos": "verb (refl.)", "ex": {"t": "Il pomeriggio mi riposo.", "n": "In the afternoon I rest."}, "note": "Fare un riposino / una pennichella: to have a nap."},
+          {"t": "tornare", "n": "to go back, to come back", "pos": "verb", "ex": {"t": "Torno a casa alle otto.", "n": "I come home at eight."}},
+          {"t": "divertirsi", "n": "to have fun, to enjoy oneself", "pos": "verb (refl.)", "ex": {"t": "Ti diverti? — Mi diverto.", "n": "Are you having fun? — I'm having fun."}, "note": "Also a wish: Divertiti! Divertitevi! Have fun!"},
+          {"t": "andare a letto", "n": "to go to bed", "pos": "phrase", "ex": {"t": "Vado a letto a mezzanotte e dormo sei ore.", "n": "I go to bed at midnight and sleep six hours."}, "note": "Addormentarsi: to fall asleep."},
+          {"t": "accendere / spegnere", "n": "to switch on / off", "pos": "verb", "ex": {"t": "Dora accende la radio alle sei e la spegne alle otto.", "n": "Dora turns the radio on at six and off at eight."}, "note": "Both irregular in the past: acceso, spento."},
+          {"t": "chiamare", "n": "to call (phone)", "pos": "verb", "ex": {"t": "Chiamo i miei la domenica.", "n": "I call my parents on Sundays."}, "note": "I miei = my parents (short for i miei genitori). Videochiamata: video call."},
+          {"t": "raccontare", "n": "to tell (a story, news)", "pos": "verb", "ex": {"t": "Raccontaci la tua settimana!", "n": "Tell us about your week!"}, "note": "Dire = to say; raccontare = to tell at length."}
+        ]},
+        {"type": "vocab", "theme": "Quando?", "n": "When?", "items": [
+          {"t": "mattina", "n": "morning", "article": "la", "gender": "f", "plural": "le mattine", "pos": "noun", "ex": {"t": "La mattina faccio colazione al bar.", "n": "In the morning I have breakfast at the bar."}, "note": "La mattina = in the morning (habit). Stamattina: this morning. Also il mattino."},
+          {"t": "pomeriggio", "n": "afternoon", "article": "il", "gender": "m", "plural": "i pomeriggi", "pos": "noun", "ex": {"t": "Il pomeriggio tutto è chiuso.", "n": "In the afternoon everything is closed."}},
+          {"t": "sera", "n": "evening", "article": "la", "gender": "f", "plural": "le sere", "pos": "noun", "ex": {"t": "La sera vado al mare. Stasera no.", "n": "In the evening I go to the sea. Not tonight."}, "note": "Stasera: this evening, tonight. Ieri sera: last night."},
+          {"t": "notte", "n": "night", "article": "la", "gender": "f", "plural": "le notti", "pos": "noun", "ex": {"t": "Di notte fa fresco.", "n": "At night it's cool."}, "note": "Di notte / la notte: at night. Stanotte: tonight (late) or last night."},
+          {"t": "presto / tardi", "n": "early / late", "pos": "adv.", "ex": {"t": "Devi arrivare presto. Vado a letto tardi.", "n": "You have to arrive early. I go to bed late."}, "note": "Presto also = soon: a presto!"},
+          {"t": "ogni giorno", "n": "every day", "pos": "phrase", "ex": {"t": "Mangio al bar ogni giorno.", "n": "I eat at the bar every day."}, "note": "Also tutti i giorni. Ogni + singular: ogni settimana, ogni mese."},
+          {"t": "fine settimana", "n": "weekend", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Il fine settimana vado da Chiara.", "n": "At the weekend I go to Chiara's."}, "note": "Also il weekend, same thing."},
+          {"t": "stagione", "n": "season", "article": "la", "gender": "f", "plural": "le stagioni", "pos": "noun", "ex": {"t": "Le quattro stagioni: primavera, estate, autunno, inverno.", "n": "The four seasons: spring, summer, autumn, winter."}, "note": "In primavera, in estate (d'estate), in autunno, in inverno (d'inverno)."}
+        ]},
+        {"type": "vocab", "theme": "Che tempo fa?", "n": "What's the weather like?", "items": [
+          {"t": "tempo", "n": "weather; time", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Che tempo fa oggi? — Fa bel tempo.", "n": "What's the weather like today? — It's nice."}, "note": "Two meanings: non ho tempo = I don't have time."},
+          {"t": "sole", "n": "sun", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "C'è il sole. Prendo il sole. Non so stare al sole.", "n": "It's sunny. I sunbathe. I can't stay in the sun."}},
+          {"t": "caldo / freddo", "n": "hot, warm / cold", "pos": "noun / adj.", "ex": {"t": "Fa caldo. Fa troppo caldo. D'inverno fa freddo.", "n": "It's hot. It's too hot. In winter it's cold."}, "note": "Weather: fa caldo. Person: ho caldo. Object: il caffè è caldo. Three constructions."},
+          {"t": "pioggia", "n": "rain", "article": "la", "gender": "f", "plural": "le piogge", "pos": "noun", "ex": {"t": "C'è la pioggia? No: piove.", "n": "Is there rain? No: it's raining."}, "note": "Piovere = to rain: piove, it rains / it's raining. Nevicare: to snow (nevica)."},
+          {"t": "vento", "n": "wind", "article": "il", "gender": "m", "plural": "i venti", "pos": "noun", "ex": {"t": "C'è vento. Lo scirocco è un vento caldo dall'Africa.", "n": "It's windy. The scirocco is a hot wind from Africa."}, "note": "Tira vento is also said. La tramontana: the cold north wind."},
+          {"t": "nuvola", "n": "cloud", "article": "la", "gender": "f", "plural": "le nuvole", "pos": "noun", "ex": {"t": "Ci sono nuvole. È nuvoloso.", "n": "There are clouds. It's cloudy."}},
+          {"t": "grado", "n": "degree", "article": "il", "gender": "m", "plural": "i gradi", "pos": "noun", "ex": {"t": "Quaranta gradi all'ombra.", "n": "Forty degrees in the shade."}, "note": "Celsius, of course. Sotto zero: below zero."},
+          {"t": "ombrellone", "n": "beach umbrella", "article": "l'", "gender": "m", "plural": "gli ombrelloni", "pos": "noun", "ex": {"t": "L'ombrellone costa venti euro al giorno.", "n": "The umbrella costs twenty euros a day."}, "note": "-one makes it big: l'ombrello is the rain umbrella. Il lettino: the sun lounger."},
+          {"t": "spiaggia", "n": "beach", "article": "la", "gender": "f", "plural": "le spiagge", "pos": "noun", "ex": {"t": "La spiaggia libera è piena alle otto.", "n": "The free beach is full at eight."}, "note": "Plural without the i: spiagge. Il lido: the beach club."},
+          {"t": "nuotare", "n": "to swim", "pos": "verb", "ex": {"t": "Sai nuotare? — So nuotare, ma nuoto male.", "n": "Can you swim? — I can swim, but I swim badly."}, "note": "Fare il bagno: to go for a swim, to bathe."}
+        ]},
+        {"type": "vocab", "theme": "Quanto spesso?", "n": "How often?", "items": [
+          {"t": "sempre", "n": "always", "pos": "adv.", "ex": {"t": "Dora accende la radio alle sei. Sempre.", "n": "Dora turns on the radio at six. Always."}},
+          {"t": "spesso", "n": "often", "pos": "adv.", "ex": {"t": "Vado spesso al mare la sera.", "n": "I often go to the sea in the evening."}},
+          {"t": "di solito", "n": "usually", "pos": "adv.", "ex": {"t": "Di solito pranzo all'una.", "n": "I usually have lunch at one."}, "note": "Also normalmente, generalmente."},
+          {"t": "qualche volta", "n": "sometimes", "pos": "adv.", "ex": {"t": "Qualche volta dormo il pomeriggio.", "n": "Sometimes I sleep in the afternoon."}, "note": "Also a volte, ogni tanto. Una volta = once; due volte = twice."},
+          {"t": "mai", "n": "never", "pos": "adv.", "ex": {"t": "Non vado mai al lido: costa troppo.", "n": "I never go to the lido: it costs too much."}, "note": "With non before the verb: non… mai. Mai alone in a question = ever."},
+          {"t": "troppo", "n": "too, too much", "pos": "adv.", "ex": {"t": "Fa troppo caldo. Mangio troppo.", "n": "It's too hot. I eat too much."}, "note": "Before an adjective: too; after a verb: too much."}
+        ]},
+        {"type": "subhead", "text": "I mesi"},
+        {"type": "grid", "cols": 6, "items": [
+          {"big": "1", "small": "gennaio", "sub": "January"}, {"big": "2", "small": "febbraio", "sub": "February"}, {"big": "3", "small": "marzo", "sub": "March"}, {"big": "4", "small": "aprile", "sub": "April"}, {"big": "5", "small": "maggio", "sub": "May"}, {"big": "6", "small": "giugno", "sub": "June"},
+          {"big": "7", "small": "luglio", "sub": "July"}, {"big": "8", "small": "agosto", "sub": "August"}, {"big": "9", "small": "settembre", "sub": "September"}, {"big": "10", "small": "ottobre", "sub": "October"}, {"big": "11", "small": "novembre", "sub": "November"}, {"big": "12", "small": "dicembre", "sub": "December"}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Riflessivi, dovere, potere, volere",
+      "intro": "Five pieces: the reflexive verbs, the three modal verbs plus sapere, adverbs of frequency and manner, dates and seasons, and the weather. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-riflessivi", "title": "Reflexive verbs: mi alzo, ti alzi, si alza", "category": "Verbs", "rule": "A reflexive verb has a pronoun that matches the subject: mi, ti, si, ci, vi, si. The infinitive ends in -si (alzarsi); the verb itself is conjugated normally (alzo). The pronoun goes before the verb, or attaches to an infinitive.", "ref": "reflexive-verbs", "blocks": [
+          {"type": "conjugation", "verbs": ["alzarsi", "vestirsi", "divertirsi"], "tense": "presente", "caption": "[[alzarsi]], [[vestirsi]], [[divertirsi]] · presente"},
+          {"type": "table", "head": ["Type", "Examples", "English"], "rows": [["action on oneself", "mi lavo, mi vesto, mi pettino", "I wash, dress, comb (myself)"], ["change of state", "mi sveglio, mi alzo, mi addormento, mi siedo", "I wake up, get up, fall asleep, sit down"], ["feelings", "mi diverto, mi annoio, mi arrabbio, mi preoccupo", "I have fun, get bored, get angry, worry"], ["reciprocal (plural only)", "ci vediamo, ci sentiamo, si conoscono, si amano", "we see each other, we talk, they know each other, they love each other"], ["body parts (with the article)", "mi lavo i denti, mi lavo le mani", "I brush my teeth, I wash my hands"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Mi sveglio alle sei, mi alzo alle sei e dieci.", "n": "I wake up at six, I get up at ten past six."},
+            {"t": "A che ora ti alzi la domenica? — Tardi.", "n": "What time do you get up on Sundays? — Late."},
+            {"t": "Chiara si veste di bianco e si diverte al lavoro.", "n": "Chiara dresses in white and enjoys her work."},
+            {"t": "Ci vediamo domani! Ci sentiamo.", "n": "See you tomorrow! Talk soon.", "note": "reciprocal: the two most useful goodbyes in Italian"},
+            {"t": "Devo alzarmi presto. / Mi devo alzare presto.", "n": "I have to get up early.", "note": "with a modal: pronoun attached to the infinitive, or before the modal"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Where English has no reflexive", "text": "English says *I wake up*, *I get dressed*, *I have fun*: no \"myself\". Italian needs the pronoun every time: [[mi sveglio]], [[mi vesto]], [[mi diverto]]. Leaving it out is the typical English-speaker mistake, and [[sveglio alle sei]] means \"I wake (someone) at six\"."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sveglio alle sei. Alzo alle sette.", "right": "Mi sveglio alle sei. Mi alzo alle sette.", "why": "The pronoun is part of the verb."},
+            {"wrong": "Mi alzo me stesso.", "right": "Mi alzo.", "why": "Mi is already \"myself\"; don't add it."},
+            {"wrong": "Lavo i miei denti.", "right": "Mi lavo i denti.", "why": "Body parts: reflexive + article, no possessive."},
+            {"wrong": "Devo mi alzare.", "right": "Devo alzarmi. / Mi devo alzare.", "why": "The pronoun attaches to the infinitive or precedes the whole verb group, never sits in between."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-modali", "title": "dovere, potere, volere, sapere + infinitive", "category": "Verbs", "rule": "Devo (I must / have to), posso (I can / may), voglio (I want) and so (I know how to) are followed directly by an infinitive, with no preposition. All four are irregular.", "ref": "modal-verbs", "blocks": [
+          {"type": "conjugation", "verbs": ["dovere", "potere", "volere", "sapere"], "tense": "presente", "caption": "The three modals and sapere · presente", "note": "Also heard: debbo for devo, debbono for devono (formal). Vorrei (I'd like) is the conditional of volere, unit 14; use it now as a polite fixed form."},
+          {"type": "table", "head": ["Verb", "Meaning", "Example"], "rows": [["dovere", "must, have to; (with a noun) owe", "Devo cercare un locale. Devi arrivare presto. Ti devo venti euro."], ["potere", "can, may (permission, possibility)", "Non posso spendere venti euro. Posso entrare? Può piovere."], ["volere", "want (to)", "Voglio un ombrellone. Vuoi venire al mare? Vorrei un caffè."], ["sapere + infinitive", "know how to, can (a skill)", "So nuotare. Sai guidare? Non so cucinare."]], "speak": [2], "rowhead": true},
+          {"type": "callout", "kind": "warn", "title": "potere or sapere?", "text": "English \"can\" covers two Italian verbs. For a skill you have learned, [[sapere]]: [[so nuotare|I can swim]], [[sa guidare|she can drive]]. For permission or possibility, [[potere]]: [[posso nuotare qui?|can I swim here?]], [[non posso venire|I can't come]]. [[Non posso nuotare]] means something stops you (a cold, a rule); [[non so nuotare]] means you never learned."},
+          {"type": "examples", "items": [
+            {"t": "Il pomeriggio non posso fare niente: è tutto chiuso.", "n": "In the afternoon I can't do anything: everything's closed."},
+            {"t": "Devi portare l'ombrellone e devi arrivare presto.", "n": "You have to bring the umbrella and you have to arrive early."},
+            {"t": "Vuoi un ombrellone al lido? — No, voglio comprarlo al mercato.", "n": "Do you want an umbrella at the lido? — No, I want to buy it at the market."},
+            {"t": "So nuotare ma non so stare al sole.", "n": "I can swim but I can't stay in the sun."},
+            {"t": "Vorrei un cappuccino, per favore.", "n": "I'd like a cappuccino, please."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Devo di cercare. Voglio a comprare.", "right": "Devo cercare. Voglio comprare.", "why": "Modals take the bare infinitive."},
+            {"wrong": "Posso nuotare bene. (meaning a skill)", "right": "So nuotare bene.", "why": "Skills take sapere."},
+            {"wrong": "Voglio un caffè. (to the barista)", "right": "Vorrei un caffè. / Un caffè, per favore.", "why": "Voglio is blunt; vorrei is the polite form."},
+            {"wrong": "Loro devono → devano; Io sappo", "right": "Loro devono; io so", "why": "Irregular forms: learn the table."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-frequenza", "title": "How often, and adverbs in -mente", "category": "Adverbs", "rule": "Sempre, spesso, di solito, qualche volta go after the verb (di solito also at the start). Mai needs non before the verb. Adverbs of manner are made with -mente on the feminine adjective: lento → lentamente.", "ref": "common-adverbs", "blocks": [
+          {"type": "table", "head": ["", "Italian", "Position"], "rows": [["100%", "sempre", "after the verb: Mangio sempre al bar."], ["80%", "di solito · normalmente · generalmente", "start or after the verb: Di solito pranzo all'una. Pranzo di solito all'una."], ["60%", "spesso", "after the verb: Vado spesso al mare."], ["40%", "qualche volta · a volte · ogni tanto", "start or after: Qualche volta dormo il pomeriggio."], ["10%", "raramente · quasi mai", "after the verb: Vado raramente al lido. Non vado quasi mai al lido."], ["0%", "non … mai", "non before the verb, mai after: Non vado mai al lido."], ["", "ogni giorno · tutti i giorni · una volta alla settimana · due volte al mese", "end of the sentence"]], "speak": [1], "rowhead": true},
+          {"type": "table", "caption": "-mente", "head": ["Adjective", "Adverb", "Rule"], "rows": [["lento → lenta", "lentamente", "-o → -a + mente"], ["veloce", "velocemente", "-e + mente"], ["facile", "facilmente", "-le → -l + mente"], ["regolare", "regolarmente", "-re → -r + mente"], ["normale", "normalmente", ""], ["tranquillo → tranquilla", "tranquillamente", ""]], "speak": [1], "compact": true, "note": "Not every adjective makes an adverb this way: bene (well) and male (badly) are the adverbs of buono and cattivo."},
+          {"type": "examples", "items": [
+            {"t": "Mi alzo sempre alle sei. Non mi alzo mai tardi.", "n": "I always get up at six. I never get up late."},
+            {"t": "Di solito mangio al bar; qualche volta cucino.", "n": "I usually eat at the bar; sometimes I cook."},
+            {"t": "Parla lentamente, per favore. Nuoto male ma cammino velocemente.", "n": "Speak slowly, please. I swim badly but I walk fast."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Mai vado al lido. Vado mai al lido.", "right": "Non vado mai al lido.", "why": "Non + verb + mai."},
+            {"wrong": "Sempre mangio al bar.", "right": "Mangio sempre al bar.", "why": "Sempre after the verb."},
+            {"wrong": "lentomente, velocamente", "right": "lentamente, velocemente", "why": "Feminine form + mente; -e adjectives keep the -e."},
+            {"wrong": "Parlo italiano buono.", "right": "Parlo bene italiano.", "why": "Bene is the adverb; buono is an adjective."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-date", "title": "Months, seasons, dates", "category": "Time", "rule": "Months and seasons have no capital. The date is il + number + month: il tre giugno; the first is il primo. In or a with months, in with seasons (also d'estate, d'inverno), nel with years.", "ref": "dates-and-seasons", "blocks": [
+          {"type": "table", "head": ["", "Italian", "Note"], "rows": [["the date", "il 3 giugno · il tre giugno", "cardinal number, no \"of\""], ["the first", "il primo maggio", "the only ordinal"], ["with the day", "sabato 14 giugno", "no article when the weekday is named"], ["asking", "Che giorno è oggi? Quanti ne abbiamo?", "the second is literally \"how many (days) do we have?\""], ["in a month", "a giugno · in giugno", "both fine; a is more common in the south"], ["in a season", "in estate · d'estate · in inverno · d'inverno · in primavera · in autunno", ""], ["in a year", "nel 2026 · nel duemilaventisei", "in + il"], ["from / to", "dal primo giugno al trenta settembre", ""], ["born on", "Sono nato il 12 marzo. / Sono nata il 12 marzo.", "participle agrees"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Oggi è lunedì 14 luglio. Il 15 agosto è Ferragosto.", "n": "Today is Monday 14 July. 15 August is Ferragosto."},
+            {"t": "Il mercato c'è il sabato; il mercato grande è il primo sabato del mese.", "n": "The market is on Saturdays; the big market is the first Saturday of the month."},
+            {"t": "D'estate fa caldo; a settembre il mare è ancora caldo e la spiaggia è vuota.", "n": "In summer it's hot; in September the sea is still warm and the beach is empty."},
+            {"t": {"m": "Sono nato nel 1996, il 3 giugno.", "f": "Sono nata nel 1996, il 3 giugno."}, "n": "I was born in 1996, on 3 June."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "il tre di giugno", "right": "il tre giugno", "why": "No di between day and month."},
+            {"wrong": "il uno maggio, il due maggio (fine), il primo di maggio", "right": "il primo maggio", "why": "Only the first is ordinal, and still no di."},
+            {"wrong": "in Giugno, in Estate", "right": "a giugno / in giugno, in estate", "why": "No capitals."},
+            {"wrong": "in 2026", "right": "nel 2026", "why": "Years take nel."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-tempo", "title": "Che tempo fa?", "category": "Phrases", "rule": "Weather uses fare for temperature and general conditions (fa caldo, fa freddo, fa bel tempo), c'è for things in the sky (c'è il sole, c'è vento, c'è la nebbia) and impersonal verbs for rain and snow (piove, nevica).", "ref": "weather", "blocks": [
+          {"type": "table", "head": ["Italian", "English"], "rows": [["Che tempo fa?", "What's the weather like?"], ["Fa caldo. Fa freddo. Fa fresco.", "It's hot. It's cold. It's cool."], ["Fa bel tempo. Fa brutto tempo.", "The weather's nice. The weather's bad."], ["C'è il sole. C'è vento. C'è la nebbia. Ci sono nuvole.", "It's sunny. It's windy. It's foggy. It's cloudy."], ["È nuvoloso. È sereno. È umido.", "It's cloudy. It's clear. It's humid."], ["Piove. Nevica. Tira vento.", "It's raining. It's snowing. The wind is blowing."], ["Ci sono trenta gradi. Fa quaranta gradi all'ombra.", "It's thirty degrees. It's forty in the shade."], ["Com'è il tempo a Toronto? — Piove e fa freddo.", "How's the weather in Toronto? — It's raining and cold."]], "speak": [0]},
+          {"type": "callout", "kind": "compare", "title": "Three kinds of hot", "text": "[[Fa caldo.|It's hot (the weather).]] · [[Ho caldo.|I'm hot (I feel it).]] · [[Il caffè è caldo.|The coffee is hot (the thing).]] English uses \"is hot\" for all three; Italian chooses fare, avere or essere depending on who or what is hot. Mixing them (*sono caldo*) can be embarrassing."},
+          {"type": "examples", "items": [
+            {"t": "Questa settimana c'è lo scirocco: fa quaranta gradi e c'è vento caldo.", "n": "This week there's the scirocco: it's forty degrees and there's a hot wind."},
+            {"t": "A Toronto a gennaio nevica e fa meno venti.", "n": "In Toronto in January it snows and it's minus twenty."},
+            {"t": "Il sedici agosto piove. Sempre.", "n": "On 16 August it rains. Always."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "È caldo oggi. (weather)", "right": "Fa caldo oggi.", "why": "Weather takes fare."},
+            {"wrong": "Sono caldo. Sono freddo.", "right": "Ho caldo. Ho freddo.", "why": "How you feel takes avere."},
+            {"wrong": "Sta piovendo? — fine; È piovendo.", "right": "Piove. / Sta piovendo.", "why": "Piove alone covers \"it's raining\"; the gerund construction takes stare, not essere."},
+            {"wrong": "C'è soleggiato.", "right": "C'è il sole.", "why": "C'è + noun; è + adjective (è soleggiato is possible but formal)."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "s e z",
+      "intro": "Two letters, four sounds. The s of sole and the s of rosa are different; the z of pizza and the z of zero are different. Italians themselves vary by region, so the rules are loose, but the main distinctions are worth hearing.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "s", "t": "sole", "n": "sun", "ipa": "ˈsoːle", "tip": "Voiceless, like English \"s\" in \"sun\". At the start of a word, before a vowel: sole, sera, sabato, settimana. Also doubled: spesso, rosso."},
+          {"sound": "s = z", "t": "rosa", "n": "rose, pink", "ipa": "ˈrɔːza", "tip": "Voiced, like English \"z\", between two vowels in the north and in standard pronunciation: rosa, casa (Nord: \"kaza\"), mese. The south keeps it voiceless: \"kasa\". Both are fine."},
+          {"sound": "s + voiced consonant", "t": "svegliarsi", "n": "to wake up", "ipa": "zveʎˈʎarsi", "tip": "Before b, d, g, l, m, n, r, v the s is voiced everywhere: svegliarsi, sbagliato, slow? No: slegare, smettere, snello."},
+          {"sound": "z = ts", "t": "pizza", "n": "pizza", "ipa": "ˈpittsa", "tip": "Voiceless, \"ts\": pizza, grazie, stazione, colazione, ragazzo, zio (in standard Italian)."},
+          {"sound": "z = dz", "t": "zero", "n": "zero", "ipa": "ˈdzɛːro", "tip": "Voiced, \"dz\": zero, zona, mezzo, pranzo (often), zaino."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "The one rule that always works", "text": "The ending [[-zione]] is always \"ts\": [[stazione]], [[colazione]], [[nazione]], [[informazione]]. And [[grazie]] is \"GRAT-tsyeh\", never \"gra-zee\". Get these two right and the rest is accent."},
+        {"type": "minimal", "caption": "Listen for the buzz", "pairs": [
+          {"a": "sole", "b": "rosa", "na": "sun", "nb": "pink", "tip": "s without voice / s with voice (standard)."},
+          {"a": "grazie", "b": "zero", "na": "thanks", "nb": "zero", "tip": "ts / dz."},
+          {"a": "pizza", "b": "mezzo", "na": "pizza", "nb": "half", "tip": "tts / ddz, both doubled."},
+          {"a": "casa", "b": "cassa", "na": "house", "nb": "till", "tip": "Single (voiced or not) vs double (always voiceless, long)."}
+        ]},
+        {"type": "examples", "items": [
+          {"t": "Mi sveglio alle sei, faccio colazione e vado alla stazione.", "n": "I wake up at six, have breakfast and go to the station.", "note": "sv- voiced; sei voiceless; -zione, -zione: ts"},
+          {"t": "A mezzogiorno mangio una pizza; grazie, zero zucchero.", "n": "At noon I eat a pizza; thanks, no sugar.", "note": "dz · ts · ts · dz · ts"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty exercises in five sets and a mixed review. Reflexive pronouns count: alzo alle sei is wrong, mi alzo is right.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · I verbi riflessivi", "items": [
+          {"kind": "conjugate", "verb": "alzarsi", "tense": "presente", "n": "to get up", "answers": ["mi alzo", "ti alzi", "si alza", "ci alziamo", "vi alzate", "si alzano"]},
+          {"kind": "fill", "q": "Io ___ (svegliarsi) alle sei e ___ (alzarsi) alle sei e dieci.", "answers": [["mi sveglio"], ["mi alzo"]], "n": "I wake up at six and get up at ten past six."},
+          {"kind": "fill", "q": "A che ora ___ (tu, alzarsi) la domenica? — Tardi. ___ (io, riposarsi).", "answers": [["ti alzi"], ["Mi riposo"]], "n": "What time do you get up on Sundays? — Late. I rest."},
+          {"kind": "fill", "q": "Chiara ___ (vestirsi) di bianco e ___ (divertirsi) al lavoro.", "answers": [["si veste"], ["si diverte"]], "n": "Chiara dresses in white and enjoys her work."},
+          {"kind": "fill", "q": "Noi ___ (vedersi) domani? — Sì, ___ (sentirsi) stasera.", "answers": [["ci vediamo"], ["ci sentiamo"]], "n": "Shall we see each other tomorrow? — Yes, we'll talk tonight."},
+          {"kind": "mc", "q": "«I have to get up early.»", "options": ["Devo alzarmi presto.", "Devo mi alzare presto.", "Mi devo alzarmi presto."], "answer": 0, "why": "Pronoun attached to the infinitive (or mi devo alzare: before the modal), never in between or twice."},
+          {"kind": "translate", "q": "I brush my teeth and go to bed.", "answers": ["Mi lavo i denti e vado a letto"], "hint": "no possessive"},
+          {"kind": "tf", "q": "Is this right?", "t": "Dora sveglia alle sei.", "answer": false, "why": "Without mi / si it means Dora wakes someone up. Dora si sveglia alle sei."}
+        ]},
+        {"type": "exercises", "title": "2 · Dovere, potere, volere, sapere", "items": [
+          {"kind": "conjugate", "verb": "dovere", "tense": "presente", "n": "to have to", "answers": ["devo", "devi", "deve", "dobbiamo", "dovete", "devono"]},
+          {"kind": "conjugate", "verb": "volere", "tense": "presente", "n": "to want", "answers": ["voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono"]},
+          {"kind": "fill", "q": "Il pomeriggio non ___ (io, potere) fare niente: è tutto chiuso.", "answers": [["posso"]], "n": "In the afternoon I can't do anything: everything's closed."},
+          {"kind": "fill", "q": "___ (tu, dovere) portare l'ombrellone e ___ (dovere) arrivare presto.", "answers": [["Devi"], ["devi"]], "n": "You have to bring the umbrella and you have to arrive early."},
+          {"kind": "fill", "q": "___ (tu, sapere) nuotare? — ___ (io, sapere) nuotare, ma non ___ (potere): ho il raffreddore.", "answers": [["Sai"], ["So"], ["posso"]], "n": "Can you swim? — I can swim, but I can't: I have a cold.", "hint": "skill vs possibility"},
+          {"kind": "mc", "q": "«Chiara can drive.» (she knows how)", "options": ["Chiara sa guidare.", "Chiara può guidare.", "Chiara vuole guidare."], "answer": 0, "why": "A skill takes sapere. Può guidare = she is allowed / able to right now."},
+          {"kind": "fill", "q": "Noi ___ (volere) un ombrellone, ma non ___ (potere) spendere venti euro al giorno.", "answers": [["vogliamo"], ["possiamo"]], "n": "We want an umbrella, but we can't spend twenty euros a day."},
+          {"kind": "reply", "line": {"t": "Cosa prende?", "n": "What are you having?"}, "options": ["Vorrei un caffè, grazie.", "Voglio un caffè.", "Devo un caffè."], "answer": 0, "why": "Vorrei is the polite form; voglio is blunt."}
+        ]},
+        {"type": "exercises", "title": "3 · Quanto spesso, e -mente", "items": [
+          {"kind": "order", "answer": "Non vado mai al lido.", "n": "I never go to the lido."},
+          {"kind": "order", "answer": "Mangio sempre al bar la mattina.", "n": "I always eat at the bar in the morning."},
+          {"kind": "fill", "q": "lento → ___ · veloce → ___ · facile → ___", "answers": [["lentamente"], ["velocemente"], ["facilmente"]], "n": "slowly · quickly · easily"},
+          {"kind": "fill", "q": "___ pranzo all'una, ma ___ mangio alle due. (usually / sometimes)", "answers": [["Di solito"], ["qualche volta", "a volte", "ogni tanto"]], "n": "I usually have lunch at one, but sometimes I eat at two."},
+          {"kind": "mc", "q": "«She speaks Italian well.»", "options": ["Parla bene l'italiano.", "Parla buono l'italiano.", "Parla benemente l'italiano."], "answer": 0, "why": "Bene is the adverb of buono."}
+        ]},
+        {"type": "exercises", "title": "4 · Mesi, stagioni, date", "items": [
+          {"kind": "match", "q": "Match.", "pairs": [["gennaio", "January"], ["giugno", "June"], ["luglio", "July"], ["agosto", "August"], ["settembre", "September"]]},
+          {"kind": "fill", "q": "Ferragosto è ___ quindici ___. (15 August)", "answers": [["il"], ["agosto"]], "n": "Ferragosto is on 15 August."},
+          {"kind": "fill", "q": "Il mercato grande è ___ sabato del mese. (the first)", "answers": [["il primo"]], "n": "The big market is on the first Saturday of the month."},
+          {"kind": "fill", "q": "___ estate fa caldo; ___ inverno fa freddo. (in / in)", "answers": [["In", "D'"], ["in", "d'"]], "n": "In summer it's hot; in winter it's cold."},
+          {"kind": "fill", "q": "Sono ___ (nato) ___ 1996. (born, in)", "answers": [[{"m": "nato", "f": "nata", "who": "self"}], ["nel"]], "n": "I was born in 1996.", "hint": "about you: your own form; years take nel"},
+          {"kind": "dictation", "text": "Oggi è lunedì quattordici luglio.", "n": "Today is Monday 14 July."}
+        ]},
+        {"type": "exercises", "title": "5 · Che tempo fa?", "items": [
+          {"kind": "fill", "q": "Che tempo ___ oggi? — ___ caldo e ___ il sole.", "answers": [["fa"], ["Fa"], ["c'è"]], "n": "What's the weather like today? — It's hot and sunny."},
+          {"kind": "mc", "q": "«I'm hot.» (the feeling)", "options": ["Ho caldo.", "Sono caldo.", "Fa caldo."], "answer": 0, "why": "Feelings of heat and cold take avere. Sono caldo describes you as a hot object; fa caldo is the weather."},
+          {"kind": "fill", "q": "A Toronto a gennaio ___ (nevicare) e fa meno venti ___.", "answers": [["nevica"], ["gradi"]], "n": "In Toronto in January it snows and it's minus twenty degrees."},
+          {"kind": "translate", "q": "It's raining and it's windy.", "answers": ["Piove e c'è vento", "Piove e tira vento"]},
+          {"kind": "speak", "text": "Fa quaranta gradi all'ombra e c'è lo scirocco.", "n": "It's forty degrees in the shade and there's the scirocco.", "tip": "Scirocco: sh + r + double c. Quaranta: single r."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "fill", "q": "La mattina ___ (io, svegliarsi) alle sei, ___ (dovere) fare colazione e poi ___ (potere) cercare il locale.", "answers": [["mi sveglio"], ["devo"], ["posso"]], "n": "In the morning I wake up at six, I have to have breakfast and then I can look for the premises."},
+          {"kind": "translate", "q": "On Sundays I always have lunch at Chiara's and I never cook.", "answers": ["La domenica pranzo sempre da Chiara e non cucino mai", "La domenica mangio sempre da Chiara e non cucino mai"]},
+          {"kind": "reply", "line": {"t": "Vuoi venire al mare stasera?", "n": "Do you want to come to the sea tonight?"}, "options": ["Voglio, ma non posso: devo lavorare.", "Voglio, ma non so: devo lavorare.", "Vorrei, ma non devo: posso lavorare."], "answer": 0, "why": "Want, can't (something prevents), have to."},
+          {"kind": "write", "q": "Describe your typical day in six short sentences: when you wake up and get up, what you do in the morning, afternoon and evening, how often you do something, and the weather today.", "model": "Mi sveglio alle sette e mi alzo subito. La mattina lavoro e pranzo all'una. Il pomeriggio di solito leggo o mi riposo. La sera vado spesso al mare con Chiara. Non guardo mai la televisione. Oggi fa caldo e c'è il sole.", "hint": "Mi sveglio… · La mattina… · Di solito… · Non… mai · Oggi fa…"},
+          {"kind": "speak", "text": "Di solito mi alzo presto, ma la domenica mi riposo. Oggi piove.", "n": "I usually get up early, but on Sundays I rest. Today it's raining.", "tip": "Voiced s in riposo (north) or not (south): both fine. Piove: pyO-ve."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "I ritmi del Sud",
+      "intro": "Why lunch is long, dinner is late and the beach is at seven in the evening; what happens on market day; and the one day of the year when the whole country stops.",
+      "blocks": [
+        {"type": "subhead", "text": "La giornata"},
+        {"type": "prose", "text": "Breakfast is small and fast: a coffee and a cornetto standing at the bar, or biscuits and milk at home. Lunch, [[il pranzo]], is the main meal and in the south it starts at one or half past and can take an hour and a half; many people still go home for it, and the shops close so they can. The afternoon break, which outsiders call siesta and Italians call nothing in particular, lasts until four or five: in the heat of a Pugliese July it is the only sane response. Then the town wakes, the shops reopen, the passeggiata starts, and dinner, [[la cena]], is at nine or later, lighter than lunch, and in August often at ten. Children stay up for it. Bars close at midnight or when the last customer leaves.\n\nThe rhythm shifts north: in Milano lunch is a quick thing at the desk and dinner is at eight. Roccamarina is not Milano."},
+        {"type": "subhead", "text": "Il mercato"},
+        {"type": "prose", "text": "Every town has a weekly market, [[il mercato settimanale]], in the piazza or along a street: fruit and vegetables, cheese and cured meats, fish from the port, clothes, shoes, kitchenware, beach umbrellas at fifteen euros. In Roccamarina it is Saturday morning, seven to one. You don't touch the produce; you ask and they choose for you. Prices are mostly fixed; haggling is for the clothes stalls and even there only a little. Unit 7 is a whole morning there."},
+        {"type": "subhead", "text": "Il mare"},
+        {"type": "prose", "text": "The Italian beach comes in two kinds. The [[lido]] or [[stabilimento balneare]] is a private club: rows of umbrellas and loungers rented by the day, the week or the month, a bar, showers, music, a lifeguard. The [[spiaggia libera]] is the public stretch beside it: free, with no services, and full by eight in the morning in August because everyone brought their own umbrella from home. Families rent the same umbrella at the same lido for the whole season and have done so for thirty years; the beach has a social map as precise as the piazza.\n\nIn high summer the locals go to the sea early in the morning or after six in the evening, when the sun is bearable and the tourists have gone to dinner. Swimming after lunch is forbidden by every Italian grandmother: [[la digestione]]. Three hours minimum."},
+        {"type": "callout", "kind": "culture", "title": "Ferragosto", "text": "15 August, the Assumption, and the centre of the Italian summer. Factories, offices and cities empty; the whole country is on the coast or in the mountains; motorways jam on the Saturday before and the Sunday after. On the day itself families eat enormous lunches on the beach or in the countryside, and towns hold fireworks. The weather tradition is real: the first storms of late summer often arrive on the 16th, and everyone says *piove sempre il sedici*. Chiara is exaggerating, but only a little."},
+        {"type": "subhead", "text": "Lo scirocco"},
+        {"type": "prose", "text": "A hot, humid wind from the south-east, from the Sahara across the Mediterranean, that sits on Puglia for days in summer, pushes the temperature past forty, brings red dust on the cars and makes everyone irritable. Italians blame headaches, bad moods and arguments on it, the way Canadians blame February. Its opposite is the [[tramontana]], the cold dry wind from the north that clears the sky in winter. Both are discussed at the bar as if they were people."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen before the next unit, then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Riflessivi", "rows": [["mi alzo · ti alzi · si alza · ci alziamo · vi alzate · si alzano", "alzarsi"], ["mi sveglio · mi lavo · mi vesto · mi riposo · mi diverto", "the routine"], ["ci vediamo · ci sentiamo", "see you · talk soon"], ["devo alzarmi / mi devo alzare", "with a modal"]]},
+          {"title": "dovere · potere · volere · sapere", "rows": [["devo · devi · deve · dobbiamo · dovete · devono", "must, have to"], ["posso · puoi · può · possiamo · potete · possono", "can, may"], ["voglio · vuoi · vuole · vogliamo · volete · vogliono", "want"], ["so · sai · sa · sappiamo · sapete · sanno + infinitive", "know how to"], ["vorrei…", "I'd like"]]},
+          {"title": "Quanto spesso", "rows": [["sempre · spesso · di solito · qualche volta · non… mai", "always · often · usually · sometimes · never"], ["ogni giorno · una volta alla settimana", "every day · once a week"], ["lentamente · velocemente · facilmente · bene · male", "-mente"]]},
+          {"title": "Date e stagioni", "rows": [["il tre giugno · il primo maggio · nel 2026", "the date · the first · the year"], ["a giugno · in estate / d'estate", "in a month · in a season"], ["gennaio … dicembre · primavera, estate, autunno, inverno", "no capitals"]]},
+          {"title": "Che tempo fa?", "rows": [["Fa caldo / freddo / bel tempo.", "fare"], ["C'è il sole / vento / la nebbia.", "c'è"], ["Piove. Nevica.", "impersonal"], ["fa caldo · ho caldo · è caldo", "weather · me · a thing"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

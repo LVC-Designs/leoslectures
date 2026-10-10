@@ -45,6 +45,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** irregular-present-1, prepositions, articulated-prepositions, place-and-directions, time-and-days.
 - **Originality:** the two scenes (Chiara's hand-drawn map; three answers to "dov'è la ferramenta?" ending at the comune with Antonella), the characters Carmine and Antonella Moro, all 47 vocabulary examples, tables, 40 exercises and the cultural notes (split opening hours, giorno di chiusura, chiuso per ferie, signs, the passeggiata, the piazza, "vicino") were written for this project from general knowledge of small-town Italy.
 
+#### Unit 6 · Una settimana a Roccamarina (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken production: describe daily routine and habits in a series of simple sentences; spoken interaction: ask and answer about what people do, when and how often; say what one wants, can and has to do, ask permission; listening: understand dates, times and simple weather information; writing: write a short account of one's day or week.
+- **Grammar:** reflexive and reciprocal verbs (placement with modals); *dovere, potere, volere* + infinitive and *sapere* + infinitive (potere vs sapere); frequency adverbs and *-mente*; months, seasons, dates, years; the weather (fare / c'è / impersonal verbs; fa caldo / ho caldo / è caldo); voiced and voiceless s, the two z sounds.
+- **Reference pages added:** reflexive-verbs, modal-verbs, dates-and-seasons, weather (common-adverbs extended).
+- **Originality:** the two scenes (the Sunday video call describing the week; the beach economics of a lido umbrella and Ferragosto), all 46 vocabulary examples, tables, 40 exercises and the cultural notes (southern daily rhythms, the weekly market, lido vs spiaggia libera, la digestione, Ferragosto and the rain on the 16th, scirocco and tramontana) were written for this project from general knowledge.
+
 ### English for Italian speakers (`content/en-for-it/`)
 
 #### Unit 1 · Welcome to Canada (A1) · written 2026-10-10

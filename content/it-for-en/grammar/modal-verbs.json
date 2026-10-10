@@ -1,0 +1,28 @@
+{"id": "modal-verbs", "title": "dovere, potere, volere (and sapere)", "category": "Verbs", "rule": "The three modal verbs take a bare infinitive: devo partire, posso entrare, voglio mangiare. All three are irregular in the present and have irregular future and conditional stems (dovr-, potr-, vorr-). Sapere + infinitive means \"know how to\".", "units": ["06"], "blocks": [
+  {"type": "conjugation", "verbs": ["dovere", "potere", "volere", "sapere"], "tense": "presente", "caption": "presente"},
+  {"type": "table", "head": ["", "Meanings", "Examples"], "rows": [["dovere", "must, have to, should (obligation, necessity); to owe", "Devo lavorare. Dobbiamo partire alle otto. Ti devo dieci euro."], ["potere", "can, may (permission, possibility, ability due to circumstances)", "Posso entrare? Non posso venire stasera. Può piovere."], ["volere", "to want; want to", "Voglio un gelato. Vuoi venire? Vogliono aprire un negozio."], ["sapere + infinitive", "to know how to (a learned skill)", "So nuotare. Sa cucinare. Non sappiamo guidare."]], "speak": [2], "rowhead": true},
+  {"type": "subhead", "text": "The polite forms (conditional, unit 14)"},
+  {"type": "examples", "items": [
+    {"t": "Vorrei un caffè. Vorremmo un tavolo per due.", "n": "I'd like a coffee. We'd like a table for two."},
+    {"t": "Potrebbe ripetere? Potresti aiutarmi?", "n": "Could you repeat? Could you help me?"},
+    {"t": "Dovresti dormire di più.", "n": "You should sleep more."}
+  ]},
+  {"type": "subhead", "text": "With pronouns"},
+  {"type": "examples", "items": [
+    {"t": "Lo devo comprare. / Devo comprarlo.", "n": "I have to buy it.", "note": "object pronoun before the modal or attached to the infinitive (unit 10)"},
+    {"t": "Mi voglio riposare. / Voglio riposarmi.", "n": "I want to rest."},
+    {"t": "Non posso farlo. / Non lo posso fare.", "n": "I can't do it."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "potere vs sapere vs riuscire", "text": "[[So nuotare]]: I learned, I have the skill. [[Posso nuotare]]: I'm allowed, nothing stops me. [[Riesco a nuotare]] (unit 15): I manage to, I succeed in. English \"can\" is all three."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Devo a partire. Voglio di mangiare.", "right": "Devo partire. Voglio mangiare.", "why": "Bare infinitive."},
+    {"wrong": "Posso guidare. (meaning I learned)", "right": "So guidare.", "why": "Skill = sapere."},
+    {"wrong": "Voglio un caffè. (to a stranger serving you)", "right": "Vorrei un caffè.", "why": "Politeness."},
+    {"wrong": "Io devo che partire.", "right": "Devo partire.", "why": "No che."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "potere", "tense": "presente", "n": "can", "answers": ["posso", "puoi", "può", "possiamo", "potete", "possono"]},
+    {"kind": "fill", "q": "Stasera non ___ (noi, potere) uscire: ___ (dovere) lavorare. Ma ___ (volere) andare al mare domani.", "answers": [["possiamo"], ["dobbiamo"], ["vogliamo"]], "n": "Tonight we can't go out: we have to work. But we want to go to the sea tomorrow."},
+    {"kind": "mc", "q": "«Can you cook?» (do you know how)", "options": ["Sai cucinare?", "Puoi cucinare?", "Vuoi cucinare?"], "answer": 0, "why": "Skill: sapere."}
+  ]}
+]}

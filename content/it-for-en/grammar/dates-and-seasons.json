@@ -1,0 +1,23 @@
+{"id": "dates-and-seasons", "title": "Months, seasons and dates", "category": "Time", "rule": "Months and seasons without capitals. Date = il + cardinal number + month (il 3 giugno), except il primo. A / in + month, in + season (d'estate, d'inverno also), nel + year. Ordinals for other uses are in unit 8.", "units": ["06"], "blocks": [
+  {"type": "table", "caption": "I mesi", "head": ["", "", "", ""], "rows": [["gennaio", "febbraio", "marzo", "aprile"], ["maggio", "giugno", "luglio", "agosto"], ["settembre", "ottobre", "novembre", "dicembre"]], "speak": [0, 1, 2, 3], "compact": true, "note": "All masculine. Stress: genNAio, febBRAio, MARzo, aPRIle, MAGgio, GIUgno, LUglio, aGOsto, setTEMbre, otTObre, noVEMbre, diCEMbre."},
+  {"type": "table", "caption": "Le stagioni", "head": ["Season", "In …", "Note"], "rows": [["la primavera", "in primavera", "feminine"], ["l'estate", "in estate · d'estate", "feminine"], ["l'autunno", "in autunno", "masculine"], ["l'inverno", "in inverno · d'inverno", "masculine"]], "speak": [0, 1], "compact": true},
+  {"type": "table", "caption": "La data", "head": ["", "Italian"], "rows": [["asking", "Che giorno è oggi? · Quanti ne abbiamo oggi? · Qual è la data?"], ["answer", "È il 14 luglio. · Oggi è lunedì 14 luglio. · Ne abbiamo 14."], ["the first", "il primo gennaio, il primo maggio (never il uno)"], ["other days", "il due, il tre, il ventuno, il trentuno (cardinals)"], ["with the weekday", "sabato 14 giugno (no article)"], ["writing", "14/7/2026 · 14 luglio 2026 · Roccamarina, 14 luglio 2026 (letters)"], ["year", "nel 2026 · nel duemilaventisei · del 2026 (of)"], ["from / to", "dal 10 al 24 agosto · da giugno a settembre"], ["born", "Sono nato / nata il 3 giugno 1996. · nel 1996 · a giugno"], ["the weekend of, the end of", "il fine settimana · alla fine di giugno · a metà luglio · all'inizio di agosto"]], "speak": [1], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Il mercato è ogni sabato; il primo sabato del mese è più grande.", "n": "The market is every Saturday; the first Saturday of the month is bigger."},
+    {"t": "A settembre il mare è caldo e la spiaggia è vuota.", "n": "In September the sea is warm and the beach is empty."},
+    {"t": "Nonno Cosimo è partito nel 1962, a marzo.", "n": "Grandpa Cosimo left in 1962, in March."},
+    {"t": "Chiara parte il 20 settembre. Torna a Natale.", "n": "Chiara leaves on 20 September. She comes back at Christmas.", "note": "a Natale, a Pasqua, a Ferragosto: holidays take a"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "il tre di giugno, il primo di maggio", "right": "il tre giugno, il primo maggio", "why": "No di."},
+    {"wrong": "il uno giugno", "right": "il primo giugno", "why": "Only the first is ordinal."},
+    {"wrong": "in 1962", "right": "nel 1962", "why": "Nel + year."},
+    {"wrong": "Luglio, Estate (capitalised)", "right": "luglio, estate", "why": "Lower case."},
+    {"wrong": "a Natale → in Natale", "right": "a Natale", "why": "Holidays take a."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Oggi è ___ 21 marzo: comincia la ___. (the date; the season)", "answers": [["il"], ["primavera"]], "n": "Today is 21 March: spring begins."},
+    {"kind": "fill", "q": "Nonna Rosa è nata ___ 1940, ___ febbraio. Chiara parte ___ 20 settembre.", "answers": [["nel"], ["a", "in"], ["il"]], "n": "Nonna Rosa was born in 1940, in February. Chiara leaves on 20 September."},
+    {"kind": "dictation", "text": "Il primo maggio è festa; il due maggio si lavora.", "n": "The first of May is a holiday; on the second of May we work."}
+  ]}
+]}

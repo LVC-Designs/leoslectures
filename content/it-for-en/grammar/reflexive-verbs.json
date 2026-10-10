@@ -1,0 +1,24 @@
+{"id": "reflexive-verbs", "title": "Reflexive and reciprocal verbs", "category": "Verbs", "rule": "The pronoun (mi, ti, si, ci, vi, si) matches the subject and goes before the conjugated verb, or attaches to the infinitive, gerund and imperative. In compound tenses the auxiliary is always essere (unit 9).", "units": ["06"], "blocks": [
+  {"type": "conjugation", "verbs": ["svegliarsi", "sedersi", "divertirsi"], "tense": "presente", "caption": "One of each conjugation; sedersi is irregular (siedo)"},
+  {"type": "table", "head": ["Kind", "Examples", "Note"], "rows": [["truly reflexive (on oneself)", "lavarsi, vestirsi, pettinarsi, farsi la doccia, farsi la barba", "the subject does it to themselves"], ["change of state / intransitive", "svegliarsi, alzarsi, addormentarsi, sedersi, fermarsi, sposarsi, trasferirsi", "no \"self\" in English: wake up, get up, fall asleep, sit down, stop, get married, move"], ["feelings", "divertirsi, annoiarsi, arrabbiarsi, preoccuparsi, innamorarsi, ricordarsi, dimenticarsi", "have fun, get bored, get angry, worry, fall in love, remember, forget"], ["reciprocal (plural)", "vedersi, sentirsi, conoscersi, incontrarsi, amarsi, aiutarsi, salutarsi", "each other"], ["with body parts and clothes", "lavarsi i denti, mettersi il cappotto, togliersi le scarpe", "article, no possessive"]], "speak": [1], "rowhead": true},
+  {"type": "subhead", "text": "Where the pronoun goes"},
+  {"type": "table", "head": ["Case", "Example"], "rows": [["before a conjugated verb", "Mi alzo alle sei. Non mi alzo tardi."], ["with a modal: before the modal, or attached to the infinitive", "Mi devo alzare. / Devo alzarmi."], ["attached to an infinitive (drop the final e)", "È ora di alzarsi. Prima di vestirmi…"], ["attached to the gerund (unit 12)", "alzandomi, vestendosi"], ["attached to the tu / noi / voi imperative (unit 12)", "Alzati! Sediamoci. Divertitevi!"], ["before the Lei imperative", "Si accomodi. Si sieda."]], "speak": [1]},
+  {"type": "examples", "items": [
+    {"t": "Ci vediamo domani. Ci sentiamo. Ci conosciamo da un mese.", "n": "See you tomorrow. Talk soon. We've known each other for a month.", "note": "reciprocal"},
+    {"t": "Dora si arrabbia se non mi alzo alle sei.", "n": "Dora gets angry if I don't get up at six."},
+    {"t": "Mi ricordo di Toronto. Mi dimentico sempre le chiavi.", "n": "I remember Toronto. I always forget my keys."},
+    {"t": "Chiara si trasferisce in Canada a settembre.", "n": "Chiara is moving to Canada in September."}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Same verb, two uses", "text": "Many verbs work both ways: [[Dora sveglia Luca|Dora wakes Luca up]] (normal) / [[Luca si sveglia|Luca wakes up]] (reflexive). [[Chiamo Dora|I call Dora]] / [[mi chiamo Luca|my name is Luca]]. [[Fermo la macchina|I stop the car]] / [[mi fermo|I stop]]. The pronoun tells you which."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Alzo alle sei.", "right": "Mi alzo alle sei.", "why": "Reflexive pronoun required."},
+    {"wrong": "Devo mi alzare.", "right": "Devo alzarmi. / Mi devo alzare.", "why": "Not between modal and infinitive."},
+    {"wrong": "Lavo i miei denti. Metto il mio cappotto.", "right": "Mi lavo i denti. Mi metto il cappotto.", "why": "Reflexive + article."},
+    {"wrong": "Ci vediamo noi stessi.", "right": "Ci vediamo.", "why": "Reciprocal is already in ci."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "sedersi", "tense": "presente", "n": "to sit down", "answers": ["mi siedo", "ti siedi", "si siede", "ci sediamo", "vi sedete", "si siedono"]},
+    {"kind": "fill", "q": "Dora e Pasquale ___ (conoscersi) da cinquant'anni e ___ (arrabbiarsi) ogni giorno.", "answers": [["si conoscono"], ["si arrabbiano"]], "n": "Dora and Pasquale have known each other for fifty years and get angry every day."},
+    {"kind": "translate", "q": "I want to sit down and rest.", "answers": ["Voglio sedermi e riposarmi", "Mi voglio sedere e riposare", "Voglio sedermi e riposare"]}
+  ]}
+]}
