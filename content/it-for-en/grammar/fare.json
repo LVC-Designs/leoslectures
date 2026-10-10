@@ -1,0 +1,18 @@
+{"id": "fare", "title": "The verb fare (to do, to make)", "category": "Verbs", "rule": "faccio, fai, fa, facciamo, fate, fanno. Irregular in most tenses (stem fac-: facevo, facessi, facendo; participle fatto; future farò). Used for jobs, weather and dozens of expressions.", "units": ["04"], "blocks": [
+  {"type": "conjugation", "verb": "fare", "tense": "presente", "caption": "[[fare]] · presente"},
+  {"type": "table", "caption": "Jobs", "head": ["", "Example"], "rows": [["fare + il / la + job", "Faccio il meccanico. Fa la maestra. Fanno i piastrellisti."], ["essere + job (no article)", "Sono meccanico. È maestra."], ["essere + un/una + job + adjective", "È un meccanico bravissimo."], ["the question", "Che lavoro fai? Che lavoro fa (Lei)? Cosa fai nella vita?"], ["in Italian, a woman's job", "la maestra, la pasticciera, la dottoressa, l'avvocata / l'avvocato, la sindaca / il sindaco"]], "speak": [1]},
+  {"type": "table", "caption": "Weather", "head": ["Italian", "English"], "rows": [["Fa caldo. Fa freddo. Fa fresco.", "It's hot. It's cold. It's cool."], ["Fa bel tempo. Fa brutto tempo.", "The weather is nice. The weather is bad."], ["Che tempo fa?", "What's the weather like?"]], "speak": [0], "compact": true},
+  {"type": "table", "caption": "Expressions", "head": ["Italian", "English"], "rows": [["fare colazione", "have breakfast"], ["fare la spesa", "do the food shopping"], ["fare spese / fare shopping", "go shopping (clothes)"], ["fare una foto", "take a photo"], ["fare una domanda", "ask a question"], ["fare una passeggiata / un giro", "go for a walk / a stroll"], ["fare il caffè / da mangiare", "make coffee / something to eat"], ["fare il biglietto", "buy the ticket"], ["fare la fila", "queue"], ["fare tardi / presto", "be late / be early"], ["fare finta", "pretend"], ["fare attenzione", "pay attention"], ["fare il bagno / la doccia", "have a bath / a shower"], ["fare sport / ginnastica", "do sport / exercise"], ["farcela", "to manage, to make it (ce la faccio)"], ["non fa niente", "never mind"], ["ce la fai?", "can you manage?"]], "speak": [0], "compact": true},
+  {"type": "callout", "kind": "note", "title": "Far + infinitive", "text": "[[Faccio riparare la bici|I have the bike repaired]], [[Mi fai ridere|You make me laugh]], [[Fa vedere!|Show (me)!]]: fare + infinitive means to make or let someone do something, or to have something done. Unit 14 practises it."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Prendo una foto. Prendo una doccia.", "right": "Faccio una foto. Faccio la doccia.", "why": "Fare, not prendere."},
+    {"wrong": "È caldo. (weather)", "right": "Fa caldo.", "why": "Weather takes fare. È caldo describes an object (the coffee is hot)."},
+    {"wrong": "Noi faciamo, voi facete.", "right": "Noi facciamo, voi fate.", "why": "Double c in facciamo; voi is fate."},
+    {"wrong": "Faccio un meccanico.", "right": "Faccio il meccanico.", "why": "Definite article with fare + job."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Che tempo ___ oggi? — ___ caldo.", "answers": [["fa"], ["Fa"]], "n": "What's the weather like today? — It's hot."},
+    {"kind": "fill", "q": "Nando ___ il barista; Rita e lui ___ anche i panini.", "answers": [["fa"], ["fanno"]], "n": "Nando is a barista; he and Rita also make the sandwiches."},
+    {"kind": "translate", "q": "I have breakfast at the bar and I take a photo of the sea.", "answers": ["Faccio colazione al bar e faccio una foto al mare", "Faccio colazione al bar e faccio una foto del mare"]}
+  ]}
+]}

@@ -1,0 +1,24 @@
+{"id": "possessives", "title": "Possessives", "category": "Possessives", "rule": "Possessive adjectives and pronouns have the same forms (il mio, la mia, i miei, le mie…) and agree with the thing owned. They take the article, except with a singular, unmodified family member. Loro is invariable and always has the article.", "units": ["04"], "blocks": [
+  {"type": "table", "head": ["", "m. sing.", "f. sing.", "m. pl.", "f. pl."], "rows": [["my", "il mio", "la mia", "i miei", "le mie"], ["your (tu)", "il tuo", "la tua", "i tuoi", "le tue"], ["his / her / its / your (Lei)", "il suo", "la sua", "i suoi", "le sue"], ["our", "il nostro", "la nostra", "i nostri", "le nostre"], ["your (voi)", "il vostro", "la vostra", "i vostri", "le vostre"], ["their", "il loro", "la loro", "i loro", "le loro"]], "speak": [1, 2, 3, 4], "rowhead": true},
+  {"type": "subhead", "text": "The article"},
+  {"type": "table", "head": ["Case", "Example", "Article?"], "rows": [["any noun", "il mio caffè, la tua casa, i suoi occhi, le nostre chiavi", "yes"], ["singular family member, plain", "mio padre, tua madre, suo fratello, nostra nonna, vostra zia", "no"], ["plural family members", "i miei fratelli, le tue sorelle, i suoi nonni", "yes"], ["family member with loro", "il loro padre, la loro madre", "yes"], ["family member with adjective or suffix", "il mio fratello maggiore, la tua sorellina, il suo caro nonno", "yes"], ["affectionate forms", "la mia mamma, il mio papà, il mio nonnino", "yes"], ["after essere, as a pronoun", "Questa casa è mia. Il libro è tuo. Di chi è? — È suo.", "usually no"], ["as a pronoun elsewhere", "La mia è piccola, la tua è grande. I miei (= my parents) sono a Toronto.", "yes"]], "speak": [1]},
+  {"type": "subhead", "text": "suo: his, her, its, or yours"},
+  {"type": "examples", "items": [
+    {"t": "Chiara e suo padre. Michele e sua figlia.", "n": "Chiara and her father. Michele and his daughter.", "note": "same suo / sua: it agrees with padre / figlia, not with Chiara / Michele"},
+    {"t": "Signor Leone, questa è la Sua chiave?", "n": "Mr Leone, is this your key?", "note": "formal your: Suo, capitalised in careful writing"},
+    {"t": "La casa e il suo giardino.", "n": "The house and its garden."},
+    {"t": "Dora e Pasquale e il loro condominio.", "n": "Dora and Pasquale and their building."}
+  ]},
+  {"type": "callout", "kind": "note", "title": "Where English uses a possessive and Italian doesn't", "text": "Body parts and clothes: [[Mi lavo le mani|I wash my hands]], [[Ha i capelli lunghi|She has long hair]], [[Mettiti il cappotto|Put on your coat]]. The article is enough; the owner is obvious. Also [[a casa mia|at my house]], [[da parte mia|on my behalf]]: the possessive after the noun, no article."},
+  {"type": "mistakes", "items": [
+    {"wrong": "la mia madre", "right": "mia madre", "why": "Singular family, plain."},
+    {"wrong": "miei fratelli, loro padre", "right": "i miei fratelli, il loro padre", "why": "Plural and loro take the article."},
+    {"wrong": "il suo libro (for \"their book\")", "right": "il loro libro", "why": "Suo is singular owner only."},
+    {"wrong": "Lavo le mie mani.", "right": "Mi lavo le mani.", "why": "Body parts: reflexive verb + article."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ madre (my) · ___ genitori (my) · ___ fratello (their) · ___ sorellina (his)", "answers": [["mia"], ["i miei"], ["il loro"], ["la sua"]], "n": "my mother · my parents · their brother · his little sister"},
+    {"kind": "mc", "q": "«Dora and her house»", "options": ["Dora e la sua casa", "Dora e sua casa", "Dora e la sua casa sua"], "answer": 0, "why": "Casa is not a family member: article."},
+    {"kind": "translate", "q": "Is this key yours (tu)?", "answers": ["Questa chiave è tua", "È tua questa chiave", "Questa chiave è la tua"]}
+  ]}
+]}

@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 15 (units 1–3) · EN: 14 (units 1–3) |
+| Grammar reference pages | IT: 18 (units 1–4) · EN: 14 (units 1–3) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -25,7 +25,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 1 | Benvenuto / Benvenuta a Roccamarina | A1 | ● 2026-10-10 |
 | 2 | La casa di Dora | A1 | ● 2026-10-10 |
 | 3 | Al Bar del Corso | A1 | ● 2026-10-10 |
-| 4 | La famiglia Ferrante | A1 | ☐ |
+| 4 | La famiglia Ferrante | A1 | ● 2026-10-10 |
 | 5 | In giro per il paese | A1 | ☐ |
 | 6 | Una settimana a Roccamarina | A1 | ☐ |
 | 7 | Al mercato del sabato | A1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 4 · La famiglia Ferrante.**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 4 · Sunday dinner.**
 
 ## Session log
 
+- **2026-10-10 (7)** · Italian track Unit 4 written (2 scenes, 47 words, 5 grammar points + 3 reference pages, gn/gli/sci, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (6)** · English track Unit 3 written (2 scenes, 42 words, 5 grammar points + 4 reference pages, th/r/stress, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (5)** · Italian track Unit 3 written (2 scenes, 37 words, 5 grammar points + 3 reference pages, double consonants, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (4)** · English track Unit 2 written (2 scenes, 40 words, 6 grammar points + 5 reference pages, short/long vowels and h, 40 exercises, culture, summary). Build, check, tests and headless audit pass. Committed.

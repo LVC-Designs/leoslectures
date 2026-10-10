@@ -33,6 +33,12 @@ Each unit is listed here when it is written, with the CEFR descriptors it covers
 - **Reference pages added:** present-are-verbs, piacere (full table for later units), common-adverbs; numbers page extended with hundreds, thousands, prices.
 - **Originality:** the two scenes (the first coffee ordered in the wrong order; Pasquale's "offro io" breakfast lesson with the 1985 lire), Rita the cashier, all 37 vocabulary examples, tables, 40 exercises and the cultural notes (cassa/scontrino/bancone, counter vs table prices, the coffee menu, breakfast, paying for others, caffè sospeso) were written for this project from general knowledge of Italian bar customs.
 
+#### Unit 4 · La famiglia Ferrante (A1) · written 2026-10-10
+- **CEFR descriptors covered (A1):** spoken production: describe one's family and people one knows (who they are, what they do, what they look like); spoken interaction: ask and answer questions about age, family and occupation; listening: understand basic phrases about family and people; writing: write simple sentences about oneself and one's family; reading: understand a short personal profile.
+- **Grammar:** regular *-ere* and *-ire* verbs incl. the *-isc-* group; *fare* (present, jobs, expressions, weather); possessive adjectives and the family rule; adjective agreement and position in descriptions; age with *avere*; gn, gli, sci / sce vs sche.
+- **Reference pages added:** present-ere-ire-verbs, fare, possessives (adjective-agreement and avere extended).
+- **Originality:** the two scenes (Chiara's arrival with pasticciotti and the napkin family tree; describing the Toronto family to Dora), the cast details (Michele, Anna, Oronzo), all 47 vocabulary examples, tables, 40 exercises and the cultural notes (the extended family, post-war emigration to Canada and Pier 21, name days and nicknames, italo-canadese / oriundo, the pasticciotto) were written for this project from general knowledge.
+
 ### English for Italian speakers (`content/en-for-it/`)
 
 #### Unit 1 · Welcome to Canada (A1) · written 2026-10-10

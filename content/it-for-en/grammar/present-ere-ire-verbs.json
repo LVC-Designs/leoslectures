@@ -1,0 +1,23 @@
+{"id": "present-ere-ire-verbs", "title": "Present tense: regular -ere and -ire verbs", "category": "Verbs", "rule": "-ere: -o, -i, -e, -iamo, -ete, -ono. -ire: -o, -i, -e, -iamo, -ite, -ono. Most -ire verbs insert -isc- in io, tu, lui/lei and loro. Stress on the stem in the loro form.", "units": ["04"], "blocks": [
+  {"type": "conjugation", "verbs": ["prendere", "scrivere", "dormire", "capire"], "tense": "presente", "caption": "Two -ere verbs, one plain -ire verb, one -isc- verb"},
+  {"type": "table", "head": ["", "-ere", "-ire", "-ire (-isc-)"], "rows": [["io", "-o", "-o", "-isco"], ["tu", "-i", "-i", "-isci"], ["lui / lei / Lei", "-e", "-e", "-isce"], ["noi", "-iamo", "-iamo", "-iamo"], ["voi", "-ete", "-ite", "-ite"], ["loro", "-ono", "-ono", "-iscono"]], "rowhead": true, "compact": true, "note": "The only difference between -ere and plain -ire is the voi form. The -isc- group is the one to learn."},
+  {"type": "subhead", "text": "Common verbs by group"},
+  {"type": "table", "head": ["-ere", "-ire (no -isc-)", "-ire (-isc-)"], "rows": [["prendere, vedere, leggere, scrivere, vivere, credere, chiedere, rispondere, perdere, ricevere, vendere, mettere, correre, conoscere, decidere, spendere", "dormire, partire, sentire, aprire, offrire, seguire, servire, coprire, soffrire, vestirsi, divertirsi", "finire, capire, preferire, pulire, spedire, costruire, trasferirsi, garantire, suggerire, restituire, unire, colpire"]], "speak": [0, 1, 2], "compact": true, "note": "Many -ere verbs are regular in the present and irregular in the participle (preso, visto, letto, scritto): unit 8."},
+  {"type": "subhead", "text": "Spelling and sound"},
+  {"type": "examples", "items": [
+    {"t": "leggo · leggi · legge · leggiamo · leggete · leggono", "n": "I read…", "note": "hard g in leggo and leggono (before o), soft g before i and e: the spelling doesn't change, the sound does"},
+    {"t": "conosco · conosci · conosce · conosciamo · conoscete · conoscono", "n": "I know (people, places)…", "note": "same for sc: hard before o, soft (sh) before i and e"},
+    {"t": "finisco · finisci · finisce", "n": "I finish…", "note": "-isco hard (sk), -isci and -isce soft (sh)"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Noi capisciamo.", "right": "Noi capiamo.", "why": "No -isc- in noi and voi."},
+    {"wrong": "Voi dormete. Voi prendite.", "right": "Voi dormite. Voi prendete.", "why": "-ire voi is -ite; -ere voi is -ete."},
+    {"wrong": "Loro parTOno.", "right": "Loro PARtono.", "why": "Stem stress in loro."},
+    {"wrong": "Io sento la radio. (I listen)", "right": "Ascolto la radio.", "why": "Sentire is to hear; ascoltare is to listen."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "capire", "tense": "presente", "n": "to understand", "answers": ["capisco", "capisci", "capisce", "capiamo", "capite", "capiscono"]},
+    {"kind": "conjugate", "verb": "partire", "tense": "presente", "n": "to leave", "answers": ["parto", "parti", "parte", "partiamo", "partite", "partono"]},
+    {"kind": "fill", "q": "Pasquale ___ (leggere) il giornale e non ___ (rispondere).", "answers": [["legge"], ["risponde"]], "n": "Pasquale reads the paper and doesn't answer."}
+  ]}
+]}

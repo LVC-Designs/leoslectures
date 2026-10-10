@@ -1,0 +1,325 @@
+{
+  "id": "04",
+  "level": "A1",
+  "title": "La famiglia Ferrante",
+  "subtitle": "The Ferrante family",
+  "intro": "A cousin you have never met rings the bell with a tray of pastries and draws your family tree on a napkin. In this unit you learn to talk about family, age and jobs, to describe people, and to use the other two regular conjugations: the verbs in -ere and -ire.",
+  "objectives": [
+    "Name the members of a family and say who is who with [[mio]], [[tuo]], [[suo]]",
+    "Ask and say someone's age with [[avere]], and say what people do for a living with [[fare]]",
+    "Describe a person: height, hair, eyes, character, with adjectives that agree",
+    "Use the regular [[-ere]] and [[-ire]] verbs, including the [[-isc-]] group: [[prendo]], [[dormo]], [[finisco]]",
+    "Pronounce [[gn]], [[gli]] and [[sci]]"
+  ],
+  "canDo": [
+    "A1 · Spoken production: can describe their family and people they know in simple phrases (who they are, what they do, what they look like).",
+    "A1 · Spoken interaction: can ask and answer questions about age, family and occupation.",
+    "A1 · Listening: can understand familiar words and basic phrases about family and people when speech is slow and clear.",
+    "A1 · Writing: can write short, simple sentences about themselves and their family.",
+    "A1 · Reading: can understand a simple family description or a short personal profile."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "La cugina",
+      "intro": "Chiara arrives with pasticciotti and a napkin. Listen for the possessives (mio, tuo, mia, tua) and for the ages.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-cugina", "title": "La cugina", "setting": "Domenica mattina, via delle Rose. Suona il campanello. Sul pianerottolo, una ragazza con un vassoio coperto.", "register": "informale", "lines": [
+          {"who": "Chiara", "t": "Ciao! Sei {hero}? Io sono Chiara, tua cugina. Beh, cugina di secondo grado.", "n": "Hi! Are you {hero}? I'm Chiara, your cousin. Well, second cousin.", "note": "Tua cugina: the possessive agrees with cugina (feminine), whoever you are. No article with a singular family member."},
+          {"who": "hero", "t": "Chiara! Dora parla sempre di te. Entra, entra!", "n": "Chiara! Dora always talks about you. Come in, come in!"},
+          {"who": "Chiara", "t": "Questi sono pasticciotti. Li faccio io: lavoro in pasticceria.", "n": "These are pasticciotti. I make them: I work at a pastry shop.", "note": "Pasticciotto: the Salento pastry, short crust filled with custard. Li faccio io: \"I make them\", with the pronoun li (unit 10)."},
+          {"who": "hero", "t": "Fai la pasticcera! Nonna Rosa fa i pasticciotti a Toronto, ogni Natale.", "n": "You're a pastry chef! Nonna Rosa makes pasticciotti in Toronto, every Christmas.", "note": "Fare + il / la + job: fai la pasticcera, faccio il meccanico."},
+          {"who": "Chiara", "t": "Lo so, mio padre lo dice sempre. Allora: la famiglia. Hai un foglio?", "n": "I know, my father always says so. So: the family. Do you have a piece of paper?"},
+          {"stage": "Chiara draws a tree on a napkin."},
+          {"who": "Chiara", "t": "Tuo nonno Cosimo e mio nonno Oronzo sono fratelli.", "n": "Your grandfather Cosimo and my grandfather Oronzo are brothers."},
+          {"who": "hero", "t": "Quindi tuo padre e mio padre sono cugini.", "n": "So your father and my father are cousins."},
+          {"who": "Chiara", "t": "Esatto. Mio padre si chiama Michele, ha cinquantotto anni e fa il meccanico. Mia madre, Anna, è maestra.", "n": "Exactly. My father's name is Michele, he's fifty-eight and he's a mechanic. My mother, Anna, is a teacher.", "note": "Two ways to say a job: fa il meccanico (fare + article) and è maestra (essere, no article)."},
+          {"who": "hero", "t": "E tu quanti anni hai?", "n": "And how old are you?", "note": "Age with avere: quanti anni hai? literally \"how many years do you have?\""},
+          {"who": "Chiara", "t": "Ventisette. E tu?", "n": "Twenty-seven. And you?"},
+          {"who": "hero", "t": "Trenta. Ho una sorella, Sofia, di ventidue anni. Studia all'università.", "n": "Thirty. I have a sister, Sofia, who's twenty-two. She studies at university."},
+          {"who": "Chiara", "t": "E i tuoi genitori?", "n": "And your parents?", "note": "I tuoi genitori: with a plural family noun the article comes back."},
+          {"who": "hero", "t": "Mio padre, Franco, è in pensione: faceva il piastrellista. Mia madre, Teresa, lavora in una scuola.", "n": "My father, Franco, is retired: he was a tile-setter. My mother, Teresa, works at a school.", "note": "Faceva: \"he used to be\", the imperfetto of unit 11."},
+          {"who": "Chiara", "t": "Piastrellista! Come tutti i Ferrante. Nonno Cosimo, nonno Oronzo, mio padre da giovane… Io no: io preferisco lo zucchero.", "n": "Tile-setter! Like all the Ferrantes. Nonno Cosimo, nonno Oronzo, my father when he was young… Not me: I prefer sugar."}
+        ], "notes": [
+          {"phrase": "cugina di secondo grado", "note": "Second cousin. Italians count degrees of kinship in conversation more than Canadians do; in practice, everyone is cugino or cugina."},
+          {"phrase": "Lo so.", "note": "I know. Here with its pair: lo dice sempre, \"he always says it\"."},
+          {"phrase": "Quindi", "note": "So, therefore. The connector for drawing a conclusion."},
+          {"phrase": "in pensione", "note": "Retired, literally \"in pension\". Andare in pensione = to retire; essere in pensione = to be retired."}
+        ]},
+        {"type": "scene", "id": "dlg-come", "title": "Com'è?", "setting": "Dora arriva con il caffè. Sul tavolo, il tovagliolo con l'albero e il telefono di {hero} con le foto.", "register": "informale", "lines": [
+          {"who": "Dora", "t": "Chiara! I pasticciotti! E com'è Sofia, la sorella? Hai una foto?", "n": "Chiara! The pasticciotti! And what's Sofia like, the sister? Do you have a photo?"},
+          {"who": "hero", "t": "Ecco. Sofia è alta, ha i capelli lunghi e castani e gli occhi verdi. È simpatica ma un po' pigra.", "n": "Here. Sofia is tall, has long brown hair and green eyes. She's nice but a bit lazy.", "note": "Ha i capelli lunghi: hair is plural in Italian (i capelli) and you have it; eyes too: ha gli occhi verdi."},
+          {"who": "Chiara", "t": "Pigra! Studia e lavora.", "n": "Lazy! She studies and works."},
+          {"who": "hero", "t": "Studia la mattina e dorme il pomeriggio.", "n": "She studies in the morning and sleeps in the afternoon.", "note": "Dorme: dormire, an -ire verb."},
+          {"who": "Dora", "t": "Come tutti gli studenti. E i tuoi genitori?", "n": "Like all students. And your parents?"},
+          {"who": "hero", "t": "Mio padre è basso e robusto, con i baffi. È molto allegro. Mia madre è magra, con i capelli corti e grigi. È seria e precisa.", "n": "My father is short and stocky, with a moustache. He's very cheerful. My mother is thin, with short grey hair. She's serious and precise."},
+          {"who": "Dora", "t": "E tu? Com'è {hero} Ferrante?", "n": "And you? What's {hero} Ferrante like?"},
+          {"who": "hero", "t": {"m": "Io? Sono stanco, affamato e fortunato.", "f": "Io? Sono stanca, affamata e fortunata.", "note": "Three adjectives, three agreements. Luca: -o; Lucia: -a."}, "n": "Me? I'm tired, hungry and lucky."},
+          {"who": "Dora", "t": {"m": "E modesto.", "f": "E modesta."}, "n": "And modest."}
+        ], "notes": [
+          {"phrase": "Com'è?", "note": "What is he / she / it like? Come + è. The question for descriptions; the answer is è + adjectives."},
+          {"phrase": "un po'", "note": "A bit, a little: un po' pigra, un po' stanco."},
+          {"phrase": "con i baffi", "note": "With a moustache. Con + article for features: con la barba, con gli occhiali (glasses)."}
+        ], "questions": [
+          {"kind": "tf", "q": "Sofia has short hair.", "t": "Sofia ha i capelli lunghi e castani.", "answer": false, "why": "Lunghi: long."},
+          {"kind": "mc", "q": "Che lavoro fa Michele, il padre di Chiara?", "options": ["Fa il meccanico.", "Fa il piastrellista.", "È in pensione."], "answer": 0, "why": "Ha cinquantotto anni e fa il meccanico. Franco is the retired tile-setter."},
+          {"kind": "fill", "q": "Mio padre è ___ pensione.", "answers": [["in"]], "n": "My father is retired."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Famiglia, lavori, persone",
+      "intro": "The family, twelve jobs, the words to describe a face and a character, and twelve verbs in -ere and -ire. Nouns for people often come in pairs: learn both.",
+      "blocks": [
+        {"type": "vocab", "theme": "La famiglia", "n": "The family", "items": [
+          {"t": "padre", "n": "father", "article": "il", "gender": "m", "plural": "i padri", "pos": "noun", "ex": {"t": "Mio padre si chiama Franco.", "n": "My father's name is Franco."}, "note": "Papà is \"dad\": il mio papà, with the article."},
+          {"t": "madre", "n": "mother", "article": "la", "gender": "f", "plural": "le madri", "pos": "noun", "ex": {"t": "Mia madre lavora in una scuola.", "n": "My mother works at a school."}, "note": "Mamma is \"mum\": la mia mamma."},
+          {"t": "genitori", "n": "parents", "article": "i", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "I miei genitori sono a Toronto.", "n": "My parents are in Toronto."}, "note": "Plural: the article returns (i miei genitori). Parenti means relatives: a false friend."},
+          {"t": "fratello", "n": "brother", "article": "il", "gender": "m", "plural": "i fratelli", "pos": "noun", "ex": {"t": "Cosimo e Oronzo sono fratelli.", "n": "Cosimo and Oronzo are brothers."}, "note": "I fratelli also means siblings: ho due fratelli = I have two siblings."},
+          {"t": "sorella", "n": "sister", "article": "la", "gender": "f", "plural": "le sorelle", "pos": "noun", "ex": {"t": "Ho una sorella di ventidue anni.", "n": "I have a twenty-two-year-old sister."}},
+          {"t": "figlio", "n": "son", "article": "il", "gender": "m", "plural": "i figli", "pos": "noun", "ex": {"t": "Michele ha una figlia, Chiara.", "n": "Michele has a daughter, Chiara."}, "note": "La figlia: daughter. I figli: children (sons and daughters)."},
+          {"t": "zio", "n": "uncle", "article": "lo", "gender": "m", "plural": "gli zii", "pos": "noun", "ex": {"t": "Zio Michele fa il meccanico.", "n": "Uncle Michele is a mechanic."}, "note": "La zia: aunt. Gli zii: aunts and uncles. Lo zio, uno zio: z takes lo / uno."},
+          {"t": "cugino", "n": "cousin (m.)", "article": "il", "gender": "m", "plural": "i cugini", "pos": "noun", "ex": {"t": "Chiara è mia cugina; i suoi cugini sono tanti.", "n": "Chiara is my cousin; she has many cousins."}, "note": "La cugina: cousin (f.)."},
+          {"t": "nipote", "n": "grandchild; nephew, niece", "article": "il / la", "gender": "m/f", "plural": "i / le nipoti", "pos": "noun", "ex": {"t": {"m": "Sono il nipote di Cosimo.", "f": "Sono la nipote di Cosimo."}, "n": "I'm Cosimo's grandchild."}, "note": "One word for four English ones; the article shows the gender."},
+          {"t": "marito", "n": "husband", "article": "il", "gender": "m", "plural": "i mariti", "pos": "noun", "ex": {"t": "Il marito di Dora non c'è più.", "n": "Dora's husband is no longer here."}},
+          {"t": "moglie", "n": "wife", "article": "la", "gender": "f", "plural": "le mogli", "pos": "noun", "ex": {"t": "Rita è la moglie di Nando.", "n": "Rita is Nando's wife."}, "note": "Irregular plural: mogli."},
+          {"t": "parenti", "n": "relatives", "article": "i", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "A Roccamarina ho molti parenti.", "n": "In Roccamarina I have many relatives."}, "note": "False friend: parenti = relatives, genitori = parents."}
+        ]},
+        {"type": "vocab", "theme": "Che lavoro fai?", "n": "What do you do?", "intro": "Fa il / la + job, or è + job without article. Many jobs have a feminine form; some stay the same.", "items": [
+          {"t": "meccanico", "n": "mechanic", "article": "il", "gender": "m", "plural": "i meccanici", "pos": "noun", "ex": {"t": "Michele fa il meccanico.", "n": "Michele is a mechanic."}, "note": "La meccanica exists but is rare; also \"mechanics\" the subject."},
+          {"t": "maestro", "n": "primary school teacher", "article": "il", "gender": "m", "plural": "i maestri", "pos": "noun", "forms": "la maestra, le maestre", "ex": {"t": "Anna è maestra.", "n": "Anna is a primary teacher."}, "note": "For secondary school and university: il professore, la professoressa. Insegnante is the general word."},
+          {"t": "piastrellista", "n": "tile-setter", "article": "il / la", "gender": "m/f", "plural": "i piastrellisti", "pos": "noun", "ex": {"t": "Tutti i Ferrante fanno i piastrellisti.", "n": "All the Ferrantes are tile-setters."}, "note": "Nouns in -ista are the same for men and women: il / la giornalista, il / la dentista."},
+          {"t": "pasticciere", "n": "pastry chef", "article": "il", "gender": "m", "plural": "i pasticcieri", "pos": "noun", "forms": "la pasticciera, le pasticciere", "ex": {"t": "Chiara fa la pasticciera.", "n": "Chiara is a pastry chef."}, "note": "Also pasticcere; the pastry shop is la pasticceria."},
+          {"t": "studente", "n": "student", "article": "lo", "gender": "m", "plural": "gli studenti", "pos": "noun", "forms": "la studentessa, le studentesse", "ex": {"t": "Sofia è studentessa all'università.", "n": "Sofia is a student at university."}},
+          {"t": "medico", "n": "doctor", "article": "il", "gender": "m", "plural": "i medici", "pos": "noun", "ex": {"t": "Il medico di Dora è giovane.", "n": "Dora's doctor is young."}, "note": "Also il dottore / la dottoressa (which is also the title for any graduate). La medica exists and is spreading."},
+          {"t": "infermiere", "n": "nurse", "article": "l'", "gender": "m", "plural": "gli infermieri", "pos": "noun", "forms": "l'infermiera, le infermiere", "ex": {"t": "La cugina di Nando è infermiera.", "n": "Nando's cousin is a nurse."}},
+          {"t": "commesso", "n": "shop assistant", "article": "il", "gender": "m", "plural": "i commessi", "pos": "noun", "forms": "la commessa, le commesse", "ex": {"t": "Il commesso è gentile.", "n": "The shop assistant is kind."}},
+          {"t": "operaio", "n": "factory worker, labourer", "article": "l'", "gender": "m", "plural": "gli operai", "pos": "noun", "forms": "l'operaia, le operaie", "ex": {"t": "Nonno Cosimo è arrivato in Canada come operaio.", "n": "Grandpa Cosimo arrived in Canada as a labourer."}},
+          {"t": "cuoco", "n": "cook, chef", "article": "il", "gender": "m", "plural": "i cuochi", "pos": "noun", "forms": "la cuoca, le cuoche", "ex": {"t": "Dora è una cuoca eccezionale.", "n": "Dora is an exceptional cook."}, "note": "With an adjective the article returns: è una cuoca eccezionale."},
+          {"t": "avvocato", "n": "lawyer", "article": "l'", "gender": "m", "plural": "gli avvocati", "pos": "noun", "ex": {"t": "Il nipote di Pasquale è avvocato a Bari.", "n": "Pasquale's grandson is a lawyer in Bari."}, "note": "Used for women too (l'avvocato Rossi); l'avvocata is gaining ground."},
+          {"t": "pensione", "n": "pension, retirement", "article": "la", "gender": "f", "plural": "le pensioni", "pos": "noun", "ex": {"t": "Franco è in pensione da due anni.", "n": "Franco has been retired for two years."}, "note": "Also a small hotel (una pensione)."}
+        ]},
+        {"type": "vocab", "theme": "Com'è?", "n": "What is he / she like?", "intro": "Physical description with essere + adjective or avere + i capelli / gli occhi; character with essere.", "items": [
+          {"t": "alto", "n": "tall", "pos": "adj.", "forms": "alta, alti, alte", "ex": {"t": "Sofia è alta; Franco è basso.", "n": "Sofia is tall; Franco is short."}, "note": "Opposite: basso."},
+          {"t": "magro", "n": "thin", "pos": "adj.", "forms": "magra, magri, magre", "ex": {"t": "Teresa è magra.", "n": "Teresa is thin."}, "note": "Opposites: robusto (stocky, polite), grasso (fat, blunt)."},
+          {"t": "capelli", "n": "hair", "article": "i", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "Ha i capelli lunghi, castani e ricci.", "n": "She has long, brown, curly hair."}, "note": "Plural, and you have it: ho i capelli corti. Lunghi / corti, lisci / ricci, biondi / castani / neri / rossi / grigi / bianchi."},
+          {"t": "occhi", "n": "eyes", "article": "gli", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "Sofia ha gli occhi verdi.", "n": "Sofia has green eyes."}, "note": "Singular l'occhio. Verdi, azzurri (blue), marroni / castani (brown), neri."},
+          {"t": "baffi", "n": "moustache", "article": "i", "gender": "m", "pos": "noun (pl.)", "ex": {"t": "Franco ha i baffi; Pasquale ha la barba.", "n": "Franco has a moustache; Pasquale has a beard."}, "note": "Plural in Italian. La barba: beard. Gli occhiali: glasses."},
+          {"t": "giovane", "n": "young", "pos": "adj.", "forms": "giovani", "ex": {"t": "Il medico è giovane.", "n": "The doctor is young."}, "note": "Opposite: anziano (elderly, polite), vecchio (old)."},
+          {"t": "simpatico", "n": "nice, likeable", "pos": "adj.", "forms": "simpatica, simpatici, simpatiche", "ex": {"t": "Chiara è molto simpatica.", "n": "Chiara is very nice."}, "note": "Not \"sympathetic\": a false friend. Opposite: antipatico."},
+          {"t": "allegro", "n": "cheerful", "pos": "adj.", "forms": "allegra, allegri, allegre", "ex": {"t": "Mio padre è allegro; mia madre è seria.", "n": "My father is cheerful; my mother is serious."}},
+          {"t": "pigro", "n": "lazy", "pos": "adj.", "forms": "pigra, pigri, pigre", "ex": {"t": "Sofia è un po' pigra.", "n": "Sofia is a bit lazy."}, "note": "Opposite: attivo, or lavoratore (hard-working)."},
+          {"t": "gentile", "n": "kind", "pos": "adj.", "forms": "gentili", "ex": {"t": "Dora è gentile con tutti.", "n": "Dora is kind to everyone."}},
+          {"t": "timido", "n": "shy", "pos": "adj.", "forms": "timida, timidi, timide", "ex": {"t": "Non sono timido, sono stanco.", "n": "I'm not shy, I'm tired."}, "note": "Opposite: estroverso, or socievole."}
+        ]},
+        {"type": "vocab", "theme": "Verbi in -ere e -ire", "n": "-ere and -ire verbs", "intro": "Twelve regular verbs for the second and third conjugations. The last four take -isc-.", "items": [
+          {"t": "prendere", "n": "to take; to have (food)", "pos": "verb", "ex": {"t": "Prendo un caffè.", "n": "I'll have a coffee."}},
+          {"t": "vedere", "n": "to see", "pos": "verb", "ex": {"t": "Vedo Chiara la domenica.", "n": "I see Chiara on Sundays."}},
+          {"t": "leggere", "n": "to read", "pos": "verb", "ex": {"t": "Pasquale legge il giornale al bar.", "n": "Pasquale reads the paper at the bar."}, "note": "Soft g in leggo? No: leggo has a hard g (leg-go), legge is soft (led-je). The sound follows the letter after the g."},
+          {"t": "scrivere", "n": "to write", "pos": "verb", "ex": {"t": "Scrivo a mia madre ogni settimana.", "n": "I write to my mother every week."}},
+          {"t": "vivere", "n": "to live (be alive, spend one's life)", "pos": "verb", "ex": {"t": "I miei genitori vivono a Toronto.", "n": "My parents live in Toronto."}, "note": "Vivere for life in a place or in general; abitare for the address."},
+          {"t": "chiedere", "n": "to ask (for)", "pos": "verb", "ex": {"t": "Chiedo un foglio a Dora.", "n": "I ask Dora for a piece of paper."}, "note": "Chiedere qualcosa a qualcuno."},
+          {"t": "dormire", "n": "to sleep", "pos": "verb", "ex": {"t": "Sofia dorme il pomeriggio.", "n": "Sofia sleeps in the afternoon."}},
+          {"t": "partire", "n": "to leave, to depart", "pos": "verb", "ex": {"t": "Chiara parte per il Canada in settembre.", "n": "Chiara leaves for Canada in September."}, "note": "Partire per + destination."},
+          {"t": "finire", "n": "to finish", "pos": "verb", "ex": {"t": "Finisco di lavorare alle otto.", "n": "I finish work at eight."}, "note": "-isc-: finisco, finisci, finisce, finiamo, finite, finiscono."},
+          {"t": "capire", "n": "to understand", "pos": "verb", "ex": {"t": "Capisco il dialetto? Un po'.", "n": "Do I understand the dialect? A bit."}, "note": "-isc-."},
+          {"t": "preferire", "n": "to prefer", "pos": "verb", "ex": {"t": "Preferisco lo zucchero.", "n": "I prefer sugar."}, "note": "-isc-."},
+          {"t": "pulire", "n": "to clean", "pos": "verb", "ex": {"t": "Dora pulisce le scale il sabato.", "n": "Dora cleans the stairs on Saturdays."}, "note": "-isc-."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Verbi in -ere e -ire, fare, possessivi",
+      "intro": "Five pieces: the last two regular conjugations, the verb fare, the possessives and the family rule, agreement and position of adjectives, and age. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-ere-ire", "title": "Regular -ere and -ire verbs; the -isc- group", "category": "Verbs", "rule": "-ere: -o, -i, -e, -iamo, -ete, -ono. -ire: -o, -i, -e, -iamo, -ite, -ono. Many -ire verbs add -isc- in all persons except noi and voi: finisco, finisci, finisce, finiamo, finite, finiscono.", "ref": "present-ere-ire-verbs", "blocks": [
+          {"type": "conjugation", "verbs": ["prendere", "dormire", "finire"], "tense": "presente", "caption": "[[prendere]], [[dormire]], [[finire]] · presente", "note": "Only two endings differ between -ere and -ire: voi (-ete / -ite) and… nothing else. The -isc- group changes four forms."},
+          {"type": "table", "head": ["", "-are (unit 3)", "-ere", "-ire", "-ire with -isc-"], "rows": [["io", "parl-o", "prend-o", "dorm-o", "fin-isc-o"], ["tu", "parl-i", "prend-i", "dorm-i", "fin-isc-i"], ["lui / lei", "parl-a", "prend-e", "dorm-e", "fin-isc-e"], ["noi", "parl-iamo", "prend-iamo", "dorm-iamo", "fin-iamo"], ["voi", "parl-ate", "prend-ete", "dorm-ite", "fin-ite"], ["loro", "parl-ano", "prend-ono", "dorm-ono", "fin-isc-ono"]], "rowhead": true, "compact": true},
+          {"type": "table", "caption": "Which -ire verbs take -isc-?", "head": ["with -isc-", "without -isc-"], "rows": [["finire, capire, preferire, pulire, spedire, costruire, trasferirsi, garantire, suggerire", "dormire, partire, sentire, aprire, offrire, seguire, servire, vestirsi, divertirsi"]], "speak": [0, 1], "compact": true, "note": "There is no rule; most -ire verbs take -isc-, and the common exceptions are the ones in the right column. The Verbs page marks them."},
+          {"type": "examples", "items": [
+            {"t": "Prendo un pasticciotto. Tu cosa prendi?", "n": "I'll have a pasticciotto. What are you having?"},
+            {"t": "Sofia dorme il pomeriggio e legge la sera.", "n": "Sofia sleeps in the afternoon and reads in the evening."},
+            {"t": "Capisci il dialetto? — Capisco Dora, non capisco Nando.", "n": "Do you understand dialect? — I understand Dora, I don't understand Nando."},
+            {"t": "Finiamo di lavorare alle otto e partiamo alle nove.", "n": "We finish work at eight and leave at nine."},
+            {"t": "I ragazzi preferiscono la pizza.", "n": "The kids prefer pizza.", "note": "stress: preFEriscono, on the -isc-"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Noi finisciamo. Voi finiscite.", "right": "Noi finiamo. Voi finite.", "why": "No -isc- in the noi and voi forms."},
+            {"wrong": "Io capo. Io prefero.", "right": "Io capisco. Io preferisco.", "why": "Capire and preferire take -isc-."},
+            {"wrong": "Loro prenDOno, loro dorMOno.", "right": "Loro PRENdono, loro DORmono.", "why": "Stress on the stem in the loro form, as in -are verbs."},
+            {"wrong": "Vivo in via delle Rose, numero 12.", "right": "Abito in via delle Rose, numero 12.", "why": "The address takes abitare; vivere is for life in general: vivo in Italia."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-fare", "title": "fare: to do, to make, and to have a job", "category": "Verbs", "rule": "Faccio, fai, fa, facciamo, fate, fanno. Fare il / la + job says what someone does for a living; fare also makes dozens of expressions: fare colazione, fare la spesa, fare una foto.", "ref": "fare", "blocks": [
+          {"type": "conjugation", "verb": "fare", "tense": "presente", "caption": "[[fare|to do, to make]] · presente"},
+          {"type": "table", "caption": "Che lavoro fai?", "head": ["fare + article", "essere, no article", "with an adjective: article returns"], "rows": [["Faccio il meccanico.", "Sono meccanico.", "Sono un bravo meccanico."], ["Fa la maestra.", "È maestra.", "È una maestra molto brava."], ["Fanno i piastrellisti.", "Sono piastrellisti.", "Sono piastrellisti esperti."]], "speak": [0, 1, 2], "note": "Che lavoro fai? / Che lavoro fa? (Lei) = what do you do? Also: Cosa fai nella vita?"},
+          {"type": "table", "caption": "Expressions with fare", "head": ["Italian", "English"], "rows": [["fare colazione", "to have breakfast"], ["fare la spesa", "to do the (food) shopping"], ["fare una foto", "to take a photo"], ["fare una domanda", "to ask a question"], ["fare una passeggiata", "to go for a walk"], ["fare il caffè", "to make coffee"], ["fare tardi", "to be late, to stay up late"], ["fa caldo / fa freddo", "it's hot / it's cold (weather)"], ["non fa niente", "it doesn't matter, never mind"]], "speak": [0], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Che lavoro fai? — Faccio la pasticciera.", "n": "What do you do? — I'm a pastry chef."},
+            {"t": "Cosa fate la domenica? — Facciamo una passeggiata e poi pranziamo dai nonni.", "n": "What do you do on Sundays? — We go for a walk and then have lunch at our grandparents'."},
+            {"t": "Nonna Rosa fa i pasticciotti ogni Natale.", "n": "Nonna Rosa makes pasticciotti every Christmas."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sono un meccanico. (plain statement of job)", "right": "Sono meccanico. / Faccio il meccanico.", "why": "No article with a bare profession. English needs \"a\"; Italian doesn't."},
+            {"wrong": "Prendo colazione. Prendo una foto.", "right": "Faccio colazione. Faccio una foto.", "why": "Breakfast and photos are made, not taken."},
+            {"wrong": "Loro fano. Noi faciamo.", "right": "Loro fanno. Noi facciamo.", "why": "Double consonants in both."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-possessivi", "title": "Possessives: il mio, la tua, i suoi… and the family rule", "category": "Possessives", "rule": "Possessives agree with the thing owned, not the owner, and take the article: il mio libro, la mia casa, i miei libri. With a singular family member the article is dropped: mia madre, tuo padre, sua sorella. Suo means his, her or formal your.", "ref": "possessives", "blocks": [
+          {"type": "table", "head": ["", "m. sing.", "f. sing.", "m. pl.", "f. pl."], "rows": [["my", "il mio", "la mia", "i miei", "le mie"], ["your (tu)", "il tuo", "la tua", "i tuoi", "le tue"], ["his / her / its / your (Lei)", "il suo", "la sua", "i suoi", "le sue"], ["our", "il nostro", "la nostra", "i nostri", "le nostre"], ["your (voi)", "il vostro", "la vostra", "i vostri", "le vostre"], ["their", "il loro", "la loro", "i loro", "le loro"]], "speak": [1, 2, 3, 4], "rowhead": true, "note": "Loro never changes; only its article does."},
+          {"type": "table", "caption": "The family rule", "head": ["No article", "Article", "Why"], "rows": [["mia madre, tuo padre, sua sorella, nostro nonno", "i miei genitori, le tue sorelle, i suoi nonni", "plural → article"], ["mio fratello", "il mio fratellino, il mio fratello maggiore", "modified noun (suffix or adjective) → article"], ["mia madre", "la mia mamma, il mio papà", "affectionate forms → article"], ["suo padre", "il loro padre", "loro always takes the article"]], "speak": [0, 1], "compact": true},
+          {"type": "agreement", "intro": "Suo / sua agree with the thing, not the owner. His sister and her sister are both sua sorella; the owner is shown by context, or by the Luca / Lucia name.", "items": [
+            {"t": {"m": "Luca e sua sorella Sofia. Il suo appartamento è piccolo.", "f": "Lucia e sua sorella Sofia. Il suo appartamento è piccolo."}, "n": "{hero} and {{his|her}} sister Sofia. {{His|Her}} flat is small."}
+          ], "note": "Only the name changes: sua sorella and il suo appartamento are identical for Luca and for Lucia. The opposite of English, where his / her change and the noun does not matter."},
+          {"type": "examples", "items": [
+            {"t": "Mio padre fa il meccanico; i miei genitori vivono a Roccamarina.", "n": "My father is a mechanic; my parents live in Roccamarina."},
+            {"t": "La tua casa è bella. Le tue chiavi sono sul tavolo.", "n": "Your house is lovely. Your keys are on the table."},
+            {"t": "Chiara e la sua famiglia. Chiara e suo padre.", "n": "Chiara and her family. Chiara and her father.", "note": "famiglia is not a single relative: article"},
+            {"t": "Signora, il Suo caffè.", "n": "Madam, your coffee.", "note": "formal: Suo with a capital in writing"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "la mia madre, il mio padre", "right": "mia madre, mio padre", "why": "Singular family member, unmodified: no article."},
+            {"wrong": "miei genitori, mie sorelle", "right": "i miei genitori, le mie sorelle", "why": "Plural: article."},
+            {"wrong": "sua sorella (for \"their sister\")", "right": "la loro sorella", "why": "Loro always with the article, even for family."},
+            {"wrong": "Chiara e suo famiglia", "right": "Chiara e la sua famiglia", "why": "Agreement with famiglia (f.), and article because famiglia isn't a single relative."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-aggettivi", "title": "Describing people: agreement and position", "category": "Adjectives", "rule": "Adjectives agree in gender and number (-o/-a/-i/-e, -e/-i) and usually follow the noun. Hair and eyes are plural and you have them: ha i capelli corti, ha gli occhi verdi.", "ref": "adjective-agreement", "blocks": [
+          {"type": "table", "head": ["Pattern", "Example"], "rows": [["essere + adjective", "Sofia è alta e simpatica. Franco è basso e allegro."], ["avere + i capelli / gli occhi + adjective", "Ha i capelli lunghi e castani. Ha gli occhi verdi."], ["con + article + feature", "Un uomo con i baffi, con la barba, con gli occhiali."], ["molto / un po' / abbastanza + adjective", "È molto gentile. È un po' pigra. È abbastanza alto."], ["noun + adjective (the usual order)", "una ragazza simpatica, un uomo alto, capelli corti"], ["adjective + noun: a few common ones", "un bravo meccanico, una bella casa, un giovane medico, un vecchio amico"]], "speak": [1]},
+          {"type": "agreement", "intro": "Describing yourself: every adjective agrees with you.", "items": [
+            {"t": {"m": "Sono alto, magro e un po' timido.", "f": "Sono alta, magra e un po' timida."}, "n": "I'm tall, thin and a bit shy."},
+            {"t": {"m": "Sono canadese e italiano, e sono fortunato.", "f": "Sono canadese e italiana, e sono fortunata."}, "n": "I'm Canadian and Italian, and I'm lucky."}
+          ], "note": "Set your own form in the settings: the exercises about you will expect it."},
+          {"type": "callout", "kind": "note", "title": "Before or after the noun?", "text": "After the noun is the default and always safe. A handful of frequent adjectives usually go before (bello, brutto, buono, cattivo, grande, piccolo, giovane, vecchio, nuovo, bravo), and some change meaning with position: [[un vecchio amico|an old friend (long-standing)]] vs [[un amico vecchio|an old friend (elderly)]]. Unit 10 goes into detail."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ha capelli lungo. Ha gli occhi verde.", "right": "Ha i capelli lunghi. Ha gli occhi verdi.", "why": "Plural nouns, plural adjectives, and the article."},
+            {"wrong": "È simpatica persona.", "right": "È una persona simpatica.", "why": "Article, and adjective after the noun."},
+            {"wrong": "Sofia è molta alta.", "right": "Sofia è molto alta.", "why": "Molto before an adjective is an adverb: it never agrees."},
+            {"wrong": "Mia madre è sympathetic… simpatica! (meaning understanding)", "right": "Mia madre è comprensiva.", "why": "Simpatico = nice, likeable. Sympathetic = comprensivo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-eta", "title": "Quanti anni hai?", "category": "Verbs", "rule": "Age is something you have: ho trent'anni. Ask with quanti anni hai? (tu) or quanti anni ha? (Lei). A person's age also goes after di: una sorella di ventidue anni.", "ref": "avere", "blocks": [
+          {"type": "examples", "items": [
+            {"t": "Quanti anni hai? — Ho trent'anni.", "n": "How old are you? — I'm thirty.", "note": "trent'anni: the a of trenta drops before anni"},
+            {"t": "Quanti anni ha Dora? — Ha sessantotto anni.", "n": "How old is Dora? — She's sixty-eight."},
+            {"t": "Ho una sorella di ventidue anni.", "n": "I have a twenty-two-year-old sister."},
+            {"t": "Chiara ha ventisette anni e suo padre ne ha cinquantotto.", "n": "Chiara is twenty-seven and her father is fifty-eight.", "note": "ne ha = has (of them); ne is unit 14; recognise it"}
+          ]},
+          {"type": "table", "head": ["Written", "Said"], "rows": [["21 anni", "ventun anni"], ["28 anni", "ventott'anni"], ["30 anni", "trent'anni"], ["41 anni", "quarantun anni"], ["58 anni", "cinquantott'anni"], ["68 anni", "sessantott'anni"]], "speak": [1], "compact": true, "note": "Before anni, the tens drop their final vowel with uno and otto. It's spoken Italian; written, both forms appear."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sono trenta anni. Sono trenta.", "right": "Ho trent'anni.", "why": "Age with avere, and anni must be said."},
+            {"wrong": "Quanti anni sei?", "right": "Quanti anni hai?", "why": "Same verb in the question."},
+            {"wrong": "Quanto anni hai?", "right": "Quanti anni hai?", "why": "Anni is plural: quanti."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "gn, gli, sci",
+      "intro": "Three spellings for three sounds English does not have as single letters. All three are made with the middle of the tongue against the palate, and all three are long, like doubles.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "gn", "t": "cognome", "n": "surname", "ipa": "koɲˈɲoːme", "tip": "Like the ny in \"canyon\", but one sound, held: co-NYO-me. Bagno, signora, ogni, Spagna, gnocchi."},
+          {"sound": "gli", "t": "famiglia", "n": "family", "ipa": "faˈmiʎʎa", "tip": "Like the lli in \"million\", with the tongue flat against the palate: fa-MI-lya. Figlio, moglie, meglio, gli, aglio."},
+          {"sound": "gli = i", "t": "gli", "n": "the (m. pl.)", "ipa": "ʎi", "tip": "The article gli is just the sound plus i: \"lyee\". Gli zii, gli occhi."},
+          {"sound": "sci / sce", "t": "scienza", "n": "science", "ipa": "ˈʃɛntsa", "tip": "Like English \"sh\", held: SHEN-tsa. Pesce, scuola? No: scuola is \"sk\" (sc + u). Only sce and sci are \"sh\"."},
+          {"sound": "sca / sco / scu", "t": "scuola", "n": "school", "ipa": "ˈskwɔːla", "tip": "Hard: SKWO-la. Scusa, scaldabagno, scontrino."}
+        ]},
+        {"type": "minimal", "caption": "Listen and repeat", "pairs": [
+          {"a": "sono", "b": "sogno", "na": "I am", "nb": "dream", "tip": "n against the teeth / gn against the palate."},
+          {"a": "fili", "b": "figli", "na": "threads", "nb": "children", "tip": "l against the teeth / gl against the palate."},
+          {"a": "pece", "b": "pesce", "na": "pitch", "nb": "fish", "tip": "ch / sh."},
+          {"a": "scena", "b": "schiena", "na": "scene", "nb": "back", "tip": "sce = sh; sche = sk."}
+        ]},
+        {"type": "callout", "kind": "warn", "title": "The h trap, again", "text": "[[Schiena]] has an h, so it is \"sk\": SKYEH-na. [[Scena]] has none, so it is \"sh\": SHEH-na. The same rule as c and g in unit 2: h makes the sound hard. English speakers see \"sch\" and think of \"school\" (right) or \"schedule\" (wrong)."},
+        {"type": "examples", "items": [
+          {"t": "Mia moglie e i miei figli sono in Spagna con gli zii.", "n": "My wife and my children are in Spain with the aunts and uncles.", "note": "gli · gli · gn · gli"},
+          {"t": "Il cognome della signora è Caputo, con la ci dura.", "n": "The lady's surname is Caputo, with a hard c."}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Forty exercises in five sets and a mixed review. Possessives count, articles count, agreement counts.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Verbi in -ere e -ire", "items": [
+          {"kind": "conjugate", "verb": "prendere", "tense": "presente", "n": "to take", "answers": ["prendo", "prendi", "prende", "prendiamo", "prendete", "prendono"]},
+          {"kind": "conjugate", "verb": "finire", "tense": "presente", "n": "to finish", "answers": ["finisco", "finisci", "finisce", "finiamo", "finite", "finiscono"]},
+          {"kind": "fill", "q": "Sofia ___ (dormire) il pomeriggio e ___ (leggere) la sera.", "answers": [["dorme"], ["legge"]], "n": "Sofia sleeps in the afternoon and reads in the evening."},
+          {"kind": "fill", "q": "Tu ___ (capire) il dialetto? — Io ___ (capire) Dora.", "answers": [["capisci"], ["capisco"]], "n": "Do you understand the dialect? — I understand Dora."},
+          {"kind": "fill", "q": "Noi ___ (finire) alle otto e ___ (partire) alle nove.", "answers": [["finiamo"], ["partiamo"]], "n": "We finish at eight and leave at nine."},
+          {"kind": "fill", "q": "I ragazzi ___ (preferire) la pizza; i nonni ___ (prendere) la pasta.", "answers": [["preferiscono"], ["prendono"]], "n": "The kids prefer pizza; the grandparents have pasta."},
+          {"kind": "mc", "q": "Which is right?", "options": ["Voi finite alle otto.", "Voi finiscite alle otto.", "Voi finiscete alle otto."], "answer": 0, "why": "No -isc- in voi: finite."},
+          {"kind": "translate", "q": "I write to my mother every week.", "answers": ["Scrivo a mia madre ogni settimana", "Scrivo a mia madre tutte le settimane"]}
+        ]},
+        {"type": "exercises", "title": "2 · Fare e i lavori", "items": [
+          {"kind": "conjugate", "verb": "fare", "tense": "presente", "n": "to do, make", "answers": ["faccio", "fai", "fa", "facciamo", "fate", "fanno"]},
+          {"kind": "fill", "q": "Che lavoro ___ (tu)? — ___ la pasticciera.", "answers": [["fai"], ["Faccio"]], "n": "What do you do? — I'm a pastry chef."},
+          {"kind": "mc", "q": "«My mother is a teacher.»", "options": ["Mia madre è maestra.", "Mia madre è una maestra.", "Mia madre fa maestra."], "answer": 0, "why": "È + job without article, or fa la maestra. Una maestra only with an adjective (è una maestra brava)."},
+          {"kind": "match", "q": "Who does what?", "pairs": [["il meccanico", "repairs cars"], ["la maestra", "teaches children"], ["il piastrellista", "lays tiles"], ["l'infermiera", "works in a hospital"], ["il commesso", "works in a shop"]]},
+          {"kind": "fill", "q": "La domenica ___ (noi, fare) una passeggiata e ___ (fare) colazione al bar.", "answers": [["facciamo"], ["facciamo"]], "n": "On Sundays we go for a walk and have breakfast at the bar."},
+          {"kind": "dictation", "text": "Mio padre fa il meccanico e mia madre è maestra.", "n": "My father is a mechanic and my mother is a teacher."}
+        ]},
+        {"type": "exercises", "title": "3 · I possessivi", "items": [
+          {"kind": "fill", "q": "___ madre si chiama Teresa. (my)", "answers": [["Mia"]], "n": "My mother's name is Teresa."},
+          {"kind": "fill", "q": "___ genitori vivono a Toronto. (my)", "answers": [["I miei"]], "n": "My parents live in Toronto."},
+          {"kind": "fill", "q": "Chiara e ___ padre. Chiara e ___ famiglia. (her)", "answers": [["suo"], ["la sua"]], "n": "Chiara and her father. Chiara and her family."},
+          {"kind": "fill", "q": "Dove sono ___ chiavi? (your, tu) — Sul tavolo, con ___ telefono. (your)", "answers": [["le tue"], ["il tuo"]], "n": "Where are your keys? — On the table, with your phone."},
+          {"kind": "mc", "q": "«Their sister»", "options": ["la loro sorella", "loro sorella", "sua sorella"], "answer": 0, "why": "Loro always takes the article."},
+          {"kind": "fill", "q": "___ sorella piccola ha ventidue anni. (my)", "answers": [["La mia"]], "n": "My little sister is twenty-two.", "hint": "the noun is modified by an adjective"},
+          {"kind": "translate", "q": "His sister is a nurse.", "answers": ["Sua sorella è infermiera", "Sua sorella fa l'infermiera"]}
+        ]},
+        {"type": "exercises", "title": "4 · Com'è?", "items": [
+          {"kind": "fill", "q": "Sofia è ___ (alto) e ___ (simpatico).", "answers": [["alta"], ["simpatica"]], "n": "Sofia is tall and nice."},
+          {"kind": "fill", "q": "Franco ha i capelli ___ (grigio) e i baffi. È ___ (allegro).", "answers": [["grigi"], ["allegro"]], "n": "Franco has grey hair and a moustache. He's cheerful."},
+          {"kind": "fill", "q": "Dora e Rita sono ___ (gentile) e un po' ___ (serio).", "answers": [["gentili"], ["serie"]], "n": "Dora and Rita are kind and a bit serious."},
+          {"kind": "order", "answer": "Ha gli occhi verdi e i capelli lunghi.", "n": "She has green eyes and long hair."},
+          {"kind": "mc", "q": "«He's very tall.»", "options": ["È molto alto.", "È molta alto.", "È molti alto."], "answer": 0, "why": "Molto before an adjective never agrees."},
+          {"kind": "fill", "q": "Io sono ___ (stanco) e ___ (fortunato).", "answers": [[{"m": "stanco", "f": "stanca", "who": "self"}], [{"m": "fortunato", "f": "fortunata", "who": "self"}]], "n": "I'm tired and lucky.", "hint": "about you: your own form"},
+          {"kind": "tf", "q": "Is this right?", "t": "Mia madre è simpatica: capisce tutto.", "answer": true, "why": "Grammatically yes; just remember simpatica means nice, not sympathetic. For \"understanding\" say comprensiva."}
+        ]},
+        {"type": "exercises", "title": "5 · Quanti anni hai?", "items": [
+          {"kind": "reply", "line": {"t": "Quanti anni hai?", "n": "How old are you?"}, "options": ["Ho trent'anni.", "Sono trenta.", "Ho trenta."], "answer": 0, "why": "Avere + anni, both words."},
+          {"kind": "fill", "q": "Dora ___ sessantotto anni e Pasquale ___ settantadue.", "answers": [["ha"], ["ne ha", "ha"]], "n": "Dora is sixty-eight and Pasquale is seventy-two."},
+          {"kind": "translate", "q": "I have a twenty-two-year-old sister.", "answers": ["Ho una sorella di ventidue anni", "Ho una sorella di 22 anni"]},
+          {"kind": "speak", "text": "Quanti anni hai? — Ventun anni. E tua sorella? — Trent'anni.", "n": "How old are you? — Twenty-one. And your sister? — Thirty.", "tip": "Ventun anni, trent'anni: the vowel drops before anni."}
+        ]},
+        {"type": "exercises", "review": true, "intro": "Everything from the unit, mixed.", "items": [
+          {"kind": "fill", "q": "Chiara: «___ padre fa il meccanico e ___ madre è maestra. E i ___?» — {hero}: «___ padre è in pensione.»", "answers": [["Mio"], ["mia"], ["tuoi"], ["Mio"]], "n": "Chiara: \"My father is a mechanic and my mother is a teacher. And yours?\" — {hero}: \"My father is retired.\""},
+          {"kind": "order", "answer": "Mia sorella studia e dorme.", "n": "My sister studies and sleeps."},
+          {"kind": "match", "q": "Family.", "pairs": [["il nipote", "grandson, nephew"], ["la moglie", "wife"], ["i parenti", "relatives"], ["i genitori", "parents"], ["la zia", "aunt"]]},
+          {"kind": "write", "q": "Describe one person in your family in five short sentences: who they are, their age, their job, what they look like, what they are like.", "model": "Mia madre si chiama Teresa. Ha sessant'anni e lavora in una scuola. È magra, con i capelli corti e grigi. È seria e precisa, ma è molto gentile. Mi piace parlare con lei.", "hint": "Si chiama… · Ha … anni · Fa il / la… · È… · Ha i capelli…"},
+          {"kind": "speak", "text": "Mio padre è basso e robusto, con i baffi. È molto allegro.", "n": "My father is short and stocky, with a moustache. He's very cheerful.", "tip": "Doubles: basso, baffi, allegro. Soft c? None. Stress: roBUsto, alLEgro."}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Famiglie, partenze, nomi",
+      "intro": "What family means in a town like Roccamarina, how half of it ended up in Toronto, and what to call yourself when you come back.",
+      "blocks": [
+        {"type": "subhead", "text": "La famiglia"},
+        {"type": "prose", "text": "The Italian family is wide. Cousins, second cousins, in-laws, godparents ([[il padrino]], [[la madrina]]), the neighbour who was at your parents' wedding: all of it counts, and Sunday lunch is where it meets. Grandparents are not visitors but daily presence; they collect children from school, cook, and hold the family memory. Young adults commonly live at home into their thirties, for money and for habit, and nobody finds it strange. Chiara, 27, lives with Michele and Anna and will until she leaves for Canada.\n\nTalk about family is not small talk. Being asked [[Sei sposato? Sei sposata?|Are you married?]], [[Hai figli?|Do you have children?]] within minutes of meeting someone is normal curiosity, not intrusion, and the family tree on the napkin is the local way of placing you."},
+        {"type": "subhead", "text": "Chi è partito"},
+        {"type": "prose", "text": "Between 1946 and the early 1970s about half a million Italians emigrated to Canada, most from the south: Calabria, Sicily, Campania, Abruzzo, Puglia, Friuli from the north. They arrived by ship at Halifax's Pier 21 and took the train to Toronto and Montréal, where the men built the subway, the houses and the office towers and the women worked in garment factories. Nonno Cosimo left Roccamarina in 1962 with a cardboard suitcase ([[la valigia di cartone]]) and a contract as a labourer. Toronto today has the largest Italian community outside Italy after São Paulo and Buenos Aires, and every town in the south has a street where half the houses were built with Canadian money.\n\nThe ones who stayed and the ones who left kept in touch by letter, then by phone on Sunday evenings, then by video call. The Ferrantes of Roccamarina and the Ferrantes of Toronto are the same family with sixty years and an ocean in the middle."},
+        {"type": "callout", "kind": "culture", "title": "Nomi e soprannomi", "text": "Italians are named after grandparents (Cosimo's son named his son Cosimo), after saints, and after the local patron: in Lecce province, [[Oronzo]] and [[Addolorata]] are everywhere. Everyone then gets a short form or a nickname: Addolorata is [[Dora]], Ferdinando is [[Nando]], Tommaso is [[Tommi]], Pasquale is [[Pasqualino]] to his mother and [[il professore]] to everyone else. The name day ([[l'onomastico]]) is celebrated like a small birthday: on 26 August, Sant'Oronzo, half the town is on the phone."},
+        {"type": "subhead", "text": "Italo-canadese"},
+        {"type": "prose", "text": "What are you, here? [[Italo-canadese]] is the neutral term and most people will understand it. [[Oriundo]] (of Italian descent, from abroad) is older and more official; you will see it on citizenship paperwork. [[L'americano]] / [[l'americana]] is what the older generation will call you, affectionately, whatever your passport says. Introduce yourself with the family: [[Sono il nipote di Cosimo Ferrante|I'm Cosimo Ferrante's grandson]], and the town will do the rest. In a place this size, the surname is an address."},
+        {"type": "callout", "kind": "real", "title": "Il pasticciotto", "text": "The pastry of Lecce and the Salento: short crust filled with custard, eaten warm at breakfast with a coffee. Chiara makes four hundred a morning. Nonna Rosa's Toronto version uses Canadian butter and is, according to Chiara, who has never tasted it, wrong."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "One screen before the next unit, then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Verbi in -ere e -ire", "rows": [["prendo · prendi · prende · prendiamo · prendete · prendono", "-ere"], ["dormo · dormi · dorme · dormiamo · dormite · dormono", "-ire"], ["finisco · finisci · finisce · finiamo · finite · finiscono", "-ire with -isc-"], ["capire, preferire, pulire, finire → -isc-", "dormire, partire, aprire, sentire → no -isc-"]]},
+          {"title": "fare", "rows": [["faccio · fai · fa · facciamo · fate · fanno", ""], ["Che lavoro fai? — Faccio il meccanico. / Sono meccanico.", "jobs"], ["fare colazione · fare la spesa · fare una foto", "expressions"]]},
+          {"title": "Possessivi", "rows": [["il mio · la mia · i miei · le mie", "my"], ["il tuo · il suo · il nostro · il vostro · il loro", "your · his/her · our · your · their"], ["mia madre, tuo padre, sua sorella", "singular family: no article"], ["i miei genitori · la mia mamma · la loro sorella", "plural, affectionate, loro: article"]]},
+          {"title": "Com'è?", "rows": [["È alto / alta, magro / magra, giovane, simpatico / simpatica.", "essere + adjective"], ["Ha i capelli lunghi e castani. Ha gli occhi verdi. Ha i baffi.", "avere + feature"], ["molto alto · un po' pigra · abbastanza gentile", "degree"]]},
+          {"title": "Età e famiglia", "rows": [["Quanti anni hai? — Ho trent'anni.", "age with avere"], ["una sorella di ventidue anni", "age with di"], ["padre · madre · fratello · sorella · zio · zia · cugino · cugina · nipote · marito · moglie", ""], ["i genitori ≠ i parenti", "parents ≠ relatives"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
