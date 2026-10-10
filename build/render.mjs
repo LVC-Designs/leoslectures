@@ -196,22 +196,26 @@ export function conjugation(b, ctx) {
   if (!tense) throw new Error(`conjugation block: unknown tense "${b.tense}" for ${verbs[0]}`);
   const persons = tense.persons;
   const name = (tb) => tb.inf || tb.base;
+  // Every conjugated verb is defined where it is conjugated: a gloss under the verb in the header, and in the caption unless the author glossed it there already.
+  const gloss = (tb) => tb.n ? `<small class="conj-gloss" lang="${ctx.ui}">${esc(tb.n)}</small>` : '';
+  const captionGloss = tables.filter(tb => tb.n && !(b.caption || '').includes(`[[${name(tb)}|`)).map(tb => `<span lang="${ctx.target}">${esc(name(tb))}</span> = ${esc(tb.n)}`).join(' · ');
   const cellOf = (f) => `<td>${ttext(f, ctx)}${say(f, ctx)}</td>`;
   let head, rows;
   if (tables.length === 1 && tense.neg && tense.q) {
-    const T = tables[0].tenses[b.tense];
-    head = `<thead><tr><th></th><th>+</th><th>−</th><th>?</th></tr></thead>`;
+    const T0 = tables[0], T = T0.tenses[b.tense];
+    head = `<thead><tr><th><span lang="${ctx.target}">${esc(name(T0))}</span>${gloss(T0)}</th><th>+</th><th>−</th><th>?</th></tr></thead>`;
     rows = persons.map((p, i) => `<tr><th>${esc(p)}</th>${cellOf(T.forms[i])}${cellOf(T.neg[i])}${cellOf(T.q[i])}</tr>`).join('');
   } else {
-    head = `<thead><tr><th></th>${tables.map(tb => `<th lang="${ctx.target}">${esc(name(tb))}</th>`).join('')}</tr></thead>`;
+    head = `<thead><tr><th></th>${tables.map(tb => `<th><span lang="${ctx.target}">${esc(name(tb))}</span>${gloss(tb)}</th>`).join('')}</tr></thead>`;
     rows = persons.map((p, i) => `<tr><th>${esc(p)}</th>${tables.map(tb => cellOf(tb.tenses[b.tense].forms[i])).join('')}</tr>`).join('');
   }
-  return `<figure class="tbl-wrap conj"><figcaption>${b.caption ? inline(b.caption, ctx) : `<span lang="${ctx.target}">${esc(verbs.join(', '))}</span> · ${esc(tense.label)}`}</figcaption><table class="tbl">${head}<tbody>${rows}</tbody></table>${b.note ? `<p class="tbl-note">${inline(b.note, ctx)}</p>` : ''}</figure>`;
+  return `<figure class="tbl-wrap conj"><figcaption>${b.caption ? inline(b.caption, ctx) : `<span lang="${ctx.target}">${esc(verbs.join(', '))}</span> · ${esc(tense.label)}`}${captionGloss ? ` <span class="conj-def">(${captionGloss})</span>` : ''}</figcaption><table class="tbl">${head}<tbody>${rows}</tbody></table>${b.note ? `<p class="tbl-note">${inline(b.note, ctx)}</p>` : ''}</figure>`;
 }
 
 export function exercise(item, ctx) {
   const id = item.id || ctx.uid('ex');
   ctx.exercises += 1;
+  if (item.kind === 'conjugate' && !item.n && ctx.conj?.get(item.verb)?.n) item = { ...item, n: ctx.conj.get(item.verb).n };
   const data = JSON.stringify({ ...item, id }).replace(/</g, '\\u003c');
   const kindLabel = ctx.t('ex.kinds')[item.kind] || item.kind;
   return `<div class="ex" id="${esc(id)}" data-kind="${esc(item.kind)}"><div class="ex-top"><span class="ex-kind">${esc(kindLabel)}</span><span class="ex-status" aria-live="polite"></span></div><div class="ex-body"></div><script type="application/json" class="ex-data">${data}</script></div>`;

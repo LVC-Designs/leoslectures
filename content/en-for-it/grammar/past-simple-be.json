@@ -1,0 +1,24 @@
+{"id": "past-simple-be", "title": "Past simple di be: was / were", "category": "Verbi", "rule": "Be al passato ha due forme: was per I, he, she, it e were per you, we, they. Negativo con not (wasn't, weren't), domanda invertendo (Was it…? Were you…?), risposte brevi con was / wasn't, were / weren't. Un solo passato per l'italiano ero, sono stato, fui. There was / there were = c'era / c'erano. Was born = sono nato.", "units": ["08"], "blocks": [
+  {"type": "conjugation", "verb": "be", "tense": "past_simple", "caption": "be · past simple: affermativo, negativo, domanda"},
+  {"type": "table", "head": ["Inglese", "Italiano"], "rows": [["I was at the bank. She was late. It was cold.", "Ero in banca. Era in ritardo. Faceva freddo."], ["You were right. We were tired. They were nice.", "Avevi ragione. Eravamo stanchi. Erano gentili."], ["I wasn't there. They weren't open.", "Non ero lì. Non erano aperti."], ["Was it hard? — No, it wasn't. Were you there? — Yes, I was.", "È stato difficile? — No. Eri lì? — Sì."], ["Where were you? How was your day? Who was it?", "Dov'eri? Com'è andata la giornata? Chi era?"], ["There was a line. There were two advisors. There wasn't any coffee.", "C'era una fila. C'erano due consulenti. Non c'era caffè."], ["I was born in 1999. Where were you born?", "Sono nato/a nel 1999. Dove sei nato/a?"]], "speak": [0]},
+  {"type": "subhead", "text": "Quando"},
+  {"type": "examples", "items": [
+    {"t": "Yesterday it was sunny. Last winter it was minus twenty.", "n": "Ieri c'era il sole. L'inverno scorso c'erano meno venti.", "note": "il tempo atmosferico: it was"},
+    {"t": "I was here in 2019. It was my first trip.", "n": "Ero qui nel 2019. Era il mio primo viaggio."},
+    {"t": "The fees weren't small, but the advisor was patient.", "n": "Le commissioni non erano piccole, ma il consulente era paziente."},
+    {"t": "Were you at the party? — No, I was at work.", "n": "Eri alla festa? — No, ero al lavoro."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "Un passato, non tre", "text": "L'italiano sceglie fra [[era]], [[è stato]] e [[fu]]. L'inglese dice [[was]] e basta. La scelta fra imperfetto e passato prossimo, che in italiano è grammatica, in inglese è contesto. L'unico caso in cui l'inglese separa è l'azione in corso: [[I was waiting]] (past continuous, unità 11)."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I were, you was, we was", "right": "I was, you were, we were", "why": "Was: I, he, she, it. Were: you, we, they."},
+    {"wrong": "Did it was cold? Did you were there?", "right": "Was it cold? Were you there?", "why": "Be non usa did."},
+    {"wrong": "I am born in Italy. I borned in Italy.", "right": "I was born in Italy.", "why": "Was / were born, sempre al passato."},
+    {"wrong": "It was there a line.", "right": "There was a line.", "why": "There was / there were: c'era / c'erano."},
+    {"wrong": "He was not here. (nel parlato)", "right": "He wasn't here.", "why": "La contrazione è la norma nel parlato."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "be", "tense": "past simple", "n": "essere", "answers": ["was", "were", "was", "were", "were", "were"]},
+    {"kind": "fill", "q": "Where ___ you born? — I ___ born in Roccamarina. There ___ (not) a hospital, so I ___ born in Lecce.", "answers": [["were"], ["was"], ["wasn't", "was not"], ["was"]], "n": "Dove sei nata? — Sono nata a Roccamarina. Non c'era un ospedale, quindi sono nata a Lecce."},
+    {"kind": "translate", "q": "Was the bank open? — No, it wasn't. It was Sunday.", "answers": ["Was the bank open? No, it wasn't. It was Sunday", "Was the bank open? — No, it wasn't. It was Sunday", "Was the bank open? No, it was not. It was Sunday"]}
+  ]}
+]}

@@ -213,6 +213,8 @@ a.card:hover { transform: translateY(-2px); border-color: var(--accent); }
 .tbl-wrap.compact .tbl td, .tbl-wrap.compact .tbl th { padding: .3em .6em; }
 .tbl-note { font-size: .85rem; color: var(--muted); margin: .4rem 0 0; }
 .conj .tbl td { white-space: nowrap; }
+.conj .tbl thead th .conj-gloss { display: block; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: .78rem; color: var(--muted); }
+.conj figcaption .conj-def { color: var(--muted); font-weight: 400; }
 
 /* examples, pairs, columns, grids */
 .examples { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: .5rem; }

@@ -1,0 +1,24 @@
+{"id": "polite-requests", "title": "Richieste e offerte: could you, would you like, I'd like", "category": "Funzioni", "rule": "Chiedere a qualcuno di fare: Can you…? (normale), Could you…? (gentile), Would you mind + -ing? (molto gentile). Chiedere qualcosa per sé: Can I have…? / Could I have…? / I'd like…. Offrire: Would you like + nome o to + verbo? Accettare: Yes, please. Rifiutare: No, thank you. Could e would sono invariabili e non vogliono to; please va all'inizio o alla fine.", "units": ["08"], "blocks": [
+  {"type": "table", "caption": "Chiedere a qualcuno di fare", "head": ["Inglese", "Italiano", "Tono"], "rows": [["Spell that, please.", "Faccia lo spelling, per favore.", "diretto: va bene con please, ma secco"], ["Can you spell that?", "Puoi fare lo spelling?", "normale, fra amici e colleghi"], ["Could you spell that, please?", "Potrebbe fare lo spelling, per favore?", "gentile, con tutti: la forma da usare"], ["Would you mind spelling that?", "Le dispiacerebbe fare lo spelling?", "molto gentile; risposta: Not at all / Sure"]], "speak": [0]},
+  {"type": "table", "caption": "Chiedere qualcosa per sé", "head": ["Inglese", "Italiano"], "rows": [["Can I have a form, please?", "Posso avere un modulo?"], ["Could I have your phone number?", "Potrei avere il suo numero?"], ["I'd like a chequing account, please.", "Vorrei un conto corrente."], ["I'd like to open an account.", "Vorrei aprire un conto."], ["I'll have a coffee, please.", "Prendo un caffè. (al bar, al ristorante)"]], "speak": [0], "compact": true},
+  {"type": "table", "caption": "Offrire e rispondere", "head": ["Inglese", "Italiano"], "rows": [["Would you like a receipt?", "Vuole lo scontrino?"], ["Would you like to sit down?", "Vuole sedersi?"], ["Would you like some coffee? — Yes, please. / No, thank you.", "Vuoi del caffè? — Sì, grazie. / No, grazie."], ["Can I help you? — I'm just looking, thanks.", "Posso aiutarla? — Sto solo guardando, grazie."], ["Sure. / Of course. / No problem. / Certainly.", "Certo. / Nessun problema."]], "speak": [0], "compact": true},
+  {"type": "callout", "kind": "tip", "title": "Il tono fa il Lei", "text": "In inglese non c'è il Lei: la distanza si mette nelle forme. [[Give me a form]] è corretto e scortese. [[Could I have a form, please?]] è quello che dice tutti, anche al collega, anche al figlio. Al primo tentativo usa sempre could e please: non suona esagerato, suona canadese."},
+  {"type": "examples", "items": [
+    {"t": "Could you repeat the postal code, please? — Sure. M6E 4H2.", "n": "Potrebbe ripetere il codice postale? — Certo. M6E 4H2."},
+    {"t": "Would you like to pay by card or cash? — Card, please.", "n": "Vuole pagare con la carta o in contanti? — Carta, grazie."},
+    {"t": "I'd like to book an appointment. — Would Thursday at ten work? — Thursday is perfect.", "n": "Vorrei prenotare un appuntamento. — Giovedì alle dieci va bene? — Giovedì è perfetto."},
+    {"t": "Would you mind closing the window? — Not at all.", "n": "Le dispiacerebbe chiudere la finestra? — Per niente."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Could you to repeat? Would you like open?", "right": "Could you repeat? Would you like to open?", "why": "Could + base; would like + to."},
+    {"wrong": "I would like open. I like to open an account (per «vorrei»).", "right": "I'd like to open an account.", "why": "I'd like to = vorrei. I like to = mi piace."},
+    {"wrong": "Yes, I would like. Yes, I want.", "right": "Yes, please.", "why": "Si accetta con yes, please."},
+    {"wrong": "Do you like a coffee? (offerta)", "right": "Would you like a coffee?", "why": "Do you like = ti piace; would you like = vuoi."},
+    {"wrong": "Would you mind to close the window?", "right": "Would you mind closing the window?", "why": "Mind + -ing."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ you ___ (like) a receipt? — No, thank you. ___ I ___ (have) a bag, please?", "answers": [["Would"], ["like"], ["Could", "Can"], ["have"]], "n": "Vuole lo scontrino? — No, grazie. Potrei avere un sacchetto, per favore?"},
+    {"kind": "mc", "q": "«Potrebbe parlare più lentamente?»", "options": ["Could you speak more slowly, please?", "Could you to speak more slowly?", "You could speak more slowly?"], "answer": 0, "why": "Could you + verbo base, please."},
+    {"kind": "translate", "q": "I'd like to open an account, please.", "answers": ["I'd like to open an account, please", "I would like to open an account, please"]}
+  ]}
+]}

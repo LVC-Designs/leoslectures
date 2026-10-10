@@ -1,0 +1,349 @@
+{
+  "id": "08",
+  "level": "A1",
+  "title": "At the bank",
+  "subtitle": "In banca e i documenti · checkpoint A1",
+  "intro": "Un numero di nove cifre che non devi dire a nessuno, un conto che costa quattro dollari al mese per tenere i tuoi soldi, una carta di credito che nessuno ti dà perché non hai mai avuto una carta di credito. E il tuo cognome, lettera per lettera, undici volte. Questa unità chiude l'A1: aggiunge il primo passato (was / were e i verbi regolari in -ed), le richieste gentili, il ripasso delle domande, e finisce con il checkpoint A1.",
+  "objectives": [
+    "Dire com'era e dov'eri: [[I was in Italy]], [[Were you ever in Canada?]], [[It wasn't hard]]",
+    "Dire cosa hai fatto con i verbi regolari: [[I arrived]], [[I waited]], [[I signed]], [[I didn't wait]], [[Did you call?]]",
+    "Chiedere con gentilezza: [[Could you spell that?]], [[Would you like a credit card?]], [[I'd like to open an account]]",
+    "Fare e capire tutte le domande: [[who]], [[what]], [[where]], [[when]], [[why]], [[how]], [[which]], [[whose]], [[how long]]",
+    "Dare i tuoi dati: numero di telefono, codice postale, data di nascita, e fare lo spelling al telefono"
+  ],
+  "canDo": [
+    "A1 · Interazione orale: sa dare i propri dati personali in una situazione formale e capire domande semplici su di essi.",
+    "A1 · Scrittura: sa compilare un modulo con nome, indirizzo, data di nascita, nazionalità, numero di telefono.",
+    "A1 · Produzione orale: sa dire cosa ha fatto, con frasi semplici e riferimenti di tempo.",
+    "A1 · Ascolto: sa capire istruzioni semplici allo sportello e l'ora e la data di un appuntamento.",
+    "A1 · Lettura: sa capire un avviso, un modulo, una lettera ufficiale breve e un estratto conto semplice."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Nine digits and two Rs",
+      "intro": "Lunedì a Service Canada, martedì in banca, la sera a raccontarlo a Teresa. Ascolta was e were, i verbi in -ed (arrived, visited, waited, signed) e le richieste con could you e would you like.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-service-canada", "title": "Service Canada", "setting": "Lunedì mattina. Service Canada, College Street. Un numero, una fila, un bancone. Chiara con il passaporto e il permesso di lavoro.", "register": "formale", "lines": [
+          {"who": "Agent", "t": "Next! Good morning. How can I help you today?", "n": "Avanti! Buongiorno. Come posso aiutarla oggi?", "note": "La frase standard di apertura a ogni sportello. Non esiste il Lei: la cortesia sta nelle parole, non nel verbo."},
+          {"who": "Chiara", "t": "Good morning. I'd like to apply for a Social Insurance Number, please.", "n": "Buongiorno. Vorrei fare domanda per un numero di assicurazione sociale, per favore.", "note": "Apply for = fare domanda per. Il SIN (Social Insurance Number) è il codice fiscale canadese, nove cifre."},
+          {"who": "Agent", "t": "Sure. Do you have your passport and your work permit?", "n": "Certo. Ha il passaporto e il permesso di lavoro?"},
+          {"who": "Chiara", "t": "Yes. Here you are.", "n": "Sì. Ecco a lei.", "note": "Here you are / here you go: quando porgi qualcosa."},
+          {"who": "Agent", "t": "Thank you. When did you arrive in Canada?", "n": "Grazie. Quando è arrivata in Canada?", "note": "Did + soggetto + verbo base: la domanda al past simple. Il verbo resta arrive, non arrived."},
+          {"who": "Chiara", "t": "I arrived two weeks ago. On September twenty-fourth.", "n": "Sono arrivata due settimane fa. Il ventiquattro settembre.", "note": "Arrived: past simple regolare, -ed. Two weeks ago = due settimane fa. Le date si dicono con l'ordinale: twenty-fourth."},
+          {"who": "Agent", "t": "Were you ever in Canada before?", "n": "È mai stata in Canada prima?", "note": "Were you: il past simple di be fa la domanda da solo, senza did."},
+          {"who": "Chiara", "t": "Yes, I was. I was here in 2019, for three weeks. I visited my cousin {hero}.", "n": "Sì. Sono stata qui nel 2019, per tre settimane. Ho fatto visita a {hero}, {{mio cugino|mia cugina}}.", "note": "Yes, I was: la risposta breve ripete was. I visited: -ed."},
+          {"who": "Agent", "t": "Great. Could you spell your last name for me?", "n": "Bene. Potrebbe farmi lo spelling del cognome?", "note": "Could you…? La richiesta gentile. Spell = dire lettera per lettera. Last name = cognome."},
+          {"who": "Chiara", "t": "F-E-R-R-A-N-T-E. Ferrante. Two Rs.", "n": "F-E-R-R-A-N-T-E. Ferrante. Due erre.", "note": "Le lettere in inglese sono nella pronuncia. La doppia si dice two Rs o double R."},
+          {"who": "Agent", "t": "Date of birth?", "n": "Data di nascita?"},
+          {"who": "Chiara", "t": "March fifth, 1999.", "n": "Il cinque marzo 1999.", "note": "Mese, poi giorno ordinale, poi anno: March fifth, nineteen ninety-nine. Scritto: March 5, 1999 o 1999-03-05 sui moduli."},
+          {"who": "Agent", "t": "Current address and postal code?", "n": "Indirizzo attuale e codice postale?"},
+          {"who": "Chiara", "t": "46 Nairn Avenue, Toronto. M6E 4H2.", "n": "46 Nairn Avenue, Toronto. M6E 4H2.", "note": "Il numero civico prima della via. Il codice postale: lettera-cifra-lettera, spazio, cifra-lettera-cifra."},
+          {"who": "Agent", "t": "And a phone number?", "n": "E un numero di telefono?"},
+          {"who": "Chiara", "t": "I don't have a Canadian number yet. I need a phone plan.", "n": "Non ho ancora un numero canadese. Mi serve un piano telefonico.", "note": "Yet alla fine della frase negativa = ancora."},
+          {"who": "Agent", "t": "That's fine. Sign here, please. Your number is on this letter. Don't lose it, and don't share it: it's confidential.", "n": "Va bene. Firmi qui, per favore. Il suo numero è su questa lettera. Non lo perda e non lo dia a nessuno: è riservato.", "note": "Sign, don't lose, don't share: imperativi, unità 5. Il SIN non si dà a nessuno tranne datore di lavoro, banca e fisco."},
+          {"who": "Chiara", "t": "That's it? It was quick.", "n": "Tutto qui? È stato veloce.", "note": "It was: il passato di it is."},
+          {"who": "Agent", "t": "It was. Have a good one.", "n": "Sì. Buona giornata."}
+        ], "notes": [
+          {"phrase": "When did you arrive? — I arrived two weeks ago.", "note": "La domanda con did, la risposta con -ed. Il past simple inglese copre il passato prossimo italiano."},
+          {"phrase": "Were you ever in Canada? — Yes, I was.", "note": "Be al passato: was (I, he, she, it) e were (you, we, they). Domanda e risposta breve senza did."},
+          {"phrase": "Could you spell your last name?", "note": "Could you + verbo base: la richiesta gentile. Più morbido di can you. Si risponde Sure / Of course."},
+          {"phrase": "first name · last name · middle name", "note": "Nome, cognome, secondo nome. Sui moduli anche given name e surname / family name."}
+        ]},
+        {"type": "scene", "id": "dlg-bank", "title": "Eleven times", "setting": "Martedì. Una filiale di banca su St. Clair, un ufficio con una pianta finta. Amrit Dhillon, consulente. Poi la sera, la cucina di Teresa.", "register": "formale, poi informale", "lines": [
+          {"who": "Amrit", "t": "Hi, Chiara? I'm Amrit. Please, have a seat. So, you'd like to open an account.", "n": "Salve, Chiara? Sono Amrit. Prego, si accomodi. Allora, vorrebbe aprire un conto.", "note": "Have a seat = si accomodi. You'd like = you would like: vorrebbe."},
+          {"who": "Chiara", "t": "Yes. A chequing account, for my salary. And a debit card.", "n": "Sì. Un conto corrente, per lo stipendio. E una carta di debito.", "note": "Chequing account: il conto per le spese di tutti i giorni. Savings account: il conto di risparmio."},
+          {"who": "Amrit", "t": "Perfect. I need two pieces of ID. Did you bring your passport and your SIN letter?", "n": "Perfetto. Mi servono due documenti. Ha portato il passaporto e la lettera del SIN?", "note": "Two pieces of ID: due documenti d'identità. ID non si conta: a piece of ID. Did you bring: bring è irregolare (brought), unità 9; la domanda però usa sempre la forma base."},
+          {"who": "Chiara", "t": "Yes. And the work permit.", "n": "Sì. E il permesso di lavoro."},
+          {"who": "Amrit", "t": "Great. Could you spell your last name?", "n": "Bene. Potrebbe fare lo spelling del cognome?"},
+          {"who": "Chiara", "t": "Again? F-E-R-R-A-N-T-E.", "n": "Ancora? F-E-R-R-A-N-T-E."},
+          {"who": "Amrit", "t": "Two Rs. Sorry. The system wants everything twice.", "n": "Due erre. Scusi. Il sistema vuole tutto due volte.", "note": "Twice = due volte. Once, twice, three times."},
+          {"who": "Amrit", "t": "Would you like a credit card too? It helps your credit history.", "n": "Vorrebbe anche una carta di credito? Aiuta la sua storia creditizia.", "note": "Would you like…? = Vorrebbe…? L'offerta gentile. Credit history: la tua reputazione come debitore, che in Canada parte da zero."},
+          {"who": "Chiara", "t": "I don't have a credit history.", "n": "Non ho una storia creditizia."},
+          {"who": "Amrit", "t": "Nobody does, when they arrive. Start small: a five-hundred-dollar limit, and pay it every month.", "n": "Nessuno ce l'ha, quando arriva. Cominci in piccolo: un limite di cinquecento dollari, e lo paghi ogni mese.", "note": "Nobody does = nessuno ce l'ha: does sostituisce has a credit history. A five-hundred-dollar limit: i numeri come aggettivo restano al singolare."},
+          {"who": "Amrit", "t": "There's a monthly fee of four dollars, or no fee if your balance stays above three thousand.", "n": "C'è un canone mensile di quattro dollari, o nessun canone se il saldo resta sopra i tremila.", "note": "Fee = commissione, canone. Balance = saldo."},
+          {"who": "Chiara", "t": "Four dollars? For my own money?", "n": "Quattro dollari? Per i miei soldi?", "note": "My own money: own rafforza il possessivo."},
+          {"who": "Amrit", "t": "Welcome to Canadian banking. Sign here, here and here. Your card arrives in the mail in five to seven business days.", "n": "Benvenuta nelle banche canadesi. Firmi qui, qui e qui. La carta arriva per posta in cinque-sette giorni lavorativi.", "note": "Business days = giorni lavorativi. In the mail = per posta."},
+          {"stage": "That evening. Teresa's kitchen. A video call from Roccamarina on the tablet."},
+          {"who": "Teresa", "t": "So? How was the bank?", "n": "Allora? Com'è andata in banca?", "note": "How was…? = com'è andato/a…? La domanda di ogni sera."},
+          {"who": "Chiara", "t": "It was long. I waited forty minutes, I showed three documents, I signed six papers and I spelled my name eleven times. Eleven.", "n": "È stata lunga. Ho aspettato quaranta minuti, ho mostrato tre documenti, ho firmato sei fogli e ho fatto lo spelling del mio nome undici volte. Undici.", "note": "Quattro verbi regolari: waited, showed, signed, spelled. Un solo passato per quattro passati prossimi."},
+          {"who": "Teresa", "t": "Was it hard?", "n": "È stato difficile?"},
+          {"who": "Chiara", "t": "No, it wasn't hard. It was slow. The advisor was nice. And now I have a debit card and a credit card with a limit of five hundred dollars.", "n": "No, non è stato difficile. È stato lento. Il consulente era gentile. E adesso ho una carta di debito e una carta di credito con un limite di cinquecento dollari.", "note": "It wasn't = it was not. Era / è stato: in inglese sempre was."},
+          {"who": "hero", "t": "Eleven times? They asked me to spell Ferrante in Italian. In Roccamarina! Two visits at the comune, and a stamp from the tobacco shop.", "n": "Undici volte? A me hanno chiesto lo spelling di Ferrante in italiano. A Roccamarina! Due visite al comune, e un bollo dal tabaccaio.", "note": "They asked me to spell: ask + persona + to + verbo. Dall'altra parte del mondo, la stessa settimana: l'unità 8 del corso di italiano."},
+          {"who": "Teresa", "t": "Listen to {{him|her}}. {{He|She}} called me from the comune, in tears.", "n": "{{Sentilo|Sentila}}. Mi ha chiamato dal comune, in lacrime.", "note": "Listen to + persona: ascoltare vuole to in inglese."},
+          {"who": "Chiara", "t": "Did you call Nonna?", "n": "Hai chiamato la nonna?"},
+          {"who": "hero", "t": "Yesterday. She asked about the snow.", "n": "Ieri. Ha chiesto della neve."},
+          {"who": "Chiara", "t": "It's October!", "n": "È ottobre!"},
+          {"who": "hero", "t": "She asked anyway.", "n": "Ha chiesto lo stesso.", "note": "Anyway = comunque, lo stesso."}
+        ], "notes": [
+          {"phrase": "two pieces of ID", "note": "In Canada non esiste la carta d'identità. Due documenti: passaporto, patente, permesso di lavoro, Ontario Photo Card, tessera sanitaria (non sempre accettata)."},
+          {"phrase": "I waited, I showed, I signed, I spelled", "note": "Il past simple regolare: una forma per tutte le persone. Spelled o spelt: tutte e due esistono; spelled è la forma nordamericana."},
+          {"phrase": "Was it hard? — No, it wasn't.", "note": "La domanda con was all'inizio, la risposta breve con wasn't."},
+          {"phrase": "How was the bank? How was your day?", "note": "How was + nome: la domanda su qualcosa che è finito. How is your day going? per qualcosa in corso."}
+        ], "questions": [
+          {"kind": "tf", "q": "Chiara opened a savings account.", "t": "A chequing account, for my salary.", "answer": false, "why": "Un chequing account, il conto corrente per lo stipendio. Il savings account è il conto di risparmio."},
+          {"kind": "mc", "q": "How many times did Chiara spell her name on Tuesday?", "options": ["Eleven.", "Six.", "Three."], "answer": 0, "why": "I spelled my name eleven times. Eleven."},
+          {"kind": "fill", "q": "I ___ (wait) forty minutes, I ___ (sign) six papers and I ___ (spell) my name eleven times.", "answers": [["waited"], ["signed"], ["spelled", "spelt"]], "n": "Ho aspettato quaranta minuti, ho firmato sei fogli e ho fatto lo spelling del mio nome undici volte."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Bank, forms and phone",
+      "intro": "Le parole della banca, le righe del modulo, il telefono e gli appuntamenti, e i verbi regolari per raccontare cosa hai fatto.",
+      "blocks": [
+        {"type": "vocab", "theme": "At the bank", "n": "In banca", "items": [
+          {"t": "account", "n": "conto", "pos": "noun", "ipa": "əˈkaʊnt", "plural": "accounts", "ex": {"t": "I'd like to open an account.", "n": "Vorrei aprire un conto."}, "note": "Open / close an account. Bank account."},
+          {"t": "chequing account", "n": "conto corrente", "pos": "noun", "ipa": "ˈtʃɛkɪŋ əˈkaʊnt", "ex": {"t": "A chequing account for my salary.", "n": "Un conto corrente per lo stipendio."}, "note": "Grafia canadese: chequing, da cheque. Negli Stati Uniti checking, da check."},
+          {"t": "savings account", "n": "conto di risparmio", "pos": "noun", "ipa": "ˈseɪvɪŋz əˈkaʊnt", "ex": {"t": "The savings account pays two percent.", "n": "Il conto di risparmio dà il due per cento."}, "note": "Savings = risparmi, sempre plurale."},
+          {"t": "branch", "n": "filiale", "pos": "noun", "ipa": "bræntʃ", "plural": "branches", "ex": {"t": "The branch on St. Clair opens at nine thirty.", "n": "La filiale su St. Clair apre alle nove e mezza."}, "note": "Anche ramo (di un albero)."},
+          {"t": "debit card", "n": "carta di debito, bancomat", "pos": "noun", "ipa": "ˈdɛbɪt kɑrd", "plural": "debit cards", "ex": {"t": "Debit or credit? — Debit, please.", "n": "Debito o credito? — Debito, per favore."}, "note": "Alla cassa ti chiedono sempre debit or credit. Il nostro bancomat è debit."},
+          {"t": "credit card", "n": "carta di credito", "pos": "noun", "ipa": "ˈkrɛdɪt kɑrd", "plural": "credit cards", "ex": {"t": "A credit card with a five-hundred-dollar limit.", "n": "Una carta di credito con un limite di cinquecento dollari."}, "note": "Pay by credit card. Il limit è il massimo che puoi spendere."},
+          {"t": "credit history", "n": "storia creditizia", "pos": "noun", "ipa": "ˈkrɛdɪt ˈhɪstəri", "ex": {"t": "I don't have a credit history yet.", "n": "Non ho ancora una storia creditizia."}, "note": "Il tuo passato come debitore: la usano per affitti, telefoni, prestiti. Anche credit score, il punteggio."},
+          {"t": "PIN", "n": "codice PIN", "pos": "noun", "ipa": "pɪn", "ex": {"t": "Enter your PIN and press OK.", "n": "Inserisci il PIN e premi OK."}, "note": "Personal Identification Number. Si dice pin, come la parola."},
+          {"t": "fee", "n": "commissione, canone", "pos": "noun", "ipa": "fi", "plural": "fees", "ex": {"t": "There's a monthly fee of four dollars.", "n": "C'è un canone mensile di quattro dollari."}, "note": "Monthly fee, ATM fee, late fee. Le banche canadesi le adorano."},
+          {"t": "balance", "n": "saldo", "pos": "noun", "ipa": "ˈbæləns", "ex": {"t": "What's my balance? — Two hundred and ten dollars.", "n": "Qual è il mio saldo? — Duecentodieci dollari."}, "note": "Check your balance: controllare il saldo."},
+          {"t": "statement", "n": "estratto conto", "pos": "noun", "ipa": "ˈsteɪtmənt", "plural": "statements", "ex": {"t": "The statement arrives by email every month.", "n": "L'estratto conto arriva per email ogni mese."}},
+          {"t": "e-Transfer", "n": "bonifico istantaneo (Interac)", "pos": "noun", "ipa": "ˈi ˈtrænsfər", "plural": "e-Transfers", "ex": {"t": "Send me an e-Transfer for the rent.", "n": "Mandami un e-Transfer per l'affitto."}, "note": "Interac e-Transfer: soldi da un conto all'altro con un'email o un numero di telefono. Gratis, in minuti. Così si paga l'affitto, la cena divisa, tutto."},
+          {"t": "cash", "n": "contanti", "pos": "noun", "ipa": "kæʃ", "ex": {"t": "Cash or card? — Card.", "n": "Contanti o carta? — Carta."}, "note": "Non numerabile. Pay in cash / pay cash."},
+          {"t": "ATM", "n": "bancomat (lo sportello)", "pos": "noun", "ipa": "ˌeɪ ti ˈɛm", "plural": "ATMs", "ex": {"t": "Is there an ATM near here?", "n": "C'è un bancomat qui vicino?"}, "note": "Automated Teller Machine. Anche bank machine. Withdraw cash = prelevare, deposit = versare."},
+          {"t": "salary", "n": "stipendio", "pos": "noun", "ipa": "ˈsæləri", "plural": "salaries", "ex": {"t": "My salary arrives every two weeks.", "n": "Lo stipendio arriva ogni due settimane."}, "note": "Salary: fisso, annuale. Wage / wages: a ore. Pay: in generale. Paycheque: la busta paga."}
+        ]},
+        {"type": "vocab", "theme": "On the form", "n": "Sul modulo", "items": [
+          {"t": "form", "n": "modulo", "pos": "noun", "ipa": "fɔrm", "plural": "forms", "ex": {"t": "Fill in the form in block capitals.", "n": "Compila il modulo in stampatello."}, "note": "Fill in / fill out a form: tutte e due. Block capitals = stampatello."},
+          {"t": "first name", "n": "nome", "pos": "noun", "ipa": "fɜrst neɪm", "ex": {"t": "First name: Chiara. Last name: Ferrante.", "n": "Nome: Chiara. Cognome: Ferrante."}, "note": "Anche given name. Il nome viene prima: first."},
+          {"t": "last name", "n": "cognome", "pos": "noun", "ipa": "læst neɪm", "ex": {"t": "Could you spell your last name?", "n": "Potrebbe fare lo spelling del cognome?"}, "note": "Anche surname, family name. Mai second name, che è il secondo nome."},
+          {"t": "middle name", "n": "secondo nome", "pos": "noun", "ipa": "ˈmɪdl neɪm", "ex": {"t": "Middle name? — I don't have one.", "n": "Secondo nome? — Non ce l'ho."}, "note": "Comune in Canada; sui moduli c'è sempre la casella. Lascia vuoto o N/A (not applicable)."},
+          {"t": "date of birth", "n": "data di nascita", "pos": "noun", "ipa": "deɪt əv bɜrθ", "ex": {"t": "Date of birth: March 5, 1999.", "n": "Data di nascita: 5 marzo 1999."}, "note": "Spesso DOB. Attento al formato: i moduli canadesi usano YYYY-MM-DD o MM/DD/YYYY; 03/05 è il cinque marzo, non il tre maggio."},
+          {"t": "place of birth", "n": "luogo di nascita", "pos": "noun", "ipa": "pleɪs əv bɜrθ", "ex": {"t": "Place of birth: Roccamarina, Italy.", "n": "Luogo di nascita: Roccamarina, Italia."}, "note": "Born in: nato/a a. I was born in Italy."},
+          {"t": "address", "n": "indirizzo", "pos": "noun", "ipa": "əˈdrɛs", "plural": "addresses", "ex": {"t": "Current address: 46 Nairn Avenue, Toronto, ON.", "n": "Indirizzo attuale: 46 Nairn Avenue, Toronto, ON."}, "note": "Numero civico, via, città, provincia (ON), codice postale. Email address: indirizzo email."},
+          {"t": "postal code", "n": "codice postale", "pos": "noun", "ipa": "ˈpoʊstəl koʊd", "plural": "postal codes", "ex": {"t": "What's your postal code? — M6E 4H2.", "n": "Qual è il suo codice postale? — M6E 4H2."}, "note": "Lettera-cifra-lettera spazio cifra-lettera-cifra. Negli Stati Uniti zip code, cinque cifre."},
+          {"t": "phone number", "n": "numero di telefono", "pos": "noun", "ipa": "foʊn ˈnʌmbər", "plural": "phone numbers", "ex": {"t": "Phone number: 416-555-0142.", "n": "Numero di telefono: 416-555-0142."}, "note": "Dieci cifre, con il prefisso: 416 e 647 sono Toronto. Si dicono una cifra alla volta; lo zero si dice oh."},
+          {"t": "signature", "n": "firma", "pos": "noun", "ipa": "ˈsɪɡnətʃər", "plural": "signatures", "ex": {"t": "Signature and date, at the bottom.", "n": "Firma e data, in fondo."}, "note": "Sign = firmare: sign here. La firma è signature, non sign."},
+          {"t": "ID", "n": "documento d'identità", "pos": "noun", "ipa": "ˌaɪ ˈdi", "ex": {"t": "I need two pieces of ID.", "n": "Mi servono due documenti."}, "note": "Identification. Non numerabile: a piece of ID, photo ID (con foto)."},
+          {"t": "driver's licence", "n": "patente", "pos": "noun", "ipa": "ˈdraɪvərz ˈlaɪsəns", "plural": "driver's licences", "ex": {"t": "A driver's licence is the most common ID.", "n": "La patente è il documento più comune."}, "note": "Licence con la c in Canada e nel Regno Unito; license negli Stati Uniti."},
+          {"t": "work permit", "n": "permesso di lavoro", "pos": "noun", "ipa": "wɜrk ˈpɜrmɪt", "plural": "work permits", "ex": {"t": "My work permit is valid for two years.", "n": "Il mio permesso di lavoro è valido per due anni."}, "note": "Permit = permesso (il documento). Allow / let = permettere (il verbo)."},
+          {"t": "SIN", "n": "numero di assicurazione sociale", "pos": "noun", "ipa": "sɪn", "ex": {"t": "You need a SIN to work in Canada.", "n": "Ti serve il SIN per lavorare in Canada."}, "note": "Social Insurance Number: nove cifre, il tuo codice fiscale. Si dice sin, come peccato."},
+          {"t": "marital status", "n": "stato civile", "pos": "noun", "ipa": "ˈmærɪtl ˈsteɪtəs", "ex": {"t": "Marital status: single / married / divorced / widowed.", "n": "Stato civile: celibe o nubile / coniugato / divorziato / vedovo."}, "note": "Single per tutti e due i sessi. Common-law: convivente, che in Canada conta come sposato dopo un anno."},
+          {"t": "nationality", "n": "nazionalità", "pos": "noun", "ipa": "ˌnæʃəˈnæləti", "plural": "nationalities", "ex": {"t": "Nationality: Italian. Citizenship: Italian.", "n": "Nazionalità: italiana. Cittadinanza: italiana."}, "note": "Citizenship = cittadinanza. Citizen = cittadino. Permanent resident = residente permanente."}
+        ]},
+        {"type": "vocab", "theme": "Phone and appointments", "n": "Telefono e appuntamenti", "items": [
+          {"t": "phone plan", "n": "piano telefonico", "pos": "noun", "ipa": "foʊn plæn", "plural": "phone plans", "ex": {"t": "A phone plan with ten gigs of data is sixty dollars a month.", "n": "Un piano con dieci giga di dati costa sessanta dollari al mese."}, "note": "Data = i dati, il traffico. Unlimited = illimitato. Prepaid = ricaricabile. Contract = con contratto."},
+          {"t": "appointment", "n": "appuntamento", "pos": "noun", "ipa": "əˈpɔɪntmənt", "plural": "appointments", "ex": {"t": "I have an appointment at ten with Amrit.", "n": "Ho un appuntamento alle dieci con Amrit."}, "note": "Make / book an appointment: prendere un appuntamento. Un appuntamento romantico è a date."},
+          {"t": "to book", "n": "prenotare", "pos": "verb", "ipa": "bʊk", "forms": "booked, booked", "ex": {"t": "I booked an appointment online.", "n": "Ho prenotato un appuntamento online."}, "note": "Regolare: booked. Anche reserve, per tavoli e stanze."},
+          {"t": "to call", "n": "chiamare, telefonare", "pos": "verb", "ipa": "kɔl", "forms": "called, called", "ex": {"t": "Did you call Nonna? — I called her yesterday.", "n": "Hai chiamato la nonna? — L'ho chiamata ieri."}, "note": "Call + persona, senza to. Call back = richiamare. Phone, ring: sinonimi."},
+          {"t": "to spell", "n": "fare lo spelling, dire lettera per lettera", "pos": "verb", "ipa": "spɛl", "forms": "spelled / spelt, spelled / spelt", "ex": {"t": "How do you spell that? — F-E-R-R-A-N-T-E.", "n": "Come si scrive? — F-E-R-R-A-N-T-E."}, "note": "How do you spell…? è la domanda da fare a ogni nome. Spelling = ortografia."},
+          {"t": "to wait", "n": "aspettare", "pos": "verb", "ipa": "weɪt", "forms": "waited, waited", "ex": {"t": "I waited forty minutes. Wait for me!", "n": "Ho aspettato quaranta minuti. Aspettami!"}, "note": "Wait for + persona o cosa. Waited: /ɪd/, due sillabe."},
+          {"t": "to sign", "n": "firmare", "pos": "verb", "ipa": "saɪn", "forms": "signed, signed", "ex": {"t": "Sign here, please. I signed six papers.", "n": "Firmi qui, per favore. Ho firmato sei fogli."}, "note": "La g non si pronuncia: sain. Signature: la g torna."},
+          {"t": "to apply for", "n": "fare domanda per", "pos": "verb", "ipa": "əˈplaɪ", "forms": "applied, applied", "ex": {"t": "I applied for a SIN on Monday.", "n": "Ho fatto domanda per il SIN lunedì."}, "note": "Apply for a job, a visa, a card. Application = la domanda."},
+          {"t": "to arrive", "n": "arrivare", "pos": "verb", "ipa": "əˈraɪv", "forms": "arrived, arrived", "ex": {"t": "When did you arrive? — I arrived two weeks ago.", "n": "Quando sei arrivato? — Sono arrivato due settimane fa."}, "note": "Arrive in + città o paese, arrive at + posto. Mai arrive to."},
+          {"t": "to happen", "n": "succedere", "pos": "verb", "ipa": "ˈhæpən", "forms": "happened, happened", "ex": {"t": "What happened? — Nothing happened.", "n": "Cos'è successo? — Non è successo niente."}, "note": "What happened? è la domanda; non esiste what did happen."},
+          {"t": "to ask", "n": "chiedere, domandare", "pos": "verb", "ipa": "æsk", "forms": "asked, asked", "ex": {"t": "They asked for two pieces of ID. She asked about the snow.", "n": "Hanno chiesto due documenti. Ha chiesto della neve."}, "note": "Ask for = chiedere (per avere). Ask about = chiedere (per sapere). Ask someone to do = chiedere a qualcuno di fare."},
+          {"t": "ago", "n": "fa", "pos": "adv.", "ipa": "əˈɡoʊ", "ex": {"t": "Two weeks ago. An hour ago. A long time ago.", "n": "Due settimane fa. Un'ora fa. Tanto tempo fa."}, "note": "Dopo il tempo, come in italiano. Sempre con il past simple."},
+          {"t": "yesterday", "n": "ieri", "pos": "adv.", "ipa": "ˈjɛstərdeɪ", "ex": {"t": "Yesterday I opened an account. Last week I applied for a SIN.", "n": "Ieri ho aperto un conto. La settimana scorsa ho fatto domanda per il SIN."}, "note": "Last week, last month, last year, last Monday: senza the e senza preposizione."},
+          {"t": "business days", "n": "giorni lavorativi", "pos": "noun", "ipa": "ˈbɪznəs deɪz", "ex": {"t": "The card arrives in five to seven business days.", "n": "La carta arriva in cinque-sette giorni lavorativi."}, "note": "Da lunedì a venerdì, feste escluse. Working days: sinonimo."}
+        ]},
+        {"type": "subhead", "text": "The alphabet, for the phone"},
+        {"type": "grid", "cols": 6, "items": [
+          {"big": "A", "small": "ei"}, {"big": "E", "small": "i"}, {"big": "I", "small": "ai"}, {"big": "G", "small": "gi"}, {"big": "J", "small": "gei"}, {"big": "H", "small": "eich"},
+          {"big": "K", "small": "kei"}, {"big": "R", "small": "ar"}, {"big": "U", "small": "iu"}, {"big": "W", "small": "dabl-iu"}, {"big": "Y", "small": "uai"}, {"big": "Z", "small": "zed"}
+        ], "note": "Le lettere che tradiscono gli italiani. Z si dice zed in Canada, zee negli Stati Uniti. Le altre lettere sono vicine all'italiano: B bi, C si, D di, F ef, L el, M em, N en, O ou, P pi, Q kiu, S es, T ti, V vi, X eks."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Was, -ed, could you, and every question",
+      "intro": "Cinque pezzi: il passato di be, il past simple dei verbi regolari, le richieste gentili con could e would, il ripasso completo delle parole interrogative, e i numeri personali: telefono, codice postale, date. In fondo a ogni blocco, la pagina di riferimento.",
+      "blocks": [
+        {"type": "grammar", "id": "g-was-were", "title": "Past simple di be: was / were", "category": "Verbi", "rule": "Be ha due forme al passato: was (I, he, she, it) e were (you, we, they). Negativo con not (wasn't, weren't); domanda invertendo (Was it hard? Were you there?). Copre l'italiano ero, sono stato e fu: un solo passato.", "ref": "past-simple-be", "blocks": [
+          {"type": "conjugation", "verb": "be", "tense": "past_simple", "caption": "[[be|essere]] · past simple: affermativo, negativo, domanda"},
+          {"type": "table", "head": ["", "Inglese", "Italiano"], "rows": [["affermativo", "I was in Italy. They were at the bank.", "Ero / sono stato in Italia. Erano / sono stati in banca."], ["negativo", "It wasn't hard. We weren't late.", "Non è stato difficile. Non eravamo in ritardo."], ["domanda", "Was it hard? Were you there?", "È stato difficile? Eri lì?"], ["risposta breve", "Yes, it was. / No, it wasn't. Yes, I was. / No, I wasn't.", "Sì. / No."], ["how was", "How was the bank? How was your day?", "Com'è andata in banca? Com'è andata la giornata?"], ["there was / were", "There was a line. There were two advisors.", "C'era una fila. C'erano due consulenti."], ["born", "I was born in 1999. Where were you born?", "Sono nato/a nel 1999. Dove sei nato/a?"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "I was here in 2019. It was September and it was warm.", "n": "Ero qui nel 2019. Era settembre e faceva caldo."},
+            {"t": "Were you ever in Canada before? — Yes, I was. Once.", "n": "Sei mai stato in Canada prima? — Sì. Una volta."},
+            {"t": "The advisor was nice, but the fees weren't small.", "n": "Il consulente era gentile, ma le commissioni non erano piccole."},
+            {"t": "Where were you yesterday? — I was at Service Canada all morning.", "n": "Dov'eri ieri? — Ero a Service Canada tutta la mattina."},
+            {"t": "{hero} was born in Toronto; {{his|her}} grandfather was born in Roccamarina.", "n": "{hero} è {{nato|nata}} a Toronto; {{suo|suo}} nonno è nato a Roccamarina.", "note": "was born: sempre al passato, con be"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Ero, sono stato, fui: was", "text": "L'inglese ha un solo passato semplice dove l'italiano ne ha tre. [[It was long]] è «è stata lunga» e anche «era lunga». La differenza fra imperfetto e passato prossimo, che in italiano cambia il senso, in inglese quasi sempre non esiste. Quando serve davvero (azione in corso), c'è il past continuous: [[I was waiting]], unità 11."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I were, you was, they was", "right": "I was, you were, they were", "why": "Was con I / he / she / it; were con you / we / they."},
+            {"wrong": "Did it was hard? Did you were there?", "right": "Was it hard? Were you there?", "why": "Be fa la domanda da solo, senza did."},
+            {"wrong": "I am born in 1999.", "right": "I was born in 1999.", "why": "Born va sempre con was / were."},
+            {"wrong": "It was not hard. (in conversazione)", "right": "It wasn't hard.", "why": "Nel parlato si contrae: wasn't, weren't."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-past-regular", "title": "Past simple regolare: -ed", "category": "Verbi", "rule": "Il passato dei verbi regolari: verbo + -ed, una forma sola per tutte le persone (I waited, she waited, they waited). Negativo: didn't + verbo base. Domanda: Did + soggetto + verbo base. Con yesterday, last week, two weeks ago, in 2019: ogni volta che il momento è passato e finito.", "ref": "past-simple-regular", "blocks": [
+          {"type": "conjugation", "verb": "wait", "tense": "past_simple", "caption": "[[wait|aspettare]] · past simple: affermativo, negativo, domanda"},
+          {"type": "table", "caption": "L'ortografia di -ed", "head": ["Regola", "Esempi"], "rows": [["verbo + ed", "wait → waited · ask → asked · open → opened · sign → signed · call → called"], ["finisce in -e: solo + d", "arrive → arrived · live → lived · like → liked · close → closed"], ["consonante + y: -ied", "apply → applied · study → studied · try → tried · carry → carried"], ["vocale + y: -yed", "play → played · stay → stayed · enjoy → enjoyed"], ["una vocale + una consonante, accento finale: raddoppia", "stop → stopped · plan → planned · prefer → preferred · shop → shopped"], ["-l finale: raddoppia in Canada", "travel → travelled · cancel → cancelled (US: traveled, canceled)"]], "speak": [1], "rowhead": true},
+          {"type": "table", "head": ["", "Inglese", "Italiano"], "rows": [["affermativo", "I arrived two weeks ago.", "Sono arrivato/a due settimane fa."], ["negativo", "I didn't wait long.", "Non ho aspettato molto."], ["domanda", "Did you sign the form?", "Hai firmato il modulo?"], ["risposta breve", "Yes, I did. / No, I didn't.", "Sì. / No."], ["domanda aperta", "When did you arrive? What happened?", "Quando sei arrivato/a? Cos'è successo?"], ["tempo", "yesterday · last night · last week · two days ago · in 2019 · this morning", "ieri · ieri sera · la settimana scorsa · due giorni fa · nel 2019 · stamattina"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Chiara applied for a SIN on Monday and opened an account on Tuesday.", "n": "Chiara ha fatto domanda per il SIN lunedì e ha aperto un conto martedì."},
+            {"t": "I waited forty minutes. I didn't wait on Monday.", "n": "Ho aspettato quaranta minuti. Lunedì non ho aspettato."},
+            {"t": "Did you call Nonna? — Yes, I called her yesterday.", "n": "Hai chiamato la nonna? — Sì, l'ho chiamata ieri."},
+            {"t": "Did {hero} visit you last year? — No, {{he|she}} didn't. {{He|She}} stayed in Roccamarina.", "n": "{hero} ti è {{venuto|venuta}} a trovare l'anno scorso? — No. È {{rimasto|rimasta}} a Roccamarina."},
+            {"t": "What happened? — Nothing happened. It just took a long time.", "n": "Cos'è successo? — Niente. Ci è voluto solo tanto tempo.", "note": "What happened? Who called?: quando la domanda è sul soggetto, niente did"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Passato prossimo = past simple (quasi sempre)", "text": "[[Ho aspettato]] → [[I waited]]. L'inglese ha anche un present perfect, [[I have waited]], ma lo usa in altri casi (unità 13): mai con un momento preciso del passato. [[Yesterday I have opened an account]] è l'errore italiano numero uno. Con yesterday, ago, last, in 2019: past simple."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Yesterday I have opened an account.", "right": "Yesterday I opened an account.", "why": "Momento passato e finito: past simple."},
+            {"wrong": "I didn't waited. Did you signed?", "right": "I didn't wait. Did you sign?", "why": "Dopo did e didn't il verbo torna alla forma base."},
+            {"wrong": "She waiteds. They waited-ed.", "right": "She waited. They waited.", "why": "Una forma sola per tutti."},
+            {"wrong": "I studyed. I stoped. I traveled (in Canada).", "right": "I studied. I stopped. I travelled.", "why": "Le regole di ortografia."},
+            {"wrong": "What did happen?", "right": "What happened?", "why": "Domanda sul soggetto: niente did."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-polite", "title": "Could you…? Would you like…?", "category": "Funzioni", "rule": "Le richieste gentili: Could you + verbo base? (potrebbe…?) e Can you…? (puoi…?). Le offerte: Would you like + nome / to + verbo? (vorrebbe…?). Per chiedere qualcosa per te: I'd like (= I would like) + nome / to + verbo. Could e would sono invariabili e non vogliono to.", "ref": "polite-requests", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano", "Uso"], "rows": [["Could you spell that, please?", "Potrebbe fare lo spelling, per favore?", "richiesta gentile, a tutti"], ["Can you repeat that?", "Puoi ripetere?", "richiesta normale"], ["Could I have a form, please?", "Potrei avere un modulo?", "chiedere per sé"], ["Would you like a credit card?", "Vorrebbe una carta di credito?", "offerta"], ["Would you like to open an account?", "Vorrebbe aprire un conto?", "offerta con verbo: to"], ["I'd like to open an account.", "Vorrei aprire un conto.", "la tua richiesta"], ["I'd like a chequing account, please.", "Vorrei un conto corrente.", "I'd like + nome"], ["Yes, please. / No, thank you. / Sure. / Of course.", "Sì, grazie. / No, grazie. / Certo.", "le risposte"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "Could you say that again, please? — Sure. M6E 4H2.", "n": "Potrebbe ripetere, per favore? — Certo. M6E 4H2."},
+            {"t": "Would you like a receipt? — No, thanks. Would you like to pay by card? — Yes, please.", "n": "Vuole lo scontrino? — No, grazie. Vuole pagare con la carta? — Sì, grazie."},
+            {"t": "I'd like to book an appointment for Thursday morning.", "n": "Vorrei prenotare un appuntamento per giovedì mattina."},
+            {"t": "Could I have your phone number? — Of course. 416-555-0142.", "n": "Potrei avere il suo numero di telefono? — Certo. 416-555-0142."}
+          ]},
+          {"type": "callout", "kind": "tip", "title": "Do you like o would you like?", "text": "[[Do you like coffee?]] chiede un gusto: ti piace il caffè? [[Would you like a coffee?]] è un'offerta: vuoi un caffè? Gli italiani confondono le due perché piacere e volere in inglese finiscono tutte e due in like. Alla cassa, in banca, a cena: would."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Could you to spell? Would you like open?", "right": "Could you spell? Would you like to open?", "why": "Could + base senza to; would like + to + verbo."},
+            {"wrong": "I would like open an account. I like to open an account.", "right": "I'd like to open an account.", "why": "I'd like to + verbo: vorrei. I like = mi piace."},
+            {"wrong": "Yes, I would like.", "right": "Yes, please. / Yes, I'd like that.", "why": "Like vuole sempre un oggetto."},
+            {"wrong": "Give me a form. I want a form.", "right": "Could I have a form, please?", "why": "Non sbagliati, ma bruschi: in inglese la richiesta diretta suona scortese."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-question-words", "title": "Tutte le domande: who, what, where, when, why, how", "category": "Domande", "rule": "Parola interrogativa + verbo ausiliare (do / does / did / is / was / can) + soggetto + verbo. Who e what come soggetto non vogliono do: Who called? What happened? How si combina: how much, how many, how long, how often, how old, how far.", "ref": "question-words", "blocks": [
+          {"type": "table", "head": ["Parola", "Italiano", "Esempio"], "rows": [["who", "chi", "Who is your advisor? Who called?"], ["what", "che cosa, quale", "What do you need? What happened? What time is it?"], ["which", "quale (fra pochi)", "Which account? Which one, the red or the blue?"], ["where", "dove", "Where were you? Where is the branch?"], ["when", "quando", "When did you arrive? When does it open?"], ["why", "perché", "Why do you need a SIN? — Because I want to work."], ["how", "come", "How was the bank? How do you spell that?"], ["whose", "di chi", "Whose bag is this? Whose signature is that?"], ["how much / how many", "quanto / quanti", "How much is the fee? How many documents?"], ["how long", "quanto tempo", "How long did you wait? — Forty minutes."], ["how often", "quanto spesso", "How often do you check your balance?"], ["how old / how far", "quanti anni / quanto lontano", "How old are you? How far is the bank?"]], "speak": [2], "rowhead": true},
+          {"type": "table", "caption": "L'ordine delle parole", "head": ["Parola", "Ausiliare", "Soggetto", "Verbo", ""], "rows": [["Where", "do", "you", "live", "?"], ["When", "did", "she", "arrive", "?"], ["Why", "was", "it", "slow", "?"], ["How much", "is", "the fee", "", "?"], ["What", "can", "I", "do", "?"], ["Who", "", "", "called", "? (who = soggetto)"]], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Who did you talk to? — Amrit. Who called? — Nonna.", "n": "Con chi hai parlato? — Con Amrit. Chi ha chiamato? — La nonna.", "note": "who oggetto: did; who soggetto: niente did"},
+            {"t": "What did they ask for? — Two pieces of ID. Which one did you use? — My passport.", "n": "Cosa hanno chiesto? — Due documenti. Quale hai usato? — Il passaporto."},
+            {"t": "Why didn't you call? — Because I didn't have a phone plan!", "n": "Perché non hai chiamato? — Perché non avevo un piano telefonico!", "note": "why = perché nella domanda, because = perché nella risposta"},
+            {"t": "How long did it take? — Two visits and forty minutes.", "n": "Quanto ci è voluto? — Due visite e quaranta minuti."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Where you live? When she arrived?", "right": "Where do you live? When did she arrive?", "why": "Serve l'ausiliare."},
+            {"wrong": "Who did call? What did happen?", "right": "Who called? What happened?", "why": "Who / what soggetto: niente did."},
+            {"wrong": "How many money? How much people?", "right": "How much money? How many people?", "why": "Much + non numerabile, many + plurale."},
+            {"wrong": "Why you didn't call? Because that I…", "right": "Why didn't you call? Because I…", "why": "Didn't prima del soggetto; because senza that."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-numbers-personal", "title": "Telefono, codice postale, date", "category": "Numeri", "rule": "I numeri di telefono si dicono una cifra alla volta, in gruppi di tre-tre-quattro; lo zero è oh. Il codice postale si legge lettera per lettera e cifra per cifra. Le date: mese + giorno ordinale + anno in due parti (March fifth, nineteen ninety-nine); gli anni dal 2000: two thousand and five, twenty twenty-six.", "ref": "numbers", "blocks": [
+          {"type": "table", "head": ["Scritto", "Detto"], "rows": [["416-555-0142", "four one six, five five five, oh one four two"], ["647-555-9000", "six four seven, five five five, nine thousand (o nine oh oh oh)"], ["M6E 4H2", "em six ee, four aitch two"], ["March 5, 1999", "March fifth, nineteen ninety-nine (o the fifth of March)"], ["2026-10-10", "October tenth, twenty twenty-six"], ["1st · 2nd · 3rd · 4th · 5th · 21st · 22nd · 23rd · 30th", "first · second · third · fourth · fifth · twenty-first · twenty-second · twenty-third · thirtieth"], ["1850 · 1999 · 2005 · 2026", "eighteen fifty · nineteen ninety-nine · two thousand and five · twenty twenty-six"], ["$4.00 · $64.20 · $3,000", "four dollars · sixty-four twenty · three thousand dollars"]], "speak": [1]},
+          {"type": "examples", "items": [
+            {"t": "What's your phone number? — It's 416-555-0142. — Could you repeat that? — Four one six, five five five, oh one four two.", "n": "Qual è il tuo numero? — 416-555-0142. — Puoi ripetere? — Quattro uno sei, cinque cinque cinque, zero uno quattro due."},
+            {"t": "When were you born? — On March fifth, 1999. — And what's today's date? — It's October tenth.", "n": "Quando sei nata? — Il cinque marzo 1999. — E che giorno è oggi? — È il dieci ottobre."},
+            {"t": "My postal code is M6E 4H2. The bank's is M6C 1B5.", "n": "Il mio codice postale è M6E 4H2. Quello della banca è M6C 1B5."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "March five. The five of March.", "right": "March fifth. The fifth of March.", "why": "Le date vogliono l'ordinale, anche se scritto March 5."},
+            {"wrong": "one thousand nine hundred ninety-nine", "right": "nineteen ninety-nine", "why": "Gli anni si dicono a coppie."},
+            {"wrong": "zero one four two (sbagliato? no: possibile)", "right": "oh one four two", "why": "Zero è corretto, ma oh è quello che senti e dici al telefono."},
+            {"wrong": "03/05 = tre maggio", "right": "03/05 = March 5 (sui moduli nordamericani)", "why": "Mese prima del giorno. In dubbio: scrivi il mese in lettere."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "-ed, thirteen / thirty, and the alphabet",
+      "intro": "Tre suoni per una desinenza, i numeri che si confondono al telefono, e le lettere che gli italiani sbagliano. L'A1 finisce con le cose che si sentono di più in un ufficio.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "/t/", "t": "worked", "n": "ha lavorato", "ipa": "wɜrkt", "tip": "Dopo un suono sordo (k, p, s, sh, ch, f): -ed si dice t, una sillaba sola. Worked, asked, stopped, helped, finished, watched, laughed."},
+          {"sound": "/d/", "t": "signed", "n": "ha firmato", "ipa": "saɪnd", "tip": "Dopo un suono sonoro (vocali, n, l, m, v, z, g, b): -ed si dice d, una sillaba sola. Signed, called, arrived, opened, showed, lived, played, spelled."},
+          {"sound": "/ɪd/", "t": "waited", "n": "ha aspettato", "ipa": "ˈweɪtɪd", "tip": "Solo dopo t e d: -ed è una sillaba in più, id. Waited, wanted, needed, visited, started, decided, ended."}
+        ]},
+        {"type": "table", "caption": "La regola in una tabella", "head": ["Ultimo suono del verbo", "-ed si dice", "Sillabe", "Esempi"], "rows": [["t, d", "/ɪd/", "una in più", "waited, needed, visited, started"], ["k, p, s, sh, ch, f, x", "/t/", "le stesse", "asked, stopped, worked, finished, watched"], ["tutti gli altri (vocali, n, l, m, v, z…)", "/d/", "le stesse", "called, signed, arrived, opened, played"]], "speak": [3], "compact": true, "note": "L'errore italiano: dire sempre id. Work-ed con tre sillabe non esiste: workt."},
+        {"type": "minimal", "caption": "I numeri che si confondono", "pairs": [
+          {"a": "thirteen", "b": "thirty", "na": "13 (thir-TEEN)", "nb": "30 (THIR-ty)", "tip": "Accento sulla seconda sillaba per -teen, sulla prima per -ty. Al telefono: one three o three oh."},
+          {"a": "fourteen", "b": "forty", "na": "14", "nb": "40", "tip": "Forty senza u: non fourty."},
+          {"a": "fifteen", "b": "fifty", "na": "15", "nb": "50"},
+          {"a": "eighteen", "b": "eighty", "na": "18", "nb": "80"},
+          {"a": "nineteen", "b": "ninety", "na": "19", "nb": "90", "tip": "Ninety senza e: non ninety → ninty? No: ninety con la e, nineteen con la e. Solo forty perde la u."}
+        ]},
+        {"type": "table", "caption": "Lo spelling al telefono", "head": ["Lettera", "Si dice", "Trappola"], "rows": [["A", "ei", "non a"], ["E", "i", "non e"], ["I", "ai", "non i"], ["G · J", "gi · gei", "gli italiani le scambiano"], ["H", "eich", "non acca"], ["K", "kei", ""], ["R", "ar", "con la r inglese, senza vibrare"], ["U · W", "iu · dabl-iu", ""], ["Y", "uai", "non ipsilon"], ["Z", "zed", "zee negli Stati Uniti"]], "speak": [0], "compact": true, "note": "Per sicurezza: A as in apple, B as in boy, C as in Charlie. Double R = due erre."},
+        {"type": "examples", "items": [
+          {"t": "I waited, I asked and I signed: id, t, d.", "n": "Ho aspettato, ho chiesto e ho firmato: id, t, d."},
+          {"t": "Thirteen or thirty? — Thirteen. One three.", "n": "Tredici o trenta? — Tredici. Uno tre."},
+          {"t": "F as in Frank, E, double R, A, N, T, E. Ferrante.", "n": "F di Frank, E, doppia R, A, N, T, E. Ferrante."}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Your turn · checkpoint A1",
+      "intro": "Trenta esercizi su questa unità, poi il checkpoint A1: dieci esercizi che mischiano tutto dalle unità 1 a 8. Con otto su dieci sei pronto per l'A2.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Was / were", "items": [
+          {"kind": "conjugate", "verb": "be", "tense": "past simple", "n": "essere", "answers": ["was", "were", "was", "were", "were", "were"]},
+          {"kind": "fill", "q": "I ___ (be) in Italy in August. Now I ___ (be) in Toronto.", "answers": [["was"], ["am", "'m"]], "n": "Ad agosto ero in Italia. Adesso sono a Toronto."},
+          {"kind": "fill", "q": "___ you ever in Canada before? — Yes, I ___. I ___ here in 2019.", "answers": [["Were"], ["was"], ["was"]], "n": "Sei mai stato in Canada prima? — Sì. Ero qui nel 2019."},
+          {"kind": "fill", "q": "The bank ___ (not be) far, but the line ___ (be) long.", "answers": [["wasn't", "was not"], ["was"]], "n": "La banca non era lontana, ma la fila era lunga."},
+          {"kind": "mc", "q": "«Com'è andata in banca?»", "options": ["How was the bank?", "How did the bank?", "How the bank was?"], "answer": 0, "why": "How was + nome: was prima del soggetto, niente did con be."},
+          {"kind": "fill", "q": "Where ___ you yesterday? — I ___ at Service Canada all morning.", "answers": [["were"], ["was"]], "n": "Dov'eri ieri? — Ero a Service Canada tutta la mattina."},
+          {"kind": "order", "answer": "The advisor was nice and the fee was small.", "n": "Il consulente era gentile e la commissione era piccola."},
+          {"kind": "translate", "q": "The documents were in my bag.", "answers": ["The documents were in my bag"]}
+        ]},
+        {"type": "exercises", "title": "2 · Past simple regolare", "items": [
+          {"kind": "conjugate", "verb": "wait", "tense": "past simple", "n": "aspettare", "answers": ["waited", "waited", "waited", "waited", "waited", "waited"]},
+          {"kind": "fill", "q": "Chiara ___ (arrive) two weeks ago and ___ (apply) for a SIN on Monday.", "answers": [["arrived"], ["applied"]], "n": "Chiara è arrivata due settimane fa e lunedì ha fatto domanda per il SIN."},
+          {"kind": "fill", "q": "I ___ (not wait) long. ___ you ___ (sign) the form? — Yes, I ___.", "answers": [["didn't wait", "did not wait"], ["Did"], ["sign"], ["did"]], "n": "Non ho aspettato molto. Hai firmato il modulo? — Sì."},
+          {"kind": "fill", "q": "stop → ___ · study → ___ · play → ___ · travel → ___ (grafia canadese)", "answers": [["stopped"], ["studied"], ["played"], ["travelled"]], "n": "fermato · studiato · giocato · viaggiato"},
+          {"kind": "mc", "q": "«Ieri ho aperto un conto.»", "options": ["Yesterday I opened an account.", "Yesterday I have opened an account.", "Yesterday I open an account."], "answer": 0, "why": "Con yesterday il past simple, mai il present perfect e mai il presente."},
+          {"kind": "dictation", "text": "I waited forty minutes and signed six papers.", "n": "Ho aspettato quaranta minuti e ho firmato sei fogli."},
+          {"kind": "translate", "q": "They asked for two pieces of ID.", "answers": ["They asked for two pieces of ID", "They asked me for two pieces of ID"]}
+        ]},
+        {"type": "exercises", "title": "3 · Could you, would you like, le domande", "items": [
+          {"kind": "reply", "line": {"t": "Would you like a credit card?", "n": "Vorrebbe una carta di credito?"}, "options": ["Yes, please. / No, thank you.", "Yes, I like.", "I would."], "answer": 0, "why": "Le risposte a un'offerta: yes, please o no, thank you. Like vuole sempre un oggetto."},
+          {"kind": "fill", "q": "___ you spell your last name, please? — Sure. F-E-R-R-A-N-T-E.", "answers": [["Could", "Can"]], "n": "Potrebbe fare lo spelling del cognome, per favore? — Certo."},
+          {"kind": "match", "q": "Abbina la domanda alla risposta.", "pairs": [["Who did you talk to?", "Amrit, the advisor."], ["Where was the branch?", "On St. Clair."], ["When did you go?", "Yesterday at ten."], ["Why did you go?", "Because I need a debit card."], ["How long did you wait?", "Forty minutes."]]},
+          {"kind": "fill", "q": "___ did you arrive? — Two weeks ago. ___ ___ documents did you bring? — Three.", "answers": [["When"], ["How"], ["many"]], "n": "Quando sei arrivata? — Due settimane fa. Quanti documenti hai portato? — Tre."},
+          {"kind": "mc", "q": "«Vorrei aprire un conto.»", "options": ["I'd like to open an account.", "I like open an account.", "I would like open an account."], "answer": 0, "why": "I'd like to + verbo. I like = mi piace."},
+          {"kind": "order", "answer": "How much is the monthly fee?", "n": "Quant'è il canone mensile?"}
+        ]},
+        {"type": "exercises", "title": "4 · Numeri, date, spelling", "items": [
+          {"kind": "fill", "q": "416-555-0142 → four one six, five five five, ___ one four two.", "answers": [["oh", "zero"]], "n": "Lo zero al telefono."},
+          {"kind": "mc", "q": "Which one is a Canadian postal code?", "options": ["M6E 4H2", "73100", "M6E4H"], "answer": 0, "why": "Lettera-cifra-lettera, spazio, cifra-lettera-cifra. 73100 è un CAP italiano."},
+          {"kind": "fill", "q": "March 5 si dice «March ___». 1999 si dice «___ ninety-nine».", "answers": [["fifth"], ["nineteen"]], "n": "Le date con l'ordinale; gli anni a coppie."},
+          {"kind": "fill", "q": "thir-TEEN ha l'accento sulla ___ sillaba; THIR-ty sulla ___.", "answers": [["seconda"], ["prima"]], "n": "13 e 30 si distinguono con l'accento."},
+          {"kind": "fill", "q": "I ___ (work) → una sillaba, /t/. I ___ (need) → due sillabe, /ɪd/. I ___ (call) → una sillaba, /d/.", "answers": [["worked"], ["needed"], ["called"]], "n": "I tre suoni di -ed."},
+          {"kind": "translate", "q": "Could you repeat the postal code, please?", "answers": ["Could you repeat the postal code, please", "Can you repeat the postal code, please"]}
+        ]},
+        {"type": "exercises", "title": "5 · Checkpoint A1 · Units 1–8", "intro": "Dieci esercizi su tutto quello che hai visto finora. Otto o più: sei pronto per l'A2.", "review": true, "items": [
+          {"kind": "fill", "q": "Hi! My name ___ Chiara, I ___ from Italy and I ___ (live) in Toronto with my aunt.", "answers": [["is", "'s"], ["am", "'m", "come"], ["live"]], "n": "Ciao! Mi chiamo Chiara, sono italiana e vivo a Toronto con mia zia."},
+          {"kind": "fill", "q": "There ___ a kitchen in the basement and there ___ two bathrooms. There ___ any dishwasher.", "answers": [["is", "'s"], ["are"], ["isn't", "is not"]], "n": "C'è una cucina nel seminterrato e ci sono due bagni. Non c'è la lavastoviglie."},
+          {"kind": "fill", "q": "Sofia ___ (study) at U of T. She ___ (not have) a car. ___ she ___ (like) winter? — Yes, she ___.", "answers": [["studies"], ["doesn't have", "does not have"], ["Does"], ["like"], ["does"]], "n": "Sofia studia alla U of T. Non ha la macchina. Le piace l'inverno? — Sì."},
+          {"kind": "order", "answer": "I always take the streetcar to work.", "n": "Prendo sempre il tram per andare al lavoro."},
+          {"kind": "fill", "q": "Turn ___ at the lights, go ___ the bridge, and the bank is ___ the left. (sinistra / attraverso / a)", "answers": [["left"], ["across", "over"], ["on"]], "n": "Gira a sinistra al semaforo, attraversa il ponte, e la banca è sulla sinistra."},
+          {"kind": "fill", "q": "Is there ___ milk? — No, there isn't ___. We need ___ eggs too. (some / any)", "answers": [["any"], ["any"], ["some"]], "n": "C'è del latte? — No, non ce n'è. Ci servono anche delle uova."},
+          {"kind": "fill", "q": "{hero} calls every Sunday and I call ___ on Wednesdays. Teresa loves ___ (Chiara and Sofia) like daughters.", "answers": [[{"m": "him", "f": "her"}], ["us"]], "n": "{hero} chiama ogni domenica e io {{lo|la}} chiamo il mercoledì. Teresa ci ama come figlie."},
+          {"kind": "fill", "q": "What time ___ it? — ___ half past nine. The bank opens ___ ten.", "answers": [["is", "'s"], ["It's", "It is"], ["at"]], "n": "Che ore sono? — Le nove e mezza. La banca apre alle dieci."},
+          {"kind": "translate", "q": "I arrived in September and I opened a bank account yesterday.", "answers": ["I arrived in September and I opened a bank account yesterday", "I arrived in September and opened a bank account yesterday"]},
+          {"kind": "write", "q": "Scrivi sei frasi su di te per un modulo e per il consulente: nome e cognome, nazionalità, data e luogo di nascita, da quando sei qui, il tuo indirizzo, e due cose che hai fatto questa settimana.", "model": "My name is Chiara Ferrante and I'm Italian. I was born in Roccamarina on March fifth, 1999. I arrived in Toronto two weeks ago. I live at 46 Nairn Avenue, M6E 4H2. This week I applied for a SIN and I opened a bank account. I also spelled my name eleven times.", "hint": "My name is… · I'm… · I was born… · I arrived… · I live at… · This week I…"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Living there: the paper side of Canada",
+      "intro": "Il SIN, le banche, il telefono, la posta e il documento che non esiste. L'altro lato del Canada: non quello delle foglie rosse, quello dei moduli.",
+      "blocks": [
+        {"type": "subhead", "text": "Il SIN e Service Canada"},
+        {"type": "prose", "text": "Il [[Social Insurance Number]] è il tuo codice fiscale: nove cifre, obbligatorio per lavorare, pagare le tasse e avere i servizi. Si fa a [[Service Canada]], l'ufficio federale che gestisce pensioni, disoccupazione e documenti, con passaporto e permesso di lavoro: gratis, in una visita, spesso in venti minuti. Dal 2014 non è più una tessera ma una lettera con il numero: la lettera si conserva, il numero si impara. Se comincia con 9, è un numero temporaneo legato al permesso di lavoro, da rinnovare con il permesso. Non lo dai a nessuno tranne il datore di lavoro, la banca e il fisco: con il tuo SIN qualcuno può aprire conti a tuo nome, e il furto d'identità è un'industria."},
+        {"type": "subhead", "text": "Le banche"},
+        {"type": "prose", "text": "Cinque grandi banche ([[the Big Five]]: RBC, TD, Scotiabank, BMO, CIBC) e alcune online senza canone. Due conti di base: il [[chequing account]], il conto corrente per stipendio e spese, e il [[savings account]], il risparmio. Il chequing spesso ha un canone mensile, da quattro a trenta dollari, azzerato se tieni un saldo minimo: molti nuovi arrivati hanno un pacchetto gratuito per il primo anno. La [[debit card]] arriva per posta; con [[Interac]] paghi in ogni negozio e con [[e-Transfer]] mandi soldi a chiunque con un'email, gratis, in un minuto: così si paga l'affitto, la cena divisa, l'idraulico."},
+        {"type": "callout", "kind": "real", "title": "La credit history che non hai", "text": "In Canada tutto gira intorno al [[credit score]]: un punteggio da 300 a 900 che misura quanto bene hai pagato i tuoi debiti. Chi arriva non ne ha uno, e senza punteggio è difficile avere un affitto, un piano telefonico con contratto, un prestito. Il consiglio di ogni consulente, e di Amrit: prendi subito una carta di credito piccola, anche garantita da un deposito ([[secured credit card]]), usala per la spesa e [[pay it in full every month]]. In sei mesi hai un punteggio. In un anno, hai una storia."},
+        {"type": "subhead", "text": "Il telefono"},
+        {"type": "prose", "text": "I piani telefonici canadesi sono fra i più cari del mondo: tre operatori grandi (Rogers, Bell, Telus) e i loro marchi economici (Fido, Virgin, Koodo, Freedom, Public Mobile). Senza credit history il contratto è difficile: si parte con un piano [[prepaid]] o [[bring your own phone]], da trenta a sessanta dollari al mese. I numeri hanno dieci cifre; [[416]], [[647]] e [[437]] sono Toronto, e si chiama con tutte e dieci, anche in città. I numeri [[1-800]] sono gratuiti; il [[911]] è l'emergenza; il [[311]] è il comune."},
+        {"type": "subhead", "text": "Canada Post e il codice postale"},
+        {"type": "prose", "text": "Il codice postale canadese alterna lettere e cifre: [[M6E 4H2]]. La prima lettera è la regione (M è Toronto, tutta; L l'Ontario intorno; H Montréal; V Vancouver); le prime tre caratteri sono il quartiere, gli ultimi tre il lato della strada o il palazzo. È così preciso che spesso basta il codice e il numero civico. L'indirizzo si scrive al contrario dell'Italia: numero, via, città, provincia in due lettere, codice: [[46 Nairn Ave, Toronto ON M6E 4H2]]. La posta arriva nella cassetta di casa o in una [[community mailbox]] in fondo alla strada."},
+        {"type": "callout", "kind": "culture", "title": "Il documento che non esiste", "text": "In Canada non c'è la carta d'identità. Il documento di tutti i giorni è la [[driver's licence]], la patente; chi non guida fa la [[Ontario Photo Card]], uguale alla patente ma senza il permesso di guidare. Il passaporto resta a casa, in un cassetto. Per le banche e i contratti servono [[two pieces of ID]], e la [[health card]] (la tessera sanitaria, unità 12) a volte non vale perché la legge dell'Ontario ne limita l'uso. Nessuno ti ferma per strada e ti chiede i documenti. Non è un diritto scritto: è un'abitudine, e vale più di un articolo."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In short · A1",
+      "intro": "Questa unità, poi tutto l'A1 in una schermata. Poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Past simple", "rows": [["was (I, he, she, it) · were (you, we, they) · wasn't / weren't · Was it…? Were you…?", "be al passato"], ["waited · arrived · applied · stopped · travelled", "-ed e la sua ortografia"], ["I didn't wait. Did you sign? — Yes, I did. What happened?", "negativo, domanda, soggetto"], ["yesterday · last week · two weeks ago · in 2019 · this morning", "quando"], ["/t/ worked · /d/ signed · /ɪd/ waited", "tre suoni"]]},
+          {"title": "Gentilezza e domande", "rows": [["Could you…? Can you…? Could I have…? Would you like (to)…? I'd like (to)…", "richieste e offerte"], ["who · what · which · where · when · why · how · whose · how much / many / long / often / old / far", "+ ausiliare + soggetto + verbo"], ["four one six, five five five, oh one four two · M6E 4H2 · March fifth, 1999", "i tuoi numeri"]]},
+          {"title": "L'A1 in una schermata", "rows": [["am / is / are · have / has · there is / are · present simple (-s, do / does) · can · imperativo · was / were · -ed", "verbi"], ["a / an · the · plurali (-s, -es, -ies, irregolari) · some / any · much / many · a lot of", "nomi e quantità"], ["I / me / my · this / that / these / those · aggettivi invariabili · avverbi di frequenza", "pronomi e aggettivi"], ["numeri · ore · giorni · date · prezzi · telefono · codice postale", "numeri e tempo"], ["salutare · presentarsi · ordinare · chiedere la strada · fare la spesa · allo sportello", "situazioni"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

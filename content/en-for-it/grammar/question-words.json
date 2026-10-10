@@ -1,0 +1,26 @@
+{"id": "question-words", "title": "Le parole interrogative", "category": "Domande", "rule": "Who, what, which, where, when, why, how, whose, e le combinazioni di how (how much, how many, how long, how often, how old, how far). Ordine: parola interrogativa + ausiliare (do / does / did / be / can / will) + soggetto + verbo. Quando who o what è il soggetto, niente ausiliare: Who called? What happened? Le preposizioni restano alla fine: Who did you talk to? Where are you from?", "units": ["08"], "blocks": [
+  {"type": "table", "head": ["Parola", "Italiano", "Esempio"], "rows": [["who", "chi", "Who is she? Who did you call? Who called?"], ["what", "che cosa; quale (aperto)", "What is it? What do you do? What time is it? What colour?"], ["which", "quale (fra pochi)", "Which account? Which one? Which bus goes downtown?"], ["where", "dove", "Where are you from? Where did you go?"], ["when", "quando", "When does it open? When were you born?"], ["why", "perché (domanda)", "Why are you late? Why didn't you call?"], ["how", "come", "How are you? How do you spell it? How was it?"], ["whose", "di chi", "Whose phone is this? Whose turn is it?"], ["how much", "quanto (non numerabile; prezzo)", "How much is it? How much time do we have?"], ["how many", "quanti", "How many people? How many times?"], ["how long", "quanto tempo; quanto lungo", "How long did you wait? How long is the bridge?"], ["how often", "quanto spesso", "How often do you call home?"], ["how old", "quanti anni", "How old are you? How old is the house?"], ["how far", "quanto lontano", "How far is the bank? — Ten minutes on foot."]], "speak": [2], "rowhead": true},
+  {"type": "table", "caption": "L'ordine", "head": ["Parola", "Ausiliare", "Soggetto", "Verbo…"], "rows": [["Where", "do", "you", "live?"], ["What", "does", "she", "do?"], ["When", "did", "they", "arrive?"], ["Why", "is", "it", "closed?"], ["How long", "were", "you", "there?"], ["How much", "can", "I", "withdraw?"], ["Who", "", "", "called? (who è il soggetto)"], ["What", "", "", "happened? (what è il soggetto)"]], "compact": true},
+  {"type": "examples", "items": [
+    {"t": "Who did you talk to? — Amrit. Who talked to you? — Amrit.", "n": "Con chi hai parlato? — Con Amrit. Chi ti ha parlato? — Amrit.", "note": "who oggetto con did; who soggetto senza"},
+    {"t": "What's your name? What do you do? What time does the bank close?", "n": "Come ti chiami? Che lavoro fai? A che ora chiude la banca?", "note": "what's your name, non how is your name"},
+    {"t": "Which one do you want, the red or the blue? — The blue one.", "n": "Quale vuoi, il rosso o il blu? — Il blu."},
+    {"t": "Where are you from? Who is it for? What are you looking for?", "n": "Di dove sei? Per chi è? Cosa cerchi?", "note": "la preposizione alla fine"},
+    {"t": "Why didn't you call? — Because I didn't have a number yet.", "n": "Perché non hai chiamato? — Perché non avevo ancora un numero."},
+    {"t": "How often do you check your balance? — Every day. How far is the branch? — Two stops.", "n": "Quanto spesso controlli il saldo? — Ogni giorno. Quanto è lontana la filiale? — Due fermate."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "Come, perché, quale", "text": "Tre trappole italiane. [[Come ti chiami?]] è [[What's your name?]], non how. [[Perché]] è [[why]] nella domanda e [[because]] nella risposta. [[Quale]] è [[what]] se la scelta è aperta ([[What colour do you like?]]) e [[which]] se è fra poche cose davanti a te ([[Which colour, red or blue?]])."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Where you live? What she does?", "right": "Where do you live? What does she do?", "why": "L'ausiliare dopo la parola interrogativa."},
+    {"wrong": "Who did call? What did happen?", "right": "Who called? What happened?", "why": "Soggetto interrogato: niente did."},
+    {"wrong": "How is your name? How do you call this?", "right": "What's your name? What do you call this?", "why": "What, non how."},
+    {"wrong": "From where are you? To who did you talk?", "right": "Where are you from? Who did you talk to?", "why": "La preposizione alla fine."},
+    {"wrong": "How much people? How many money?", "right": "How many people? How much money?", "why": "Many + plurale, much + non numerabile."},
+    {"wrong": "Why you didn't call?", "right": "Why didn't you call?", "why": "Didn't prima del soggetto."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ do you live? — On Nairn Avenue. ___ long have you been here? — Two weeks. ___ did you come? — Because of the bakery.", "answers": [["Where"], ["How"], ["Why"]], "n": "Dove abiti? — Su Nairn Avenue. Da quanto sei qui? — Due settimane. Perché sei venuta? — Per la pasticceria."},
+    {"kind": "mc", "q": "«Chi ha chiamato?»", "options": ["Who called?", "Who did call?", "Who did he call?"], "answer": 0, "why": "Who è il soggetto: niente did. Who did he call? = chi ha chiamato lui?"},
+    {"kind": "order", "answer": "What time does the bank close on Fridays?", "n": "A che ora chiude la banca il venerdì?"}
+  ]}
+]}
