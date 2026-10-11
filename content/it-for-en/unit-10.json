@@ -1,0 +1,331 @@
+{
+  "id": "10",
+  "level": "A2",
+  "title": "Cerco un locale",
+  "subtitle": "Looking for a shop",
+  "intro": "Three ads, three phone calls, three visits with Tommaso: a damp garage by the port, a bright and expensive shop on the Corso, a former barber's with a view of the sea. To choose, you compare: bigger, darker, more expensive than, the smallest of the three, the best. This unit adds comparatives and superlatives, the direct object pronouns (lo prendo), ci for places (ci sono tornato), the possessive pronouns, and the words that make a phone call work.",
+  "objectives": [
+    "Compare places and things: [[più grande del garage]], [[meno caro di]], [[più caro che bello]], [[migliore]], [[peggio]]",
+    "Say which is the most: [[il più bello del paese]], [[il più piccolo dei tre]], [[luminosissimo]]",
+    "Replace things with a pronoun: [[lo prendo]], [[la chiamo]], [[li ho visti]], [[le ho già pagate]]",
+    "Say there with [[ci]] and mine / yours with [[il mio]], [[il tuo]]: [[ci sono tornato]], [[il tuo è meglio del mio]]",
+    "Phone an owner: [[Pronto?]], [[Chiamo per l'annuncio]], [[È ancora disponibile?]], [[Quanto chiede?]], [[Posso vederlo?]]"
+  ],
+  "canDo": [
+    "A2 · Spoken interaction: can make a simple phone call to ask for information and arrange an appointment.",
+    "A2 · Spoken production: can describe and compare places, and give reasons for a preference.",
+    "A2 · Reading: can understand short classified ads with their abbreviations.",
+    "A2 · Listening: can understand the key facts in a phone conversation (price, size, time).",
+    "A2 · Writing: can write a short message comparing two options and stating a choice."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Pronto?",
+      "intro": "Three phone calls on Monday, the verdict at the bar on Friday. Listen for the pronouns (lo vuole vedere?, li hai visti?, la chiamo) and for più… di, il più… del, migliore and peggio.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-telefonate", "title": "Tre telefonate", "setting": "Lunedì mattina, il tavolo di cucina. Tre annunci cerchiati: uno sul giornale locale, due sul telefono. Un caffè, un foglio, una penna.", "register": "formale, al telefono", "lines": [
+          {"stage": "Ad 1: AFFITTASI garage 60 mq, zona porto, bagno, saracinesca. € 350/mese. Tel. 338 555 0121."},
+          {"who": "Perrone", "t": "Pronto?", "n": "Hello?", "note": "Pronto: the Italian way to answer the phone. Literally \"ready\". Rising intonation."},
+          {"who": "hero", "t": "Buongiorno, chiamo per l'annuncio del garage al porto. È ancora disponibile?", "n": "Good morning, I'm calling about the ad for the garage at the port. Is it still available?", "note": "Chiamo per = I'm calling about. The sentence that opens every call about an ad."},
+          {"who": "Perrone", "t": "Sì, sì. Sessanta metri quadri, con la saracinesca. Trecentocinquanta al mese.", "n": "Yes, yes. Sixty square metres, with the roller shutter. Three hundred and fifty a month.", "note": "Metri quadri: square metres. Al mese: a month."},
+          {"who": "hero", "t": "È luminoso? Ha un bagno?", "n": "Is it bright? Does it have a bathroom?"},
+          {"who": "Perrone", "t": "Un bagno sì. Luminoso… è un garage. Lo vuole vedere?", "n": "A bathroom, yes. Bright… it's a garage. Do you want to see it?", "note": "Lo vuole vedere? Lo = il garage, before the conjugated verb. Also: vuole vederlo."},
+          {"who": "hero", "t": "Sì, lo vorrei vedere. Domani alle dieci va bene?", "n": "Yes, I'd like to see it. Is tomorrow at ten all right?", "note": "Lo vorrei vedere / vorrei vederlo: both correct. Va bene? = is that okay?"},
+          {"who": "Perrone", "t": "Va bene. La aspetto al porto, davanti al bar.", "n": "All right. I'll wait for you at the port, in front of the bar.", "note": "La aspetto: La = you, formal, as object. Aspettare takes a direct object, no preposition."},
+          {"stage": "Ad 2: Corso Umberto, negozio 80 mq, 2 vetrine, pavimento nuovo, risc. aut. € 1.000/mese + spese."},
+          {"who": "Lezzi", "t": "Pronto, chi parla?", "n": "Hello, who's speaking?"},
+          {"who": "hero", "t": "Sono {hero} Ferrante. Chiamo per il negozio sul Corso. Quanto chiede di affitto?", "n": "This is {hero} Ferrante. I'm calling about the shop on the Corso. How much are you asking in rent?", "note": "Sono + name: this is. Quanto chiede? How much are you asking? Chiedere = to ask for."},
+          {"who": "Lezzi", "t": "Mille al mese, più le spese. Ma è il locale più bello del paese: due vetrine, pavimento nuovo, riscaldamento autonomo.", "n": "A thousand a month, plus charges. But it's the most beautiful premises in town: two shop windows, new floor, independent heating.", "note": "Il locale più bello del paese: the relative superlative, with di after it. Le spese: the charges (condominium, services)."},
+          {"who": "hero", "t": "Mille è tanto. È trattabile?", "n": "A thousand is a lot. Is it negotiable?", "note": "Trattabile: negotiable. Ads write tratt. after the price."},
+          {"who": "Lezzi", "t": "Tutto è trattabile. Venga a vederlo giovedì. Alle undici.", "n": "Everything is negotiable. Come and see it on Thursday. At eleven.", "note": "Venga a vederlo: formal imperative + a + infinitive with the pronoun attached."},
+          {"stage": "Ad 3: Via Marina, ex barbiere, 35 mq, vista mare, spese incluse. € 500 tratt."},
+          {"who": "Rosaria", "t": "Pronto?", "n": "Hello?"},
+          {"who": "hero", "t": "Buongiorno, chiamo per il locale in via Marina, l'ex barbiere.", "n": "Good morning, I'm calling about the premises in via Marina, the former barber's."},
+          {"who": "Rosaria", "t": "Ah, il negozio di mio marito. Lo affitto da due anni e non lo vuole nessuno: è piccolo.", "n": "Ah, my husband's shop. I've been renting it out for two years and nobody wants it: it's small.", "note": "Lo affitto da due anni: present + da. Non lo vuole nessuno: pronoun before the verb, nessuno after."},
+          {"who": "hero", "t": "Quanto è piccolo?", "n": "How small is it?", "note": "Quanto + adjective: how + adjective."},
+          {"who": "Rosaria", "t": "Trentacinque metri. Ma c'è la vista sul mare. Cinquecento, e le spese le pago io.", "n": "Thirty-five metres. But there's the sea view. Five hundred, and the charges I pay myself.", "note": "Le spese le pago io: the noun first, then its pronoun, then the verb. Spoken Italian does this for emphasis; recognise it."},
+          {"who": "hero", "t": "Posso vederlo venerdì?", "n": "Can I see it on Friday?", "note": "Vederlo: the pronoun attached to the infinitive after a modal. Also: lo posso vedere."},
+          {"who": "Rosaria", "t": "Venerdì alle cinque. La aspetto lì. Porti qualcuno: lo specchio è pesante.", "n": "Friday at five. I'll wait for you there. Bring someone: the mirror is heavy.", "note": "Porti: formal imperative of portare."}
+        ], "notes": [
+          {"phrase": "Pronto? · Chi parla? · Sono {hero}. · Chiamo per… · La aspetto.", "note": "The five pieces of a phone call. Pronto to answer, chi parla to ask, sono to say who you are, chiamo per to say why, la aspetto to close."},
+          {"phrase": "Lo vuole vedere? · Vorrei vederlo. · Posso vederlo? · Non lo vuole nessuno.", "note": "Lo = the garage, the shop. Before a conjugated verb, or attached to an infinitive."},
+          {"phrase": "il locale più bello del paese", "note": "The superlative: article + più + adjective + di + the group. Il più bello del paese, il più piccolo dei tre."},
+          {"phrase": "mq · tratt. · risc. aut. · spese incl. · pt", "note": "Ad abbreviations: metri quadri, trattabile, riscaldamento autonomo, spese incluse, piano terra. The vocabulary section has the list."}
+        ]},
+        {"type": "scene", "id": "dlg-confronto", "title": "Il più piccolo dei tre", "setting": "Venerdì sera, Bar del Corso. Tre visite fatte, tre foto sul telefono. Tommaso con una birra e un'opinione.", "register": "informale", "lines": [
+          {"who": "Tommaso", "t": "Allora, li hai visti tutti e tre? Qual è il migliore?", "n": "So, did you see all three of them? Which is the best?", "note": "Li hai visti: li = i locali, and the participle agrees: visti. Il migliore: the best, irregular."},
+          {"who": "hero", "t": "Non lo so. Il garage è il più grande, ma è più umido della cantina di Dora. E più buio.", "n": "I don't know. The garage is the biggest, but it's damper than Dora's cellar. And darker.", "note": "Più umido della cantina: più + adjective + di (+ article). Il più grande: superlative without the group named."},
+          {"who": "Tommaso", "t": "Umido è peggio di buio. Le bici arrugginiscono. E il negozio sul Corso?", "n": "Damp is worse than dark. Bikes rust. And the shop on the Corso?", "note": "Peggio di: worse than, the irregular adverb. Arrugginire: to rust, -isc- verb."},
+          {"who": "hero", "t": "Bellissimo. Luminosissimo. Due vetrine, pavimento nuovo. Costa il doppio degli altri.", "n": "Beautiful. Incredibly bright. Two windows, new floor. It costs twice as much as the others.", "note": "-issimo: the absolute superlative. Il doppio di: twice as much as."},
+          {"who": "Tommaso", "t": "Mille al mese per riparare biciclette? È più caro che bello. Lo sai quante bici devi riparare al mese per pagare l'affitto?", "n": "A thousand a month to repair bicycles? It's more expensive than it is beautiful. Do you know how many bikes you have to repair a month to pay the rent?", "note": "Più caro che bello: che between two adjectives of the same thing. Lo sai: lo = that, the whole question."},
+          {"who": "hero", "t": "Tante. E poi c'è il barbiere. È il più piccolo dei tre, trentacinque metri, ma ha la vista sul mare e costa meno del garage.", "n": "A lot. And then there's the barber's. It's the smallest of the three, thirty-five metres, but it has the sea view and it costs less than the garage.", "note": "Il più piccolo dei tre: of the three. Meno del garage: less than."},
+          {"who": "Tommaso", "t": "Trentacinque metri sono pochi per un'officina. Ci entrano quattro bici.", "n": "Thirty-five metres is not much for a workshop. Four bikes fit in there.", "note": "Ci entrano: ci = there, in it. Entrarci = to fit."},
+          {"who": "hero", "t": "Ci entrano quattro bici e un banco. E la gente passa di lì per andare al mare: la vetrina lavora da sola.", "n": "Four bikes and a workbench fit in there. And people go past there on the way to the sea: the window does the work by itself.", "note": "Passa di lì: goes past there. Da sola: by itself."},
+          {"who": "Tommaso", "t": "Ci sei tornato dopo la visita?", "n": "Did you go back there after the visit?", "note": "Ci sei tornato: ci before the auxiliary. To Luca; Tommaso would say ci sei tornata to Lucia."},
+          {"who": "hero", "t": {"m": "Ci sono tornato stasera. Ci sono stato un'ora, a guardare il mare. Lo prendo.", "f": "Ci sono tornata stasera. Ci sono stata un'ora, a guardare il mare. Lo prendo.", "note": "Ci sono tornato / tornata, ci sono stato / stata: essere, agreement, ci before it all."}, "n": "I went back there tonight. I stayed there an hour, looking at the sea. I'm taking it."},
+          {"who": "Tommaso", "t": "Lo prendi. Bene. E chi ti aiuta a montare il banco? Il mio è pesante, ma te lo presto.", "n": "You're taking it. Good. And who's helping you set up the workbench? Mine is heavy, but I'll lend it to you.", "note": "Il mio = mine: the possessive pronoun keeps the article. Te lo presto: two pronouns, unit 14; recognise."},
+          {"who": "hero", "t": "Il tuo è meglio del mio? Il mio è ancora a Toronto.", "n": "Is yours better than mine? Mine is still in Toronto.", "note": "Meglio del mio: better than mine. Il tuo, il mio: yours, mine."},
+          {"who": "Tommaso", "t": "Allora il mio è l'unico. Chiama la signora. Chiamala adesso.", "n": "Then mine is the only one. Call the lady. Call her now.", "note": "Chiamala: the pronoun attached to the tu imperative. Chiama + la."},
+          {"who": "hero", "t": "La chiamo domani. Adesso offro io. Nando, due birre!", "n": "I'll call her tomorrow. Now it's on me. Nando, two beers!", "note": "La chiamo: la = la signora. Offro io: my treat."},
+          {"who": "Nando", "t": "Due birre le ho già portate. Le paghi a fine mese, come tutti.", "n": "Two beers, I've already brought them. You pay for them at the end of the month, like everybody.", "note": "Le ho già portate: le = le birre, and the participle agrees: portate. The bar tab: Nando's banking system."}
+        ], "notes": [
+          {"phrase": "più umido della cantina · peggio di buio · più caro che bello · meno del garage", "note": "Four comparisons: di before a noun, che between two adjectives, the irregular peggio, and meno di."},
+          {"phrase": "il più grande · il più piccolo dei tre · il migliore · bellissimo", "note": "Relative superlatives with il più and the irregular il migliore; the absolute -issimo."},
+          {"phrase": "li hai visti · le ho già portate · lo prendo · chiamala", "note": "Direct object pronouns, with the participle agreeing in the past (visti, portate) and the pronoun attached to the imperative."},
+          {"phrase": "ci entrano · ci sei tornato · ci sono stato", "note": "Ci = there. Before the verb, before the auxiliary in compound tenses."}
+        ], "questions": [
+          {"kind": "tf", "q": "The shop on the Corso is the cheapest of the three.", "t": "Costa il doppio degli altri.", "answer": false, "why": "It costs twice as much as the others: a thousand a month plus charges."},
+          {"kind": "mc", "q": "Why does the protagonist choose the former barber's?", "options": ["It has the sea view, people walk past it, and it costs less than the garage.", "It is the biggest of the three.", "Tommaso prefers it."], "answer": 0, "why": "Ha la vista sul mare, la gente passa di lì, e costa meno del garage. Tommaso has doubts about the size."},
+          {"kind": "fill", "q": "Il garage è ___ umido ___ cantina di Dora. (more… than)", "answers": [["più"], ["della"]], "n": "The garage is damper than Dora's cellar."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Locali, annunci, telefonate",
+      "intro": "The words of premises and rent, the adjectives that compare them, the language of the phone, and the abbreviations of the ads.",
+      "blocks": [
+        {"type": "vocab", "theme": "Il locale", "n": "The premises", "items": [
+          {"t": "locale", "n": "premises; venue", "article": "il", "gender": "m", "plural": "i locali", "pos": "noun", "ex": {"t": "Cerco un locale per un'officina di biciclette.", "n": "I'm looking for premises for a bicycle workshop."}, "note": "Also a bar or club: un locale notturno. The adjective locale = local."},
+          {"t": "affitto", "n": "rent", "article": "l'", "gender": "m", "plural": "gli affitti", "pos": "noun", "ex": {"t": "L'affitto è di cinquecento euro al mese, spese incluse.", "n": "The rent is five hundred euros a month, charges included."}, "note": "In affitto = rented. Affittare: to rent (either direction). Affittasi: for rent (on signs)."},
+          {"t": "affittare", "n": "to rent (out)", "pos": "verb", "ex": {"t": "La signora affitta il locale da due anni. Lo affitto io!", "n": "The lady has been renting the premises out for two years. I'll rent it!"}, "note": "Both to rent and to let. Prendere in affitto = to rent (as tenant); dare in affitto = to let."},
+          {"t": "proprietario", "n": "owner, landlord", "article": "il", "gender": "m", "plural": "i proprietari", "pos": "noun", "forms": "la proprietaria", "ex": {"t": "Il proprietario chiede mille euro al mese.", "n": "The owner is asking a thousand euros a month."}, "note": "Padrone di casa: landlord, more colloquial. Inquilino: tenant."},
+          {"t": "annuncio", "n": "ad, advertisement", "article": "l'", "gender": "m", "plural": "gli annunci", "pos": "noun", "ex": {"t": "Chiamo per l'annuncio del garage.", "n": "I'm calling about the ad for the garage."}, "note": "Annunci immobiliari: property ads. Mettere un annuncio: to place an ad."},
+          {"t": "vetrina", "n": "shop window", "article": "la", "gender": "f", "plural": "le vetrine", "pos": "noun", "ex": {"t": "Due vetrine sul Corso: la gente guarda.", "n": "Two shop windows on the Corso: people look."}, "note": "Guardare le vetrine: window-shopping. Insegna: the shop sign."},
+          {"t": "magazzino", "n": "storeroom, warehouse", "article": "il", "gender": "m", "plural": "i magazzini", "pos": "noun", "ex": {"t": "Non c'è magazzino: i pezzi stanno sotto il banco.", "n": "There's no storeroom: the parts go under the counter."}, "note": "Also a department store (grandi magazzini)."},
+          {"t": "contratto", "n": "contract, lease", "article": "il", "gender": "m", "plural": "i contratti", "pos": "noun", "ex": {"t": "Il contratto è di sei anni più sei.", "n": "The lease is six years plus six."}, "note": "Contratto d'affitto, contratto di locazione (the legal term). Firmare il contratto: to sign."},
+          {"t": "caparra", "n": "deposit", "article": "la", "gender": "f", "plural": "le caparre", "pos": "noun", "ex": {"t": "Vuole due mesi di caparra.", "n": "She wants two months' deposit."}, "note": "Also cauzione. You get it back at the end, in theory."},
+          {"t": "spese", "n": "charges, expenses", "article": "le", "gender": "f", "pos": "noun", "ex": {"t": "Mille al mese più le spese. Le spese le pago io.", "n": "A thousand a month plus charges. The charges are on me."}, "note": "Spese condominiali: building charges. Spese incluse / escluse: included / not included."},
+          {"t": "metro quadro", "n": "square metre", "article": "il", "gender": "m", "plural": "i metri quadri", "pos": "noun", "ex": {"t": "Sessanta metri quadri. Ads write 60 mq.", "n": "Sixty square metres."}, "note": "Also metro quadrato. Thirty-five metres for a shop is small; eighty is roomy."},
+          {"t": "saracinesca", "n": "roller shutter", "article": "la", "gender": "f", "plural": "le saracinesche", "pos": "noun", "ex": {"t": "La saracinesca si alza alle otto.", "n": "The shutter goes up at eight."}, "note": "Every Italian shop has one. Abbassare / alzare la saracinesca: to close / open up."},
+          {"t": "piano terra", "n": "ground floor", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Il locale è al piano terra, con ingresso sulla strada.", "n": "The premises are on the ground floor, with an entrance on the street."}, "note": "Abbreviated pt. Primo piano: first floor (the one above)."},
+          {"t": "riscaldamento", "n": "heating", "article": "il", "gender": "m", "pos": "noun", "ex": {"t": "Riscaldamento autonomo: paghi quello che usi.", "n": "Independent heating: you pay for what you use."}, "note": "Autonomo (your own boiler) vs centralizzato (shared). Risc. aut. in ads."},
+          {"t": "officina", "n": "workshop, garage (repairs)", "article": "l'", "gender": "f", "plural": "le officine", "pos": "noun", "ex": {"t": "Un'officina di biciclette con vista sul mare.", "n": "A bicycle workshop with a sea view."}, "note": "Officina meccanica: a car repair shop. Garage: the parking space or the building."}
+        ]},
+        {"type": "vocab", "theme": "Com'è il locale?", "n": "What are the premises like?", "items": [
+          {"t": "luminoso", "n": "bright, full of light", "pos": "adj.", "ex": {"t": "Il negozio sul Corso è luminosissimo.", "n": "The shop on the Corso is incredibly bright."}, "note": "Luce: light. The opposite is buio."},
+          {"t": "buio", "n": "dark", "pos": "adj.", "ex": {"t": "Il garage è buio anche a mezzogiorno.", "n": "The garage is dark even at noon."}, "note": "Also the noun: il buio, the dark. Scuro: dark (colour)."},
+          {"t": "umido", "n": "damp, humid", "pos": "adj.", "ex": {"t": "È umido: le bici arrugginiscono.", "n": "It's damp: bikes rust."}, "note": "L'umidità: humidity, damp. Asciutto: dry."},
+          {"t": "spazioso", "n": "spacious", "pos": "adj.", "ex": {"t": "Spazioso sì, ma umido.", "n": "Spacious yes, but damp."}, "note": "Lo spazio: space. Ampio: wide, roomy."},
+          {"t": "stretto", "n": "narrow, tight", "pos": "adj.", "ex": {"t": "La porta è stretta: le bici passano una alla volta.", "n": "The door is narrow: bikes go through one at a time."}, "note": "Also tight (clothes) and strait (sea). Largo: wide."},
+          {"t": "caro", "n": "expensive; dear", "pos": "adj.", "ex": {"t": "Mille al mese è caro. Troppo caro.", "n": "A thousand a month is expensive. Too expensive."}, "note": "Costoso: expensive (more formal). Caro also = dear: cara Dora."},
+          {"t": "economico", "n": "cheap, inexpensive", "pos": "adj.", "ex": {"t": "Il garage è il più economico, ma è umido.", "n": "The garage is the cheapest, but it's damp."}, "note": "A buon mercato: cheap. Conveniente: good value."},
+          {"t": "centrale", "n": "central", "pos": "adj.", "ex": {"t": "Il Corso è la zona più centrale del paese.", "n": "The Corso is the most central area of town."}, "note": "In centro: in the centre. Periferico: on the outskirts."},
+          {"t": "rumoroso", "n": "noisy", "pos": "adj.", "ex": {"t": "Il porto è rumoroso la mattina presto.", "n": "The port is noisy early in the morning."}, "note": "Il rumore: noise. Tranquillo: quiet."},
+          {"t": "tranquillo", "n": "quiet, calm", "pos": "adj.", "ex": {"t": "Via Marina è tranquilla d'inverno e piena d'estate.", "n": "Via Marina is quiet in winter and full in summer."}, "note": "Also \"don't worry\": tranquillo! Stai tranquillo."},
+          {"t": "vista", "n": "view", "article": "la", "gender": "f", "plural": "le viste", "pos": "noun", "ex": {"t": "Vista mare: il motivo per prenderlo.", "n": "Sea view: the reason to take it."}, "note": "Vista mare, vista sul mare. Also sight: a prima vista, at first sight."},
+          {"t": "trattabile", "n": "negotiable", "pos": "adj.", "ex": {"t": "Cinquecento, trattabili. Tutto è trattabile.", "n": "Five hundred, negotiable. Everything is negotiable."}, "note": "Trattare: to negotiate, to deal. Tratt. in ads."}
+        ]},
+        {"type": "vocab", "theme": "Al telefono", "n": "On the phone", "items": [
+          {"t": "pronto", "n": "hello (on the phone); ready", "pos": "interj.", "ex": {"t": "Pronto? — Pronto, buongiorno, sono {hero}.", "n": "Hello? — Hello, good morning, this is {hero}."}, "note": "Only on the phone. Said by the person who answers and often by the caller too. Pronto also = ready: sei pronto?"},
+          {"t": "chi parla?", "n": "who's speaking?", "pos": "phrase", "ex": {"t": "Pronto, chi parla? — Sono Ferrante.", "n": "Hello, who's speaking? — It's Ferrante."}, "note": "Con chi parlo? is the politer version. Answer with sono + name."},
+          {"t": "chiamare", "n": "to call", "pos": "verb", "ex": {"t": "Chiamo per l'annuncio. La chiamo domani.", "n": "I'm calling about the ad. I'll call you tomorrow."}, "note": "Telefonare a qualcuno = chiamare qualcuno. Chiamare takes a direct object: lo chiamo."},
+          {"t": "richiamare", "n": "to call back", "pos": "verb", "ex": {"t": "È occupato? Richiamo più tardi. Mi può richiamare?", "n": "Is he busy? I'll call back later. Can you call me back?"}, "note": "Ri- = again. Richiamare also = to recall."},
+          {"t": "lasciare un messaggio", "n": "to leave a message", "pos": "verb", "ex": {"t": "Non risponde. Lascio un messaggio.", "n": "No answer. I'll leave a message."}, "note": "Segreteria telefonica: voicemail. Mandare un messaggio: to text."},
+          {"t": "disponibile", "n": "available", "pos": "adj.", "ex": {"t": "Il locale è ancora disponibile?", "n": "Are the premises still available?"}, "note": "Also of people: sono disponibile domani, I'm free tomorrow. Libero: free."},
+          {"t": "un attimo", "n": "just a moment", "pos": "phrase", "ex": {"t": "Un attimo, prendo una penna.", "n": "Just a moment, I'll get a pen."}, "note": "Aspetti un attimo (formal), aspetta un attimo (informal). Un momento, un secondo: same."},
+          {"t": "squillare", "n": "to ring (phone)", "pos": "verb", "ex": {"t": "Il telefono squilla. Non rispondo.", "n": "The phone is ringing. I'm not answering."}, "note": "Uno squillo: one ring. Fare uno squillo: to give a missed call (common in Italy)."},
+          {"t": "riattaccare", "n": "to hang up", "pos": "verb", "ex": {"t": "Ha riattaccato senza salutare.", "n": "He hung up without saying goodbye."}, "note": "Attaccare: to attach; riattaccare: to put the receiver back. Also chiudere."},
+          {"t": "occupato", "n": "busy; engaged (line)", "pos": "adj.", "ex": {"t": "È occupato: riprovo fra cinque minuti.", "n": "It's engaged: I'll try again in five minutes."}, "note": "The line and the person. Also occupied (bagno occupato)."},
+          {"t": "prefisso", "n": "area code; prefix", "article": "il", "gender": "m", "plural": "i prefissi", "pos": "noun", "ex": {"t": "Il prefisso dell'Italia è +39. I cellulari cominciano con 3.", "n": "Italy's country code is +39. Mobiles start with 3."}, "note": "Landlines have a city code (0832 for Lecce); mobiles don't."},
+          {"t": "appuntamento", "n": "appointment", "article": "l'", "gender": "m", "plural": "gli appuntamenti", "pos": "noun", "ex": {"t": "Ho tre appuntamenti: martedì, giovedì e venerdì.", "n": "I have three appointments: Tuesday, Thursday and Friday."}, "note": "Fissare / prendere un appuntamento. From unit 8."}
+        ]},
+        {"type": "vocab", "theme": "Aprire un'attività", "n": "Starting a business", "items": [
+          {"t": "attività", "n": "business, activity", "article": "l'", "gender": "f", "plural": "le attività", "pos": "noun", "ex": {"t": "Vorrei aprire un'attività: un'officina di bici.", "n": "I'd like to start a business: a bike workshop."}, "note": "Aprire un'attività = to start a business. Also impresa, azienda, ditta."},
+          {"t": "partita IVA", "n": "VAT number (sole-trader status)", "article": "la", "gender": "f", "plural": "le partite IVA", "pos": "noun", "ex": {"t": "Per fatturare serve la partita IVA.", "n": "To invoice you need a VAT number."}, "note": "Aprire la partita IVA: to register as self-employed. IVA = VAT. See Living there."},
+          {"t": "commercialista", "n": "accountant", "article": "il / la", "gender": "m/f", "plural": "i commercialisti", "pos": "noun", "ex": {"t": "Chiedi a un commercialista. Tutti dicono così.", "n": "Ask an accountant. Everybody says so."}, "note": "The professional every Italian with a partita IVA pays monthly. Ragioniere: bookkeeper."},
+          {"t": "socio", "n": "business partner", "article": "il", "gender": "m", "plural": "i soci", "pos": "noun", "forms": "la socia", "ex": {"t": "Tommaso vuole diventare mio socio.", "n": "Tommaso wants to become my partner."}, "note": "Also a member of a club. Società: company, partnership."},
+          {"t": "banco", "n": "workbench; counter", "article": "il", "gender": "m", "plural": "i banchi", "pos": "noun", "ex": {"t": "Il banco di Tommaso è pesante ma è l'unico.", "n": "Tommaso's workbench is heavy but it's the only one."}, "note": "Banco da lavoro: workbench. Il banco del mercato: the stall. La banca: the bank."}
+        ]},
+        {"type": "subhead", "text": "Le abbreviazioni degli annunci"},
+        {"type": "grid", "cols": 4, "items": [
+          {"big": "mq", "small": "metri quadri"}, {"big": "pt", "small": "piano terra"}, {"big": "tratt.", "small": "trattabile"}, {"big": "risc. aut.", "small": "riscaldamento autonomo"},
+          {"big": "spese incl.", "small": "spese incluse"}, {"big": "affittasi", "small": "for rent"}, {"big": "vendesi", "small": "for sale"}, {"big": "no perditempo", "small": "no time-wasters"}
+        ], "note": "Affittasi and vendesi: the old si-passive, read on every sign in Italy. No perditempo: the owner means it."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Più grande, il più grande, lo prendo",
+      "intro": "Five pieces: comparatives with di and che, superlatives and the irregular forms, the direct object pronouns and the agreement of the participle, ci for places with the possessive pronouns, and bello, buono and quello before a noun. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-comparativi", "title": "Comparatives: più… di, più… che", "category": "Adjectives", "rule": "More than: più + adjective + di; less than: meno + adjective + di; as… as: (tanto)… quanto or (così)… come. Di before a noun, a pronoun or a number (più caro del garage, più alto di me, più di cento). Che when comparing two adjectives, two verbs, two nouns after the same verb, or two prepositional phrases (più caro che bello, più che altro). Irregular: migliore / peggiore (adjectives), meglio / peggio (adverbs).", "ref": "comparatives", "blocks": [
+          {"type": "table", "head": ["", "Italian", "English"], "rows": [["più… di", "Il garage è più umido della cantina.", "The garage is damper than the cellar."], ["meno… di", "Il barbiere costa meno del garage.", "The barber's costs less than the garage."], ["tanto… quanto", "È tanto luminoso quanto il negozio del Corso.", "It's as bright as the shop on the Corso."], ["così… come", "Non è così grande come il garage.", "It's not as big as the garage."], ["che: two adjectives", "È più caro che bello.", "It's more expensive than beautiful."], ["che: two verbs", "È più facile dire che fare.", "It's easier to say than to do."], ["che: two nouns", "Ci sono più bici che macchine.", "There are more bikes than cars."], ["che: before a preposition", "Fa più caldo a Lecce che a Toronto.", "It's hotter in Lecce than in Toronto."], ["di + pronoun / number", "È più alto di me. Costa più di mille euro.", "He's taller than me. It costs more than a thousand euros."], ["irregular", "migliore / peggiore (adj.) · meglio / peggio (adv.)", "better / worse · better / worse"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Il negozio sul Corso è più luminoso del garage, ma è più caro.", "n": "The shop on the Corso is brighter than the garage, but it's more expensive."},
+            {"t": "Umido è peggio di buio. Una vetrina è meglio di due saracinesche.", "n": "Damp is worse than dark. One shop window is better than two shutters.", "note": "peggio, meglio: adverbs used as predicates"},
+            {"t": "Questo locale è migliore dell'altro: è il locale migliore.", "n": "These premises are better than the other: they're the best premises.", "note": "migliore: adjective"},
+            {"t": "Tommaso ripara più bici che macchine, e lo fa meglio di me.", "n": "Tommaso repairs more bikes than cars, and he does it better than I do."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Di or che? The one-second test", "text": "Ask what is being compared. Two different things on one quality: [[di]] ([[il garage è più grande del barbiere]]). One thing on two qualities, or two actions, or two groups after the same verb: [[che]] ([[più caro che bello]], [[più bici che macchine]]). If a preposition follows, always [[che]] ([[più a Lecce che a Toronto]])."},
+          {"type": "mistakes", "items": [
+            {"wrong": "più grande che il garage · più alto che me", "right": "più grande del garage · più alto di me", "why": "Before a noun or pronoun: di."},
+            {"wrong": "più caro di bello · più bici di macchine", "right": "più caro che bello · più bici che macchine", "why": "Two adjectives, two nouns: che."},
+            {"wrong": "più buono (fine, but) · più bene · più male", "right": "migliore · meglio · peggio", "why": "The irregulars replace più buono / più bene in most uses."},
+            {"wrong": "Il mio è più meglio.", "right": "Il mio è meglio.", "why": "Meglio already means better."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-superlativi", "title": "Superlatives: il più bello del paese, bellissimo", "category": "Adjectives", "rule": "Relative superlative: definite article + più / meno + adjective, and the group with di (il più piccolo dei tre, il locale più bello del paese). Absolute superlative: drop the final vowel and add -issimo (bellissimo, luminosissima), or use molto / davvero / tanto. Irregular: il migliore, il peggiore, il maggiore, il minore; ottimo, pessimo, massimo, minimo.", "ref": "superlatives", "blocks": [
+          {"type": "table", "head": ["", "Italian", "English"], "rows": [["relative, with the noun", "il locale più bello del paese · la zona più centrale", "the most beautiful premises in town · the most central area"], ["relative, without the noun", "È il più grande. È la meno cara.", "It's the biggest. It's the least expensive."], ["the group", "dei tre · del paese · di tutti · che ho visto", "of the three · in town · of all · that I've seen"], ["absolute -issimo", "bellissimo · luminosissimo · carissimo · piccolissima", "very beautiful · extremely bright · very expensive · tiny"], ["absolute with adverb", "molto bello · davvero caro · tanto piccolo", "very beautiful · really expensive · so small"], ["irregular relative", "il migliore · il peggiore · il maggiore · il minore", "the best · the worst · the eldest / biggest · the youngest / smallest"], ["irregular absolute", "ottimo · pessimo · massimo · minimo", "excellent · terrible · maximum · minimum"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Il barbiere è il più piccolo dei tre, ma ha la vista più bella.", "n": "The barber's is the smallest of the three, but it has the nicest view."},
+            {"t": "È il locale migliore che ho visto. L'affitto è ottimo. Il garage è pessimo.", "n": "It's the best premises I've seen. The rent is excellent. The garage is terrible."},
+            {"t": "Luminosissimo, carissimo, centralissimo: il Corso.", "n": "Extremely bright, extremely expensive, extremely central: the Corso."},
+            {"t": "Chiara è la maggiore e Sofia è la minore.", "n": "Chiara is the eldest and Sofia is the youngest.", "note": "maggiore / minore for age among siblings"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "il più bello nel paese · il più piccolo di tre", "right": "il più bello del paese · il più piccolo dei tre", "why": "Di + article for the group."},
+            {"wrong": "il più migliore · molto bellissimo", "right": "il migliore · bellissimo / molto bello", "why": "One superlative at a time."},
+            {"wrong": "bellissimi (for one woman) · luminosissimo (for la stanza)", "right": "bellissima · luminosissima", "why": "-issimo agrees like any adjective."},
+            {"wrong": "Il più grande locale", "right": "Il locale più grande", "why": "Noun first, then più + adjective (with a few short adjectives either order is fine: il più bel locale)."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-pronomi-diretti", "title": "Direct object pronouns: lo prendo, li ho visti", "category": "Pronouns", "rule": "Mi, ti, lo, la, ci, vi, li, le replace the direct object and go before the conjugated verb (lo prendo), or attach to an infinitive (vederlo) or an imperative (chiamala). Lo and la become l' before a vowel or h (l'ho visto). In the passato prossimo the participle agrees with lo, la, li, le (l'ho vista, li ho visti, le ho pagate). La with a capital L is the formal you.", "ref": "direct-object-pronouns", "blocks": [
+          {"type": "table", "head": ["Pronoun", "Replaces", "Example"], "rows": [["mi", "me", "Mi chiami domani?"], ["ti", "you (informal)", "Ti aspetto al porto."], ["lo", "him, it (m.)", "Il garage? Lo prendo. Lo vuole vedere?"], ["la", "her, it (f.)", "La signora? La chiamo domani."], ["La", "you (formal)", "La aspetto al porto, signora."], ["ci", "us", "Ci porta a vedere il locale?"], ["vi", "you (plural)", "Vi chiamo stasera."], ["li", "them (m. or mixed)", "I locali? Li ho visti tutti e tre."], ["le", "them (f.)", "Le birre? Le ho già pagate."]], "speak": [2], "rowhead": true},
+          {"type": "table", "caption": "Where it goes", "head": ["Case", "Italian"], "rows": [["before a conjugated verb", "Lo prendo. Non lo prendo. Lo ha visto? / L'ha visto?"], ["attached to an infinitive", "Vorrei vederlo. Posso vederlo? (or: lo posso vedere)"], ["attached to the tu / noi / voi imperative", "Chiamala! Prendilo! Guardateli!"], ["before the Lei imperative", "La chiami. Lo prenda. Mi dica."], ["with ecco", "Eccolo! Eccola! Eccoli!"], ["participle agreement", "L'ho vista. Li ho visti. Le ho pagate. (lo / la → l' always agrees; li / le always)"]], "speak": [1], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Hai visto il garage? — Sì, l'ho visto ieri. È umido.", "n": "Did you see the garage? — Yes, I saw it yesterday. It's damp.", "note": "l'ho visto: lo + ho"},
+            {"t": "Hai visto la signora? — L'ho vista venerdì. La chiamo domani.", "n": "Did you see the lady? — I saw her on Friday. I'll call her tomorrow.", "note": "l'ho vista: agreement with la"},
+            {"t": "Le bici? Le ripara Tommaso. Le ha riparate tutte.", "n": "The bikes? Tommaso repairs them. He's repaired them all."},
+            {"t": "Signora, La ringrazio e La richiamo domani.", "n": "Madam, thank you and I'll call you back tomorrow.", "note": "formal La"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Prendo lo. Chiamo la.", "right": "Lo prendo. La chiamo.", "why": "Before the conjugated verb."},
+            {"wrong": "Vorrei lo vedere. Posso lo vedere.", "right": "Vorrei vederlo. Posso vederlo. / Lo posso vedere.", "why": "Attached to the infinitive (or before the modal), never between."},
+            {"wrong": "Li ho visto. Le ho pagato.", "right": "Li ho visti. Le ho pagate.", "why": "Agreement with li / le."},
+            {"wrong": "Lo ho visto. (acceptable, but)", "right": "L'ho visto.", "why": "Lo / la elide before a vowel or h."},
+            {"wrong": "Chiama la! La chiama! (to a friend)", "right": "Chiamala!", "why": "Attached to the informal imperative."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-ci-possessivi", "title": "Ci for places, and mine / yours", "category": "Pronouns", "rule": "Ci replaces a place already mentioned: there, in it, to it (ci vado, ci sono stato, ci entrano quattro bici). It goes before the verb like the object pronouns. The possessive pronouns are the possessive adjectives with the article and no noun: il mio, la tua, i suoi, le nostre (mine, yours, his / hers, ours); after essere the article is optional (è mio / è il mio).", "ref": "ci-there", "blocks": [
+          {"type": "table", "caption": "ci = there", "head": ["Italian", "English"], "rows": [["Vai al porto? — Ci vado domani.", "Are you going to the port? — I'm going there tomorrow."], ["Sei stato a Lecce? — Ci sono stato una volta.", "Have you been to Lecce? — I've been there once."], ["Ci sei tornato? — Ci sono tornato stasera.", "Did you go back? — I went back there tonight."], ["Nel barbiere ci entrano quattro bici.", "Four bikes fit in the barber's."], ["Ci penso io. Ci credo. Non ci capisco niente.", "I'll take care of it. I believe it. I don't understand any of it.", "ci = to it, about it"]], "speak": [0]},
+          {"type": "table", "caption": "Possessive pronouns", "head": ["m. sing.", "f. sing.", "m. pl.", "f. pl.", "English"], "rows": [["il mio", "la mia", "i miei", "le mie", "mine"], ["il tuo", "la tua", "i tuoi", "le tue", "yours"], ["il suo", "la sua", "i suoi", "le sue", "his / hers / yours (formal)"], ["il nostro", "la nostra", "i nostri", "le nostre", "ours"], ["il vostro", "la vostra", "i vostri", "le vostre", "yours (pl.)"], ["il loro", "la loro", "i loro", "le loro", "theirs"]], "speak": [0, 1, 2, 3], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Il tuo banco è meglio del mio? — Il mio è pesante, ma te lo presto.", "n": "Is your bench better than mine? — Mine is heavy, but I'll lend it to you."},
+            {"t": "Di chi è questa bici? — È mia. Quella è la tua.", "n": "Whose bike is this? — It's mine. That one is yours.", "note": "è mia after essere; la tua when pointing"},
+            {"t": "I miei genitori sono a Toronto; i tuoi sono qui. I suoi sono a Lecce.", "n": "My parents are in Toronto; yours are here. His are in Lecce."},
+            {"t": "Al barbiere ci sono stato un'ora. Ci torno domani con Tommaso.", "n": "I spent an hour at the barber's. I'm going back there tomorrow with Tommaso."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Sono stato lì → Sono ci stato. Vado ci.", "right": "Ci sono stato. Ci vado.", "why": "Ci before the whole verb group."},
+            {"wrong": "Il tuo banco è meglio di mio.", "right": "Il tuo banco è meglio del mio.", "why": "The possessive pronoun keeps its article: di + il = del."},
+            {"wrong": "Questa bici è la mia. (fine) · È il mio bici.", "right": "Questa bici è (la) mia.", "why": "Agreement with the thing: la bici → mia."},
+            {"wrong": "Ci entrano quattro bici → Entrano ci quattro bici.", "right": "Ci entrano quattro bici.", "why": "Ci first."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-bello-buono-quello", "title": "bello, buono, quello before a noun", "category": "Adjectives", "rule": "Before a noun, bello and quello take the forms of the definite article: bel / quel (il), bello / quello (lo), bell' / quell' (l'), bella / quella (la), bei / quei (i), begli / quegli (gli), belle / quelle (le). Buono takes the forms of the indefinite article: buon (un), buono (uno), buona (una), buon' (un'). After the noun or after essere they are regular: un locale bello, è buono.", "ref": "bello-buono-quello", "blocks": [
+          {"type": "table", "head": ["Article", "bello", "quello", "Example"], "rows": [["il", "bel", "quel", "un bel locale · quel garage"], ["lo", "bello", "quello", "un bello spazio · quello specchio"], ["l'", "bell'", "quell'", "un bell'affitto · quell'officina"], ["la", "bella", "quella", "una bella vista · quella signora"], ["i", "bei", "quei", "bei locali · quei garage"], ["gli", "begli", "quegli", "begli spazi · quegli annunci"], ["le", "belle", "quelle", "belle vetrine · quelle bici"]], "speak": [3], "rowhead": true},
+          {"type": "table", "caption": "buono", "head": ["Article", "buono", "Example"], "rows": [["un", "buon", "un buon affitto · un buon amico"], ["uno", "buono", "un buono spazio? no: uno spazio buono (rare before)"], ["una", "buona", "una buona vista · una buona idea"], ["un'", "buon'", "una buon'idea / una buona idea (both)"]], "speak": [2], "compact": true, "note": "Buon before any masculine singular that takes un; buono only before s + consonant, z, ps, gn (buono studio). In practice: buon giorno, buon appetito, buon lavoro, buona sera, buona fortuna."},
+          {"type": "examples", "items": [
+            {"t": "Che bel locale! Che bella vista! Che begli annunci, però che bei prezzi… no.", "n": "What nice premises! What a nice view! What nice ads, but what nice prices… no."},
+            {"t": "Quel garage è umido, quello spazio è stretto, quell'officina è perfetta.", "n": "That garage is damp, that space is narrow, that workshop is perfect."},
+            {"t": "Buon lavoro! Buona fortuna con il locale. È un buon inizio.", "n": "Good luck with the work! Good luck with the premises. It's a good start."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "un bello locale · bei annunci (before vowel) · belli locali", "right": "un bel locale · begli annunci · bei locali", "why": "Follow the definite article: il → bel, gli → begli, i → bei."},
+            {"wrong": "quello garage · quelli garage · questo bel", "right": "quel garage · quei garage · questo bel locale", "why": "Quello follows the article too; questo does not change."},
+            {"wrong": "buono giorno · buono appetito", "right": "buon giorno · buon appetito", "why": "Buon before a masculine singular."},
+            {"wrong": "Il locale è bel. La vista è bell'.", "right": "Il locale è bello. La vista è bella.", "why": "The short forms only before the noun."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "L'intonazione: domanda o risposta?",
+      "intro": "Italian has no do, no inversion, often no question word: the voice alone turns a statement into a question. The melody rises at the end for a yes / no question and falls for a statement; on the phone the rise is exaggerated. This section is about melody, not sounds.",
+      "blocks": [
+        {"type": "table", "caption": "Same words, two melodies", "head": ["Statement (falling)", "Question (rising)"], "rows": [["È disponibile. ↘", "È disponibile? ↗"], ["Lo prendi. ↘", "Lo prendi? ↗"], ["Ci sei tornato. ↘", "Ci sei tornato? ↗"], ["Va bene domani alle dieci. ↘", "Va bene domani alle dieci? ↗"], ["Pronto. (I'm ready.) ↘", "Pronto? (Hello?) ↗"]], "speak": [0, 1]},
+        {"type": "table", "caption": "Question words: the melody falls", "head": ["Question", "Melody"], "rows": [["Quanto chiede di affitto?", "high on quanto, then falling ↘"], ["Chi parla?", "high on chi, falling ↘"], ["Dov'è il locale?", "high on dove, falling ↘"], ["Qual è il migliore?", "falling ↘, like a statement"]], "speak": [0], "compact": true, "note": "With chi, cosa, dove, quando, quanto, perché, come the question is already marked: the voice does not need to rise. An English speaker who rises on these sounds surprised or unsure."},
+        {"type": "minimal", "caption": "Listen for the rise", "pairs": [
+          {"a": "Lo vuole vedere.", "b": "Lo vuole vedere?", "na": "You want to see it. (telling)", "nb": "Do you want to see it? (asking)", "tip": "Only the last syllable changes."},
+          {"a": "Costa mille euro.", "b": "Costa mille euro?", "na": "It costs a thousand euros.", "nb": "It costs a thousand euros?!", "tip": "The rising version is also how you express disbelief."},
+          {"a": "Domani.", "b": "Domani?", "na": "Tomorrow. (confirming)", "nb": "Tomorrow? (checking)"},
+          {"a": "Pronto.", "b": "Pronto?", "na": "Ready.", "nb": "Hello?", "tip": "On the phone always the rising one, even when you are the caller."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "On the phone", "text": "Phone Italian is louder and more melodic than face-to-face Italian, because the face is missing. [[Pronto?]] rises; [[Chi parla?]] falls; [[Sì, sì]] comes in pairs; [[Va bene?]] rises and waits. Repeat the number back ([[338 555 0121, giusto?]]) and close with [[La aspetto]] or [[A domani]] plus [[arrivederci]], falling. Never hang up on [[pronto]]."},
+        {"type": "examples", "items": [
+          {"t": "Pronto? — Pronto, buongiorno. Chiamo per l'annuncio. È ancora disponibile? — Sì. Lo vuole vedere? — Domani alle dieci? — Va bene. La aspetto.", "n": "Hello? — Hello, good morning. I'm calling about the ad. Is it still available? — Yes. Do you want to see it? — Tomorrow at ten? — Fine. I'll be waiting.", "note": "four rises, three falls"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Thirty exercises on this unit, then a mixed review of units 1–10.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Comparativi", "items": [
+          {"kind": "fill", "q": "Il garage è ___ grande ___ barbiere, ma è ___ luminoso ___ negozio. (more / less … than)", "answers": [["più"], ["del"], ["meno"], ["del"]], "n": "The garage is bigger than the barber's, but less bright than the shop."},
+          {"kind": "mc", "q": "«It's more expensive than beautiful.»", "options": ["È più caro che bello.", "È più caro di bello.", "È più caro del bello."], "answer": 0, "why": "Two adjectives of the same thing: che."},
+          {"kind": "fill", "q": "Ci sono più bici ___ macchine. Tommaso è più alto ___ me. Fa più caldo a Lecce ___ a Toronto.", "answers": [["che"], ["di"], ["che"]], "n": "There are more bikes than cars. Tommaso is taller than me. It's hotter in Lecce than in Toronto."},
+          {"kind": "fill", "q": "Il barbiere è ___ luminoso ___ il negozio del Corso. (as… as)", "answers": [["tanto", "così"], ["quanto", "come"]], "n": "The barber's is as bright as the shop on the Corso."},
+          {"kind": "fill", "q": "Umido è ___ di buio. (worse) Una vetrina è ___ di due saracinesche. (better) Questo locale è ___ dell'altro. (better, adj.)", "answers": [["peggio"], ["meglio"], ["migliore"]], "n": "Damp is worse than dark. One window is better than two shutters. These premises are better than the other."},
+          {"kind": "order", "answer": "Il negozio è più caro del garage.", "n": "The shop is more expensive than the garage."},
+          {"kind": "dictation", "text": "Il barbiere costa meno del garage.", "n": "The barber's costs less than the garage."},
+          {"kind": "translate", "q": "Tommaso repairs bikes better than me.", "answers": ["Tommaso ripara le bici meglio di me", "Tommaso ripara le biciclette meglio di me"]}
+        ]},
+        {"type": "exercises", "title": "2 · Superlativi, bello, quello", "items": [
+          {"kind": "fill", "q": "È il locale ___ bello ___ paese. È il ___ piccolo ___ tre.", "answers": [["più"], ["del"], ["più"], ["dei"]], "n": "It's the most beautiful premises in town. It's the smallest of the three."},
+          {"kind": "fill", "q": "bello → ___ · caro → ___ · luminosa → ___ · piccoli → ___ (-issimo)", "answers": [["bellissimo"], ["carissimo"], ["luminosissima"], ["piccolissimi"]], "n": "very beautiful · very expensive · very bright · very small"},
+          {"kind": "fill", "q": "il ___ (buono) → il migliore · il ___ (cattivo) → il peggiore · ___ (molto buono) → ottimo · ___ (molto cattivo) → pessimo", "answers": [["più buono"], ["più cattivo"], ["buonissimo"], ["cattivissimo"]], "n": "The irregular forms replace the regular ones.", "hint": "write the regular form the irregular one replaces"},
+          {"kind": "fill", "q": "un ___ locale (bello) · ___ annunci (bello, pl.) · una ___ vista (bello) · ___ spazio (bello)", "answers": [["bel"], ["begli"], ["bella"], ["bello"]], "n": "nice premises · nice ads · a nice view · nice space"},
+          {"kind": "fill", "q": "___ garage (that) · ___ specchio (that) · ___ officina (that) · ___ annunci (those) · ___ bici (those, f.)", "answers": [["quel"], ["quello"], ["quell'"], ["quegli"], ["quelle"]], "n": "that garage · that mirror · that workshop · those ads · those bikes"},
+          {"kind": "mc", "q": "Which is right?", "options": ["Buon lavoro e buona fortuna!", "Buono lavoro e buona fortuna!", "Buon lavoro e buon fortuna!"], "answer": 0, "why": "Buon before a masculine singular, buona before a feminine."},
+          {"kind": "translate", "q": "It's the best workshop in town.", "answers": ["È la migliore officina del paese", "È l'officina migliore del paese", "È la miglior officina del paese"]}
+        ]},
+        {"type": "exercises", "title": "3 · Pronomi diretti", "items": [
+          {"kind": "fill", "q": "Il garage? ___ prendo. La signora? ___ chiamo domani. I locali? ___ ho visti. Le birre? ___ ho pagate.", "answers": [["Lo"], ["La"], ["Li"], ["Le"]], "n": "The garage? I'll take it. The lady? I'll call her tomorrow. The premises? I saw them. The beers? I paid for them."},
+          {"kind": "fill", "q": "Vorrei veder___ (il locale). Posso chiamar___ (Lei, formal) domani? Chiama___ (la signora) adesso!", "answers": [["lo"], ["La"], ["la"]], "n": "I'd like to see it. Can I call you tomorrow? Call her now!"},
+          {"kind": "fill", "q": "Hai visto la signora? — Sì, l'ho ___ (vedere). Hai pagato le birre? — Le ho ___ (pagare). Hai riparato i freni? — Li ho ___ (riparare).", "answers": [["vista"], ["pagate"], ["riparati"]], "n": "Did you see the lady? — Yes, I saw her. Did you pay for the beers? — I paid for them. Did you repair the brakes? — I repaired them."},
+          {"kind": "mc", "q": "«La aspetto al porto.» Who is La?", "options": ["You (formal).", "Her.", "It (the shop)."], "answer": 0, "why": "Capital L: the formal you. With a small l it would be her / it."},
+          {"kind": "order", "answer": "Non lo vuole nessuno perché è piccolo.", "n": "Nobody wants it because it's small."},
+          {"kind": "translate", "q": "Did you see the shop? — I saw it on Thursday.", "answers": ["Hai visto il negozio? L'ho visto giovedì", "Hai visto il negozio? — L'ho visto giovedì", "Hai visto il negozio? Sì, l'ho visto giovedì"]}
+        ]},
+        {"type": "exercises", "title": "4 · ci, il mio, al telefono", "items": [
+          {"kind": "fill", "q": "Sei stato al porto? — ___ sono stato ieri. ___ torno domani. Nel barbiere ___ entrano quattro bici.", "answers": [["Ci"], ["Ci"], ["ci"]], "n": "Have you been to the port? — I was there yesterday. I'm going back tomorrow. Four bikes fit in the barber's."},
+          {"kind": "fill", "q": "Il tuo banco è meglio ___ ___ (mine). Questa bici è ___ (mine). Quelle sono ___ ___ (yours, f. pl.).", "answers": [["del"], ["mio"], ["mia"], ["le"], ["tue"]], "n": "Your bench is better than mine. This bike is mine. Those are yours."},
+          {"kind": "reply", "line": {"t": "Pronto?", "n": "Hello?"}, "options": ["Buongiorno, chiamo per l'annuncio del locale. È ancora disponibile?", "Ciao, chi sei? Voglio il locale.", "Pronto. Arrivederci."], "answer": 0, "why": "Greeting, reason for the call, first question. Formal, since you don't know the person."},
+          {"kind": "match", "q": "Match the phone phrases.", "pairs": [["Chi parla?", "Who's speaking?"], ["Un attimo.", "Just a moment."], ["È occupato.", "It's engaged."], ["La richiamo.", "I'll call you back."], ["Quanto chiede?", "How much are you asking?"]]},
+          {"kind": "fill", "q": "Chiamo ___ l'annuncio. Quanto chiede ___ affitto? Posso veder___ venerdì?", "answers": [["per"], ["di"], ["lo"]], "n": "I'm calling about the ad. How much are you asking in rent? Can I see it on Friday?"},
+          {"kind": "translate", "q": "Is it still available? — Yes. Do you want to see it?", "answers": ["È ancora disponibile? Sì. Lo vuole vedere?", "È ancora disponibile? — Sì. Lo vuole vedere?", "È ancora disponibile? Sì. Vuole vederlo?"]}
+        ]},
+        {"type": "exercises", "title": "5 · Ripasso · Units 1–10", "review": true, "items": [
+          {"kind": "fill", "q": "Ieri ___ (io, vedere) tre locali e ___ (tornare) a casa alle otto.", "answers": [["ho visto"], [{"m": "sono tornato", "f": "sono tornata", "who": "self"}]], "n": "Yesterday I saw three premises and got home at eight."},
+          {"kind": "fill", "q": "{hero} ___ (alzarsi) presto, ___ (fare) tre telefonate e ___ (prendere) un appuntamento.", "answers": [[{"m": "si è alzato", "f": "si è alzata"}], ["ha fatto"], ["ha preso"]], "n": "{hero} got up early, made three phone calls and made an appointment."},
+          {"kind": "fill", "q": "Non ho visto ___ (nobody). Non è ___ (never) ___ (succedere) niente qui.", "answers": [["nessuno"], ["mai"], ["successo"]], "n": "I didn't see anyone. Nothing has ever happened here."},
+          {"kind": "fill", "q": "Vado ___ porto (a + il), passo ___ Corso (per + il) e torno ___ Dora (da).", "answers": [["al"], ["per il"], ["da"]], "n": "I go to the port, go along the Corso and come back to Dora's."},
+          {"kind": "fill", "q": "Abito qui ___ tre mesi. Ho la partita IVA ___ una settimana. (for / since)", "answers": [["da"], ["da"]], "n": "I've lived here for three months. I've had a VAT number for a week."},
+          {"kind": "fill", "q": "Mi ___ (piacere) il barbiere. Non mi ___ (piacere) i garage umidi.", "answers": [["piace"], ["piacciono"]], "n": "I like the barber's. I don't like damp garages."},
+          {"kind": "fill", "q": "___ (dovere, io) chiamare la signora. ___ (potere, tu) venire con me? ___ (volere, noi) aprire a marzo.", "answers": [["Devo"], ["Puoi"], ["Vogliamo"]], "n": "I have to call the lady. Can you come with me? We want to open in March."},
+          {"kind": "mc", "q": "«Mi dica.» at a counter means:", "options": ["How can I help you?", "Tell me your name.", "Speak louder."], "answer": 0, "why": "The formal imperative of dire: literally \"tell me\", used to open the exchange."},
+          {"kind": "translate", "q": "The barber's is smaller than the garage, but it's the most beautiful of the three.", "answers": ["Il barbiere è più piccolo del garage, ma è il più bello dei tre", "Il barbiere è più piccolo del garage ma è il più bello dei tre"]},
+          {"kind": "write", "q": "Compare two places you know (two flats, two cafés, two cities) in six sentences: size, light, price, noise, which is the best and why, and which one you choose with lo / la prendo.", "model": "Il primo appartamento è più grande del secondo, ma è più buio. Il secondo è luminosissimo e più tranquillo. Costa meno del primo: cinquecento euro con le spese. Il primo è più centrale, ma più rumoroso. Il secondo è il migliore dei due. Lo prendo.", "hint": "più … del · meno … del · il più … dei due · -issimo · lo / la prendo"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Aprire un'attività in Italia",
+      "intro": "The VAT number, the accountant, the chamber of commerce, the form at the SUAP desk, the commercial lease, and the sentence every Italian says to anyone starting a business.",
+      "blocks": [
+        {"type": "subhead", "text": "La partita IVA"},
+        {"type": "prose", "text": "To work for yourself in Italy you need a [[partita IVA]]: an eleven-digit VAT number that makes you a business in the eyes of the state. You open it free at the Agenzia delle Entrate, choosing a tax regime: most small new businesses start with the [[regime forfettario]], a flat tax of 5% for the first five years (then 15%) on a share of turnover, up to a ceiling of 85,000 euros, with simple bookkeeping and no VAT charged to customers. Above that, the ordinary regime, with VAT at 22% on every invoice and real accounts. You also register with [[INPS]] for pension contributions, which for artisans and shopkeepers are a fixed sum of around four thousand euros a year whatever you earn. Nobody does this alone."},
+        {"type": "subhead", "text": "Il commercialista"},
+        {"type": "prose", "text": "The [[commercialista]] is the accountant, and in Italy every self-employed person has one, pays one monthly, and blames one when things go wrong. The commercialista opens the partita IVA, chooses the regime, files the quarterly VAT, the annual tax return, the INPS payments, the [[F24]] forms, and answers the question you will ask every week: [[posso scaricarlo?]], can I deduct it? A good one in a small town costs sixty to a hundred euros a month and is found, like everything, by asking Nando. [[Chiedi a un commercialista]], ask an accountant, is what every Italian says when you mention starting a business, and they are right."},
+        {"type": "callout", "kind": "real", "title": "Camera di Commercio e SUAP", "text": "A shop or workshop must be registered with the [[Camera di Commercio]] (Chamber of Commerce) in the Registro delle Imprese, and an artisan business like a bike repair shop in the [[Albo delle Imprese Artigiane]]. The actual opening is declared to the comune through the [[SUAP]], the Sportello Unico per le Attività Produttive, with a [[SCIA]]: a self-certification that your premises meet the rules, filed online with a PEC address and a digital signature. Antonella Moro's desk again, this time with different stamps. Unit 13 opens the shop; unit 22 does the paperwork in full."},
+        {"type": "subhead", "text": "Il contratto di locazione commerciale"},
+        {"type": "prose", "text": "A commercial lease ([[locazione commerciale]]) in Italy is long by law: six years, renewable for another six ([[sei più sei]]), and the tenant can leave with six months' notice while the landlord mostly cannot. Rent is adjusted yearly to inflation ([[ISTAT]]). You pay a deposit of two or three months ([[caparra]] or [[cauzione]]), the contract is registered at the Agenzia delle Entrate with a stamp duty split between the parties, and the registration tax is 2% of the yearly rent. [[Spese]] (building charges) are either included or extra: ask. For a shutter and a shop window in a small town, three to six hundred euros a month is normal; the Corso in a tourist town costs three times that. Everything, as Lezzi said, is negotiable."},
+        {"type": "callout", "kind": "culture", "title": "Why the shop with the view", "text": "In a town like Roccamarina the best premises are not the biggest or the brightest: they are the ones people walk past. The street to the sea in summer carries the whole village and its tourists, twice a day. A bicycle repair shop with a window on that street does not need a sign; it needs a pump outside, a chair, and a mechanic who says buongiorno. Tommaso knows this. The protagonist is learning it. Dora will tell you the barber was a good man, and that his mirror is heavy."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Everything from this unit on one screen. Then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Comparare", "rows": [["più / meno + adj. + di (+ article) · tanto… quanto · così… come", "than a noun, pronoun, number: di"], ["più caro che bello · più bici che macchine · più a Lecce che a Toronto", "two adjectives, two nouns, before a preposition: che"], ["migliore / peggiore (adj.) · meglio / peggio (adv.) · maggiore / minore", "irregular"], ["il più / il meno + adj. + di · il migliore · -issimo · ottimo / pessimo", "superlatives"]]},
+          {"title": "Pronomi", "rows": [["mi · ti · lo / la (l') · La · ci · vi · li · le", "direct object, before the verb"], ["vederlo · chiamala · eccolo · lo posso vedere / posso vederlo", "attached to infinitive and imperative"], ["l'ho vista · li ho visti · le ho pagate", "participle agrees with lo / la / li / le"], ["ci vado · ci sono stato · ci entrano quattro bici", "ci = there"], ["il mio · la tua · i suoi · le nostre · è mia", "mine, yours, his / hers, ours"]]},
+          {"title": "bello · buono · quello", "rows": [["bel / bello / bell' / bella / bei / begli / belle", "like il / lo / l' / la / i / gli / le"], ["quel / quello / quell' / quella / quei / quegli / quelle", "same pattern"], ["buon / buono / buona / buon'", "like un / uno / una / un'"]]},
+          {"title": "Al telefono", "rows": [["Pronto? · Chi parla? · Sono… · Chiamo per l'annuncio. · È ancora disponibile? · Quanto chiede? · Posso vederlo? · La aspetto. · La richiamo.", "the call"], ["mq · pt · tratt. · risc. aut. · spese incl. · affittasi · vendesi", "the ads"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
