@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 42 (units 1–10) · EN: 40 (units 1–10) |
+| Grammar reference pages | IT: 46 (units 1–11) · EN: 40 (units 1–10) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -32,7 +32,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 8 | All'ufficio anagrafe · checkpoint | A1 | ● 2026-10-10 |
 | 9 | Com'è andata? | A2 | ● 2026-10-10 |
 | 10 | Cerco un locale | A2 | ● 2026-10-10 |
-| 11 | Com'era Roccamarina | A2 | ☐ |
+| 11 | Com'era Roccamarina | A2 | ● 2026-10-10 |
 | 12 | Dal medico | A2 | ☐ |
 | 13 | Apriamo! | A2 | ☐ |
 | 14 | Clienti e vicini | A2 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 11 · Com'era Roccamarina (A2).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 11 · First snow (A2).**
 
 ## Session log
 
+- **2026-10-10 (22)** · Italian track Unit 11 written (2 scenes, 44 words, 5 grammar points + 4 reference pages, elision and truncation, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (21)** · English track Unit 10 written (2 scenes, 42 words, 5 grammar points + 5 reference pages, weak forms, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (20)** · Italian track Unit 10 written (2 scenes, 43 words, 5 grammar points + 5 reference pages, intonation, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (19)** · English track Unit 9 written (2 scenes, 41 words, 5 grammar points + 4 reference pages, vowels of irregular pasts, 40 exercises, culture, summary). Verified and committed.
