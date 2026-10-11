@@ -1,0 +1,315 @@
+{
+  "id": "11",
+  "level": "A2",
+  "title": "First snow",
+  "subtitle": "La prima neve",
+  "intro": "Il venti novembre, alle sei di mattina, tutto è bianco. Franco spala, Teresa tira fuori un berretto di lana, Sofia spiega gli strati. Alla fermata dell'autobus Chiara cade, ride, piange un po'. La sera manda un vocale a Roccamarina: ti ricordi? A novembre si mangiava fuori. Questa unità aggiunge il past continuous (quello che stava succedendo), il confronto con il past simple con when e while, used to e would per le abitudini di una volta, so e such, too… to, e i phrasal verb dell'inverno.",
+  "objectives": [
+    "Dire cosa stava succedendo: [[I was walking to the bus stop]], [[Franco was shovelling]], [[it was snowing]]",
+    "Unire sfondo ed evento: [[I was crossing the street when I slipped]], [[while I was falling, I laughed]]",
+    "Raccontare abitudini passate: [[we used to eat outside in November]], [[Dora would bring the bread]]",
+    "Dire quanto: [[so cold]], [[such a long winter]], [[too cold to walk]], [[there was so much snow]]",
+    "Vestirsi per l'inverno: [[put on]], [[take off]], [[bundle up]], [[warm up]], e i nomi di ogni strato"
+  ],
+  "canDo": [
+    "A2 · Produzione orale: sa raccontare cosa stava succedendo in un momento del passato e cosa è successo poi.",
+    "A2 · Produzione orale: sa descrivere abitudini del passato e confrontarle con il presente.",
+    "A2 · Interazione orale: sa parlare del tempo, dei vestiti e di come si sente, e dare e capire consigli pratici.",
+    "A2 · Ascolto: sa seguire un breve racconto parlato con sfondo ed eventi.",
+    "A2 · Scrittura: sa scrivere un messaggio vocale o scritto che racconta una giornata, con sfondo ed eventi."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "November 20th, 6 a.m., white",
+      "intro": "La mattina della prima neve, poi la sera e due vocali fra Toronto e Roccamarina. Ascolta was shovelling, was walking, when I slipped, e used to e would.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-snow-morning", "title": "Layers", "setting": "Giovedì 20 novembre, ore 6. La finestra della cucina: bianco. Franco fuori con la pala, Teresa con un sacchetto, Sofia in pigiama con un caffè.", "register": "informale, in famiglia", "lines": [
+          {"who": "Chiara", "t": "Is that… is that snow? It's November!", "n": "Quella è… quella è neve? È novembre!", "note": "La frase di ogni italiano alla prima neve. La risposta è sempre sì."},
+          {"who": "Sofia", "t": "It's November in Toronto. Twelve centimetres overnight. Dad's been out there since five.", "n": "È novembre a Toronto. Dodici centimetri stanotte. Papà è là fuori dalle cinque.", "note": "Overnight = durante la notte. Dad's been out there since five: present perfect con since, unità 12; qui solo da capire."},
+          {"who": "Chiara", "t": "What is he doing?", "n": "Cosa sta facendo?"},
+          {"who": "Sofia", "t": "Shovelling. You have to clear the sidewalk within twelve hours or the city fines you. He was shovelling when I got up, and he'll be shovelling when we leave.", "n": "Spala. Devi pulire il marciapiede entro dodici ore o il comune ti multa. Stava spalando quando mi sono alzata, e starà spalando quando usciamo.", "note": "He was shovelling when I got up: past continuous (sfondo) + past simple (evento). La prima coppia dell'unità."},
+          {"who": "Teresa", "t": "Chiara, come here. This is a toque. These are mitts. This is a scarf. Put them on. All of them. Now.", "n": "Chiara, vieni qui. Questo è un berretto. Questi sono i guanti a manopola. Questa è una sciarpa. Mettili. Tutti. Adesso.", "note": "Toque (si dice tuk): il berretto di lana, parola canadese. Mitts = mittens, manopole. Put them on: phrasal verb con il pronome in mezzo."},
+          {"who": "Chiara", "t": "I have a coat. The coat from the Eaton Centre.", "n": "Ho un cappotto. Il cappotto dell'Eaton Centre."},
+          {"who": "Sofia", "t": "The coat is layer three. Layer one: a thermal shirt. Layer two: a sweater. Layer three: the coat. Then the toque, the scarf, the mitts, the boots. It's minus twelve, and it feels like minus twenty.", "n": "Il cappotto è lo strato tre. Strato uno: una maglia termica. Strato due: un maglione. Strato tre: il cappotto. Poi il berretto, la sciarpa, i guanti, gli stivali. Ci sono meno dodici, e sembrano meno venti.", "note": "Layers: gli strati, la religione dell'inverno canadese. Si mettono e si tolgono durante il giorno."},
+          {"who": "Chiara", "t": "I can't move my arms.", "n": "Non riesco a muovere le braccia."},
+          {"who": "Teresa", "t": "Good. That means it's working. You'll take the sweater off at the bakery. Don't take the toque off outside: you lose half your heat through your head.", "n": "Bene. Vuol dire che funziona. Ti toglierai il maglione in panetteria. Non toglierti il berretto fuori: perdi metà del calore dalla testa.", "note": "Take off: togliersi. Take the sweater off / take off the sweater: tutte e due. Con il pronome, solo in mezzo: take it off."},
+          {"who": "Franco", "t": "Done. Twelve centimetres. In '99 we had thirty in one night and the mayor called the army. Walk slowly, Chiara. Small steps, like a penguin. Everybody falls the first year.", "n": "Fatto. Dodici centimetri. Nel '99 ne abbiamo avuti trenta in una notte e il sindaco ha chiamato l'esercito. Cammina piano, Chiara. Passi piccoli, come un pinguino. Tutti cadono il primo anno.", "note": "In '99 the mayor called the army: successo davvero, gennaio 1999. Like a penguin: il consiglio ufficiale della città per camminare sul ghiaccio."},
+          {"who": "Chiara", "t": "I'm not going to fall. I grew up on cobblestones.", "n": "Non cadrò. Sono cresciuta sui sanpietrini.", "note": "I'm not going to fall: il futuro con going to per una previsione. Sbagliata."},
+          {"stage": "7:20 a.m. The bus stop on St. Clair. Fresh snow over old ice. Chiara, in four layers, takes one confident step."}
+        ], "notes": [
+          {"phrase": "He was shovelling when I got up.", "note": "Past continuous per l'azione in corso, past simple per l'azione che arriva. Was / were + -ing."},
+          {"phrase": "put on · take off · put them on · take it off", "note": "I phrasal verb dell'inverno. Con un nome, la particella va prima o dopo; con un pronome, solo in mezzo."},
+          {"phrase": "toque · mitts · layers · boots · scarf", "note": "L'equipaggiamento. Toque e mitts sono parole canadesi: in Inghilterra beanie e mittens."},
+          {"phrase": "like a penguin", "note": "Passi corti, piedi larghi, peso in avanti. Il modo giusto di camminare sul ghiaccio, e l'immagine che la città usa nei cartelli."}
+        ]},
+        {"type": "scene", "id": "dlg-voice-notes", "title": "Ti ricordi?", "setting": "La sera stessa, il seminterrato a Bloordale. Chiara sul letto con il telefono e una borsa del ghiaccio sul ginocchio. Due vocali: uno in partenza, uno in arrivo, ore 2 a Roccamarina.", "register": "informale, fra cugini", "lines": [
+          {"who": "Chiara", "t": "Hey, it's me. So, it snowed. Twelve centimetres. I was walking to the bus stop this morning, very carefully, like a penguin, and I was feeling quite proud of myself. And then I slipped.", "n": "Ehi, sono io. Allora, ha nevicato. Dodici centimetri. Stamattina stavo andando alla fermata, con molta attenzione, come un pinguino, e mi sentivo piuttosto fiera di me. E poi sono scivolata.", "note": "I was walking… I was feeling… and then I slipped: due sfondi, un evento. Quite = piuttosto. Proud of myself = fiera di me."},
+          {"who": "Chiara", "t": "I didn't fall badly. I landed on my bag. But while I was lying there, a man stopped and said «You okay?» and a woman stopped and said «First winter?» and I started laughing. And then I cried a bit. Not because of the knee. Because of the snow, I think. It was so quiet. It was such a strange, beautiful morning.", "n": "Non sono caduta male. Sono atterrata sulla borsa. Ma mentre ero lì per terra, un uomo si è fermato e ha detto «Tutto bene?» e una donna si è fermata e ha detto «Primo inverno?» e ho cominciato a ridere. E poi ho pianto un po'. Non per il ginocchio. Per la neve, credo. Era così silenzioso. Era una mattina così strana, così bella.", "note": "While I was lying there, a man stopped: while + past continuous, poi past simple. So quiet, such a strange morning: so + aggettivo, such + a + aggettivo + nome."},
+          {"who": "Chiara", "t": "Do you remember November in Roccamarina? We used to eat outside. Nonna would put the table in the courtyard and Dora would bring the bread, and it was twenty degrees. Here it's minus twenty. I miss it. I'm fine. I just miss it.", "n": "Ti ricordi novembre a Roccamarina? Mangiavamo fuori. La nonna metteva il tavolo in cortile e Dora portava il pane, e c'erano venti gradi. Qui ci sono meno venti. Mi manca. Sto bene. Mi manca e basta.", "note": "We used to eat outside: abitudine passata, finita. Nonna would put, Dora would bring: would per le azioni ripetute. It was twenty degrees: lo stato, past simple. I miss it = mi manca: il soggetto si gira."},
+          {"stage": "2:40 a.m. in Roccamarina. A voice note comes back, with the sound of wind and a dog."},
+          {"who": "hero", "t": "Of course I remember. We used to sit in the courtyard until it got dark, and nonno would fall asleep in his chair. Everybody was always talking at the same time. It's raining here tonight, not snowing, and Dora is still complaining about the tourists. Listen: your first fall is a good sign. I fell three times my first winter in Toronto, and I'm still here. Well. I was still there. You know what I mean.", "n": "Certo che mi ricordo. Stavamo in cortile finché non faceva buio, e il nonno si addormentava sulla sedia. Parlavano sempre tutti insieme. Qui stanotte piove, non nevica, e Dora si lamenta ancora dei turisti. Senti: la tua prima caduta è un buon segno. Io sono {{caduto|caduta}} tre volte il mio primo inverno a Toronto, e sono ancora qui. Beh. Ero ancora lì. Hai capito cosa voglio dire.", "note": "We used to sit, nonno would fall asleep, everybody was always talking: tre modi di dire «una volta». I fell three times: evento contato, past simple."},
+          {"who": "hero", "t": "Put the ice on the knee, not the bag. Wear the toque. And Chiara: it's too cold to be sad for long. By December you'll be skating.", "n": "Metti il ghiaccio sul ginocchio, non la borsa. Porta il berretto. E Chiara: fa troppo freddo per essere tristi a lungo. A dicembre pattinerai.", "note": "Too cold to be sad: too + aggettivo + to + verbo. You'll be skating: futuro, unità 13."},
+          {"who": "Chiara", "t": "Skating. On ice. On purpose. Okay. Thank you. Go to sleep. Tell Dora the snow is beautiful and she'd hate it.", "n": "Pattinare. Sul ghiaccio. Apposta. Okay. Grazie. Vai a dormire. Di' a Dora che la neve è bellissima e che la odierebbe.", "note": "On purpose = apposta. She'd hate it = la odierebbe, il condizionale."}
+        ], "notes": [
+          {"phrase": "I was walking… and then I slipped. · While I was lying there, a man stopped.", "note": "Past continuous per lo sfondo, past simple per gli eventi. And then / when / while sono le cuciture."},
+          {"phrase": "We used to eat outside. · Nonna would put the table in the courtyard.", "note": "Used to per un'abitudine o uno stato del passato che non c'è più; would per le azioni ripetute dentro quel ricordo. Tutti e due = imperfetto italiano."},
+          {"phrase": "so quiet · such a strange morning · too cold to be sad", "note": "So + aggettivo, such + (a) + aggettivo + nome, too + aggettivo + to + verbo."},
+          {"phrase": "I miss it. I just miss it.", "note": "Mi manca: in inglese io sono il soggetto, la cosa è l'oggetto. Just = solo, e basta."}
+        ], "questions": [
+          {"kind": "tf", "q": "Chiara fell badly and hurt her knee seriously.", "t": "I didn't fall badly. I landed on my bag.", "answer": false, "why": "Non è caduta male: è atterrata sulla borsa. Il ghiaccio sul ginocchio è una precauzione."},
+          {"kind": "mc", "q": "Why did Chiara cry a little?", "options": ["Because of the snow and the quiet, and because she missed Roccamarina.", "Because her knee hurt.", "Because a woman laughed at her."], "answer": 0, "why": "Not because of the knee. Because of the snow. It was so quiet. I miss it."},
+          {"kind": "fill", "q": "Chiara ___ (walk) to the bus stop when she ___ (slip). In Roccamarina they ___ (use) to eat outside in November.", "answers": [["was walking"], ["slipped"], ["used"]], "n": "Chiara stava andando alla fermata quando è scivolata. A Roccamarina a novembre mangiavano fuori."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Snow, layers, feelings",
+      "intro": "Le parole della neve e del ghiaccio, ogni strato di vestiti, i verbi del cadere, e le emozioni di un primo inverno lontano da casa.",
+      "blocks": [
+        {"type": "vocab", "theme": "Snow and ice", "n": "Neve e ghiaccio", "items": [
+          {"t": "snow", "n": "neve; nevicare", "pos": "noun", "ipa": "snoʊ", "ex": {"t": "Twelve centimetres of snow overnight. It snowed all night.", "n": "Dodici centimetri di neve stanotte. Ha nevicato tutta la notte."}, "note": "Non numerabile. Snowfall = nevicata; snowstorm = tempesta di neve; blizzard = bufera; flurries = fiocchi leggeri, sulle previsioni."},
+          {"t": "ice", "n": "ghiaccio", "pos": "noun", "ipa": "aɪs", "ex": {"t": "Fresh snow over old ice: the most dangerous combination.", "n": "Neve fresca sopra ghiaccio vecchio: la combinazione più pericolosa."}, "note": "Icy = ghiacciato (strada, marciapiede). Black ice = il ghiaccio invisibile sull'asfalto."},
+          {"t": "slippery", "n": "scivoloso", "pos": "adj.", "ipa": "ˈslɪpəri", "ex": {"t": "Careful, the steps are slippery.", "n": "Attenzione, i gradini sono scivolosi."}, "note": "Slip = scivolare. Il cartello: Caution, slippery when wet."},
+          {"t": "to shovel", "n": "spalare", "pos": "verb", "ipa": "ˈʃʌvəl", "forms": "shovelled, shovelled", "ex": {"t": "Franco was shovelling the sidewalk at five a.m.", "n": "Franco stava spalando il marciapiede alle cinque di mattina."}, "note": "A shovel = la pala. Grafia canadese shovelled, con due l. Per legge si spala entro dodici ore."},
+          {"t": "sidewalk", "n": "marciapiede", "pos": "noun", "ipa": "ˈsaɪdwɔk", "plural": "sidewalks", "ex": {"t": "You have to clear the sidewalk in front of your house.", "n": "Devi pulire il marciapiede davanti a casa tua."}, "note": "Nord America. Pavement nel Regno Unito (dove pavement in Nord America è l'asfalto)."},
+          {"t": "salt", "n": "sale (per le strade)", "pos": "noun", "ipa": "sɒlt", "ex": {"t": "The city puts salt on the roads. It ruins your boots.", "n": "Il comune mette il sale sulle strade. Ti rovina gli stivali."}, "note": "Road salt. Le righe bianche sugli stivali a marzo sono sale."},
+          {"t": "snowplow", "n": "spazzaneve", "pos": "noun", "ipa": "ˈsnoʊplaʊ", "plural": "snowplows", "ex": {"t": "The snowplow came at four and buried the car.", "n": "Lo spazzaneve è passato alle quattro e ha sepolto la macchina."}, "note": "Grafia canadese plow (britannica plough). Il muro di neve che lascia davanti al vialetto è il windrow."},
+          {"t": "snow day", "n": "giorno di chiusura per neve", "pos": "noun", "ipa": "snoʊ deɪ", "plural": "snow days", "ex": {"t": "Schools are closed: it's a snow day.", "n": "Le scuole sono chiuse: è un snow day."}, "note": "Il sogno di ogni bambino canadese. A Toronto quasi mai: gli autobus scolastici si fermano, le scuole no."},
+          {"t": "frostbite", "n": "congelamento", "pos": "noun", "ipa": "ˈfrɒstbaɪt", "ex": {"t": "At minus thirty you can get frostbite in ten minutes.", "n": "A meno trenta puoi avere un congelamento in dieci minuti."}, "note": "Frost = brina / gelo, bite = morso. Il motivo delle manopole e del berretto."},
+          {"t": "to melt", "n": "sciogliersi", "pos": "verb", "ipa": "mɛlt", "forms": "melted, melted", "ex": {"t": "The snow melted by noon and froze again by six.", "n": "La neve si è sciolta entro mezzogiorno e ha gelato di nuovo entro le sei."}, "note": "Freeze → froze → frozen = gelare. Thaw = disgelo."},
+          {"t": "to skate", "n": "pattinare", "pos": "verb", "ipa": "skeɪt", "forms": "skated, skated", "ex": {"t": "By December you'll be skating at Nathan Phillips Square.", "n": "A dicembre pattinerai a Nathan Phillips Square."}, "note": "Skates = i pattini. Ice rink = la pista. Skating è anche su rotelle: rollerblade."}
+        ]},
+        {"type": "vocab", "theme": "Layers", "n": "Gli strati", "items": [
+          {"t": "layer", "n": "strato", "pos": "noun", "ipa": "ˈleɪər", "plural": "layers", "ex": {"t": "Three layers on top, two on the bottom. Dress in layers.", "n": "Tre strati sopra, due sotto. Vestiti a strati."}, "note": "Dress in layers: il consiglio numero uno. Si tolgono e si rimettono durante il giorno."},
+          {"t": "parka", "n": "parka, giaccone invernale", "pos": "noun", "ipa": "ˈpɑrkə", "plural": "parkas", "ex": {"t": "A real parka goes down to the knees.", "n": "Un parka vero arriva alle ginocchia."}, "note": "Winter coat, winter jacket: in generale. Down = piuma."},
+          {"t": "toque", "n": "berretto di lana", "pos": "noun", "ipa": "tuk", "plural": "toques", "ex": {"t": "Wear a toque: you lose half your heat through your head.", "n": "Metti il berretto: perdi metà del calore dalla testa."}, "note": "Si dice tuk. La parola più canadese dell'unità. Beanie negli Stati Uniti, woolly hat nel Regno Unito."},
+          {"t": "mitts", "n": "manopole, guanti a muffola", "pos": "noun", "ipa": "mɪts", "ex": {"t": "Mitts are warmer than gloves. You can't use your phone, though.", "n": "Le manopole sono più calde dei guanti. Però non puoi usare il telefono."}, "note": "Mittens, mitts. Gloves = guanti con le dita."},
+          {"t": "scarf", "n": "sciarpa", "pos": "noun", "ipa": "skɑrf", "plural": "scarves", "ex": {"t": "Wrap the scarf over your nose at minus twenty.", "n": "Avvolgi la sciarpa sul naso a meno venti."}, "note": "Plurale scarves, come loaf → loaves."},
+          {"t": "boots", "n": "stivali", "pos": "noun", "ipa": "buts", "ex": {"t": "Winter boots: waterproof, with a grip. Fashion boots don't count.", "n": "Stivali da neve: impermeabili, con la suola che tiene. Gli stivali belli non contano."}, "note": "A pair of boots. Waterproof = impermeabile. Grip = la presa della suola."},
+          {"t": "thermal underwear", "n": "intimo termico", "pos": "noun", "ipa": "ˈθɜrməl ˈʌndərwɛr", "ex": {"t": "Layer one: thermal underwear. Nobody sees it, everybody wears it.", "n": "Strato uno: l'intimo termico. Nessuno lo vede, tutti lo portano."}, "note": "Anche long johns (le mutande lunghe), base layer."},
+          {"t": "sweater", "n": "maglione", "pos": "noun", "ipa": "ˈswɛtər", "plural": "sweaters", "ex": {"t": "Take the sweater off inside; put it back on outside.", "n": "Togli il maglione dentro; rimettilo fuori."}, "note": "Jumper nel Regno Unito. Hoodie = felpa con cappuccio."},
+          {"t": "to put on", "n": "mettersi (un vestito)", "pos": "verb", "ipa": "pʊt ɒn", "forms": "put on, put on", "ex": {"t": "Put on your toque. Put it on now.", "n": "Mettiti il berretto. Mettilo adesso."}, "note": "Phrasal verb separabile: put on the toque / put the toque on / put it on. Wear = indossare (lo stato)."},
+          {"t": "to take off", "n": "togliersi (un vestito)", "pos": "verb", "ipa": "teɪk ɒf", "forms": "took off, taken off", "ex": {"t": "Take your boots off at the door. Take them off!", "n": "Togliti gli stivali alla porta. Toglili!"}, "note": "Separabile. Anche decollare (aereo). Il pronome sempre in mezzo: take them off."},
+          {"t": "to bundle up", "n": "coprirsi bene, imbacuccarsi", "pos": "verb", "ipa": "ˈbʌndəl ʌp", "forms": "bundled up, bundled up", "ex": {"t": "Bundle up, it's minus twenty with the wind chill.", "n": "Copriti bene, ci sono meno venti con il vento."}, "note": "Quello che ti dice tutti i giorni chiunque ti voglia bene."},
+          {"t": "to warm up", "n": "scaldarsi; riscaldarsi", "pos": "verb", "ipa": "wɔrm ʌp", "forms": "warmed up, warmed up", "ex": {"t": "Come in and warm up. The car needs five minutes to warm up.", "n": "Entra e scaldati. La macchina ha bisogno di cinque minuti per scaldarsi."}, "note": "Anche il riscaldamento prima dello sport. Cool down: il contrario."}
+        ]},
+        {"type": "vocab", "theme": "Falling and feeling", "n": "Cadere e sentirsi", "items": [
+          {"t": "to fall", "n": "cadere", "pos": "verb", "ipa": "fɔl", "forms": "fell, fallen", "ex": {"t": "Everybody falls the first winter. I fell three times.", "n": "Tutti cadono il primo inverno. Io sono caduto tre volte."}, "note": "Irregolare: fell, fallen. Fall over / fall down: cadere per terra. Fall è anche l'autunno."},
+          {"t": "to slip", "n": "scivolare", "pos": "verb", "ipa": "slɪp", "forms": "slipped, slipped", "ex": {"t": "I slipped on the ice in front of the bus stop.", "n": "Sono scivolata sul ghiaccio davanti alla fermata."}, "note": "Slipped: raddoppia la p. Slide = scivolare apposta (su una slitta, sul ghiaccio)."},
+          {"t": "to trip", "n": "inciampare", "pos": "verb", "ipa": "trɪp", "forms": "tripped, tripped", "ex": {"t": "I tripped on the curb, not on the ice.", "n": "Sono inciampata sul cordolo, non sul ghiaccio."}, "note": "Trip over something. A trip è anche un viaggio."},
+          {"t": "to land", "n": "atterrare, finire (cadendo)", "pos": "verb", "ipa": "lænd", "forms": "landed, landed", "ex": {"t": "I landed on my bag. Luckily.", "n": "Sono atterrata sulla borsa. Per fortuna."}, "note": "Anche l'aereo: the plane landed."},
+          {"t": "to hurt", "n": "fare male; farsi male", "pos": "verb", "ipa": "hɜrt", "forms": "hurt, hurt", "ex": {"t": "Did you hurt yourself? — My knee hurts a bit.", "n": "Ti sei fatta male? — Mi fa un po' male il ginocchio."}, "note": "Invariabile: hurt, hurt. My knee hurts = mi fa male il ginocchio (il ginocchio è il soggetto)."},
+          {"t": "bruise", "n": "livido", "pos": "noun", "ipa": "bruz", "plural": "bruises", "ex": {"t": "A bruise on the knee and nothing else.", "n": "Un livido sul ginocchio e niente altro."}, "note": "Si dice bruz. To bruise = farsi un livido."},
+          {"t": "to laugh", "n": "ridere", "pos": "verb", "ipa": "læf", "forms": "laughed, laughed", "ex": {"t": "I started laughing and I couldn't stop.", "n": "Ho cominciato a ridere e non riuscivo a smettere."}, "note": "Si dice laf: la gh è una f. Laugh at = ridere di."},
+          {"t": "to cry", "n": "piangere", "pos": "verb", "ipa": "kraɪ", "forms": "cried, cried", "ex": {"t": "And then I cried a bit. Not because of the knee.", "n": "E poi ho pianto un po'. Non per il ginocchio."}, "note": "Cried: y → ied. Tears = lacrime. Cry è anche gridare, raramente."},
+          {"t": "to miss", "n": "mancare (a qualcuno); perdere (un autobus)", "pos": "verb", "ipa": "mɪs", "forms": "missed, missed", "ex": {"t": "I miss Roccamarina. I miss my mother. I missed the bus.", "n": "Mi manca Roccamarina. Mi manca mia madre. Ho perso l'autobus."}, "note": "Mi manca X = I miss X: io sono il soggetto. Anche perdere un mezzo o un appuntamento."},
+          {"t": "homesick", "n": "nostalgico (di casa)", "pos": "adj.", "ipa": "ˈhoʊmsɪk", "ex": {"t": "I was a bit homesick this morning. It passed.", "n": "Stamattina avevo un po' di nostalgia di casa. È passata."}, "note": "Homesickness = la nostalgia di casa. Nostalgic in inglese è più per il passato che per un posto."},
+          {"t": "proud", "n": "fiero, orgoglioso", "pos": "adj.", "ipa": "praʊd", "ex": {"t": "I was feeling quite proud of myself. Then I slipped.", "n": "Mi sentivo piuttosto fiera di me. Poi sono scivolata."}, "note": "Proud of + nome. Si dice praud, con la vocale di now."},
+          {"t": "on purpose", "n": "apposta", "pos": "phrase", "ipa": "ɒn ˈpɜrpəs", "ex": {"t": "Skating. On ice. On purpose.", "n": "Pattinare. Sul ghiaccio. Apposta."}, "note": "By accident = per sbaglio. Il contrario."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "I was walking when I slipped",
+      "intro": "Cinque pezzi: il past continuous, il confronto con il past simple con when e while, used to e would, so / such / too… to con there was, e i phrasal verb separabili. In fondo a ogni blocco, la pagina di riferimento.",
+      "blocks": [
+        {"type": "grammar", "id": "g-past-continuous", "title": "Past continuous: I was walking", "category": "Verbi", "rule": "Was / were + verbo in -ing: un'azione in corso in un momento del passato. Non dice quando è cominciata né se è finita: fa da sfondo. Negativo con not (wasn't walking), domanda con was / were davanti al soggetto. I verbi di stato (know, want, like, have = possedere) non vanno al continuous nemmeno al passato: I knew, non I was knowing.", "ref": "past-continuous", "blocks": [
+          {"type": "conjugation", "verb": "walk", "tense": "past_continuous", "caption": "[[walk|camminare]] · past continuous: affermativo, negativo, domanda"},
+          {"type": "table", "head": ["Uso", "Inglese", "Italiano"], "rows": [["azione in corso a un'ora precisa", "At six I was sleeping. At seven I was walking to the bus stop.", "Alle sei dormivo. Alle sette stavo andando alla fermata."], ["sfondo di un evento", "I was walking to the bus stop when I slipped.", "Stavo andando alla fermata quando sono scivolata."], ["due azioni insieme", "While Franco was shovelling, Teresa was making coffee.", "Mentre Franco spalava, Teresa faceva il caffè."], ["atmosfera di un racconto", "It was snowing. The street was shining. Nobody was talking.", "Nevicava. La strada brillava. Nessuno parlava."], ["domanda", "What were you doing at seven? Was it snowing?", "Cosa stavi facendo alle sette? Nevicava?"], ["negativo", "I wasn't paying attention. They weren't listening.", "Non stavo attenta. Non ascoltavano."]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Franco was shovelling when I got up, and he was still shovelling when we left.", "n": "Franco stava spalando quando mi sono alzata, e stava ancora spalando quando siamo usciti."},
+            {"t": "At two in the morning in Roccamarina it was raining and the dog was barking.", "n": "Alle due di notte a Roccamarina pioveva e il cane abbaiava."},
+            {"t": "What were you doing when it started to snow? — I was sleeping. Everybody was sleeping.", "n": "Cosa stavi facendo quando ha cominciato a nevicare? — Dormivo. Dormivano tutti."},
+            {"t": "I wasn't looking at the ground. I was looking at the snow.", "n": "Non guardavo per terra. Guardavo la neve."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Past continuous = imperfetto (quasi)", "text": "Il past continuous copre l'imperfetto italiano quando l'imperfetto descrive un'azione in corso: [[stavo andando]], [[nevicava]], [[dormivano]]. Non copre gli altri usi dell'imperfetto: le abitudini ([[used to]], [[would]], o il past simple), gli stati ([[I was tired]], [[I knew]]), l'età ([[I was six]]). L'imperfetto italiano è una stanza; il past continuous è una delle sue finestre."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I walking to the bus stop. I was walk.", "right": "I was walking to the bus stop.", "why": "Was / were + -ing, tutti e due."},
+            {"wrong": "I was knowing. She was wanting. We were having a car.", "right": "I knew. She wanted. We had a car.", "why": "Verbi di stato: past simple."},
+            {"wrong": "Yesterday I was going to the bakery and I was making croissants. (per una sequenza)", "right": "Yesterday I went to the bakery and made croissants.", "why": "Eventi in sequenza: past simple."},
+            {"wrong": "I was living in Italy for five years. (periodo chiuso)", "right": "I lived in Italy for five years.", "why": "Periodo finito e misurato: past simple."},
+            {"wrong": "Were you sleeping? — Yes, I were.", "right": "Were you sleeping? — Yes, I was.", "why": "La risposta breve con was / were."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-simple-vs-continuous", "title": "Past simple o past continuous? when e while", "category": "Verbi", "rule": "Past continuous per l'azione lunga in corso (lo sfondo); past simple per l'azione breve che arriva o interrompe (l'evento). When introduce di solito l'evento (when I slipped); while introduce l'azione in corso (while I was lying there). Due azioni lunghe insieme: while + continuous, continuous. Due eventi in sequenza: past simple, past simple.", "ref": "past-simple-vs-past-continuous", "blocks": [
+          {"type": "table", "head": ["Schema", "Esempio", "Italiano"], "rows": [["continuous + when + simple", "I was walking when I slipped.", "Stavo camminando quando sono scivolata."], ["when + simple, simple", "When I fell, a man stopped.", "Quando sono caduta, un uomo si è fermato."], ["while + continuous, simple", "While I was lying there, a woman stopped.", "Mentre ero lì per terra, una donna si è fermata."], ["while + continuous, continuous", "While Franco was shovelling, Teresa was making coffee.", "Mentre Franco spalava, Teresa faceva il caffè."], ["simple, simple, simple", "I slipped, I fell and I laughed.", "Sono scivolata, sono caduta e ho riso."], ["continuous (sfondo) + simple (storia)", "It was snowing. I left the house at seven.", "Nevicava. Sono uscita di casa alle sette."]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "I was feeling proud of myself, and then I slipped.", "n": "Mi sentivo fiera di me, e poi sono scivolata."},
+            {"t": "When the snowplow came, the car was sleeping under the snow. When it left, the car was buried.", "n": "Quando è passato lo spazzaneve, la macchina dormiva sotto la neve. Quando se n'è andato, la macchina era sepolta."},
+            {"t": "While Chiara was recording the voice note, {hero} was sleeping. When {{he|she}} woke up, {{he|she}} listened to it twice.", "n": "Mentre Chiara registrava il vocale, {hero} dormiva. Quando si è {{svegliato|svegliata}}, l'ha ascoltato due volte."},
+            {"t": "What happened? — I was crossing the street and a cyclist didn't stop.", "n": "Cos'è successo? — Stavo attraversando la strada e un ciclista non si è fermato."}
+          ]},
+          {"type": "callout", "kind": "tip", "title": "Il test della durata", "text": "Quale azione era già cominciata quando è arrivata l'altra? Quella è lunga: past continuous. Quella che arriva è corta: past simple. [[I was walking]] (già in corso) [[when I slipped]] (un attimo). Se le due azioni sono entrambe in corso, tutte e due al continuous con while. Se sono una dopo l'altra, tutte e due al simple."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I walked to the bus stop when I slipped. (ambiguo)", "right": "I was walking to the bus stop when I slipped.", "why": "L'azione in corso al continuous."},
+            {"wrong": "While I slipped, a man was stopping.", "right": "While I was lying there, a man stopped.", "why": "Lunga al continuous, breve al simple."},
+            {"wrong": "When I was falling, I was laughing. (possibile ma strano) → I fell and laughed.", "right": "When I fell, I laughed.", "why": "Due eventi: simple."},
+            {"wrong": "During I was walking…", "right": "While I was walking… / During the walk…", "why": "While + frase; during + nome."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-used-to", "title": "used to e would: le abitudini di una volta", "category": "Verbi", "rule": "Used to + verbo base: un'abitudine o uno stato del passato che non c'è più (we used to eat outside; I used to have long hair). Negativo didn't use to, domanda did you use to…? Would + verbo base: le azioni ripetute dentro un ricordo (nonna would put the table outside), ma non gli stati (mai «would have long hair»). Tutti e due = l'imperfetto italiano. Non confondere con be used to + -ing (essere abituato a) e get used to (abituarsi).", "ref": "used-to", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano", "Nota"], "rows": [["We used to eat outside in November.", "A novembre mangiavamo fuori.", "abitudine finita"], ["I used to be afraid of the sea.", "Avevo paura del mare.", "stato finito"], ["Nonno used to live in that house.", "Il nonno viveva in quella casa.", "stato"], ["I didn't use to like winter.", "Non mi piaceva l'inverno.", "negativo: didn't use to"], ["Did you use to play outside?", "Giocavi fuori?", "domanda: did … use to"], ["Nonna would put the table in the courtyard and Dora would bring the bread.", "La nonna metteva il tavolo in cortile e Dora portava il pane.", "would: azioni ripetute"], ["Every Sunday we would walk to the sea.", "Ogni domenica andavamo al mare a piedi.", "would con every, always"], ["I'm used to the cold now. I'm getting used to it.", "Ormai sono abituata al freddo. Mi ci sto abituando.", "be / get used to + nome / -ing: altra cosa"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "Toronto used to have streetcars everywhere; now it has fewer. It used to snow more, Franco says.", "n": "Toronto una volta aveva tram dappertutto; adesso ne ha meno. Nevicava di più, dice Franco."},
+            {"t": "When I was a child, my mother would wake me at six and we would walk to school in the dark.", "n": "Da bambina mia madre mi svegliava alle sei e andavamo a scuola a piedi al buio."},
+            {"t": "I didn't use to wear a hat. Now I wear a toque indoors.", "n": "Non portavo mai il cappello. Adesso porto il berretto anche dentro."},
+            {"t": "I'm not used to this. But I'm getting used to it.", "n": "Non ci sono abituata. Ma mi ci sto abituando."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Tre used to, un solo imperfetto", "text": "[[Used to + base]] è l'imperfetto delle abitudini ([[mangiavamo fuori]]). [[Be used to + -ing]] è «essere abituato» ([[sono abituata al freddo]]). [[Get used to + -ing]] è «abituarsi». La prima ha un'azione dopo, le altre due un nome o un -ing. [[I used to wake up at four]] = mi svegliavo alle quattro; [[I'm used to waking up at four]] = sono abituata a svegliarmi alle quattro."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I use to eat outside. (presente: non esiste)", "right": "I used to eat outside. (passato) / I eat outside. (presente)", "why": "Used to esiste solo al passato."},
+            {"wrong": "I didn't used to. Did you used to?", "right": "I didn't use to. Did you use to?", "why": "Dopo did, use."},
+            {"wrong": "I would be afraid of the sea. (stato)", "right": "I used to be afraid of the sea.", "why": "Would solo per le azioni ripetute, non per gli stati."},
+            {"wrong": "I'm used to wake up at four.", "right": "I'm used to waking up at four.", "why": "Be used to + -ing."},
+            {"wrong": "We were eating outside every November. (per un'abitudine)", "right": "We used to eat outside every November.", "why": "Abitudine: used to, non past continuous."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-so-such", "title": "so, such, too… to, there was / were", "category": "Frasi", "rule": "So + aggettivo o avverbio (so cold, so quietly); such + (a / an) + aggettivo + nome (such a strange morning, such good bread); so much / so many + nome. Too + aggettivo + to + verbo = troppo… per (too cold to walk); aggettivo + enough + to (warm enough to melt). There was + singolare / non numerabile, there were + plurale; there wasn't any, there weren't any.", "ref": "so-such-too", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano", "Struttura"], "rows": [["It was so quiet. It snowed so much.", "Era così silenzioso. Ha nevicato così tanto.", "so + aggettivo / avverbio / much"], ["It was such a strange morning. Such beautiful snow.", "Era una mattina così strana. Una neve così bella.", "such + (a) + aggettivo + nome"], ["There was so much snow. There were so many people.", "C'era così tanta neve. C'era così tanta gente.", "so much / so many"], ["It was so cold that the lake froze.", "Faceva così freddo che il lago è gelato.", "so… that"], ["It's too cold to be sad. It was too icy to walk fast.", "Fa troppo freddo per essere tristi. Era troppo ghiacciato per camminare veloce.", "too + aggettivo + to"], ["It was warm enough to melt the ice.", "Era abbastanza caldo da sciogliere il ghiaccio.", "aggettivo + enough + to"], ["There was ice under the snow. There were no buses.", "C'era ghiaccio sotto la neve. Non c'erano autobus.", "there was / were"], ["There wasn't any salt. There weren't any taxis.", "Non c'era sale. Non c'erano taxi.", "negativo con any"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "There was so much snow that the plow came twice. There were such long lines at the bus stop.", "n": "C'era così tanta neve che lo spazzaneve è passato due volte. C'erano file così lunghe alla fermata."},
+            {"t": "It was such a beautiful morning and I was so tired.", "n": "Era una mattina così bella e io ero così stanca."},
+            {"t": "It was too dark to see the ice and too early to care.", "n": "Era troppo buio per vedere il ghiaccio e troppo presto per preoccuparsene."},
+            {"t": "In '99 there was so much snow that the mayor called the army. There weren't enough plows.", "n": "Nel '99 c'era così tanta neve che il sindaco ha chiamato l'esercito. Non c'erano abbastanza spazzaneve."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "It was so strange morning. It was such cold.", "right": "It was such a strange morning. It was so cold.", "why": "Such con il nome, so con l'aggettivo da solo."}, 
+            {"wrong": "so much people · so many snow", "right": "so many people · so much snow", "why": "Many + plurale, much + non numerabile."},
+            {"wrong": "too cold for walk · too cold to walking", "right": "too cold to walk", "why": "Too + aggettivo + to + base."},
+            {"wrong": "There was a lot of people. There were snow.", "right": "There were a lot of people. There was snow.", "why": "Was con singolare e non numerabili; were con plurali."},
+            {"wrong": "It was a such long winter.", "right": "It was such a long winter.", "why": "Such prima di a."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-phrasal", "title": "Phrasal verb separabili: put on, take off", "category": "Verbi", "rule": "Un phrasal verb è verbo + particella (on, off, up, down, out) con un significato nuovo: put on = mettersi, take off = togliersi, warm up = scaldarsi, bundle up = coprirsi. Con un nome, la particella va prima o dopo il nome (put on your toque / put your toque on). Con un pronome, solo in mezzo (put it on, take them off, mai put on it). Alcuni non si separano mai (get on the bus, look after the kids).", "ref": "phrasal-verbs", "blocks": [
+          {"type": "table", "caption": "I phrasal verb dell'inverno", "head": ["Phrasal verb", "Italiano", "Esempio"], "rows": [["put on", "mettersi", "Put your toque on. Put it on."], ["take off", "togliersi", "Take your boots off at the door. Take them off."], ["bundle up", "coprirsi bene", "Bundle up, it's minus twenty."], ["warm up", "scaldarsi", "Come in and warm up."], ["cool down", "raffreddarsi", "The soup needs to cool down."], ["slip on", "infilarsi (velocemente)", "Slip on your boots, we're late."], ["zip up", "chiudere la zip", "Zip up your coat."], ["fall over · fall down", "cadere", "I fell over on the ice. I fell down the steps."], ["pick up", "raccogliere; andare a prendere", "Pick up your mitts. Franco will pick you up at six."], ["clear off · clear away", "pulire (la neve)", "Clear the snow off the car. Clear away the ice."], ["get up", "alzarsi", "Franco was shovelling when I got up."], ["give up", "arrendersi", "Don't give up on winter. It gives up in April."]], "speak": [2], "rowhead": true},
+          {"type": "table", "caption": "Dove va il pronome", "head": ["Con un nome", "Con un pronome"], "rows": [["Put on the toque. / Put the toque on.", "Put it on."], ["Take off your boots. / Take your boots off.", "Take them off."], ["Pick up the mitts. / Pick the mitts up.", "Pick them up."], ["Zip up your coat. / Zip your coat up.", "Zip it up."]], "speak": [0, 1], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Teresa gave me a toque and I put it on. Then she gave me mitts and I put them on too.", "n": "Teresa mi ha dato un berretto e me lo sono messo. Poi mi ha dato le manopole e mi sono messa anche quelle."},
+            {"t": "Take your sweater off at the bakery, but don't take your toque off outside.", "n": "Togliti il maglione in panetteria, ma non toglierti il berretto fuori."},
+            {"t": "I slipped, I fell over, I got up and I laughed. Then I picked my bag up.", "n": "Sono scivolata, sono caduta, mi sono alzata e ho riso. Poi ho raccolto la borsa."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Put on it. Take off them.", "right": "Put it on. Take them off.", "why": "Il pronome sempre in mezzo."},
+            {"wrong": "Put yourself the toque. Take yourself the boots.", "right": "Put your toque on. Take your boots off.", "why": "Niente riflessivo: mettersi = put on."},
+            {"wrong": "I dressed the toque. I removed the coat. (corretto ma formale)", "right": "I put the toque on. I took the coat off.", "why": "Dress = vestirsi (tutto); nel parlato put on / take off."},
+            {"wrong": "I fell over the ice. (= sopra, scavalcando)", "right": "I fell over on the ice. / I fell on the ice.", "why": "Fall over = cadere; on the ice = sul ghiaccio."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "winter, wine, very · snow, now · months, clothes",
+      "intro": "Tre cose che il freddo mette alla prova: la w che gli italiani fanno diventare v, le due letture di ow, e i gruppi di consonanti che la neve non scioglie.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "/w/", "t": "winter", "n": "inverno", "ipa": "ˈwɪntər", "tip": "Labbra arrotondate, come per dire u, poi la vocale: u-inter. Niente denti sul labbro. Winter, wine, warm, wear, wet, wind, would, was, were."},
+          {"sound": "/v/", "t": "very", "n": "molto", "ipa": "ˈvɛri", "tip": "Denti superiori sul labbro inferiore, con vibrazione: la v italiana. Very, vest, van, voice, over, November. Vinter non esiste; wery nemmeno."},
+          {"sound": "/oʊ/", "t": "snow", "n": "neve", "ipa": "snoʊ", "tip": "Ow come in snow: o che scivola verso u. Snow, know, slow, low, throw, show, below, window."},
+          {"sound": "/aʊ/", "t": "now", "n": "adesso", "ipa": "naʊ", "tip": "Ow come in now: a che scivola verso u. Now, how, down, town, brown, cow, allow, shower. Stessa grafia, due suoni: si imparano parola per parola."}
+        ]},
+        {"type": "minimal", "caption": "w o v?", "pairs": [
+          {"a": "wine", "b": "vine", "na": "vino", "nb": "vite (pianta)", "tip": "Labbra tonde contro denti sul labbro."},
+          {"a": "wet", "b": "vet", "na": "bagnato", "nb": "veterinario"},
+          {"a": "west", "b": "vest", "na": "ovest", "nb": "gilet, canottiera"},
+          {"a": "wheel", "b": "veal", "na": "ruota", "nb": "vitello"},
+          {"a": "worse", "b": "verse", "na": "peggiore", "nb": "verso", "tip": "Worse: labbra tonde, poi la vocale di her."}
+        ]},
+        {"type": "minimal", "caption": "snow o now?", "pairs": [
+          {"a": "snow", "b": "now", "na": "neve /oʊ/", "nb": "adesso /aʊ/"},
+          {"a": "know", "b": "how", "na": "sapere", "nb": "come"},
+          {"a": "low", "b": "allow", "na": "basso", "nb": "permettere"},
+          {"a": "show", "b": "shower", "na": "mostrare", "nb": "doccia", "tip": "Show /oʊ/ ma shower /aʊ/: parole diverse, non una regola."},
+          {"a": "bowl", "b": "bow", "na": "ciotola /oʊ/", "nb": "inchino /aʊ/ (ma bow = fiocco /oʊ/)", "tip": "Bow ha tutte e due le letture con due significati. L'inglese è così."}
+        ]},
+        {"type": "table", "caption": "Gruppi di consonanti", "head": ["Parola", "Si dice", "Trucco"], "rows": [["months", "mʌnθs → mʌns va bene", "th + s: i madrelingua stessi lo semplificano"], ["clothes", "kloʊðz → kloʊz va bene", "si dice come close (chiudere)"], ["sixths", "sɪksθs", "la parola più difficile dell'inglese; dici sixth"], ["asked", "æskt, una sillaba", "non as-ked"], ["texts", "tɛksts", "quattro consonanti: tecs-ts"], ["twelfth", "twɛlfθ", "dodicesimo: la f si sente, la th appena"], ["world", "wɜrld", "w + er + l + d, una sillaba"]], "speak": [0], "compact": true, "note": "L'italiano aggiunge una vocale: mont-se, clo-thes-e. L'inglese schiaccia: la regola è non aggiungere niente, e semplificare quando i madrelingua semplificano."},
+        {"type": "callout", "kind": "tip", "title": "La w in tre secondi", "text": "Di' «uomo» e fermati sulla u: quella bocca, tonda e senza denti, è la w. Poi passa alla vocale: u-inter, u-ine, u-arm. La v è l'opposto: denti sul labbro. Un italiano che dice [[vinter]] e [[wery]] ha scambiato le due; uno che dice [[winter]] e [[very]] ha capito l'inverno."},
+        {"type": "examples", "items": [
+          {"t": "It was very windy and wet in the west end, and I wore a vest.", "n": "C'era molto vento ed era bagnato nel west end, e ho messo un gilet.", "note": "very · windy · wet · west · wore · vest"},
+          {"t": "I know how the snow comes down now.", "n": "Adesso so come viene giù la neve.", "note": "know /oʊ/ · how /aʊ/ · snow /oʊ/ · down /aʊ/ · now /aʊ/"},
+          {"t": "Two months of this, in these clothes.", "n": "Due mesi così, con questi vestiti.", "note": "months → mʌns · clothes → kloʊz"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Your turn",
+      "intro": "Trenta esercizi su questa unità, poi un ripasso misto delle unità 1–11.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Past continuous", "items": [
+          {"kind": "conjugate", "verb": "walk", "tense": "past continuous", "n": "camminare", "answers": ["was walking", "were walking", "was walking", "were walking", "were walking", "were walking"]},
+          {"kind": "fill", "q": "At six Franco ___ (shovel) and Teresa ___ (make) coffee. Sofia ___ (not help).", "answers": [["was shovelling", "was shoveling"], ["was making"], ["wasn't helping", "was not helping"]], "n": "Alle sei Franco spalava e Teresa faceva il caffè. Sofia non aiutava."},
+          {"kind": "fill", "q": "What ___ you ___ (do) at seven? — I ___ (walk) to the bus stop.", "answers": [["were"], ["doing"], ["was walking"]], "n": "Cosa stavi facendo alle sette? — Stavo andando alla fermata."},
+          {"kind": "fill", "q": "It ___ (snow). The street ___ (shine). Nobody ___ (talk).", "answers": [["was snowing"], ["was shining"], ["was talking"]], "n": "Nevicava. La strada brillava. Nessuno parlava."},
+          {"kind": "mc", "q": "Which one is impossible?", "options": ["I was knowing the way.", "I was looking at the snow.", "I was feeling proud."], "answer": 0, "why": "Know è un verbo di stato: I knew. Feel come sensazione va bene al continuous."},
+          {"kind": "order", "answer": "Franco was still shovelling when we left.", "n": "Franco stava ancora spalando quando siamo usciti."},
+          {"kind": "dictation", "text": "I was walking to the bus stop very carefully.", "n": "Stavo andando alla fermata con molta attenzione."},
+          {"kind": "translate", "q": "Were you sleeping? — Yes, I was. Everybody was sleeping.", "answers": ["Were you sleeping? Yes, I was. Everybody was sleeping", "Were you sleeping? — Yes, I was. Everybody was sleeping"]}
+        ]},
+        {"type": "exercises", "title": "2 · when e while", "items": [
+          {"kind": "fill", "q": "I ___ (walk) to the bus stop when I ___ (slip). While I ___ (lie) there, a man ___ (stop).", "answers": [["was walking"], ["slipped"], ["was lying"], ["stopped"]], "n": "Stavo andando alla fermata quando sono scivolata. Mentre ero lì per terra, un uomo si è fermato."},
+          {"kind": "fill", "q": "___ (while / when) Franco was shovelling, Teresa was making coffee. ___ (while / when) I fell, I laughed.", "answers": [["While"], ["When"]], "n": "Mentre Franco spalava, Teresa faceva il caffè. Quando sono caduta, ho riso."},
+          {"kind": "mc", "q": "«Stavo attraversando la strada e un ciclista non si è fermato.»", "options": ["I was crossing the street and a cyclist didn't stop.", "I crossed the street and a cyclist wasn't stopping.", "I was crossing the street and a cyclist wasn't stopping."], "answer": 0, "why": "Lunga al continuous (crossing), breve al simple (didn't stop)."},
+          {"kind": "fill", "q": "When the plow ___ (come), the car ___ (sleep) under the snow. When it ___ (leave), the car ___ (be) buried.", "answers": [["came"], ["was sleeping"], ["left"], ["was"]], "n": "Quando è passato lo spazzaneve, la macchina dormiva sotto la neve. Quando se n'è andato, la macchina era sepolta."},
+          {"kind": "order", "answer": "While I was lying there, a woman stopped and asked about my first winter.", "n": "Mentre ero lì per terra, una donna si è fermata e ha chiesto del mio primo inverno."},
+          {"kind": "translate", "q": "What happened? — I slipped, I fell and I laughed.", "answers": ["What happened? I slipped, I fell and I laughed", "What happened? — I slipped, I fell and I laughed"]},
+          {"kind": "fill", "q": "While Chiara ___ (record) the voice note, {hero} ___ (sleep). When {{he|she}} ___ (wake up), {{he|she}} ___ (listen) to it twice.", "answers": [["was recording"], ["was sleeping"], ["woke up"], ["listened"]], "n": "Mentre Chiara registrava il vocale, {hero} dormiva. Quando si è {{svegliato|svegliata}}, l'ha ascoltato due volte."}
+        ]},
+        {"type": "exercises", "title": "3 · used to, would, so, such, too", "items": [
+          {"kind": "fill", "q": "In Roccamarina we ___ ___ (use) eat outside in November. Nonna ___ (would) put the table in the courtyard.", "answers": [["used"], ["to"], ["would"]], "n": "A Roccamarina a novembre mangiavamo fuori. La nonna metteva il tavolo in cortile."},
+          {"kind": "fill", "q": "I ___ (not use to) like winter. ___ you ___ (use to) play outside?", "answers": [["didn't use to", "did not use to"], ["Did"], ["use to"]], "n": "Non mi piaceva l'inverno. Giocavi fuori?"},
+          {"kind": "mc", "q": "«Sono abituata al freddo.»", "options": ["I'm used to the cold.", "I used to the cold.", "I use to the cold."], "answer": 0, "why": "Be used to + nome = essere abituato. Used to + verbo = una volta facevo."},
+          {"kind": "fill", "q": "It was ___ quiet. It was ___ a strange morning. There was ___ much snow.", "answers": [["so"], ["such"], ["so"]], "n": "Era così silenzioso. Era una mattina così strana. C'era così tanta neve."},
+          {"kind": "fill", "q": "It's ___ cold ___ be sad for long. (troppo… per) There ___ (be) no buses and there ___ (be) ice everywhere.", "answers": [["too"], ["to"], ["were"], ["was"]], "n": "Fa troppo freddo per essere tristi a lungo. Non c'erano autobus e c'era ghiaccio dappertutto."},
+          {"kind": "translate", "q": "We used to sit in the courtyard until it got dark.", "answers": ["We used to sit in the courtyard until it got dark"]}
+        ]},
+        {"type": "exercises", "title": "4 · Layers e phrasal verb", "items": [
+          {"kind": "fill", "q": "Put your toque ___. Put it ___. Take your boots ___ at the door. Take them ___.", "answers": [["on"], ["on"], ["off"], ["off"]], "n": "Mettiti il berretto. Mettilo. Togliti gli stivali alla porta. Toglili."},
+          {"kind": "mc", "q": "«Mettilo.»", "options": ["Put it on.", "Put on it.", "Put yourself it."], "answer": 0, "why": "Con il pronome, la particella va dopo: put it on."},
+          {"kind": "match", "q": "Abbina.", "pairs": [["bundle up", "coprirsi bene"], ["warm up", "scaldarsi"], ["fall over", "cadere"], ["pick up", "raccogliere"], ["zip up", "chiudere la zip"]]},
+          {"kind": "fill", "q": "Layer one: ___ underwear. Then a ___ (maglione), the coat, a ___ (berretto), a ___ (sciarpa) and ___ (manopole).", "answers": [["thermal"], ["sweater"], ["toque"], ["scarf"], ["mitts", "mittens"]], "n": "Strato uno: intimo termico. Poi un maglione, il cappotto, un berretto, una sciarpa e le manopole."},
+          {"kind": "fill", "q": "I ___ (slip) on the ice, ___ (fall) over and ___ (land) on my bag. I ___ (hurt) my knee a bit.", "answers": [["slipped"], ["fell"], ["landed"], ["hurt"]], "n": "Sono scivolata sul ghiaccio, sono caduta e sono atterrata sulla borsa. Mi sono fatta un po' male al ginocchio."},
+          {"kind": "translate", "q": "I miss Roccamarina. I'm fine. I just miss it.", "answers": ["I miss Roccamarina. I'm fine. I just miss it"]}
+        ]},
+        {"type": "exercises", "title": "5 · Ripasso · Units 1–11", "review": true, "items": [
+          {"kind": "fill", "q": "Yesterday it ___ (snow) twelve centimetres. Franco ___ (shovel) at five and Chiara ___ (fall) at seven.", "answers": [["snowed"], ["shovelled", "shoveled"], ["fell"]], "n": "Ieri ha nevicato dodici centimetri. Franco ha spalato alle cinque e Chiara è caduta alle sette."},
+          {"kind": "fill", "q": "Toronto is ___ (cold) than Roccamarina and ___ (big). Roccamarina is ___ (warm) place I know.", "answers": [["colder"], ["bigger"], ["the warmest"]], "n": "Toronto è più fredda di Roccamarina e più grande. Roccamarina è il posto più caldo che conosco."},
+          {"kind": "fill", "q": "The basement isn't ___ warm ___ the house, but it's warm ___ (abbastanza).", "answers": [["as"], ["as"], ["enough"]], "n": "Il seminterrato non è caldo come la casa, ma è abbastanza caldo."},
+          {"kind": "fill", "q": "Right now I ___ (sit) on the bed with ice on my knee. I usually ___ (go) to bed at nine.", "answers": [["am sitting", "'m sitting"], ["go"]], "n": "In questo momento sono seduta sul letto con il ghiaccio sul ginocchio. Di solito vado a letto alle nove."},
+          {"kind": "fill", "q": "Franco is the man ___ shovels at five. Bloordale is the neighbourhood ___ I live.", "answers": [["who", "that"], ["where"]], "n": "Franco è l'uomo che spala alle cinque. Bloordale è il quartiere dove vivo."},
+          {"kind": "fill", "q": "Whose toque is this? — It's ___ (my). The mitts are ___ (Teresa).", "answers": [["mine"], ["Teresa's"]], "n": "Di chi è questo berretto? — È mio. Le manopole sono di Teresa."},
+          {"kind": "fill", "q": "I love ___ (bake), but I hate ___ (shovel). I'd rather ___ (stay) inside.", "answers": [["baking"], ["shovelling", "shoveling"], ["stay"]], "n": "Adoro fare dolci, ma odio spalare. Preferirei restare dentro."},
+          {"kind": "mc", "q": "«Ti ricordi? A novembre mangiavamo fuori.»", "options": ["Do you remember? We used to eat outside in November.", "Do you remember? We were eating outside in November.", "Do you remember? We use to eat outside in November."], "answer": 0, "why": "Abitudine passata: used to + base."},
+          {"kind": "translate", "q": "It was so quiet. It was such a beautiful morning.", "answers": ["It was so quiet. It was such a beautiful morning"]},
+          {"kind": "write", "q": "Racconta un piccolo incidente o una sorpresa in sei frasi: cosa stavi facendo (past continuous), cosa è successo (past simple), cosa stava facendo un'altra persona mentre…, com'era (so / such), una cosa che facevi una volta (used to) e come ti sei sentito/a.", "model": "This morning I was walking to the bus stop when I slipped on the ice. I fell over and landed on my bag. While I was lying there, a woman stopped and asked if it was my first winter. It was such a quiet morning and the snow was so white. In Roccamarina we used to eat outside in November. I laughed, I cried a bit, and then I got up and went to work.", "hint": "I was …ing when … · While I was …, … · It was so … / such a … · We used to … · I felt …"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Living there: surviving winter",
+      "intro": "Gli strati, il wind chill, il sale, le gomme da neve, i giorni di neve, il pattinaggio in piazza, il Natale che comincia a novembre e il modo giusto di augurarlo.",
+      "blocks": [
+        {"type": "subhead", "text": "Sopravvivere"},
+        {"type": "prose", "text": "L'inverno di Toronto non è il più freddo del Canada (Winnipeg e Montréal ridono), ma dura cinque mesi, da novembre a marzo, con punte di meno venti e settimane intere sotto meno dieci. Si sopravvive con tecnica, non con coraggio. [[Layers]]: tre strati sopra, due sotto, e si tolgono e si rimettono tutto il giorno, perché dentro ci sono ventidue gradi. [[Wind chill]]: il numero che conta è quello percepito; a meno trenta di wind chill la pelle gela in dieci minuti, e le scuole tengono i bambini dentro. Il [[sale]] sulle strade scioglie il ghiaccio e distrugge stivali, macchine e marciapiedi; le [[snow tires]], le gomme da neve, non sono obbligatorie in Ontario come in Québec, ma chi non le mette lo scopre alla prima curva. Il [[windrow]] è il muro di neve che lo spazzaneve lascia davanti al vialetto alle quattro di mattina, e spalarlo è il primo lavoro della giornata. I veri [[snow days]], le scuole chiuse per neve, a Toronto sono rari: nel 1999 il sindaco chiamò l'esercito per trenta centimetri e il resto del Canada non ha ancora smesso di riderne."},
+        {"type": "callout", "kind": "real", "title": "Il marciapiede è tuo", "text": "A Toronto il proprietario della casa deve pulire il marciapiede davanti a casa entro dodici ore dalla nevicata, o rischia una multa. È il motivo per cui Franco è fuori alle cinque, e il motivo per cui i vicini si conoscono: si spala insieme, si presta la pala, si pulisce il tratto dell'anziana al numero 48. Chi affitta un basement di solito non spala; chi affitta una casa intera sì. Chiedi prima di firmare."},
+        {"type": "subhead", "text": "Pattinare a Nathan Phillips Square"},
+        {"type": "prose", "text": "Davanti al municipio, sotto gli archi e le lettere luminose di TORONTO, c'è una pista di ghiaccio gratuita da fine novembre a marzo: [[Nathan Phillips Square]]. Si affittano i pattini per dieci dollari, si gira in tondo con cinquecento persone, si cade, ci si rialza, si beve una cioccolata. Ogni quartiere ha la sua pista all'aperto, e ogni bambino canadese pattina prima di saper leggere. Imparare da adulti è umiliante per una settimana e poi è la cosa più bella dell'inverno. Il consiglio di {hero} vale: a dicembre Chiara pattinerà."},
+        {"type": "subhead", "text": "Il Natale comincia a novembre"},
+        {"type": "prose", "text": "Il giorno dopo Halloween i negozi passano alle decorazioni di Natale, e il weekend dopo il [[Remembrance Day]] (11 novembre) le luci si accendono sulle case: in Nord America l'albero si fa a fine novembre, non l'8 dicembre. La [[Santa Claus Parade]] sfila per Toronto a metà novembre dal 1905. Il [[Black Friday]] americano è arrivato anche qui, e il [[Boxing Day]], il 26 dicembre, è il giorno dei saldi. Per gli italo-canadesi il Natale è doppio: la vigilia con il pesce (sette piatti, nelle famiglie del sud) e il 25 con il tacchino, perché i figli sono canadesi. Il 26 è Santo Stefano per i nonni e Boxing Day per i nipoti."},
+        {"type": "callout", "kind": "culture", "title": "«Happy Holidays»", "text": "Toronto è una città dove la metà delle persone non festeggia il Natale, o lo festeggia in un altro giorno. Per questo si dice [[Happy Holidays]] a chi non si conosce, e [[Merry Christmas]] a chi sai che lo festeggia. Non è censura: è la stessa buona educazione di [[sorry]] e [[have a good one]]. A dicembre si dice a tutti, dalla cassiera al conducente del tram, e l'ultimo giorno di lavoro prima delle feste anche al capo. Doug risponderà [[You too, eh]]."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In short",
+      "intro": "Tutto il necessario di questa unità in una schermata. Poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Past continuous", "rows": [["was / were + -ing · wasn't / weren't · Was it snowing? · Yes, it was.", "azione in corso nel passato, sfondo"], ["I was walking when I slipped. · While I was lying there, a man stopped. · While Franco was shovelling, Teresa was making coffee.", "lunga al continuous, breve al simple"], ["know · want · like · have (possedere) · be: mai -ing", "verbi di stato"]]},
+          {"title": "Le abitudini di una volta", "rows": [["used to + base · didn't use to · Did you use to…?", "abitudini e stati finiti"], ["Nonna would put the table outside. · Every Sunday we would walk to the sea.", "would: azioni ripetute, non stati"], ["be used to + -ing · get used to + -ing", "essere / diventare abituato"]]},
+          {"title": "so, such, too, there was", "rows": [["so cold · so much snow · so many people · so cold that…", "so"], ["such a strange morning · such good bread", "such + (a) + aggettivo + nome"], ["too cold to walk · warm enough to melt", "too… to · enough… to"], ["there was ice · there were no buses · there wasn't any salt", "there was / were"]]},
+          {"title": "L'inverno", "rows": [["put on · take off · put it on · take them off · bundle up · warm up · fall over · pick up", "phrasal verb separabili"], ["layers · thermal underwear · sweater · parka · toque · scarf · mitts · boots", "dall'interno all'esterno"], ["slip · fall · land · hurt · bruise · laugh · cry · miss · homesick", "cadere e sentirsi"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{"id": "past-continuous", "title": "Past continuous", "category": "Verbi", "rule": "Was / were + verbo in -ing. Un'azione in corso in un momento del passato (at six I was sleeping), lo sfondo di un evento (I was walking when I slipped), due azioni in parallelo (while Franco was shovelling, Teresa was making coffee), l'atmosfera di un racconto (it was snowing, nobody was talking). Non si usa per le abitudini (used to, past simple), per gli stati (I was tired, I knew) né per i periodi chiusi (I lived there for five years).", "units": ["11"], "blocks": [
+  {"type": "conjugation", "verb": "sleep", "tense": "past_continuous", "caption": "sleep · past continuous: affermativo, negativo, domanda"},
+  {"type": "table", "head": ["Uso", "Inglese", "Italiano"], "rows": [["a un'ora precisa", "At six I was sleeping. At midnight they were still talking.", "Alle sei dormivo. A mezzanotte parlavano ancora."], ["sfondo + evento", "I was walking to work when I saw the first snow.", "Stavo andando al lavoro quando ho visto la prima neve."], ["due azioni in parallelo", "While I was baking, Doug was counting the till.", "Mentre io infornavo, Doug contava la cassa."], ["atmosfera", "It was snowing. The city was quiet. People were walking slowly.", "Nevicava. La città era silenziosa. La gente camminava piano."], ["domanda e risposta breve", "Were you sleeping? — Yes, I was. / No, I wasn't.", "Stavi dormendo? — Sì. / No."], ["cortesia (raro)", "I was wondering if you could help me.", "Mi chiedevo se potesse aiutarmi."]], "speak": [1], "rowhead": true},
+  {"type": "callout", "kind": "compare", "title": "Imperfetto, non sempre", "text": "Il past continuous traduce l'imperfetto solo quando l'imperfetto è «stavo facendo»: [[stavo andando]] → [[I was going]]. Per «andavo tutti i giorni» serve [[used to go]] o [[went]]; per «ero stanco» [[I was tired]]; per «sapevo» [[I knew]]; per «avevo sei anni» [[I was six]]. Prima di usare il past continuous chiedi: in quel momento, l'azione era in corso?"},
+  {"type": "examples", "items": [
+    {"t": "What were you doing at seven this morning? — I was lying on the ice, laughing.", "n": "Cosa stavi facendo stamattina alle sette? — Ero sdraiata sul ghiaccio, a ridere."},
+    {"t": "It was snowing hard and the plow was going up and down the street.", "n": "Nevicava forte e lo spazzaneve andava su e giù per la via."},
+    {"t": "We weren't paying attention. We were looking at the snow and talking about Italy.", "n": "Non stavamo attenti. Guardavamo la neve e parlavamo dell'Italia."},
+    {"t": "Were they listening? — No, they weren't. Nobody was.", "n": "Ascoltavano? — No. Nessuno."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "I walking. I was walk. I were walking.", "right": "I was walking.", "why": "Was / were + -ing."},
+    {"wrong": "I was knowing. I was having a cold. (= possedere)", "right": "I knew. I had a cold.", "why": "Verbi di stato."},
+    {"wrong": "I was going to work every day. (abitudine)", "right": "I went / used to go to work every day.", "why": "Abitudine: simple o used to."},
+    {"wrong": "I was living in Toronto for a year. (chiuso)", "right": "I lived in Toronto for a year.", "why": "Periodo chiuso e misurato: simple."},
+    {"wrong": "Was it snowing? — Yes, it were.", "right": "Yes, it was.", "why": "It → was."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "make", "tense": "past continuous", "n": "fare, preparare", "answers": ["was making", "were making", "was making", "were making", "were making", "were making"]},
+    {"kind": "fill", "q": "At midnight Sofia ___ (study), Franco ___ (sleep) and Teresa ___ (not watch) TV: she ___ (read).", "answers": [["was studying"], ["was sleeping"], ["wasn't watching", "was not watching"], ["was reading"]], "n": "A mezzanotte Sofia studiava, Franco dormiva e Teresa non guardava la TV: leggeva."},
+    {"kind": "translate", "q": "What were you doing? — I was looking at the snow.", "answers": ["What were you doing? I was looking at the snow", "What were you doing? — I was looking at the snow"]}
+  ]}
+]}
