@@ -1,0 +1,20 @@
+{"id": "modal-deduction", "title": "Modal verbs for deduction", "category": "Verbs", "rule": "I verbi modali esprimono quanto chi parla è sicuro di un fatto. Tre livelli. Certo sì (90–100%): must + base al presente (you must be exhausted); must have + participio al passato (she must have been asleep). Certo no (0–10%): can't + base (it can't be true); can't have + participio al passato (she can't have gone yet). Possibile (30–70%): might, may, could + base (it might rain, he could be right); might have, may have, could have + participio al passato (they might have missed the train). Probabile atteso (70–90%): should + base (should be fine). Tutti restano invariati per ogni persona (nessuna -s con he / she / it). Must not = probabilmente no; can't = certamente no. Le contrazioni must've, might've, could've nel parlato; nella scrittura attenta si preferiscono must have, might have. Attenzione: must come dovere / obbligo (unit 12) e must come deduzione hanno la stessa forma, il contesto decide. Nel passato: must have per la deduzione (deve essere stato), had to per l'obbligo passato (ha dovuto / dovevano).", "units": ["18"], "blocks": [
+  {"type": "table", "caption": "Tre livelli di certezza", "head": ["Certezza", "Presente", "Passato"], "rows": [["sicuro sì (90–100%)", "must + base", "must have + participio"], ["sicuro no (0–10%)", "can't + base", "can't have + participio"], ["possibile (30–70%)", "might / may / could + base", "might / may / could have + participio"], ["probabile atteso (70–90%)", "should + base", "should have + participio"]], "speak": [1, 2], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "That man by the Leafs' bench must be the new coach. He can't be a player — he's wearing a tie. He might be a scout, actually.", "n": "Quell'uomo vicino alla panchina dei Leafs deve essere il nuovo allenatore. Non può essere un giocatore — porta la cravatta. Potrebbe essere uno scout, in effetti."},
+    {"t": "The Leafs' goalie must have been asleep. He can't have seen the shot.", "n": "Il portiere dei Leafs doveva essere addormentato. Non può aver visto il tiro."},
+    {"t": "They might have missed the train — they left at the last minute.", "n": "Potrebbero aver perso il treno — sono partiti all'ultimo minuto."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "L'italiano usa dovere, potere, non potere", "text": "Must be = [[deve essere]] (deduzione). Must have been = [[doveva essere]], al passato. Can't be = [[non può essere]]. Might be = [[potrebbe essere]]. L'italiano non ha un modal dedicato alla sola deduzione: dovere e potere servono sia per l'obbligo sia per la deduzione, come l'inglese must. Il contesto decide."},
+  {"type": "mistakes", "items": [
+    {"wrong": "He must be tired yesterday.", "right": "He must have been tired yesterday.", "why": "Past deduction: must have + participio."},
+    {"wrong": "She don't must be at home.", "right": "She can't be at home. / She might not be at home.", "why": "Must not = probabilmente no; can't = certamente no. Nessun ausiliare do."},
+    {"wrong": "They might to be from Montréal.", "right": "They might be from Montréal.", "why": "I modali prendono la forma base, senza to."},
+    {"wrong": "I must having lost it.", "right": "I must have lost it.", "why": "Have + participio passato, non having."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "That ___ (must + be) the new teacher. The Leafs ___ (can't + win) tonight. Priya ___ (might + come) later.", "answers": [["must be"], ["can't win"], ["might come", "may come"]], "n": "Quella deve essere la nuova insegnante. I Leafs non possono vincere stasera. Priya potrebbe venire più tardi."},
+    {"kind": "fill", "q": "The goalie ___ (must + be, past) asleep. He ___ (can't + see, past) the shot.", "answers": [["must have been", "must've been"], ["can't have seen"]], "n": "Il portiere doveva essere addormentato. Non può aver visto il tiro."},
+    {"kind": "translate", "q": "They can't have missed the train.", "answers": ["They can't have missed the train"]}
+  ]}
+]}
