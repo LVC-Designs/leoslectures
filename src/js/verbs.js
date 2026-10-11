@@ -2,6 +2,7 @@
 import { srs, schedule, settings, t, esc, shuffle, target, targetTag, names } from './store.js';
 import { compare, compareVariant } from './grade.js';
 import { isVariant } from './variants.js';
+import { glossForms } from './conj-gloss.js';
 
 const lang = target();
 const mod = await import(lang === 'it' ? './conj-it.js' : './conj-en.js');
@@ -11,6 +12,19 @@ const key = (s) => s.inf || s.base;
 const cache = new Map();
 const conj = (k) => { if (!cache.has(k)) cache.set(k, mod.conjugate(specs.find(s => key(s) === k))); return cache.get(k); };
 const G = t('verbs.groups');
+const UI = document.documentElement.lang || 'en';
+// Every form shows its meaning in the learner's language, built from the verb's gloss (see conj-gloss.js).
+const glossCache = new Map();
+const glosses = (v, tn) => { const k = `${v}|${tn}|${settings.get().hero || 'm'}`; if (!glossCache.has(k)) { const spec = specs.find(s => key(s) === v); const T = conj(v).tenses[tn]; glossCache.set(k, spec && T ? glossForms(lang, spec.n, tn, T.forms, settings.get().hero || 'm') : null); } return glossCache.get(k); };
+const glossHtml = (g, i) => g?.[i] ? `<small class="form-gloss" lang="${UI}">${esc(g[i])}</small>` : '';
+// The panel that explains the selected tense: when it is used, how it is formed, its markers, an example, where it is taught.
+function tenseInfo(tn) {
+  const info = DATA.tenses?.[tn]; if (!info) return '';
+  const row = (k, v, l) => v ? `<div class="vb-row"><dt>${esc(t('verbs.' + k))}</dt><dd${l ? ` lang="${l}"` : ''}>${esc(v)}</dd></div>` : '';
+  const ex = info.example ? `<div class="vb-row"><dt>${esc(t('verbs.example'))}</dt><dd><span lang="${lang}">${esc(info.example.t)}</span>${sayBtn(info.example.t)}<span class="form-gloss" lang="${UI}">${esc(info.example.n)}</span></dd></div>` : '';
+  const links = [info.unitLabel ? `${esc(t('verbs.taughtIn'))} ${info.unitHref ? `<a href="${esc(info.unitHref)}">${esc(info.unitLabel)}</a>` : esc(info.unitLabel)}` : '', info.refHref ? `<a href="${esc(info.refHref)}">${esc(t('verbs.ref'))}: ${esc(info.refTitle || '')}</a>` : ''].filter(Boolean).join(' · ');
+  return `<section class="vb-tense-info" aria-label="${esc(info.name)}"><h3>${esc(info.name)}</h3><dl>${row('use', info.use)}${row('form', info.form)}${row('markers', info.markers, lang)}${ex}</dl>${links ? `<p class="vb-links">${links}</p>` : ''}</section>`;
+}
 
 const out = document.querySelector('.vb-out'), search = document.querySelector('.vb-search'), tenseSel = document.querySelector('.vb-tense'), list = document.getElementById('vb-list');
 list.innerHTML = specs.map(s => `<option value="${esc(key(s))}">${esc(s.n)}</option>`).join('');
@@ -34,9 +48,11 @@ function table() {
   const hero = names()[settings.get().hero || 'm'];
   const note = lang === 'it' && T.forms.some(isVariant) ? `<p class="tbl-note">${esc(t('verbs.showHero', { hero }))}</p>` : '';
   if (lang === 'en' && T.neg) {
-    out.innerHTML = head(v) + `<figure class="tbl-wrap conj"><figcaption>${esc(T.label)}</figcaption><table class="tbl"><thead><tr><th></th><th>+</th><th>−</th><th>?</th></tr></thead><tbody>${T.persons.map((p, i) => `<tr><th>${esc(p)}</th><td lang="en">${esc(T.forms[i])}${T.short?.[i] ? ` <span class="muted">(${esc(T.short[i])})</span>` : ''}${sayBtn(T.forms[i])}</td><td lang="en">${esc(T.neg[i])}${sayBtn(T.neg[i])}</td><td lang="en">${esc(T.q[i])}${sayBtn(T.q[i])}</td></tr>`).join('')}</tbody></table></figure>`;
+    const g = glosses(verb, tense);
+    out.innerHTML = head(v) + `<figure class="tbl-wrap conj"><figcaption>${esc(T.label)}</figcaption><table class="tbl"><thead><tr><th></th><th>+</th><th>−</th><th>?</th></tr></thead><tbody>${T.persons.map((p, i) => `<tr><th>${esc(p)}</th><td lang="en">${esc(T.forms[i])}${T.short?.[i] ? ` <span class="muted">(${esc(T.short[i])})</span>` : ''}${sayBtn(T.forms[i])}${glossHtml(g, i)}</td><td lang="en">${esc(T.neg[i])}${sayBtn(T.neg[i])}</td><td lang="en">${esc(T.q[i])}${sayBtn(T.q[i])}</td></tr>`).join('')}</tbody></table></figure>` + tenseInfo(tense);
   } else {
-    out.innerHTML = head(v) + `<figure class="tbl-wrap conj"><figcaption>${esc(T.label)}</figcaption><table class="tbl"><tbody>${T.persons.map((p, i) => `<tr><th>${esc(p)}</th><td lang="${lang}">${formHtml(T.forms[i])}${sayBtn(T.forms[i])}</td></tr>`).join('')}</tbody></table>${note}</figure>`;
+    const g = glosses(verb, tense);
+    out.innerHTML = head(v) + `<figure class="tbl-wrap conj"><figcaption>${esc(T.label)}</figcaption><table class="tbl"><tbody>${T.persons.map((p, i) => `<tr><th>${esc(p)}</th><td lang="${lang}">${formHtml(T.forms[i])}${sayBtn(T.forms[i])}${glossHtml(g, i)}</td></tr>`).join('')}</tbody></table>${note}</figure>` + tenseInfo(tense);
   }
 }
 function gradeForm(input, f) {
@@ -46,7 +62,7 @@ function drill(items) {
   // items: [{verb, tense, i}] ; default: all persons of current verb/tense
   const v = conj(verb); const T = v.tenses[tense]; if (!T) return;
   const rows = items || T.persons.map((_, i) => ({ verb, tense, i }));
-  out.innerHTML = (items ? '' : head(v)) + `<p class="ex-hint">${esc(t('verbs.fillAll'))}</p><table class="conj-tbl"><tbody>${rows.map((r, k) => { const vv = conj(r.verb), TT = vv.tenses[r.tense]; return `<tr><th>${items ? `<span lang="${lang}">${esc(r.verb)}</span> · ${esc(TT.label)} · ` : ''}${esc(TT.persons[r.i])}</th><td><input type="text" class="ex-in ex-blank" data-k="${k}" autocomplete="off" autocapitalize="off" spellcheck="false" lang="${lang}"></td></tr>`; }).join('')}</tbody></table><div class="ex-actions"><button type="button" class="btn btn-primary vb-check">${esc(t('verbs.check'))}</button></div><p class="ex-status" aria-live="polite"></p>`;
+  out.innerHTML = (items ? '' : head(v)) + `<p class="ex-hint">${esc(t('verbs.fillAll'))}</p><table class="conj-tbl"><tbody>${rows.map((r, k) => { const vv = conj(r.verb), TT = vv.tenses[r.tense]; return `<tr><th>${items ? `<span lang="${lang}">${esc(r.verb)}</span> · ${esc(TT.label)} · ` : ''}${esc(TT.persons[r.i])}${glossHtml(glosses(r.verb, r.tense), r.i)}</th><td><input type="text" class="ex-in ex-blank" data-k="${k}" autocomplete="off" autocapitalize="off" spellcheck="false" lang="${lang}"></td></tr>`; }).join('')}</tbody></table><div class="ex-actions"><button type="button" class="btn btn-primary vb-check">${esc(t('verbs.check'))}</button></div><p class="ex-status" aria-live="polite"></p>`;
   if (lang === 'it') { const bar = document.createElement('div'); bar.className = 'accent-bar'; bar.innerHTML = ['à', 'è', 'é', 'ì', 'ò', 'ù'].map(a => `<button type="button" class="acc">${a}</button>`).join(''); let last = null; out.addEventListener('focusin', e => { if (e.target.matches('input')) last = e.target; }); bar.addEventListener('mousedown', e => e.preventDefault()); bar.addEventListener('click', e => { const b = e.target.closest('.acc'); if (b && last) { const s = last.selectionStart; last.value = last.value.slice(0, s) + b.textContent + last.value.slice(last.selectionEnd); last.setSelectionRange(s + 1, s + 1); last.focus(); } }); out.querySelector('.ex-actions').before(bar); }
   const check = () => {
     const data = srs.load('conj'); let ok = 0;

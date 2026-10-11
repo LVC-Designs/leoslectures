@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import { conjugate as it } from '../src/js/conj-it.js';
 import { conjugate as en, ing, ed, third } from '../src/js/conj-en.js';
+import { glossForms, parseGloss } from '../src/js/conj-gloss.js';
 import { compare, compareVariant, normalize } from '../src/js/grade.js';
 import { resolve, flatten, diffWords } from '../src/js/variants.js';
 
@@ -57,5 +58,17 @@ T('variants object', () => { const v = resolve({ m: 'arrivato', f: 'arrivata', n
 T('variants flatten', () => assert.deepEqual(flatten({ q: '{hero} è {{stanco|stanca}}', answers: [[{ m: 'stanco', f: 'stanca' }]] }, 'f'), { q: 'Lucia è stanca', answers: [['stanca']] }));
 T('diffWords positional', () => { const d = diffWords('Il nipote di Cosimo! Lei è americano?', 'La nipote di Cosimo! Lei è americana?'); assert.deepEqual(d.f.filter(x => x.diff).map(x => x.t), ['La', 'americana?']); });
 T('diffWords', () => { const d = diffWords('sono arrivato ieri', 'sono arrivata ieri'); assert.deepEqual(d.m.filter(x => x.diff).map(x => x.t), ['arrivato']); });
+
+// conj-gloss: every conjugated form carries its meaning
+T('parseGloss', () => { assert.deepEqual(parseGloss('to be able to, can', 'it'), { head: 'be', tail: 'able to' }); assert.deepEqual(parseGloss('to live (in a place)', 'it'), { head: 'live', tail: '' }); assert.deepEqual(parseGloss('vivere, abitare', 'en'), { head: 'vivere', tail: '' }); assert.deepEqual(parseGloss('avere bisogno di', 'en'), { head: 'avere', tail: 'bisogno di' }); });
+T('gloss it→en presente', () => assert.deepEqual(glossForms('it', 'to speak', 'presente', it({ inf: 'parlare' }).tenses.presente.forms), ['I speak', 'you speak', 'he / she speaks', 'we speak', 'you speak', 'they speak']));
+T('gloss it→en passato prossimo / essere', () => { const g = glossForms('it', 'to be', 'passato_prossimo', it({ inf: 'essere' }).tenses.passato_prossimo.forms); assert.equal(g[0], 'I was · I have been'); assert.equal(g[2], 'he / she was · he / she has been'); });
+T('gloss it→en imperfetto stative vs action', () => { assert.equal(glossForms('it', 'to have', 'imperfetto', it({ inf: 'avere' }).tenses.imperfetto.forms)[0], 'I had'); assert.equal(glossForms('it', 'to work', 'imperfetto', it({ inf: 'lavorare' }).tenses.imperfetto.forms)[0], 'I was working · used to work'); });
+T('gloss it→en tail carried', () => assert.equal(glossForms('it', 'to be able to, can', 'futuro', it({ inf: 'potere' }).tenses.futuro.forms)[1], 'you will be able to'));
+T('gloss it→en imperativo and forme', () => { assert.deepEqual(glossForms('it', 'to get up', 'imperativo', it({ inf: 'alzarsi' }).tenses.imperativo.forms), ['get up! (informal)', 'get up! (formal)', "let's get up", 'get up! (plural)', 'get up! (formal plural)', "don't get up"]); assert.deepEqual(glossForms('it', 'to write', 'forme', it({ inf: 'scrivere' }).tenses.forme.forms), ['to write', 'writing', 'written']); });
+T('gloss en→it past simple with gender', () => { const f = en({ base: 'go' }).tenses.past_simple.forms; assert.equal(glossForms('en', 'andare', 'past_simple', f, 'm')[0], 'sono andato'); assert.equal(glossForms('en', 'andare', 'past_simple', f, 'f')[0], 'sono andata'); });
+T('gloss en→it continuous and going to', () => { const c = en({ base: 'get' }); assert.equal(glossForms('en', 'alzarsi', 'present_continuous', c.tenses.present_continuous.forms)[0], 'mi sto alzando'); assert.equal(glossForms('en', 'alzarsi', 'future_going_to', c.tenses.future_going_to.forms)[1], 'stai per alzarti'); assert.equal(glossForms('en', 'avere bisogno di', 'present_simple', c.tenses.present_simple.forms)[2], 'ha bisogno di'); });
+T('gloss en→it imperative and forms', () => { const c = en({ base: 'sign' }); assert.deepEqual(glossForms('en', 'firmare', 'imperative', c.tenses.imperative.forms), ['firma (tu) · firmi (Lei)', 'non firmare', 'firmiamo']); assert.deepEqual(glossForms('en', 'firmare', 'forms', c.tenses.forms.forms), ['firmare', 'firma', 'firmando', 'ho firmato', 'firmato']); });
+T('gloss returns null for non-verb gloss', () => assert.equal(glossForms('en', 'ok', 'present_simple', ['x']), null));
 
 console.log(`${n} tests passed${process.exitCode ? ', some FAILED' : ''}`);

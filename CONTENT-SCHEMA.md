@@ -11,6 +11,7 @@ content/en-for-it/   English for Italian speakers (target t = English, native n 
   unit-NN.json       one file per unit
   grammar/<slug>.json  grammar reference pages (id = slug, title, category, rule, units, blocks)
   verbs.json         verb list for the conjugator ({inf|base, n, unit, isc?, aux?})
+  tenses.json        one entry per conjugator tense, in the learner's language: {name, use, form, markers?, example:{t,n}, unit?, ref?}; shown on the Verbs page when a tense is selected (checked for parity with the conjugator's tense list)
   phrasebook.json    { groups: [ {type:"phrases", title, intro?, items:[{t, n, note?}]} ] }
   placement.json     { questions: [ {level:"A1"|"A2"|"B1", ...exercise} ] }
 locales/en.json, locales/it.json   every UI string (same keys in both)

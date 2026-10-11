@@ -4,6 +4,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isVariant } from '../src/js/variants.js';
+import { TENSES as TENSES_IT } from '../src/js/conj-it.js';
+import { TENSES as TENSES_EN } from '../src/js/conj-en.js';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const P = (...p) => path.join(root, ...p);
 const problems = [];
@@ -78,6 +80,18 @@ const en = new Set(flat(JSON.parse(fs.readFileSync(P('locales/en.json'), 'utf8')
 for (const k of en) if (!it.has(k)) warn(`locales/it.json missing "${k}"`);
 for (const k of it) if (!en.has(k)) warn(`locales/en.json missing "${k}"`);
 
+// tenses.json: one explanation per conjugator tense, in the learner's language
+for (const track of Object.keys(site.tracks)) {
+  const f = P('content', track, 'tenses.json'); if (!fs.existsSync(f)) { warn(`${track}: content/${track}/tenses.json missing`); continue; }
+  const T = JSON.parse(fs.readFileSync(f, 'utf8'));
+  const keys = (site.tracks[track].target === 'it' ? TENSES_IT : TENSES_EN).map(t => t[0]);
+  for (const k of keys) if (!T[k]) warn(`${track}/tenses.json: no entry for tense "${k}"`);
+  for (const [k, v] of Object.entries(T)) {
+    if (!keys.includes(k)) warn(`${track}/tenses.json: unknown tense "${k}"`);
+    for (const field of ['name', 'use', 'form']) if (!v[field]) warn(`${track}/tenses.json "${k}": missing ${field}`);
+    if (!v.example?.t || !v.example?.n) warn(`${track}/tenses.json "${k}": example needs t and n`);
+  }
+}
 for (const track of Object.keys(site.tracks)) {
   const dir = P('content', track);
   const course = JSON.parse(fs.readFileSync(path.join(dir, 'course.json'), 'utf8'));

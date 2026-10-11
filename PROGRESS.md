@@ -82,6 +82,7 @@ Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes st
 
 ## Session log
 
+- **2026-10-10 (16)** · Verbs page: every conjugated form now shows its meaning in the learner's language (new `src/js/conj-gloss.js`, derived from the verb's gloss and the other track's conjugator, gender-aware for compound tenses), the trainer shows the meaning as the prompt, and a panel explains the selected tense (new `content/<track>/tenses.json`, 15 entries per track, linked to the teaching unit and reference page). Checker verifies tense parity; 10 new unit tests.
 - **2026-10-10 (15)** · English track Unit 8 written (2 scenes, 44 words, 5 grammar points + 4 reference pages, -ed sounds and -teen/-ty, 30 exercises + 10-exercise A1 checkpoint, culture, A1 summary). Renderer change: every conjugation table and conjugate exercise now shows the verb's meaning automatically (from the track's verb list). Verified and committed.
 - **2026-10-10 (14)** · Italian track Unit 8 written (2 scenes, 42 words, 5 grammar points + 4 reference pages, written accents and stress review, 30 exercises + 10-exercise A1 checkpoint, culture, summary). Verified and committed.
 - **2026-10-10 (13)** · English track Unit 7 written (2 scenes, 45 words, 5 grammar points + 2 reference pages, silent letters, 40 exercises, culture, summary). Verified and committed.

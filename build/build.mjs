@@ -181,11 +181,11 @@ function grammarTopicPage(ctx0, tp, course) {
   return shell(ctx, { title: `${resolve(tp.title, ctx.names).m} — ${t('nav.grammar')} — ${site.name}`, description: resolve(tp.rule || tp.title, ctx.names).m, body, bodyClass: 'page-grammar page-topic', accent: ACCENTS.adriatic, scripts: ['exercises.js'], canonical: canonicalFor(`${ctx.slug}/grammar/${tp.id}.html`) });
 }
 
-function verbsPage(ctx, verbs, course) {
+function verbsPage(ctx, verbs, course, tenses = {}) {
   const { t } = ctx;
   const body = `<main id="main" class="wrap page-ref page-verbs"><header class="ref-head"><span class="kicker">${esc(t('nav.verbs'))}</span><h1>${esc(t('verbs.title'))}</h1><p class="lede">${esc(t('verbs.intro'))}</p></header>
 <div class="vb-tools"><label class="field"><span>${esc(t('verbs.verb'))}</span><input type="search" class="vb-search" list="vb-list" placeholder="${esc(t('verbs.search'))}" autocomplete="off"><datalist id="vb-list"></datalist></label><label class="field"><span>${esc(t('verbs.tense'))}</span><select class="vb-tense"></select></label><div class="vb-mode" role="group" aria-label="${esc(t('verbs.table'))}"><button type="button" class="btn active" data-mode="table">${esc(t('verbs.table'))}</button><button type="button" class="btn" data-mode="drill">${esc(t('verbs.drill'))}</button><button type="button" class="btn" data-mode="mistakes">${esc(t('verbs.mistakes'))}</button></div></div>
-<div class="vb-out"></div>${jsonTag('verbs-data', { verbs, units: Object.fromEntries(course.units.map(u => [u.id, u.num])) })}</main>`;
+<div class="vb-out"></div>${jsonTag('verbs-data', { verbs, units: Object.fromEntries(course.units.map(u => [u.id, u.num])), tenses })}</main>`;
   return shell(ctx, { title: `${t('verbs.title')} — ${t('track.name')} — ${site.name}`, description: t('verbs.intro'), body, bodyClass: 'page-verbs', accent: ACCENTS.amber, scripts: ['verbs.js'], canonical: canonicalFor(`${ctx.slug}/verbs.html`) });
 }
 function glossaryPage(ctx, allVocab, course) {
@@ -287,7 +287,15 @@ export async function build() {
     topics.forEach(tp => { tp.units = [...new Set([...(tp.units || []), ...allGrammar.filter(g => g.ref === tp.id).map(g => g.unit)])].sort(); write(out('grammar', `${tp.id}.html`), grammarTopicPage(ctx, tp, course)); });
     write(out('index.html'), trackHome(ctx, course, built, stats));
     write(out('grammar.html'), grammarIndex(ctx, topics, allGrammar, course));
-    write(out('verbs.html'), verbsPage(ctx, verbsSpec, course));
+    // Tense explanations (content/<track>/tenses.json): resolve the teaching unit and the reference page, linking only what exists.
+    const tenseInfo = exists(shared('tenses.json')) ? readJSON(shared('tenses.json')) : {};
+    for (const [k, info] of Object.entries(tenseInfo)) {
+      const cu = info.unit ? course.units.find(u => u.id === info.unit) : null;
+      if (cu) { info.unitLabel = `${cu.num} · ${cu.title}`; if (built.has(cu.id)) info.unitHref = `units/unit-${cu.id}.html`; }
+      const tp = info.ref ? topics.find(x => x.id === info.ref) : null;
+      if (tp) { info.refHref = `grammar/${tp.id}.html`; info.refTitle = tp.title; } else delete info.ref;
+    }
+    write(out('verbs.html'), verbsPage(ctx, verbsSpec, course, tenseInfo));
     write(out('glossary.html'), glossaryPage(ctx, allVocab, course));
     write(out('phrasebook.html'), phrasebookPage(ctx, exists(path.join(dir, 'phrasebook.json')) ? readJSON(path.join(dir, 'phrasebook.json')) : { groups: [] }));
     write(out('placement.html'), placementPage(ctx, exists(path.join(dir, 'placement.json')) ? readJSON(path.join(dir, 'placement.json')) : { questions: [] }, course));
