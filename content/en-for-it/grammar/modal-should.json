@@ -1,0 +1,22 @@
+{"id": "modal-should", "title": "should, ought to, had better: i consigli", "category": "Verbi modali", "rule": "Should + verbo base = dovresti, è meglio che; shouldn't = non dovresti. Domande con l'inversione: Should I…? What should I do? Invariabile per tutte le persone, senza to, senza do. Ought to (formale, con to) e had better ('d better, un avvertimento: se no…) sono le varianti. Should anche per le aspettative (it should be fine = dovrebbe andare bene). Should have + participio per il rimprovero sul passato (unità 20).", "units": ["12"], "blocks": [
+  {"type": "table", "head": ["Inglese", "Italiano", "Uso"], "rows": [["You should see a doctor.", "Dovresti vedere un medico.", "consiglio"], ["You shouldn't lift anything heavy.", "Non dovresti sollevare niente di pesante.", "consiglio negativo"], ["Should I go to the ER? — Yes, you should. / No, you shouldn't.", "Dovrei andare al pronto soccorso? — Sì. / No.", "domanda e risposta breve"], ["What should I do? Where should we go?", "Cosa dovrei fare? Dove dovremmo andare?", "domanda aperta"], ["I think you should rest. I don't think you should work.", "Penso che dovresti riposare. Non penso che dovresti lavorare.", "opinione (il negativo su think)"], ["You'd better take it off at night, or your fingers will go blue.", "Faresti meglio a toglierla di notte, o le dita diventano blu.", "had better: avvertimento"], ["You ought to call your mother.", "Dovresti chiamare tua madre.", "ought to: formale"], ["It should be fine by Monday. The bus should be here soon.", "Dovrebbe andare bene entro lunedì. L'autobus dovrebbe arrivare presto.", "aspettativa"], ["Why don't you ask the pharmacist? How about resting it?", "Perché non chiedi al farmacista? E se lo tenessi a riposo?", "consigli gentili senza should"]], "speak": [0]},
+  {"type": "callout", "kind": "compare", "title": "Dovresti, dovrebbe: un modale solo", "text": "L'italiano usa il condizionale di dovere per persona: dovresti, dovrebbe, dovremmo. L'inglese ha una forma sola, [[should]], per tutti: [[you should]], [[she should]], [[we should]]. E [[should]] non è mai un obbligo: per «devi» c'è [[must]] o [[have to]]. [[You should rest]] è un consiglio che puoi ignorare; [[you must rest]] no."},
+  {"type": "examples", "items": [
+    {"t": "You should rest it, ice it and keep it up. And you shouldn't knead for a week.", "n": "Dovresti tenerlo a riposo, metterci il ghiaccio e tenerlo in alto. E non dovresti impastare per una settimana."},
+    {"t": "Should I call Health811? — Yes, you should. They'll tell you where to go.", "n": "Dovrei chiamare Health811? — Sì. Ti dicono dove andare."},
+    {"t": "I don't think you should walk to work on the ice. You'd better take the streetcar.", "n": "Non penso che dovresti andare al lavoro a piedi sul ghiaccio. Faresti meglio a prendere il tram."},
+    {"t": "The swelling should go down in a few days. If it doesn't, come back.", "n": "Il gonfiore dovrebbe calare in qualche giorno. Se no, torna."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "You should to rest. You should resting.", "right": "You should rest.", "why": "Should + base."},
+    {"wrong": "She shoulds. He should rests.", "right": "She should. He should rest.", "why": "Invariabile."},
+    {"wrong": "Do you should go? You don't should.", "right": "Should you go? You shouldn't.", "why": "Inversione, niente do."},
+    {"wrong": "I think you shouldn't work. (possibile, ma)", "right": "I don't think you should work.", "why": "L'inglese nega think."},
+    {"wrong": "You'd better to rest. You had better resting.", "right": "You'd better rest.", "why": "Had better + base."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "You ___ (dovresti) see a doctor. You ___ (non dovresti) wait. ___ I call now? — Yes, you ___. You'd ___ (faresti meglio a) go today.", "answers": [["should"], ["shouldn't", "should not"], ["Should"], ["should"], ["better"]], "n": "Dovresti vedere un medico. Non dovresti aspettare. Devo chiamare adesso? — Sì. Faresti meglio ad andare oggi."},
+    {"kind": "mc", "q": "«Non penso che dovresti lavorare domani.»", "options": ["I don't think you should work tomorrow.", "I think you don't should work tomorrow.", "I don't think you should to work tomorrow."], "answer": 0, "why": "Il negativo su think; should + base."},
+    {"kind": "translate", "q": "What should I do if it gets worse?", "answers": ["What should I do if it gets worse"]}
+  ]}
+]}

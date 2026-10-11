@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 51 (units 1–12) · EN: 45 (units 1–11) |
+| Grammar reference pages | IT: 51 (units 1–12) · EN: 49 (units 1–12) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -62,7 +62,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 9 | The interview | A2 | ● 2026-10-10 |
 | 10 | Apartment hunting | A2 | ● 2026-10-10 |
 | 11 | First snow | A2 | ● 2026-10-10 |
-| 12 | At the walk-in clinic | A2 | ☐ |
+| 12 | At the walk-in clinic | A2 | ● 2026-10-10 |
 | 13 | Shifts at the bakery | A2 | ☐ |
 | 14 | Small talk and a barbecue | A2 | ☐ |
 | 15 | Road trip: Niagara and Montréal | A2 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 12 · At the walk-in clinic (A2).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 13 · Apriamo! (A2).**
 
 ## Session log
 
+- **2026-10-10 (25)** · English track Unit 12 written (2 scenes, 51 words, 5 grammar points + 4 reference pages, th and silent letters, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (24)** · Italian track Unit 12 written (2 scenes, 53 words, 5 grammar points + 5 reference pages, clusters and doubles, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (23)** · English track Unit 11 written (2 scenes, 45 words, 5 grammar points + 5 reference pages, w / v and ow, 40 exercises, culture, summary). Crossover with Italian Unit 19. Verified and committed.
 - **2026-10-10 (22)** · Italian track Unit 11 written (2 scenes, 44 words, 5 grammar points + 4 reference pages, elision and truncation, 40 exercises, culture, summary). Verified and committed.
