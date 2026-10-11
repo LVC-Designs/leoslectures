@@ -1,0 +1,23 @@
+{"id": "possessive-pronouns", "title": "I pronomi possessivi: mine, yours, hers · one / ones", "category": "Pronomi", "rule": "Il pronome possessivo sta al posto di aggettivo possessivo + nome: my room → mine; your car → yours; his → his; her → hers; our → ours; their → theirs. Mai l'articolo, mai la -s del plurale, mai l'apostrofo. Il genitivo da solo fa lo stesso lavoro: Sofia's, my aunt's, nobody's. Domanda: Whose is this? A friend of mine = un mio amico. One / ones sostituiscono un nome numerabile: which one?, the small one, the new ones, this one, that one.", "units": ["10"], "blocks": [
+  {"type": "table", "head": ["Soggetto", "Aggettivo + nome", "Pronome", "Italiano"], "rows": [["I", "my room", "mine", "il mio, la mia, i miei, le mie"], ["you", "your room", "yours", "il tuo / il vostro"], ["he", "his room", "his", "il suo (di lui)"], ["she", "her room", "hers", "il suo (di lei)"], ["it", "its door", "— (non esiste)", "il suo (di cosa)"], ["we", "our room", "ours", "il nostro"], ["they", "their room", "theirs", "il loro"], ["Sofia", "Sofia's room", "Sofia's", "quello di Sofia"], ["nobody", "nobody's room", "nobody's", "di nessuno"]], "speak": [2], "rowhead": true},
+  {"type": "table", "caption": "one / ones", "head": ["Inglese", "Italiano"], "rows": [["Which one do you want? — The small one.", "Quale vuoi? — Quello piccolo."], ["Which ones are furnished? — The new ones.", "Quali sono arredati? — Quelli nuovi."], ["This one is mine, that one is yours.", "Questo è mio, quello è tuo."], ["I need a bigger one.", "Me ne serve uno più grande."], ["The one with the green door. The one in Bloordale.", "Quello con la porta verde. Quello a Bloordale."], ["Do you have a pen? — I have one. I have a red one.", "Hai una penna? — Ne ho una. Ne ho una rossa."]], "speak": [0], "compact": true},
+  {"type": "callout", "kind": "compare", "title": "Il mio → mine, senza articolo", "text": "L'italiano tiene l'articolo: [[il mio è più grande]]. L'inglese no: [[mine is bigger]], mai [[the mine]]. E il pronome non cambia con la cosa posseduta: [[mine]] vale per il mio, la mia, i miei, le mie. Attenzione a [[his]] (uguale all'aggettivo) e a [[hers]] (con la s, senza apostrofo). [[Its]] come pronome non esiste."},
+  {"type": "examples", "items": [
+    {"t": "Whose van is that? — It's Franco's. Mine is the small car.", "n": "Di chi è quel furgone? — È di Franco. Il mio è la macchina piccola."},
+    {"t": "Is this bag yours? — No, it's hers. Mine is the black one.", "n": "Questa borsa è tua? — No, è sua. La mia è quella nera."},
+    {"t": "Our kitchen is small; theirs is huge. Ours is warmer, though.", "n": "La nostra cucina è piccola; la loro è enorme. La nostra però è più calda."},
+    {"t": "A friend of mine lives in Parkdale. A cousin of hers works at the bank.", "n": "Un mio amico vive a Parkdale. Una sua cugina lavora in banca.", "note": "a … of mine / of hers: un mio, una sua"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "the mine · the yours · the theirs", "right": "mine · yours · theirs", "why": "Senza articolo."},
+    {"wrong": "This is my. That is her. Those are our.", "right": "This is mine. That is hers. Those are ours.", "why": "Senza nome, il pronome."},
+    {"wrong": "mines · her's · your's · their's", "right": "mine · hers · yours · theirs", "why": "Invariabili, senza apostrofo."}, 
+    {"wrong": "a my friend · a friend of me", "right": "a friend of mine", "why": "A … of mine."},
+    {"wrong": "Which? (da solo) · the small · a one", "right": "Which one? · the small one · one", "why": "One sostituisce il nome; mai a one."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "That coat is ___ (my). These keys are ___ (her). The van is ___ (Franco). Is this ___ (your)? The red ___ is ___ (our).", "answers": [["mine"], ["hers"], ["Franco's"], ["yours"], ["one"], ["ours"]], "n": "Quel cappotto è mio. Queste chiavi sono sue. Il furgone è di Franco. Questo è tuo? Quello rosso è nostro."},
+    {"kind": "mc", "q": "«Un mio amico vive a Leslieville.»", "options": ["A friend of mine lives in Leslieville.", "A my friend lives in Leslieville.", "A friend of me lives in Leslieville."], "answer": 0, "why": "A + nome + of mine."},
+    {"kind": "translate", "q": "Which one is yours? — The small one. The big one is hers.", "answers": ["Which one is yours? The small one. The big one is hers", "Which one is yours? — The small one. The big one is hers"]}
+  ]}
+]}

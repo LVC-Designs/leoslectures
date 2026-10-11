@@ -1,0 +1,332 @@
+{
+  "id": "10",
+  "level": "A2",
+  "title": "Apartment hunting",
+  "subtitle": "Cercare casa",
+  "intro": "Un «bachelor» che è un armadio, un seminterrato a Bloordale con una padrona di casa che conosce ogni regola, una stanza in un condominio al ventisettesimo piano. Annunci con sigle, telefonate, visite, e il foglio di calcolo di Sofia che confronta tutto. In questa unità impari a confrontare: bigger, cheaper, the closest, better, the best, as bright as, too small, not big enough. Poi mine e yours, l'ordine degli aggettivi e le frasi con where.",
+  "objectives": [
+    "Confrontare case e quartieri: [[cheaper than]], [[more expensive]], [[the closest to work]], [[better]], [[the best]]",
+    "Dire quanto basta e quanto è troppo: [[as bright as]], [[not as big as]], [[too small]], [[not big enough]]",
+    "Scegliere e preferire: [[Which one?]], [[the small one]], [[I prefer the basement to the condo]], [[I'd rather stay here]]",
+    "Dire di chi è: [[mine]], [[yours]], [[hers]], [[theirs]]; e mettere gli aggettivi in ordine: [[a big old wooden table]]",
+    "Capire un annuncio, telefonare, fissare una visita, chiedere di affitto, caparra e bollette"
+  ],
+  "canDo": [
+    "A2 · Lettura: sa capire annunci immobiliari brevi con le loro sigle.",
+    "A2 · Interazione orale: sa telefonare per chiedere informazioni su una casa e fissare una visita.",
+    "A2 · Produzione orale: sa descrivere e confrontare due case e spiegare una preferenza.",
+    "A2 · Ascolto: sa capire le informazioni principali durante una visita (prezzo, cosa è incluso, regole).",
+    "A2 · Scrittura: sa scrivere un messaggio per rispondere a un annuncio e un confronto breve fra due opzioni."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Bachelor, basement, condo",
+      "intro": "Tre visite in un sabato, poi la tabella di Sofia. Ascolta i comparativi (smaller than, more expensive, the closest), as… as, too e enough, e i possessivi mine e yours.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-viewings", "title": "Three viewings", "setting": "Sabato. Tre annunci salvati su Kijiji. Il primo nell'Annex: «Bachelor, Annex, $1,450, utilities included». Il secondo a Bloordale: «Bright basement apt, sep. entrance, laundry, $1,350 incl.». Il terzo vicino a Liberty Village: «Room in 2BR condo, 27th floor, gym, $1,100 + hydro».", "register": "formale con i proprietari, informale con la coinquilina", "lines": [
+          {"stage": "The Annex, 10 a.m. A door, a hallway, and a room the size of Teresa's pantry. The landlord, Mr. Kowalski, stands in the doorway because there is no room for two."},
+          {"who": "Kowalski", "t": "So this is the bachelor. Kitchenette there, bathroom there. It's small, but it's in the Annex. Fourteen fifty, everything included.", "n": "Allora, questo è il bachelor. Angolo cottura lì, bagno lì. È piccolo, ma è nell'Annex. Millequattrocentocinquanta, tutto incluso.", "note": "Bachelor = monolocale (in Canada; studio negli Stati Uniti). Fourteen fifty = $1,450: le centinaia si dicono a coppie."},
+          {"who": "Chiara", "t": "It's… cozy. Is the bed… is that the bed?", "n": "È… accogliente. Il letto… quello è il letto?", "note": "Cozy = accogliente, la parola gentile per piccolo. Negli annunci vuol dire minuscolo."},
+          {"who": "Kowalski", "t": "Murphy bed. It folds into the wall. Very popular.", "n": "Letto a scomparsa. Si piega nel muro. Molto richiesto."},
+          {"who": "Chiara", "t": "It's smaller than my aunt's closet. Thank you. I'll think about it.", "n": "È più piccolo dell'armadio di mia zia. Grazie. Ci penso.", "note": "Smaller than: il comparativo con -er + than. I'll think about it: il modo gentile di dire no."},
+          {"stage": "Bloordale, 11:30. A semi-detached house on a quiet street. A side door down six steps. Mrs. Folake Oyelaran, with a folder."},
+          {"who": "Oyelaran", "t": "Come in, come in. Shoes there, please. This is the apartment: separate entrance, two windows, your own bathroom. The laundry is shared, upstairs. Thirteen fifty, utilities included.", "n": "Entra, entra. Le scarpe lì, per favore. Questo è l'appartamento: ingresso separato, due finestre, bagno tuo. La lavanderia è in comune, di sopra. Milletrecentocinquanta, bollette incluse.", "note": "Utilities = le utenze: luce (hydro), gas, acqua. Shared = in comune. Separate entrance: la cosa più importante in un basement."},
+          {"who": "Chiara", "t": "It's brighter than I expected. Is it… is it warm in winter?", "n": "È più luminoso di quanto mi aspettassi. È… è caldo d'inverno?", "note": "Brighter than I expected: più luminoso di quanto pensassi. La domanda sul riscaldamento è la domanda giusta per un seminterrato."},
+          {"who": "Oyelaran", "t": "The furnace is right there, behind that door. It's the warmest apartment in the house. My last tenant stayed four years. Two things: no smoking, no parties after eleven. I live upstairs. I hear everything.", "n": "La caldaia è proprio lì, dietro quella porta. È l'appartamento più caldo della casa. L'ultimo inquilino è rimasto quattro anni. Due cose: niente fumo, niente feste dopo le undici. Io vivo di sopra. Sento tutto.", "note": "The warmest apartment in the house: il superlativo con -est + in. Tenant = inquilino. Mrs. Oyelaran conosce ogni regola, e le dice tutte."},
+          {"who": "Chiara", "t": "I work at a bakery. I go to bed at nine. How far is Dundas West from here?", "n": "Lavoro in una panetteria. Vado a letto alle nove. Quanto dista Dundas West da qui?", "note": "How far…? = quanto dista? La risposta in minuti, mai in chilometri."},
+          {"who": "Oyelaran", "t": "Ten minutes on foot. Closer than the subway. You bake? Good. First and last, references, and I need to see your work permit. Let me know by Monday.", "n": "Dieci minuti a piedi. Più vicino della metro. Fai il pane? Bene. Primo e ultimo mese, referenze, e devo vedere il permesso di lavoro. Fammi sapere entro lunedì.", "note": "First and last = il primo e l'ultimo mese di affitto, anticipati: la «caparra» dell'Ontario. Closer than: close → closer."},
+          {"stage": "Liberty Village, 2 p.m. A glass tower, a lobby with a concierge, an elevator to the 27th floor. Jess, 29, in running gear."},
+          {"who": "Jess", "t": "Hey! Come in. So, this is the living room, the kitchen is all new, and your room would be this one. Eleven hundred plus hydro, split two ways. There's a gym on the fifth floor and a pool on the roof.", "n": "Ehi! Entra. Allora, questo è il soggiorno, la cucina è tutta nuova, e la tua stanza sarebbe questa. Millecento più la luce, divisa in due. C'è una palestra al quinto piano e una piscina sul tetto.", "note": "Hydro = l'elettricità, in Ontario (da Ontario Hydro). Split two ways = divisa in due. Your room would be: il condizionale di cortesia."},
+          {"who": "Chiara", "t": "The view is amazing. It's the most beautiful kitchen I've ever seen. But the room is smaller than the basement, and it's a lot farther from work.", "n": "La vista è incredibile. È la cucina più bella che abbia mai visto. Ma la stanza è più piccola del seminterrato, ed è molto più lontana dal lavoro.", "note": "The most beautiful: most con gli aggettivi lunghi. Farther: far → farther / further. A lot farther = molto più lontano."},
+          {"who": "Jess", "t": "Forty minutes on the streetcar. But honestly? The gym makes up for it.", "n": "Quaranta minuti di tram. Ma sinceramente? La palestra compensa.", "note": "Make up for = compensare. Honestly? = sinceramente?"},
+          {"who": "Chiara", "t": "I start at six. The streetcar at five fifteen isn't as fun as the gym.", "n": "Comincio alle sei. Il tram alle cinque e un quarto non è divertente come la palestra.", "note": "Not as… as: non… come. Isn't as fun as = è meno divertente di."}
+        ], "notes": [
+          {"phrase": "smaller than · brighter than · closer than · farther from", "note": "Gli aggettivi corti prendono -er: small → smaller, bright → brighter, close → closer. Far è irregolare: farther / further."},
+          {"phrase": "the warmest apartment in the house · the most beautiful kitchen", "note": "Il superlativo: -est per gli aggettivi corti, most per quelli lunghi. Il gruppo con in, non of: in the house, in Toronto."},
+          {"phrase": "not as fun as · a lot farther", "note": "Not as… as = non… come. A lot / much davanti al comparativo = molto più."},
+          {"phrase": "bachelor · basement · condo · first and last · utilities · hydro", "note": "Le parole della casa a Toronto: vedi il vocabolario e Living there."}
+        ]},
+        {"type": "scene", "id": "dlg-spreadsheet", "title": "Sofia's spreadsheet", "setting": "Domenica sera, la cucina di Teresa. Il computer di Sofia aperto su una tabella con tre colonne. Franco con il caffè, Teresa con le braccia incrociate.", "register": "informale, in famiglia", "lines": [
+          {"who": "Sofia", "t": "Okay. Three options. Rent, size, distance from work, pros, cons. The bachelor is the most expensive and the smallest. Why is it even here?", "n": "Okay. Tre opzioni. Affitto, dimensioni, distanza dal lavoro, pro, contro. Il bachelor è il più caro e il più piccolo. Perché è pure qui?", "note": "The most expensive, the smallest: due superlativi. Why is it even here? = perché c'è addirittura?"},
+          {"who": "Chiara", "t": "Because it's in the Annex and Mr. Kowalski was very nice.", "n": "Perché è nell'Annex e il signor Kowalski era molto gentile."},
+          {"who": "Sofia", "t": "Nice doesn't fold into a wall. The condo is the cheapest, but hydro isn't included and it's the farthest from the bakery. Forty minutes each way, twice a day.", "n": "La gentilezza non si piega nel muro. Il condominio è il più economico, ma la luce non è inclusa ed è il più lontano dalla panetteria. Quaranta minuti ad andare, due volte al giorno.", "note": "The cheapest, the farthest: altri due superlativi. Each way = a tratta."},
+          {"who": "Franco", "t": "Forty minutes is nothing. I drove forty minutes to work for thirty years.", "n": "Quaranta minuti sono niente. Ho guidato quaranta minuti per andare al lavoro per trent'anni.", "note": "Forty minutes is nothing: una quantità di tempo conta come singolare."},
+          {"who": "Sofia", "t": "Dad, you hate the streetcar. The basement is the closest, the warmest, and the second cheapest. It isn't as new as the condo, and it isn't as pretty. But it's big enough, and Mrs. Oyelaran sounds like Nonna.", "n": "Papà, tu odi il tram. Il seminterrato è il più vicino, il più caldo, e il secondo più economico. Non è nuovo come il condominio, e non è bello come quello. Ma è abbastanza grande, e la signora Oyelaran sembra la nonna.", "note": "Not as new as, not as pretty: non… come. Big enough: enough dopo l'aggettivo. Sounds like = sembra, a sentirla."},
+          {"who": "Chiara", "t": "Which one would you choose?", "n": "Quale sceglieresti tu?", "note": "Which one? = quale? One sostituisce il nome: which apartment → which one."},
+          {"who": "Sofia", "t": "The basement. The condo is nicer, but the basement is better. Nicer isn't better.", "n": "Il seminterrato. Il condominio è più carino, ma il seminterrato è meglio. Più carino non è meglio.", "note": "Nicer: nice → nicer. Better: good → better, irregolare. Una frase da ricordare."},
+          {"who": "Teresa", "t": "Or you stay here. {hero}'s room is free, it's warm, and the rent is zero.", "n": "Oppure resti qui. La stanza di {hero} è libera, è calda, e l'affitto è zero.", "note": "The rent is zero: l'offerta di ogni zia italiana."},
+          {"who": "Chiara", "t": "Zia, yours is the best house in Toronto. But I'd rather have my own door. Even a door down six steps.", "n": "Zia, la tua è la casa più bella di Toronto. Ma preferirei avere una porta mia. Anche una porta sei gradini sotto.", "note": "Yours = la tua (senza nome). I'd rather + verbo base = preferirei. My own door: own rafforza il possessivo."},
+          {"who": "Teresa", "t": "{{His|Her}} room was {{his|hers}} and now it's nobody's. Fine. The basement. But you have dinner here on Sundays.", "n": "La stanza era {{sua|sua}} e adesso non è di nessuno. Va bene. Il seminterrato. Ma la domenica ceni qui.", "note": "His / hers: i pronomi possessivi. His è uguale all'aggettivo; her diventa hers."},
+          {"who": "Chiara", "t": "Every Sunday. And I prefer your cooking to the condo gym anyway.", "n": "Ogni domenica. E comunque preferisco la tua cucina alla palestra del condominio.", "note": "Prefer X to Y: preferire X a Y. Mai than."},
+          {"who": "Franco", "t": "Good. I'll drive you. With the van. Mine is bigger than Sofia's car.", "n": "Bene. Ti porto io. Con il furgone. Il mio è più grande della macchina di Sofia.", "note": "Mine = il mio. Sofia's car: il genitivo sassone, poi than."},
+          {"who": "Sofia", "t": "Yours is older than me, Dad.", "n": "Il tuo è più vecchio di me, papà.", "note": "Older than me: nel parlato me, non I."}
+        ], "notes": [
+          {"phrase": "the most expensive · the smallest · the cheapest · the farthest · the closest · the warmest", "note": "Sei superlativi in una tabella. Sofia confronta come un foglio di calcolo: una colonna, un superlativo."},
+          {"phrase": "nicer isn't better", "note": "Nice → nicer (regolare, -r dopo la e). Good → better (irregolare). La frase dell'unità."},
+          {"phrase": "Which one? · yours · mine · hers · nobody's", "note": "One sostituisce il nome; i possessivi senza nome: mine, yours, his, hers, ours, theirs; nobody's con il genitivo."},
+          {"phrase": "I'd rather have my own door. · I prefer your cooking to the gym.", "note": "Due modi di preferire: would rather + base, prefer + nome + to + nome."}
+        ], "questions": [
+          {"kind": "tf", "q": "The condo is the closest to the bakery.", "t": "It's the farthest from the bakery. Forty minutes each way.", "answer": false, "why": "È il più lontano: quaranta minuti a tratta. Il più vicino è il seminterrato."},
+          {"kind": "mc", "q": "Why does Chiara choose the basement over Teresa's house?", "options": ["She'd rather have her own door.", "Teresa's house is too far from work.", "The rent at Teresa's is too high."], "answer": 0, "why": "I'd rather have my own door. La casa di Teresa è la più bella di Toronto, e l'affitto è zero."},
+          {"kind": "fill", "q": "The basement is ___ (close) than the condo and ___ (warm) than the bachelor. It's the ___ (good) option.", "answers": [["closer"], ["warmer"], ["best"]], "n": "Il seminterrato è più vicino del condominio e più caldo del bachelor. È l'opzione migliore."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Renting in Toronto",
+      "intro": "Le parole dell'affitto, le sigle degli annunci, gli aggettivi per descrivere una casa, e i quartieri.",
+      "blocks": [
+        {"type": "vocab", "theme": "The lease", "n": "Il contratto", "items": [
+          {"t": "apartment", "n": "appartamento", "pos": "noun", "ipa": "əˈpɑrtmənt", "plural": "apartments", "ex": {"t": "A one-bedroom apartment in Bloordale.", "n": "Un bilocale a Bloordale."}, "note": "Apartment in Nord America, flat nel Regno Unito. Negli annunci apt."},
+          {"t": "bachelor", "n": "monolocale", "pos": "noun", "ipa": "ˈbætʃələr", "plural": "bachelors", "ex": {"t": "The bachelor is one room with a kitchenette.", "n": "Il monolocale è una stanza con l'angolo cottura."}, "note": "Parola canadese: negli Stati Uniti studio. One-bedroom (1BR): camera separata. Two-bedroom (2BR): due camere."},
+          {"t": "basement", "n": "seminterrato", "pos": "noun", "ipa": "ˈbeɪsmənt", "plural": "basements", "ex": {"t": "A basement apartment with a separate entrance.", "n": "Un appartamento seminterrato con ingresso separato."}, "note": "Metà delle case di Toronto ha un basement affittato. Finestre piccole, affitto più basso, caldo d'inverno. Negli annunci bsmt."},
+          {"t": "condo", "n": "appartamento in condominio (di proprietà)", "pos": "noun", "ipa": "ˈkɒndoʊ", "plural": "condos", "ex": {"t": "A room in a condo on the 27th floor.", "n": "Una stanza in un condominio al ventisettesimo piano."}, "note": "Condominium: le torri di vetro del centro. Il proprietario affitta l'unità; le spese condominiali sono sue."},
+          {"t": "landlord", "n": "padrone di casa, proprietario", "pos": "noun", "ipa": "ˈlændlɔrd", "plural": "landlords", "ex": {"t": "The landlord lives upstairs and hears everything.", "n": "La padrona di casa vive di sopra e sente tutto."}, "note": "Landlady per una donna, ma landlord si usa per tutti e due. Property manager: l'amministratore."},
+          {"t": "tenant", "n": "inquilino", "pos": "noun", "ipa": "ˈtɛnənt", "plural": "tenants", "ex": {"t": "My last tenant stayed four years.", "n": "L'ultimo inquilino è rimasto quattro anni."}, "note": "Renter: sinonimo. Il Landlord and Tenant Board decide le liti."},
+          {"t": "lease", "n": "contratto d'affitto", "pos": "noun", "ipa": "lis", "plural": "leases", "ex": {"t": "The lease is for one year, then month to month.", "n": "Il contratto è di un anno, poi mese per mese."}, "note": "Sign a lease: firmare il contratto. In Ontario c'è un modulo standard per tutti."},
+          {"t": "rent", "n": "affitto", "pos": "noun", "ipa": "rɛnt", "ex": {"t": "The rent is thirteen fifty a month. Rent is due on the first.", "n": "L'affitto è milletrecentocinquanta al mese. L'affitto si paga il primo."}, "note": "Anche il verbo: to rent an apartment (da inquilino) e to rent out (da proprietario)."},
+          {"t": "deposit", "n": "caparra, deposito", "pos": "noun", "ipa": "dɪˈpɒzɪt", "plural": "deposits", "ex": {"t": "In Ontario there's no damage deposit, only first and last.", "n": "In Ontario non c'è il deposito cauzionale, solo primo e ultimo mese."}, "note": "First and last: il primo e l'ultimo mese di affitto, pagati alla firma. Key deposit: la cauzione per le chiavi."},
+          {"t": "utilities", "n": "utenze, bollette", "pos": "noun", "ipa": "juˈtɪlətiz", "ex": {"t": "Utilities included: hydro, gas and water.", "n": "Bollette incluse: luce, gas e acqua."}, "note": "Sempre plurale. Hydro = l'elettricità in Ontario. Internet di solito a parte."},
+          {"t": "hydro", "n": "elettricità, luce (Ontario)", "pos": "noun", "ipa": "ˈhaɪdroʊ", "ex": {"t": "Eleven hundred plus hydro.", "n": "Millecento più la luce."}, "note": "Da Ontario Hydro, la vecchia azienda elettrica. The hydro bill = la bolletta della luce. Fuori dall'Ontario: electricity, power."},
+          {"t": "laundry", "n": "lavanderia; bucato", "pos": "noun", "ipa": "ˈlɒndri", "ex": {"t": "Laundry is shared, upstairs. Laundry in-unit is a luxury.", "n": "La lavanderia è in comune, di sopra. La lavatrice in casa è un lusso."}, "note": "Do the laundry = fare il bucato. Laundromat = la lavanderia a gettoni."},
+          {"t": "roommate", "n": "coinquilino", "pos": "noun", "ipa": "ˈrumˌmeɪt", "plural": "roommates", "ex": {"t": "Jess is looking for a roommate for the second bedroom.", "n": "Jess cerca una coinquilina per la seconda camera."}, "note": "Anche se non si divide la stanza: roommate = chi condivide la casa. Housemate nel Regno Unito."},
+          {"t": "furnished", "n": "arredato", "pos": "adj.", "ipa": "ˈfɜrnɪʃt", "ex": {"t": "Furnished or unfurnished? — Unfurnished. I'm going to IKEA.", "n": "Arredato o vuoto? — Vuoto. Vado all'IKEA."}, "note": "Furniture = i mobili, non numerabile. Furnished = con i mobili."},
+          {"t": "to move in", "n": "trasferirsi, entrare (in una casa)", "pos": "verb", "ipa": "muv ɪn", "forms": "moved in, moved in", "ex": {"t": "When can I move in? — On the first.", "n": "Quando posso entrare? — Il primo."}, "note": "Move out = andarsene. Move = traslocare in generale. Move-in date: la data d'ingresso."},
+          {"t": "viewing", "n": "visita (di una casa)", "pos": "noun", "ipa": "ˈvjuɪŋ", "plural": "viewings", "ex": {"t": "I have three viewings on Saturday.", "n": "Sabato ho tre visite."}, "note": "Book a viewing: fissare una visita. Anche showing."},
+          {"t": "notice", "n": "preavviso", "pos": "noun", "ipa": "ˈnoʊtɪs", "ex": {"t": "You have to give sixty days' notice.", "n": "Devi dare sessanta giorni di preavviso."}, "note": "Give notice = dare il preavviso. Anche avviso in generale: a notice on the door."}
+        ]},
+        {"type": "vocab", "theme": "What's it like?", "n": "Com'è?", "items": [
+          {"t": "cozy", "n": "accogliente (o: minuscolo)", "pos": "adj.", "ipa": "ˈkoʊzi", "ex": {"t": "«Cozy» in an ad means small.", "n": "«Cozy» in un annuncio vuol dire piccolo."}, "note": "Grafia canadese cozy, britannica cosy. Il più usato degli eufemismi immobiliari."},
+          {"t": "spacious", "n": "spazioso", "pos": "adj.", "ipa": "ˈspeɪʃəs", "ex": {"t": "The living room is spacious; the bedroom isn't.", "n": "Il soggiorno è spazioso; la camera no."}, "note": "Roomy: sinonimo informale. Space = lo spazio."},
+          {"t": "bright", "n": "luminoso", "pos": "adj.", "ipa": "braɪt", "ex": {"t": "A bright basement is a rare thing.", "n": "Un seminterrato luminoso è una cosa rara."}, "note": "Comparativo brighter. Anche brillante, intelligente: a bright student."},
+          {"t": "noisy", "n": "rumoroso", "pos": "adj.", "ipa": "ˈnɔɪzi", "ex": {"t": "The Annex is noisier than Bloordale.", "n": "L'Annex è più rumoroso di Bloordale."}, "note": "Noise = rumore. Noisy → noisier: la y diventa i."},
+          {"t": "quiet", "n": "tranquillo, silenzioso", "pos": "adj.", "ipa": "ˈkwaɪət", "ex": {"t": "A quiet street, ten minutes from Dundas.", "n": "Una strada tranquilla, a dieci minuti da Dundas."}, "note": "Due sillabe: KUAI-et. Quite (una sola sillaba) = abbastanza. Si confondono per iscritto."},
+          {"t": "affordable", "n": "abbordabile, a buon prezzo", "pos": "adj.", "ipa": "əˈfɔrdəbəl", "ex": {"t": "Affordable in Toronto means under fifteen hundred.", "n": "Abbordabile a Toronto vuol dire sotto i millecinquecento."}, "note": "Afford = potersi permettere: I can't afford it."},
+          {"t": "pricey", "n": "caro, salato", "pos": "adj.", "ipa": "ˈpraɪsi", "ex": {"t": "The Annex is pricey. Liberty Village is pricier.", "n": "L'Annex è caro. Liberty Village è più caro."}, "note": "Informale per expensive. Comparativo pricier."},
+          {"t": "tiny", "n": "minuscolo", "pos": "adj.", "ipa": "ˈtaɪni", "ex": {"t": "The bachelor is tiny. The bed folds into the wall.", "n": "Il monolocale è minuscolo. Il letto si piega nel muro."}, "note": "Tiny < small. Huge > big."},
+          {"t": "huge", "n": "enorme", "pos": "adj.", "ipa": "hjudʒ", "ex": {"t": "The condo has a huge window and a tiny room.", "n": "Il condominio ha una finestra enorme e una stanza minuscola."}, "note": "Si dice hiudg. Enormous, giant: sinonimi."},
+          {"t": "convenient", "n": "comodo (di posizione)", "pos": "adj.", "ipa": "kənˈvinjənt", "ex": {"t": "Bloordale is convenient for the bakery.", "n": "Bloordale è comodo per la panetteria."}, "note": "Falso amico: non conveniente (di prezzo). Comodo di posizione, pratico. Comfortable = comodo (da sedersi)."},
+          {"t": "far", "n": "lontano", "pos": "adj.", "ipa": "fɑr", "ex": {"t": "The condo is far from work. Farther than I want.", "n": "Il condominio è lontano dal lavoro. Più lontano di quanto vorrei."}, "note": "Comparativo irregolare: farther / further, farthest / furthest. How far is it? = quanto dista?"},
+          {"t": "close", "n": "vicino", "pos": "adj.", "ipa": "kloʊs", "ex": {"t": "The basement is close to the bakery. The closest of the three.", "n": "Il seminterrato è vicino alla panetteria. Il più vicino dei tre."}, "note": "Close to + posto. L'aggettivo si dice con la s sorda (clous); il verbo to close con la z (clouz)."},
+          {"t": "own", "n": "proprio (rafforzativo)", "pos": "adj.", "ipa": "oʊn", "ex": {"t": "I'd rather have my own door and my own bathroom.", "n": "Preferirei avere una porta mia e un bagno mio."}, "note": "Sempre dopo un possessivo: my own, your own. On my own = da solo."}
+        ]},
+        {"type": "vocab", "theme": "Comparing", "n": "Confrontare", "items": [
+          {"t": "option", "n": "opzione", "pos": "noun", "ipa": "ˈɒpʃən", "plural": "options", "ex": {"t": "Three options, one spreadsheet.", "n": "Tre opzioni, un foglio di calcolo."}},
+          {"t": "pros and cons", "n": "pro e contro", "pos": "noun", "ipa": "proʊz ənd kɒnz", "ex": {"t": "Every apartment has pros and cons. Write them down.", "n": "Ogni appartamento ha pro e contro. Scrivili."}, "note": "Sempre al plurale e sempre insieme."},
+          {"t": "budget", "n": "budget", "pos": "noun", "ipa": "ˈbʌdʒɪt", "plural": "budgets", "ex": {"t": "My budget is fourteen hundred, all in.", "n": "Il mio budget è millequattrocento, tutto compreso."}, "note": "Si dice BA-git. All in = tutto incluso. On a budget = con pochi soldi."},
+          {"t": "commute", "n": "tragitto casa-lavoro", "pos": "noun", "ipa": "kəˈmjut", "plural": "commutes", "ex": {"t": "A forty-minute commute, twice a day.", "n": "Un tragitto di quaranta minuti, due volte al giorno."}, "note": "Anche il verbo: I commute by streetcar. Commuter = pendolare."},
+          {"t": "to prefer", "n": "preferire", "pos": "verb", "ipa": "prɪˈfɜr", "forms": "preferred, preferred", "ex": {"t": "I prefer the basement to the condo.", "n": "Preferisco il seminterrato al condominio."}, "note": "Prefer X to Y, mai than. Preferred: raddoppia la r."},
+          {"t": "would rather", "n": "preferirei (fare)", "pos": "verb", "ipa": "wʊd ˈræðər", "ex": {"t": "I'd rather have my own door. I'd rather not share a bathroom.", "n": "Preferirei avere una porta mia. Preferirei non condividere il bagno."}, "note": "'d rather + verbo base, senza to. Negativo: 'd rather not."},
+          {"t": "to choose", "n": "scegliere", "pos": "verb", "ipa": "tʃuz", "forms": "chose, chosen", "ex": {"t": "Which one would you choose? — I chose the basement.", "n": "Quale sceglieresti? — Ho scelto il seminterrato."}, "note": "Irregolare: chose (si dice chouz), chosen. Choice = la scelta."},
+          {"t": "enough", "n": "abbastanza", "pos": "adv.", "ipa": "ɪˈnʌf", "ex": {"t": "It's big enough. It isn't cheap enough.", "n": "È abbastanza grande. Non è abbastanza economico."}, "note": "Dopo l'aggettivo: big enough. Prima del nome: enough money. Si dice i-NAF."},
+          {"t": "too", "n": "troppo", "pos": "adv.", "ipa": "tu", "ex": {"t": "The bachelor is too small and too expensive.", "n": "Il monolocale è troppo piccolo e troppo caro."}, "note": "Too + aggettivo = troppo. Too alla fine della frase = anche: me too."}
+        ]},
+        {"type": "subhead", "text": "Ad abbreviations"},
+        {"type": "grid", "cols": 4, "items": [
+          {"big": "1BR", "small": "one bedroom"}, {"big": "bsmt", "small": "basement"}, {"big": "utils incl.", "small": "utilities included"}, {"big": "+ hydro", "small": "luce a parte"},
+          {"big": "N/S", "small": "non-smoking"}, {"big": "A/C", "small": "aria condizionata"}, {"big": "in-unit laundry", "small": "lavatrice in casa"}, {"big": "pet-friendly", "small": "animali ammessi"},
+          {"big": "sep. entrance", "small": "ingresso separato"}, {"big": "TTC at door", "small": "fermata davanti"}, {"big": "avail. Nov 1", "small": "disponibile dal 1° nov."}, {"big": "first & last", "small": "primo e ultimo mese"}
+        ], "note": "Su Kijiji e Facebook Marketplace. Cozy = piccolo, charming = vecchio, up-and-coming = quartiere non ancora bello."},
+        {"type": "subhead", "text": "Neighbourhoods"},
+        {"type": "grid", "cols": 3, "items": [
+          {"big": "The Annex", "small": "vicino all'università, vecchie case, caro"}, {"big": "Bloordale", "small": "ovest, case basse, in salita"}, {"big": "Parkdale", "small": "ovest, misto, vicino al lago"},
+          {"big": "Leslieville", "small": "est, giovane, brunch"}, {"big": "Liberty Village", "small": "torri di vetro, palestre"}, {"big": "Scarborough", "small": "est, lontano, economico, enorme"}
+        ], "note": "Neighbourhood con la u: grafia canadese. Toronto è una città di quartieri: la prima domanda è sempre «where do you live?»."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Bigger, the biggest, as big as, big enough",
+      "intro": "Cinque pezzi: i comparativi, i superlativi, as… as con too e enough e i modi di preferire, i pronomi possessivi con one / ones, e l'ordine degli aggettivi con le relative di luogo. In fondo a ogni blocco, la pagina di riferimento.",
+      "blocks": [
+        {"type": "grammar", "id": "g-comparatives", "title": "Comparativi: smaller than, more expensive than", "category": "Aggettivi", "rule": "Aggettivi di una sillaba: -er + than (smaller than, closer than, bigger than). Due sillabe in -y: -ier (noisier, prettier, cozier). Aggettivi lunghi: more + aggettivo + than (more expensive than). Irregolari: good → better, bad → worse, far → farther / further. Rafforzativi: much, a lot, far, a bit, a little davanti al comparativo. Dopo than, nel parlato, i pronomi oggetto: taller than me.", "ref": "comparatives", "blocks": [
+          {"type": "table", "head": ["Tipo", "Aggettivo", "Comparativo", "Esempio"], "rows": [["una sillaba", "small · cheap · warm · bright", "smaller · cheaper · warmer · brighter", "The basement is warmer than the condo."], ["una sillaba, -e", "nice · close · large · safe", "nicer · closer · larger · safer", "Bloordale is closer than Liberty Village."], ["vocale + consonante: raddoppia", "big · hot · thin · wet", "bigger · hotter · thinner · wetter", "The van is bigger than the car."], ["due sillabe in -y", "noisy · pretty · cozy · pricey · early", "noisier · prettier · cozier · pricier · earlier", "The Annex is noisier than Bloordale."], ["lunghi", "expensive · beautiful · comfortable · convenient", "more expensive · more beautiful · more comfortable · more convenient", "The bachelor is more expensive than the basement."], ["meno", "qualsiasi", "less + aggettivo", "The condo is less convenient than the basement."], ["irregolari", "good · bad · far", "better · worse · farther / further", "The basement is better. The commute is worse. The condo is farther."]], "speak": [3], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "The bachelor is smaller than my aunt's closet and more expensive than the basement.", "n": "Il monolocale è più piccolo dell'armadio di mia zia e più caro del seminterrato."},
+            {"t": "The condo is much nicer, but the basement is a lot closer to work. Nicer isn't better.", "n": "Il condominio è molto più carino, ma il seminterrato è molto più vicino al lavoro. Più carino non è meglio."},
+            {"t": "Toronto is bigger than Lecce, colder than Roccamarina and more expensive than both.", "n": "Toronto è più grande di Lecce, più fredda di Roccamarina e più cara di tutte e due."},
+            {"t": "Franco's van is older than Sofia. Sofia drives better than Franco.", "n": "Il furgone di Franco è più vecchio di Sofia. Sofia guida meglio di Franco.", "note": "better anche come avverbio: well → better"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Più = -er o more?", "text": "L'italiano mette sempre [[più]] davanti. L'inglese guarda la lunghezza: corto → [[-er]] ([[cheaper]]), lungo → [[more]] ([[more expensive]]). Mai tutti e due: [[more cheaper]] è l'errore classico. E [[than]] è l'unico «di / che» del confronto: [[bigger than]], [[more expensive than]], mai [[that]], mai [[of]]."},
+          {"type": "mistakes", "items": [
+            {"wrong": "more cheaper · more bigger · more better", "right": "cheaper · bigger · better", "why": "Uno solo: -er o more."},
+            {"wrong": "expensiver · beautifuler · convenienter", "right": "more expensive · more beautiful · more convenient", "why": "Aggettivi lunghi: more."},
+            {"wrong": "bigger that · bigger of · bigger then", "right": "bigger than", "why": "Than, con la a."},
+            {"wrong": "biger · hoter · noisyer", "right": "bigger · hotter · noisier", "why": "Raddoppia la consonante; y → i."},
+            {"wrong": "gooder · badder · farer", "right": "better · worse · farther", "why": "Irregolari."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-superlatives", "title": "Superlativi: the smallest, the most expensive", "category": "Aggettivi", "rule": "The + -est per gli aggettivi corti (the smallest, the closest, the biggest, the noisiest); the most + aggettivo per quelli lunghi (the most expensive); the least per il minimo. Irregolari: the best, the worst, the farthest / furthest. Il gruppo con in (in the house, in Toronto) o of (of the three, of all); spesso con il present perfect: the best I've ever seen.", "ref": "superlatives", "blocks": [
+          {"type": "table", "head": ["Aggettivo", "Comparativo", "Superlativo", "Esempio"], "rows": [["small", "smaller", "the smallest", "The bachelor is the smallest of the three."], ["warm", "warmer", "the warmest", "It's the warmest apartment in the house."], ["big", "bigger", "the biggest", "Scarborough is the biggest neighbourhood in Toronto."], ["noisy", "noisier", "the noisiest", "The Annex is the noisiest."], ["expensive", "more expensive", "the most expensive", "The bachelor is the most expensive."], ["convenient", "more convenient", "the most convenient", "The basement is the most convenient."], ["good · bad · far", "better · worse · farther", "the best · the worst · the farthest", "The basement is the best option. The commute to the condo is the worst."], ["little · many / much", "less · more", "the least · the most", "The condo costs the least. Sofia talks the most."]], "speak": [3], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "The basement is the closest, the warmest and the second cheapest.", "n": "Il seminterrato è il più vicino, il più caldo e il secondo più economico.", "note": "the second cheapest: il secondo più…"},
+            {"t": "It's the most beautiful kitchen I've ever seen. And the smallest bedroom.", "n": "È la cucina più bella che abbia mai visto. E la camera più piccola.", "note": "I've ever seen: present perfect, unità 12; qui solo da riconoscere"},
+            {"t": "Yours is the best house in Toronto, zia. The rent is the lowest, too.", "n": "La tua è la casa più bella di Toronto, zia. Anche l'affitto è il più basso."},
+            {"t": "Which neighbourhood is the farthest from downtown? — Scarborough, by far.", "n": "Quale quartiere è il più lontano dal centro? — Scarborough, di gran lunga."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "the most small · the most big · the most good", "right": "the smallest · the biggest · the best", "why": "Corti: -est."},
+            {"wrong": "the expensivest · the beautifulest", "right": "the most expensive · the most beautiful", "why": "Lunghi: the most."},
+            {"wrong": "the smallest of the house · the best in all", "right": "the smallest in the house · the best of all", "why": "In per il luogo, of per il gruppo."},
+            {"wrong": "smallest apartment (senza the) · the more expensive of the three", "right": "the smallest apartment · the most expensive of the three", "why": "Il superlativo vuole the; fra tre o più, most."},
+            {"wrong": "the goodest · the baddest · the farest", "right": "the best · the worst · the farthest", "why": "Irregolari."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-as-too-enough", "title": "as… as, too, enough, prefer, would rather", "category": "Aggettivi", "rule": "Uguaglianza: as + aggettivo + as (as bright as). Negativa: not as… as (= meno di). Too + aggettivo = troppo; aggettivo + enough = abbastanza; enough + nome. Too e enough spesso con to + verbo o for + persona: too small to live in, big enough for two. Preferire: prefer X to Y; I'd rather + verbo base (than + verbo base).", "ref": "too-enough-as-as", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano", "Nota"], "rows": [["The basement is as warm as the house.", "Il seminterrato è caldo come la casa.", "as… as"], ["The condo isn't as close as the basement.", "Il condominio non è vicino come il seminterrato.", "not as… as = meno"], ["The bachelor is too small.", "Il monolocale è troppo piccolo.", "too + aggettivo"], ["It's too small to live in. It's too expensive for me.", "È troppo piccolo per viverci. È troppo caro per me.", "too… to / for"], ["The basement is big enough.", "Il seminterrato è abbastanza grande.", "aggettivo + enough"], ["It isn't cheap enough. I don't have enough money.", "Non è abbastanza economico. Non ho abbastanza soldi.", "not… enough; enough + nome"], ["I prefer the basement to the condo.", "Preferisco il seminterrato al condominio.", "prefer X to Y"], ["I'd rather have my own door. I'd rather not share.", "Preferirei avere una porta mia. Preferirei non condividere.", "would rather + base"], ["I'd rather walk than take the streetcar.", "Preferirei camminare che prendere il tram.", "would rather… than…"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "The condo is as new as it gets, but it isn't as practical as the basement.", "n": "Il condominio è nuovo come non mai, ma non è pratico come il seminterrato."},
+            {"t": "The bed is too small for two and the room is too small for the bed.", "n": "Il letto è troppo piccolo per due e la stanza è troppo piccola per il letto."},
+            {"t": "Is it warm enough in winter? — Warm enough to bake bread in.", "n": "È abbastanza caldo d'inverno? — Abbastanza caldo da farci il pane."},
+            {"t": "Which do you prefer, the Annex or Bloordale? — I'd rather live in Bloordale. It's quieter.", "n": "Quale preferisci, l'Annex o Bloordale? — Preferirei vivere a Bloordale. È più tranquillo."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Troppo e abbastanza stanno in posti diversi", "text": "[[Too]] va prima dell'aggettivo, come troppo: [[too small]]. [[Enough]] va dopo l'aggettivo, al contrario di abbastanza: [[big enough]], non [[enough big]]. Davanti al nome, invece, enough torna prima: [[enough money]]. E [[too]] con un aggettivo è sempre negativo: [[too good]] non è un complimento."},
+          {"type": "mistakes", "items": [
+            {"wrong": "as big than · as big like · so big as", "right": "as big as", "why": "As… as, tutte e due le volte."},
+            {"wrong": "enough big · enough warm", "right": "big enough · warm enough", "why": "Enough dopo l'aggettivo."},
+            {"wrong": "too much small · too much expensive", "right": "too small · too expensive", "why": "Too + aggettivo; too much + nome non numerabile."},
+            {"wrong": "I prefer the basement than the condo.", "right": "I prefer the basement to the condo.", "why": "Prefer… to…"},
+            {"wrong": "I'd rather to stay. I'd rather staying.", "right": "I'd rather stay.", "why": "Would rather + verbo base."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-possessive-pronouns", "title": "mine, yours, hers · which one? · the small one", "category": "Pronomi", "rule": "I pronomi possessivi stanno al posto di possessivo + nome: mine, yours, his, hers, ours, theirs (my car → mine). Non cambiano al plurale e non vogliono the. Anche con il genitivo: Sofia's, nobody's. One / ones sostituiscono un nome numerabile già detto: the small one, the new ones, which one?", "ref": "possessive-pronouns", "blocks": [
+          {"type": "table", "head": ["Aggettivo + nome", "Pronome", "Italiano", "Esempio"], "rows": [["my room", "mine", "il mio / la mia", "That room is mine."], ["your room", "yours", "il tuo / il vostro", "Yours is the best house in Toronto."], ["his room", "his", "il suo (di lui)", "{hero}'s room was his. (Luca)"], ["her room", "hers", "il suo (di lei)", "{hero}'s room was hers. (Lucia)"], ["our room", "ours", "il nostro", "The basement is ours from the first."], ["their room", "theirs", "il loro", "The condo is theirs, not Jess's."], ["Sofia's car", "Sofia's", "quella di Sofia", "The van is bigger than Sofia's."], ["nobody's room", "nobody's", "di nessuno", "Now it's nobody's."]], "speak": [3], "rowhead": true},
+          {"type": "table", "caption": "one / ones", "head": ["Inglese", "Italiano"], "rows": [["Which one would you choose? — The small one.", "Quale sceglieresti? — Quello piccolo."], ["Which ones are furnished? — The new ones.", "Quali sono arredati? — Quelli nuovi."], ["This one is mine; that one is yours.", "Questo è mio; quello è tuo."], ["I don't like the bachelor. I prefer the one in Bloordale.", "Non mi piace il monolocale. Preferisco quello a Bloordale."]], "speak": [0], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "Whose keys are these? — Mine. And that bag is hers.", "n": "Di chi sono queste chiavi? — Mie. E quella borsa è sua."},
+            {"t": "My commute is ten minutes; Jess's is forty. Mine is better.", "n": "Il mio tragitto è di dieci minuti; quello di Jess di quaranta. Il mio è meglio."},
+            {"t": "Which apartment did you pick? — The one with the green door. The quiet one.", "n": "Quale appartamento hai scelto? — Quello con la porta verde. Quello tranquillo."},
+            {"t": "{hero} says {{his|her}} old room is still {{his|hers}}. Teresa says it's nobody's.", "n": "{hero} dice che la {{sua|sua}} vecchia stanza è ancora {{sua|sua}}. Teresa dice che non è di nessuno."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "the mine · the yours · the hers", "right": "mine · yours · hers", "why": "Mai l'articolo."},
+            {"wrong": "This is my. That is her.", "right": "This is mine. That is hers.", "why": "Senza nome, il pronome: mine, hers."},
+            {"wrong": "mines · yours's · their's", "right": "mine · yours · theirs", "why": "Invariabili, senza apostrofo."},
+            {"wrong": "Which? (da solo, per «quale?») · the small", "right": "Which one? · the small one", "why": "One sostituisce il nome."},
+            {"wrong": "a one · the ones of Sofia", "right": "one · Sofia's", "why": "One senza articolo indeterminativo; il possesso con il genitivo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-adjective-order", "title": "A big old wooden table · the bakery where I work", "category": "Frasi", "rule": "Più aggettivi davanti a un nome seguono un ordine fisso: opinione, dimensione, età, forma, colore, origine, materiale, scopo (a nice big old round brown Italian wooden kitchen table). In pratica mai più di tre: a big old wooden table, a nice quiet street. Le relative di luogo usano where (the bakery where I work) o that / which + preposizione alla fine (the bakery that I work at).", "ref": "adjective-order", "blocks": [
+          {"type": "table", "head": ["Ordine", "Categoria", "Esempi"], "rows": [["1", "opinione", "nice · beautiful · ugly · cozy · lovely"], ["2", "dimensione", "big · small · tiny · huge · long"], ["3", "età", "new · old · young · ancient"], ["4", "forma", "round · square · narrow"], ["5", "colore", "green · white · dark"], ["6", "origine", "Italian · Canadian · Victorian"], ["7", "materiale", "wooden · glass · brick · leather"], ["8", "scopo", "kitchen (table) · running (shoes) · dining (room)"]], "speak": [2], "rowhead": true, "compact": true, "note": "Trucco per ricordare: OSAShCOMP (opinion, size, age, shape, colour, origin, material, purpose). E la regola vera: al massimo tre."},
+          {"type": "examples", "items": [
+            {"t": "A big old wooden table. A tiny new white kitchen. A nice quiet street.", "n": "Un grande vecchio tavolo di legno. Una minuscola cucina nuova bianca. Una bella strada tranquilla."},
+            {"t": "A bright basement apartment with a small green door and an old brick wall.", "n": "Un appartamento seminterrato luminoso con una piccola porta verde e un vecchio muro di mattoni."},
+            {"t": "Bloordale is the neighbourhood where the bakery is. The house where I live has a side door.", "n": "Bloordale è il quartiere dove c'è la panetteria. La casa dove vivo ha una porta laterale."},
+            {"t": "That's the street that the streetcar goes down. That's the building I looked at.", "n": "Quella è la via per cui passa il tram. Quello è il palazzo che ho visto.", "note": "preposizione alla fine; that omesso"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "a wooden old big table · a white tiny kitchen", "right": "a big old wooden table · a tiny white kitchen", "why": "Dimensione, età, colore, materiale."},
+            {"wrong": "a table big · a street quiet", "right": "a big table · a quiet street", "why": "In inglese l'aggettivo sta prima del nome."},
+            {"wrong": "a nice, big, old, wooden, Italian, kitchen table (troppi)", "right": "a big old wooden table", "why": "Al massimo tre."},
+            {"wrong": "the bakery which I work · the house that I live", "right": "the bakery where I work · the house where I live / the house that I live in", "why": "Luogo: where, o la preposizione alla fine."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "Weak forms: bigger than, as big as",
+      "intro": "Le parole grammaticali del confronto (than, as, of, and, a) non hanno la vocale piena: si schiacciano in uno schwa e si attaccano alla parola prima. Un italiano che dice «bigger THAN» con la a di cat suona come un libro di testo; un canadese dice «biggerthn».",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "/ðən/", "t": "than", "n": "di, che (comparativo)", "ipa": "ðən", "tip": "Nel parlato than non ha la a di cat: è uno schwa, quasi thn. Bigger than → bigg-er-thn. Si sente appena."},
+          {"sound": "/əz/", "t": "as", "n": "come", "ipa": "əz", "tip": "As… as: tutte e due le volte deboli, əz. As big as → əz-BIG-əz. La vocale piena solo se as è da solo e enfatizzato."},
+          {"sound": "/ər/", "t": "bigger", "n": "più grande", "ipa": "ˈbɪɡər", "tip": "La -er finale è uno schwa con la r canadese: bigg-er, non bigg-EHR. Lo stesso per cheaper, warmer, closer, better."},
+          {"sound": "/əv/", "t": "of", "n": "di", "ipa": "əv", "tip": "The smallest of the three → the-SMALL-est-əv-the-THREE. Of si riduce a əv o a una v sola."}
+        ]},
+        {"type": "table", "caption": "Forte o debole?", "head": ["Parola", "Debole (normale)", "Forte (enfatica o da sola)"], "rows": [["than", "ðən · bigger than me", "ðæn · «Than what?»"], ["as", "əz · as big as", "æz · «As? Not more?»"], ["of", "əv · the best of all", "ɒv · «Of course.»"], ["and", "ən · pros and cons", "ænd · «And?»"], ["a · an", "ə · ən · a big old table", "eɪ · «A door? One door?»"], ["to", "tə · closer to work", "tu · «To, not from.»"]], "speak": [1], "compact": true, "note": "La regola: le parole grammaticali sono deboli dentro la frase e forti solo alla fine o quando contano."},
+        {"type": "minimal", "caption": "Il legato", "pairs": [
+          {"a": "bigger than", "b": "bigger than", "na": "detto a pezzi: BIG-ger · THAN (sbagliato)", "nb": "legato: biggerthn (giusto)", "tip": "Una parola sola, con than appeso."},
+          {"a": "as cheap as", "b": "as cheap as", "na": "AS · CHEAP · AS", "nb": "əz-CHEAP-əz", "tip": "Solo cheap ha la vocale piena."},
+          {"a": "the closest of the three", "b": "the closest of the three", "na": "ogni parola separata", "nb": "the-CLOS-est-əv-the-THREE", "tip": "Due accenti: closest e three."}
+        ]},
+        {"type": "callout", "kind": "tip", "title": "Come allenarsi", "text": "Scegli un confronto dell'unità e dillo con un solo accento per aggettivo: [[the BASEment is CLOSer than the CONdo and WARMer than the BACHelor]]. Tutto il resto, than, the, and, è un mormorio fra gli accenti. Se le parole grammaticali spariscono, l'hai detto bene."},
+        {"type": "examples", "items": [
+          {"t": "The basement is cheaper than the bachelor and as warm as the house.", "n": "Il seminterrato è più economico del monolocale e caldo come la casa.", "note": "CHEAP-er-thn · əz-WARM-əz"},
+          {"t": "It's the best of the three, and the closest to work.", "n": "È il migliore dei tre, e il più vicino al lavoro.", "note": "BEST-əv-the-THREE · CLOS-est-tə-WORK"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Your turn",
+      "intro": "Trenta esercizi su questa unità, poi un ripasso misto delle unità 1–10.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Comparativi", "items": [
+          {"kind": "fill", "q": "small → ___ · big → ___ · noisy → ___ · nice → ___ · expensive → ___", "answers": [["smaller"], ["bigger"], ["noisier"], ["nicer"], ["more expensive"]], "n": "più piccolo · più grande · più rumoroso · più carino · più caro"},
+          {"kind": "fill", "q": "good → ___ · bad → ___ · far → ___", "answers": [["better"], ["worse"], ["farther", "further"]], "n": "migliore · peggiore · più lontano"},
+          {"kind": "fill", "q": "The basement is ___ (close) to work ___ the condo, and ___ (warm) ___ the bachelor.", "answers": [["closer"], ["than"], ["warmer"], ["than"]], "n": "Il seminterrato è più vicino al lavoro del condominio, e più caldo del monolocale."},
+          {"kind": "fill", "q": "The condo is ___ (nice), but the basement is ___ (good). The bachelor is ___ (expensive) than both.", "answers": [["nicer"], ["better"], ["more expensive"]], "n": "Il condominio è più carino, ma il seminterrato è meglio. Il monolocale è più caro di tutti e due."},
+          {"kind": "mc", "q": "«Il tram è molto più lento della metro.»", "options": ["The streetcar is much slower than the subway.", "The streetcar is much more slower than the subway.", "The streetcar is much slower that the subway."], "answer": 0, "why": "Much + slower + than. Mai more con -er, mai that."},
+          {"kind": "order", "answer": "Toronto is more expensive than Lecce.", "n": "Toronto è più cara di Lecce."},
+          {"kind": "dictation", "text": "Nicer isn't better.", "n": "Più carino non è meglio."},
+          {"kind": "translate", "q": "Franco's van is older than Sofia.", "answers": ["Franco's van is older than Sofia"]}
+        ]},
+        {"type": "exercises", "title": "2 · Superlativi", "items": [
+          {"kind": "fill", "q": "The bachelor is ___ (small) and ___ (expensive) of the three.", "answers": [["the smallest"], ["the most expensive"]], "n": "Il monolocale è il più piccolo e il più caro dei tre."},
+          {"kind": "fill", "q": "It's ___ (warm) apartment ___ the house. Scarborough is ___ (big) neighbourhood ___ Toronto.", "answers": [["the warmest"], ["in"], ["the biggest"], ["in"]], "n": "È l'appartamento più caldo della casa. Scarborough è il quartiere più grande di Toronto."},
+          {"kind": "fill", "q": "good → ___ · bad → ___ · far → ___ · cheap → ___ · beautiful → ___ (superlatives)", "answers": [["the best"], ["the worst"], ["the farthest", "the furthest"], ["the cheapest"], ["the most beautiful"]], "n": "il migliore · il peggiore · il più lontano · il più economico · il più bello"},
+          {"kind": "mc", "q": "«È la cucina più bella che abbia mai visto.»", "options": ["It's the most beautiful kitchen I've ever seen.", "It's the beautifulest kitchen I've ever seen.", "It's the more beautiful kitchen I've ever seen."], "answer": 0, "why": "Aggettivo lungo: the most. Fra tre o più, mai more."},
+          {"kind": "order", "answer": "The basement is the best option of the three.", "n": "Il seminterrato è l'opzione migliore delle tre."},
+          {"kind": "fill", "q": "The condo costs ___ (little) but it's ___ (far) from the bakery. (superlatives)", "answers": [["the least"], ["the farthest", "the furthest"]], "n": "Il condominio costa meno di tutti ma è il più lontano dalla panetteria."},
+          {"kind": "translate", "q": "Yours is the best house in Toronto.", "answers": ["Yours is the best house in Toronto"]}
+        ]},
+        {"type": "exercises", "title": "3 · as… as, too, enough, prefer", "items": [
+          {"kind": "fill", "q": "The basement is ___ warm ___ the house, but it isn't ___ new ___ the condo.", "answers": [["as"], ["as"], ["as"], ["as"]], "n": "Il seminterrato è caldo come la casa, ma non è nuovo come il condominio."},
+          {"kind": "fill", "q": "The bachelor is ___ small (troppo). The basement is big ___ (abbastanza). I don't have ___ money for the Annex.", "answers": [["too"], ["enough"], ["enough"]], "n": "Il monolocale è troppo piccolo. Il seminterrato è abbastanza grande. Non ho abbastanza soldi per l'Annex."},
+          {"kind": "mc", "q": "«Preferisco il seminterrato al condominio.»", "options": ["I prefer the basement to the condo.", "I prefer the basement than the condo.", "I prefer the basement that the condo."], "answer": 0, "why": "Prefer X to Y."},
+          {"kind": "fill", "q": "I'd ___ have my own door. I'd rather ___ share a bathroom. (rather / not)", "answers": [["rather"], ["not"]], "n": "Preferirei avere una porta mia. Preferirei non condividere il bagno."},
+          {"kind": "order", "answer": "The room is too small for the bed.", "n": "La stanza è troppo piccola per il letto."},
+          {"kind": "translate", "q": "The condo isn't as close to work as the basement.", "answers": ["The condo isn't as close to work as the basement", "The condo is not as close to work as the basement"]}
+        ]},
+        {"type": "exercises", "title": "4 · mine, yours, which one, l'ordine", "items": [
+          {"kind": "fill", "q": "That room is ___ (my). The van is ___ (Franco). Those keys are ___ (her). This house is ___ (your).", "answers": [["mine"], ["Franco's"], ["hers"], ["yours"]], "n": "Quella stanza è mia. Il furgone è di Franco. Quelle chiavi sono sue. Questa casa è vostra."},
+          {"kind": "fill", "q": "Which ___ would you choose? — The small ___. Which ___ are furnished? — The new ___.", "answers": [["one"], ["one"], ["ones"], ["ones"]], "n": "Quale sceglieresti? — Quello piccolo. Quali sono arredati? — Quelli nuovi."},
+          {"kind": "mc", "q": "Put the adjectives in order: «a table: wooden / big / old».", "options": ["a big old wooden table", "a wooden big old table", "an old wooden big table"], "answer": 0, "why": "Dimensione, età, materiale."},
+          {"kind": "fill", "q": "Bloordale is the neighbourhood ___ the bakery is. The house ___ I live has a side door.", "answers": [["where"], ["where"]], "n": "Bloordale è il quartiere dove c'è la panetteria. La casa dove vivo ha una porta laterale."},
+          {"kind": "fill", "q": "{hero}'s old room was ___ ({{his|her}}); now it's ___ (nobody).", "answers": [[{"m": "his", "f": "hers"}], ["nobody's"]], "n": "La vecchia stanza di {hero} era {{sua|sua}}; adesso non è di nessuno."},
+          {"kind": "translate", "q": "A nice quiet street with a small green door.", "answers": ["A nice quiet street with a small green door"]}
+        ]},
+        {"type": "exercises", "title": "5 · Ripasso · Units 1–10", "review": true, "items": [
+          {"kind": "fill", "q": "Last Saturday I ___ (see) three apartments. I ___ (take) the streetcar and ___ (not get) lost.", "answers": [["saw"], ["took"], ["didn't get", "did not get"]], "n": "Sabato scorso ho visto tre appartamenti. Ho preso il tram e non mi sono persa."},
+          {"kind": "fill", "q": "___ you ___ (like) the condo? — Yes, I ___. But I ___ (choose) the basement.", "answers": [["Did"], ["like"], ["did"], ["chose"]], "n": "Ti è piaciuto il condominio? — Sì. Ma ho scelto il seminterrato."},
+          {"kind": "fill", "q": "Mrs. Oyelaran is the woman ___ owns the house. The basement is the apartment ___ I'm renting.", "answers": [["who", "that"], ["that", "which"]], "n": "La signora Oyelaran è la donna che possiede la casa. Il seminterrato è l'appartamento che affitto."},
+          {"kind": "fill", "q": "There ___ two windows and there ___ a separate entrance. There ___ any parking.", "answers": [["are"], ["is", "'s"], ["isn't", "is not"]], "n": "Ci sono due finestre e c'è un ingresso separato. Non c'è parcheggio."},
+          {"kind": "fill", "q": "I ___ (move) in on Saturday. Right now I ___ (pack) boxes. Franco ___ (drive) me with the van.", "answers": [["am moving", "'m moving", "move"], ["am packing", "'m packing"], ["is driving", "'s driving"]], "n": "Entro sabato. In questo momento faccio gli scatoloni. Franco mi porta con il furgone."},
+          {"kind": "fill", "q": "How ___ is the rent? How ___ windows are there? — Thirteen fifty, and two.", "answers": [["much"], ["many"]], "n": "Quant'è l'affitto? Quante finestre ci sono? — Milletrecentocinquanta, e due."},
+          {"kind": "fill", "q": "___ I have a viewing on Saturday, please? ___ you like to see the laundry room?", "answers": [["Could", "Can"], ["Would"]], "n": "Potrei fare una visita sabato? Vuole vedere la lavanderia?"},
+          {"kind": "mc", "q": "«First and last» means:", "options": ["The first and last month's rent, paid when you sign.", "The first and last viewing.", "The first and the last day of the lease."], "answer": 0, "why": "Il primo e l'ultimo mese di affitto, anticipati alla firma: la caparra dell'Ontario."},
+          {"kind": "translate", "q": "The basement is smaller than the condo, but it's closer to work and cheaper.", "answers": ["The basement is smaller than the condo, but it's closer to work and cheaper", "The basement is smaller than the condo but it's closer to work and cheaper"]},
+          {"kind": "write", "q": "Confronta due case che conosci (due appartamenti, due città, due quartieri) in sei frasi: dimensioni, prezzo, posizione, un as… as o un too / enough, quale è la migliore e perché, e quale scegli con I'd rather.", "model": "The first apartment is bigger than the second, but it's darker. The second is much brighter and quieter. It's cheaper too: thirteen fifty with utilities. The first is closer to downtown, but it isn't as close to work. The second one is big enough and it's the better option. I'd rather live in the second one.", "hint": "bigger than · much … · the … -est · as … as · big enough · I'd rather …"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Living there: renting in Toronto",
+      "intro": "I prezzi, i seminterrati, «first and last», il contratto standard dell'Ontario e i diritti degli inquilini, i coinquilini, i quartieri.",
+      "blocks": [
+        {"type": "subhead", "text": "Quanto costa"},
+        {"type": "prose", "text": "Toronto è una delle città più care del Nord America per l'affitto. Nel 2025 un [[one-bedroom]] in centro costa intorno ai duemiladuecento dollari al mese, un [[bachelor]] milleottocento, una stanza in una casa condivisa fra mille e milletrecento, un [[basement]] in un quartiere come Bloordale fra milletrecento e millesettecento. Le [[utilities]] (luce, gas, acqua) sono incluse o aggiunte: chiedi sempre. Internet è quasi sempre a parte, settanta dollari. Una regola che sentirai: l'affitto non dovrebbe superare un terzo dello stipendio, e a Toronto quasi nessuno ci riesce. Gli annunci stanno su [[Kijiji]], [[Facebook Marketplace]], [[Realtor.ca]] e nei gruppi di quartiere; le case buone spariscono in due giorni."},
+        {"type": "subhead", "text": "I basement"},
+        {"type": "prose", "text": "Metà delle case di Toronto ha un appartamento nel seminterrato, e mezza città ci ha vissuto almeno un anno. Sono più economici, caldi d'inverno (la caldaia è lì) e freschi d'estate; sono anche bassi, con finestre piccole e, a volte, umidi. Le cose da controllare: l'[[ingresso separato]] (obbligatorio per un appartamento legale), le finestre abbastanza grandi per uscire in caso di incendio, l'altezza del soffitto, il rilevatore di fumo e di monossido, e dove abita il proprietario. Se abita di sopra, come la signora Oyelaran, sente tutto: è un difetto e una garanzia."},
+        {"type": "callout", "kind": "real", "title": "«First and last»", "text": "In Ontario il proprietario non può chiedere un deposito cauzionale per i danni: è illegale. Può chiedere [[first and last month's rent]], il primo e l'ultimo mese, alla firma; l'ultimo mese resta suo fino alla fine e lo usa per l'ultimo mese di affitto, non per i danni. Può chiedere un [[key deposit]] pari al costo delle chiavi, e basta. Chi chiede «two months' deposit» o contanti senza ricevuta non conosce la legge, o la conosce benissimo."},
+        {"type": "subhead", "text": "Il contratto standard e il LTB"},
+        {"type": "prose", "text": "Dal 2018 in Ontario ogni affitto residenziale usa lo stesso modulo, l'[[Ontario Standard Lease]]: dieci pagine, in inglese chiaro, con affitto, data, cosa è incluso, regole su animali e fumo. Il primo anno è a termine; dopo, il contratto continua [[month to month]] e l'inquilino può andarsene con sessanta giorni di preavviso, mentre il proprietario può sfrattare solo per motivi precisi e con moduli ufficiali (N4, N12). Gli aumenti sono limitati per legge per gli edifici costruiti prima del 2018 (intorno al 2,5% l'anno), liberi per quelli nuovi. Le liti vanno al [[Landlord and Tenant Board]] (LTB), un tribunale gratuito che però ha mesi di coda. Gli inquilini hanno più diritti di quanto si pensi: nessuno può entrare senza ventiquattro ore di preavviso scritto, e il riscaldamento d'inverno è un obbligo, non una cortesia. L'unità 11 lo scopre con una caldaia rotta."},
+        {"type": "subhead", "text": "Coinquilini e condomini"},
+        {"type": "prose", "text": "Vivere con [[roommates]] è normale fino ai trent'anni e oltre: si divide una casa, si firma insieme o uno solo è sul contratto e gli altri gli pagano. Le regole si fissano prima: bollette, pulizie, ospiti, il frigorifero. I [[condo]] sono le torri di vetro del centro e di Liberty Village: palestra, piscina, portineria, stanze piccole, pareti sottili, e un regolamento del condominio che vieta tutto, dal barbecue sul balcone ai cani sopra i dieci chili. Il proprietario è un privato che affitta l'unità; le spese condominiali le paga lui."},
+        {"type": "callout", "kind": "culture", "title": "I quartieri", "text": "Toronto è una città di [[neighbourhoods]] e la prima domanda fra due persone che si conoscono è [[Where do you live?]]. L'[[Annex]]: vittoriano, universitario, caro. [[Parkdale]]: a ovest, misto, vicino al lago, in trasformazione. [[Leslieville]]: a est, giovane, brunch. [[Scarborough]]: enorme, lontano, economico, la vera città multiculturale. [[Bloordale]]: a ovest, case basse, in salita, dieci minuti a piedi da Dundas West. [[Liberty Village]]: torri, palestre, trentenni. Corso Italia e St. Clair: gli italiani di Franco, meno di una volta. Ogni quartiere ha un'opinione sugli altri, e tutte sono sbagliate."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In short",
+      "intro": "Tutto il necessario di questa unità in una schermata. Poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Comparativi e superlativi", "rows": [["smaller · bigger · noisier · nicer · more expensive · less convenient + than", "corti -er, lunghi more"], ["the smallest · the biggest · the noisiest · the most expensive · the least + in / of", "corti -est, lunghi the most"], ["good → better → the best · bad → worse → the worst · far → farther → the farthest", "irregolari"], ["much / a lot / a bit + comparativo · the second cheapest · by far", "rafforzare"]]},
+          {"title": "as… as, too, enough, preferire", "rows": [["as warm as · not as new as", "uguale · meno"], ["too small · too expensive for me · big enough · enough money", "troppo · abbastanza"], ["I prefer X to Y · I'd rather + base · I'd rather not", "preferire"]]},
+          {"title": "Possessivi, one, ordine", "rows": [["mine · yours · his · hers · ours · theirs · Sofia's · nobody's", "senza nome, senza the"], ["Which one? · the small one · the new ones", "one / ones"], ["opinion · size · age · shape · colour · origin · material · purpose", "a big old wooden table"], ["the bakery where I work · the house (that) I live in", "relative di luogo"]]},
+          {"title": "La casa", "rows": [["bachelor · 1BR · basement · condo · landlord · tenant · lease · rent · utilities · hydro · laundry · roommate · first and last · notice", "le parole"], ["How much is the rent? · Are utilities included? · When can I move in? · Could I book a viewing?", "le domande"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

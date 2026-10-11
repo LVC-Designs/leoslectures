@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 42 (units 1–10) · EN: 35 (units 1–9) |
+| Grammar reference pages | IT: 42 (units 1–10) · EN: 40 (units 1–10) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -60,7 +60,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 7 | Groceries and a winter coat | A1 | ● 2026-10-10 |
 | 8 | At the bank · checkpoint | A1 | ● 2026-10-10 |
 | 9 | The interview | A2 | ● 2026-10-10 |
-| 10 | Apartment hunting | A2 | ☐ |
+| 10 | Apartment hunting | A2 | ● 2026-10-10 |
 | 11 | First snow | A2 | ☐ |
 | 12 | At the walk-in clinic | A2 | ☐ |
 | 13 | Shifts at the bakery | A2 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 10 · Apartment hunting (A2).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 11 · Com'era Roccamarina (A2).**
 
 ## Session log
 
+- **2026-10-10 (21)** · English track Unit 10 written (2 scenes, 42 words, 5 grammar points + 5 reference pages, weak forms, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (20)** · Italian track Unit 10 written (2 scenes, 43 words, 5 grammar points + 5 reference pages, intonation, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (19)** · English track Unit 9 written (2 scenes, 41 words, 5 grammar points + 4 reference pages, vowels of irregular pasts, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (18)** · Italian track Unit 9 written (2 scenes, 46 words, 5 grammar points + 4 reference pages, open and closed e / o, 40 exercises, culture, summary). First A2 unit; conjugate exercises now carry Luca / Lucia answer variants. Verified and committed.
