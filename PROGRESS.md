@@ -39,7 +39,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 15 | Weekend a Napoli | A2 | ● 2026-10-11 |
 | 16 | Chiara parte · checkpoint | A2 | ● 2026-10-11 |
 | 17 | Il primo inverno | B1 | ● 2026-10-11 |
-| 18 | A tavola si discute | B1 | ☐ |
+| 18 | A tavola si discute | B1 | ● 2026-10-11 |
 | 19 | Una videochiamata da Toronto | B1 | ☐ |
 | 20 | Se avessi una casa mia | B1 | ☐ |
 | 21 | In bici verso nord | B1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 18 · A tavola si discute (B1).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 18 · Opinions, eh? (B1).**
 
 ## Session log
 
+- **2026-10-11 (36)** · Italian track Unit 18 written (2 scenes: antipasto with the Corso bike-lane debate; dolce and caffè with the North–South and Chiara argument; 37 words across opinions, politics, calcio and debate connectors; 3 grammar points, congiuntivo irregulars consolidated, impersonal and opinion triggers, conjunctions that take the subjunctive with the perché because / so that distinction; 36 exercises including unit 17+18 review). Verified and committed.
 - **2026-10-11 (35)** · English track Unit 17 written (2 scenes: lease signing with Mrs. Oyelaran on 2 September, furnace failure overnight on 24 September with text and formal email to the landlord; 33 words, 3 grammar points + 1 reference page, past perfect, reported requests, have something done, 38 exercises including B1 opener review, culture: Ontario standard lease, hydro and Toronto bins, the second-hand city). Verified and committed.
 - **2026-10-11 (34)** · Italian track Unit 17 written (2 scenes with Pasquale's and Nando's versions of the previous winter, 32 words, 3 grammar points + 2 reference pages, trapassato prossimo, three past tenses together, passato remoto for recognition, 38 exercises including B1 opener review, culture). First B1 unit; opens B1. Verified and committed.
 - **2026-10-11 (33)** · English track Unit 16 written (2 scenes, 36 words, 4 grammar points + 3 reference pages, connected speech, A2 checkpoint of 10 exercises, culture, A2 summary). Crossover with Italian Unit 19. Both tracks A2 complete. Verified and committed.
