@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 76 (units 1–23) · EN: 68 (units 1–23) |
+| Grammar reference pages | IT: 76 (units 1–24) · EN: 68 (units 1–23) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -45,7 +45,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 21 | In bici verso nord | B1 | ● 2026-10-11 |
 | 22 | Carte, contratti e burocrazia | B1 | ● 2026-10-11 |
 | 23 | Un matrimonio in Sicilia | B1 | ● 2026-10-11 |
-| 24 | Un anno a Roccamarina · checkpoint | B1 | ☐ |
+| 24 | Un anno a Roccamarina · checkpoint | B1 | ● 2026-10-11 |
 
 ### English for Italian speakers
 
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 24 · Un anno a Roccamarina (B1 checkpoint).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 24 · One year in Toronto (B1 checkpoint).**
 
 ## Session log
 
+- **2026-10-11 (48)** · Italian track Unit 24 written · B1 checkpoint (2 scenes: one-year anniversary party at {hero}'s workshop with Chiara back from Toronto, Pasquale's speech, mayor Antonella Moro's citizenship stamp; {hero}'s long informal letter to nonna Rosa in Verona using every B1 tense; 40 words across reflection, life abroad, plans; 3 grammar points — full tense timeline map, pronoun review, top-30 mistakes of English speakers; 38 exercises including a 20-exercise B1 mixed checkpoint across units 17–24). Italian B1 complete. Verified and committed.
 - **2026-10-11 (47)** · English track Unit 23 written (3 scenes: Thursday mehndi night at Priya's family home in Scarborough, Saturday morning Hindu ceremony at Richmond Hill Hindu Temple with the mandap and the fire-walking tying the knot literally, Saturday night reception at Toronto Botanical Garden with Chiara's one-minute toast; 40 words across weddings, speeches / humour, idioms, make vs do; 3 grammar points + 1 reference page — gerund vs infinitive full, both/neither/either/all/none/each/every, participle phrases; 32 exercises including unit 22+23 review). Crossover with IT unit 23. Verified and committed.
 - **2026-10-11 (46)** · Italian track Unit 23 written (2 scenes: Saturday 15 May wedding of Tommaso's sister Lucia at ristorante La Foglia Ortigia Siracusa with the eleven-course lunch and {hero}'s first full-length Italian toast; dessert and family idioms with Enzo and Pasquale; 42 words across weddings, nuanced emotions, ten Italian idioms, Sicilian vocabulary; 4 grammar points + 1 reference page — congiuntivo trapassato, periodo ipotetico 3 and misti, gerundio passato / infinito passato / concordanza; 30 exercises including unit 22+23 review). Verified and committed.
 - **2026-10-11 (45)** · English track Unit 22 written (3 scenes: Thursday basement kitchen with the T4 and the tax-return plan, Friday CVITP tax clinic at Lillian H. Smith library with Prisca the retired-accountant volunteer, Monday performance review in Priya's office with raise and reference letter; 40 words across Canadian taxes, Ontario work rights, formal English, performance-review language; 3 grammar points — relative clauses defining and non-defining, formal register, full obligation-modal set; 31 exercises including unit 21+22 review). Verified and committed.
