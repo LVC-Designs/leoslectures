@@ -1,0 +1,324 @@
+{
+  "id": "09",
+  "level": "A2",
+  "title": "The interview",
+  "subtitle": "Com'è andato il colloquio?",
+  "intro": "Un curriculum di una pagina senza foto, una stretta di mano, «Tell me about yourself», un impasto di croissant da fare davanti a due sconosciuti, e una frase che non vuol dire niente: «We'll let you know». Questa unità apre l'A2 con il past simple completo: i verbi irregolari della prima tabella, le domande e i negativi con did, le parole del tempo, e le prime frasi relative con who, which e that. La sera, Chiara racconta tutto a Teresa.",
+  "objectives": [
+    "Raccontare cosa è successo con i verbi irregolari: [[I went]], [[I had]], [[I made]], [[they said]], [[I got the job]]",
+    "Fare domande e negativi al passato: [[Did they ask about…?]], [[I didn't know]], [[What did he say?]]",
+    "Collocare nel tempo: [[yesterday]], [[last week]], [[two days ago]], [[in 2019]], [[when I was twenty]]",
+    "Unire due frasi con [[who]], [[which]] e [[that]]: [[the man who owns the bakery]], [[the dough that I made]]",
+    "Parlare della propria esperienza e affrontare un colloquio: [[I worked at…]], [[I'm good at…]], [[I'd love to…]]"
+  ],
+  "canDo": [
+    "A2 · Produzione orale: sa raccontare un evento passato in ordine, con i tempi e i connettivi semplici.",
+    "A2 · Interazione orale: sa rispondere a domande semplici sulla propria esperienza di lavoro e di studio.",
+    "A2 · Ascolto: sa seguire un colloquio semplice e capire le domande principali.",
+    "A2 · Scrittura: sa scrivere un breve curriculum e un messaggio che racconta cosa è successo.",
+    "A2 · Lettura: sa capire un annuncio di lavoro semplice e un'email di risposta."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Tell me about yourself",
+      "intro": "Il colloquio da Maple & Rye, poi la sera in cucina con Teresa. Ascolta i passati irregolari (went, had, made, said, took, got) e le domande con did.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-interview", "title": "Maple & Rye", "setting": "Giovedì, ore 14. Maple & Rye Bakery, Dundas West. Un tavolo in fondo, fra i sacchi di farina. Doug MacLeod, il proprietario, e Priya Nair, la manager. Chiara con una cartellina.", "register": "formale ma amichevole: un colloquio canadese", "lines": [
+          {"who": "Doug", "t": "Chiara? Doug. Thanks for coming in. Did you find us okay?", "n": "Chiara? Doug. Grazie per essere venuta. Ci hai trovati facilmente?", "note": "Thanks for coming in: la frase di apertura di ogni colloquio. Did you find us okay? Lo small talk prima delle domande vere: si risponde breve e positivo."},
+          {"who": "Chiara", "t": "Yes, I took the streetcar. It was easy.", "n": "Sì, ho preso il tram. È stato facile.", "note": "Took: take → took. Was: be → was."},
+          {"who": "Priya", "t": "Great. So, tell me about yourself.", "n": "Bene. Allora, parlami di te.", "note": "Tell me about yourself: la domanda che apre ogni colloquio. Non vogliono la tua vita: vogliono un minuto sul tuo lavoro."},
+          {"who": "Chiara", "t": "I'm a pastry chef from Italy. I went to pastry school in Lecce, and then I worked at a pastry shop in my town for five years. I made cakes, croissants and traditional sweets. I came to Toronto in September.", "n": "Sono una pasticcera, italiana. Ho fatto la scuola di pasticceria a Lecce, e poi ho lavorato in una pasticceria nel mio paese per cinque anni. Facevo torte, croissant e dolci tradizionali. Sono venuta a Toronto a settembre.", "note": "Went, worked, made, came: due irregolari, un regolare, un irregolare. Tutto past simple: in italiano passato prossimo e imperfetto, in inglese una forma sola."},
+          {"who": "Doug", "t": "Five years. Why did you leave?", "n": "Cinque anni. Perché te ne sei andata?", "note": "Why did you leave? Did + soggetto + base: la domanda al passato. Leave → left, ma nella domanda resta leave."},
+          {"who": "Chiara", "t": "I didn't leave because of the job. I loved it. I wanted to see something new, and my cousin lived here. Well, {{he|she}} lived here. {{He|She}} moved to Italy in June.", "n": "Non me ne sono andata per il lavoro. Lo adoravo. Volevo vedere qualcosa di nuovo, e {{mio cugino|mia cugina}} viveva qui. Beh, viveva qui. A giugno si è {{trasferito|trasferita}} in Italia.", "note": "I didn't leave: didn't + base. Loved, wanted, lived, moved: regolari."},
+          {"who": "Priya", "t": "Funny. Did you ever work with sourdough?", "n": "Buffo. Hai mai lavorato con il lievito madre?", "note": "Did you ever…? Hai mai…? Ever nella domanda al passato."},
+          {"who": "Chiara", "t": "Not a lot. We used fresh yeast. But I read a lot about it, and last month I made my first loaf at my aunt's. It wasn't great. The second one was good.", "n": "Non molto. Usavamo il lievito fresco. Ma ho letto molto sull'argomento, e il mese scorso ho fatto la mia prima pagnotta a casa di mia zia. Non era un granché. La seconda era buona.", "note": "Read: al passato si scrive uguale e si dice red. Wasn't great: la sincerità canadese piace più della perfezione."},
+          {"who": "Doug", "t": "Honest. I like that. What's the hardest thing you ever made?", "n": "Onesta. Mi piace. Qual è la cosa più difficile che hai mai fatto?", "note": "The hardest thing (that) you ever made: una frase relativa senza that, perché that è l'oggetto. Unità 10 per il superlativo; qui, solo il senso."},
+          {"who": "Chiara", "t": "A wedding cake for two hundred people, in August, with no air conditioning. The cream melted twice. I cried once. The cake was fine.", "n": "Una torta nuziale per duecento persone, ad agosto, senza aria condizionata. La crema si è sciolta due volte. Ho pianto una volta. La torta era perfetta.", "note": "Melted, cried: regolari. Twice, once: due volte, una volta."},
+          {"who": "Priya", "t": "Okay. Let's see your hands. We have a batch of croissant dough that needs laminating. Thirty minutes. Doug, don't help her.", "n": "Okay. Vediamo le mani. Abbiamo un impasto di croissant che va laminato. Trenta minuti. Doug, non aiutarla.", "note": "A batch of dough that needs laminating: la relativa con that. Laminating: le pieghe del burro nell'impasto."},
+          {"stage": "Thirty-two minutes later. Flour on the floor, butter in neat layers, Doug pretending not to watch."},
+          {"who": "Doug", "t": "Well. That's a croissant. Thanks, Chiara. We have two more people this week. We'll let you know by Monday.", "n": "Beh. Questo è un croissant. Grazie, Chiara. Abbiamo altre due persone questa settimana. Ti facciamo sapere entro lunedì.", "note": "We'll let you know: ti faremo sapere. La frase con cui finisce ogni colloquio, buono o cattivo. By Monday: entro lunedì."},
+          {"who": "Chiara", "t": "Thank you both. I'd love to work here.", "n": "Grazie a tutti e due. Mi piacerebbe molto lavorare qui.", "note": "I'd love to: la frase giusta per chiudere. Educata, diretta, non disperata. Poi la stretta di mano."}
+        ], "notes": [
+          {"phrase": "went · worked · made · came · took · read · cried", "note": "Chiara mischia regolari e irregolari senza pensarci: è l'obiettivo di questa unità. La tabella 1 degli irregolari è nel blocco di grammatica."},
+          {"phrase": "Why did you leave? — I didn't leave because of the job.", "note": "Domanda e negativo con did / didn't + verbo base. L'irregolare (left) compare solo nella frase affermativa."},
+          {"phrase": "a batch of dough that needs laminating", "note": "That lega il nome a una frase che lo descrive. Who per le persone, which o that per le cose."},
+          {"phrase": "We'll let you know.", "note": "Non vuol dire né sì né no. Si risponde thank you, si stringe la mano, e si manda un'email di ringraziamento la sera stessa."}
+        ]},
+        {"type": "scene", "id": "dlg-evening", "title": "So? Tell me everything", "setting": "La sera stessa, la cucina di Teresa. Franco finge di leggere il giornale. Il telefono di Chiara sul tavolo, schermo in su.", "register": "informale", "lines": [
+          {"who": "Teresa", "t": "So? How did it go? Tell me everything.", "n": "Allora? Com'è andata? Raccontami tutto.", "note": "How did it go? = com'è andata? Con did, perché go è un verbo normale."},
+          {"who": "Chiara", "t": "I don't know. I got there early. The owner, Doug, is the man who started the bakery twenty years ago. He asked me three questions and then he didn't say much.", "n": "Non lo so. Sono arrivata presto. Il proprietario, Doug, è l'uomo che ha aperto la panetteria vent'anni fa. Mi ha fatto tre domande e poi non ha detto molto.", "note": "Got there: arrivare (get + posto). The man who started: relativa con who per le persone. Didn't say: say → said, ma dopo didn't resta say."},
+          {"who": "Teresa", "t": "That's Doug. He never says much. What did Priya ask?", "n": "È Doug. Non dice mai molto. Cosa ha chiesto Priya?", "note": "What did Priya ask? La domanda aperta: parola interrogativa + did + soggetto + base."},
+          {"who": "Chiara", "t": "She asked about sourdough, and I told her the truth: I didn't know much. Then she gave me a batch of dough and thirty minutes. I made croissants. Doug watched from the oven and pretended to read a list.", "n": "Ha chiesto del lievito madre, e le ho detto la verità: non ne sapevo molto. Poi mi ha dato un impasto e trenta minuti. Ho fatto i croissant. Doug guardava dal forno e faceva finta di leggere una lista.", "note": "Told, gave, made: irregolari. Watched, pretended: regolari. In italiano guardava e faceva finta sono imperfetti; in inglese past simple."},
+          {"who": "Franco", "t": "Did they feed you?", "n": "Ti hanno dato da mangiare?", "note": "Feed → fed: la prima domanda di Franco a ogni colloquio."},
+          {"who": "Chiara", "t": "Priya gave me a coffee and a cookie. A good cookie. Brown butter.", "n": "Priya mi ha dato un caffè e un biscotto. Un buon biscotto. Burro nocciola."},
+          {"who": "Teresa", "t": "And at the end? What did they say?", "n": "E alla fine? Cosa hanno detto?"},
+          {"who": "Chiara", "t": "Doug said, «That's a croissant.» Then he said they had two more people and they'd let me know by Monday.", "n": "Doug ha detto: «Questo è un croissant.» Poi ha detto che avevano altre due persone e che mi avrebbero fatto sapere entro lunedì.", "note": "He said they had… they'd let me know: il discorso riportato sposta i tempi indietro. Unità 19. Qui basta riconoscerlo."},
+          {"who": "Teresa", "t": "«That's a croissant» is a compliment, from Doug. {hero} had three interviews before {{his|her}} first job here. Three! And the first boss never called back.", "n": "«Questo è un croissant» è un complimento, da Doug. {hero} ha fatto tre colloqui prima del {{suo|suo}} primo lavoro qui. Tre! E il primo capo non ha mai richiamato.", "note": "Had: have → had. Never called back: mai richiamato."},
+          {"stage": "The phone lights up. Unknown number, 416. Chiara looks at Teresa. Teresa points at the phone."},
+          {"who": "Chiara", "t": "Hello? … Yes, this is Chiara. … Monday? … Yes. Yes, I can. … Six a.m. is fine. … Thank you. Thank you so much. … Bye.", "n": "Pronto? … Sì, sono Chiara. … Lunedì? … Sì. Sì, posso. … Le sei di mattina vanno bene. … Grazie. Grazie mille. … Arrivederci.", "note": "This is Chiara: al telefono, this is, non I am. Six a.m. is fine: per una pasticcera, una grazia."},
+          {"who": "Teresa", "t": "Well?", "n": "Allora?"},
+          {"who": "Chiara", "t": "That was Priya. They didn't wait until Monday. I got the job. I start on Monday at six.", "n": "Era Priya. Non hanno aspettato fino a lunedì. Ho avuto il lavoro. Comincio lunedì alle sei.", "note": "I got the job: la frase. Get → got. I start on Monday: il presente per l'orario fissato."},
+          {"who": "Franco", "t": "I knew it. I told you. Did I tell you?", "n": "Lo sapevo. Te l'ho detto. Te l'ho detto o no?", "note": "Knew, told: know → knew, tell → told. Did I tell you? La domanda con did anche per se stessi."},
+          {"who": "Teresa", "t": "You didn't tell anyone anything, Franco. Chiara, call your mother. Then call {hero}: {{he's|she's}} awake, it's four in the morning there and {{he|she}} doesn't sleep anyway.", "n": "Non hai detto niente a nessuno, Franco. Chiara, chiama tua madre. Poi chiama {hero}: è {{sveglio|sveglia}}, lì sono le quattro di mattina e tanto non dorme.", "note": "You didn't tell anyone anything: in inglese una sola negazione (didn't), poi anyone, anything. In italiano non… niente a nessuno."}
+        ], "notes": [
+          {"phrase": "got · told · gave · made · said · had · knew · fed", "note": "Otto irregolari in una conversazione normale: gli irregolari sono i verbi più comuni, per questo sono irregolari."},
+          {"phrase": "What did Priya ask? · Did they feed you? · Did I tell you?", "note": "Tre domande con did, tre verbi alla forma base. La regola non ha eccezioni."},
+          {"phrase": "the man who started the bakery", "note": "Who introduce la frase che descrive la persona. Non si traduce «chi»: è «che»."},
+          {"phrase": "You didn't tell anyone anything.", "note": "Una negazione sola: didn't. Poi anyone e anything, non nobody e nothing. L'unità 9 del corso di italiano fa l'opposto."}
+        ], "questions": [
+          {"kind": "tf", "q": "Chiara left her job in Italy because she didn't like it.", "t": "I didn't leave because of the job. I loved it.", "answer": false, "why": "Non se n'è andata per il lavoro: lo adorava. Voleva vedere qualcosa di nuovo."},
+          {"kind": "mc", "q": "What did Priya give Chiara to do?", "options": ["A batch of croissant dough and thirty minutes.", "A wedding cake for two hundred people.", "A loaf of sourdough."], "answer": 0, "why": "She gave me a batch of dough and thirty minutes. I made croissants."},
+          {"kind": "fill", "q": "Chiara ___ (take) the streetcar, ___ (make) croissants and ___ (get) the job. Doug ___ (not say) much.", "answers": [["took"], ["made"], ["got"], ["didn't say", "did not say"]], "n": "Chiara ha preso il tram, ha fatto i croissant e ha avuto il lavoro. Doug non ha detto molto."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Jobs, interviews, dough",
+      "intro": "Le parole del lavoro e del colloquio, il curriculum, il panificio, e le parole per dire che eri nervosa e adesso sei sollevata.",
+      "blocks": [
+        {"type": "vocab", "theme": "The job hunt", "n": "Cercare lavoro", "items": [
+          {"t": "job", "n": "lavoro (il posto)", "pos": "noun", "ipa": "dʒɒb", "plural": "jobs", "ex": {"t": "I got the job! I start on Monday.", "n": "Ho avuto il lavoro! Comincio lunedì."}, "note": "Job = il posto di lavoro, numerabile. Work = il lavoro in generale, non numerabile: I have a lot of work, non a lot of jobs."},
+          {"t": "interview", "n": "colloquio", "pos": "noun", "ipa": "ˈɪntərvju", "plural": "interviews", "ex": {"t": "The interview was on Thursday at two.", "n": "Il colloquio era giovedì alle due."}, "note": "Job interview. To interview someone = fare un colloquio a qualcuno. The interviewer / the candidate."},
+          {"t": "résumé", "n": "curriculum", "pos": "noun", "ipa": "ˈrɛzəmeɪ", "plural": "résumés", "ex": {"t": "A Canadian résumé is one page, with no photo.", "n": "Un curriculum canadese è di una pagina, senza foto."}, "note": "Si dice RE-zu-mei. CV si capisce ma suona accademico. Mai curriculum da solo: vuol dire il programma scolastico."},
+          {"t": "cover letter", "n": "lettera di presentazione", "pos": "noun", "ipa": "ˈkʌvər ˈlɛtər", "plural": "cover letters", "ex": {"t": "I wrote a short cover letter and sent it with the résumé.", "n": "Ho scritto una breve lettera di presentazione e l'ho mandata con il curriculum."}, "note": "Wrote, sent: write → wrote, send → sent."},
+          {"t": "experience", "n": "esperienza", "pos": "noun", "ipa": "ɪkˈspɪriəns", "ex": {"t": "I have five years of experience in pastry.", "n": "Ho cinque anni di esperienza in pasticceria."}, "note": "Non numerabile per l'esperienza di lavoro. An experience = un'esperienza vissuta."},
+          {"t": "reference", "n": "referenza", "pos": "noun", "ipa": "ˈrɛfərəns", "plural": "references", "ex": {"t": "Do you have references? — Yes, my old boss in Italy.", "n": "Hai referenze? — Sì, il mio vecchio capo in Italia."}, "note": "References: persone che possono parlare di te. Si danno su richiesta: references available upon request."},
+          {"t": "to apply for", "n": "fare domanda per, candidarsi a", "pos": "verb", "ipa": "əˈplaɪ", "forms": "applied, applied", "ex": {"t": "I applied for three jobs and got one interview.", "n": "Ho fatto domanda per tre lavori e ho avuto un colloquio."}, "note": "Apply for a job, apply to a company. Application = la candidatura."},
+          {"t": "to hire", "n": "assumere", "pos": "verb", "ipa": "haɪər", "forms": "hired, hired", "ex": {"t": "They hired me on the same day.", "n": "Mi hanno assunta lo stesso giorno."}, "note": "Hiring = assunzioni in corso. Now hiring in vetrina = cercasi personale. Fire = licenziare."},
+          {"t": "position", "n": "posizione, posto", "pos": "noun", "ipa": "pəˈzɪʃən", "plural": "positions", "ex": {"t": "The position is full-time, five days a week.", "n": "Il posto è a tempo pieno, cinque giorni a settimana."}, "note": "Full-time, part-time. Opening = posto libero."},
+          {"t": "boss", "n": "capo", "pos": "noun", "ipa": "bɒs", "plural": "bosses", "ex": {"t": "My boss in Italy was my cousin's mother.", "n": "Il mio capo in Italia era la madre di mia cugina."}, "note": "Informale e universale. Manager = il responsabile; owner = il proprietario; supervisor = il supervisore."},
+          {"t": "shift", "n": "turno", "pos": "noun", "ipa": "ʃɪft", "plural": "shifts", "ex": {"t": "The morning shift starts at six. I work the opening shift.", "n": "Il turno di mattina comincia alle sei. Faccio il turno di apertura."}, "note": "Day shift, night shift, opening / closing shift. Work a shift: fare un turno."},
+          {"t": "schedule", "n": "orario, turni (della settimana)", "pos": "noun", "ipa": "ˈskɛdʒul", "plural": "schedules", "ex": {"t": "Priya sends the schedule every Friday.", "n": "Priya manda l'orario ogni venerdì."}, "note": "In Canada SKE-giul, non SHE-diul (Regno Unito). Anche il verbo: to schedule a meeting."},
+          {"t": "wage", "n": "paga (a ore)", "pos": "noun", "ipa": "weɪdʒ", "plural": "wages", "ex": {"t": "The wage is eighteen dollars an hour, plus tips.", "n": "La paga è diciotto dollari l'ora, più le mance."}, "note": "Hourly wage; minimum wage = salario minimo. Salary = fisso annuale (unità 8)."},
+          {"t": "to start", "n": "cominciare", "pos": "verb", "ipa": "stɑrt", "forms": "started, started", "ex": {"t": "When can you start? — On Monday.", "n": "Quando puoi cominciare? — Lunedì."}, "note": "La domanda che vuol dire che hai avuto il lavoro. Start date: la data d'inizio."}
+        ]},
+        {"type": "vocab", "theme": "The bakery", "n": "Il panificio", "items": [
+          {"t": "dough", "n": "impasto", "pos": "noun", "ipa": "doʊ", "ex": {"t": "The dough needs two hours to rise.", "n": "L'impasto ha bisogno di due ore per lievitare."}, "note": "Si dice dou, come la nota do. Non numerabile. Batter = la pastella (liquida)."},
+          {"t": "to knead", "n": "impastare", "pos": "verb", "ipa": "nid", "forms": "kneaded, kneaded", "ex": {"t": "I kneaded the dough for ten minutes by hand.", "n": "Ho impastato a mano per dieci minuti."}, "note": "La k non si pronuncia: nid, come need."},
+          {"t": "to rise", "n": "lievitare", "pos": "verb", "ipa": "raɪz", "forms": "rose, risen", "ex": {"t": "The dough rose in an hour. It was warm in the kitchen.", "n": "L'impasto è lievitato in un'ora. Faceva caldo in cucina."}, "note": "Irregolare: rose, risen. Anche il sole: the sun rose at seven."},
+          {"t": "yeast", "n": "lievito", "pos": "noun", "ipa": "jist", "ex": {"t": "Fresh yeast, dry yeast, or sourdough.", "n": "Lievito fresco, lievito secco, o lievito madre."}, "note": "Sourdough = il lievito madre e il pane che ne viene. Baking powder = il lievito per dolci."},
+          {"t": "flour", "n": "farina", "pos": "noun", "ipa": "ˈflaʊər", "ex": {"t": "Flour on the floor, flour on the apron, flour everywhere.", "n": "Farina per terra, farina sul grembiule, farina dappertutto."}, "note": "Si dice come flower, fiore. Non numerabile."},
+          {"t": "oven", "n": "forno", "pos": "noun", "ipa": "ˈʌvən", "plural": "ovens", "ex": {"t": "The oven is at four hundred degrees. Fahrenheit.", "n": "Il forno è a quattrocento gradi. Fahrenheit."}, "note": "A-ven, con la vocale di cut. Nei forni canadesi la temperatura è spesso in Fahrenheit: 400 °F = 200 °C."},
+          {"t": "batch", "n": "infornata, lotto", "pos": "noun", "ipa": "bætʃ", "plural": "batches", "ex": {"t": "The first batch of croissants comes out at six thirty.", "n": "La prima infornata di croissant esce alle sei e mezza."}, "note": "A batch of cookies, of bread, of dough: una quantità fatta insieme."},
+          {"t": "loaf", "n": "pagnotta, filone", "pos": "noun", "ipa": "loʊf", "plural": "loaves", "ex": {"t": "I made my first loaf of sourdough at my aunt's.", "n": "Ho fatto la mia prima pagnotta di lievito madre a casa di mia zia."}, "note": "Plurale irregolare: loaves. A loaf of bread = un pane."},
+          {"t": "to roll", "n": "stendere (con il mattarello)", "pos": "verb", "ipa": "roʊl", "forms": "rolled, rolled", "ex": {"t": "Roll the dough thin, add the butter, fold it.", "n": "Stendi l'impasto sottile, aggiungi il burro, piegalo."}, "note": "Rolling pin = il mattarello. Fold = piegare. Laminate = fare le pieghe con il burro."},
+          {"t": "apron", "n": "grembiule", "pos": "noun", "ipa": "ˈeɪprən", "plural": "aprons", "ex": {"t": "Priya gave me an apron and a hairnet.", "n": "Priya mi ha dato un grembiule e una cuffia."}, "note": "EI-pren. Hairnet: obbligatoria in ogni cucina canadese."},
+          {"t": "counter", "n": "bancone", "pos": "noun", "ipa": "ˈkaʊntər", "plural": "counters", "ex": {"t": "The croissants go on the counter at seven.", "n": "I croissant vanno sul bancone alle sette."}, "note": "Il bancone del negozio e il piano della cucina. Behind the counter: dietro il bancone."},
+          {"t": "to bake", "n": "cuocere al forno, fare dolci", "pos": "verb", "ipa": "beɪk", "forms": "baked, baked", "ex": {"t": "We bake everything on site, from four a.m.", "n": "Cuociamo tutto sul posto, dalle quattro di mattina."}, "note": "Baker = fornaio, pastry chef = pasticcere. Baked goods = i prodotti da forno."}
+        ]},
+        {"type": "vocab", "theme": "Nerves and relief", "n": "Nervosismo e sollievo", "items": [
+          {"t": "nervous", "n": "nervoso, agitato", "pos": "adj.", "ipa": "ˈnɜrvəs", "ex": {"t": "I was so nervous that I forgot the word for oven.", "n": "Ero così agitata che ho dimenticato la parola per forno."}, "note": "Nervous = agitato, con ansia. Non arrabbiato: quello è annoyed o angry. Forgot: forget → forgot."},
+          {"t": "relieved", "n": "sollevato", "pos": "adj.", "ipa": "rɪˈlivd", "ex": {"t": "I was so relieved when Priya called.", "n": "Mi sono sentita così sollevata quando Priya ha chiamato."}, "note": "Relief = il sollievo. What a relief! = che sollievo!"},
+          {"t": "confident", "n": "sicuro di sé", "pos": "adj.", "ipa": "ˈkɒnfɪdənt", "ex": {"t": "Be confident, not arrogant. Canadians notice the difference.", "n": "Sii sicura di te, non arrogante. I canadesi notano la differenza."}, "note": "Falso amico: non confidente. Confidence = sicurezza."},
+          {"t": "worried", "n": "preoccupato", "pos": "adj.", "ipa": "ˈwɜrid", "ex": {"t": "Teresa was worried, but she didn't say anything.", "n": "Teresa era preoccupata, ma non ha detto niente."}, "note": "To worry about = preoccuparsi di. Don't worry = non ti preoccupare."},
+          {"t": "to hope", "n": "sperare", "pos": "verb", "ipa": "hoʊp", "forms": "hoped, hoped", "ex": {"t": "I hoped for a call. I didn't expect one so soon.", "n": "Speravo in una telefonata. Non me l'aspettavo così presto."}, "note": "Hope for + nome, hope to + verbo, hope (that) + frase. Expect = aspettarsi."},
+          {"t": "fingers crossed", "n": "incrociamo le dita", "pos": "phrase", "ipa": "ˈfɪŋɡərz krɒst", "ex": {"t": "Fingers crossed for Monday! — Thanks.", "n": "Incrociamo le dita per lunedì! — Grazie."}, "note": "Si dice e si fa. Good luck! = buona fortuna, senza scongiuri: in bocca al lupo non esiste."},
+          {"t": "to feel", "n": "sentirsi", "pos": "verb", "ipa": "fil", "forms": "felt, felt", "ex": {"t": "How did you feel? — I felt sick before and great after.", "n": "Come ti sentivi? — Mi sentivo male prima e benissimo dopo."}, "note": "Felt: irregolare. Feel + aggettivo, senza riflessivo: I feel good, non I feel myself good."},
+          {"t": "to go well", "n": "andare bene", "pos": "verb", "ipa": "ɡoʊ wɛl", "forms": "went well, gone well", "ex": {"t": "How did it go? — It went well, I think.", "n": "Com'è andata? — È andata bene, credo."}, "note": "Go → went. It went well / badly / okay. The interview went well."}
+        ]},
+        {"type": "vocab", "theme": "When", "n": "Quando", "items": [
+          {"t": "yesterday", "n": "ieri", "pos": "adv.", "ipa": "ˈjɛstərdeɪ", "ex": {"t": "Yesterday I had the interview; today I have the job.", "n": "Ieri avevo il colloquio; oggi ho il lavoro."}, "note": "Yesterday morning, yesterday afternoon, last night (non yesterday night)."},
+          {"t": "last", "n": "scorso", "pos": "adj.", "ipa": "læst", "ex": {"t": "Last week, last month, last year, last Thursday.", "n": "La settimana scorsa, il mese scorso, l'anno scorso, giovedì scorso."}, "note": "Senza the e senza preposizione: last week, non in the last week."},
+          {"t": "ago", "n": "fa", "pos": "adv.", "ipa": "əˈɡoʊ", "ex": {"t": "Doug started the bakery twenty years ago.", "n": "Doug ha aperto la panetteria vent'anni fa."}, "note": "Dopo il tempo, come in italiano. Sempre con il past simple."},
+          {"t": "when I was…", "n": "quando ero / avevo…", "pos": "phrase", "ipa": "wɛn aɪ wʌz", "ex": {"t": "When I was twenty, I went to pastry school. When I was a child, I hated flour.", "n": "Quando avevo vent'anni, ho fatto la scuola di pasticceria. Da bambina odiavo la farina."}, "note": "L'età con be: when I was twenty. Non when I had twenty years."},
+          {"t": "then", "n": "poi, allora", "pos": "adv.", "ipa": "ðɛn", "ex": {"t": "First the questions, then the dough, then the handshake.", "n": "Prima le domande, poi l'impasto, poi la stretta di mano."}, "note": "Then = poi (sequenza) e allora. And then: e poi. After that: dopo di che."},
+          {"t": "in the end", "n": "alla fine", "pos": "phrase", "ipa": "ɪn ði ɛnd", "ex": {"t": "In the end they didn't wait until Monday.", "n": "Alla fine non hanno aspettato fino a lunedì."}, "note": "In the end = alla fine (risultato). At the end of = alla fine di (un posto o un tempo). Finally = finalmente, infine."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Went, had, made: the past that doesn't end in -ed",
+      "intro": "Cinque pezzi: la prima tabella dei verbi irregolari, le domande e i negativi con did, le espressioni di tempo del passato, le prime frasi relative con who / which / that, e i connettivi per raccontare. In fondo a ogni blocco, la pagina di riferimento.",
+      "blocks": [
+        {"type": "grammar", "id": "g-irregular-1", "title": "Irregolari, tabella 1: i ventisei che servono subito", "category": "Verbi", "rule": "I verbi più comuni hanno un passato proprio, da imparare a memoria: be → was / were, go → went, have → had, get → got, make → made, take → took, see → saw, come → came, say → said, do → did, eat → ate, drink → drank, give → gave, know → knew, think → thought, tell → told, find → found, leave → left, meet → met, put → put, read → read, write → wrote, buy → bought, bring → brought, feel → felt, send → sent. Una forma per tutte le persone; nelle domande e nei negativi con did torna la forma base.", "ref": "past-simple-irregular", "blocks": [
+          {"type": "conjugation", "verb": "go", "tense": "past_simple", "caption": "[[go|andare]] · past simple: went, ma did… go nelle domande e nei negativi"},
+          {"type": "table", "caption": "Tabella 1", "head": ["Base", "Past", "Italiano", "Base", "Past", "Italiano"], "rows": [["be", "was / were", "essere", "know", "knew", "sapere, conoscere"], ["go", "went", "andare", "think", "thought", "pensare"], ["have", "had", "avere", "tell", "told", "dire, raccontare"], ["get", "got", "prendere, ottenere, arrivare", "find", "found", "trovare"], ["make", "made", "fare, preparare", "leave", "left", "partire, lasciare"], ["take", "took", "prendere, portare", "meet", "met", "incontrare, conoscere"], ["see", "saw", "vedere", "put", "put", "mettere"], ["come", "came", "venire", "read", "read (red)", "leggere"], ["say", "said (sed)", "dire", "write", "wrote", "scrivere"], ["do", "did", "fare", "buy", "bought", "comprare"], ["eat", "ate", "mangiare", "bring", "brought", "portare"], ["drink", "drank", "bere", "feel", "felt", "sentirsi"], ["give", "gave", "dare", "send", "sent", "mandare"]], "speak": [1, 4], "compact": true, "note": "Famiglie utili: thought · bought · brought (-ought) · told · sold · felt · left · met · sent · spent (-t) · came · gave · ate (vocale a) · knew · drew · threw (-ew). La pagina Verbi ha tutti gli irregolari con il participio."},
+          {"type": "examples", "items": [
+            {"t": "I went to pastry school, I worked for five years and I came to Toronto in September.", "n": "Ho fatto la scuola di pasticceria, ho lavorato cinque anni e sono venuta a Toronto a settembre."},
+            {"t": "Priya gave me the dough. I made croissants. Doug saw them and said nothing.", "n": "Priya mi ha dato l'impasto. Ho fatto i croissant. Doug li ha visti e non ha detto niente."},
+            {"t": "I read the email twice. Then I told Teresa. She knew already.", "n": "Ho letto l'email due volte. Poi l'ho detto a Teresa. Lo sapeva già.", "note": "read al passato si dice red"},
+            {"t": "{hero} had three interviews and got the third job. {{He|She}} felt terrible after the first one.", "n": "{hero} ha fatto tre colloqui e ha avuto il terzo lavoro. Si è {{sentito|sentita}} malissimo dopo il primo."}
+          ]},
+          {"type": "callout", "kind": "tip", "title": "Come impararli", "text": "Non in ordine alfabetico: a famiglie di suono e in frasi. [[I thought, I bought, I brought]] insieme. [[I came, I gave, I ate]] insieme. E ogni verbo dentro una frase tua: [[I made croissants]], non make → made. Il trainer della pagina Verbi li ripete finché non li sbagli più."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I goed. I maked. I taked.", "right": "I went. I made. I took.", "why": "Irregolari: niente -ed."},
+            {"wrong": "Did you went? I didn't saw.", "right": "Did you go? I didn't see.", "why": "Dopo did e didn't, forma base."},
+            {"wrong": "He wents. She haved.", "right": "He went. She had.", "why": "Una forma per tutte le persone."},
+            {"wrong": "I readed. I sayed.", "right": "I read (red). I said (sed).", "why": "Uguale o quasi nella grafia, diversa nella pronuncia."},
+            {"wrong": "I have went. I have saw.", "right": "I went. I saw. (o I have gone, I have seen)", "why": "Il passato semplice non va con have; con have serve il participio, unità 12."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-did", "title": "Did e didn't: domande, negativi, risposte brevi", "category": "Verbi", "rule": "Con qualsiasi verbo (regolare o irregolare), il negativo è didn't + base e la domanda è did + soggetto + base. Risposte brevi: Yes, I did / No, I didn't. Le parole interrogative vanno davanti a did. Eccezioni: be (was / were, senza did) e le domande sul soggetto (Who called? What happened?).", "ref": "past-simple-regular", "blocks": [
+          {"type": "table", "head": ["", "Inglese", "Italiano"], "rows": [["affermativo", "They hired me. She gave me a coffee.", "Mi hanno assunta. Mi ha dato un caffè."], ["negativo", "They didn't hire me. She didn't give me anything.", "Non mi hanno assunta. Non mi ha dato niente."], ["domanda sì / no", "Did they hire you? Did she give you a coffee?", "Ti hanno assunta? Ti ha dato un caffè?"], ["risposta breve", "Yes, they did. / No, they didn't.", "Sì. / No."], ["domanda aperta", "Why did you leave? What did Priya ask? How did it go?", "Perché te ne sei andata? Cosa ha chiesto Priya? Com'è andata?"], ["domanda sul soggetto", "Who hired you? What happened?", "Chi ti ha assunta? Cos'è successo?"], ["be", "Was it hard? It wasn't. Were they nice?", "È stato difficile? No. Erano gentili?"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Did you find us okay? — Yes, I did. I took the streetcar.", "n": "Ci hai trovati facilmente? — Sì. Ho preso il tram."},
+            {"t": "Did they feed you? — Priya gave me a cookie. — Did Doug say anything? — He didn't say much.", "n": "Ti hanno dato da mangiare? — Priya mi ha dato un biscotto. — Doug ha detto qualcosa? — Non ha detto molto."},
+            {"t": "Who called? — Priya. What did she say? — «Can you start Monday?»", "n": "Chi ha chiamato? — Priya. Cosa ha detto? — «Puoi cominciare lunedì?»", "note": "who soggetto: niente did; what oggetto: did"},
+            {"t": "You didn't tell anyone anything.", "n": "Non hai detto niente a nessuno.", "note": "una negazione, poi anyone / anything"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Una negazione sola", "text": "L'italiano accumula: [[non ho detto niente a nessuno]]. L'inglese ne tiene una e cambia le altre parole: [[I didn't tell anyone anything]]. Dopo un negativo, niente e nessuno diventano [[anything]] e [[anyone]]; mai diventa [[ever]]: [[I didn't ever…]] o, meglio, [[I never…]] senza didn't: [[I never said that]]."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Did you went? Did she gave?", "right": "Did you go? Did she give?", "why": "Base dopo did."},
+            {"wrong": "I didn't went. He didn't said.", "right": "I didn't go. He didn't say.", "why": "Base dopo didn't."},
+            {"wrong": "I didn't say nothing to nobody.", "right": "I didn't say anything to anyone.", "why": "Una negazione sola."},
+            {"wrong": "Who did call you? What did happen?", "right": "Who called you? What happened?", "why": "Soggetto interrogato: niente did."},
+            {"wrong": "Did it was hard? Did you were nervous?", "right": "Was it hard? Were you nervous?", "why": "Be fa da solo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-time", "title": "Quando: le espressioni di tempo del passato", "category": "Avverbi", "rule": "Yesterday, last + periodo, ago dopo la durata, in + anno o mese, on + giorno o data, at + ora, when I was + età o condizione. Vanno all'inizio o alla fine della frase, mai fra il soggetto e il verbo. Con last, this, next, every niente preposizione.", "ref": "time-expressions-past", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano"], "rows": [["yesterday · yesterday morning · last night · the day before yesterday", "ieri · ieri mattina · ieri sera · l'altro ieri"], ["last week · last month · last year · last Thursday · last summer", "la settimana scorsa · il mese scorso · l'anno scorso · giovedì scorso · l'estate scorsa"], ["an hour ago · two days ago · five years ago · a long time ago", "un'ora fa · due giorni fa · cinque anni fa · tanto tempo fa"], ["in 2019 · in September · in the 1960s", "nel 2019 · a settembre · negli anni Sessanta"], ["on Thursday · on October 25 · on my first day", "giovedì · il 25 ottobre · il mio primo giorno"], ["at two · at noon · at the end of the day", "alle due · a mezzogiorno · a fine giornata"], ["when I was twenty · when I was a child · when I lived in Italy", "quando avevo vent'anni · da bambina · quando vivevo in Italia"], ["first · then · after that · later · in the end · finally", "prima · poi · dopo di che · più tardi · alla fine · infine"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "Twenty years ago Doug started the bakery. Five years ago I started at the pastry shop. Two months ago I arrived.", "n": "Vent'anni fa Doug ha aperto la panetteria. Cinque anni fa ho cominciato in pasticceria. Due mesi fa sono arrivata."},
+            {"t": "When I was twenty, I went to pastry school. In 2021 I made my first wedding cake.", "n": "Quando avevo vent'anni, ho fatto la scuola di pasticceria. Nel 2021 ho fatto la mia prima torta nuziale."},
+            {"t": "First she asked about sourdough. Then she gave me the dough. After that, Doug said five words. In the end, they called.", "n": "Prima ha chiesto del lievito madre. Poi mi ha dato l'impasto. Dopo di che, Doug ha detto cinque parole. Alla fine hanno chiamato."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ago two days. Before two days.", "right": "Two days ago.", "why": "Ago dopo la durata."},
+            {"wrong": "In the last week. The last year.", "right": "Last week. Last year.", "why": "Last senza the e senza preposizione."},
+            {"wrong": "When I had twenty years.", "right": "When I was twenty.", "why": "L'età con be."},
+            {"wrong": "Yesterday night. In yesterday.", "right": "Last night. Yesterday.", "why": "Ieri sera = last night."},
+            {"wrong": "I yesterday went. I last week worked.", "right": "Yesterday I went. I worked last week.", "why": "All'inizio o alla fine, mai in mezzo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-relative", "title": "who, which, that: unire due frasi", "category": "Frasi", "rule": "Una frase relativa descrive un nome: the man who owns the bakery, the dough that I made. Who per le persone, which per le cose, that per tutte e due (più comune nel parlato). Quando il pronome relativo è l'oggetto della frase, si può lasciare fuori: the cake (that) I made. Quando è il soggetto, no: the man who hired me.", "ref": "relative-clauses", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano", "Pronome"], "rows": [["Doug is the man who started the bakery.", "Doug è l'uomo che ha aperto la panetteria.", "who, soggetto (persona)"], ["Priya is the manager who interviewed me.", "Priya è la manager che mi ha fatto il colloquio.", "who, soggetto"], ["It's a bakery which opens at six. / that opens at six.", "È una panetteria che apre alle sei.", "which / that, soggetto (cosa)"], ["The dough that I made was good.", "L'impasto che ho fatto era buono.", "that, oggetto: si può omettere"], ["The cake I made for the wedding melted.", "La torta che ho fatto per il matrimonio si è sciolta.", "oggetto omesso"], ["The woman I met on the streetcar works there.", "La donna che ho incontrato sul tram lavora lì.", "oggetto omesso (persona)"], ["That's the cookie that she gave me.", "Quello è il biscotto che mi ha dato.", "that, oggetto"]], "speak": [0]},
+          {"type": "callout", "kind": "compare", "title": "Che è una parola; who / which / that sono tre", "text": "L'italiano usa [[che]] per persone e cose, soggetto e oggetto. L'inglese sceglie: [[who]] per chi fa, [[which]] o [[that]] per le cose, e lascia fuori il pronome quando è oggetto. Due regole da ricordare: mai [[what]] al posto di che ([[the thing what I made]] è sbagliato), e mai ripetere il pronome ([[the cake that I made it]]: via it)."},
+          {"type": "examples", "items": [
+            {"t": "The owner is the man who asked three questions. The manager is the woman who gave me the dough.", "n": "Il proprietario è l'uomo che ha fatto tre domande. La manager è la donna che mi ha dato l'impasto."},
+            {"t": "This is the résumé I sent. That's the cover letter that got me the interview.", "n": "Questo è il curriculum che ho mandato. Quella è la lettera che mi ha fatto avere il colloquio."},
+            {"t": "I have a cousin who lives in Italy. {{He|She}} has a bike that doesn't work.", "n": "Ho {{un cugino|una cugina}} che vive in Italia. Ha una bici che non funziona."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "The man what started the bakery.", "right": "The man who started the bakery.", "why": "Mai what."},
+            {"wrong": "The dough that I made it was good.", "right": "The dough that I made was good.", "why": "Non ripetere l'oggetto."},
+            {"wrong": "The man started the bakery is Doug.", "right": "The man who started the bakery is Doug.", "why": "Soggetto: who obbligatorio."},
+            {"wrong": "A bakery who opens at six.", "right": "A bakery that / which opens at six.", "why": "Who solo per le persone."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-connectors", "title": "Raccontare: and then, so, because, but", "category": "Frasi", "rule": "Un racconto sta in piedi con pochi connettivi: and then / then (sequenza), so (conseguenza), because (causa), but (contrasto), after that, at first, in the end, finally. Because risponde a why; so introduce il risultato. In inglese so e because non stanno insieme nella stessa frase.", "ref": "narrative-connectors", "blocks": [
+          {"type": "table", "head": ["Connettivo", "Italiano", "Esempio"], "rows": [["and then · then", "e poi · poi", "She asked three questions, and then she gave me the dough."], ["so", "quindi, così", "I didn't know much about sourdough, so I told the truth."], ["because", "perché (causa)", "I didn't leave because of the job. I left because I wanted something new."], ["but", "ma", "The first loaf wasn't great, but the second one was good."], ["at first · after that", "all'inizio · dopo di che", "At first I was nervous. After that, it was fine."], ["in the end · finally", "alla fine · infine, finalmente", "In the end they called. Finally!"], ["while", "mentre", "Doug watched while I rolled the dough."], ["luckily · unfortunately", "per fortuna · purtroppo", "Luckily the butter was cold. Unfortunately the floor wasn't."]], "speak": [2], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "I got there early, so I walked around the block twice. Then I went in.", "n": "Sono arrivata presto, quindi ho fatto due volte il giro dell'isolato. Poi sono entrata."},
+            {"t": "At first Doug didn't say anything, but after that he smiled. In the end he said: that's a croissant.", "n": "All'inizio Doug non ha detto niente, ma dopo ha sorriso. Alla fine ha detto: questo è un croissant."},
+            {"t": "I was nervous because it was my first interview in English. Luckily, Priya was kind.", "n": "Ero agitata perché era il mio primo colloquio in inglese. Per fortuna Priya è stata gentile."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Because I was nervous, so I forgot the word.", "right": "I was nervous, so I forgot the word. / Because I was nervous, I forgot the word.", "why": "Because o so, non tutti e due."},
+            {"wrong": "I was nervous because of it was my first interview.", "right": "I was nervous because it was my first interview.", "why": "Because + frase; because of + nome."},
+            {"wrong": "At the end they called me. (alla fine, come risultato)", "right": "In the end they called me.", "why": "In the end = alla fine (risultato); at the end of = alla fine di."},
+            {"wrong": "After, I went home. (da solo)", "right": "After that, I went home. / Afterwards, I went home.", "why": "After da solo vuole un nome o una frase."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "came, saw, took, thought: le vocali dei passati",
+      "intro": "I passati irregolari cambiano la vocale, e la vocale nuova è spesso un suono che l'italiano non ha. Quattro suoni, un ripasso di -ed, e l'accento di frase: quando racconti, non tutte le parole pesano uguale.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "/eɪ/", "t": "came", "n": "è venuto", "ipa": "keɪm", "tip": "Una e che scivola verso la i: keim. Anche made, gave, ate, take → wait. Non kam, non kem."},
+          {"sound": "/ɔ/", "t": "saw", "n": "ha visto", "ipa": "sɔ", "tip": "Una o aperta e lunga, senza w finale: so. Anche thought, bought, brought, taught, caught: -ought e -aught si dicono tutti ot."},
+          {"sound": "/ʊ/", "t": "took", "n": "ha preso", "ipa": "tʊk", "tip": "Una u corta e rilassata, fra u e o: tuk, non tuuk. Anche book, look, good, put, could."},
+          {"sound": "/ɛ/", "t": "said", "n": "ha detto", "ipa": "sɛd", "tip": "Si scrive said ma si dice sed, come bed. Lo stesso read (passato) → red, e meant → ment. La grafia inganna."}
+        ]},
+        {"type": "minimal", "caption": "La vocale decide il tempo", "pairs": [
+          {"a": "come", "b": "came", "na": "vengo (cam, vocale di cut)", "nb": "sono venuto (keim)", "tip": "Il presente ha la vocale chiusa di cut; il passato scivola."},
+          {"a": "read", "b": "read", "na": "leggo (riid)", "nb": "ho letto (red)", "tip": "Stessa grafia, due parole. Il contesto e la vocale."},
+          {"a": "write", "b": "wrote", "na": "scrivo (rait)", "nb": "ho scritto (rout)"},
+          {"a": "think", "b": "thought", "na": "penso (think)", "nb": "ho pensato (thot)", "tip": "La gh non si dice. Thought, bought, brought: tre parole, una vocale."},
+          {"a": "find", "b": "found", "na": "trovo (faind)", "nb": "ho trovato (faund)"},
+          {"a": "feel", "b": "felt", "na": "mi sento (fiil)", "nb": "mi sono sentito (felt)", "tip": "Da lunga a corta: feel → felt, keep → kept, meet → met, leave → left."}
+        ]},
+        {"type": "table", "caption": "Ripasso -ed", "head": ["-ed", "Esempi dal colloquio"], "rows": [["/t/", "worked, asked, baked, watched, helped"], ["/d/", "loved, lived, moved, cried, called, smiled"], ["/ɪd/", "wanted, melted, started, waited, pretended, laminated"]], "speak": [1], "compact": true, "note": "Dopo t e d una sillaba in più (laminated: la-mi-nei-tid); dopo un suono sordo, t; dopo tutto il resto, d."},
+        {"type": "callout", "kind": "tip", "title": "L'accento di frase", "text": "Quando racconti, le parole piene (verbi, nomi, aggettivi) si sentono; quelle grammaticali (did, the, to, a, and) si schiacciano. [[I TOOK the STREETcar, I GOT there EARly, and they GAVE me the DOUGH.]] Did nella domanda è quasi invisibile: [[d'you FIND us oKAY?]] Un italiano che dice ogni parola con lo stesso peso suona robotico; uno che schiaccia and, the e did suona inglese."},
+        {"type": "examples", "items": [
+          {"t": "I came, I saw, I took the dough and I thought: this is it.", "n": "Sono venuta, ho visto, ho preso l'impasto e ho pensato: ci siamo.", "note": "keim · so · tuk · thot"},
+          {"t": "She said she read it twice.", "n": "Ha detto che l'ha letto due volte.", "note": "sed · red"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Your turn",
+      "intro": "Trenta esercizi su questa unità, poi un ripasso misto delle unità 1–9. Gli irregolari si imparano sbagliandoli: fai l'allenatore della pagina Verbi dopo.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Irregolari, tabella 1", "items": [
+          {"kind": "conjugate", "verb": "go", "tense": "past simple", "n": "andare", "answers": ["went", "went", "went", "went", "went", "went"]},
+          {"kind": "fill", "q": "have → ___ · make → ___ · take → ___ · see → ___ · come → ___ · say → ___", "answers": [["had"], ["made"], ["took"], ["saw"], ["came"], ["said"]], "n": "ebbi · feci · presi · vidi · venni · dissi"},
+          {"kind": "fill", "q": "know → ___ · think → ___ · tell → ___ · find → ___ · leave → ___ · write → ___", "answers": [["knew"], ["thought"], ["told"], ["found"], ["left"], ["wrote"]], "n": "seppi · pensai · dissi · trovai · partii · scrissi"},
+          {"kind": "fill", "q": "Priya ___ (give) me the dough and I ___ (make) croissants. Doug ___ (see) them and ___ (say) five words.", "answers": [["gave"], ["made"], ["saw"], ["said"]], "n": "Priya mi ha dato l'impasto e io ho fatto i croissant. Doug li ha visti e ha detto cinque parole."},
+          {"kind": "fill", "q": "I ___ (read) the email twice, ___ (tell) Teresa and ___ (feel) relieved. Then I ___ (eat) a cookie.", "answers": [["read"], ["told"], ["felt"], ["ate"]], "n": "Ho letto l'email due volte, l'ho detto a Teresa e mi sono sentita sollevata. Poi ho mangiato un biscotto."},
+          {"kind": "mc", "q": "Which one is right?", "options": ["I went to pastry school in Lecce.", "I goed to pastry school in Lecce.", "I have went to pastry school in Lecce."], "answer": 0, "why": "Go → went; niente -ed, e niente have con il past simple."},
+          {"kind": "order", "answer": "Doug started the bakery twenty years ago.", "n": "Doug ha aperto la panetteria vent'anni fa."},
+          {"kind": "dictation", "text": "I got the job and I start on Monday at six.", "n": "Ho avuto il lavoro e comincio lunedì alle sei."}
+        ]},
+        {"type": "exercises", "title": "2 · Did e didn't", "items": [
+          {"kind": "fill", "q": "___ you ___ (find) us okay? — Yes, I ___. I ___ (take) the streetcar.", "answers": [["Did"], ["find"], ["did"], ["took"]], "n": "Ci hai trovati facilmente? — Sì. Ho preso il tram."},
+          {"kind": "fill", "q": "Why ___ you ___ (leave)? — I ___ (not leave) because of the job.", "answers": [["did"], ["leave"], ["didn't leave", "did not leave"]], "n": "Perché te ne sei andata? — Non me ne sono andata per il lavoro."},
+          {"kind": "fill", "q": "Doug ___ (not say) much. He ___ (not ask) about my age, because in Canada you can't.", "answers": [["didn't say", "did not say"], ["didn't ask", "did not ask"]], "n": "Doug non ha detto molto. Non ha chiesto la mia età, perché in Canada non si può."},
+          {"kind": "mc", "q": "«Chi ha chiamato?»", "options": ["Who called?", "Who did call?", "Who did he call?"], "answer": 0, "why": "Who è il soggetto: niente did. Who did he call? = chi ha chiamato lui?"},
+          {"kind": "mc", "q": "«Non ho detto niente a nessuno.»", "options": ["I didn't say anything to anyone.", "I didn't say nothing to nobody.", "I said nothing to nobody."], "answer": 0, "why": "Una negazione sola: didn't, poi anything, anyone."},
+          {"kind": "order", "answer": "What did Priya ask you about?", "n": "Di cosa ti ha chiesto Priya?"},
+          {"kind": "translate", "q": "Did they feed you? — Yes, they gave me a cookie.", "answers": ["Did they feed you? Yes, they gave me a cookie", "Did they feed you? — Yes, they gave me a cookie"]}
+        ]},
+        {"type": "exercises", "title": "3 · Quando e come", "items": [
+          {"kind": "fill", "q": "I came to Toronto two months ___. ___ night I slept badly. ___ I was twenty, I went to pastry school.", "answers": [["ago"], ["Last"], ["When"]], "n": "Sono venuta a Toronto due mesi fa. Ieri sera ho dormito male. Quando avevo vent'anni ho fatto la scuola di pasticceria."},
+          {"kind": "fill", "q": "The interview was ___ Thursday ___ two. I started at the pastry shop ___ 2021.", "answers": [["on"], ["at"], ["in"]], "n": "Il colloquio era giovedì alle due. Ho cominciato in pasticceria nel 2021."},
+          {"kind": "match", "q": "Abbina.", "pairs": [["the day before yesterday", "l'altro ieri"], ["last week", "la settimana scorsa"], ["five years ago", "cinque anni fa"], ["in the end", "alla fine"], ["after that", "dopo di che"]]},
+          {"kind": "fill", "q": "I didn't know much about sourdough, ___ I told the truth. I was nervous ___ it was my first interview in English.", "answers": [["so"], ["because"]], "n": "Non sapevo molto del lievito madre, quindi ho detto la verità. Ero agitata perché era il mio primo colloquio in inglese."},
+          {"kind": "mc", "q": "«Alla fine hanno chiamato.»", "options": ["In the end they called.", "At the end they called.", "Finally they called at the end."], "answer": 0, "why": "In the end = alla fine come risultato. At the end of + nome."},
+          {"kind": "translate", "q": "At first I was nervous, but then it went well.", "answers": ["At first I was nervous, but then it went well", "At first I was nervous but then it went well"]}
+        ]},
+        {"type": "exercises", "title": "4 · who, which, that", "items": [
+          {"kind": "fill", "q": "Doug is the man ___ started the bakery. Priya is the woman ___ gave me the dough.", "answers": [["who", "that"], ["who", "that"]], "n": "Doug è l'uomo che ha aperto la panetteria. Priya è la donna che mi ha dato l'impasto."},
+          {"kind": "fill", "q": "It's a bakery ___ opens at six. The croissant ___ I made was good.", "answers": [["that", "which"], ["that", "which"]], "n": "È una panetteria che apre alle sei. Il croissant che ho fatto era buono."},
+          {"kind": "mc", "q": "In which sentence can you leave out «that»?", "options": ["The cake that I made melted.", "The man that hired me is Doug.", "The bakery that opens at six is on Dundas."], "answer": 0, "why": "Solo quando that è l'oggetto (I made the cake). Negli altri due è il soggetto."},
+          {"kind": "mc", "q": "«L'uomo che ha chiamato era Doug.»", "options": ["The man who called was Doug.", "The man what called was Doug.", "The man called was Doug."], "answer": 0, "why": "Who, soggetto, obbligatorio. What non è mai relativo."},
+          {"kind": "order", "answer": "This is the résumé that I sent.", "n": "Questo è il curriculum che ho mandato."},
+          {"kind": "translate", "q": "I have a cousin who lives in Italy.", "answers": ["I have a cousin who lives in Italy", "I have a cousin that lives in Italy", "I've got a cousin who lives in Italy"]}
+        ]},
+        {"type": "exercises", "title": "5 · Ripasso · Units 1–9", "review": true, "items": [
+          {"kind": "fill", "q": "I ___ (be) a pastry chef. I ___ (work) at Maple & Rye now. I ___ (start) last Monday.", "answers": [["am", "'m"], ["work"], ["started"]], "n": "Sono pasticcera. Adesso lavoro da Maple & Rye. Ho cominciato lunedì scorso."},
+          {"kind": "fill", "q": "Right now I ___ (make) croissants. Doug ___ (not watch) today: he ___ (be) at the bank.", "answers": [["am making", "'m making"], ["isn't watching", "is not watching"], ["is", "'s"]], "n": "In questo momento sto facendo i croissant. Oggi Doug non guarda: è in banca."},
+          {"kind": "fill", "q": "There ___ two ovens and there ___ a big counter. There ___ any windows in the kitchen.", "answers": [["are"], ["is", "'s"], ["aren't", "are not"]], "n": "Ci sono due forni e c'è un grande bancone. Non ci sono finestre in cucina."},
+          {"kind": "fill", "q": "How ___ flour do we need? How ___ eggs? — ___ lot, and two dozen.", "answers": [["much"], ["many"], ["A"]], "n": "Quanta farina ci serve? Quante uova? — Tanta, e due dozzine."},
+          {"kind": "fill", "q": "I love ___ (bake), but I hate ___ (get up) at four.", "answers": [["baking"], ["getting up"]], "n": "Adoro fare dolci, ma odio alzarmi alle quattro."},
+          {"kind": "fill", "q": "___ you like a coffee? — Yes, please. ___ you pass me the flour?", "answers": [["Would"], ["Could", "Can"]], "n": "Vuoi un caffè? — Sì, grazie. Mi passi la farina?"},
+          {"kind": "fill", "q": "{hero} ___ (have) three interviews before {{his|her}} first job. {{He|She}} ___ (not get) the first one.", "answers": [["had"], ["didn't get", "did not get"]], "n": "{hero} ha fatto tre colloqui prima del primo lavoro. Non ha avuto il primo."},
+          {"kind": "order", "answer": "When did you arrive in Canada?", "n": "Quando sei arrivata in Canada?"},
+          {"kind": "translate", "q": "Yesterday I had an interview, and today I got the job.", "answers": ["Yesterday I had an interview, and today I got the job", "Yesterday I had an interview and today I got the job"]},
+          {"kind": "write", "q": "Racconta un tuo colloquio, o un primo giorno di lavoro o di scuola, in sei frasi al past simple: quando è stato, dove sei andato/a, chi hai incontrato, cosa ti hanno chiesto, cosa hai fatto, e com'è andata. Usa almeno quattro verbi irregolari.", "model": "Last Thursday I had an interview at a bakery on Dundas West. I took the streetcar and got there early. I met Doug, the owner, and Priya, the manager. They asked me about my experience and gave me a batch of dough. I made croissants in thirty minutes. In the end it went well: they called the same evening and I got the job.", "hint": "Last … I had… · I went / took… · I met… · They asked… · I made… · In the end it went…"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Living there: looking for work in Canada",
+      "intro": "Il curriculum di una pagina, la lettera, le referenze, il colloquio con le sue regole e le sue domande proibite, il permesso di lavoro e la paga minima.",
+      "blocks": [
+        {"type": "subhead", "text": "Il résumé"},
+        {"type": "prose", "text": "Il curriculum canadese si chiama [[résumé]] ed è una pagina, due al massimo. Niente foto, niente data di nascita, niente stato civile, niente nazionalità, niente firma: tutto quello che un datore di lavoro non può chiedere non va scritto, e un curriculum «all'italiana» con la foto viene scartato per evitare problemi. Si scrive al contrario: prima l'esperienza più recente, con verbi d'azione al past simple ([[made]], [[managed]], [[trained]]) e numeri ([[baked 300 croissants a day]]). Poi la formazione, poi le competenze, poi [[References available upon request]]. Si manda in PDF, con una [[cover letter]] di tre paragrafi: chi sei, perché loro, quando puoi cominciare. Le offerte sono su [[Indeed]], [[LinkedIn]], il [[Job Bank]] del governo, e per i panifici, il cartello [[Now hiring]] in vetrina: entrare con il curriculum in mano funziona ancora."},
+        {"type": "subhead", "text": "Il colloquio"},
+        {"type": "prose", "text": "Comincia con due minuti di [[small talk]] (il tragitto, il tempo) e con [[Tell me about yourself]]: un minuto sulla tua esperienza, non sulla tua vita. Poi le domande classiche: [[Why do you want to work here?]], [[What are your strengths?]], [[Tell me about a time you had a problem at work]], [[Where do you see yourself in five years?]]. Si risponde con esempi concreti e brevi, si guarda negli occhi, si sorride, non ci si lamenta mai del capo precedente. Alla fine chiedono [[Do you have any questions for us?]]: averne una è obbligatorio. Si chiude con la stretta di mano e [[We'll let you know]], e la sera stessa si manda una breve email di ringraziamento. Un colloquio in Canada dura trenta minuti e nessuno alza la voce."},
+        {"type": "callout", "kind": "real", "title": "Le domande proibite", "text": "La legge dell'Ontario vieta di chiedere età, stato civile, figli o intenzione di averne, religione, origine etnica, orientamento sessuale, disabilità, e di solito anche la nazionalità (possono chiedere solo [[Are you legally allowed to work in Canada?]]). Se te lo chiedono, è un segnale sull'azienda. Puoi non rispondere con grazia: [[I'd rather focus on my experience, if that's okay.]] E tu non devi offrire quei dati: niente «sono sposata» o «ho ventisette anni» nel tuo minuto di presentazione."},
+        {"type": "subhead", "text": "Permesso, SIN, paga"},
+        {"type": "prose", "text": "Alla firma servono il [[work permit]] e il [[SIN]] (unità 8); senza, nessuna azienda seria ti assume, e quelle che lo fanno pagano in nero e meno del minimo. Lo stipendio arriva ogni due settimane con [[direct deposit]] sul conto, con una busta paga che mostra le trattenute: tasse federali e provinciali, [[CPP]] (la pensione) ed [[EI]] (la disoccupazione). Il [[minimum wage]] dell'Ontario è intorno ai diciassette dollari e mezzo l'ora nel 2025, e si aggiorna ogni ottobre; un panificio paga da lì in su, più le mance divise. [[Full-time]] vuol dire da trenta a quaranta ore; sopra le quarantaquattro scatta lo straordinario a una volta e mezza."},
+        {"type": "subhead", "text": "Shift e schedule"},
+        {"type": "prose", "text": "In un panificio la giornata comincia alle quattro: il [[baker]] inforna, il [[pastry chef]] lamina, il bancone apre alle sette. I turni ([[shifts]]) escono su un [[schedule]] settimanale, spesso su un'app, e cambiano: [[opening shift]], [[closing shift]], [[split shift]]. La pausa è di trenta minuti ogni cinque ore, per legge, e non è pagata. Si timbra ([[clock in]], [[clock out]]). Chiedere un cambio di turno si fa per messaggio al manager, presto e con gentilezza: [[Hey Priya, could I swap Thursday for Friday?]] Il weekend non è sacro per chi fa il pane: è il giorno più lungo."},
+        {"type": "callout", "kind": "culture", "title": "«We'll let you know»", "text": "Tre parole che in Canada chiudono ogni colloquio, buono o cattivo, perché nessuno dice di no in faccia. La risposta vera arriva per email o non arriva. Dopo una settimana di silenzio si può scrivere una volta, cortese: [[I wanted to follow up on my interview last Thursday.]] Dopo due, si passa oltre. Doug e Priya hanno chiamato la sera stessa: non è normale. È un croissant."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In short",
+      "intro": "Tutto il necessario di questa unità in una schermata. Poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Past simple irregolare, tabella 1", "rows": [["was / were · went · had · got · made · took · saw · came · said · did · ate · drank · gave", "be, go, have, get, make, take, see, come, say, do, eat, drink, give"], ["knew · thought · told · found · left · met · put · read · wrote · bought · brought · felt · sent", "know, think, tell, find, leave, meet, put, read, write, buy, bring, feel, send"], ["Did you go? I didn't go. Yes, I did. Who called? What happened?", "did + base; soggetto interrogato senza did"], ["I didn't tell anyone anything.", "una negazione sola"]]},
+          {"title": "Quando e come", "rows": [["yesterday · last week · two days ago · in 2019 · on Thursday · at two · when I was twenty", "all'inizio o alla fine"], ["first · then · after that · so · because · but · in the end · finally", "i connettivi del racconto"]]},
+          {"title": "Relative", "rows": [["the man who started the bakery · the bakery that opens at six · the cake (that) I made", "who persone · which / that cose · oggetto omesso"]]},
+          {"title": "Il colloquio", "rows": [["Tell me about yourself. · Why did you leave? · Did you ever…? · When can you start? · We'll let you know.", "quello che senti"], ["I worked at… for five years. · I'm good at… · I'd love to work here. · Thank you both.", "quello che dici"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}
