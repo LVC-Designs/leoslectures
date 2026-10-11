@@ -1,0 +1,22 @@
+{"id": "congiuntivo-passato", "title": "Congiuntivo passato", "category": "Verbs", "rule": "The subjunctive for a finished action. Form: congiuntivo presente of avere or essere + past participle. Same auxiliary rules as the passato prossimo: motion / change of state / reflexive → essere, with agreement; transitive and most others → avere. Che io abbia fatto, che io sia andato / andata. Use: in the same clauses that take the congiuntivo presente, when the action is finished before the main action. Credo che Chiara sia arrivata (I think she has arrived); spero che abbiano trovato lavoro (I hope they've found work); sembra che abbia perso peso (it seems she's lost weight); è possibile che siano usciti (it's possible they've gone out); mi fa piacere che tu sia venuta (I'm glad you came). After a past main verb (credevo che, pensavo che), use the congiuntivo trapassato (unit 23). If the second action is simultaneous with or after the main action, use the congiuntivo presente, not passato (credo che Chiara stia bene = I think she's well now).", "units": ["19"], "blocks": [
+  {"type": "conjugation", "verbs": ["arrivare", "partire"], "tense": "congiuntivo_passato", "caption": "Due verbi con essere: che io sia arrivato/a, che io sia partito/a"},
+  {"type": "conjugation", "verbs": ["mangiare", "fare"], "tense": "congiuntivo_passato", "caption": "Due verbi con avere: che io abbia mangiato, che io abbia fatto"},
+  {"type": "conjugation", "verbs": ["alzarsi"], "tense": "congiuntivo_passato", "caption": "Un verbo riflessivo: che io mi sia alzato/a"},
+  {"type": "table", "caption": "I trigger comuni", "head": ["Trigger", "Example"], "rows": [["credo / penso / immagino che", "Credo che Chiara sia arrivata. Penso che abbia perso peso."], ["spero / temo che", "Spero che abbiano trovato lavoro. Temo che si sia ammalata."], ["sembra / pare che", "Sembra che abbia preso l'influenza. Pare che siano usciti."], ["è possibile / probabile / strano che", "È possibile che io abbia dimenticato il parka."], ["mi fa piacere / mi dispiace che", "Mi fa piacere che tu sia venuta. Mi dispiace che non abbiate mangiato."], ["dubito che · non è che", "Dubito che Pasquale abbia capito. Non è che io abbia mentito."]], "speak": [1], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Credo che Chiara sia arrivata bene. Spero che il volo non abbia avuto ritardi.", "n": "I think Chiara arrived well. I hope the flight didn't have delays."},
+    {"t": "Sembra che Dora abbia dormito poco. Pare che Pasquale sia andato dal medico.", "n": "It seems Dora hasn't slept much. It seems Pasquale went to the doctor."},
+    {"t": "È possibile che io abbia perso il treno. Mi fa piacere che tu sia venuta.", "n": "It's possible I missed the train. I'm glad you came."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "Congiuntivo presente vs passato", "text": "The congiuntivo presente is for the simultaneous or later action: [[credo che Chiara stia bene adesso]]. The congiuntivo passato is for a finished action: [[credo che Chiara sia arrivata]]. English I think she is / I think she has arrived maps one-to-one."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Credo che Chiara ha arrivato.", "right": "Credo che Chiara sia arrivata.", "why": "Credo che + congiuntivo; arrivare → essere."},
+    {"wrong": "Spero che sei stata bene.", "right": "Spero che tu sia stata bene.", "why": "Spero che + congiuntivo passato."},
+    {"wrong": "Credo che aveva perso.", "right": "Credo che abbia perso. (presente of avere) / Credevo che avesse perso. (trapassato, main verb past)", "why": "The congiuntivo passato uses sia / abbia (presente of aux.), not era / aveva."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "arrivare", "tense": "congiuntivo passato", "n": "to arrive", "answers": ["che io sia arrivato / arrivata", "che tu sia arrivato / arrivata", "che lui / lei sia arrivato / arrivata", "che noi siamo arrivati / arrivate", "che voi siate arrivati / arrivate", "che loro siano arrivati / arrivate"]},
+    {"kind": "fill", "q": "Credo che Chiara ___ (arrivare). Spero che ___ (trovare, loro) lavoro. Pare che Dora ___ (preparare) i cartellati.", "answers": [["sia arrivata"], ["abbiano trovato"], ["abbia preparato"]], "n": "I think Chiara arrived. I hope they found work. It seems Dora prepared the cartellati."},
+    {"kind": "translate", "q": "I'm glad you came.", "answers": ["Mi fa piacere che tu sia venuto", "Mi fa piacere che tu sia venuta"]}
+  ]}
+]}

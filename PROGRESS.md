@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 68 (units 1–18) · EN: 64 (units 1–18) |
+| Grammar reference pages | IT: 70 (units 1–19) · EN: 64 (units 1–18) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -40,7 +40,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 16 | Chiara parte · checkpoint | A2 | ● 2026-10-11 |
 | 17 | Il primo inverno | B1 | ● 2026-10-11 |
 | 18 | A tavola si discute | B1 | ● 2026-10-11 |
-| 19 | Una videochiamata da Toronto | B1 | ☐ |
+| 19 | Una videochiamata da Toronto | B1 | ● 2026-10-11 |
 | 20 | Se avessi una casa mia | B1 | ☐ |
 | 21 | In bici verso nord | B1 | ☐ |
 | 22 | Carte, contratti e burocrazia | B1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 19 · Una videochiamata da Toronto (B1).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 19 · Christmas, and Luca / Lucia comes home (B1).**
 
 ## Session log
 
+- **2026-10-11 (38)** · Italian track Unit 19 written (2 scenes: Thursday evening video call from Chiara's Toronto basement with Dora listening through the oven door; the half-hour debrief to Dora reporting the entire call in indirect speech; 46 words across communication, reporting verbs, nostalgia, and italiese; 3 grammar points + 2 reference pages — discorso indiretto in full, congiuntivo passato, mancare with the piacere pattern; 33 exercises including unit 18+19 review). Crossover with EN unit 11 and 16. Verified and committed.
 - **2026-10-11 (37)** · English track Unit 18 written (2 scenes: Doug's bakery after a Leafs loss and the Ferrantes' Sunday dinner with Franco pushing French; 37 words across opinion phrases, Canada and politics, hockey vs soccer, debate connectors; 3 grammar points + 2 reference pages — modal deduction, second conditional, wish, Canadian spelling map; 34 exercises including unit 17+18 B1 review). Verified and committed.
 - **2026-10-11 (36)** · Italian track Unit 18 written (2 scenes: antipasto with the Corso bike-lane debate; dolce and caffè with the North–South and Chiara argument; 37 words across opinions, politics, calcio and debate connectors; 3 grammar points, congiuntivo irregulars consolidated, impersonal and opinion triggers, conjunctions that take the subjunctive with the perché because / so that distinction; 36 exercises including unit 17+18 review). Verified and committed.
 - **2026-10-11 (35)** · English track Unit 17 written (2 scenes: lease signing with Mrs. Oyelaran on 2 September, furnace failure overnight on 24 September with text and formal email to the landlord; 33 words, 3 grammar points + 1 reference page, past perfect, reported requests, have something done, 38 exercises including B1 opener review, culture: Ontario standard lease, hydro and Toronto bins, the second-hand city). Verified and committed.
