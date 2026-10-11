@@ -1,0 +1,25 @@
+{"id": "passato-prossimo-essere", "title": "Passato prossimo with essere", "category": "Verbs", "rule": "Present of essere + past participle, and the participle agrees with the subject (-o, -a, -i, -e). Essere is used by verbs of movement from A to B, of change of state, of staying and being, by the impersonal verbs (succedere, piacere, mancare, servire, bastare, costare) and by every reflexive verb. Movement without a destination (camminare, viaggiare, nuotare) takes avere.", "units": ["09"], "blocks": [
+  {"type": "conjugation", "verbs": ["andare", "essere", "nascere"], "tense": "passato_prossimo", "caption": "Three essere verbs, shown for your protagonist"},
+  {"type": "agreement", "intro": "Four endings: -o for one man, -a for one woman, -i for men or a mixed group, -e for women only. The formal Lei follows the person's gender too.", "items": [{"t": {"m": "Sono andato a Lecce.", "f": "Sono andata a Lecce."}, "n": "I went to Lecce."}, {"t": {"m": "Tommaso è andato al mare.", "f": "Chiara è andata al mare."}, "n": "He / she went to the sea."}, {"t": {"m": "Chiara e Tommaso sono andati al mare.", "f": "Dora e Chiara sono andate al mare."}, "n": "Mixed group -i; women only -e."}, {"t": {"m": "Signor Russo, è andato a Lecce?", "f": "Signora Moro, è andata a Lecce?"}, "n": "Formal Lei: agreement with the person."}]},
+  {"type": "table", "caption": "Which verbs", "head": ["Group", "Verbs"], "rows": [["movement A → B", "andare, venire, arrivare, partire, tornare, ritornare, entrare, uscire, salire, scendere, cadere, scappare, fuggire, passare (da)"], ["change of state", "nascere, morire, diventare, crescere, invecchiare, dimagrire, ingrassare, guarire, sparire"], ["staying, being", "stare, restare, rimanere, essere, esistere"], ["impersonal", "succedere, capitare, accadere, piacere, dispiacere, mancare, servire, bastare, costare, sembrare"], ["reflexive / reciprocal", "alzarsi, svegliarsi, perdersi, sposarsi, conoscersi, vedersi, divertirsi, accorgersi…"], ["with avere instead", "camminare, viaggiare, nuotare, passeggiare, correre (no destination), dormire, vivere (either)"]], "speak": [1], "rowhead": true},
+  {"type": "callout", "kind": "note", "title": "Some verbs go both ways", "text": "[[Salire]], [[scendere]], [[passare]], [[cominciare]], [[finire]], [[cambiare]] take essere when there is no object (sono salito, il film è finito) and avere when there is one (ho salito le scale, ho finito il lavoro). [[Correre]]: sono corso a casa (to a place), ho corso due ore (activity). [[Vivere]]: ha vissuto or è vissuto, both fine."},
+  {"type": "examples", "items": [
+    {"t": "Il treno è partito alle otto ed è arrivato a Lecce alle nove.", "n": "The train left at eight and arrived in Lecce at nine."},
+    {"t": "Chiara è nata nel 1999 ed è cresciuta a Roccamarina.", "n": "Chiara was born in 1999 and grew up in Roccamarina."},
+    {"t": "Le lezioni sono finite, ma io non ho finito i compiti.", "n": "Classes are over, but I haven't finished my homework.", "note": "finire: essere without object, avere with"},
+    {"t": "Mi è piaciuto il mare. Mi sono piaciute le polpette. Mi sono mancati i nonni.", "n": "I liked the sea. I liked the meatballs. I missed my grandparents.", "note": "piacere, mancare: agree with the thing"},
+    {"t": "Siamo stati a Napoli due giorni. È stata una bella gita.", "n": "We were in Naples for two days. It was a nice trip."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Ho andato a Lecce. Ho venuto. Ho stato.", "right": "Sono andato / a a Lecce. Sono venuto / a. Sono stato / a.", "why": "Essere verbs."},
+    {"wrong": "Lucia è andato. Le ragazze sono andati.", "right": "Lucia è andata. Le ragazze sono andate.", "why": "Agreement."},
+    {"wrong": "Sono camminato tanto. Sono viaggiato.", "right": "Ho camminato tanto. Ho viaggiato.", "why": "No destination: avere."},
+    {"wrong": "Mi ha piaciuto le polpette.", "right": "Mi sono piaciute le polpette.", "why": "Piacere takes essere and agrees with what is liked."},
+    {"wrong": "È successo niente. È venuto nessuno.", "right": "Non è successo niente. Non è venuto nessuno.", "why": "Non before the verb."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "venire", "tense": "passato prossimo", "n": "to come", "answers": [{"m": "sono venuto", "f": "sono venuta"}, {"m": "sei venuto", "f": "sei venuta"}, {"m": "è venuto", "f": "è venuta"}, {"m": "siamo venuti", "f": "siamo venute"}, {"m": "siete venuti", "f": "siete venute"}, {"m": "sono venuti", "f": "sono venute"}]},
+    {"kind": "fill", "q": "Dora ___ (nascere) nel 1958, ___ (sposarsi) nel 1980 e non ___ mai ___ (partire) da Roccamarina. Ieri ___ (camminare) due ore.", "answers": [["è nata"], ["si è sposata"], ["è"], ["partita"], ["ha camminato"]], "n": "Dora was born in 1958, got married in 1980 and never left Roccamarina. Yesterday she walked for two hours."},
+    {"kind": "translate", "q": "The girls went to the sea and came back at seven.", "answers": ["Le ragazze sono andate al mare e sono tornate alle sette"]}
+  ]}
+]}

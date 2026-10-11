@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 33 (units 1–8) · EN: 31 (units 1–8) |
+| Grammar reference pages | IT: 37 (units 1–9) · EN: 31 (units 1–8) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -30,7 +30,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 6 | Una settimana a Roccamarina | A1 | ● 2026-10-10 |
 | 7 | Al mercato del sabato | A1 | ● 2026-10-10 |
 | 8 | All'ufficio anagrafe · checkpoint | A1 | ● 2026-10-10 |
-| 9 | Com'è andata? | A2 | ☐ |
+| 9 | Com'è andata? | A2 | ● 2026-10-10 |
 | 10 | Cerco un locale | A2 | ☐ |
 | 11 | Com'era Roccamarina | A2 | ☐ |
 | 12 | Dal medico | A2 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 9 · Com'è andata? (A2). Both tracks are complete through Unit 8.**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 9 · The interview (A2).**
 
 ## Session log
 
+- **2026-10-10 (18)** · Italian track Unit 9 written (2 scenes, 46 words, 5 grammar points + 4 reference pages, open and closed e / o, 40 exercises, culture, summary). First A2 unit; conjugate exercises now carry Luca / Lucia answer variants. Verified and committed.
 - **2026-10-10 (17)** · English track Unit 6 written from a new design (2 scenes, 48 words, 5 grammar points + 5 reference pages, -ing and the three a vowels, 40 exercises, culture, summary). Verified and committed. A1 is complete on both tracks.
 - **2026-10-10 (16)** · Verbs page: every conjugated form now shows its meaning in the learner's language (new `src/js/conj-gloss.js`, derived from the verb's gloss and the other track's conjugator, gender-aware for compound tenses), the trainer shows the meaning as the prompt, and a panel explains the selected tense (new `content/<track>/tenses.json`, 15 entries per track, linked to the teaching unit and reference page). Checker verifies tense parity; 10 new unit tests.
 - **2026-10-10 (15)** · English track Unit 8 written (2 scenes, 44 words, 5 grammar points + 4 reference pages, -ed sounds and -teen/-ty, 30 exercises + 10-exercise A1 checkpoint, culture, A1 summary). Renderer change: every conjugation table and conjugate exercise now shows the verb's meaning automatically (from the track's verb list). Verified and committed.

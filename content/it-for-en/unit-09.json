@@ -1,0 +1,325 @@
+{
+  "id": "09",
+  "level": "A2",
+  "title": "Com'è andata?",
+  "subtitle": "How did it go?",
+  "intro": "Twelve relatives, four courses, and one question asked by everyone: how did it go? This unit opens A2 with the other half of the past tense: the verbs that take essere, where the participle finally shows whether Luca or Lucia is speaking. Then reflexives in the past, the time words that order a story, and the double negatives that Italian needs and English forbids.",
+  "objectives": [
+    "Tell what happened with essere: [[sono arrivato / arrivata]], [[siamo andati al mare]], [[è successo]]",
+    "Use reflexive and reciprocal verbs in the past: [[mi sono perso / persa]], [[ci siamo conosciuti]]",
+    "Order a story in time: [[prima]], [[poi]], [[dopo]], [[alla fine]], [[due giorni fa]], [[l'altro ieri]]",
+    "Say what you have never done and what nobody did: [[non sono mai stato]], [[non ho visto niente]], [[non è venuto nessuno]]",
+    "Hold your own at a long Sunday lunch: the courses, the questions, the toast"
+  ],
+  "canDo": [
+    "A2 · Spoken production: can tell a story or describe something in a simple list of points, in the right order.",
+    "A2 · Spoken interaction: can ask and answer questions about past activities and personal experiences.",
+    "A2 · Listening: can follow a simple narrative of past events told slowly, with time references.",
+    "A2 · Writing: can write a short account of a past event or a recent trip.",
+    "A2 · Reading: can understand a short personal message that narrates what happened."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Dodici a tavola",
+      "intro": "Sunday lunch at Michele and Anna's, then a walk with nonno Oronzo to a closed green door. Listen for sono arrivato / arrivata, siamo andati, mi sono perso / persa, and for non… mai, non… niente, non… più.",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-pranzo", "title": "Racconta tutto", "setting": "Domenica, ore 13.30. La casa di Michele e Anna, in via Garibaldi. Dodici persone a tavola: nonno Oronzo a capotavola, Chiara, zia Lina, cugini di tutte le età. Sul tavolo, le orecchiette.", "register": "informale, in famiglia", "lines": [
+          {"who": "Anna", "t": "Siediti qui, vicino al nonno. Hai fame? Abbiamo fatto le orecchiette con le cime di rapa.", "n": "Sit here, next to grandpa. Are you hungry? We made orecchiette with turnip tops.", "note": "Abbiamo fatto: passato prossimo with avere, unit 8. Cime di rapa: the bitter green of Puglia."},
+          {"who": "hero", "t": {"m": "Ho fame, sì. Ho dormito poco: ieri sera sono tornato tardi.", "f": "Ho fame, sì. Ho dormito poco: ieri sera sono tornata tardi.", "note": "Sono tornato / sono tornata: tornare takes essere, and the participle agrees with the speaker. Ho dormito takes avere and does not change."}, "n": "I am hungry, yes. I slept little: last night I got back late."},
+          {"who": "Oronzo", "t": "Allora. Com'è andata? Racconta tutto, dal primo giorno.", "n": "So. How did it go? Tell us everything, from the first day.", "note": "Com'è andata? The question of the unit: andare with essere, participle feminine because the hidden subject is la cosa, the thing. Always andata."},
+          {"who": "hero", "t": {"m": "Sono arrivato il primo giugno, con due valigie e la bici. Dora mi ha dato le chiavi e un piatto di pasta.", "f": "Sono arrivata il primo giugno, con due valigie e la bici. Dora mi ha dato le chiavi e un piatto di pasta."}, "n": "I arrived on the first of June, with two suitcases and the bike. Dora gave me the keys and a plate of pasta.", "note": "Arrivare: essere, agreement. Dare: avere, no agreement. Two auxiliaries in one breath."},
+          {"who": "Chiara", "t": {"m": "E il secondo giorno si è perso.", "f": "E il secondo giorno si è persa."}, "n": "And on the second day {{he|she}} got lost.", "note": "Perdersi, to get lost: reflexive, so essere, so agreement. Si è perso / si è persa."},
+          {"who": "hero", "t": {"m": "Mi sono perso una volta sola! Sono uscito dal bar, ho girato a destra invece che a sinistra e sono finito al cimitero.", "f": "Mi sono persa una volta sola! Sono uscita dal bar, ho girato a destra invece che a sinistra e sono finita al cimitero."}, "n": "I got lost only once! I came out of the bar, turned right instead of left and ended up at the cemetery.", "note": "Uscire, finire (to end up): essere. Girare: avere. Invece che = instead of."},
+          {"who": "Lina", "t": "Al cimitero! Hai visto la tomba del tuo bisnonno?", "n": "At the cemetery! Did you see your great-grandfather's grave?", "note": "Bisnonno: great-grandfather. Hai visto: vedere → visto, avere."},
+          {"who": "hero", "t": {"m": "Non ho visto niente: sono scappato.", "f": "Non ho visto niente: sono scappata."}, "n": "I didn't see anything: I ran away.", "note": "Non… niente: the double negative, obligatory in Italian. Scappare: essere."},
+          {"who": "Michele", "t": "E al mare? Chiara ha detto che siete andati al mare.", "n": "And the sea? Chiara said you went to the sea.", "note": "Siete andati: voi, masculine plural because the group is mixed. Ha detto che: said that."},
+          {"who": "hero", "t": "Siamo andati a Torre dell'Orso con Chiara e Tommaso. Ci siamo fatti il bagno, abbiamo mangiato un panino e Tommaso si è addormentato sulla sabbia.", "n": "We went to Torre dell'Orso with Chiara and Tommaso. We went for a swim, ate a sandwich and Tommaso fell asleep on the sand.", "note": "Siamo andati, ci siamo fatti: a mixed group takes -i, whoever is speaking. Farsi il bagno = to go for a swim. Addormentarsi: reflexive, essere."},
+          {"who": "Oronzo", "t": "Non è mai cambiato niente. Anche tuo nonno si addormentava sempre sulla sabbia. Lo chiamavamo la lucertola.", "n": "Nothing has ever changed. Your grandfather always fell asleep on the sand too. We called him the lizard.", "note": "Non… mai… niente: two negatives after non, still one meaning. Si addormentava, chiamavamo: the imperfetto, unit 11; just recognise it."},
+          {"who": "Anna", "t": "Basta parlare, si fredda tutto. Il secondo arriva fra dieci minuti.", "n": "Enough talking, everything's getting cold. The main course is coming in ten minutes.", "note": "Si fredda: it goes cold. Il secondo: the second course. Fra dieci minuti: in ten minutes."},
+          {"who": "Chiara", "t": "Hai mai mangiato le polpette di mamma?", "n": "Have you ever eaten Mum's meatballs?", "note": "Hai mai…? Have you ever…? Mai between avere and the participle."},
+          {"who": "hero", "t": "Non le ho mai mangiate.", "n": "I've never eaten them.", "note": "Le… mangiate: with a direct object pronoun before avere, the participle agrees with the pronoun (le, the meatballs). Unit 10; recognise it now."},
+          {"who": "Chiara", "t": "Allora oggi è un giorno importante.", "n": "Then today is an important day."}
+        ], "notes": [
+          {"phrase": "sono arrivato / sono arrivata · siamo andati", "note": "With essere the participle is an adjective: it agrees with the subject. One speaker, one ending; a group, -i (or -e if all women)."},
+          {"phrase": "Com'è andata?", "note": "How did it go? Fixed form, always feminine. Com'è andato il viaggio? agrees with il viaggio instead."},
+          {"phrase": "non… niente · non… mai", "note": "Italian piles negatives: non ho visto niente, non è mai cambiato niente. English forbids this; Italian requires it."},
+          {"phrase": "ci siamo fatti il bagno", "note": "Reflexive in the past with a mixed group: ci siamo + -i. Farsi il bagno, farsi la doccia, farsi un caffè."}
+        ]},
+        {"type": "scene", "id": "dlg-casa", "title": "La porta verde", "setting": "Dopo il caffè, prima del dolce. Nonno Oronzo e {hero} escono senza dire niente. Dieci minuti a piedi, via Sant'Antonio: una strada stretta, una casa bassa con la porta verde, chiusa.", "register": "informale, nonno e nipote", "lines": [
+          {"who": "Oronzo", "t": "Vieni. Ti porto in un posto. Dopo il caffè e prima del dolce: così Anna non se ne accorge.", "n": "Come. I'm taking you somewhere. After the coffee and before the dessert: that way Anna won't notice.", "note": "Accorgersi di = to notice. Se ne accorge: she notices it. Present for the near future."},
+          {"stage": "A narrow street. A low house with a green door, closed. A plaque with a number, no name."},
+          {"who": "Oronzo", "t": "Qui siamo nati, io e Cosimo. Lui nel 1935, io nel 1940. Nostro padre ha fatto il piastrellista tutta la vita, in questa strada.", "n": "This is where we were born, Cosimo and I. He in 1935, I in 1940. Our father worked as a tile-setter all his life, in this street.", "note": "Siamo nati: nascere → nato, essere. Ha fatto il piastrellista: to work as. Nel 1935: in + year."},
+          {"who": "hero", "t": "Nonno non mi ha mai parlato di questa casa.", "n": "Grandpa has never talked to me about this house.", "note": "Non mi ha mai parlato: pronoun, then avere, then mai, then participle."},
+          {"who": "Oronzo", "t": "È partito nel 1969, con tuo padre di sei anni. Prima Napoli, poi la nave fino a Halifax: dodici giorni. Poi il treno fino a Toronto. Non è più tornato.", "n": "He left in 1969, with your father aged six. First Naples, then the ship to Halifax: twelve days. Then the train to Toronto. He never came back.", "note": "Prima… poi… poi: the order of a story. Non è più tornato: non… più = no more, never again."},
+          {"who": "hero", "t": "Mai? Perché?", "n": "Never? Why?"},
+          {"who": "Oronzo", "t": "Non lo so. Ha scritto, ha telefonato, ha mandato i soldi per il tetto. Ma non è mai venuto. Adesso ha novantun anni e non può più viaggiare.", "n": "I don't know. He wrote, he phoned, he sent money for the roof. But he never came. Now he is ninety-one and can't travel any more.", "note": "Ha scritto, ha telefonato, ha mandato: three avere verbs. Non è mai venuto: venire → venuto, essere. Non può più: can no longer."},
+          {"who": "hero", "t": "E adesso la casa di chi è?", "n": "And whose is the house now?", "note": "Di chi è? Whose is it?"},
+          {"who": "Oronzo", "t": "È ancora nostra. Metà mia, metà di Cosimo. Cioè metà tua, un giorno. Nessuno ci è entrato da vent'anni.", "n": "It's still ours. Half mine, half Cosimo's. That is, half yours, one day. Nobody has been in for twenty years.", "note": "Nessuno ci è entrato: nessuno as subject at the start, no non. Ci = there. Da vent'anni: for twenty years, with the past here because the action is negative and closed."},
+          {"who": "hero", "t": {"m": "È successo tutto in tre mesi. Sono arrivato, ho trovato una casa, mi sono perso, ho trovato una famiglia.", "f": "È successo tutto in tre mesi. Sono arrivata, ho trovato una casa, mi sono persa, ho trovato una famiglia."}, "n": "It all happened in three months. I arrived, I found a flat, I got lost, I found a family.", "note": "È successo: succedere → successo, essere. Four past verbs, two auxiliaries."},
+          {"who": "Oronzo", "t": "E hai trovato la casa. Dai, torniamo: il dolce. Anna se n'è accorta di sicuro.", "n": "And you found the house. Come on, let's go back: dessert. Anna has noticed for sure.", "note": "Se n'è accorta: accorgersi in the past, feminine for Anna. Di sicuro = for sure."}
+        ], "notes": [
+          {"phrase": "siamo nati · è partito · non è più tornato · non è mai venuto · è successo", "note": "Five essere verbs: birth, departure, return, coming, happening. Movement and change of state."},
+          {"phrase": "prima · poi · poi · alla fine", "note": "The skeleton of a story. Prima = first, poi = then, dopo = after, alla fine = in the end."},
+          {"phrase": "Nessuno ci è entrato.", "note": "When nessuno or niente opens the sentence, there is no non: Nessuno è venuto. Niente è cambiato."},
+          {"phrase": "Halifax, dodici giorni", "note": "The ships from Naples to Halifax took ten to twelve days. See Living there."}
+        ], "questions": [
+          {"kind": "tf", "q": "Cosimo has come back to Roccamarina many times.", "t": "Non è più tornato.", "answer": false, "why": "He never came back: non è più tornato, non è mai venuto."},
+          {"kind": "mc", "q": "When did Cosimo leave?", "options": ["In 1969, with his six-year-old son.", "In 1935.", "Twenty years ago."], "answer": 0, "why": "È partito nel 1969, con tuo padre di sei anni."},
+          {"kind": "fill", "q": "Cosimo ___ (partire) nel 1969 e non ___ mai ___ (tornare).", "answers": [["è partito"], ["è"], ["tornato"]], "n": "Cosimo left in 1969 and never came back."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Andare, venire, restare: i verbi con essere",
+      "intro": "The verbs of movement and change that take essere, the words of a life, the time markers that order a story, and the courses of a long Sunday lunch.",
+      "blocks": [
+        {"type": "vocab", "theme": "Movimento e cambiamento", "n": "Movement and change (all with essere)", "items": [
+          {"t": "partire", "n": "to leave, to depart", "pos": "verb", "ex": {"t": "Cosimo è partito nel 1969. Chiara parte a settembre.", "n": "Cosimo left in 1969. Chiara leaves in September."}, "note": "Participle partito. Partire per + destination, partire da + origin."},
+          {"t": "arrivare", "n": "to arrive", "pos": "verb", "ex": {"t": "Sono arrivato il primo giugno.", "n": "I arrived on 1 June."}, "note": "Arrivato / arrivata. Arrivare a Roccamarina, in Italia."},
+          {"t": "tornare", "n": "to go back, to come back", "pos": "verb", "ex": {"t": "Non è più tornato. Torniamo a casa.", "n": "He never came back. Let's go home."}, "note": "Also rientrare (to get back in). Ritornare is the same verb, slightly more formal."},
+          {"t": "entrare", "n": "to go in, to come in", "pos": "verb", "ex": {"t": "Nessuno è entrato da vent'anni. Entra!", "n": "Nobody has been in for twenty years. Come in!"}, "note": "Entrare in + place: entrare in casa, in chiesa."},
+          {"t": "uscire", "n": "to go out, to come out", "pos": "verb", "ex": {"t": "Sono uscito dal bar e ho girato a destra.", "n": "I came out of the bar and turned right."}, "note": "Uscire da + place. Irregular present (esco), regular participle uscito."},
+          {"t": "salire", "n": "to go up, to get on", "pos": "verb", "ex": {"t": "Siamo saliti sulla nave a Napoli.", "n": "We got on the ship in Naples."}, "note": "Salire su + vehicle or stairs. Present irregular: salgo. With an object (salire le scale) it takes avere."},
+          {"t": "scendere", "n": "to go down, to get off", "pos": "verb", "ex": {"t": "È scesa dal treno a Lecce.", "n": "She got off the train in Lecce."}, "note": "Irregular participle sceso. Scendere da + vehicle."},
+          {"t": "restare", "n": "to stay, to remain", "pos": "verb", "ex": {"t": "Anna è restata a casa. Resto ancora un anno.", "n": "Anna stayed home. I'm staying another year."}, "note": "Rimanere means the same: è rimasta. Rimanere has the irregular participle rimasto."},
+          {"t": "cadere", "n": "to fall", "pos": "verb", "ex": {"t": "Tommaso è caduto dalla bici.", "n": "Tommaso fell off his bike."}, "note": "Caduto. Cadere dalla bici, dalle scale."},
+          {"t": "diventare", "n": "to become", "pos": "verb", "ex": {"t": "Tommaso è diventato il mio socio.", "n": "Tommaso has become my partner."}, "note": "Diventato. Diventare + noun or adjective: è diventato grande."},
+          {"t": "nascere", "n": "to be born", "pos": "verb", "ex": {"t": "Sono nato a Toronto. Cosimo è nato qui nel 1935.", "n": "I was born in Toronto. Cosimo was born here in 1935."}, "note": "Irregular participle nato. Italian says \"I was born\" with the passato prossimo: sono nato / nata."},
+          {"t": "morire", "n": "to die", "pos": "verb", "ex": {"t": "Il bisnonno è morto nel 1980.", "n": "Great-grandfather died in 1980."}, "note": "Irregular participle morto. Present irregular: muoio."},
+          {"t": "succedere", "n": "to happen", "pos": "verb", "ex": {"t": "Che cosa è successo? — Non è successo niente.", "n": "What happened? — Nothing happened."}, "note": "Irregular participle successo. Only third person: è successo, sono successe tante cose."},
+          {"t": "scappare", "n": "to run away, to rush off", "pos": "verb", "ex": {"t": "Sono scappato dal cimitero. Scusa, scappo!", "n": "I ran away from the cemetery. Sorry, I have to dash!"}, "note": "Scappato. Scappo! = I must dash, said when leaving in a hurry."}
+        ]},
+        {"type": "vocab", "theme": "Una vita", "n": "A life", "items": [
+          {"t": "nascita", "n": "birth", "article": "la", "gender": "f", "plural": "le nascite", "pos": "noun", "ex": {"t": "Data e luogo di nascita: Roccamarina, 1935.", "n": "Date and place of birth: Roccamarina, 1935."}},
+          {"t": "matrimonio", "n": "wedding; marriage", "article": "il", "gender": "m", "plural": "i matrimoni", "pos": "noun", "ex": {"t": "Il matrimonio di zia Lina è stato nel 1990.", "n": "Aunt Lina's wedding was in 1990."}, "note": "Sposarsi = to get married: si sono sposati nel 1990."},
+          {"t": "sposarsi", "n": "to get married", "pos": "verb", "ex": {"t": "Chiara e Tommaso? Non si sono sposati. Sono solo amici.", "n": "Chiara and Tommaso? They didn't get married. They're just friends."}, "note": "Reflexive and reciprocal: ci siamo sposati. Sposare qualcuno: to marry someone."},
+          {"t": "trasferirsi", "n": "to move (house, city)", "pos": "verb", "ex": {"t": "Mi sono trasferito a Roccamarina a giugno.", "n": "I moved to Roccamarina in June."}, "note": "Reflexive, -isc- verb: mi trasferisco. Traslocare: to move house (the boxes)."},
+          {"t": "laurearsi", "n": "to graduate (university)", "pos": "verb", "ex": {"t": "Chiara non si è laureata: ha fatto la scuola di pasticceria.", "n": "Chiara didn't graduate: she went to pastry school."}, "note": "La laurea: the degree. Diplomarsi: to finish high school."},
+          {"t": "andare in pensione", "n": "to retire", "pos": "verb", "ex": {"t": "Nonno Oronzo è andato in pensione nel 2005.", "n": "Grandpa Oronzo retired in 2005."}, "note": "La pensione: the pension and retirement. Pensionato: retired, a pensioner."},
+          {"t": "emigrare", "n": "to emigrate", "pos": "verb", "ex": {"t": "Cosimo è emigrato in Canada nel 1969.", "n": "Cosimo emigrated to Canada in 1969."}, "note": "Essere. L'emigrazione, l'emigrante. Immigrare: to immigrate, seen from the new country."},
+          {"t": "nave", "n": "ship", "article": "la", "gender": "f", "plural": "le navi", "pos": "noun", "ex": {"t": "La nave da Napoli a Halifax: dodici giorni.", "n": "The ship from Naples to Halifax: twelve days."}, "note": "Feminine. Il traghetto: the ferry. La barca: the boat."},
+          {"t": "bisnonno", "n": "great-grandfather", "article": "il", "gender": "m", "plural": "i bisnonni", "pos": "noun", "forms": "la bisnonna", "ex": {"t": "Il bisnonno ha fatto il piastrellista tutta la vita.", "n": "Great-grandfather worked as a tile-setter all his life."}, "note": "Bis- doubles a generation. I bisnonni: great-grandparents."}
+        ]},
+        {"type": "vocab", "theme": "Quando", "n": "When", "items": [
+          {"t": "ieri", "n": "yesterday", "pos": "adv.", "ex": {"t": "Ieri sera sono tornato tardi.", "n": "Last night I got back late."}, "note": "Ieri mattina, ieri sera: yesterday morning, last night. Stamattina: this morning."},
+          {"t": "l'altro ieri", "n": "the day before yesterday", "pos": "adv.", "ex": {"t": "L'altro ieri siamo andati al mare.", "n": "The day before yesterday we went to the sea."}, "note": "Also l'altroieri, one word. Dopodomani: the day after tomorrow."},
+          {"t": "scorso", "n": "last (past)", "pos": "adj.", "ex": {"t": "La settimana scorsa, il mese scorso, l'anno scorso, domenica scorsa.", "n": "Last week, last month, last year, last Sunday."}, "note": "After the noun, agrees. Prossimo: next."},
+          {"t": "fa", "n": "ago", "pos": "adv.", "ex": {"t": "Tre mesi fa, due giorni fa, poco fa.", "n": "Three months ago, two days ago, a moment ago."}},
+          {"t": "appena", "n": "just; as soon as", "pos": "adv.", "ex": {"t": "Sono appena tornato. Appena arrivo, ti chiamo.", "n": "I've just got back. As soon as I arrive, I'll call you."}, "note": "Between the auxiliary and the participle. Also \"barely\": ci vedo appena."},
+          {"t": "prima", "n": "first, before", "pos": "adv.", "ex": {"t": "Prima Napoli, poi la nave. Prima di partire, ha venduto tutto.", "n": "First Naples, then the ship. Before leaving, he sold everything."}, "note": "Prima di + infinitive: before doing."},
+          {"t": "poi", "n": "then, afterwards", "pos": "adv.", "ex": {"t": "Poi il treno fino a Toronto.", "n": "Then the train to Toronto."}, "note": "E poi? And then? The question that keeps a story going."},
+          {"t": "dopo", "n": "after, later", "pos": "adv.", "ex": {"t": "Dopo pranzo siamo usciti. A dopo!", "n": "After lunch we went out. See you later!"}, "note": "Dopo + noun; dopo aver + participle: dopo aver mangiato."},
+          {"t": "alla fine", "n": "in the end, finally", "pos": "phrase", "ex": {"t": "Alla fine ho trovato la casa.", "n": "In the end I found the house."}, "note": "Finalmente = at last (with relief). Infine = lastly (in a list)."},
+          {"t": "all'improvviso", "n": "suddenly", "pos": "phrase", "ex": {"t": "All'improvviso ha cominciato a piovere.", "n": "Suddenly it started to rain."}, "note": "Also improvvisamente. The spice of every anecdote."},
+          {"t": "una volta", "n": "once; one time", "pos": "phrase", "ex": {"t": "Mi sono perso una volta sola. Una volta, qui c'era il mare.", "n": "I got lost only once. Once, the sea was here."}, "note": "Due volte, tre volte: twice, three times. Qualche volta: sometimes. C'era una volta: once upon a time."}
+        ]},
+        {"type": "vocab", "theme": "Il pranzo della domenica", "n": "Sunday lunch", "items": [
+          {"t": "antipasto", "n": "starter", "article": "l'", "gender": "m", "plural": "gli antipasti", "pos": "noun", "ex": {"t": "Per antipasto: olive, formaggio, frise con i pomodori.", "n": "As a starter: olives, cheese, frise with tomatoes."}, "note": "Anti- = before, pasto = meal."},
+          {"t": "primo", "n": "first course (pasta, rice, soup)", "article": "il", "gender": "m", "plural": "i primi", "pos": "noun", "ex": {"t": "Il primo: orecchiette con le cime di rapa.", "n": "First course: orecchiette with turnip tops."}, "note": "Il primo piatto. Ordering at a restaurant: un primo e un secondo."},
+          {"t": "secondo", "n": "main course (meat, fish)", "article": "il", "gender": "m", "plural": "i secondi", "pos": "noun", "ex": {"t": "Il secondo arriva fra dieci minuti: polpette al sugo.", "n": "The main course is coming in ten minutes: meatballs in sauce."}},
+          {"t": "contorno", "n": "side dish", "article": "il", "gender": "m", "plural": "i contorni", "pos": "noun", "ex": {"t": "Di contorno, patate al forno e insalata.", "n": "As a side, roast potatoes and salad."}, "note": "Vegetables come separately, with the secondo, never on the same plate."},
+          {"t": "dolce", "n": "dessert", "article": "il", "gender": "m", "plural": "i dolci", "pos": "noun", "ex": {"t": "Il dolce l'ha portato Chiara: pasticciotti.", "n": "Chiara brought the dessert: pasticciotti."}, "note": "Also the adjective sweet. Il dessert exists but il dolce is what families say."},
+          {"t": "orecchiette", "n": "orecchiette (ear-shaped pasta)", "article": "le", "gender": "f", "pos": "noun", "ex": {"t": "Le orecchiette fatte in casa, con il pollice.", "n": "Homemade orecchiette, shaped with the thumb."}, "note": "Little ears. The pasta of Puglia; the women of Bari make them on the street."},
+          {"t": "cime di rapa", "n": "turnip tops", "article": "le", "gender": "f", "pos": "noun", "ex": {"t": "Orecchiette con le cime di rapa, acciughe e peperoncino.", "n": "Orecchiette with turnip tops, anchovies and chilli."}, "note": "Bitter greens, the classic pairing. Rapa: turnip. Cima: top."},
+          {"t": "polpetta", "n": "meatball", "article": "la", "gender": "f", "plural": "le polpette", "pos": "noun", "ex": {"t": "Le polpette di Anna, al sugo.", "n": "Anna's meatballs, in tomato sauce."}, "note": "Polpette al sugo, polpette fritte. Polpettone: meatloaf."},
+          {"t": "sugo", "n": "sauce (tomato, for pasta)", "article": "il", "gender": "m", "plural": "i sughi", "pos": "noun", "ex": {"t": "Il sugo cuoce dalle otto di mattina.", "n": "The sauce has been cooking since eight in the morning."}, "note": "Sugo: the pasta sauce. Salsa: a sauce in general, or salsa di pomodoro. Ragù: with meat."},
+          {"t": "brindisi", "n": "toast (with glasses)", "article": "il", "gender": "m", "plural": "i brindisi", "pos": "noun", "ex": {"t": "Un brindisi! Alla famiglia. Cin cin!", "n": "A toast! To the family. Cheers!"}, "note": "Fare un brindisi, brindare a. Cin cin or salute: cheers. Look people in the eye."},
+          {"t": "amaro", "n": "bitter liqueur (digestif)", "article": "l'", "gender": "m", "plural": "gli amari", "pos": "noun", "ex": {"t": "Dopo il dolce, il caffè; dopo il caffè, l'amaro.", "n": "After dessert, coffee; after coffee, the digestif."}, "note": "Also the adjective bitter. Il digestivo: any after-dinner drink. Limoncello in the south."},
+          {"t": "a capotavola", "n": "at the head of the table", "pos": "phrase", "ex": {"t": "Nonno Oronzo siede a capotavola.", "n": "Grandpa Oronzo sits at the head of the table."}, "note": "Capo = head, tavola = table. The seat of the oldest, or the host."}
+        ]}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "Sono andato, sono andata, non sono mai andato",
+      "intro": "Five pieces: the passato prossimo with essere and its agreement, reflexives and reciprocals in the past, eight more irregular participles, the time expressions that order a story, and the double negative. Reference pages at the end of each block.",
+      "blocks": [
+        {"type": "grammar", "id": "g-essere", "title": "Passato prossimo with essere: sono arrivato / arrivata", "category": "Verbs", "rule": "Verbs of movement (andare, venire, arrivare, partire, tornare, entrare, uscire, salire, scendere, cadere), of change of state (nascere, morire, diventare, crescere), of staying (restare, rimanere, stare, essere), the impersonal succedere and piacere, and every reflexive verb take essere. With essere the participle agrees with the subject like an adjective: -o, -a, -i, -e.", "ref": "passato-prossimo-essere", "blocks": [
+          {"type": "conjugation", "verbs": ["andare", "partire"], "tense": "passato_prossimo", "caption": "[[andare|to go]], [[partire|to leave]] · passato prossimo", "note": "Shown for the protagonist you chose. Lucia says sono andata; Luca says sono andato; a mixed group says siamo andati; a group of women says siamo andate."},
+          {"type": "agreement", "intro": "The participle after essere is an adjective: it agrees with whoever did the action. Both protagonists side by side, then the plurals.", "items": [{"t": {"m": "Sono arrivato il primo giugno.", "f": "Sono arrivata il primo giugno."}, "n": "I arrived on 1 June."}, {"t": {"m": "Luca è arrivato con due valigie.", "f": "Lucia è arrivata con due valigie."}, "n": "Luca / Lucia arrived with two suitcases."}, {"t": {"m": "Chiara, Tommaso e io siamo arrivati tardi.", "f": "Chiara, Lucia e Dora sono arrivate tardi."}, "n": "Mixed group: -i. All women: -e."}, {"t": {"m": "Mi sono perso una volta.", "f": "Mi sono persa una volta."}, "n": "I got lost once."}], "note": "Chiara, Tommaso e io: one man in the group is enough for -i. Chiara, Lucia e Dora: all women, -e."},
+          {"type": "table", "head": ["Takes essere", "Examples"], "rows": [["movement from A to B", "andare, venire, arrivare, partire, tornare, entrare, uscire, salire, scendere, cadere, scappare"], ["change of state", "nascere, morire, diventare, crescere, invecchiare, dimagrire"], ["staying and being", "stare, restare, rimanere, essere"], ["impersonal", "succedere, piacere, mancare, servire, bastare, costare"], ["all reflexives", "alzarsi, perdersi, sposarsi, trasferirsi, accorgersi, divertirsi"], ["but with avere", "camminare, viaggiare, nuotare, dormire, passeggiare: movement without a destination"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": {"m": "Sono arrivato il primo giugno e sono andato subito da Dora.", "f": "Sono arrivata il primo giugno e sono andata subito da Dora."}, "n": "I arrived on 1 June and went straight to Dora's."},
+            {"t": "Chiara è nata nel 1999. Cosimo è partito nel 1969 e non è più tornato.", "n": "Chiara was born in 1999. Cosimo left in 1969 and never came back."},
+            {"t": "Siamo andati al mare; Anna e Lina sono restate a casa.", "n": "We went to the sea; Anna and Lina stayed home.", "note": "mixed group -i, two women -e"},
+            {"t": "Che cosa è successo? — Tommaso è caduto dalla bici, ma non si è fatto niente.", "n": "What happened? — Tommaso fell off his bike, but he didn't hurt himself."},
+            {"t": "Ho camminato due ore e sono arrivato stanco.", "n": "I walked for two hours and arrived tired.", "note": "camminare: avere; arrivare: essere"}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Why Lucia's past looks different", "text": "In the units so far, the story changed only in a few adjectives. From here on every sentence in the past with essere carries the protagonist's gender: [[sono arrivato]] or [[sono arrivata]], [[mi sono perso]] or [[mi sono persa]]. The exercises accept your protagonist's form and tell you when you have produced the other one. When you talk about yourself, use your own."},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ho andato. Ho arrivato. Ho nato.", "right": "Sono andato / a. Sono arrivato / a. Sono nato / a.", "why": "Movement, arrival, birth: essere."},
+            {"wrong": "Lucia è arrivato. Siamo andato.", "right": "Lucia è arrivata. Siamo andati / e.", "why": "The participle agrees with the subject."},
+            {"wrong": "Sono camminato. Sono dormito.", "right": "Ho camminato. Ho dormito.", "why": "No destination, no change: avere."},
+            {"wrong": "È successo niente.", "right": "Non è successo niente.", "why": "Non before the verb when niente follows."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-riflessivi", "title": "Reflexives and reciprocals in the past", "category": "Verbs", "rule": "Reflexive verbs always take essere in the past: the pronoun, then essere, then the participle, which agrees with the subject. Plural reflexives can mean each other (reciprocal): ci siamo conosciuti = we met each other.", "ref": "reflexive-verbs-past", "blocks": [
+          {"type": "conjugation", "verb": "alzarsi", "tense": "passato_prossimo", "caption": "[[alzarsi|to get up]] · passato prossimo", "note": "mi sono alzato / alzata · ti sei · si è · ci siamo alzati / alzate · vi siete · si sono."},
+          {"type": "table", "head": ["", "Italian", "English"], "rows": [["reflexive", "Mi sono perso. Mi sono persa.", "I got lost (m / f)."], ["with an object", "Mi sono lavato le mani. Si è messa il cappotto.", "I washed my hands. She put on her coat."], ["reciprocal", "Ci siamo conosciuti al bar. Si sono sposati nel 1990.", "We met at the bar. They got married in 1990."], ["negative", "Non mi sono svegliato. Non si è accorta di niente.", "I didn't wake up. She didn't notice anything."], ["with mai, già", "Non mi sono mai perso. Ti sei già alzato?", "I've never got lost. Have you got up already?"]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": {"m": "Mi sono svegliato alle sei, mi sono fatto la doccia e sono uscito.", "f": "Mi sono svegliata alle sei, mi sono fatta la doccia e sono uscita."}, "n": "I woke up at six, had a shower and went out."},
+            {"t": "Chiara e Tommaso si sono conosciuti a scuola e non si sono mai sposati.", "n": "Chiara and Tommaso met at school and never got married."},
+            {"t": "Ci siamo fatti il bagno e ci siamo divertiti. Tommaso si è addormentato.", "n": "We went for a swim and had fun. Tommaso fell asleep."},
+            {"t": "Anna se n'è accorta subito.", "n": "Anna noticed straight away.", "note": "accorgersene: se ne + è accorta"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Mi ho alzato. Ci abbiamo conosciuti.", "right": "Mi sono alzato / a. Ci siamo conosciuti.", "why": "Reflexives: always essere."},
+            {"wrong": "Mi sono alzato. (Lucia) · Ci siamo alzato.", "right": "Mi sono alzata. Ci siamo alzati / e.", "why": "Agreement with the subject."},
+            {"wrong": "Sono mi alzato. Mi non sono alzato.", "right": "Mi sono alzato. Non mi sono alzato.", "why": "Order: (non) + pronoun + essere + participle."},
+            {"wrong": "Mi sono lavato le mie mani.", "right": "Mi sono lavato le mani.", "why": "The reflexive already says whose hands: definite article, no possessive."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-participi-2", "title": "Eight participles you need now", "category": "Verbs", "rule": "The essere verbs bring their own irregulars: stato (essere and stare), venuto, rimasto, nato, morto, vissuto, piaciuto, successo. Plus sceso (scendere) and the regular-looking ones you already have. Learn them with the auxiliary.", "ref": "irregular-participles", "blocks": [
+          {"type": "table", "head": ["Verb", "Participle", "Example"], "rows": [["essere", "stato / stata", "Sono stato a Lecce. È stata una bella giornata."], ["stare", "stato / stata", "Sono stato a casa tutto il giorno."], ["venire", "venuto / venuta", "Chiara è venuta a pranzo. Non è mai venuto."], ["rimanere", "rimasto / rimasta", "Anna è rimasta a casa."], ["nascere", "nato / nata", "Sono nato a Toronto. Siamo nati qui."], ["morire", "morto / morta", "Il bisnonno è morto nel 1980."], ["vivere", "vissuto / vissuta", "Cosimo ha vissuto a Toronto sessant'anni. / È vissuto a Toronto.", ""], ["piacere", "piaciuto / piaciuta", "Mi è piaciuto il mare. Mi sono piaciute le polpette."], ["succedere", "successo", "Che cosa è successo?"], ["scendere", "sceso / scesa", "Siamo scesi dal treno a Lecce."]], "speak": [1, 2], "rowhead": true, "note": "Vivere takes either auxiliary: ha vissuto (more common) or è vissuto. Mi è piaciuto / mi sono piaciute: the participle agrees with the thing liked, which is the grammatical subject."},
+          {"type": "examples", "items": [
+            {"t": "Sei mai stato a Napoli? — No, non ci sono mai stato.", "n": "Have you ever been to Naples? — No, I've never been there.", "note": "essere → stato; ci = there"},
+            {"t": "Ti è piaciuto il pranzo? — Mi è piaciuto tutto. Soprattutto le polpette: mi sono piaciute moltissimo.", "n": "Did you like the lunch? — I liked everything. Especially the meatballs: I liked them very much."},
+            {"t": "Che cos'è successo a Tommaso? — È rimasto a dormire sulla sabbia.", "n": "What happened to Tommaso? — He stayed asleep on the sand."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ho stato. Sono essuto.", "right": "Sono stato / a.", "why": "Essere → stato, with essere."},
+            {"wrong": "È venito. È rimanuto. È nasciuto.", "right": "È venuto. È rimasto. È nato.", "why": "Irregular."},
+            {"wrong": "Mi ha piaciuto. Mi è piaciuto le polpette.", "right": "Mi è piaciuto. Mi sono piaciute le polpette.", "why": "Piacere: essere, and agreement with the thing liked."},
+            {"wrong": "Ha successo. È succedato.", "right": "È successo.", "why": "Succedere: essere, participle successo."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-tempo", "title": "When: the time words of a story", "category": "Adverbs", "rule": "Points in the past: ieri, l'altro ieri, la settimana scorsa, tre giorni fa, nel 1969, a giugno. Order: prima, poi, dopo, alla fine. Inside the verb: già, ancora, mai, appena, sempre, più go between the auxiliary and the participle; the point-in-time expressions go at the start or the end.", "ref": "time-expressions-past", "blocks": [
+          {"type": "table", "head": ["Italian", "English", "Where it goes"], "rows": [["ieri · ieri sera · l'altro ieri · stamattina", "yesterday · last night · the day before yesterday · this morning", "start or end"], ["la settimana scorsa · il mese scorso · l'anno scorso · domenica scorsa", "last week · last month · last year · last Sunday", "start or end"], ["tre giorni fa · un'ora fa · poco fa · tanto tempo fa", "three days ago · an hour ago · a moment ago · long ago", "start or end"], ["nel 1969 · a giugno · il primo giugno · alle sei", "in 1969 · in June · on 1 June · at six", "start or end"], ["prima · poi · dopo · alla fine · all'improvviso", "first · then · after · in the end · suddenly", "start of the sentence"], ["già · ancora · mai · appena · sempre · più", "already · yet · never · just · always · any more", "between auxiliary and participle"]], "speak": [0], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Prima Napoli, poi la nave, poi il treno. Alla fine, Toronto.", "n": "First Naples, then the ship, then the train. In the end, Toronto."},
+            {"t": "Tre mesi fa sono arrivato; ieri sono andato in comune; stamattina ho trovato la casa.", "n": "Three months ago I arrived; yesterday I went to the town hall; this morning I found the house."},
+            {"t": "Sono appena tornato. Non ho ancora mangiato. Non sono mai stato a Napoli.", "n": "I've just got back. I haven't eaten yet. I've never been to Naples."},
+            {"t": "Cosimo è partito nel 1969 e non è più tornato.", "n": "Cosimo left in 1969 and never came back again."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Fa tre mesi. Tre mesi prima. (for \"ago\")", "right": "Tre mesi fa.", "why": "Fa after the time; prima means before another past moment."},
+            {"wrong": "La scorsa settimana (fine, but less common) · lo scorso ieri", "right": "La settimana scorsa · l'altro ieri", "why": "Scorso usually follows the noun; yesterday is ieri."},
+            {"wrong": "Sono tornato appena. Già ho mangiato.", "right": "Sono appena tornato. Ho già mangiato.", "why": "Short adverbs in the middle."},
+            {"wrong": "In 1969. In giugno.", "right": "Nel 1969. A giugno.", "why": "Nel + year; a or in + month."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-negazione", "title": "Non… mai, non… niente, non… nessuno", "category": "Negation", "rule": "Italian stacks negatives: non before the verb plus mai (never), niente / nulla (nothing), nessuno (nobody; no + noun), più (no more), ancora (not yet), né… né (neither… nor), affatto (at all). They can combine: non ho mai detto niente a nessuno. When nessuno or niente opens the sentence as subject, non disappears.", "ref": "double-negation", "blocks": [
+          {"type": "table", "head": ["Italian", "English"], "rows": [["Non sono mai stato a Napoli.", "I have never been to Naples."], ["Non ho visto niente. / Non ho visto nulla.", "I didn't see anything."], ["Non è venuto nessuno.", "Nobody came."], ["Non ho nessun problema. Non c'è nessuna fretta.", "I have no problem. There's no hurry."], ["Non è più tornato. Non può più viaggiare.", "He never came back again. He can't travel any more."], ["Non ho ancora mangiato.", "I haven't eaten yet."], ["Non mangio né carne né pesce.", "I eat neither meat nor fish."], ["Non ho mai detto niente a nessuno.", "I never said anything to anyone."], ["Nessuno è venuto. Niente è cambiato.", "Nobody came. Nothing has changed."], ["Hai visto qualcuno? — No, nessuno.", "Did you see anyone? — No, nobody."]], "speak": [0]},
+          {"type": "callout", "kind": "compare", "title": "Two negatives, one meaning", "text": "In English *I didn't see nothing* is wrong or dialect. In Italian [[non ho visto niente]] is the only way to say it: non marks the verb, niente fills the slot. Think of non as the negative switch and mai / niente / nessuno / più as the words that take the place of ever / anything / anyone / still."},
+          {"type": "examples", "items": [
+            {"t": "Nonno non mi ha mai parlato di questa casa. Nessuno ci è entrato da vent'anni.", "n": "Grandpa never talked to me about this house. Nobody has been in for twenty years."},
+            {"t": "Non è cambiato niente, e non cambia mai niente.", "n": "Nothing has changed, and nothing ever changes."},
+            {"t": "Non ho più fame e non voglio né dolce né caffè. — Allora l'amaro.", "n": "I'm not hungry any more and I want neither dessert nor coffee. — Then the amaro."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Ho visto niente. È venuto nessuno.", "right": "Non ho visto niente. Non è venuto nessuno.", "why": "Non is required before the verb."},
+            {"wrong": "Non nessuno è venuto. Non niente è cambiato.", "right": "Nessuno è venuto. Niente è cambiato.", "why": "Subject first: no non."},
+            {"wrong": "Non ho mangiato mai. Non sono tornato più.", "right": "Non ho mai mangiato. Non sono più tornato.", "why": "Mai, più, ancora go in the middle of compound tenses (at the end is possible but marked)."},
+            {"wrong": "Non ho nessuni problemi.", "right": "Non ho nessun problema.", "why": "Nessuno + noun is always singular."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "E aperta, e chiusa; o aperta, o chiusa",
+      "intro": "Italian has seven vowels, not five: e and o each come open or closed. Dictionaries mark them (é / è, ó / ò); writing does not, except at the end of a word (perché, caffè). The difference separates a few words and, more than anything, separates accents: the south opens them wide.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "é", "t": "perché", "n": "why, because", "ipa": "perˈke", "tip": "Closed e: lips spread, mouth nearly shut, like the first vowel of English \"chaos\" without the glide. Also in sera, vero, mese, tre, e (and), nero."},
+          {"sound": "è", "t": "caffè", "n": "coffee", "ipa": "kafˈfɛ", "tip": "Open e: mouth wider, like English \"bed\" or \"set\". Also in bene, è (is), festa, bello, cielo, lei, ieri."},
+          {"sound": "ó", "t": "sole", "n": "sun", "ipa": "ˈsole", "tip": "Closed o: lips rounded and tight, like a short English \"oh\" without the glide. Also in ora, dove, nome, giorno, volta, sono."},
+          {"sound": "ò", "t": "però", "n": "but, however", "ipa": "peˈrɔ", "tip": "Open o: mouth wider, like English \"hot\" in British English. Also in cosa, nove, buono, porta, uomo, oggi, nonno."}
+        ]},
+        {"type": "minimal", "caption": "Same letters, different vowel", "pairs": [
+          {"a": "pésca", "b": "pèsca", "na": "fishing (closed e)", "nb": "peach (open e)", "tip": "The fruit is open; the activity is closed. Even Italians from different regions disagree."},
+          {"a": "vénti", "b": "vènti", "na": "twenty (closed)", "nb": "winds (open)", "tip": "Venti gradi, closed; i venti del nord, open."},
+          {"a": "bótte", "b": "bòtte", "na": "barrel (closed o)", "nb": "blows, beating (open o)", "tip": "Dare le botte, open. Una botte di vino, closed."},
+          {"a": "e", "b": "è", "na": "and (closed)", "nb": "is (open)", "tip": "The one pair that matters every day. Dora e Pasquale (and) versus Dora è gentile (is). The accent is written only on è."},
+          {"a": "cólto", "b": "còlto", "na": "cultured, educated", "nb": "picked, caught (cogliere)", "tip": "Un uomo colto, closed; colto sul fatto, open."},
+          {"a": "fóro", "b": "fòro", "na": "hole", "nb": "forum", "tip": "Rare pair, useful to hear the two o sounds side by side."}
+        ]},
+        {"type": "table", "caption": "The south opens them", "head": ["Word", "Standard", "In Puglia you'll hear"], "rows": [["bene", "bène (open)", "bène, even more open"], ["sera", "séra (closed)", "sèra (open)"], ["sole", "sóle (closed)", "sòle (open)"], ["nome", "nóme (closed)", "nòme (open)"], ["perché", "perché (closed)", "perchè (open)"]], "speak": [0], "compact": true, "note": "Southern speakers tend to open most stressed e and o; northern speakers close many of them. Neither is wrong. Roccamarina opens them, and so will you if you stay."},
+        {"type": "callout", "kind": "tip", "title": "What to actually do", "text": "Do not memorise the dictionary marks. Learn three things: [[è]] (is) is open and [[e]] (and) is closed; a final written accent tells you the sound ([[perché]] closed, [[caffè]] open, [[però]] open); and copy the vowels of the people around you. In Puglia they are open, generous and long. A learner who opens them sounds local; one who closes them sounds Milanese, which is also a place."},
+        {"type": "examples", "items": [
+          {"t": "Dora è gentile e precisa. Perché? Perché è di Roccamarina.", "n": "Dora is kind and precise. Why? Because she's from Roccamarina.", "note": "è open · e closed · perché closed"},
+          {"t": "Venti gradi e venti forti: però al sole si sta bene.", "n": "Twenty degrees and strong winds: but in the sun it's fine.", "note": "vénti · vènti · però · sóle · bène"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Tocca a te",
+      "intro": "Thirty exercises on this unit, then a mixed review of units 1–9. Answers with essere expect your protagonist's ending: the exercise tells you if you produced the other one.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Passato prossimo con essere", "items": [
+          {"kind": "conjugate", "verb": "andare", "tense": "passato prossimo", "n": "to go", "answers": [{"m": "sono andato", "f": "sono andata"}, {"m": "sei andato", "f": "sei andata"}, {"m": "è andato", "f": "è andata"}, {"m": "siamo andati", "f": "siamo andate"}, {"m": "siete andati", "f": "siete andate"}, {"m": "sono andati", "f": "sono andate"}]},
+          {"kind": "fill", "q": "Ieri {hero} ___ (arrivare) alle sei e ___ (uscire) subito.", "answers": [[{"m": "è arrivato", "f": "è arrivata"}], [{"m": "è uscito", "f": "è uscita"}]], "n": "Yesterday {hero} arrived at six and went out straight away."},
+          {"kind": "fill", "q": "Chiara e Tommaso ___ (andare) al mare; Anna ___ (restare) a casa.", "answers": [["sono andati"], ["è restata", "è rimasta"]], "n": "Chiara and Tommaso went to the sea; Anna stayed home."},
+          {"kind": "fill", "q": "Noi (un gruppo misto) ___ (partire) alle otto. Voi due ragazze ___ (tornare) tardi?", "answers": [["siamo partiti"], ["siete tornate"]], "n": "We left at eight. Did you two girls get back late?"},
+          {"kind": "mc", "q": "Which group takes essere?", "options": ["partire, arrivare, nascere", "mangiare, vedere, dire", "lavorare, parlare, dormire"], "answer": 0, "why": "Movement and change of state. The others are avere verbs."},
+          {"kind": "fill", "q": "___ (avere) mangiato le polpette e ___ (essere) {{tornato|tornata}} a casa a piedi.", "answers": [["Ho"], ["sono"]], "n": "I ate the meatballs and walked home.", "hint": "mangiare: avere; tornare: essere"},
+          {"kind": "order", "answer": "Siamo andati al mare con Chiara.", "n": "We went to the sea with Chiara."},
+          {"kind": "translate", "q": "Dora was born in Roccamarina in 1958.", "answers": ["Dora è nata a Roccamarina nel 1958"]}
+        ]},
+        {"type": "exercises", "title": "2 · Riflessivi e participi", "items": [
+          {"kind": "conjugate", "verb": "svegliarsi", "tense": "passato prossimo", "n": "to wake up", "answers": [{"m": "mi sono svegliato", "f": "mi sono svegliata"}, {"m": "ti sei svegliato", "f": "ti sei svegliata"}, {"m": "si è svegliato", "f": "si è svegliata"}, {"m": "ci siamo svegliati", "f": "ci siamo svegliate"}, {"m": "vi siete svegliati", "f": "vi siete svegliate"}, {"m": "si sono svegliati", "f": "si sono svegliate"}]},
+          {"kind": "fill", "q": "Ieri mi ___ (svegliarsi) alle sei e mi ___ (perdersi) in centro. (about you)", "answers": [[{"m": "sono svegliato", "f": "sono svegliata", "who": "self"}], [{"m": "sono perso", "f": "sono persa", "who": "self"}]], "n": "Yesterday I woke up at six and got lost downtown."},
+          {"kind": "fill", "q": "Chiara e Tommaso ___ (conoscersi) a scuola. ___ (sposarsi)? No!", "answers": [["si sono conosciuti"], ["Si sono sposati"]], "n": "Chiara and Tommaso met at school. Did they get married? No!"},
+          {"kind": "fill", "q": "essere → ___ · venire → ___ · rimanere → ___ · nascere → ___ · morire → ___ · vivere → ___", "answers": [["stato"], ["venuto"], ["rimasto"], ["nato"], ["morto"], ["vissuto"]], "n": "been · come · stayed · born · died · lived"},
+          {"kind": "fill", "q": "Che cosa è ___ (succedere)? — Niente. Mi è ___ (piacere) tutto.", "answers": [["successo"], ["piaciuto"]], "n": "What happened? — Nothing. I liked everything."},
+          {"kind": "mc", "q": "«Ci siamo fatti il bagno.»", "options": ["We went for a swim.", "We made a bath.", "They had a bath."], "answer": 0, "why": "Farsi il bagno = to go for a swim; ci siamo = we."},
+          {"kind": "dictation", "text": "Siamo nati qui, io e Cosimo.", "n": "We were born here, Cosimo and I."}
+        ]},
+        {"type": "exercises", "title": "3 · Quando", "items": [
+          {"kind": "fill", "q": "Sono {{arrivato|arrivata}} tre mesi ___. ___ sera sono {{tornato|tornata}} tardi. L'anno ___ ero a Toronto.", "answers": [["fa"], ["Ieri"], ["scorso"]], "n": "I arrived three months ago. Last night I got back late. Last year I was in Toronto."},
+          {"kind": "match", "q": "Match the time expressions.", "pairs": [["l'altro ieri", "the day before yesterday"], ["la settimana scorsa", "last week"], ["due giorni fa", "two days ago"], ["appena", "just"], ["nel 2019", "in 2019"]]},
+          {"kind": "fill", "q": "Hai ___ visto il mare d'inverno? (ever) — Sì, sono ___ {{tornato|tornata}} da Torre dell'Orso. (just)", "answers": [["mai"], ["appena"]], "n": "Have you ever seen the sea in winter? — Yes, I've just come back from Torre dell'Orso."},
+          {"kind": "order", "answer": "Chiara non è ancora tornata dal mare.", "n": "Chiara hasn't come back from the sea yet."},
+          {"kind": "mc", "q": "«Non ci sono mai stato.»", "options": ["I've never been there.", "I'm never there.", "I didn't stay there."], "answer": 0, "why": "Essere → stato; ci = there; non… mai = never."},
+          {"kind": "translate", "q": "First Chiara went to the bar, then she got lost.", "answers": ["Prima Chiara è andata al bar, poi si è persa", "Prima Chiara è andata al bar e poi si è persa"]}
+        ]},
+        {"type": "exercises", "title": "4 · La doppia negazione", "items": [
+          {"kind": "fill", "q": "Non ho visto ___ (nothing). Non è venuto ___ (nobody). Non sono ___ {{tornato|tornata}} lì. (no more)", "answers": [["niente", "nulla"], ["nessuno"], ["più"]], "n": "I didn't see anything. Nobody came. I never went back there."},
+          {"kind": "mc", "q": "«I haven't eaten anything.»", "options": ["Non ho mangiato niente.", "Ho mangiato niente.", "Non ho mangiato qualcosa."], "answer": 0, "why": "Non + verb + niente. Qualcosa is for positives and questions."},
+          {"kind": "fill", "q": "Non mangio ___ carne ___ pesce. (neither… nor)", "answers": [["né"], ["né"]], "n": "I eat neither meat nor fish."},
+          {"kind": "order", "answer": "Nessuno ha visto niente.", "n": "Nobody saw anything."},
+          {"kind": "fill", "q": "È venuto qualcuno? — No, ___ è venuto ___.", "answers": [["non"], ["nessuno"]], "n": "Did anyone come? — No, nobody came."},
+          {"kind": "translate", "q": "Chiara has never been to Naples.", "answers": ["Chiara non è mai stata a Napoli"]}
+        ]},
+        {"type": "exercises", "title": "5 · Ripasso · Units 1–9", "review": true, "items": [
+          {"kind": "fill", "q": "Mi ___ (chiamarsi) {hero}, ___ (avere) trent'anni e ___ (essere) {{nato|nata}} a Toronto.", "answers": [["chiamo"], ["ho"], ["sono"]], "n": "My name is {hero}, I'm thirty and I was born in Toronto."},
+          {"kind": "fill", "q": "A pranzo ___ dodici persone. C'è ___ (some) vino e ci sono ___ (some) polpette.", "answers": [["ci sono"], ["del"], ["delle"]], "n": "At lunch there are twelve people. There's some wine and there are some meatballs."},
+          {"kind": "fill", "q": "Anna ___ (fare) le orecchiette ogni domenica; ieri ___ (fare) anche le polpette.", "answers": [["fa"], ["ha fatto"]], "n": "Anna makes orecchiette every Sunday; yesterday she also made meatballs."},
+          {"kind": "fill", "q": "Vado ___ mare (a + il), torno ___ paese (in + il) e passo ___ bar (da + il).", "answers": [["al"], ["nel"], ["dal"]], "n": "I go to the sea, come back to the village and drop by the bar."},
+          {"kind": "fill", "q": "A nonno Oronzo ___ (piacere) i dolci; a me ___ (piacere) le orecchiette.", "answers": [["piacciono"], ["piacciono"]], "n": "Grandpa Oronzo likes sweets; I like orecchiette."},
+          {"kind": "fill", "q": "Ieri {hero} ___ (alzarsi) alle sei, ___ (uscire) e ___ (prendere) la bici.", "answers": [[{"m": "si è alzato", "f": "si è alzata"}], [{"m": "è uscito", "f": "è uscita"}], ["ha preso"]], "n": "Yesterday {hero} got up at six, went out and took the bike."},
+          {"kind": "fill", "q": "Che ore ___? — ___ l'una. Il pranzo finisce ___ quattro.", "answers": [["sono"], ["È"], ["alle"]], "n": "What time is it? — It's one. Lunch ends at four."},
+          {"kind": "mc", "q": "«Com'è andata?»", "options": ["How did it go?", "Where did she go?", "How is it going?"], "answer": 0, "why": "Andare in the past, fixed feminine: how did it go?"},
+          {"kind": "translate", "q": "Chiara has already eaten, but she hasn't paid yet.", "answers": ["Chiara ha già mangiato, ma non ha ancora pagato", "Chiara ha già mangiato ma non ha ancora pagato"]},
+          {"kind": "write", "q": "Tell your first week in a new place in six sentences: when you arrived, who you met, where you went, one thing that happened, one thing you have never done, and how it went.", "model": "Sono {{arrivato|arrivata}} il primo giugno con due valigie. Ho conosciuto Dora e Chiara il primo giorno. Sono {{andato|andata}} al mare con i cugini. Mi sono {{perso|persa}} una volta e sono {{finito|finita}} al cimitero. Non sono mai {{stato|stata}} a Lecce. Alla fine è andata bene: ho trovato una casa e una famiglia.", "hint": "Sono arrivato/a… · Ho conosciuto… · Sono andato/a… · È successo… · Non sono mai… · È andata…"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Il pranzo della domenica e il Mezzogiorno",
+      "intro": "The four-hour lunch, the South and its stereotypes, the patron saint's feast, and the ships that took a generation from Naples to Halifax.",
+      "blocks": [
+        {"type": "subhead", "text": "Il pranzo della domenica"},
+        {"type": "prose", "text": "Sunday lunch is the institution that holds Italian families together, and in the South it still happens almost every week. It starts at one and ends at five. The courses come in order and nobody skips one: [[antipasto]], [[primo]] (the pasta, often homemade), [[secondo]] with [[contorno]], then fruit, [[dolce]], coffee and the [[amaro]]. The sauce has been on the stove since morning. Everyone has a seat, the oldest at the head of the table, and the newcomer next to them. You will be asked the same questions by twelve people, you will be fed until you refuse three times, and you will be given a container of leftovers for the week. Saying [[no, grazie]] once is not a refusal; it is the opening of a negotiation."},
+        {"type": "subhead", "text": "Il Mezzogiorno"},
+        {"type": "prose", "text": "Il Mezzogiorno, the South, is Italy from Rome down: Campania, Puglia, Basilicata, Calabria, Sicilia, Sardegna, Abruzzo and Molise. It was a separate kingdom until 1861 and a poorer region ever since: lower wages, fewer jobs, the state slower and the family faster. The stereotypes exist in both directions. The North calls the South lazy and loud; the South calls the North cold and money-obsessed. The reality in Roccamarina is a town where everyone works, often two jobs; where the young leave for Milan, Bologna, Berlin or Toronto and come back in August; where the sea is the economy and the family is the welfare state. Puglia in particular has changed in twenty years: tourism, wine, olive oil and a wave of returnees have made Lecce and the Salento one of the most visited corners of Italy. Dora will tell you it was better before. Chiara will tell you it is better now. Both are right."},
+        {"type": "callout", "kind": "real", "title": "La festa patronale", "text": "Every town has a patron saint and a feast day, and in the South the feast is the year's peak. Roccamarina's is [[San Rocco]], on 16 August: the statue carried through the streets, the band, the [[luminarie]] (arches of coloured lights over the main street), the fireworks over the sea at midnight, the stalls selling nougat and roasted nuts. Emigrants come home for it: the week of the festa is when the town's population triples and every table has a cousin from Toronto. In Lecce the patron is [[Sant'Oronzo]], late August; Chiara's pastry shop is named after him."},
+        {"type": "subhead", "text": "Le navi per Halifax"},
+        {"type": "prose", "text": "Between 1946 and 1975 about half a million Italians emigrated to Canada, most of them from the South, most of them through one door: [[Pier 21]] in Halifax, Nova Scotia, where the ships from Naples and Genoa docked after ten to twelve days at sea. From there, the train: two days to Toronto. Toronto became the largest Italian city outside Italy, with its own neighbourhoods (College Street, then St. Clair, Corso Italia) and its own Italian, frozen in the 1960s and mixed with English. Pier 21 is now the [[Canadian Museum of Immigration]]; many families, including the Ferrantes of Toronto, can find their arrival record there. Cosimo's says: Ferrante, Cosimo, 34, tile-setter, with wife and son, Roccamarina (Lecce), 12 April 1969."},
+        {"type": "callout", "kind": "culture", "title": "La memoria dell'emigrazione", "text": "Every family in Roccamarina has a Cosimo: someone who left and did not come back, who sent money for a roof, who phoned on Sundays. The town keeps a photograph of the departures at the station and a plaque at the port. The returnee is a familiar figure too: the [[americano]] (anyone from across the ocean, Canada included) who comes back with a strange accent and an ancestral house to claim. You are one now. People will tell you who your grandfather was. Let them."}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In sintesi",
+      "intro": "Everything from this unit on one screen. Then the flashcards.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Passato prossimo (essere)", "rows": [["sono · sei · è · siamo · siete · sono + participle with -o / -a / -i / -e", "agreement with the subject"], ["andare, venire, arrivare, partire, tornare, entrare, uscire, salire, scendere, cadere · nascere, morire, diventare · stare, restare, rimanere, essere · succedere, piacere · all reflexives", "the essere verbs"], ["stato · venuto · rimasto · nato · morto · vissuto · piaciuto · successo · sceso", "irregular participles"], ["mi sono alzato / a · ci siamo conosciuti · si sono sposati", "reflexive and reciprocal"]]},
+          {"title": "Quando", "rows": [["ieri · l'altro ieri · la settimana scorsa · tre mesi fa · nel 1969 · a giugno", "points in the past"], ["prima · poi · dopo · alla fine · all'improvviso", "order"], ["ho già · non ho ancora · non ho mai · ho appena · non è più", "in the middle"]]},
+          {"title": "La negazione", "rows": [["non… mai · non… niente / nulla · non… nessuno · non… più · non… ancora · non… né… né", "non + the negative word"], ["Nessuno è venuto. Niente è cambiato.", "subject first: no non"]]},
+          {"title": "A tavola", "rows": [["antipasto · primo · secondo · contorno · dolce · caffè · amaro", "the order"], ["Com'è andata? · Racconta! · E poi? · Un brindisi! · Cin cin!", "what you'll hear"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

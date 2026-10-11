@@ -1,0 +1,23 @@
+{"id": "reflexive-verbs-past", "title": "Reflexive and reciprocal verbs in the past", "category": "Verbs", "rule": "Every reflexive verb takes essere in the passato prossimo: pronoun + essere + participle agreeing with the subject (mi sono alzato / alzata, ci siamo alzati / alzate). Plural reflexives also express each other (reciprocal): ci siamo conosciuti, si sono sposati, vi siete visti. Non goes before the pronoun; mai, già, ancora, appena go between essere and the participle.", "units": ["09"], "blocks": [
+  {"type": "conjugation", "verbs": ["alzarsi", "divertirsi"], "tense": "passato_prossimo", "caption": "Two reflexives, shown for your protagonist"},
+  {"type": "table", "head": ["Use", "Italian", "English"], "rows": [["reflexive (oneself)", "Mi sono svegliato / svegliata alle sei.", "I woke up at six."], ["with a body part or object", "Mi sono lavato le mani. Si è messa la giacca.", "I washed my hands. She put her jacket on."], ["reciprocal (each other)", "Ci siamo conosciuti al bar. Si sono salutati.", "We met at the bar. They said goodbye to each other."], ["negative", "Non mi sono perso. Non si sono mai sposati.", "I didn't get lost. They never got married."], ["question", "Ti sei divertito / divertita? Vi siete persi?", "Did you have fun? Did you get lost?"], ["with modals", "Mi sono dovuto alzare. / Ho dovuto alzarmi.", "I had to get up. (both orders are correct)"]], "speak": [1], "rowhead": true},
+  {"type": "callout", "kind": "note", "title": "Agreement with an object: keep it simple", "text": "In [[mi sono lavato le mani]] the standard rule lets the participle agree with the subject (lavato / lavata) or with the object (lavate). At A2, agree with the subject, as with every other reflexive: Lucia says [[mi sono lavata le mani]], Luca [[mi sono lavato le mani]]. Nobody will correct you."},
+  {"type": "examples", "items": [
+    {"t": {"m": "Stamattina mi sono svegliato tardi, non mi sono fatto la doccia e mi sono vestito in due minuti.", "f": "Stamattina mi sono svegliata tardi, non mi sono fatta la doccia e mi sono vestita in due minuti."}, "n": "This morning I woke up late, didn't have a shower and got dressed in two minutes."},
+    {"t": "Chiara e Tommaso si sono conosciuti a scuola, si sono persi di vista e si sono ritrovati al bar.", "n": "Chiara and Tommaso met at school, lost touch and found each other again at the bar."},
+    {"t": "Vi siete divertiti al mare? — Ci siamo divertiti moltissimo, e ci siamo scottati.", "n": "Did you have fun at the sea? — We had a great time, and we got sunburnt."},
+    {"t": "Anna se n'è accorta subito. Nessuno si è accorto di niente.", "n": "Anna noticed straight away. Nobody noticed anything.", "note": "accorgersi → accorto"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Mi ho svegliato. Ci abbiamo conosciuti.", "right": "Mi sono svegliato / a. Ci siamo conosciuti.", "why": "Essere, always."},
+    {"wrong": "Mi sono svegliato. (Lucia) · Si sono sposato.", "right": "Mi sono svegliata. Si sono sposati.", "why": "Agreement with the subject."},
+    {"wrong": "Mi non sono alzato. Sono mi alzato.", "right": "Non mi sono alzato.", "why": "Non + pronoun + essere + participle."},
+    {"wrong": "Ci siamo incontrati l'uno con l'altro.", "right": "Ci siamo incontrati.", "why": "The reciprocal is already in ci siamo; add a vicenda only for emphasis."},
+    {"wrong": "Mi sono lavato le mie mani.", "right": "Mi sono lavato le mani.", "why": "Definite article, no possessive."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Dora e Pasquale ___ (conoscersi) nel 1975 e non ___ mai ___ (sposarsi). Ieri ___ (litigare) di nuovo.", "answers": [["si sono conosciuti"], ["si sono"], ["sposati"], ["hanno litigato"]], "n": "Dora and Pasquale met in 1975 and never got married. Yesterday they argued again."},
+    {"kind": "fill", "q": "Chiara ___ (alzarsi) alle cinque, ___ (farsi) un caffè e ___ (andare) in pasticceria.", "answers": [["si è alzata"], ["si è fatta"], ["è andata"]], "n": "Chiara got up at five, made herself a coffee and went to the pastry shop."},
+    {"kind": "translate", "q": "Did you (pl.) have fun? — Yes, we had fun and we got lost.", "answers": ["Vi siete divertiti? Sì, ci siamo divertiti e ci siamo persi", "Vi siete divertiti? — Sì, ci siamo divertiti e ci siamo persi", "Vi siete divertite? Sì, ci siamo divertite e ci siamo perse"]}
+  ]}
+]}

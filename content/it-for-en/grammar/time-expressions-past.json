@@ -1,0 +1,22 @@
+{"id": "time-expressions-past", "title": "Time expressions for the past", "category": "Adverbs", "rule": "Points in time (ieri, la settimana scorsa, tre giorni fa, nel 1969) go at the start or the end of the sentence. Sequencers (prima, poi, dopo, alla fine) open the sentence. Short adverbs (già, ancora, mai, appena, sempre, più) go between the auxiliary and the participle. Fa follows the time span; scorso follows the noun and agrees.", "units": ["09"], "blocks": [
+  {"type": "table", "caption": "Points in the past", "head": ["Italian", "English"], "rows": [["oggi · stamattina · oggi pomeriggio · stasera", "today · this morning · this afternoon · tonight"], ["ieri · ieri mattina · ieri sera · ieri notte", "yesterday · yesterday morning · last night (evening) · last night (late)"], ["l'altro ieri · l'altroieri", "the day before yesterday"], ["la settimana scorsa · il mese scorso · l'anno scorso · lunedì scorso · l'estate scorsa", "last week · last month · last year · last Monday · last summer"], ["un'ora fa · tre giorni fa · due anni fa · poco fa · tanto tempo fa", "an hour ago · three days ago · two years ago · a moment ago · a long time ago"], ["nel 1969 · a giugno · in giugno · il 12 aprile · alle sei · di domenica", "in 1969 · in June · on 12 April · at six · on Sundays"], ["da bambino · da giovane · a vent'anni", "as a child · when young · at twenty"]], "speak": [0], "compact": true},
+  {"type": "table", "caption": "Order and sequence", "head": ["Italian", "English"], "rows": [["prima · all'inizio", "first · at the beginning"], ["poi · dopo · più tardi · in seguito", "then · after · later · subsequently"], ["mentre · intanto · nel frattempo", "while · meanwhile"], ["all'improvviso · a un certo punto", "suddenly · at a certain point"], ["alla fine · infine · finalmente", "in the end · lastly · at last"], ["una volta · due volte · ogni volta · l'ultima volta", "once · twice · every time · the last time"]], "speak": [0], "compact": true},
+  {"type": "table", "caption": "Inside the verb", "head": ["Italian", "English"], "rows": [["Ho già mangiato.", "I've already eaten."], ["Non ho ancora mangiato.", "I haven't eaten yet."], ["Non ho mai mangiato le polpette. Hai mai…?", "I've never eaten meatballs. Have you ever…?"], ["Ho appena mangiato.", "I've just eaten."], ["Ho sempre mangiato bene qui.", "I've always eaten well here."], ["Non ho più mangiato carne.", "I haven't eaten meat since / any more."]], "speak": [0], "compact": true},
+  {"type": "examples", "items": [
+    {"t": "Due anni fa ho preso la cittadinanza; l'anno scorso ho deciso; tre mesi fa sono partito.", "n": "Two years ago I got citizenship; last year I decided; three months ago I left."},
+    {"t": "Prima siamo andati al mare, poi abbiamo mangiato, dopo Tommaso si è addormentato e alla fine siamo tornati.", "n": "First we went to the sea, then we ate, after that Tommaso fell asleep and in the end we came back."},
+    {"t": "All'improvviso ha cominciato a piovere. A un certo punto Dora ha chiuso tutto.", "n": "Suddenly it started raining. At a certain point Dora closed everything."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Fa due anni. Due anni prima. (for \"two years ago\")", "right": "Due anni fa.", "why": "Fa after the span. Prima = before another past moment."},
+    {"wrong": "In 1969. In il 1969.", "right": "Nel 1969.", "why": "In + il = nel."},
+    {"wrong": "Ieri notte (for yesterday evening)", "right": "Ieri sera.", "why": "Notte is the late night."},
+    {"wrong": "Già ho mangiato. Ho mangiato già. (possible, but marked)", "right": "Ho già mangiato.", "why": "In the middle."},
+    {"wrong": "Finalmente ho pagato. (for \"lastly\")", "right": "Infine ho pagato. / Alla fine ho pagato.", "why": "Finalmente = at last, with relief."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Sono arrivato tre mesi ___. La settimana ___ sono andato a Lecce. ___ 2019 ero a Toronto. Ho ___ finito. (just)", "answers": [["fa"], ["scorsa"], ["Nel"], ["appena"]], "n": "I arrived three months ago. Last week I went to Lecce. In 2019 I was in Toronto. I've just finished."},
+    {"kind": "order", "answer": "Prima ho mangiato e poi sono uscito.", "n": "First I ate and then I went out."},
+    {"kind": "translate", "q": "Last week Chiara went to Lecce twice.", "answers": ["La settimana scorsa Chiara è andata a Lecce due volte", "Chiara è andata a Lecce due volte la settimana scorsa"]}
+  ]}
+]}

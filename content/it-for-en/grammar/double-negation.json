@@ -1,0 +1,22 @@
+{"id": "double-negation", "title": "Double negation: non… mai, niente, nessuno, più", "category": "Negation", "rule": "Italian requires non before the verb even when another negative word follows: non… mai (never), non… niente / nulla (nothing), non… nessuno (nobody; nessun + noun = no), non… più (no more, no longer), non… ancora (not yet), non… né… né (neither… nor), non… affatto / per niente (not at all), non… mica (not at all, colloquial). Several can stack. When nessuno, niente or nessun + noun is the subject and comes first, non is dropped.", "units": ["09"], "blocks": [
+  {"type": "table", "head": ["Italian", "English", "Note"], "rows": [["Non vado mai al cinema.", "I never go to the cinema.", "mai after the verb; in compound tenses in the middle"], ["Non ho capito niente. / nulla.", "I didn't understand anything.", "niente and nulla are the same"], ["Non conosco nessuno qui.", "I don't know anyone here.", "nessuno = nobody"], ["Non ho nessun amico. Non c'è nessuna fretta.", "I have no friends. There's no hurry.", "nessun / nessuna + singular noun"], ["Non abito più a Toronto.", "I don't live in Toronto any more.", "più = no longer"], ["Non ho ancora deciso.", "I haven't decided yet.", "ancora = yet"], ["Non bevo né caffè né tè.", "I drink neither coffee nor tea.", "né… né"], ["Non mi piace affatto. Non mi piace per niente.", "I don't like it at all.", "affatto, per niente"], ["Non è mica vero!", "It isn't true at all!", "mica: colloquial, emphatic"], ["Non ho mai detto niente a nessuno.", "I never told anyone anything.", "stacked"], ["Nessuno lo sa. Niente è cambiato. Nessun treno è partito.", "Nobody knows. Nothing has changed. No train left.", "subject first: no non"]], "speak": [0]},
+  {"type": "callout", "kind": "compare", "title": "Count the negatives, keep one meaning", "text": "English allows one negative per clause: *I never told anyone anything*. Italian puts non on the verb and then uses the negative forms of ever / anything / anyone: [[non ho mai detto niente a nessuno]]. Four negatives, one meaning. The rule is simple: the verb always gets non, unless a negative word has already come before it."},
+  {"type": "examples", "items": [
+    {"t": "Hai visto qualcuno? — No, non ho visto nessuno. Non c'era nessuno.", "n": "Did you see anyone? — No, I didn't see anyone. There was nobody there.", "note": "qualcuno in the question, nessuno in the answer"},
+    {"t": "Vuoi qualcosa? — No, grazie, non voglio niente. Non ho più fame.", "n": "Do you want something? — No, thanks, I don't want anything. I'm not hungry any more."},
+    {"t": "Nessuno è venuto e niente è successo. Nessun problema.", "n": "Nobody came and nothing happened. No problem."},
+    {"t": "Non ho né tempo né voglia.", "n": "I have neither the time nor the desire."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Ho visto nessuno. Capisco niente.", "right": "Non ho visto nessuno. Non capisco niente.", "why": "Non before the verb."},
+    {"wrong": "Non nessuno è venuto.", "right": "Nessuno è venuto.", "why": "Subject first: no non."},
+    {"wrong": "Non ho nessuni amici.", "right": "Non ho nessun amico. / Non ho amici.", "why": "Nessun + singular."},
+    {"wrong": "Non voglio qualcosa.", "right": "Non voglio niente.", "why": "Qualcosa is for positive sentences and questions."},
+    {"wrong": "Non bevo caffè e tè. (meaning neither)", "right": "Non bevo né caffè né tè.", "why": "Né… né for neither… nor."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Non conosco ___ qui. (nobody) Non ho capito ___. (nothing) Non abito ___ a Toronto. (any more) Non ho ___ deciso. (yet)", "answers": [["nessuno"], ["niente", "nulla"], ["più"], ["ancora"]], "n": "I don't know anyone here. I didn't understand anything. I don't live in Toronto any more. I haven't decided yet."},
+    {"kind": "mc", "q": "«Nobody called.»", "options": ["Nessuno ha chiamato.", "Non nessuno ha chiamato.", "Nessuno non ha chiamato."], "answer": 0, "why": "Nessuno as subject at the start: no non."},
+    {"kind": "translate", "q": "I never told anyone anything.", "answers": ["Non ho mai detto niente a nessuno", "Non ho mai detto nulla a nessuno"]}
+  ]}
+]}
