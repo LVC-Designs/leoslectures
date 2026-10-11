@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 66 (units 1–16) · EN: 58 (units 1–15) |
+| Grammar reference pages | IT: 66 (units 1–16) · EN: 61 (units 1–16) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -66,7 +66,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 13 | Shifts at the bakery | A2 | ● 2026-10-10 |
 | 14 | Small talk and a barbecue | A2 | ● 2026-10-10 |
 | 15 | Road trip: Niagara and Montréal | A2 | ● 2026-10-11 |
-| 16 | A letter home · checkpoint | A2 | ☐ |
+| 16 | A letter home · checkpoint | A2 | ● 2026-10-11 |
 | 17 | Moving in | B1 | ☐ |
 | 18 | Opinions, eh? | B1 | ☐ |
 | 19 | Christmas, and Luca / Lucia comes home | B1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 16 · A letter home · A2 checkpoint.**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 17 · Il primo inverno (B1).**
 
 ## Session log
 
+- **2026-10-11 (33)** · English track Unit 16 written (2 scenes, 36 words, 4 grammar points + 3 reference pages, connected speech, A2 checkpoint of 10 exercises, culture, A2 summary). Crossover with Italian Unit 19. Both tracks A2 complete. Verified and committed.
 - **2026-10-11 (32)** · Italian track Unit 16 written (2 scenes, 38 words, 3 grammar points + 2 reference pages, A2 checkpoint of 10 exercises, culture, A2 summary). Italian A2 complete. Verified and committed.
 - **2026-10-11 (31)** · English track Unit 15 written (2 scenes, 32 words, 5 grammar points + 3 reference pages, 'ha and place names, 41 exercises, culture, summary). Verified and committed.
 - **2026-10-11 (30)** · Italian track Unit 15 written (2 scenes, 42 words, 5 grammar points + 5 reference pages, Neapolitan dialect listening, 40 exercises, culture, summary). Verified and committed.
