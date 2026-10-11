@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 59 (units 1–14) · EN: 52 (units 1–13) |
+| Grammar reference pages | IT: 59 (units 1–14) · EN: 55 (units 1–14) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -64,7 +64,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 11 | First snow | A2 | ● 2026-10-10 |
 | 12 | At the walk-in clinic | A2 | ● 2026-10-10 |
 | 13 | Shifts at the bakery | A2 | ● 2026-10-10 |
-| 14 | Small talk and a barbecue | A2 | ☐ |
+| 14 | Small talk and a barbecue | A2 | ● 2026-10-10 |
 | 15 | Road trip: Niagara and Montréal | A2 | ☐ |
 | 16 | A letter home · checkpoint | A2 | ☐ |
 | 17 | Moving in | B1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 14 · Small talk and a barbecue (A2).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 15 · Weekend a Napoli (A2).**
 
 ## Session log
 
+- **2026-10-10 (29)** · English track Unit 14 written (2 scenes, 42 words, 5 grammar points + 3 reference pages and one extended, tag intonation and sorry / excuse me / pardon, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (28)** · Italian track Unit 14 written (2 scenes, 47 words, 5 grammar points + 5 reference pages, gli clusters and request melody, 40 exercises, culture, summary). Verified and committed.
 - **2026-10-10 (27)** · English track Unit 13 written (2 scenes, 45 words, 5 grammar points + 3 reference pages and one extended, contractions, 40 exercises, culture, summary). Crossover with Italian Unit 13. Verified and committed.
 - **2026-10-10 (26)** · Italian track Unit 13 written (2 scenes, 43 words, 5 grammar points + 3 reference pages and one extended, future stress, 40 exercises, culture, summary). Verified and committed.
