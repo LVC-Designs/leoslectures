@@ -1,22 +1,339 @@
-{"id": "phrasal-verbs", "title": "I phrasal verb (prima parte): separabili e non", "category": "Verbi", "rule": "Un phrasal verb è verbo + particella (on, off, up, down, out, in, back, away) con un significato proprio: put on = mettersi, take off = togliersi, give up = arrendersi. Separabili: con un nome la particella va prima o dopo il nome (put on your coat / put your coat on); con un pronome, solo dopo (put it on). Non separabili: la particella resta attaccata al verbo (get on the bus, get on it; look after the kids, look after them). Alcuni con tre parole: get on with, look forward to.", "units": ["11"], "blocks": [
-  {"type": "table", "caption": "Separabili", "head": ["Phrasal verb", "Italiano", "Con nome", "Con pronome"], "rows": [["put on", "mettersi", "put on the toque / put the toque on", "put it on"], ["take off", "togliersi", "take off your boots / take your boots off", "take them off"], ["pick up", "raccogliere; andare a prendere", "pick up the mitts / pick the mitts up", "pick them up"], ["turn on / turn off", "accendere / spegnere", "turn on the heat / turn the heat on", "turn it on"], ["zip up", "chiudere la zip", "zip up your coat", "zip it up"], ["warm up", "scaldare", "warm up the car", "warm it up"], ["clear off", "pulire (togliere da)", "clear the snow off the car", "clear it off"], ["give up", "smettere, arrendersi", "give up smoking", "give it up"], ["throw away", "buttare", "throw away the old boots", "throw them away"], ["bring back", "riportare", "bring back the shovel", "bring it back"]], "speak": [2, 3], "rowhead": true, "compact": true},
-  {"type": "table", "caption": "Non separabili", "head": ["Phrasal verb", "Italiano", "Esempio"], "rows": [["get on / get off", "salire / scendere (mezzo)", "I got on the bus. Get off at the next stop. Get on it."], ["get up", "alzarsi", "Franco got up at five."], ["look after", "badare a", "Teresa looks after everybody. She looks after them."], ["look for", "cercare", "I'm looking for my mitts. I'm looking for them."], ["fall over · fall down", "cadere", "I fell over on the ice."], ["bundle up", "coprirsi bene", "Bundle up before you go out."], ["come in · go out", "entrare · uscire", "Come in and warm up. Don't go out without a toque."], ["run out of", "finire (scorte)", "We ran out of salt. We ran out of it."], ["look forward to + -ing", "non vedere l'ora di", "I'm looking forward to spring."]], "speak": [2], "rowhead": true, "compact": true},
-  {"type": "callout", "kind": "compare", "title": "Mettersi, togliersi: niente riflessivo", "text": "L'italiano usa il riflessivo: [[mi metto il cappotto]], [[si toglie gli stivali]]. L'inglese usa il phrasal verb con il possessivo: [[I put my coat on]], [[she takes her boots off]]. [[Put myself]] non esiste. E con il pronome la particella va sempre dopo: [[put it on]], [[take them off]]; [[put on it]] è l'errore che tradisce gli stranieri."},
-  {"type": "examples", "items": [
-    {"t": "Teresa handed me a toque and I put it on. She handed me mitts and I put those on too.", "n": "Teresa mi ha passato un berretto e me lo sono messo. Mi ha passato le manopole e mi sono messa anche quelle."},
-    {"t": "Take your boots off at the door, turn the light on, warm the kitchen up and don't give up on winter.", "n": "Togliti gli stivali alla porta, accendi la luce, scalda la cucina e non arrenderti all'inverno."},
-    {"t": "I got on the streetcar, looked for a seat, and fell over when it started.", "n": "Sono salita sul tram, ho cercato un posto e sono caduta quando è partito."},
-    {"t": "Franco picks Sofia up at six. He picks her up every day. He looks after everybody.", "n": "Franco va a prendere Sofia alle sei. La va a prendere ogni giorno. Bada a tutti."}
-  ]},
-  {"type": "mistakes", "items": [
-    {"wrong": "Put on it. Take off them. Pick up it.", "right": "Put it on. Take them off. Pick it up.", "why": "Pronome in mezzo (separabili)."},
-    {"wrong": "Look them after. Get it on. Look it for.", "right": "Look after them. Get on it. Look for it.", "why": "Non separabili: il pronome dopo la particella."},
-    {"wrong": "Put myself the coat. I dressed the toque.", "right": "I put my coat on. I put the toque on.", "why": "Niente riflessivo; dress = vestirsi tutto."},
-    {"wrong": "I'm looking forward to see you.", "right": "I'm looking forward to seeing you.", "why": "Look forward to + -ing: to è una preposizione."}
-  ]},
-  {"type": "exercises", "title": "Check yourself", "items": [
-    {"kind": "fill", "q": "Put your coat ___. Take it ___ inside. Turn the heat ___. We ran ___ of salt. I'm looking ___ my mitts.", "answers": [["on"], ["off"], ["on", "up"], ["out"], ["for"]], "n": "Mettiti il cappotto. Toglilo dentro. Accendi il riscaldamento. Abbiamo finito il sale. Sto cercando le manopole."},
-    {"kind": "mc", "q": "«Toglili.» (gli stivali)", "options": ["Take them off.", "Take off them.", "Take yourself them."], "answer": 0, "why": "Separabile con il pronome in mezzo."},
-    {"kind": "translate", "q": "Franco picks Sofia up at six and looks after everybody.", "answers": ["Franco picks Sofia up at six and looks after everybody", "Franco picks up Sofia at six and looks after everybody", "Franco picks Sofia up at six and looks after everyone"]}
-  ]}
-]}
+{
+"id": "phrasal-verbs",
+"title": "I phrasal verb (prima parte): separabili e non",
+"category": "Verbi",
+"rule": "Un phrasal verb è verbo + particella (on, off, up, down, out, in, back, away) con un significato proprio: put on = mettersi, take off = togliersi, give up = arrendersi. Separabili: con un nome la particella va prima o dopo il nome (put on your coat / put your coat on); con un pronome, solo dopo (put it on). Non separabili: la particella resta attaccata al verbo (get on the bus, get on it; look after the kids, look after them). Alcuni con tre parole: get on with, look forward to.",
+"units": [
+"11",
+"13"
+],
+"blocks": [
+{
+"type": "table",
+"caption": "Separabili",
+"head": [
+"Phrasal verb",
+"Italiano",
+"Con nome",
+"Con pronome"
+],
+"rows": [
+[
+"put on",
+"mettersi",
+"put on the toque / put the toque on",
+"put it on"
+],
+[
+"take off",
+"togliersi",
+"take off your boots / take your boots off",
+"take them off"
+],
+[
+"pick up",
+"raccogliere; andare a prendere",
+"pick up the mitts / pick the mitts up",
+"pick them up"
+],
+[
+"turn on / turn off",
+"accendere / spegnere",
+"turn on the heat / turn the heat on",
+"turn it on"
+],
+[
+"zip up",
+"chiudere la zip",
+"zip up your coat",
+"zip it up"
+],
+[
+"warm up",
+"scaldare",
+"warm up the car",
+"warm it up"
+],
+[
+"clear off",
+"pulire (togliere da)",
+"clear the snow off the car",
+"clear it off"
+],
+[
+"give up",
+"smettere, arrendersi",
+"give up smoking",
+"give it up"
+],
+[
+"throw away",
+"buttare",
+"throw away the old boots",
+"throw them away"
+],
+[
+"bring back",
+"riportare",
+"bring back the shovel",
+"bring it back"
+]
+],
+"speak": [
+2,
+3
+],
+"rowhead": true,
+"compact": true
+},
+{
+"type": "table",
+"caption": "Non separabili",
+"head": [
+"Phrasal verb",
+"Italiano",
+"Esempio"
+],
+"rows": [
+[
+"get on / get off",
+"salire / scendere (mezzo)",
+"I got on the bus. Get off at the next stop. Get on it."
+],
+[
+"get up",
+"alzarsi",
+"Franco got up at five."
+],
+[
+"look after",
+"badare a",
+"Teresa looks after everybody. She looks after them."
+],
+[
+"look for",
+"cercare",
+"I'm looking for my mitts. I'm looking for them."
+],
+[
+"fall over · fall down",
+"cadere",
+"I fell over on the ice."
+],
+[
+"bundle up",
+"coprirsi bene",
+"Bundle up before you go out."
+],
+[
+"come in · go out",
+"entrare · uscire",
+"Come in and warm up. Don't go out without a toque."
+],
+[
+"run out of",
+"finire (scorte)",
+"We ran out of salt. We ran out of it."
+],
+[
+"look forward to + -ing",
+"non vedere l'ora di",
+"I'm looking forward to spring."
+]
+],
+"speak": [
+2
+],
+"rowhead": true,
+"compact": true
+},
+{
+"type": "callout",
+"kind": "compare",
+"title": "Mettersi, togliersi: niente riflessivo",
+"text": "L'italiano usa il riflessivo: [[mi metto il cappotto]], [[si toglie gli stivali]]. L'inglese usa il phrasal verb con il possessivo: [[I put my coat on]], [[she takes her boots off]]. [[Put myself]] non esiste. E con il pronome la particella va sempre dopo: [[put it on]], [[take them off]]; [[put on it]] è l'errore che tradisce gli stranieri."
+},
+{
+"type": "examples",
+"items": [
+{
+"t": "Teresa handed me a toque and I put it on. She handed me mitts and I put those on too.",
+"n": "Teresa mi ha passato un berretto e me lo sono messo. Mi ha passato le manopole e mi sono messa anche quelle."
+},
+{
+"t": "Take your boots off at the door, turn the light on, warm the kitchen up and don't give up on winter.",
+"n": "Togliti gli stivali alla porta, accendi la luce, scalda la cucina e non arrenderti all'inverno."
+},
+{
+"t": "I got on the streetcar, looked for a seat, and fell over when it started.",
+"n": "Sono salita sul tram, ho cercato un posto e sono caduta quando è partito."
+},
+{
+"t": "Franco picks Sofia up at six. He picks her up every day. He looks after everybody.",
+"n": "Franco va a prendere Sofia alle sei. La va a prendere ogni giorno. Bada a tutti."
+}
+]
+},
+{
+"type": "mistakes",
+"items": [
+{
+"wrong": "Put on it. Take off them. Pick up it.",
+"right": "Put it on. Take them off. Pick it up.",
+"why": "Pronome in mezzo (separabili)."
+},
+{
+"wrong": "Look them after. Get it on. Look it for.",
+"right": "Look after them. Get on it. Look for it.",
+"why": "Non separabili: il pronome dopo la particella."
+},
+{
+"wrong": "Put myself the coat. I dressed the toque.",
+"right": "I put my coat on. I put the toque on.",
+"why": "Niente riflessivo; dress = vestirsi tutto."
+},
+{
+"wrong": "I'm looking forward to see you.",
+"right": "I'm looking forward to seeing you.",
+"why": "Look forward to + -ing: to è una preposizione."
+}
+]
+},
+{
+"type": "exercises",
+"title": "Check yourself",
+"items": [
+{
+"kind": "fill",
+"q": "Put your coat ___. Take it ___ inside. Turn the heat ___. We ran ___ of salt. I'm looking ___ my mitts.",
+"answers": [
+[
+"on"
+],
+[
+"off"
+],
+[
+"on",
+"up"
+],
+[
+"out"
+],
+[
+"for"
+]
+],
+"n": "Mettiti il cappotto. Toglilo dentro. Accendi il riscaldamento. Abbiamo finito il sale. Sto cercando le manopole."
+},
+{
+"kind": "mc",
+"q": "«Toglili.» (gli stivali)",
+"options": [
+"Take them off.",
+"Take off them.",
+"Take yourself them."
+],
+"answer": 0,
+"why": "Separabile con il pronome in mezzo."
+},
+{
+"kind": "translate",
+"q": "Franco picks Sofia up at six and looks after everybody.",
+"answers": [
+"Franco picks Sofia up at six and looks after everybody",
+"Franco picks up Sofia at six and looks after everybody",
+"Franco picks Sofia up at six and looks after everyone"
+]
+}
+]
+},
+{
+"type": "subhead",
+"text": "I phrasal verb del lavoro"
+},
+{
+"type": "table",
+"head": [
+"Phrasal verb",
+"Italiano",
+"Esempio",
+"Separabile?"
+],
+"rows": [
+[
+"fill in / fill out",
+"compilare",
+"Fill in the form. Fill it in.",
+"sì"
+],
+[
+"hand in",
+"consegnare",
+"Hand in your timesheet. Hand it in.",
+"sì"
+],
+[
+"set up",
+"preparare, allestire",
+"Set up the counter. Set it up.",
+"sì"
+],
+[
+"clock in / out",
+"timbrare",
+"Clock in on the tablet.",
+"no"
+],
+[
+"run out of",
+"finire le scorte",
+"We ran out of butter.",
+"no"
+],
+[
+"sell out (of)",
+"esaurire",
+"The scones sold out by ten.",
+"no"
+],
+[
+"cover for",
+"sostituire un collega",
+"Can you cover for Sam?",
+"no"
+],
+[
+"call in sick",
+"avvisare che si è malati",
+"Sam called in sick.",
+"no"
+],
+[
+"show up",
+"presentarsi",
+"He showed up late.",
+"no"
+],
+[
+"pick up (a shift)",
+"prendere un turno",
+"I'll pick up Saturday. I'll pick it up.",
+"sì"
+],
+[
+"take over",
+"subentrare",
+"Priya takes over at two.",
+"sì"
+]
+],
+"speak": [
+2
+],
+"rowhead": true,
+"compact": true,
+"note": "Unità 13. Separabili con il pronome in mezzo (fill it in); non separabili con il pronome dopo (cover for him)."
+}
+]
+}
