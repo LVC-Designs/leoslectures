@@ -1,0 +1,22 @@
+{"id": "prepositions-of-movement-perfect", "title": "get on / off / in / out of, by car · on foot", "category": "Preposizioni", "rule": "Mezzi su cui ti siedi (bus, train, bike, plane, horse, streetcar, subway, moped, boat grande): get on / get off. Mezzi in cui ti infili (car, taxi, Uber, elevator, small boat): get in / get out of. Un'autostrada, un ponte, un volo: get on / off. By + mezzo senza articolo per il modo (by car, by bus, by bike, by plane, by train, by boat, by ferry), on foot per \"a piedi\". In / on + mezzo con articolo per la posizione: in the car, on the bus. Entrare in autostrada: get on the highway; uscire: get off at exit…; mancare un'uscita: miss the exit.", "units": ["15"], "blocks": [
+  {"type": "table", "head": ["Mezzo", "Verbo", "Esempio"], "rows": [["bus · train · streetcar · subway · plane · bike · moped · boat (big) · horse", "get on / get off", "Get on the bus at Yorkdale. We got off the train in Ottawa. She fell off the bike."], ["car · taxi · Uber · small boat · elevator", "get in / get out of", "Get in the car! Get out of the taxi. The dog got in the elevator."], ["highway · bridge · the plane (the flight)", "get on / get off", "Get on the 401 at Keele. We got off at exit 383."]], "speak": [2], "rowhead": true},
+  {"type": "table", "caption": "By, on foot, in / on", "head": ["Inglese", "Italiano"], "rows": [["by car · by bus · by train · by plane · by bike · by boat · by ferry · by subway", "in macchina · in autobus · in treno · in aereo · in bici · in barca · in traghetto · in metro"], ["on foot", "a piedi"], ["in the car · in the taxi (posizione)", "in macchina · nel taxi"], ["on the bus · on the train · on the plane · on the bike (posizione)", "sull'autobus · sul treno · sull'aereo · sulla bici"], ["I came by car / I came in Sofia's car", "sono venuta in macchina / nella macchina di Sofia"]], "speak": [0], "compact": true},
+  {"type": "callout", "kind": "compare", "title": "In macchina, sull'autobus", "text": "L'italiano usa [[in]] per quasi tutto il modo ([[in macchina]], [[in autobus]], [[in treno]]) e cambia solo per [[a piedi]]. L'inglese divide: [[by]] senza articolo per il modo, [[get on]] / [[get in]] per salire, [[get off]] / [[get out of]] per scendere, e [[in]] o [[on]] con l'articolo per la posizione (nel / sul mezzo). Pensa a sopra o dentro: ti siedi sopra l'autobus come un cavaliere, ti infili dentro la macchina come in un cassetto."},
+  {"type": "examples", "items": [
+    {"t": "We got in the Corolla, got on the 401 at Keele and got off at exit 383. We travelled by car.", "n": "Siamo salite nella Corolla, siamo entrate in autostrada a Keele e siamo uscite all'uscita 383. Abbiamo viaggiato in macchina."},
+    {"t": "Get on the subway at Dundas West. Get off at Berri-UQAM. Then take a taxi: get in the back seat.", "n": "Prendi la metro a Dundas West. Scendi a Berri-UQAM. Poi un taxi: sali sul sedile posteriore."},
+    {"t": "I always go to work on foot. In winter I take the streetcar.", "n": "Vado sempre al lavoro a piedi. D'inverno prendo il tram."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Get on the car. Get off the taxi.", "right": "Get in the car. Get out of the taxi.", "why": "Macchine e taxi: in / out of."},
+    {"wrong": "Get in the bus. Get out of the train.", "right": "Get on the bus. Get off the train.", "why": "Mezzi pubblici: on / off."},
+    {"wrong": "I went by the car. I came in bike.", "right": "I went by car. I came by bike. / I came on my bike.", "why": "By + mezzo senza articolo."},
+    {"wrong": "I was in the plane. (per il volo come esperienza)", "right": "I was on the plane.", "why": "On per aerei, treni, autobus come esperienza."},
+    {"wrong": "On foot by taxi.", "right": "On foot. / By taxi.", "why": "Si sceglie una delle due."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Get ___ the bus at Yorkdale. Get ___ at Finch. Then get ___ the taxi and get ___ of it at my place.", "answers": [["on"], ["off"], ["in"], ["out"]], "n": "Sali sull'autobus a Yorkdale. Scendi a Finch. Poi sali sul taxi e scendi a casa mia."},
+    {"kind": "mc", "q": "«Ho viaggiato in macchina.»", "options": ["I travelled by car.", "I travelled in car.", "I travelled on car."], "answer": 0, "why": "By + mezzo, senza articolo."},
+    {"kind": "translate", "q": "We got on the highway at Keele and got off at exit 383.", "answers": ["We got on the highway at Keele and got off at exit 383", "We got on the highway at Keele and got off at exit 383."]}
+  ]}
+]}
