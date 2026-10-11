@@ -1,0 +1,356 @@
+{
+  "id": "06",
+  "level": "A1",
+  "title": "A typical day",
+  "subtitle": "Una giornata tipica (e la prima brina)",
+  "intro": "Il notiziario di Franco alle sei, il pranzo al sacco di Teresa, la scuola serale con Mateo, e una mattina di fine ottobre in cui l'erba è bianca. In questa unità impari a dire cosa fai di solito e cosa stai facendo adesso, che in inglese sono due tempi diversi: l'errore più comune degli italiani vive proprio qui. Poi il tempo, i mesi, le date, e gli articoli che l'inglese non mette.",
+  "objectives": [
+    "Dire cosa sta succedendo adesso: [[I'm making your lunch]], [[She's studying]], [[It's raining]]",
+    "Distinguere abitudine e momento: [[I walk every day]] / [[Today I'm taking the streetcar]]",
+    "Dire cosa ti piace fare: [[I love walking]], [[I hate working on Saturdays]], [[Do you enjoy baking?]]",
+    "Parlare del tempo, dei mesi e delle date: [[It's minus five]], [[in October]], [[October twenty-fifth]]",
+    "Lasciare fuori l'articolo dove l'inglese non lo vuole: [[go to work]], [[go to bed]], [[on Mondays]], [[I love music]]"
+  ],
+  "canDo": [
+    "A1 · Produzione orale: sa descrivere la propria routine e quello che sta facendo in questo momento.",
+    "A1 · Interazione orale: sa parlare del tempo, chiedere e dire la data, fare un programma semplice per il weekend.",
+    "A1 · Ascolto: sa capire un bollettino meteo semplice e una descrizione di una giornata.",
+    "A1 · Scrittura: sa scrivere un messaggio breve su cosa fa di solito e cosa sta facendo.",
+    "A1 · Lettura: sa capire un orario settimanale e un messaggio con la data e il tempo."
+  ],
+  "sections": [
+    {
+      "id": "story", "kind": "story", "title": "Six a.m. and the first frost",
+      "intro": "Un martedì mattina in cucina, poi un sabato di fine ottobre, la scuola serale e un video dalla spiaggia. Ascolta la differenza fra I get up (ogni giorno) e I'm making (adesso).",
+      "blocks": [
+        {"type": "dialogue", "id": "dlg-six-am", "title": "Six a.m.", "setting": "Martedì, ore sei. La cucina nel seminterrato di Corso Italia. La radio di Franco, il tostapane, Teresa con due contenitori di plastica.", "register": "informale, in famiglia", "lines": [
+          {"who": "Franco", "t": "Morning! You're up early. The news is on.", "n": "Buongiorno! Sei già in piedi. C'è il notiziario.", "note": "Morning = good morning, in famiglia. The news is on: il notiziario è acceso. News è singolare: the news is."},
+          {"who": "Chiara", "t": "I always get up at six. In Roccamarina I start at five: the oven doesn't wait.", "n": "Mi alzo sempre alle sei. A Roccamarina comincio alle cinque: il forno non aspetta.", "note": "I get up, I start: abitudini, present simple. Always fra soggetto e verbo."},
+          {"who": "Franco", "t": "Listen to this. Minus two tonight. Minus two! In October.", "n": "Senti questa. Meno due stanotte. Meno due! A ottobre.", "note": "Minus two = meno due gradi. In October: i mesi vogliono in."},
+          {"who": "Teresa", "t": "Franco, you say that every year. Chiara, I'm making your lunch. Do you want the leftover pasta or a sandwich?", "n": "Franco, lo dici ogni anno. Chiara, ti sto preparando il pranzo. Vuoi la pasta avanzata o un panino?", "note": "You say that every year: abitudine. I'm making: adesso, present continuous. Do you want: want non va mai al continuous."},
+          {"who": "Chiara", "t": "The pasta, please. What are you doing with all those containers?", "n": "La pasta, grazie. Cosa stai facendo con tutti quei contenitori?", "note": "What are you doing? = cosa stai facendo? La domanda al present continuous."},
+          {"who": "Teresa", "t": "Packed lunches. Sofia takes one too, when she gets up. She's still sleeping.", "n": "Pranzi al sacco. Ne prende uno anche Sofia, quando si alza. Sta ancora dormendo.", "note": "Sofia takes, she gets up: abitudine. She's sleeping: adesso. Still = ancora."},
+          {"who": "Chiara", "t": "I'm hearing music from her room.", "n": "Sto sentendo musica dalla sua stanza.", "note": "Sbagliato, e Teresa lo corregge subito."},
+          {"who": "Teresa", "t": "You hear music. Hear is like know and want: no -ing.", "n": "Senti musica. Hear è come know e want: niente -ing.", "note": "I verbi di percezione e di stato (hear, see, know, want, like, need) restano al present simple anche adesso."},
+          {"who": "Franco", "t": "That's not music. That's the news. She listens to the news at six, like her father.", "n": "Non è musica. È il notiziario. Ascolta il notiziario alle sei, come suo padre.", "note": "Listen to + cosa: ascoltare vuole to."},
+          {"who": "Chiara", "t": "What time does Sofia leave for school?", "n": "A che ora esce Sofia per la scuola?"},
+          {"who": "Teresa", "t": "She doesn't go to school. She goes to university. She leaves at eight, usually. Today she isn't going: her classes are online on Tuesdays.", "n": "Non va a scuola. Va all'università. Esce alle otto, di solito. Oggi non ci va: il martedì le sue lezioni sono online.", "note": "Go to school, go to university: senza articolo. Today she isn't going: l'eccezione di oggi va al continuous. On Tuesdays: ogni martedì."},
+          {"who": "Franco", "t": "I'm driving you to the bakery, Chiara. It's cold.", "n": "Ti porto io in panetteria, Chiara. Fa freddo.", "note": "I'm driving you: un programma per adesso. It's cold = fa freddo: in inglese il tempo si fa con it is."},
+          {"who": "Chiara", "t": "Thanks, but I walk every day. I love walking in the morning.", "n": "Grazie, ma cammino ogni giorno. Adoro camminare la mattina.", "note": "I walk every day: abitudine, simple. Love + -ing: adoro camminare."},
+          {"who": "Franco", "t": "You love walking now. In January we'll talk.", "n": "Adesso ti piace camminare. A gennaio ne riparliamo.", "note": "We'll talk: il futuro con will, unità 13."},
+          {"who": "Teresa", "t": "Here. Lunch, a fork and an apple. Your coat is by the door. Have a good day!", "n": "Ecco. Il pranzo, una forchetta e una mela. Il cappotto è vicino alla porta. Buona giornata!", "note": "Have a good day: l'augurio del mattino. Have a good one, la versione canadese."},
+          {"who": "Chiara", "t": "Thanks, zia. See you tonight. I have English class at seven.", "n": "Grazie, zia. Ci vediamo stasera. Ho lezione d'inglese alle sette.", "note": "I have class, I have English class: senza articolo, come have breakfast."}
+        ], "notes": [
+          {"phrase": "I get up at six. · I'm making your lunch.", "note": "Le due frasi dell'unità: present simple per l'abitudine, present continuous per adesso. In italiano «mi alzo» e «sto preparando» sono la stessa differenza, ma noi usiamo il presente anche per adesso; l'inglese no."},
+          {"phrase": "hear · see · know · want · like · need", "note": "I verbi di stato: mai in -ing. I hear music, I know, I want a coffee, anche in questo momento."},
+          {"phrase": "go to school · go to university · go to work · go to bed", "note": "Senza articolo: il posto come attività. Vedi il blocco sugli articoli."},
+          {"phrase": "packed lunch · leftovers · the news", "note": "Pranzo al sacco (packed = impacchettato), avanzi, il notiziario."}
+        ]},
+        {"type": "scene", "id": "dlg-first-frost", "title": "The first frost", "setting": "Sabato 25 ottobre, ore otto. La finestra della cucina: l'erba è bianca. Poi mercoledì sera alla scuola serale su Bloor Street, e un video dalla spiaggia.", "register": "informale", "lines": [
+          {"who": "Sofia", "t": "Chiara! Come look. Frost. On the grass, on the cars, everywhere.", "n": "Chiara! Vieni a vedere. La brina. Sull'erba, sulle macchine, dappertutto.", "note": "Come look: due imperativi di fila, parlato. Frost = brina, gelo."},
+          {"who": "Chiara", "t": "It's beautiful. And it's only October!", "n": "È bellissimo. Ed è solo ottobre!"},
+          {"who": "Sofia", "t": "October twenty-fifth. Winter starts in December, officially. Unofficially, it starts today.", "n": "Il venticinque ottobre. L'inverno comincia a dicembre, ufficialmente. Ufficiosamente, comincia oggi.", "note": "La data: mese + giorno ordinale. In December: i mesi con in. Winter starts: l'orario delle stagioni al present simple."},
+          {"who": "Chiara", "t": "What's the temperature?", "n": "Quanti gradi ci sono?"},
+          {"who": "Sofia", "t": "Minus one. But it feels like minus five, because of the wind.", "n": "Meno uno. Ma ne sembrano meno cinque, per il vento.", "note": "Feels like: la temperatura percepita, su ogni app meteo canadese. Because of + nome: per via di."},
+          {"who": "Chiara", "t": "In Roccamarina it's still warm. Twenty-two degrees, maybe. People are swimming.", "n": "A Roccamarina fa ancora caldo. Ventidue gradi, forse. La gente fa il bagno.", "note": "It's warm: fa caldo (piacevole). Hot: caldo forte. People are swimming: in questo periodo. People è plurale: people are."},
+          {"who": "Sofia", "t": "Don't tell Dad. What are you doing today?", "n": "Non dirlo a papà. Cosa fai oggi?", "note": "What are you doing today? = cosa fai oggi? I programmi di oggi vanno al continuous."},
+          {"who": "Chiara", "t": "I'm going to the bakery at ten. On Saturdays I work until two. Then nothing.", "n": "Vado in panetteria alle dieci. Il sabato lavoro fino alle due. Poi niente.", "note": "I'm going at ten: il programma fissato. On Saturdays I work: l'abitudine. Due tempi, due significati."},
+          {"who": "Sofia", "t": "Perfect. We're going to High Park this afternoon. The leaves are turning. It's my favourite week of the year.", "n": "Perfetto. Oggi pomeriggio andiamo a High Park. Le foglie stanno cambiando colore. È la mia settimana preferita dell'anno.", "note": "The leaves are turning: cambiano colore adesso, in questi giorni. Favourite con la u: grafia canadese."},
+          {"who": "Chiara", "t": "Do you like fall?", "n": "Ti piace l'autunno?", "note": "Fall = autumn in Nord America. Like + nome senza articolo: l'autunno in generale."},
+          {"who": "Sofia", "t": "I love fall. I hate February. Everybody hates February.", "n": "Adoro l'autunno. Odio febbraio. Tutti odiano febbraio.", "note": "Everybody + verbo singolare: everybody hates."},
+          {"stage": "Wednesday, 7 p.m. The evening English class on Bloor Street. Mateo, from Medellín, arrives late and wet."},
+          {"who": "Mateo", "t": "Sorry! Is raining and I have no umbrella.", "n": "Scusate! Piove e non ho l'ombrello.", "note": "L'errore di Mateo: manca il soggetto. In spagnolo, come in italiano, «piove» è una parola sola."},
+          {"who": "Chiara", "t": "It's raining. You need the it.", "n": "It's raining. Ti serve l'it.", "note": "In inglese il soggetto c'è sempre: it's raining, it's cold, it's seven o'clock."},
+          {"who": "Mateo", "t": "It's raining. In Spanish we don't say it.", "n": "It's raining. In spagnolo non lo diciamo."},
+          {"who": "Chiara", "t": "In Italian too. Piove. One word.", "n": "Anche in italiano. Piove. Una parola sola."},
+          {"who": "Teacher", "t": "Okay, everyone. Tonight: present simple and present continuous. Mateo, what do you do?", "n": "Bene, ragazzi. Stasera: present simple e present continuous. Mateo, che lavoro fai?", "note": "What do you do? = che lavoro fai? La domanda sul lavoro, unità 4."},
+          {"who": "Mateo", "t": "I'm a cook. I work in a restaurant on College Street.", "n": "Sono cuoco. Lavoro in un ristorante su College Street.", "note": "I'm a cook: il lavoro con a. I work: abitudine."},
+          {"who": "Teacher", "t": "And what are you doing right now?", "n": "E cosa stai facendo in questo momento?"},
+          {"who": "Mateo", "t": "I'm sitting. I'm learning English. And I'm dying of cold.", "n": "Sto seduto. Sto imparando l'inglese. E sto morendo di freddo.", "note": "Tre -ing: tutto succede adesso. Dying: die → dying, ortografia."},
+          {"who": "Teacher", "t": "Chiara, what does Mateo do on weekends?", "n": "Chiara, cosa fa Mateo nei weekend?", "note": "On weekends, on the weekend: il weekend vuole on in Nord America."},
+          {"who": "Chiara", "t": "He plays soccer on Sundays and he sleeps on Saturdays.", "n": "Gioca a calcio la domenica e dorme il sabato.", "note": "He plays, he sleeps: la terza persona con la -s, unità 4. Soccer: il calcio in Nord America; football è quello con le mani."},
+          {"who": "Mateo", "t": "I'm not sleeping on Saturdays! I'm working.", "n": "Non dormo il sabato! Lavoro.", "note": "Sbagliato: un'abitudine con il continuous. L'insegnante corregge."},
+          {"who": "Teacher", "t": "I work on Saturdays. A habit: present simple.", "n": "I work on Saturdays. Un'abitudine: present simple."},
+          {"who": "Mateo", "t": "I work on Saturdays. I hate working on Saturdays.", "n": "Lavoro il sabato. Odio lavorare il sabato.", "note": "Hate + -ing: odio lavorare."},
+          {"stage": "9:30 p.m. Chiara's room. A video message from Roccamarina on her phone: {hero}, on the beach, in a T-shirt."},
+          {"who": "hero", "t": "Ciao, cugina! It's six o'clock here and it's still twenty-six degrees. I'm sitting on the beach. Dora is swimming. Pasquale is complaining about the tourists. How's Toronto?", "n": "Ciao, cugina! Qui sono le sei e ci sono ancora ventisei gradi. Sono {{seduto|seduta}} in spiaggia. Dora sta facendo il bagno. Pasquale si sta lamentando dei turisti. Com'è Toronto?", "note": "Tutto al present continuous: è quello che succede nel video. Complain about = lamentarsi di."},
+          {"who": "Sofia", "t": "Is that {hero}? Is {{he|she}} at the beach again? Tell {{him|her}} it's snowing. Lie.", "n": "È {hero}? È di nuovo al mare? {{Digli|Dille}} che nevica. Menti.", "note": "Tell + persona + frase: dire a qualcuno che. Lie = mentire (e anche sdraiarsi)."},
+          {"who": "Chiara", "t": "It's minus one. It's raining, and the leaves are turning. I'm wearing your old sweater. I like it here. Don't tell your dad about the twenty-six degrees.", "n": "Ci sono meno uno. Piove, e le foglie stanno cambiando colore. Indosso il tuo vecchio maglione. Mi piace qui. Non dire a tuo padre dei ventisei gradi.", "note": "I'm wearing: adesso. I like it here: like it + posto, mi piace qui (con it, sempre)."}
+        ], "notes": [
+          {"phrase": "What are you doing today? — I'm going to the bakery at ten.", "note": "I programmi già fissati per oggi, domani, il weekend vanno al present continuous. Non è adesso: è deciso."},
+          {"phrase": "Is raining → It's raining.", "note": "Il soggetto obbligatorio. Mateo sbaglia come noi: piove, nevica, fa freddo in inglese vogliono it."},
+          {"phrase": "I love fall. I hate February. I hate working on Saturdays.", "note": "Love, hate, like, enjoy + nome o + -ing. Mai + verbo base."},
+          {"phrase": "it feels like minus five", "note": "La temperatura percepita. In inverno è il wind chill, in estate l'humidex: vedi Living there."}
+        ], "questions": [
+          {"kind": "tf", "q": "Sofia loves February.", "t": "I love fall. I hate February.", "answer": false, "why": "Ama l'autunno e odia febbraio. Come tutti."},
+          {"kind": "mc", "q": "What is Mateo's first mistake?", "options": ["He leaves out «it»: «Is raining».", "He says «I have twenty-five years».", "He forgets the -s: «he play»."], "answer": 0, "why": "Is raining, senza soggetto: l'errore degli spagnoli e degli italiani. Il secondo lo fa un'altra sera."},
+          {"kind": "fill", "q": "Right now {hero} ___ (sit) on the beach and Dora ___ (swim). In Toronto it ___ (rain).", "answers": [["is sitting", "'s sitting"], ["is swimming", "'s swimming"], ["is raining", "'s raining"]], "n": "In questo momento {hero} è {{seduto|seduta}} in spiaggia e Dora sta facendo il bagno. A Toronto piove."}
+        ]}
+      ]
+    },
+    {
+      "id": "words", "kind": "words", "title": "Routine, hobbies, weather",
+      "intro": "I verbi della giornata, le cose che ti piace fare, il tempo che fa, e i mesi e le stagioni. Molti verbi della routine sono in due parole (get up, go out): si imparano insieme.",
+      "blocks": [
+        {"type": "vocab", "theme": "A typical day", "n": "Una giornata tipica", "items": [
+          {"t": "to wake up", "n": "svegliarsi", "pos": "verb", "ipa": "weɪk ʌp", "forms": "woke up, woken up", "ex": {"t": "I wake up at six, before the alarm.", "n": "Mi sveglio alle sei, prima della sveglia."}, "note": "Wake up = aprire gli occhi. Get up = alzarsi dal letto. Due momenti diversi."},
+          {"t": "to get up", "n": "alzarsi", "pos": "verb", "ipa": "ɡɛt ʌp", "forms": "got up, got up", "ex": {"t": "Sofia gets up at eight, usually.", "n": "Sofia si alza alle otto, di solito."}, "note": "In inglese i verbi riflessivi italiani spesso non hanno pronome: I get up, I get dressed."},
+          {"t": "to have a shower", "n": "farsi la doccia", "pos": "verb", "ipa": "hæv ə ˈʃaʊər", "forms": "had, had", "ex": {"t": "I have a shower and get dressed in ten minutes.", "n": "Mi faccio la doccia e mi vesto in dieci minuti."}, "note": "Anche take a shower, più nordamericano. Have / take a bath: il bagno nella vasca."},
+          {"t": "to get dressed", "n": "vestirsi", "pos": "verb", "ipa": "ɡɛt drɛst", "forms": "got dressed, got dressed", "ex": {"t": "Get dressed! We're leaving in five minutes.", "n": "Vestiti! Partiamo fra cinque minuti."}, "note": "Get + aggettivo = diventare: get dressed, get ready, get cold, get home."},
+          {"t": "to have breakfast", "n": "fare colazione", "pos": "verb", "ipa": "hæv ˈbrɛkfəst", "forms": "had, had", "ex": {"t": "Franco has breakfast with the news.", "n": "Franco fa colazione con il notiziario."}, "note": "Have breakfast / lunch / dinner: senza articolo. Make breakfast = prepararla."},
+          {"t": "to leave", "n": "uscire, partire, lasciare", "pos": "verb", "ipa": "liv", "forms": "left, left", "ex": {"t": "I leave the house at seven and I leave work at three.", "n": "Esco di casa alle sette e esco dal lavoro alle tre."}, "note": "Leave + posto, senza preposizione. Leave for + destinazione: she leaves for school."},
+          {"t": "to get home", "n": "tornare a casa, arrivare a casa", "pos": "verb", "ipa": "ɡɛt hoʊm", "forms": "got home, got home", "ex": {"t": "What time do you get home? — Around four.", "n": "A che ora torni a casa? — Verso le quattro."}, "note": "Home senza to e senza articolo: get home, go home, come home, at home."},
+          {"t": "to make dinner", "n": "preparare la cena", "pos": "verb", "ipa": "meɪk ˈdɪnər", "forms": "made, made", "ex": {"t": "Teresa makes dinner at six. Franco does the dishes.", "n": "Teresa prepara la cena alle sei. Franco lava i piatti."}, "note": "Make = creare qualcosa (make dinner, make a cake). Do = un'attività (do the dishes, do homework)."},
+          {"t": "to do the dishes", "n": "lavare i piatti", "pos": "verb", "ipa": "du ðə ˈdɪʃɪz", "forms": "did, done", "ex": {"t": "I'm doing the dishes. Can you dry?", "n": "Sto lavando i piatti. Asciughi tu?"}, "note": "Do the dishes, do the laundry (bucato), do the shopping, do homework."},
+          {"t": "to go to bed", "n": "andare a letto", "pos": "verb", "ipa": "ɡoʊ tə bɛd", "forms": "went, gone", "ex": {"t": "I go to bed at ten. Sofia goes to bed at one.", "n": "Vado a letto alle dieci. Sofia va a letto all'una."}, "note": "Bed senza articolo. Fall asleep = addormentarsi. Sleep in = dormire fino a tardi."},
+          {"t": "packed lunch", "n": "pranzo al sacco", "pos": "noun", "ipa": "pækt lʌntʃ", "plural": "packed lunches", "ex": {"t": "Teresa makes a packed lunch for everyone.", "n": "Teresa prepara il pranzo al sacco per tutti."}, "note": "Lunch box: il contenitore. Molti canadesi pranzano alla scrivania con il pranzo da casa."},
+          {"t": "leftovers", "n": "avanzi", "pos": "noun", "ipa": "ˈlɛftˌoʊvərz", "ex": {"t": "Do you want the leftovers? There's pasta from last night.", "n": "Vuoi gli avanzi? C'è la pasta di ieri sera."}, "note": "Sempre plurale. Left over = avanzato."},
+          {"t": "the news", "n": "il notiziario, le notizie", "pos": "noun", "ipa": "ðə nuz", "ex": {"t": "The news is on at six. Franco never misses it.", "n": "Il notiziario è alle sei. Franco non lo perde mai."}, "note": "Singolare, con l'articolo: the news is. Una notizia = a piece of news, a news story."},
+          {"t": "alarm", "n": "sveglia", "pos": "noun", "ipa": "əˈlɑrm", "plural": "alarms", "ex": {"t": "My alarm goes off at six. I set it for five on Saturdays.", "n": "La sveglia suona alle sei. Il sabato la metto alle cinque."}, "note": "Alarm clock: l'oggetto. Go off = suonare. Set the alarm = puntare la sveglia."},
+          {"t": "routine", "n": "routine", "pos": "noun", "ipa": "ruˈtin", "plural": "routines", "ex": {"t": "My routine is simple: bakery, walk, class, bed.", "n": "La mia routine è semplice: panetteria, passeggiata, lezione, letto."}, "note": "Daily routine. Si pronuncia ru-TIN, accento sulla seconda."}
+        ]},
+        {"type": "vocab", "theme": "Free time", "n": "Tempo libero", "items": [
+          {"t": "hobby", "n": "hobby, passatempo", "pos": "noun", "ipa": "ˈhɒbi", "plural": "hobbies", "ex": {"t": "What are your hobbies? — Baking, and walking.", "n": "Quali sono i tuoi hobby? — Fare dolci, e camminare."}, "note": "Plurale hobbies: consonante + y → ies."},
+          {"t": "to go for a walk", "n": "fare una passeggiata", "pos": "verb", "ipa": "ɡoʊ fər ə wɔk", "forms": "went, gone", "ex": {"t": "Let's go for a walk in High Park.", "n": "Facciamo una passeggiata a High Park."}, "note": "Go for a walk, a run, a coffee, a drive."},
+          {"t": "to play", "n": "giocare; suonare", "pos": "verb", "ipa": "pleɪ", "forms": "played, played", "ex": {"t": "Mateo plays soccer on Sundays. Sofia plays the guitar.", "n": "Mateo gioca a calcio la domenica. Sofia suona la chitarra."}, "note": "Play + sport senza articolo (play soccer, play hockey); play + the + strumento."},
+          {"t": "to watch", "n": "guardare", "pos": "verb", "ipa": "wɒtʃ", "forms": "watched, watched", "ex": {"t": "We watch a show after dinner. Franco watches the game.", "n": "Guardiamo una serie dopo cena. Franco guarda la partita."}, "note": "Watch TV, watch a movie, watch the game: qualcosa che si muove. Look at: qualcosa di fermo. See: vedere."},
+          {"t": "to listen to", "n": "ascoltare", "pos": "verb", "ipa": "ˈlɪsən tu", "forms": "listened, listened", "ex": {"t": "I listen to music on the streetcar.", "n": "Ascolto musica sul tram."}, "note": "Sempre con to: listen to music, listen to me. Hear = sentire, senza volerlo."},
+          {"t": "to read", "n": "leggere", "pos": "verb", "ipa": "rid", "forms": "read, read", "ex": {"t": "Sofia reads in bed until one.", "n": "Sofia legge a letto fino all'una."}, "note": "Il passato si scrive uguale e si dice red."},
+          {"t": "to bake", "n": "fare dolci, cuocere al forno", "pos": "verb", "ipa": "beɪk", "forms": "baked, baked", "ex": {"t": "I bake for a living and I bake on my day off.", "n": "Faccio dolci per lavoro e faccio dolci nel giorno libero."}, "note": "Bake = cuocere al forno (pane, dolci). Cook = cucinare in generale. For a living = di mestiere."},
+          {"t": "to hang out", "n": "passare il tempo (con amici), stare in giro", "pos": "verb", "ipa": "hæŋ aʊt", "forms": "hung out, hung out", "ex": {"t": "On Fridays Sofia hangs out with her friends downtown.", "n": "Il venerdì Sofia sta con gli amici in centro."}, "note": "Informale e comunissimo. Hang out with + persone."},
+          {"t": "to work out", "n": "allenarsi", "pos": "verb", "ipa": "wɜrk aʊt", "forms": "worked out, worked out", "ex": {"t": "Do you work out? — I walk. That's my gym.", "n": "Ti alleni? — Cammino. È la mia palestra."}, "note": "Go to the gym: con l'articolo. A workout: l'allenamento."},
+          {"t": "to go out", "n": "uscire (per divertirsi)", "pos": "verb", "ipa": "ɡoʊ aʊt", "forms": "went out, gone out", "ex": {"t": "I don't go out much. I'm in bed at ten.", "n": "Non esco molto. Alle dieci sono a letto."}, "note": "Go out = uscire la sera. Leave = uscire da un posto. Go out with = uscire con (anche sentimentale)."},
+          {"t": "day off", "n": "giorno libero", "pos": "noun", "ipa": "deɪ ɒf", "plural": "days off", "ex": {"t": "Monday is my day off.", "n": "Il lunedì è il mio giorno libero."}, "note": "Plurale days off. Take a day off = prendersi un giorno."},
+          {"t": "weekend", "n": "weekend, fine settimana", "pos": "noun", "ipa": "ˈwikˌɛnd", "plural": "weekends", "ex": {"t": "What are you doing on the weekend? — Nothing. That's the plan.", "n": "Cosa fai nel weekend? — Niente. Il programma è quello."}, "note": "On the weekend in Nord America, at the weekend nel Regno Unito. On weekends = ogni weekend."}
+        ]},
+        {"type": "vocab", "theme": "The weather", "n": "Il tempo", "items": [
+          {"t": "weather", "n": "tempo (atmosferico)", "pos": "noun", "ipa": "ˈwɛðər", "ex": {"t": "What's the weather like? — Cold and sunny.", "n": "Che tempo fa? — Freddo e sole."}, "note": "Non numerabile: the weather is nice, mai a weather. Il tempo che passa è time."},
+          {"t": "forecast", "n": "previsioni", "pos": "noun", "ipa": "ˈfɔrkæst", "plural": "forecasts", "ex": {"t": "The forecast says snow on Friday.", "n": "Le previsioni dicono neve venerdì."}, "note": "Weather forecast. Singolare in inglese."},
+          {"t": "degrees", "n": "gradi", "pos": "noun", "ipa": "dɪˈɡriz", "ex": {"t": "It's twenty-six degrees in Roccamarina and minus one here.", "n": "Ci sono ventisei gradi a Roccamarina e meno uno qui."}, "note": "Celsius in Canada. Minus = meno: minus ten, minus twenty. Si dice anche ten below."},
+          {"t": "sunny", "n": "soleggiato", "pos": "adj.", "ipa": "ˈsʌni", "ex": {"t": "It's sunny but cold: a typical fall day.", "n": "C'è il sole ma fa freddo: una tipica giornata d'autunno."}, "note": "Sun → sunny, cloud → cloudy, wind → windy, rain → rainy, fog → foggy."},
+          {"t": "cloudy", "n": "nuvoloso", "pos": "adj.", "ipa": "ˈklaʊdi", "ex": {"t": "It's cloudy this morning.", "n": "Stamattina è nuvoloso."}},
+          {"t": "windy", "n": "ventoso", "pos": "adj.", "ipa": "ˈwɪndi", "ex": {"t": "It's windy by the lake.", "n": "C'è vento vicino al lago."}, "note": "Wind = il vento. Il famoso wind chill: il freddo con il vento."},
+          {"t": "to rain", "n": "piovere", "pos": "verb", "ipa": "reɪn", "forms": "rained, rained", "ex": {"t": "It's raining. It rains a lot in October.", "n": "Piove. A ottobre piove molto."}, "note": "Sempre con it. Rain è anche il nome: the rain. Rainy = piovoso."},
+          {"t": "to snow", "n": "nevicare", "pos": "verb", "ipa": "snoʊ", "forms": "snowed, snowed", "ex": {"t": "It's snowing! The first snow of the year.", "n": "Nevica! La prima neve dell'anno."}, "note": "Snow: verbo e nome. Snowy = nevoso. A snowstorm = una bufera."},
+          {"t": "frost", "n": "brina, gelo", "pos": "noun", "ipa": "frɒst", "ex": {"t": "There's frost on the grass.", "n": "C'è la brina sull'erba."}, "note": "Freeze = gelare: it's freezing = si gela. Ice = ghiaccio."},
+          {"t": "cold", "n": "freddo", "pos": "adj.", "ipa": "koʊld", "ex": {"t": "It's cold. I'm cold. Are you cold?", "n": "Fa freddo. Ho freddo. Hai freddo?"}, "note": "Ho freddo = I am cold, con be, non have. A cold = un raffreddore."},
+          {"t": "cool", "n": "fresco", "pos": "adj.", "ipa": "kul", "ex": {"t": "It's cool in the evening. Bring a sweater.", "n": "La sera è fresco. Porta un maglione."}, "note": "Cool = fresco e anche figo. Chilly = freddino."},
+          {"t": "warm", "n": "caldo (piacevole), tiepido", "pos": "adj.", "ipa": "wɔrm", "ex": {"t": "It's still warm in Puglia.", "n": "In Puglia fa ancora caldo."}, "note": "Warm = caldo buono. Hot = caldo forte, e anche piccante."},
+          {"t": "hot", "n": "caldo (forte)", "pos": "adj.", "ipa": "hɒt", "ex": {"t": "Toronto summers are hot and humid.", "n": "Le estati di Toronto sono calde e umide."}, "note": "I'm hot = ho caldo. Humid = umido; l'umidità estiva si chiama humidex."},
+          {"t": "umbrella", "n": "ombrello", "pos": "noun", "ipa": "ʌmˈbrɛlə", "plural": "umbrellas", "ex": {"t": "Take an umbrella. It looks like rain.", "n": "Prendi l'ombrello. Sembra che piova."}, "note": "An umbrella: vocale. It looks like rain = sembra che voglia piovere."},
+          {"t": "to feel like", "n": "sembrare (temperatura percepita); avere voglia di", "pos": "verb", "ipa": "fil laɪk", "forms": "felt, felt", "ex": {"t": "It's minus one, but it feels like minus five. I feel like a coffee.", "n": "Ci sono meno uno, ma sembrano meno cinque. Ho voglia di un caffè."}, "note": "Due usi: la temperatura percepita, e avere voglia di (feel like + nome o -ing)."}
+        ]},
+        {"type": "vocab", "theme": "Seasons and dates", "n": "Stagioni e date", "items": [
+          {"t": "season", "n": "stagione", "pos": "noun", "ipa": "ˈsizən", "plural": "seasons", "ex": {"t": "Canada has four real seasons.", "n": "Il Canada ha quattro stagioni vere."}, "note": "Anche la stagione sportiva: hockey season."},
+          {"t": "fall", "n": "autunno", "pos": "noun", "ipa": "fɔl", "ex": {"t": "In the fall the leaves turn red and yellow.", "n": "In autunno le foglie diventano rosse e gialle."}, "note": "Autumn nel Regno Unito; in Canada tutti e due, fall è più comune. Le stagioni con in: in the fall, in winter."},
+          {"t": "winter", "n": "inverno", "pos": "noun", "ipa": "ˈwɪntər", "ex": {"t": "Winter starts in December and ends in April. In theory.", "n": "L'inverno comincia a dicembre e finisce ad aprile. In teoria."}},
+          {"t": "spring", "n": "primavera", "pos": "noun", "ipa": "sprɪŋ", "ex": {"t": "Spring is short and muddy.", "n": "La primavera è corta e fangosa."}, "note": "Spring è anche la molla e la sorgente."},
+          {"t": "summer", "n": "estate", "pos": "noun", "ipa": "ˈsʌmər", "ex": {"t": "In summer everybody lives outside.", "n": "D'estate tutti vivono fuori."}},
+          {"t": "month", "n": "mese", "pos": "noun", "ipa": "mʌnθ", "plural": "months", "ex": {"t": "October is my favourite month.", "n": "Ottobre è il mio mese preferito."}, "note": "I mesi hanno la maiuscola: October, May. Months: la th + s, difficile; va bene mans."},
+          {"t": "date", "n": "data", "pos": "noun", "ipa": "deɪt", "plural": "dates", "ex": {"t": "What's the date today? — It's October twenty-fifth.", "n": "Che giorno è oggi? — È il venticinque ottobre."}, "note": "Mese + giorno ordinale. A date è anche un appuntamento romantico, e il dattero."}
+        ]},
+        {"type": "subhead", "text": "The months"},
+        {"type": "grid", "cols": 6, "items": [
+          {"big": "January", "small": "gennaio"}, {"big": "February", "small": "febbraio"}, {"big": "March", "small": "marzo"}, {"big": "April", "small": "aprile"}, {"big": "May", "small": "maggio"}, {"big": "June", "small": "giugno"},
+          {"big": "July", "small": "luglio"}, {"big": "August", "small": "agosto"}, {"big": "September", "small": "settembre"}, {"big": "October", "small": "ottobre"}, {"big": "November", "small": "novembre"}, {"big": "December", "small": "dicembre"}
+        ], "note": "Sempre con la maiuscola. February si dice FEB-ru-eri o FEB-iu-eri: la prima r spesso sparisce."}
+      ]
+    },
+    {
+      "id": "grammar", "kind": "grammar", "title": "I'm making, I make, I love making",
+      "intro": "Cinque pezzi: il present continuous e la sua ortografia, il confronto con il present simple (dove gli italiani sbagliano di più), like / love / hate + -ing, il tempo e le date, e gli articoli che l'inglese non usa. In fondo a ogni blocco, la pagina di riferimento.",
+      "blocks": [
+        {"type": "grammar", "id": "g-present-continuous", "title": "Present continuous: I'm making your lunch", "category": "Verbi", "rule": "Am / is / are + verbo in -ing: quello che sta succedendo adesso, in questo periodo, o un programma già fissato (I'm going to the bakery at ten). Negativo con not, domanda con be davanti al soggetto. Ortografia: make → making, sit → sitting, lie → lying.", "ref": "present-continuous", "blocks": [
+          {"type": "conjugation", "verb": "work", "tense": "present_continuous", "caption": "[[work|lavorare]] · present continuous: affermativo, negativo, domanda"},
+          {"type": "table", "caption": "L'ortografia di -ing", "head": ["Regola", "Esempi"], "rows": [["verbo + ing", "work → working · go → going · rain → raining · study → studying"], ["finisce in -e muta: via la e", "make → making · have → having · come → coming · write → writing"], ["una vocale + una consonante, parola breve: raddoppia", "sit → sitting · get → getting · run → running · swim → swimming · stop → stopping"], ["-ie → -ying", "lie → lying · die → dying · tie → tying"], ["non raddoppia: due vocali, due consonanti, -w / -y", "sleep → sleeping · walk → walking · snow → snowing · play → playing"]], "speak": [1], "rowhead": true},
+          {"type": "table", "head": ["", "Inglese", "Italiano"], "rows": [["adesso", "I'm making your lunch. She's sleeping.", "Ti sto preparando il pranzo. Sta dormendo."], ["in questo periodo", "The leaves are turning. I'm learning English.", "Le foglie stanno cambiando. Sto imparando l'inglese."], ["programma fissato", "I'm going to the bakery at ten. We're going to High Park this afternoon.", "Vado in panetteria alle dieci. Oggi pomeriggio andiamo a High Park."], ["negativo", "She isn't going today. I'm not sleeping.", "Oggi non ci va. Non sto dormendo."], ["domanda", "What are you doing? Is it raining? Are you working?", "Cosa stai facendo? Piove? Stai lavorando?"], ["risposta breve", "Yes, I am. / No, I'm not. Yes, it is. / No, it isn't.", "Sì. / No."]], "speak": [1], "rowhead": true},
+          {"type": "examples", "items": [
+            {"t": "Look! It's snowing. — No, it's raining. It's October.", "n": "Guarda! Nevica. — No, piove. È ottobre."},
+            {"t": "Franco is listening to the news and Teresa is making lunch.", "n": "Franco sta ascoltando il notiziario e Teresa sta preparando il pranzo."},
+            {"t": "What are you doing this weekend? — I'm working on Saturday and sleeping on Sunday.", "n": "Cosa fai questo weekend? — Sabato lavoro e domenica dormo.", "note": "programmi: continuous; in italiano presente"},
+            {"t": "{hero} is sitting on the beach. {{He|She}} isn't working today.", "n": "{hero} è {{seduto|seduta}} in spiaggia. Oggi non lavora."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Sto facendo, ma anche faccio", "text": "L'italiano ha [[sto facendo]] e lo usa poco: [[cosa fai?]] vale anche per adesso. L'inglese no: per adesso il continuous è obbligatorio. [[What do you do?]] è «che lavoro fai?», [[What are you doing?]] è «cosa stai facendo?». Due domande diverse, due risposte diverse."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I making lunch. She sleeping.", "right": "I'm making lunch. She's sleeping.", "why": "Serve be: am / is / are."},
+            {"wrong": "I am make lunch.", "right": "I am making lunch.", "why": "Serve -ing."},
+            {"wrong": "makeing, siting, lieing", "right": "making, sitting, lying", "why": "Ortografia: via la e, raddoppia, -ie → -ying."},
+            {"wrong": "Is raining. Is cold today.", "right": "It's raining. It's cold today.", "why": "Il soggetto it è obbligatorio."},
+            {"wrong": "You are working? Where you are going?", "right": "Are you working? Where are you going?", "why": "Be davanti al soggetto nella domanda."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-simple-vs-continuous", "title": "Present simple o present continuous?", "category": "Verbi", "rule": "Present simple per le abitudini, i fatti e gli orari (I walk every day, the bakery opens at seven). Present continuous per adesso, per questo periodo, per i programmi e per le eccezioni di oggi (today I'm taking the streetcar). I verbi di stato (know, want, like, need, hear, see, believe, understand, have = possedere) non vanno mai al continuous.", "ref": "present-simple-vs-continuous", "blocks": [
+          {"type": "table", "head": ["Present simple", "Present continuous"], "rows": [["I walk to work every day.", "Today I'm taking the streetcar."], ["Sofia gets up at eight.", "She's still sleeping. It's Saturday."], ["Franco listens to the news at six.", "He's listening to the news right now."], ["I work on Saturdays.", "I'm not working this Saturday."], ["The bakery opens at seven.", "The bakery is opening late today."], ["What do you do? — I'm a cook.", "What are you doing? — I'm learning English."], ["It rains a lot in October.", "It's raining. Take an umbrella."]], "speak": [0, 1]},
+          {"type": "table", "caption": "Le parole spia", "head": ["Simple", "Continuous"], "rows": [["always · usually · often · sometimes · never", "now · right now · at the moment"], ["every day · every week · on Mondays · on weekends", "today · this week · this month · these days"], ["in the morning · at six · in winter", "Look! · Listen! · still"]], "speak": [], "compact": true},
+          {"type": "callout", "kind": "tip", "title": "I verbi che non si muovono", "text": "[[I know]], [[I want]], [[I like]], [[I need]], [[I hear]], [[I see]], [[I understand]], [[I believe]], [[I have a bike]] (possedere): anche adesso, anche in questo momento, restano al present simple. [[I'm knowing]] non esiste. Attenzione a have: [[I have a bike]] (possiedo, simple) ma [[I'm having breakfast]] (sto facendo colazione, azione). E a think: [[I think it's cold]] (opinione) ma [[I'm thinking about Roccamarina]] (sto riflettendo)."},
+          {"type": "examples", "items": [
+            {"t": "I hear music from her room. — You hear it now? — Yes. I'm listening to it.", "n": "Sento musica dalla sua stanza. — La senti adesso? — Sì. La sto ascoltando.", "note": "hear: stato; listen: azione"},
+            {"t": "Do you want a coffee? — No, thanks, I'm drinking tea.", "n": "Vuoi un caffè? — No, grazie, sto bevendo un tè."},
+            {"t": "She doesn't go to school. Today she isn't going to university either: her classes are online.", "n": "Non va a scuola. Oggi non va nemmeno all'università: le lezioni sono online."}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "I work now. I can't talk.", "right": "I'm working now. I can't talk.", "why": "Adesso → continuous. L'errore italiano numero uno."},
+            {"wrong": "I'm working on Saturdays.", "right": "I work on Saturdays.", "why": "Abitudine → simple. L'errore di Mateo."},
+            {"wrong": "I'm knowing. I'm wanting. I'm hearing music.", "right": "I know. I want. I hear music.", "why": "Verbi di stato, mai -ing."},
+            {"wrong": "What do you do? (per «cosa stai facendo?»)", "right": "What are you doing?", "why": "What do you do? = che lavoro fai?"},
+            {"wrong": "I'm having a bike.", "right": "I have a bike.", "why": "Have = possedere: simple. Have = fare (colazione, doccia): continuous possibile."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-like-ing", "title": "like, love, hate, enjoy + -ing", "category": "Verbi", "rule": "Dopo like, love, hate, enjoy, don't mind, can't stand, prefer il verbo va in -ing: I love walking, I hate working on Saturdays. Con like, love, hate, prefer in Nord America va bene anche to + verbo (I like to walk). Enjoy, don't mind e can't stand vogliono solo -ing. Dopo questi verbi anche un nome: I love fall, I hate February.", "ref": "verbs-plus-ing", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano", "Nota"], "rows": [["I love walking in the morning.", "Adoro camminare la mattina.", "love + -ing"], ["I like baking. / I like to bake.", "Mi piace fare dolci.", "like: -ing o to"], ["I hate working on Saturdays.", "Odio lavorare il sabato.", "hate + -ing"], ["Do you enjoy baking?", "Ti piace fare dolci?", "enjoy: solo -ing"], ["I don't mind getting up early.", "Non mi dispiace alzarmi presto.", "don't mind: solo -ing"], ["I can't stand February.", "Non sopporto febbraio.", "can't stand + nome o -ing"], ["I prefer walking to driving.", "Preferisco camminare che guidare.", "prefer X to Y"], ["I love fall. I hate the cold.", "Adoro l'autunno. Odio il freddo.", "+ nome"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "What do you like doing on weekends? — I like sleeping. And hanging out with friends.", "n": "Cosa ti piace fare nei weekend? — Mi piace dormire. E stare con gli amici."},
+            {"t": "Franco loves driving and hates walking. Teresa doesn't mind either.", "n": "Franco adora guidare e odia camminare. A Teresa va bene tutte e due.", "note": "either alla fine di un negativo = nemmeno / tutte e due"},
+            {"t": "Does Sofia like winter? — She likes the snow. She doesn't like the dark.", "n": "A Sofia piace l'inverno? — Le piace la neve. Non le piace il buio."}
+          ]},
+          {"type": "callout", "kind": "compare", "title": "Mi piace, I like: il soggetto si gira", "text": "In italiano [[mi piace camminare]]: la cosa è il soggetto, io sono mi. In inglese [[I like walking]]: io sono il soggetto, la cosa è l'oggetto. Quindi [[a Sofia piace la neve]] → [[Sofia likes the snow]], con la -s. E niente to prima del nome: [[I like the snow]], non [[to me likes]]."},
+          {"type": "mistakes", "items": [
+            {"wrong": "I like cook. I love walk.", "right": "I like cooking. I love walking.", "why": "-ing (o to cook, to walk)."},
+            {"wrong": "I enjoy to bake. I don't mind to get up.", "right": "I enjoy baking. I don't mind getting up.", "why": "Enjoy e mind vogliono solo -ing."},
+            {"wrong": "I like the cooking. I love the music. (in generale)", "right": "I like cooking. I love music.", "why": "In generale, senza articolo."},
+            {"wrong": "To me likes the snow. Me like the snow.", "right": "I like the snow.", "why": "Io sono il soggetto."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-weather-dates", "title": "Il tempo, i mesi, le date", "category": "Funzioni", "rule": "Il tempo si fa con it: it's cold, it's sunny, it's raining, it's minus five. La domanda: What's the weather like? Le date: mese + giorno ordinale (October twenty-fifth), scritto October 25. In + mese / stagione / anno, on + giorno / data, at + ora.", "ref": "weather-months-dates", "blocks": [
+          {"type": "table", "head": ["Inglese", "Italiano"], "rows": [["What's the weather like? — It's cold and sunny.", "Che tempo fa? — Fa freddo e c'è il sole."], ["It's raining. It's snowing. It's windy. It's cloudy.", "Piove. Nevica. C'è vento. È nuvoloso."], ["It's minus five. It's twenty-two degrees. It feels like minus ten.", "Ci sono meno cinque. Ci sono ventidue gradi. Ne sembrano meno dieci."], ["I'm cold. I'm hot. Are you cold?", "Ho freddo. Ho caldo. Hai freddo?"], ["What's the date today? — It's October twenty-fifth.", "Che giorno è oggi? — È il venticinque ottobre."], ["My birthday is on March fifth. Canada Day is on July first.", "Il mio compleanno è il cinque marzo. Il Canada Day è il primo luglio."], ["in October · in the fall · in 2026 · in the morning", "a ottobre · in autunno · nel 2026 · la mattina"], ["on Monday · on Mondays · on October 25 · on the weekend", "lunedì · il lunedì · il 25 ottobre · nel weekend"], ["at six · at night · at noon · at midnight", "alle sei · di notte · a mezzogiorno · a mezzanotte"]], "speak": [0]},
+          {"type": "examples", "items": [
+            {"t": "It's minus one, but it feels like minus five because of the wind.", "n": "Ci sono meno uno, ma sembrano meno cinque per il vento."},
+            {"t": "Winter starts in December. The first snow usually comes in November.", "n": "L'inverno comincia a dicembre. La prima neve di solito arriva a novembre."},
+            {"t": "When is your birthday? — It's on the fifth of March. March fifth.", "n": "Quand'è il tuo compleanno? — Il cinque marzo.", "note": "due modi: the fifth of March, March fifth"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "Is cold. Makes cold. It makes cold.", "right": "It's cold.", "why": "Il tempo: it + be + aggettivo. Mai make."},
+            {"wrong": "I have cold. I have hot.", "right": "I'm cold. I'm hot.", "why": "Ho freddo = I am cold."},
+            {"wrong": "There are twenty degrees.", "right": "It's twenty degrees.", "why": "I gradi con it's."},
+            {"wrong": "in Monday · on October · at 2026", "right": "on Monday · in October · in 2026", "why": "On per giorni e date, in per mesi, stagioni e anni, at per le ore."},
+            {"wrong": "October twenty-five. The 25 October.", "right": "October twenty-fifth. The twenty-fifth of October.", "why": "Ordinale."}
+          ]}
+        ]},
+        {"type": "grammar", "id": "g-zero-article", "title": "Gli articoli che l'inglese non mette", "category": "Nomi", "rule": "L'italiano mette l'articolo quasi sempre; l'inglese lo toglie in molti casi: i nomi in generale (I love music, dogs are friendly), i posti come attività (go to work / school / bed / church, at home), i pasti (have breakfast), i giorni e i mesi (on Mondays, in October), le lingue e i paesi (Italian, Canada), i titoli con il nome (Dr. Chen, Mrs. Oyelaran), le vie (Bloor Street).", "ref": "zero-article", "blocks": [
+          {"type": "table", "head": ["Italiano (con articolo)", "Inglese (senza)"], "rows": [["Vado al lavoro / a scuola / a letto / in chiesa.", "I go to work / to school / to bed / to church."], ["Sono a casa.", "I'm at home. I'm home."], ["Faccio colazione alle sette.", "I have breakfast at seven."], ["Il lunedì lavoro. A ottobre piove.", "On Mondays I work. In October it rains."], ["Amo la musica. Odio il freddo.", "I love music. I hate the cold. (il freddo specifico: the)"], ["I cani sono amichevoli. La gente è gentile.", "Dogs are friendly. People are kind."], ["Parlo l'italiano. Il Canada è grande.", "I speak Italian. Canada is big."], ["La dottoressa Chen, la signora Oyelaran", "Dr. Chen, Mrs. Oyelaran"], ["Ho lezione d'inglese. Gioco a calcio.", "I have English class. I play soccer."]], "speak": [1]},
+          {"type": "table", "caption": "Ma con the", "head": ["Inglese", "Perché"], "rows": [["the news · the weather · the weekend · the morning", "cose uniche o fisse"], ["the TTC · the bakery · the kitchen", "un posto preciso, non un'attività"], ["the United States · the Netherlands · the UK", "paesi al plurale o con un nome comune"], ["the sun · the sky · the lake · the city", "uno solo, qui"], ["play the guitar · the piano", "gli strumenti"], ["go to the gym · the doctor · the bank · the movies", "posti con the: eccezioni da imparare"]], "speak": [0], "compact": true},
+          {"type": "examples", "items": [
+            {"t": "I go to work at seven, have lunch at the bakery and get home at four.", "n": "Vado al lavoro alle sette, pranzo in panetteria e torno a casa alle quattro."},
+            {"t": "Sofia goes to university. Franco goes to the gym. Nobody goes to church.", "n": "Sofia va all'università. Franco va in palestra. Nessuno va in chiesa.", "note": "gym con the, church senza"},
+            {"t": "I love music, but I hate the music in the streetcar.", "n": "Amo la musica, ma odio la musica sul tram.", "note": "generale senza, specifica con the"}
+          ]},
+          {"type": "mistakes", "items": [
+            {"wrong": "I go to the work. I go to the bed.", "right": "I go to work. I go to bed.", "why": "Attività, non luogo."},
+            {"wrong": "I have the breakfast. On the Mondays. In the October.", "right": "I have breakfast. On Mondays. In October.", "why": "Pasti, giorni, mesi: senza."},
+            {"wrong": "I love the music. The dogs are friendly. (in generale)", "right": "I love music. Dogs are friendly.", "why": "In generale, niente articolo."},
+            {"wrong": "The Canada. The Italian is beautiful. The Dr. Chen.", "right": "Canada. Italian is beautiful. Dr. Chen.", "why": "Paesi, lingue, titoli con nome."},
+            {"wrong": "I'm at the home.", "right": "I'm at home. / I'm home.", "why": "Home senza articolo, sempre."}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "pron", "kind": "pron", "title": "-ing, cut / cat / cart, Tuesday / Thursday",
+      "intro": "Tre cose che gli italiani sentono ma non dicono: la g che non c'è in -ing, tre vocali che per noi sono una a sola, e i due giorni che al telefono si confondono.",
+      "blocks": [
+        {"type": "sounds", "items": [
+          {"sound": "/ɪŋ/", "t": "working", "n": "lavorando", "ipa": "ˈwɜrkɪŋ", "tip": "La g di -ing non si pronuncia come una g: è il suono nasale di «anca», «lungo», senza staccare la g dopo. WOR-kin(g), con la lingua dietro e basta. Mai wor-kin-ghe."},
+          {"sound": "/ʌ/", "t": "cut", "n": "tagliare", "ipa": "kʌt", "tip": "Una a corta e chiusa, verso la o: cut, sun, bus, lunch, Monday, come, love, mother. La bocca quasi ferma."},
+          {"sound": "/æ/", "t": "cat", "n": "gatto", "ipa": "kæt", "tip": "Una a aperta, verso la e, con la bocca larga: cat, have, happy, Saturday, January, thanks. Gli italiani la dicono come la a di casa: è troppo chiusa."},
+          {"sound": "/ɑr/", "t": "cart", "n": "carrello", "ipa": "kɑrt", "tip": "Una a lunga, profonda, con la r canadese dopo: cart, car, park, March, start, dark. High Park, non High Pack."}
+        ]},
+        {"type": "minimal", "caption": "Tre a, tre parole", "pairs": [
+          {"a": "cut", "b": "cat", "na": "tagliare /ʌ/", "nb": "gatto /æ/", "tip": "Bocca quasi chiusa contro bocca larga."},
+          {"a": "cat", "b": "cart", "na": "gatto /æ/", "nb": "carrello /ɑr/", "tip": "Corta e larga contro lunga e profonda con la r."},
+          {"a": "hut", "b": "hat", "na": "capanna", "nb": "cappello"},
+          {"a": "bus", "b": "bass", "na": "autobus", "nb": "basso (pesce)"},
+          {"a": "Tuesday", "b": "Thursday", "na": "martedì (TIUZ-dei)", "nb": "giovedì (THERZ-dei)", "tip": "Tuesday comincia con tiu; Thursday con il th sordo e la vocale di her. Al telefono si confondono sempre: aggiungi la data."},
+          {"a": "sun", "b": "son", "na": "sole", "nb": "figlio", "tip": "Si dicono uguali. Il contesto decide."}
+        ]},
+        {"type": "table", "caption": "I giorni della settimana, con l'accento", "head": ["Giorno", "Si dice", "Trappola"], "rows": [["Monday", "MAN-dei", "la vocale di cut, non mon"], ["Tuesday", "TIUZ-dei", "tiu, non tu"], ["Wednesday", "UENZ-dei", "la d non si sente: due sillabe"], ["Thursday", "THERZ-dei", "th sordo + er"], ["Friday", "FRAI-dei", ""], ["Saturday", "SA-ter-dei", "la a di cat"], ["Sunday", "SAN-dei", "la vocale di cut"]], "speak": [0], "compact": true, "note": "Day alla fine si dice dei o di: tutte e due vanno bene. Maiuscola sempre."},
+        {"type": "callout", "kind": "tip", "title": "Il trucco per -ing", "text": "Di' «lunga» e fermati prima della g finale: quel suono, con la lingua dietro, è -ing. Working, raining, baking, morning, evening, something. Se senti una g dura alla fine, l'hai detta all'italiana."},
+        {"type": "examples", "items": [
+          {"t": "I'm cutting the cake for the cat in the cart.", "n": "Sto tagliando la torta per il gatto nel carrello.", "note": "cut · cat · cart"},
+          {"t": "On Tuesday and Thursday I have class. On Saturday I'm working.", "n": "Martedì e giovedì ho lezione. Sabato lavoro.", "note": "TIUZ-dei · THERZ-dei · SA-ter-dei · WOR-king"}
+        ]}
+      ]
+    },
+    {
+      "id": "practice", "kind": "practice", "title": "Your turn",
+      "intro": "Trenta esercizi su questa unità, poi un ripasso misto delle unità 1–6. Attenzione alla scelta fra simple e continuous: è l'esercizio che conta.",
+      "blocks": [
+        {"type": "exercises", "title": "1 · Present continuous", "items": [
+          {"kind": "conjugate", "verb": "work", "tense": "present continuous", "n": "lavorare", "answers": ["am working", "are working", "is working", "are working", "are working", "are working"]},
+          {"kind": "fill", "q": "Sofia ___ (study) right now. She ___ (not sleep).", "answers": [["is studying", "'s studying"], ["isn't sleeping", "is not sleeping", "'s not sleeping"]], "n": "Sofia sta studiando in questo momento. Non sta dormendo."},
+          {"kind": "fill", "q": "sit → ___ · make → ___ · lie → ___ · study → ___", "answers": [["sitting"], ["making"], ["lying"], ["studying"]], "n": "L'ortografia di -ing."},
+          {"kind": "fill", "q": "What ___ you ___ (do)? — I ___ (make) your lunch.", "answers": [["are"], ["doing"], ["am making", "'m making"]], "n": "Cosa stai facendo? — Ti sto preparando il pranzo."},
+          {"kind": "order", "answer": "The leaves are turning and it is getting cold.", "n": "Le foglie stanno cambiando colore e sta diventando freddo."},
+          {"kind": "mc", "q": "«Stanno nuotando.»", "options": ["They're swimming.", "They swimming.", "They are swim."], "answer": 0, "why": "Be + -ing, tutti e due."},
+          {"kind": "dictation", "text": "It's raining and I'm wearing your old sweater.", "n": "Piove e indosso il tuo vecchio maglione."},
+          {"kind": "translate", "q": "Franco is listening to the news.", "answers": ["Franco is listening to the news", "Franco's listening to the news"]}
+        ]},
+        {"type": "exercises", "title": "2 · Simple o continuous?", "items": [
+          {"kind": "fill", "q": "I ___ (walk) to work every day. Today I ___ (take) the streetcar: it ___ (rain).", "answers": [["walk"], ["am taking", "'m taking"], ["is raining", "'s raining"]], "n": "Vado al lavoro a piedi ogni giorno. Oggi prendo il tram: piove."},
+          {"kind": "mc", "q": "«Sto lavorando adesso, non posso parlare.»", "options": ["I'm working now, I can't talk.", "I work now, I can't talk.", "I working now, I can't talk."], "answer": 0, "why": "Adesso → present continuous. «I work now» è l'errore italiano numero uno."},
+          {"kind": "fill", "q": "She ___ (not go) to school: she ___ (go) to university. Today she ___ (not go): her classes are online.", "answers": [["doesn't go", "does not go"], ["goes"], ["isn't going", "is not going", "'s not going"]], "n": "Non va a scuola: va all'università. Oggi non ci va: le lezioni sono online."},
+          {"kind": "mc", "q": "Which one is impossible?", "options": ["I'm knowing the answer.", "I know the answer.", "I'm learning the answer."], "answer": 0, "why": "Know è un verbo di stato: mai -ing."},
+          {"kind": "fill", "q": "I ___ (hear) music from her room. I ___ (want) a coffee. I ___ (think) about Roccamarina right now.", "answers": [["hear"], ["want"], ["am thinking", "'m thinking"]], "n": "Sento musica dalla sua stanza. Voglio un caffè. Sto pensando a Roccamarina in questo momento.", "hint": "hear e want: stato. think = riflettere: azione."},
+          {"kind": "match", "q": "Abbina il tempo alla frase.", "pairs": [["every day", "I get up at six."], ["right now", "I'm making lunch."], ["on Saturdays", "I work until two."], ["this afternoon", "We're going to High Park."], ["usually", "She leaves at eight."]]},
+          {"kind": "translate", "q": "What do you do? — I'm a cook. What are you doing? — I'm learning English.", "answers": ["What do you do? I'm a cook. What are you doing? I'm learning English", "What do you do? — I'm a cook. What are you doing? — I'm learning English", "What do you do? I am a cook. What are you doing? I am learning English"]}
+        ]},
+        {"type": "exercises", "title": "3 · like + -ing, gli articoli", "items": [
+          {"kind": "fill", "q": "I love ___ (walk) in the morning. I hate ___ (work) on Saturdays. Do you enjoy ___ (bake)?", "answers": [["walking"], ["working"], ["baking"]], "n": "Adoro camminare la mattina. Odio lavorare il sabato. Ti piace fare dolci?"},
+          {"kind": "mc", "q": "«Mi piace cucinare.»", "options": ["I like cooking.", "I like cook.", "I like the cooking."], "answer": 0, "why": "Like + -ing (o like to cook). Mai il verbo base, e in generale niente articolo."},
+          {"kind": "mc", "q": "Which one is right?", "options": ["I go to work at seven and to bed at eleven.", "I go to the work at seven and to the bed at eleven.", "I go to work at the seven and to bed at the eleven."], "answer": 0, "why": "Work, bed e le ore: senza articolo."},
+          {"kind": "fill", "q": "Sofia goes to ___ (all'università). Franco listens to ___ (il notiziario). Chiara loves ___ (la musica).", "answers": [["university"], ["the news"], ["music"]], "n": "Sofia va all'università. Franco ascolta il notiziario. Chiara ama la musica.", "hint": "uno dei tre vuole the"},
+          {"kind": "order", "answer": "Everybody hates February in Toronto.", "n": "Tutti odiano febbraio a Toronto."},
+          {"kind": "translate", "q": "I don't like getting up at five.", "answers": ["I don't like getting up at five", "I don't like to get up at five"]}
+        ]},
+        {"type": "exercises", "title": "4 · Tempo, mesi, date", "items": [
+          {"kind": "fill", "q": "___ raining. ___ minus five. ___ sunny today? (it + be)", "answers": [["It's", "It is"], ["It's", "It is"], ["Is it"]], "n": "Piove. Ci sono meno cinque. C'è il sole oggi?"},
+          {"kind": "fill", "q": "Winter starts ___ December. The class is ___ Wednesday. I was born ___ 1999. See you ___ seven.", "answers": [["in"], ["on"], ["in"], ["at"]], "n": "L'inverno comincia a dicembre. La lezione è mercoledì. Sono nata nel 1999. Ci vediamo alle sette."},
+          {"kind": "mc", "q": "«Fa freddo.»", "options": ["It's cold.", "It makes cold.", "Is cold."], "answer": 0, "why": "It + be + aggettivo. Il soggetto it è obbligatorio."},
+          {"kind": "fill", "q": "October 25 si dice «October twenty-___». May 1 si dice «May ___».", "answers": [["fifth"], ["first"]], "n": "Le date con l'ordinale."},
+          {"kind": "match", "q": "Abbina i mesi.", "pairs": [["gennaio", "January"], ["marzo", "March"], ["giugno", "June"], ["agosto", "August"], ["ottobre", "October"]]},
+          {"kind": "dictation", "text": "It feels like minus five because of the wind.", "n": "Sembrano meno cinque per il vento."}
+        ]},
+        {"type": "exercises", "title": "5 · Ripasso · Units 1–6", "review": true, "items": [
+          {"kind": "fill", "q": "Hi, I ___ Chiara. I ___ from Italy. ___ you Canadian?", "answers": [["am", "'m"], ["am", "'m", "come"], ["Are"]], "n": "Ciao, sono Chiara. Vengo dall'Italia. Sei canadese?"},
+          {"kind": "fill", "q": "There ___ two bathrooms. There ___ a dishwasher. ___ there a garage?", "answers": [["are"], ["isn't", "is not"], ["Is"]], "n": "Ci sono due bagni. Non c'è la lavastoviglie. C'è un garage?"},
+          {"kind": "fill", "q": "Sofia ___ (have) a bike. Franco ___ (not have) a bike: he ___ (drive) everywhere.", "answers": [["has"], ["doesn't have", "does not have"], ["drives"]], "n": "Sofia ha una bici. Franco non ha una bici: va in macchina dappertutto."},
+          {"kind": "fill", "q": "What time ___ it? — ___ half past six. Franco's news ___ (start) at six.", "answers": [["is", "'s"], ["It's", "It is"], ["starts"]], "n": "Che ore sono? — Le sei e mezza. Il notiziario di Franco comincia alle sei."},
+          {"kind": "fill", "q": "___ left at the lights and ___ straight on. ___ cross at the red light.", "answers": [["Turn"], ["go"], ["Don't"]], "n": "Gira a sinistra al semaforo e vai dritto. Non attraversare con il rosso."},
+          {"kind": "fill", "q": "{hero} is on the beach. {{He|She}} ___ (not swim). ___ ___ (he / she, sit)? — Yes, {{he|she}} is.", "answers": [["isn't swimming", "is not swimming", "'s not swimming"], [{"m": "Is he", "f": "Is she"}], ["sitting"]], "n": "{hero} è in spiaggia. Non sta nuotando. È {{seduto|seduta}}? — Sì."},
+          {"kind": "order", "answer": "I never drive to work in Toronto.", "n": "Non vado mai al lavoro in macchina a Toronto."},
+          {"kind": "fill", "q": "___ you like fall? — Yes, I love ___ (walk) in High Park.", "answers": [["Do"], ["walking"]], "n": "Ti piace l'autunno? — Sì, adoro camminare a High Park."},
+          {"kind": "translate", "q": "On Saturdays I work until two, but today I'm not working.", "answers": ["On Saturdays I work until two, but today I'm not working", "On Saturdays I work until two but today I'm not working", "On Saturdays I work until two, but today I am not working"]},
+          {"kind": "write", "q": "Scrivi sei frasi: la tua routine in un giorno normale (tre frasi al present simple), cosa stai facendo adesso (una frase), il tempo oggi (una frase) e una cosa che ami fare (una frase).", "model": "I get up at six and have breakfast with the news. I walk to work and start at seven. I get home at four and go to bed at ten. Right now I'm sitting in the kitchen and writing this. It's cold and sunny today, minus one. I love walking in the morning.", "hint": "I get up… · I walk… · Right now I'm… · It's… today · I love …ing"}
+        ]}
+      ]
+    },
+    {
+      "id": "culture", "kind": "culture", "title": "Living there: the weather is a conversation",
+      "intro": "Il tempo come argomento obbligatorio, i gradi che sembrano altri gradi, quattro stagioni vere, l'ora che cambia, l'hockey che comincia e il weekend sacro.",
+      "blocks": [
+        {"type": "subhead", "text": "Parlare del tempo è obbligatorio"},
+        {"type": "prose", "text": "In Canada il tempo non è un riempitivo: è la prima frase di ogni conversazione, con il vicino, con la cassiera, con il collega in ascensore. [[Cold enough for you?]] in gennaio, [[Beautiful day, eh?]] a maggio, [[Hot enough for you?]] a luglio. Non è una domanda, è un saluto: si risponde con un commento e un sorriso, non con un bollettino. Dire «in Italia adesso ci sono ventisei gradi» è ammesso una volta; la seconda diventa una provocazione."},
+        {"type": "subhead", "text": "Celsius, «feels like» e il wind chill"},
+        {"type": "prose", "text": "I gradi sono Celsius, come da noi, ma ogni app e ogni notiziario dà due numeri: la temperatura e la [[feels like]], la temperatura percepita. D'inverno è il [[wind chill]], il freddo aumentato dal vento: meno dieci con il vento diventano meno venti sulla pelle, e a meno trenta di wind chill le scuole tengono i bambini dentro all'intervallo. D'estate è l'[[humidex]], il caldo aumentato dall'umidità: trenta gradi che ne sembrano quaranta. Quando un canadese dice [[it's minus twenty]], chiedi sempre: [[with the wind chill?]]"},
+        {"type": "subhead", "text": "Quattro stagioni vere"},
+        {"type": "prose", "text": "L'[[autunno]] è la stagione più bella: settembre tiepido, ottobre con le foglie rosse e gialle (le [[fall colours]], e la gente va a vederle apposta), la prima brina, il primo freddo. L'[[inverno]] va da dicembre a marzo, con punte di meno venti e la neve che resta per mesi: non è una catastrofe, è normale, e la città funziona. La [[primavera]] è corta, fangosa e umorale: dieci gradi un giorno, neve il giorno dopo, fino a maggio. L'[[estate]] è calda e umida, e Toronto vive fuori: terrazze, parchi, il lago, le [[cottage]] al nord. Ogni stagione ha il suo guardaroba, e il cappotto giusto è l'argomento dell'unità 7."},
+        {"type": "callout", "kind": "real", "title": "L'ora legale", "text": "La prima domenica di novembre l'orologio torna indietro di un'ora ([[fall back]]): si dorme un'ora in più e alle cinque del pomeriggio è buio. La seconda domenica di marzo va avanti ([[spring forward]]). Il cambio non coincide con quello europeo: per due o tre settimane all'anno la differenza con l'Italia è di cinque ore invece di sei. Controlla prima di chiamare Roccamarina alle sette di mattina."},
+        {"type": "subhead", "text": "Comincia la stagione dell'hockey"},
+        {"type": "prose", "text": "A ottobre comincia la stagione della [[NHL]], e a Toronto vuol dire i [[Maple Leafs]], la squadra più amata e più deludente del Canada: l'ultima Stanley Cup è del 1967, e ogni anno è «quello buono». [[Did you watch the game?]] sostituisce il tempo come argomento da lunedì a venerdì, da ottobre ad aprile. Non serve capire l'hockey: serve sapere che i Leafs hanno giocato ieri, e avere un'opinione moderata sul portiere."},
+        {"type": "callout", "kind": "culture", "title": "The weekend è sacro", "text": "La settimana canadese è lunga e precisa: si comincia presto, si pranza alla scrivania con il [[packed lunch]], si finisce alle cinque. In cambio, il weekend è intoccabile. [[What are you doing this weekend?]] il venerdì e [[How was your weekend?]] il lunedì sono le due domande fisse dell'ufficio, e la risposta è un piano: la [[cottage]], il mercato, una partita, una [[hike]]. Dire [[nothing]] è legittimo, ma si dice con convinzione: [[Nothing. That's the plan.]]"}
+      ]
+    },
+    {
+      "id": "summary", "kind": "summary", "title": "In short",
+      "intro": "Tutto il necessario di questa unità in una schermata. Poi le flashcard.",
+      "blocks": [
+        {"type": "cheatsheet", "groups": [
+          {"title": "Present continuous", "rows": [["am / is / are + -ing · I'm not · Are you…? · making, sitting, lying", "forma e ortografia"], ["now · right now · today · this week · Look!", "adesso e in questo periodo"], ["I'm going to the bakery at ten. We're going to High Park this afternoon.", "programmi fissati"]]},
+          {"title": "Simple o continuous", "rows": [["I walk every day. · Today I'm taking the streetcar.", "abitudine · eccezione di oggi"], ["What do you do? · What are you doing?", "lavoro · adesso"], ["know · want · like · need · hear · see · have (possedere)", "mai -ing"]]},
+          {"title": "like + -ing, tempo, date, articoli", "rows": [["I love walking. I hate working on Saturdays. I enjoy baking.", "like / love / hate / enjoy + -ing"], ["It's cold. It's raining. It's minus five. It feels like minus ten. I'm cold.", "il tempo con it; ho freddo con be"], ["in October · in the fall · on Monday · on October 25 · at six", "in · on · at"], ["go to work / school / bed · at home · have breakfast · on Mondays · I love music · Canada · Dr. Chen", "senza articolo"], ["the news · the weekend · the gym · the TTC · the United States", "con the"]]}
+        ]},
+        {"type": "subhead", "text": "Flashcards"},
+        {"type": "flashcards"}
+      ]
+    }
+  ]
+}

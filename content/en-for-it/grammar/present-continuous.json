@@ -1,0 +1,25 @@
+{"id": "present-continuous", "title": "Present continuous", "category": "Verbi", "rule": "Am / is / are + verbo in -ing. Tre usi: quello che succede adesso (I'm making lunch), quello che succede in questo periodo (I'm learning English), i programmi già fissati (I'm working on Saturday). Negativo con not, domanda con be davanti al soggetto, risposte brevi con be. Non si usa con i verbi di stato.", "units": ["06"], "blocks": [
+  {"type": "conjugation", "verb": "make", "tense": "present_continuous", "caption": "make · present continuous: affermativo, negativo, domanda"},
+  {"type": "table", "caption": "Ortografia di -ing", "head": ["Regola", "Esempi"], "rows": [["+ ing", "work → working · go → going · eat → eating · study → studying · play → playing"], ["-e muta: via la e", "make → making · come → coming · write → writing · have → having · take → taking"], ["una vocale + una consonante, parola breve o accento finale: raddoppia", "sit → sitting · get → getting · run → running · swim → swimming · begin → beginning · prefer → preferring"], ["-ie → -ying", "lie → lying · die → dying · tie → tying"], ["non raddoppia", "sleep → sleeping (due vocali) · walk → walking (due consonanti) · snow → snowing (-w) · open → opening (accento non finale)"], ["-l in Canada raddoppia", "travel → travelling · cancel → cancelling"]], "speak": [1], "rowhead": true},
+  {"type": "table", "head": ["Uso", "Inglese", "Italiano"], "rows": [["adesso", "She's sleeping. It's raining. What are you doing?", "Sta dormendo. Piove. Cosa stai facendo?"], ["in questo periodo", "I'm learning English. The leaves are turning. Sofia is studying for exams.", "Sto imparando l'inglese. Le foglie stanno cambiando. Sofia sta studiando per gli esami."], ["programma fissato", "I'm working on Saturday. We're having dinner at Rosa's on Sunday.", "Sabato lavoro. Domenica ceniamo da Rosa."], ["un'eccezione di oggi", "I usually walk, but today I'm taking the streetcar.", "Di solito cammino, ma oggi prendo il tram."], ["con always, per lamentarsi", "Franco is always listening to the news!", "Franco sta sempre ad ascoltare il notiziario!"]], "speak": [1], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Are you working? — No, I'm not. I'm having lunch.", "n": "Stai lavorando? — No. Sto pranzando."},
+    {"t": "Where's Sofia? — She's studying in her room. She isn't coming to dinner.", "n": "Dov'è Sofia? — Sta studiando in camera. Non viene a cena."},
+    {"t": "Look, it's snowing! — It isn't snowing, it's raining. Big difference.", "n": "Guarda, nevica! — Non nevica, piove. Grande differenza."},
+    {"t": "What are you doing this weekend? — I'm going to Niagara Falls with Mateo.", "n": "Cosa fai questo weekend? — Vado alle cascate del Niagara con Mateo."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "Il presente italiano fa due lavori", "text": "[[Cosa fai?]] in italiano vale per adesso e per il lavoro. In inglese sono due tempi: [[What are you doing?]] (adesso) e [[What do you do?]] (che lavoro fai). [[Domenica ceniamo da Rosa]] è al presente in italiano; in inglese [[we're having dinner at Rosa's on Sunday]], al continuous, perché è un programma. Regola per l'A1: se potresti aggiungere «in questo momento» o «è già deciso», è continuous."},
+  {"type": "mistakes", "items": [
+    {"wrong": "I making. She working.", "right": "I'm making. She's working.", "why": "Serve am / is / are."},
+    {"wrong": "I'm make. He's work.", "right": "I'm making. He's working.", "why": "Serve -ing."},
+    {"wrong": "comeing, geting, lieing", "right": "coming, getting, lying", "why": "Ortografia."},
+    {"wrong": "Is raining. Is snowing.", "right": "It's raining. It's snowing.", "why": "Il soggetto it è obbligatorio."},
+    {"wrong": "I'm knowing. I'm wanting. I'm liking.", "right": "I know. I want. I like.", "why": "Verbi di stato: present simple."},
+    {"wrong": "You are coming? Where she is going?", "right": "Are you coming? Where is she going?", "why": "Be davanti al soggetto."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "go", "tense": "present continuous", "n": "andare", "answers": ["am going", "are going", "is going", "are going", "are going", "are going"]},
+    {"kind": "fill", "q": "What ___ Franco ___ (do)? — He ___ (listen) to the news. He ___ (not drive) today.", "answers": [["is"], ["doing"], ["is listening", "'s listening"], ["isn't driving", "is not driving", "'s not driving"]], "n": "Cosa sta facendo Franco? — Sta ascoltando il notiziario. Oggi non guida."},
+    {"kind": "translate", "q": "Are you sleeping? — No, I'm reading.", "answers": ["Are you sleeping? No, I'm reading", "Are you sleeping? — No, I'm reading", "Are you sleeping? No, I am reading"]}
+  ]}
+]}

@@ -1,0 +1,23 @@
+{"id": "verbs-plus-ing", "title": "like, love, hate, enjoy + -ing", "category": "Verbi", "rule": "Dopo i verbi di gusto il secondo verbo va in -ing: like, love, hate, enjoy, don't mind, can't stand, prefer + -ing. Like, love, hate e prefer accettano anche to + verbo (I like to walk), soprattutto in Nord America; enjoy, mind e can't stand solo -ing. Dopo questi verbi anche un nome: I love fall. Il soggetto è chi prova il gusto: I like, non «mi piace».", "units": ["06"], "blocks": [
+  {"type": "table", "head": ["Verbo", "+ -ing", "+ to", "+ nome"], "rows": [["like", "I like walking.", "I like to walk.", "I like fall."], ["love", "I love baking.", "I love to bake.", "I love music."], ["hate", "I hate driving.", "I hate to drive.", "I hate February."], ["prefer", "I prefer walking.", "I prefer to walk.", "I prefer tea."], ["enjoy", "I enjoy cooking.", "—", "I enjoy the weekend."], ["don't mind", "I don't mind waiting.", "—", "I don't mind the cold."], ["can't stand", "I can't stand waiting.", "—", "I can't stand the heat."]], "speak": [1, 2, 3], "rowhead": true},
+  {"type": "table", "caption": "Le domande", "head": ["Inglese", "Italiano"], "rows": [["Do you like cooking? — Yes, I do. / Not really.", "Ti piace cucinare? — Sì. / Non molto."], ["What do you like doing on weekends?", "Cosa ti piace fare nei weekend?"], ["Does Sofia like winter? — She loves it.", "A Sofia piace l'inverno? — Lo adora."], ["Which do you prefer, fall or spring?", "Quale preferisci, l'autunno o la primavera?"]], "speak": [0], "compact": true},
+  {"type": "callout", "kind": "compare", "title": "Mi piace → I like", "text": "In italiano la cosa è il soggetto e la persona è un pronome: [[mi piace la neve]], [[a Sofia piacciono i gatti]]. In inglese la persona è il soggetto e il verbo si accorda con lei: [[I like the snow]], [[Sofia likes cats]]. Niente to davanti alla persona, niente accordo con la cosa: [[I like cats]] e [[I like the snow]] hanno lo stesso like. La regola vale anche per [[mi manca]] → [[I miss]] e [[mi serve]] → [[I need]]."},
+  {"type": "examples", "items": [
+    {"t": "I love walking in the morning, but I hate walking in the rain.", "n": "Adoro camminare la mattina, ma odio camminare sotto la pioggia."},
+    {"t": "Franco doesn't mind the cold. He can't stand the humidity.", "n": "A Franco non dà fastidio il freddo. Non sopporta l'umidità."},
+    {"t": "Do you enjoy living in Toronto? — I'm starting to.", "n": "Ti piace vivere a Toronto? — Comincia a piacermi."},
+    {"t": "Mateo prefers playing soccer to watching hockey.", "n": "Mateo preferisce giocare a calcio che guardare l'hockey.", "note": "prefer X to Y, tutti e due in -ing"}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "I like walk. I love bake.", "right": "I like walking. I love baking.", "why": "-ing (o to + verbo)."},
+    {"wrong": "I enjoy to cook. I don't mind to wait.", "right": "I enjoy cooking. I don't mind waiting.", "why": "Enjoy e mind: solo -ing."},
+    {"wrong": "To me likes the snow. Me likes.", "right": "I like the snow.", "why": "La persona è il soggetto."},
+    {"wrong": "Sofia like cats. Sofia likes the cats. (in generale)", "right": "Sofia likes cats.", "why": "La -s; e in generale senza articolo."},
+    {"wrong": "I prefer walking than driving.", "right": "I prefer walking to driving.", "why": "Prefer… to…"}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "I don't mind ___ (get up) early, but I can't stand ___ (wait) for the streetcar. Do you enjoy ___ (live) here?", "answers": [["getting up"], ["waiting"], ["living"]], "n": "Non mi dispiace alzarmi presto, ma non sopporto aspettare il tram. Ti piace vivere qui?"},
+    {"kind": "mc", "q": "«A Franco piace guidare.»", "options": ["Franco likes driving.", "To Franco likes driving.", "Franco like to driving."], "answer": 0, "why": "Franco è il soggetto, likes con la -s, driving in -ing (o likes to drive)."},
+    {"kind": "translate", "q": "I love music, but I hate listening to the news.", "answers": ["I love music, but I hate listening to the news", "I love music but I hate listening to the news"]}
+  ]}
+]}
