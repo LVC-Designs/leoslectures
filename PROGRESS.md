@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 74 (units 1–21) · EN: 67 (units 1–21) |
+| Grammar reference pages | IT: 75 (units 1–22) · EN: 67 (units 1–21) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -43,7 +43,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 19 | Una videochiamata da Toronto | B1 | ● 2026-10-11 |
 | 20 | Se avessi una casa mia | B1 | ● 2026-10-11 |
 | 21 | In bici verso nord | B1 | ● 2026-10-11 |
-| 22 | Carte, contratti e burocrazia | B1 | ☐ |
+| 22 | Carte, contratti e burocrazia | B1 | ● 2026-10-11 |
 | 23 | Un matrimonio in Sicilia | B1 | ☐ |
 | 24 | Un anno a Roccamarina · checkpoint | B1 | ☐ |
 
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 22 · Carte, contratti e burocrazia (B1).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 22 · Paperwork (B1).**
 
 ## Session log
 
+- **2026-10-11 (44)** · Italian track Unit 22 written (3 scenes: Studio della commercialista Dott.ssa Palumbo, raccomandata dall'INPS, email formale al comune; 42 words across work contracts, bureaucracy acronyms, formal email vocabulary and officialese decoding kit; 3 grammar points + 1 reference page — Italian passive in all three forms essere / venire / andare + part., si passivante vs si impersonale, formal letter register; 31 exercises including unit 21+22 review). Verified and committed.
 - **2026-10-11 (43)** · English track Unit 21 written (3 scenes: Pearson Gate D54 with the Air Canada delay, Elkhorn Lodge Banff overbooking, Granville Island Vancouver in the rain; 44 words across air travel, mountains, animals / safety, complaints and insurance; 3 grammar points + 1 reference page — passive in all tenses, get-passive, geographic articles, travel phrasals; 30 exercises including unit 20+21 review). Verified and committed.
 - **2026-10-11 (42)** · Italian track Unit 21 written (2 scenes: broken chain on the SS 65 in the Apennines and the lost booking at an Alto Adige hotel in Ortisei; 42 words across cycling, mountains, repairs, hotels, north-south lexical variants; 4 grammar points + 2 reference pages — condizionale passato, futuro anteriore, extended relative pronouns, Italian suffixes; 31 exercises including unit 20+21 review). Verified and committed.
 - **2026-10-11 (41)** · English track Unit 20 written (3 scenes: Thursday-night basement spreadsheet with Priya and Express Entry, Friday pre-dawn Doug's offer with IELTS scholarship, Saturday subway with Mateo heading home; 41 words across decisions, immigration, savings, small business; 3 grammar points + 1 reference page — third conditional, mixed conditional, wish + past perfect, should have, unless / provided / in case; 30 exercises including unit 19+20 review). Verified and committed.

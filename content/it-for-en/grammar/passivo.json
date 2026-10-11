@@ -1,0 +1,19 @@
+{"id": "passivo", "title": "Il passivo", "category": "Verbs", "rule": "The Italian passive turns the direct object of an active sentence into the subject. The agent is dropped (unknown or unimportant) or added with da + agent. Three forms. (1) Essere + past participle: the standard, works in every tense (è firmato, è stato firmato, era firmato, sarà firmato, deve essere firmato). (2) Venire + past participle: for processes, actions in progress; mostly news / official register. No compound tenses: not «è venuto firmato», use essere. Il contratto viene firmato in duplice copia. (3) Andare + past participle: for obligation (= deve essere + participio). Shorter, more technical. Il modulo va compilato. The participle agrees with the subject in all three forms (la busta è consegnata · è stata consegnata · va consegnata). Only transitive verbs have a passive.", "units": ["22"], "blocks": [
+  {"type": "table", "caption": "The three passives", "head": ["Form", "Use", "Example"], "rows": [["essere + part.", "standard, every tense", "Il contratto è firmato. La busta è stata consegnata. Sarà pagato."], ["venire + part.", "processes, no compound tenses", "Il contratto viene firmato in duplice copia. La busta viene consegnata."], ["andare + part.", "obligation (= deve essere)", "Il modulo va compilato. La domanda va presentata."], ["modal + essere + part.", "obligation / possibility", "Deve essere compilato. Può essere scaricato."], ["agent with da", "when the agent matters", "La casa è stata venduta da Dora. Il modulo viene trasmesso dalla commercialista."]], "speak": [2], "rowhead": true, "compact": true},
+  {"type": "examples", "items": [
+    {"t": "Il contratto viene firmato in duplice copia. La busta paga viene consegnata a fine mese.", "n": "The contract is signed in two copies. The pay slip is delivered at the end of the month."},
+    {"t": "Il modulo UniLav va compilato almeno un giorno prima dell'assunzione.", "n": "The UniLav form must be filled at least one day before the hire."},
+    {"t": "La casa di Dora è stata venduta a {hero} nel 2026.", "n": "Dora's house was sold to {hero} in 2026."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "The English passive", "text": "English has only be + part.; Italian splits into essere / venire / andare + part. Essere is the default English be. Venire is reserved for processes (news language). Andare + part. is a shorter must be + part. English always goes through be, with modals (must be, can be, could be) for the obligation / possibility of andare."},
+  {"type": "mistakes", "items": [
+    {"wrong": "È venuto firmato ieri.", "right": "È stato firmato ieri.", "why": "Venire doesn't form compound tenses in the passive."},
+    {"wrong": "Il modulo va compilare.", "right": "Il modulo va compilato.", "why": "Andare + past participle, not infinitive."},
+    {"wrong": "La casa fu venduta per Dora.", "right": "La casa fu venduta da Dora.", "why": "Agent = da + agent, not per."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Il contratto ___ (firmare, pres. pass.) in due copie. Il modulo ___ (compilare, andare + part.) prima dell'assunzione. La busta ___ (consegnare, venire + part., pres. pass.) a fine mese.", "answers": [["è firmato", "viene firmato"], ["va compilato"], ["viene consegnata"]], "n": "The contract is signed in two copies. The form must be filled before the hire. The pay slip is delivered at the end of the month."},
+    {"kind": "fill", "q": "La casa ___ (vendere, pres. perf. pass.) nel 2026. La dichiarazione ___ (trasmettere, andare + part.) via PEC.", "answers": [["è stata venduta"], ["va trasmessa"]], "n": "The house was sold in 2026. The declaration must be sent via PEC."},
+    {"kind": "translate", "q": "The form must be filled in two copies.", "answers": ["Il modulo va compilato in due copie", "Il modulo deve essere compilato in due copie"]}
+  ]}
+]}
