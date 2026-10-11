@@ -1,0 +1,20 @@
+{"id": "congiuntivo-trapassato", "title": "Congiuntivo trapassato", "category": "Verbs", "rule": "The subjunctive of a prior past. Form: congiuntivo imperfetto of avere or essere + past participle. Che io avessi fatto, che io fossi andato / andata. Same auxiliary rules as the passato prossimo: motion / change / reflexive → essere with agreement; the rest → avere. Uses: (1) after a past-tense trigger of opinion / feeling / will, when the clause's action was prior: credevo che Chiara fosse già arrivata; pensavo che avessero detto la verità. (2) After come se for a past comparison: parla come se non fosse mai partito. (3) In the if-clause of the 3rd conditional: se avessi saputo, sarei venuto. (4) After magari for a past regret: magari fosse venuto! (5) After prima che / nonostante / benché / senza che with a past action: prima che Nicola fosse arrivato. The congiuntivo trapassato maps closely to English past perfect in a that-clause (he thought she had arrived).", "units": ["23"], "blocks": [
+  {"type": "conjugation", "verbs": ["parlare", "andare", "alzarsi"], "tense": "congiuntivo_trapassato", "caption": "Three verbs: avere, essere, reflexive"},
+  {"type": "table", "caption": "The five uses", "head": ["Use", "Example"], "rows": [["past trigger + prior action", "Credevo che Chiara fosse arrivata."], ["come se + past comparison", "Parla come se non fosse mai partito."], ["3rd conditional (if-clause)", "Se avessi saputo, sarei venuto."], ["magari for past regret", "Magari fosse venuto!"], ["prima che / nonostante / benché / senza che + past", "Prima che Nicola fosse arrivato."]], "speak": [1], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Credevo che tu avessi già scritto il discorso. Pensavo che Lucia avesse saputo di Nicola.", "n": "I thought you had already written the speech. I thought Lucia had known about Nicola."},
+    {"t": "Lucia parla di Nicola come se non si fossero mai conosciuti.", "n": "Lucia speaks of Nicola as if they had never met."},
+    {"t": "Se avessi saputo, avrei scritto un discorso diverso. Magari fosse rimasto a Catania!", "n": "If I had known, I would have written a different speech. If only he had stayed in Catania!"}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "English past perfect in that-clauses", "text": "The Italian [[congiuntivo trapassato]] after a past trigger maps to the English past perfect in a that-clause: [[credevo che fosse arrivata]] = I thought she had arrived. In the 3rd conditional: [[se avessi saputo]] = if I had known. The two tenses share two words (compound of past + participle) and the function (one step back from the past)."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Credevo che Chiara aveva arrivato.", "right": "Credevo che Chiara fosse arrivata.", "why": "After credevo (past), use congiuntivo trapassato. Arrivare takes essere."},
+    {"wrong": "Parla come se non è mai partito.", "right": "Parla come se non fosse mai partito.", "why": "Come se + congiuntivo (imperfetto for present, trapassato for past)."},
+    {"wrong": "Se avevo saputo, sarei venuto.", "right": "Se avessi saputo, sarei venuto.", "why": "3rd conditional: se + cong. trapassato. Mai se + indicativo o condizionale."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "arrivare", "tense": "congiuntivo trapassato", "n": "to arrive", "answers": ["che io fossi arrivato / arrivata", "che tu fossi arrivato / arrivata", "che lui / lei fosse arrivato / arrivata", "che noi fossimo arrivati / arrivate", "che voi foste arrivati / arrivate", "che loro fossero arrivati / arrivate"]},
+    {"kind": "fill", "q": "Credevo che Chiara ___ (arrivare, cong. trap.) il 22. Pensavo che tu ___ (sapere, cong. trap.) di Nicola.", "answers": [["fosse arrivata"], ["avessi saputo"]], "n": "I thought Chiara had arrived on the 22nd. I thought you had known about Nicola."},
+    {"kind": "translate", "q": "I thought Chiara had already left.", "answers": ["Credevo che Chiara fosse già partita", "Pensavo che Chiara fosse già partita"]}
+  ]}
+]}

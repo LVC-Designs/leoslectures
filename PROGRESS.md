@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 75 (units 1–22) · EN: 67 (units 1–22) |
+| Grammar reference pages | IT: 76 (units 1–23) · EN: 67 (units 1–22) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -44,7 +44,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 20 | Se avessi una casa mia | B1 | ● 2026-10-11 |
 | 21 | In bici verso nord | B1 | ● 2026-10-11 |
 | 22 | Carte, contratti e burocrazia | B1 | ● 2026-10-11 |
-| 23 | Un matrimonio in Sicilia | B1 | ☐ |
+| 23 | Un matrimonio in Sicilia | B1 | ● 2026-10-11 |
 | 24 | Un anno a Roccamarina · checkpoint | B1 | ☐ |
 
 ### English for Italian speakers
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 23 · Un matrimonio in Sicilia (B1).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 23 · Priya's wedding (B1).**
 
 ## Session log
 
+- **2026-10-11 (46)** · Italian track Unit 23 written (2 scenes: Saturday 15 May wedding of Tommaso's sister Lucia at ristorante La Foglia Ortigia Siracusa with the eleven-course lunch and {hero}'s first full-length Italian toast; dessert and family idioms with Enzo and Pasquale; 42 words across weddings, nuanced emotions, ten Italian idioms, Sicilian vocabulary; 4 grammar points + 1 reference page — congiuntivo trapassato, periodo ipotetico 3 and misti, gerundio passato / infinito passato / concordanza; 30 exercises including unit 22+23 review). Verified and committed.
 - **2026-10-11 (45)** · English track Unit 22 written (3 scenes: Thursday basement kitchen with the T4 and the tax-return plan, Friday CVITP tax clinic at Lillian H. Smith library with Prisca the retired-accountant volunteer, Monday performance review in Priya's office with raise and reference letter; 40 words across Canadian taxes, Ontario work rights, formal English, performance-review language; 3 grammar points — relative clauses defining and non-defining, formal register, full obligation-modal set; 31 exercises including unit 21+22 review). Verified and committed.
 - **2026-10-11 (44)** · Italian track Unit 22 written (3 scenes: Studio della commercialista Dott.ssa Palumbo, raccomandata dall'INPS, email formale al comune; 42 words across work contracts, bureaucracy acronyms, formal email vocabulary and officialese decoding kit; 3 grammar points + 1 reference page — Italian passive in all three forms essere / venire / andare + part., si passivante vs si impersonale, formal letter register; 31 exercises including unit 21+22 review). Verified and committed.
 - **2026-10-11 (43)** · English track Unit 21 written (3 scenes: Pearson Gate D54 with the Air Canada delay, Elkhorn Lodge Banff overbooking, Granville Island Vancouver in the rain; 44 words across air travel, mountains, animals / safety, complaints and insurance; 3 grammar points + 1 reference page — passive in all tenses, get-passive, geographic articles, travel phrasals; 30 exercises including unit 20+21 review). Verified and committed.
