@@ -1,1 +1,256 @@
-{ "groups": [] }
+{
+  "groups": [
+    {
+      "type": "phrases", "title": "Arriving at the airport",
+      "intro": "The first forty minutes. Passport control, baggage, a taxi or the train. If you memorise ten of these before boarding in Canada, you land soft.",
+      "items": [
+        {"t": "Buongiorno. Ecco il mio passaporto.", "n": "Good morning. Here's my passport."},
+        {"t": "Sono qui per turismo.", "n": "I'm here on holiday.", "note": "Say turismo at passport control even if you're staying longer; it's the default short-stay reason."},
+        {"t": "Sono qui per lavoro.", "n": "I'm here for work."},
+        {"t": "Sono qui per studiare.", "n": "I'm here to study."},
+        {"t": "Resto due settimane.", "n": "I'm staying for two weeks."},
+        {"t": "Dov'è il ritiro bagagli?", "n": "Where's baggage claim?"},
+        {"t": "Il mio bagaglio non è arrivato.", "n": "My luggage didn't arrive.", "note": "The right form at the airline desk; follow with the baggage-claim ticket."},
+        {"t": "Dove posso prendere un taxi?", "n": "Where can I get a taxi?"},
+        {"t": "Dove si prende il treno per il centro?", "n": "Where do I get the train to the centre?"},
+        {"t": "Quanto costa il biglietto per Roma Termini?", "n": "How much is the ticket to Roma Termini?"},
+        {"t": "A che binario parte?", "n": "What platform does it leave from?"},
+        {"t": "Mi scusi, non capisco. Può ripetere, per favore?", "n": "Sorry, I don't understand. Can you repeat, please?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Hello and goodbye",
+      "intro": "Italian greetings change with time of day and formality. In the first weeks: too polite is always better than too casual.",
+      "items": [
+        {"t": "Ciao!", "n": "Hi / bye! (informal)"},
+        {"t": "Salve.", "n": "Hello. (neutral, works all day with strangers)"},
+        {"t": "Buongiorno.", "n": "Good morning (until about 1 p.m., sometimes until the lunch break)."},
+        {"t": "Buon pomeriggio.", "n": "Good afternoon. (less common than buongiorno)"},
+        {"t": "Buonasera.", "n": "Good evening (from 4-5 p.m. onwards; also used for Good afternoon)."},
+        {"t": "Buonanotte.", "n": "Good night (only when going to bed, not as a leaving greeting)."},
+        {"t": "Arrivederci.", "n": "Goodbye (formal / to someone you may see again)."},
+        {"t": "ArrivederLa.", "n": "Goodbye (very formal, to one person)."},
+        {"t": "A dopo. · A domani. · A presto.", "n": "See you later. · See you tomorrow. · See you soon."},
+        {"t": "Come sta? · Come stai?", "n": "How are you? (formal · informal)"},
+        {"t": "Bene, grazie. E Lei? · E tu?", "n": "Fine, thank you. And you? (formal · informal)"},
+        {"t": "Piacere. · Piacere di conoscerLa.", "n": "Nice to meet you. · Pleased to meet you (formal)."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "At the bar · ordering a coffee",
+      "intro": "The Italian bar is a counter you stand at for 90 seconds. Order, pay at the cassa (sometimes before, sometimes after), tip optional. Il caffè means espresso.",
+      "items": [
+        {"t": "Un caffè, per favore.", "n": "An espresso, please."},
+        {"t": "Un caffè macchiato.", "n": "An espresso with a drop of milk."},
+        {"t": "Un cappuccino.", "n": "A cappuccino.", "note": "Order cappuccino before 11 a.m. only; after lunch is a mild social crime."},
+        {"t": "Un cornetto, per favore.", "n": "A croissant, please."},
+        {"t": "Che cornetti avete?", "n": "What croissants do you have?"},
+        {"t": "Uno al cioccolato. · Uno vuoto. · Uno con la marmellata.", "n": "A chocolate one. · A plain one. · A jam one."},
+        {"t": "Un bicchiere d'acqua, per favore.", "n": "A glass of water, please."},
+        {"t": "Al banco, grazie.", "n": "At the counter, thanks. (= standing at the bar — cheaper than at a table)"},
+        {"t": "Quant'è?", "n": "How much is it?"},
+        {"t": "Pago prima o dopo?", "n": "Do I pay before or after?"},
+        {"t": "Accettate carte?", "n": "Do you accept cards?", "note": "By law in Italy since 2022; many places still prefer cash for small amounts."},
+        {"t": "Grazie. Buona giornata.", "n": "Thanks. Have a good day."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Numbers, time, money",
+      "intro": "The small vocabulary you'll use every day for prices, times and change.",
+      "items": [
+        {"t": "Zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.", "n": "0 to 10."},
+        {"t": "Venti, trenta, cinquanta, cento, mille.", "n": "20, 30, 50, 100, 1,000."},
+        {"t": "Cinque euro e cinquanta.", "n": "Five euros fifty. (€5.50)"},
+        {"t": "Dieci euro e novanta.", "n": "€10.90."},
+        {"t": "Ha spiccioli? Mi manca il resto.", "n": "Do you have change? I don't have the right change."},
+        {"t": "Che ora è? · Che ore sono?", "n": "What time is it?"},
+        {"t": "Sono le dieci e un quarto.", "n": "It's a quarter past ten."},
+        {"t": "È mezzogiorno. · È mezzanotte.", "n": "It's noon. · It's midnight."},
+        {"t": "A che ora apre il negozio?", "n": "What time does the shop open?"},
+        {"t": "A che ora chiude la farmacia?", "n": "What time does the pharmacy close?"},
+        {"t": "Dalle 8 alle 13, dalle 16 alle 19.", "n": "From 8 to 1, from 4 to 7. (typical shop hours with the lunch break)"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "In town · directions",
+      "intro": "Everything is five minutes away in an Italian town, until it isn't. Learn to ask with a smile.",
+      "items": [
+        {"t": "Scusi, dov'è la stazione?", "n": "Excuse me, where's the station?"},
+        {"t": "Dove si trova il bar più vicino?", "n": "Where's the nearest bar / café?"},
+        {"t": "Come arrivo al Comune?", "n": "How do I get to the town hall?"},
+        {"t": "È lontano? · È vicino?", "n": "Is it far? · Is it near?"},
+        {"t": "Posso andarci a piedi?", "n": "Can I walk there?"},
+        {"t": "Sempre dritto, poi a destra.", "n": "Straight on, then right."},
+        {"t": "Al semaforo gira a sinistra.", "n": "At the traffic light turn left."},
+        {"t": "È in fondo a questa via.", "n": "It's at the end of this street."},
+        {"t": "È dietro la chiesa.", "n": "It's behind the church."},
+        {"t": "È proprio davanti a Lei.", "n": "It's right in front of you.", "note": "What you most hear after wandering."},
+        {"t": "Mi può segnare sulla mappa?", "n": "Can you mark it on the map?"},
+        {"t": "Scusi, mi sono {{perso|persa}}.", "n": "Sorry, I'm lost."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "The pharmacy",
+      "intro": "The pharmacist is the first level of healthcare in Italy. For small problems, go here before you go to the doctor.",
+      "items": [
+        {"t": "Dov'è la farmacia più vicina?", "n": "Where's the nearest pharmacy?"},
+        {"t": "È di turno stanotte?", "n": "Is it on duty tonight? (pharmacies take turns being open at night)"},
+        {"t": "Qualcosa per il mal di testa.", "n": "Something for a headache."},
+        {"t": "Qualcosa per il raffreddore.", "n": "Something for a cold."},
+        {"t": "Mi fa male qui.", "n": "It hurts here."},
+        {"t": "Ho la tosse. · Ho la febbre.", "n": "I have a cough. · I have a fever."},
+        {"t": "Ho mal di stomaco.", "n": "I have a stomach ache."},
+        {"t": "Sono {{allergico|allergica}} alla penicillina.", "n": "I'm allergic to penicillin."},
+        {"t": "Serve la ricetta?", "n": "Do I need a prescription?"},
+        {"t": "La prendo tre volte al giorno?", "n": "Do I take it three times a day?"},
+        {"t": "Prima o dopo i pasti?", "n": "Before or after meals?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "At the comune · residency",
+      "intro": "The town hall decides who is officially there. The ufficio anagrafe handles residency; the ufficio stranieri handles the permesso di soggiorno.",
+      "items": [
+        {"t": "Vorrei fare la residenza.", "n": "I'd like to register as a resident."},
+        {"t": "Devo prendere appuntamento?", "n": "Do I need an appointment?"},
+        {"t": "Quali documenti servono?", "n": "What documents do I need?"},
+        {"t": "Ecco il passaporto, il codice fiscale e il contratto di affitto.", "n": "Here are my passport, tax code and rental contract."},
+        {"t": "Dov'è l'ufficio anagrafe?", "n": "Where's the registry office?"},
+        {"t": "Dov'è l'ufficio stranieri?", "n": "Where's the foreigners' office?"},
+        {"t": "Quanto tempo ci vuole?", "n": "How long does it take?"},
+        {"t": "Quando posso venire a ritirare il documento?", "n": "When can I come to collect the document?"},
+        {"t": "Scusi, non ho capito. Me lo può spiegare più lentamente?", "n": "Sorry, I didn't understand. Can you explain it more slowly?"},
+        {"t": "Dovrei tornare domani con la marca da bollo?", "n": "Should I come back tomorrow with the revenue stamp?"},
+        {"t": "C'è un modulo da compilare?", "n": "Is there a form to fill in?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Renting a flat",
+      "intro": "Italian housing has fixed language: inquilino, proprietario, caparra, cedolare secca. Learn the top ten and read the contract before signing.",
+      "items": [
+        {"t": "Cerco un appartamento in affitto.", "n": "I'm looking for a flat to rent."},
+        {"t": "Quanto costa l'affitto al mese?", "n": "How much is the rent per month?"},
+        {"t": "Le spese condominiali sono incluse?", "n": "Are the condominium fees included?"},
+        {"t": "Ci sono anche le utenze?", "n": "Does it include the utilities?"},
+        {"t": "È un contratto 4+4?", "n": "Is it a 4+4 contract? (standard long-term residential rental)"},
+        {"t": "Posso prendere la residenza?", "n": "Can I register as a resident at this address?"},
+        {"t": "Quanto è la caparra?", "n": "How much is the deposit?"},
+        {"t": "Devo pagare il bonifico ogni mese?", "n": "Do I pay by bank transfer each month?"},
+        {"t": "La caldaia funziona?", "n": "Does the boiler work?"},
+        {"t": "Chi paga le riparazioni?", "n": "Who pays for repairs?"},
+        {"t": "Vorrei visitare l'appartamento, se possibile.", "n": "I'd like to view the flat, if possible."},
+        {"t": "Posso avere il contratto in anticipo?", "n": "Can I have the contract in advance?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "At the restaurant",
+      "intro": "Italian meals have a shape: antipasto, primo, secondo + contorno, dolce, caffè, amaro. You order each course when you want it, not all at once.",
+      "items": [
+        {"t": "Buonasera, un tavolo per due, per favore.", "n": "Good evening, a table for two, please."},
+        {"t": "Abbiamo prenotato per le otto.", "n": "We have a reservation for eight."},
+        {"t": "Possiamo vedere il menù?", "n": "Can we see the menu?"},
+        {"t": "Qual è la specialità della casa?", "n": "What's the house speciality?"},
+        {"t": "Cosa mi consiglia?", "n": "What do you recommend?"},
+        {"t": "C'è del pesce fresco oggi?", "n": "Is there fresh fish today?"},
+        {"t": "Sono {{vegetariano|vegetariana}}.", "n": "I'm vegetarian."},
+        {"t": "C'è il glutine? Sono {{celiaco|celiaca}}.", "n": "Is there gluten? I have celiac disease."},
+        {"t": "Senza aglio, per favore.", "n": "Without garlic, please."},
+        {"t": "Un bicchiere di vino rosso della casa.", "n": "A glass of house red wine."},
+        {"t": "Un litro di acqua naturale.", "n": "A litre of still water. (frizzante = sparkling)"},
+        {"t": "Il conto, per favore.", "n": "The bill, please."},
+        {"t": "Il coperto è incluso?", "n": "Is the cover charge included?", "note": "Il coperto: a small per-person fee (1-3 euros), standard in Italy, usually printed on the menu."},
+        {"t": "È tutto buonissimo. Complimenti al cuoco.", "n": "Everything is wonderful. Compliments to the chef."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Shopping · food and clothes",
+      "intro": "The daily shopping language. Fruits by the kilo, clothes by the size, prices by the euro.",
+      "items": [
+        {"t": "Un chilo di pomodori, per favore.", "n": "A kilo of tomatoes, please."},
+        {"t": "Mezzo chilo di arance.", "n": "Half a kilo of oranges."},
+        {"t": "Due etti di prosciutto.", "n": "Two hundred grams of ham. (un etto = 100 g, standard shopping unit)"},
+        {"t": "Un panino con prosciutto e mozzarella.", "n": "A sandwich with ham and mozzarella."},
+        {"t": "Posso assaggiare?", "n": "Can I taste?"},
+        {"t": "Sono maturi?", "n": "Are they ripe?"},
+        {"t": "Quanto costa al chilo?", "n": "How much per kilo?"},
+        {"t": "Che taglia porta?", "n": "What size do you wear?"},
+        {"t": "Porto la quarantadue.", "n": "I wear a 42. (Italian size for clothes / shoes)"},
+        {"t": "Posso provarlo? · Posso provarla?", "n": "Can I try it on? (m. / f. object)"},
+        {"t": "Dov'è il camerino?", "n": "Where's the fitting room?"},
+        {"t": "Mi sta bene? · Mi sta un po' stretto.", "n": "Does it fit? · It's a bit tight."},
+        {"t": "Avete una taglia più grande? · Più piccola?", "n": "Do you have a bigger size? · A smaller one?"},
+        {"t": "Lo prendo. · Non lo prendo.", "n": "I'll take it. · I won't take it."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Health · at the doctor",
+      "intro": "If the pharmacy isn't enough, the medico di base (GP) is the next step. For emergencies: pronto soccorso (ER). Call 112 for all emergencies.",
+      "items": [
+        {"t": "Non mi sento bene.", "n": "I don't feel well."},
+        {"t": "Ho mal di gola.", "n": "I have a sore throat."},
+        {"t": "Ho mal d'orecchio.", "n": "I have an earache."},
+        {"t": "Mi fa male la schiena.", "n": "My back hurts."},
+        {"t": "Ho preso l'influenza.", "n": "I've caught the flu."},
+        {"t": "Vorrei prendere un appuntamento con il dottore.", "n": "I'd like to make an appointment with the doctor."},
+        {"t": "Sono {{iscritto|iscritta}} alla ASL.", "n": "I'm registered with the local health authority."},
+        {"t": "Non sono {{iscritto|iscritta}} alla ASL. È possibile pagare?", "n": "I'm not registered with the ASL. Is it possible to pay?"},
+        {"t": "Chiamate un'ambulanza, per favore.", "n": "Call an ambulance, please."},
+        {"t": "Dov'è il pronto soccorso?", "n": "Where's the emergency room?"},
+        {"t": "Il 112 è il numero d'emergenza unico.", "n": "112 is the single emergency number."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Phone, internet, bank",
+      "intro": "The three services every newcomer sets up in the first fortnight. Carrier, SPID, bank account — in that order.",
+      "items": [
+        {"t": "Vorrei una SIM italiana.", "n": "I'd like an Italian SIM card."},
+        {"t": "Quanti giga al mese?", "n": "How many gigs per month?"},
+        {"t": "Posso tenere il mio numero canadese?", "n": "Can I keep my Canadian number?"},
+        {"t": "La connessione non funziona.", "n": "The connection isn't working."},
+        {"t": "Il WiFi è gratis?", "n": "Is the WiFi free?"},
+        {"t": "La password, per favore?", "n": "The password, please?"},
+        {"t": "Vorrei aprire un conto corrente.", "n": "I'd like to open a current account."},
+        {"t": "Che documenti servono?", "n": "What documents are needed?"},
+        {"t": "Posso avere una carta di debito?", "n": "Can I have a debit card?"},
+        {"t": "Vorrei fare un bonifico.", "n": "I'd like to make a bank transfer."},
+        {"t": "Qual è l'IBAN?", "n": "What's the IBAN?"},
+        {"t": "Lo SPID è obbligatorio, mi sa.", "n": "SPID is required, I think.", "note": "SPID (Sistema Pubblico di Identità Digitale) is the login for Italian state websites."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "When you don't understand",
+      "intro": "The most useful page of this phrasebook. Nobody expects you to understand everything in your first weeks; everybody expects you to ask.",
+      "items": [
+        {"t": "Scusi, può ripetere?", "n": "Sorry, can you repeat?"},
+        {"t": "Più lentamente, per favore.", "n": "More slowly, please."},
+        {"t": "Non capisco.", "n": "I don't understand."},
+        {"t": "Non ho capito. · Non ho capito bene.", "n": "I didn't understand. · I didn't quite understand."},
+        {"t": "Come si dice ___ in italiano?", "n": "How do you say ___ in Italian?"},
+        {"t": "Come si scrive?", "n": "How is it spelled?"},
+        {"t": "Me lo può scrivere, per favore?", "n": "Can you write it down for me, please?"},
+        {"t": "Che significa questa parola?", "n": "What does this word mean?"},
+        {"t": "Parla inglese?", "n": "Do you speak English?", "note": "Formal Lei. In big cities, usually yes; in small towns, often no."},
+        {"t": "Sto imparando l'italiano.", "n": "I'm learning Italian."},
+        {"t": "Scusa il mio italiano.", "n": "Sorry for my Italian. (informal)"},
+        {"t": "Grazie della pazienza.", "n": "Thanks for your patience."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Small talk and the social moves",
+      "intro": "The phrases that make a conversation last three minutes instead of thirty seconds. Learn five, deploy them often.",
+      "items": [
+        {"t": "Da dove viene? · Da dove vieni?", "n": "Where are you from? (formal · informal)"},
+        {"t": "Vengo dal Canada. · Vengo da Toronto.", "n": "I'm from Canada. · I'm from Toronto."},
+        {"t": "Da quanto tempo è in Italia?", "n": "How long have you been in Italy?"},
+        {"t": "Da due settimane. · Da due anni.", "n": "For two weeks. · For two years."},
+        {"t": "Che lavoro fa? · Che lavoro fai?", "n": "What do you do for a living? (formal · informal)"},
+        {"t": "Che bello! · Che interessante!", "n": "How nice! · How interesting!"},
+        {"t": "Davvero? Non lo sapevo.", "n": "Really? I didn't know."},
+        {"t": "Mi piace molto l'Italia. · Mi piace la vostra città.", "n": "I like Italy a lot. · I like your city."},
+        {"t": "Sei qui per molto tempo?", "n": "Are you here for a long time?"},
+        {"t": "Ci rivediamo? Scambiamoci il numero.", "n": "Shall we meet again? Let's swap numbers."},
+        {"t": "Prendiamo un caffè una di queste sere?", "n": "Shall we grab a coffee one of these evenings?"},
+        {"t": "A presto! Buon proseguimento.", "n": "See you soon! Enjoy the rest of your day."}
+      ]
+    }
+  ]
+}

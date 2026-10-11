@@ -1,3 +1,36 @@
 {
- "questions": []
+  "questions": [
+    {"level": "A1", "kind": "mc", "q": "«My name ___ Chiara.»", "options": ["is", "am", "are"], "answer": 0, "why": "He / she / it + is. In inglese il verbo be concorda con la persona."},
+    {"level": "A1", "kind": "mc", "q": "«What ___ your name?»", "options": ["is", "are", "do"], "answer": 0, "why": "Soggetto singolare → is."},
+    {"level": "A1", "kind": "mc", "q": "«How old ___ you?»", "options": ["are", "is", "do"], "answer": 0, "why": "You → are. L'inglese usa be + numero + years old per l'età."},
+    {"level": "A1", "kind": "mc", "q": "«I ___ 27 years old.»", "options": ["am", "have", "do"], "answer": 0, "why": "English usa be + years old. Non have."},
+    {"level": "A1", "kind": "mc", "q": "«Where ___ you from?»", "options": ["are", "do", "is"], "answer": 0, "why": "You + are."},
+    {"level": "A1", "kind": "fill", "q": "«I ___ (be) Italian. She ___ (be) Canadian. We ___ (be) at the bakery.»", "answers": [["am"], ["is"], ["are"]], "n": "Sono italiana. Lei è canadese. Siamo in pasticceria."},
+    {"level": "A1", "kind": "mc", "q": "«She ___ coffee every morning.»", "options": ["drinks", "drink", "is drinking"], "answer": 0, "why": "He / she / it + verbo + -s nel present simple per abitudine."},
+    {"level": "A1", "kind": "mc", "q": "«___ you like pizza?»", "options": ["Do", "Are", "Is"], "answer": 0, "why": "Domanda al present simple: Do + soggetto + verbo base."},
+    {"level": "A1", "kind": "mc", "q": "The plural of «a child»:", "options": ["children", "childs", "childrens"], "answer": 0, "why": "Plurale irregolare: child → children."},
+    {"level": "A1", "kind": "fill", "q": "«I live ___ Toronto. The bakery is ___ College Street.»", "answers": [["in"], ["on"]], "n": "In Toronto / on College Street. Preposizione in per città, on per nomi di strada."},
+
+    {"level": "A2", "kind": "mc", "q": "«Yesterday I ___ to the market.»", "options": ["went", "goed", "going"], "answer": 0, "why": "Past simple di go: went (irregolare)."},
+    {"level": "A2", "kind": "mc", "q": "«Last night I ___ a book.»", "options": ["read", "readed", "did read"], "answer": 0, "why": "Past simple di read: read (si pronuncia /red/ al passato)."},
+    {"level": "A2", "kind": "fill", "q": "«I ___ (live) in Toronto for a year. I ___ (not see) my family in two months.»", "answers": [["have lived"], ["haven't seen"]], "n": "Vivo a Toronto da un anno. Non vedo la mia famiglia da due mesi."},
+    {"level": "A2", "kind": "mc", "q": "«I have lived here ___ 2024.»", "options": ["since", "for", "from"], "answer": 0, "why": "Since + punto nel tempo (2024). For + durata (one year)."},
+    {"level": "A2", "kind": "mc", "q": "«If it rains, I ___ at home.»", "options": ["will stay", "would stay", "stayed"], "answer": 0, "why": "Primo periodo ipotetico (reale): if + present + will + base."},
+    {"level": "A2", "kind": "fill", "q": "«I ___ (go) to the party last night, but I ___ (be) tired.»", "answers": [["went"], ["was"]], "n": "Sono andata alla festa ieri sera, ma ero stanca."},
+    {"level": "A2", "kind": "mc", "q": "Comparative of «hot»:", "options": ["hotter", "more hot", "hotest"], "answer": 0, "why": "Aggettivi corti: -er. Hot → hotter (con doppia -t perché la vocale è breve)."},
+    {"level": "A2", "kind": "mc", "q": "«She has ___ friends in Toronto.»", "options": ["many", "much", "a lot"], "answer": 0, "why": "Many + sostantivo plurale numerabile. Much + non numerabile."},
+    {"level": "A2", "kind": "mc", "q": "«I ___ have the IELTS test, but I need to study.»", "options": ["don't have to", "mustn't", "can't"], "answer": 0, "why": "Don't have to = non è obbligatorio. Mustn't = divieto. Diverso."},
+    {"level": "A2", "kind": "fill", "q": "Reporting: «I'm tired» → She said she ___ tired. «I'll come» → He said he ___ come.", "answers": [["was"], ["would"]], "n": "Discorso indiretto: present → past, will → would."},
+
+    {"level": "B1", "kind": "mc", "q": "«By midnight I ___ three bagels.»", "options": ["had eaten", "ate", "have eaten"], "answer": 0, "why": "By + ora + past perfect = azione completata entro quel momento passato."},
+    {"level": "B1", "kind": "mc", "q": "«If I had known, I ___ earlier.»", "options": ["would have called", "would call", "called"], "answer": 0, "why": "Terzo periodo ipotetico: if + past perfect + would have + part."},
+    {"level": "B1", "kind": "fill", "q": "«If I ___ (have) more time, I ___ (travel) across Canada.»", "answers": [["had"], ["would travel", "'d travel"]], "n": "Se avessi più tempo, viaggerei attraverso il Canada. (Secondo periodo ipotetico.)"},
+    {"level": "B1", "kind": "mc", "q": "«The flight ___ due to thunderstorms.»", "options": ["has been delayed", "has delayed", "delays"], "answer": 0, "why": "Passivo (be + past participle) nei tempi perfetti: has been delayed."},
+    {"level": "B1", "kind": "mc", "q": "«She told me ___ her tonight.»", "options": ["to call", "that I call", "calling"], "answer": 0, "why": "Tell + oggetto + to + infinito per un ordine riportato."},
+    {"level": "B1", "kind": "mc", "q": "«I wish I ___ French.»", "options": ["spoke", "speak", "would speak"], "answer": 0, "why": "Wish + past simple per un rammarico sul presente."},
+    {"level": "B1", "kind": "fill", "q": "«If I ___ (study) harder last year, I ___ (pass, mixed cond.) the exam now.»", "answers": [["had studied"], ["would pass", "'d pass"]], "n": "Se avessi studiato di più l'anno scorso, avrei passato l'esame adesso. (Condizionale misto: passato → presente.)"},
+    {"level": "B1", "kind": "mc", "q": "«The volunteer ___ helped me was Prisca.»", "options": ["who", "which", "whose"], "answer": 0, "why": "Who per persone. Which per cose. Whose per possesso."},
+    {"level": "B1", "kind": "mc", "q": "«I enjoy ___ early in the morning.»", "options": ["baking", "to bake", "bake"], "answer": 0, "why": "Enjoy + -ing (gerundio) soltanto. Decide / want / hope + to + infinito."},
+    {"level": "B1", "kind": "mc", "q": "The Canadian spelling of 'color' is:", "options": ["colour", "color", "coloure"], "answer": 0, "why": "L'ortografia canadese segue il britannico per -our: colour, favourite, honour."}
+  ]
 }

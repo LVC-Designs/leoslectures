@@ -1,1 +1,35 @@
-{ "questions": [] }
+{
+  "questions": [
+    {"level": "A1", "kind": "mc", "q": "«___ ti chiami?» — the question Dora asks when she meets you.", "options": ["Come", "Che", "Chi"], "answer": 0, "why": "Come ti chiami? = What's your name? (lit. How do you call yourself.)"},
+    {"level": "A1", "kind": "mc", "q": "«Io ___ Luca.»", "options": ["sono", "ho", "sto"], "answer": 0, "why": "Essere for identity. Io sono Luca."},
+    {"level": "A1", "kind": "mc", "q": "«___ anni hai?» — asking someone's age.", "options": ["Quanti", "Come", "Che"], "answer": 0, "why": "Quanti anni hai? Italians have age (avere), not are age."},
+    {"level": "A1", "kind": "mc", "q": "«Ho venti ___»", "options": ["anni", "anno", "ani"], "answer": 0, "why": "Plural: anni. One i is wrong."},
+    {"level": "A1", "kind": "mc", "q": "«Vorrei ___ caffè, per favore.»", "options": ["un", "una", "uno"], "answer": 0, "why": "Caffè is masculine, starts with a consonant: un caffè."},
+    {"level": "A1", "kind": "fill", "q": "La casa di Dora ___ (essere) grande. Dora ___ (avere) tre figli.", "answers": [["è"], ["ha"]], "n": "Dora's house is big. Dora has three children."},
+    {"level": "A1", "kind": "mc", "q": "«Il libro è ___ tavolo» (the book is on the table).", "options": ["sul", "nel", "al"], "answer": 0, "why": "Su + il → sul (on the)."},
+    {"level": "A1", "kind": "fill", "q": "Compilate: ___ (parlare, io) italiano. ___ (vivere, tu) a Toronto. ___ (dormire, lui) poco.", "answers": [["Parlo"], ["Vivi"], ["Dorme"]], "n": "I speak Italian. You live in Toronto. He sleeps little."},
+    {"level": "A1", "kind": "mc", "q": "«Mi ___ la pizza.» (I like pizza.)", "options": ["piace", "piaccio", "mi piace"], "answer": 0, "why": "Mi piace la pizza. Piacere pattern: pizza is the subject."},
+
+    {"level": "A2", "kind": "fill", "q": "Un anno fa ___ (arrivare, io) a Roccamarina. Non ___ (conoscere, io) nessuno. ___ (avere, io) una valigia.", "answers": [[{"m": "sono arrivato", "f": "sono arrivata"}], ["conoscevo"], ["Avevo"]], "n": "A year ago I arrived in Roccamarina. I didn't know anyone. I had a suitcase."},
+    {"level": "A2", "kind": "mc", "q": "«Ieri ___ al mare.» (Yesterday I went to the beach.)", "options": ["sono andato / andata", "ho andato", "andai"], "answer": 0, "why": "Andare takes essere, with agreement."},
+    {"level": "A2", "kind": "mc", "q": "«Devo studiare ___ passare l'esame.» (I have to study to pass the exam.)", "options": ["per", "di", "a"], "answer": 0, "why": "Per + inf. = purpose. Different from devo imparare a / finisco di."},
+    {"level": "A2", "kind": "fill", "q": "«Chiara è la ragazza ___ ho conosciuto ieri. L'appartamento ___ vivo è nuovo.» (relative pronouns)", "answers": [["che"], ["in cui"]], "n": "Chiara is the girl I met yesterday. The flat I live in is new."},
+    {"level": "A2", "kind": "mc", "q": "Formal Lei imperative: «Firmi qui, per favore.» The verb firmi is:", "options": ["imperativo Lei (= firma for tu)", "indicativo presente", "congiuntivo"], "answer": 0, "why": "The polite imperativo in Italy uses the Lei form, which looks like the subjunctive."},
+    {"level": "A2", "kind": "fill", "q": "«___ (fare, tu, imperativo informale) la spesa! ___ (venire, voi, imperativo) con me!» (Do the shopping! Come with me!)", "answers": [["Fa' / Fai"], ["Venite"]], "n": "Do the shopping! Come with me!"},
+    {"level": "A2", "kind": "mc", "q": "«Me ne ha parlato Pasquale.» The combined pronoun me ne means:", "options": ["to me + of it / about it", "me + I don't know", "to me + there"], "answer": 0, "why": "Me ne = indirect mi + partitive / topic ne. Pasquale spoke to me about it."},
+    {"level": "A2", "kind": "mc", "q": "«Vorrei un caffè» vs «Voglio un caffè» — the difference:", "options": ["Vorrei is polite (I'd like); voglio is direct (I want).", "They mean the same.", "Vorrei is wrong."], "answer": 0, "why": "Condizionale for polite requests."},
+    {"level": "A2", "kind": "fill", "q": "«Spero che Chiara ___ (venire, cong. presente) a cena. Credo che ___ (essere, cong. presente) stanca.»", "answers": [["venga"], ["sia"]], "n": "I hope Chiara comes to dinner. I think she's tired."},
+    {"level": "A2", "kind": "mc", "q": "«Si parla italiano qui.» — the si is:", "options": ["si passivante (Italian is spoken here)", "si reflexive", "si imperative"], "answer": 0, "why": "Si + verb + noun: passive-like, impersonal."},
+
+    {"level": "B1", "kind": "fill", "q": "«Quando sono arrivato a Pasquale, Dora ___ (già, uscire, trap.) e la porta ___ (essere, imp.) aperta.»", "answers": [["era già uscita"], ["era"]], "n": "When I got to Pasquale, Dora had already left and the door was open."},
+    {"level": "B1", "kind": "mc", "q": "«Se avessi i soldi, ___ la casa.»", "options": ["comprerei", "avrei comprato", "compro"], "answer": 0, "why": "Second conditional (type 2): if + cong. imp. + condizionale presente."},
+    {"level": "B1", "kind": "fill", "q": "«Se ___ (sapere, cong. trap.) di Nicola, ___ (scrivere, cond. passato) un discorso diverso.»", "answers": [["avessi saputo"], ["avrei scritto"]], "n": "If I had known about Nicola, I would have written a different speech. (Third conditional.)"},
+    {"level": "B1", "kind": "mc", "q": "«Chiara ha detto che ___ a Natale.» (She said she would come at Christmas.)", "options": ["sarebbe venuta", "verrà", "veniva"], "answer": 0, "why": "Condizionale passato for the future in the past (reported speech)."},
+    {"level": "B1", "kind": "fill", "q": "«Benché ___ (essere) tardi, Pasquale parla ancora. Mi fa piacere che ___ (venire, cong. passato) tu.»", "answers": [["sia"], ["sia venuto", "sia venuta"]], "n": "Although it's late, Pasquale is still talking. I'm glad you came."},
+    {"level": "B1", "kind": "mc", "q": "«Il modulo va compilato» means:", "options": ["The form must be filled in (andare + part. = obligation).", "The form goes to be filled.", "The form is filled."], "answer": 0, "why": "Andare + past participle = must be + participle."},
+    {"level": "B1", "kind": "mc", "q": "«Avendo passato un anno in Italia, parlo diversamente.» The gerundio passato (avendo passato) means:", "options": ["Having spent (a prior action, same subject).", "While spending.", "If I had spent."], "answer": 0, "why": "Gerundio passato = having + past participle."},
+    {"level": "B1", "kind": "mc", "q": "«Nel 1969 nonno Cosimo partì per il Canada.» Partì is the:", "options": ["Passato remoto (literary / Southern finished-and-distant past).", "Imperfetto.", "Condizionale."], "answer": 0, "why": "Passato remoto lui form of partire."},
+    {"level": "B1", "kind": "fill", "q": "«Quando ___ (finire, fut. anteriore) la lettera, ___ (spedire, fut.) la raccomandata.»", "answers": [["avrò finito"], ["spedirò"]], "n": "When I've finished the letter, I'll send the registered mail."},
+    {"level": "B1", "kind": "mc", "q": "«L'amico la cui madre è medico.» La cui agrees with:", "options": ["madre (the thing possessed)", "amico (the possessor)", "no agreement"], "answer": 0, "why": "Il cui / la cui / i cui / le cui agree with the thing possessed, not with the possessor."}
+  ]
+}

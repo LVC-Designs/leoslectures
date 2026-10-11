@@ -1,3 +1,256 @@
 {
- "groups": []
+  "groups": [
+    {
+      "type": "phrases", "title": "Arriving at Pearson",
+      "intro": "I primi quaranta minuti. Immigration, bagagli, un taxi o la UP Express. Dieci frasi memorizzate prima dell'imbarco a Fiumicino: atterri morbido.",
+      "items": [
+        {"t": "Good morning. Here's my passport.", "n": "Buongiorno. Ecco il mio passaporto."},
+        {"t": "I'm here on a Working Holiday permit.", "n": "Sono qui con un permesso Working Holiday.", "note": "Al controllo passaporti dì la tipologia esatta del tuo permesso; porta il COPR (Confirmation of Permanent Residence) o il permit letter."},
+        {"t": "I'm here on holiday.", "n": "Sono qui in vacanza."},
+        {"t": "I'm here for work.", "n": "Sono qui per lavoro."},
+        {"t": "I'm staying for two weeks.", "n": "Resto due settimane."},
+        {"t": "Where's baggage claim?", "n": "Dov'è il ritiro bagagli?"},
+        {"t": "My luggage didn't arrive.", "n": "Il mio bagaglio non è arrivato.", "note": "La frase giusta al banco della compagnia aerea; porta il baggage-claim ticket."},
+        {"t": "Where can I get a taxi?", "n": "Dove posso prendere un taxi?"},
+        {"t": "I'd like to take the UP Express to Union, please.", "n": "Vorrei prendere la UP Express per Union, per favore."},
+        {"t": "How much is the ticket?", "n": "Quanto costa il biglietto?"},
+        {"t": "Where's the ATM?", "n": "Dove c'è il bancomat?"},
+        {"t": "Sorry, I didn't catch that. Could you repeat, please?", "n": "Scusi, non ho sentito. Potrebbe ripetere, per favore?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Hello and goodbye",
+      "intro": "I saluti canadesi sono informali ma attenti: 'Hi' quasi sempre, 'How are you?' come riempitivo, 'Sorry' per tutto. Troppo educato è sempre meglio di troppo informale.",
+      "items": [
+        {"t": "Hi! · Hello!", "n": "Ciao! (informale) · Buongiorno (neutro)."},
+        {"t": "Good morning. · Good afternoon. · Good evening.", "n": "Buongiorno (fino alle 12). · Buon pomeriggio. · Buonasera."},
+        {"t": "How are you? · How's it going? · How are you doing?", "n": "Come stai? (riempitivo del saluto, non richiede risposta lunga)"},
+        {"t": "Good, thanks. And you?", "n": "Bene, grazie. E tu?"},
+        {"t": "Nice to meet you. · Pleased to meet you.", "n": "Piacere di conoscerti. · Lieto di conoscerti."},
+        {"t": "See you later. · See you tomorrow. · See you soon.", "n": "A dopo. · A domani. · A presto."},
+        {"t": "Bye! · Goodbye. · Take care.", "n": "Ciao! · Arrivederci. · Buona giornata (lett. abbiti cura)."},
+        {"t": "Have a good one!", "n": "Buona giornata! (molto canadese, informale)"},
+        {"t": "Have a good day. · Have a good weekend.", "n": "Buona giornata. · Buon fine settimana."},
+        {"t": "Sorry.", "n": "Scusa. (In Canada si dice per tutto: urti, confusione, interruzione.)"},
+        {"t": "Excuse me.", "n": "Scusa (per attirare l'attenzione o per chiedere il permesso)."},
+        {"t": "Thanks. · Thanks a lot. · Thank you so much.", "n": "Grazie. · Grazie mille. · Grazie infinite."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Ordering coffee and food",
+      "intro": "Starbucks, Tim Hortons, Second Cup, l'indie coffee shop: tutti funzionano uguale. Ordini, paghi al bancone, aspetti il nome. Lascia una mancia di 10-20% al table service.",
+      "items": [
+        {"t": "I'll have a large coffee, please.", "n": "Prendo un caffè grande, per favore. (In Canada 'coffee' = caffè americano)"},
+        {"t": "A double-double, please.", "n": "Un caffè con due panna e due zuccheri (classico Tim Hortons)."},
+        {"t": "A latte with oat milk.", "n": "Un latte con latte d'avena. (Attenzione: 'latte' in inglese = latte macchiato alla milanese; non il latte da bere.)"},
+        {"t": "To go, please. · For here, please.", "n": "Da portare via. · Lo bevo qui."},
+        {"t": "Can I get a bagel with cream cheese?", "n": "Posso avere un bagel con il formaggio spalmabile?"},
+        {"t": "Can I see the menu?", "n": "Posso vedere il menù?"},
+        {"t": "What do you recommend?", "n": "Cosa consiglia?"},
+        {"t": "I'm vegetarian. · I'm vegan.", "n": "Sono vegetariana. · Sono vegana."},
+        {"t": "I have a nut allergy.", "n": "Sono allergica alle noci."},
+        {"t": "Could we have the bill, please?", "n": "Potremmo avere il conto, per favore?"},
+        {"t": "Is service included?", "n": "Il servizio è incluso?", "note": "In Canada, no: la mancia (tip) di 15-20% è obbligatoria al ristorante."},
+        {"t": "Can we split the bill?", "n": "Possiamo dividere il conto?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Numbers, time, money",
+      "intro": "I numeri inglesi e il tempo in formato 12 ore sono i due dettagli che spiazzano gli italiani appena arrivati.",
+      "items": [
+        {"t": "Zero, one, two, three, four, five, six, seven, eight, nine, ten.", "n": "Zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci."},
+        {"t": "Twenty, thirty, fifty, one hundred, one thousand.", "n": "Venti, trenta, cinquanta, cento, mille."},
+        {"t": "Five dollars and fifty cents. · Five fifty.", "n": "Cinque dollari e cinquanta. · Cinque e cinquanta."},
+        {"t": "Do you have change?", "n": "Ha spiccioli / resto?"},
+        {"t": "What time is it?", "n": "Che ora è?"},
+        {"t": "It's a quarter past ten. · It's half past ten. · It's a quarter to eleven.", "n": "È un quarto alle dieci. · Sono le dieci e mezza. · È un quarto alle undici."},
+        {"t": "It's noon. · It's midnight.", "n": "È mezzogiorno. · È mezzanotte."},
+        {"t": "9 a.m. · 9 p.m.", "n": "Le 9 del mattino. · Le 9 di sera. (Il Canada usa il formato 12 ore + a.m. / p.m.)"},
+        {"t": "What time does the store open? · What time does it close?", "n": "A che ora apre il negozio? · A che ora chiude?"},
+        {"t": "The subway runs from 6 a.m. to 1:30 a.m. (Mon–Sat).", "n": "La metropolitana corre dalle 6 all'1:30 (lun-sab)."},
+        {"t": "The price includes HST (13%).", "n": "Il prezzo include l'IVA canadese (13%).", "note": "In Canada il prezzo esposto spesso NON include l'HST: 10$ al banco diventano 11,30$ alla cassa."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Getting around Toronto",
+      "intro": "Il TTC (Toronto Transit Commission): subway, bus, streetcar. Un ticket per tutti. In 2026, 3,30 CAD con Presto o il contactless (debit / credit card).",
+      "items": [
+        {"t": "Excuse me, where's the nearest subway station?", "n": "Scusi, dov'è la stazione della metro più vicina?"},
+        {"t": "How do I get to Union Station?", "n": "Come arrivo a Union Station?"},
+        {"t": "Which streetcar goes to Dundas and Spadina?", "n": "Quale tram va a Dundas e Spadina?"},
+        {"t": "Is it far? · Is it within walking distance?", "n": "È lontano? · Si può andare a piedi?"},
+        {"t": "Go straight ahead, then turn right.", "n": "Vai dritto, poi gira a destra."},
+        {"t": "Turn left at the lights.", "n": "Gira a sinistra al semaforo."},
+        {"t": "It's at the end of this street.", "n": "È in fondo a questa via."},
+        {"t": "It's behind the church.", "n": "È dietro la chiesa."},
+        {"t": "It's right in front of you.", "n": "È proprio davanti a te."},
+        {"t": "Can you show me on the map?", "n": "Me lo puoi mostrare sulla mappa?"},
+        {"t": "Sorry, I'm lost.", "n": "Scusa, mi sono persa."},
+        {"t": "Does this bus go to Yorkdale?", "n": "Questo autobus va a Yorkdale?"},
+        {"t": "Where do I transfer?", "n": "Dove faccio il cambio?"},
+        {"t": "I'd like to tap my Presto card, please.", "n": "Vorrei convalidare la mia Presto card, per favore."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "At the pharmacy",
+      "intro": "In Canada le farmacie si chiamano drug stores (Shoppers Drug Mart, Rexall, Pharmasave). Il farmacista può prescrivere alcune medicine; molti farmaci da banco sono dietro il bancone.",
+      "items": [
+        {"t": "Where's the nearest pharmacy?", "n": "Dov'è la farmacia più vicina?"},
+        {"t": "Is it open 24 hours?", "n": "È aperta 24 ore?"},
+        {"t": "Something for a headache.", "n": "Qualcosa per il mal di testa."},
+        {"t": "Something for a cold.", "n": "Qualcosa per il raffreddore."},
+        {"t": "It hurts here.", "n": "Mi fa male qui."},
+        {"t": "I have a cough. · I have a fever.", "n": "Ho la tosse. · Ho la febbre."},
+        {"t": "I have a stomach ache.", "n": "Ho mal di stomaco."},
+        {"t": "I'm allergic to penicillin.", "n": "Sono allergica alla penicillina."},
+        {"t": "Do I need a prescription?", "n": "Serve la ricetta?"},
+        {"t": "How often do I take it?", "n": "Ogni quanto la prendo?"},
+        {"t": "Before or after meals?", "n": "Prima o dopo i pasti?"},
+        {"t": "Can I speak to the pharmacist, please?", "n": "Posso parlare con il farmacista, per favore?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "At Service Canada and ServiceOntario",
+      "intro": "Le due porte della burocrazia canadese. Service Canada: SIN, EI, pensioni. ServiceOntario: patente, OHIP (sanità), registrazione auto.",
+      "items": [
+        {"t": "I need to apply for a SIN.", "n": "Devo richiedere il codice fiscale canadese (SIN).", "note": "Social Insurance Number: necessario per lavorare in Canada. Si fa a Service Canada."},
+        {"t": "Do I need an appointment?", "n": "Devo prendere appuntamento?"},
+        {"t": "What documents do I need?", "n": "Quali documenti servono?"},
+        {"t": "Here's my passport and my work permit.", "n": "Ecco il mio passaporto e il permesso di lavoro."},
+        {"t": "I'd like to apply for OHIP, please.", "n": "Vorrei fare domanda per l'OHIP (sanità pubblica), per favore."},
+        {"t": "Where's the ServiceOntario office?", "n": "Dov'è l'ufficio ServiceOntario?"},
+        {"t": "How long does it take?", "n": "Quanto tempo ci vuole?"},
+        {"t": "When can I come back to pick it up?", "n": "Quando posso tornare a ritirarlo?"},
+        {"t": "Sorry, I didn't understand. Could you explain more slowly?", "n": "Scusi, non ho capito. Me lo può spiegare più lentamente?"},
+        {"t": "Is there a form I need to fill in?", "n": "C'è un modulo da compilare?"},
+        {"t": "Should I come back with the proof of address?", "n": "Devo tornare con la prova di residenza?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Renting an apartment",
+      "intro": "Il contratto standard di Ontario, dal 2018, è lo stesso per tutti i proprietari: 13 pagine, il modulo scaricabile dallo stato. Primo e ultimo mese anticipati; 24 ore di preavviso per l'ingresso del proprietario.",
+      "items": [
+        {"t": "I'm looking for an apartment to rent.", "n": "Cerco un appartamento in affitto."},
+        {"t": "How much is the rent per month?", "n": "Quanto costa l'affitto al mese?"},
+        {"t": "Does it include utilities?", "n": "Include le utenze?"},
+        {"t": "Does it include hydro, gas and water?", "n": "Include elettricità, gas e acqua?", "note": "'Hydro' in Ontario = elettricità (dal vecchio Ontario Hydro)."},
+        {"t": "Is it a one-year lease?", "n": "È un contratto di un anno?"},
+        {"t": "First and last month's rent as a deposit?", "n": "Primo e ultimo mese come deposito?"},
+        {"t": "Can I take a look at the apartment first?", "n": "Posso vedere l'appartamento prima?"},
+        {"t": "Is the furnace working?", "n": "La caldaia funziona?"},
+        {"t": "Who pays for repairs?", "n": "Chi paga le riparazioni?"},
+        {"t": "I'd like a copy of the lease in advance.", "n": "Vorrei una copia del contratto in anticipo."},
+        {"t": "What's the policy on pets?", "n": "Qual è la politica per gli animali?"},
+        {"t": "I need 24 hours' notice before entering the apartment.", "n": "Serve preavviso di 24 ore prima di entrare nell'appartamento.", "note": "È legge in Ontario, salvo emergenze."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "At the restaurant",
+      "intro": "I ristoranti canadesi offrono tipicamente appetizer + main + dessert, con il drink separato. Mancia (tip): 15-20% sull'importo al netto delle tasse.",
+      "items": [
+        {"t": "Good evening. A table for two, please.", "n": "Buonasera, un tavolo per due, per favore."},
+        {"t": "We have a reservation at eight.", "n": "Abbiamo prenotato per le otto."},
+        {"t": "Could we see the menu?", "n": "Potremmo vedere il menù?"},
+        {"t": "What do you recommend?", "n": "Cosa consigli?"},
+        {"t": "What's the special today?", "n": "Qual è la specialità di oggi?"},
+        {"t": "I'll have the pasta, please.", "n": "Prendo la pasta, per favore."},
+        {"t": "No onions, please. · No cheese, please.", "n": "Senza cipolle, per favore. · Senza formaggio, per favore."},
+        {"t": "I have a nut allergy.", "n": "Sono allergica alle noci."},
+        {"t": "A glass of house red, please.", "n": "Un bicchiere di vino rosso della casa, per favore."},
+        {"t": "A glass of water, please.", "n": "Un bicchiere d'acqua, per favore. (In Canada: tap water gratis.)"},
+        {"t": "Could we have the bill, please?", "n": "Potremmo avere il conto, per favore?"},
+        {"t": "Can we split the bill?", "n": "Possiamo dividere il conto?"},
+        {"t": "The food was great, thank you.", "n": "Il cibo era ottimo, grazie."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Shopping · groceries and clothes",
+      "intro": "I supermercati canadesi: Loblaws, Metro, Sobeys, No Frills (basso costo), Longo's (medio-alto). Le taglie di scarpe e vestiti sono USA, non UE.",
+      "items": [
+        {"t": "A kilo of tomatoes, please.", "n": "Un chilo di pomodori, per favore.", "note": "Canada usa il sistema metrico ufficialmente, ma i supermercati espongono spesso i prezzi al pound (libbra) in parallelo."},
+        {"t": "Half a kilo of oranges.", "n": "Mezzo chilo di arance."},
+        {"t": "Can I try this on?", "n": "Posso provarmelo? (abbigliamento)"},
+        {"t": "Where's the fitting room?", "n": "Dov'è il camerino?"},
+        {"t": "Do you have a bigger size? · A smaller size?", "n": "Avete una taglia più grande? · Più piccola?"},
+        {"t": "I'll take it. · I'll leave it, thanks.", "n": "Lo prendo. · Non lo prendo, grazie."},
+        {"t": "Is there a discount if I pay cash?", "n": "C'è lo sconto se pago in contanti?"},
+        {"t": "Can I get a tax refund?", "n": "Posso avere un rimborso dell'IVA? (I turisti possono farlo in alcuni programmi)"},
+        {"t": "Where's the checkout? · Where's the register?", "n": "Dov'è la cassa?"},
+        {"t": "Do you accept cards? · Debit or credit?", "n": "Accettate le carte? · Debit o credit?"},
+        {"t": "Could I have a bag, please?", "n": "Posso avere un sacchetto, per favore?", "note": "Dal 2022 in Ontario la plastica monouso è vietata; i sacchetti sono spesso a pagamento."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Health · at the walk-in clinic",
+      "intro": "Senza OHIP: paghi 50-200 CAD una visita. Con OHIP (dopo 90 giorni di residenza o con permesso di lavoro): gratis. Walk-in clinic: senza appuntamento, lunghe code.",
+      "items": [
+        {"t": "I don't feel well.", "n": "Non mi sento bene."},
+        {"t": "I have a sore throat.", "n": "Ho mal di gola."},
+        {"t": "I have an earache.", "n": "Ho mal d'orecchio."},
+        {"t": "My back hurts.", "n": "Mi fa male la schiena."},
+        {"t": "I've caught the flu.", "n": "Ho preso l'influenza."},
+        {"t": "I'd like to make an appointment with the doctor.", "n": "Vorrei prendere appuntamento con il dottore."},
+        {"t": "I'm registered with OHIP.", "n": "Sono iscritta all'OHIP."},
+        {"t": "I'm not registered with OHIP. How much is it?", "n": "Non sono iscritta all'OHIP. Quanto costa?"},
+        {"t": "Please call an ambulance.", "n": "Chiamate un'ambulanza, per favore."},
+        {"t": "Where's the ER (emergency room)?", "n": "Dov'è il pronto soccorso?"},
+        {"t": "Call 911.", "n": "Chiama il 911.", "note": "In Canada il 911 copre polizia, pompieri e ambulanza."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Phone, internet, bank",
+      "intro": "I tre servizi dei primi quindici giorni: un piano telefonico, un conto in banca, un abbonamento internet casa. Spesso bundlati, spesso cari (il più caro al mondo per telefono + internet).",
+      "items": [
+        {"t": "I'd like a Canadian SIM card.", "n": "Vorrei una SIM canadese."},
+        {"t": "How many gigabytes per month?", "n": "Quanti giga al mese?"},
+        {"t": "Can I keep my Italian number?", "n": "Posso tenere il mio numero italiano?"},
+        {"t": "The connection isn't working.", "n": "La connessione non funziona."},
+        {"t": "Is the WiFi free?", "n": "Il WiFi è gratis?"},
+        {"t": "What's the password, please?", "n": "La password, per favore?"},
+        {"t": "I'd like to open a chequing account.", "n": "Vorrei aprire un conto corrente."},
+        {"t": "What documents do you need?", "n": "Che documenti servono?"},
+        {"t": "Can I have a debit card?", "n": "Posso avere una debit card?"},
+        {"t": "I'd like to make a wire transfer.", "n": "Vorrei fare un bonifico."},
+        {"t": "What's the account number?", "n": "Qual è il numero di conto?"},
+        {"t": "Can I use my Italian credit card here?", "n": "Posso usare la mia carta italiana qui?"}
+      ]
+    },
+    {
+      "type": "phrases", "title": "When you don't understand",
+      "intro": "La pagina più utile. Nessuno si aspetta che tu capisca tutto nelle prime settimane; tutti si aspettano che tu chieda.",
+      "items": [
+        {"t": "Sorry, could you repeat that?", "n": "Scusa, potresti ripetere?"},
+        {"t": "More slowly, please.", "n": "Più lentamente, per favore."},
+        {"t": "I don't understand.", "n": "Non capisco."},
+        {"t": "I didn't catch that.", "n": "Non ho afferrato."},
+        {"t": "How do you say ___ in English?", "n": "Come si dice ___ in inglese?"},
+        {"t": "How do you spell that?", "n": "Come si scrive?"},
+        {"t": "Could you write it down for me, please?", "n": "Me lo puoi scrivere, per favore?"},
+        {"t": "What does this word mean?", "n": "Che significa questa parola?"},
+        {"t": "Do you speak Italian?", "n": "Parli italiano? (A Toronto, sorprendentemente spesso sì.)"},
+        {"t": "I'm learning English.", "n": "Sto imparando l'inglese."},
+        {"t": "Sorry for my English.", "n": "Scusa il mio inglese."},
+        {"t": "Thanks for your patience.", "n": "Grazie della pazienza."}
+      ]
+    },
+    {
+      "type": "phrases", "title": "Small talk and the Canadian moves",
+      "intro": "Il Canada parla di meteo come l'Italia parla di cibo. Le prime quindici frasi aprono qualunque conversazione.",
+      "items": [
+        {"t": "Where are you from?", "n": "Da dove vieni?"},
+        {"t": "I'm from Italy. · I'm from Rome.", "n": "Sono italiana. · Sono di Roma."},
+        {"t": "How long have you been in Canada?", "n": "Da quanto tempo sei in Canada?"},
+        {"t": "For two weeks. · For two years.", "n": "Da due settimane. · Da due anni."},
+        {"t": "What do you do for a living?", "n": "Che lavoro fai?"},
+        {"t": "Nice weather, eh?", "n": "Bel tempo, eh? (classica apertura canadese)"},
+        {"t": "Pretty cold today.", "n": "Fa parecchio freddo oggi."},
+        {"t": "Not bad, considering the forecast.", "n": "Non male, viste le previsioni."},
+        {"t": "Really? I didn't know that.", "n": "Davvero? Non lo sapevo."},
+        {"t": "I love it here. · I love your city.", "n": "Mi piace molto qui. · Mi piace la vostra città."},
+        {"t": "Shall we meet again? Let's swap numbers.", "n": "Ci vediamo di nuovo? Scambiamoci il numero."},
+        {"t": "Want to grab a coffee sometime?", "n": "Prendiamo un caffè una di queste sere?"},
+        {"t": "Catch you later! Have a good one.", "n": "A più tardi! Buona giornata."}
+      ]
+    }
+  ]
 }
