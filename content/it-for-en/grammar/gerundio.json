@@ -1,0 +1,24 @@
+{"id": "gerundio", "title": "Gerundio and stare + gerundio", "category": "Verbs", "rule": "Gerund: -are → -ando, -ere / -ire → -endo (parlando, prendendo, dormendo); fare → facendo, dire → dicendo, bere → bevendo, tradurre → traducendo, porre → ponendo. Stare + gerund = to be in the middle of doing, only for the moment in question: sto mangiando (right now), stavo dormendo (at that moment). Never for the future or for habits. Pronouns attach to the gerund (mangiandolo, alzandosi) or go before stare (lo sto mangiando, mi sto alzando). The gerund alone means by / while / because doing.", "units": ["12"], "blocks": [
+  {"type": "conjugation", "verbs": ["parlare", "prendere", "finire"], "tense": "forme", "caption": "Infinitive, gerund, participle of three regular verbs"},
+  {"type": "table", "caption": "stare + gerundio", "head": ["Tense of stare", "Italian", "English"], "rows": [["present", "Sto mangiando. Stai dormendo? Sta gonfiando. Stiamo lavorando. State scherzando. Stanno arrivando.", "I'm eating. Are you sleeping? It's swelling. We're working. You're joking. They're arriving."], ["imperfetto", "Stavo provando la bici quando è saltata la catena.", "I was trying out the bike when the chain jumped."], ["with a pronoun", "La sto prendendo. / Sto prendendola. Mi sto alzando. / Sto alzandomi.", "I'm taking it. I'm getting up."], ["question", "Cosa stai facendo? Cosa stavi dicendo?", "What are you doing? What were you saying?"]], "speak": [1], "rowhead": true},
+  {"type": "table", "caption": "The gerund alone", "head": ["Meaning", "Italian", "English"], "rows": [["while", "Sono caduto provando la bici.", "I fell while trying out the bike."], ["by", "Si guarisce riposando.", "You get better by resting."], ["because", "Avendo male, sono andato dal medico.", "Having pain, I went to the doctor."], ["although (pur)", "Pur avendo male, ha lavorato.", "Although in pain, he worked."], ["fixed phrases", "volendo · strada facendo · così dicendo", "if one wants · along the way · so saying"]], "speak": [1], "rowhead": true, "compact": true},
+  {"type": "callout", "kind": "compare", "title": "English -ing is three Italian things", "text": "*I'm eating* right now: [[sto mangiando]]. *I'm eating less these days* (habit): [[mangio meno]]. *I'm eating with Dora tomorrow* (plan): [[mangio con Dora domani]]. *Eating is important* (noun): [[mangiare è importante]], the infinitive. *I like eating*: [[mi piace mangiare]], infinitive again. Only the first is the gerund with stare."},
+  {"type": "examples", "items": [
+    {"t": "Cosa stai facendo? — Sto mettendo il ghiaccio. — E Tommaso? — Sta cercando la fascia.", "n": "What are you doing? — I'm putting ice on. — And Tommaso? — He's looking for the bandage."},
+    {"t": "Stavo dormendo quando Dora ha bussato. Stava portando il brodo.", "n": "I was sleeping when Dora knocked. She was bringing broth."},
+    {"t": "Prendo le compresse da tre giorni e sto già meglio.", "n": "I've been taking the tablets for three days and I'm already better.", "note": "habit: present, not gerund"},
+    {"t": "Camminando sul lungomare ho visto la bici. Guardandola meglio, ho capito che la catena era rotta.", "n": "Walking along the seafront I saw the bike. Looking at it more closely, I realised the chain was broken."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Sono mangiando. È dormendo.", "right": "Sto mangiando. Sta dormendo.", "why": "Stare."},
+    {"wrong": "mangiendo · prendando · dormando", "right": "mangiando · prendendo · dormendo", "why": "-are → -ando, the rest → -endo."},
+    {"wrong": "Sto andando a Lecce lunedì.", "right": "Vado a Lecce lunedì.", "why": "No gerund for the future."},
+    {"wrong": "Sto prendendo le compresse da tre giorni. (habit)", "right": "Prendo le compresse da tre giorni.", "why": "Ongoing habit: present + da."},
+    {"wrong": "Mangiando è importante. Mi piace mangiando.", "right": "Mangiare è importante. Mi piace mangiare.", "why": "As a noun, the infinitive."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "Cosa ___ (stare, voi) ___ (fare)? — ___ (stare, noi) ___ (aspettare) la dottoressa. Tommaso ___ (stare) ___ (dire) una bugia.", "answers": [["state"], ["facendo"], ["Stiamo"], ["aspettando"], ["sta"], ["dicendo"]], "n": "What are you doing? — We're waiting for the doctor. Tommaso is telling a lie."},
+    {"kind": "mc", "q": "«I'm going to Lecce on Monday.»", "options": ["Vado a Lecce lunedì.", "Sto andando a Lecce lunedì.", "Sono andando a Lecce lunedì."], "answer": 0, "why": "A plan: the present. The gerund only for right now."},
+    {"kind": "translate", "q": "I was reading the instructions when the phone rang.", "answers": ["Stavo leggendo le istruzioni quando ha suonato il telefono", "Leggevo le istruzioni quando ha suonato il telefono", "Stavo leggendo le istruzioni quando il telefono ha suonato"]}
+  ]}
+]}

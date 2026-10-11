@@ -1,0 +1,24 @@
+{"id": "imperative-informal", "title": "The imperative: tu, noi, voi", "category": "Verbs", "rule": "Tu: -are → -a (guarda), -ere and -ire → -i (prendi, dormi, finisci). Noi: -iamo (andiamo = let's go). Voi: -ate / -ete / -ite (guardate, prendete, dormite). Short tu forms with an apostrophe: va', fa', da', di', sta' (or vai, fai, dai, stai; di' only). Essere: sii / siamo / siate; avere: abbi / abbiamo / abbiate; sapere: sappi / sappiamo / sappiate. Reflexives: alzati, alziamoci, alzatevi. The Lei forms are different (unit 8).", "units": ["12"], "blocks": [
+  {"type": "conjugation", "verbs": ["parlare", "prendere", "aprire"], "tense": "imperativo", "caption": "Three regular verbs, all six rows (tu · Lei · noi · voi · Loro · tu negative)"},
+  {"type": "conjugation", "verbs": ["andare", "fare", "dire"], "tense": "imperativo", "caption": "Three of the irregulars"},
+  {"type": "table", "caption": "Irregular and short forms", "head": ["Verb", "tu", "noi", "voi"], "rows": [["andare", "va' (vai)", "andiamo", "andate"], ["fare", "fa' (fai)", "facciamo", "fate"], ["dare", "da' (dai)", "diamo", "date"], ["dire", "di'", "diciamo", "dite"], ["stare", "sta' (stai)", "stiamo", "state"], ["essere", "sii", "siamo", "siate"], ["avere", "abbi", "abbiamo", "abbiate"], ["sapere", "sappi", "sappiamo", "sappiate"], ["venire", "vieni", "veniamo", "venite"], ["uscire", "esci", "usciamo", "uscite"], ["tenere", "tieni", "teniamo", "tenete"], ["sedersi", "siediti", "sediamoci", "sedetevi"], ["bere", "bevi", "beviamo", "bevete"], ["finire (-isc-)", "finisci", "finiamo", "finite"]], "speak": [1, 2, 3], "compact": true, "rowhead": true},
+  {"type": "table", "caption": "What the imperative does", "head": ["Use", "Italian", "English"], "rows": [["orders and instructions", "Siediti. Prendi il ghiaccio. Girate a destra.", "Sit down. Get the ice. Turn right."], ["advice", "Riposati. Va' dal medico. Mangia qualcosa.", "Rest. Go to the doctor. Eat something."], ["offers and invitations", "Prendi un caffè. Vieni a cena. Entrate!", "Have a coffee. Come to dinner. Come in!"], ["let's", "Andiamo. Vediamo. Proviamo.", "Let's go. Let's see. Let's try."], ["fixed expressions", "Dai! Senti… Guarda… Scusa. Figurati. Sta' zitto.", "Come on! Listen… Look… Sorry. Don't mention it. Shut up."]], "speak": [1], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Alzati, vestiti e vieni: il bar apre alle sei.", "n": "Get up, get dressed and come: the bar opens at six."},
+    {"t": "Ragazzi, aspettate qui e non fate rumore.", "n": "Guys, wait here and don't make noise."},
+    {"t": "Dai, andiamo al mare! Portiamo il pane e proviamo la bici nuova.", "n": "Come on, let's go to the sea! Let's bring the bread and try the new bike."},
+    {"t": "Sii puntuale, abbi pazienza e sappi che Dora sente tutto.", "n": "Be on time, be patient and know that Dora hears everything."}
+  ]},
+  {"type": "mistakes", "items": [
+    {"wrong": "Prendi! (to the doctor) · Prenda! (to Tommaso)", "right": "Prenda! (Lei) · Prendi! (tu)", "why": "Register."},
+    {"wrong": "Guardi la foto, Tommaso. Senti, dottoressa.", "right": "Guarda la foto, Tommaso. Senta, dottoressa.", "why": "The -are/-ere endings swap between tu and Lei."},
+    {"wrong": "Sei bravo! Hai cura!", "right": "Sii bravo! Abbi cura!", "why": "Essere / avere irregular."},
+    {"wrong": "Va a casa (no apostrophe) · Fa piano", "right": "Va' a casa · Fa' piano (or vai, fai)", "why": "Short forms with the apostrophe."},
+    {"wrong": "Finisce! Pulisce!", "right": "Finisci! Pulisci!", "why": "-isc- verbs: tu imperative = tu present."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "fill", "q": "___ (venire, tu) qui. ___ (sedersi, tu). ___ (dire, tu) la verità. ___ (essere, tu) gentile. ___ (andare, noi).", "answers": [["Vieni"], ["Siediti"], ["Di'"], ["Sii"], ["Andiamo"]], "n": "Come here. Sit down. Tell the truth. Be kind. Let's go."},
+    {"kind": "mc", "q": "To Tommaso and Chiara: «Wait here and don't move!»", "options": ["Aspettate qui e non muovetevi!", "Aspetta qui e non ti muovere!", "Aspettino qui e non si muovano!"], "answer": 0, "why": "Voi forms for two friends."},
+    {"kind": "translate", "q": "Come on, let's go to the sea and let's have a coffee first.", "answers": ["Dai, andiamo al mare e prendiamo prima un caffè", "Dai, andiamo al mare e prima prendiamo un caffè", "Dai andiamo al mare e prendiamo prima un caffè"]}
+  ]}
+]}
