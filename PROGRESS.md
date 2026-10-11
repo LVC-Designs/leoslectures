@@ -9,7 +9,7 @@ Status of Due Sponde · Two Shores. One unit per session; update this file and c
 | Engine (build, renderer, i18n, variants, exercises, TTS, flashcards, conjugators, progress) | Built 2026-10-09, tests passing, no content yet |
 | Syllabus · Italian for English speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
 | Syllabus · English for Italian speakers | Drafted 2026-10-09 · approved 2026-10-10 ("Continue") |
-| Grammar reference pages | IT: 72 (units 1–20) · EN: 66 (units 1–20) |
+| Grammar reference pages | IT: 74 (units 1–21) · EN: 66 (units 1–20) |
 | Phrasebooks | 0 groups (engine ready) |
 | Placement tests | 0 questions (engine ready) |
 | Site URL for hreflang / sitemap | not set (`site.json` → `url`) |
@@ -42,7 +42,7 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 | 18 | A tavola si discute | B1 | ● 2026-10-11 |
 | 19 | Una videochiamata da Toronto | B1 | ● 2026-10-11 |
 | 20 | Se avessi una casa mia | B1 | ● 2026-10-11 |
-| 21 | In bici verso nord | B1 | ☐ |
+| 21 | In bici verso nord | B1 | ● 2026-10-11 |
 | 22 | Carte, contratti e burocrazia | B1 | ☐ |
 | 23 | Un matrimonio in Sicilia | B1 | ☐ |
 | 24 | Un anno a Roccamarina · checkpoint | B1 | ☐ |
@@ -78,10 +78,11 @@ Legend: ☐ not started · ◐ drafted · ● built, checked, committed
 
 ## Session order
 
-Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: Italian track, Unit 21 · In bici verso nord (B1).**
+Alternating tracks: IT 1 → EN 1 → IT 2 → EN 2 … so crossover episodes stay in sync. **Next up: English track, Unit 21 · Out West (B1).**
 
 ## Session log
 
+- **2026-10-11 (42)** · Italian track Unit 21 written (2 scenes: broken chain on the SS 65 in the Apennines and the lost booking at an Alto Adige hotel in Ortisei; 42 words across cycling, mountains, repairs, hotels, north-south lexical variants; 4 grammar points + 2 reference pages — condizionale passato, futuro anteriore, extended relative pronouns, Italian suffixes; 31 exercises including unit 20+21 review). Verified and committed.
 - **2026-10-11 (41)** · English track Unit 20 written (3 scenes: Thursday-night basement spreadsheet with Priya and Express Entry, Friday pre-dawn Doug's offer with IELTS scholarship, Saturday subway with Mateo heading home; 41 words across decisions, immigration, savings, small business; 3 grammar points + 1 reference page — third conditional, mixed conditional, wish + past perfect, should have, unless / provided / in case; 30 exercises including unit 19+20 review). Verified and committed.
 - **2026-10-11 (40)** · Italian track Unit 20 written (2 scenes: Dora's kitchen with Antonio's B&B offer and the first evening of hypothesis; Nando's alimentari with Pierino the notary and the four-step property guide; 31 words across buying property, money, decisions and dreams; 3 grammar points + 2 reference pages — congiuntivo imperfetto in full, periodo ipotetico 1 and 2, magari / come se / vorrei che; 32 exercises including unit 19+20 review). Verified and committed.
 - **2026-10-11 (39)** · English track Unit 19 written (3 scenes: Pearson airport pickup, Vigilia dinner at the Ferrantes' with 22 at the table, post-midnight basement conversation between cousins; 44 words across Christmas, the seven fishes, reporting verbs, family and gossip; 3 grammar points + 1 reference page — reported speech in full, say vs tell, reporting-verb patterns; 30 exercises including unit 18+19 B1 review). Crossover with IT unit 19 and 24. Verified and committed.

@@ -1,0 +1,19 @@
+{"id": "futuro-anteriore", "title": "Futuro anteriore", "category": "Verbs", "rule": "The 'will have done' tense. Form: futuro semplice of avere or essere + past participle. Avrò parlato (I will have spoken). Sarò andato / andata (I will have gone, with agreement for essere). Uses: (1) an action that will be completed before another future moment: quando avrò finito, ti chiamo. (2) In time clauses after quando, dopo che, non appena, finché non, when the main clause is in the future and the subordinate action is prior: quando avrai letto il contratto, firmalo. (3) A guess about the past — in Italian this is probably the commonest use, more common than the first two: avrà perso il treno (he must have missed the train); sarà già partita (she must have already left). (4) Formal register: entro il 31 dicembre, l'opera sarà stata completata. English will have + part. maps to the first two uses; must have + part. is the second meaning. In speech, Italians often shorten the futuro anteriore to the futuro semplice when the sequence is clear from the context: Quando finisco, ti chiamo (acceptable).", "units": ["21"], "blocks": [
+  {"type": "conjugation", "verbs": ["parlare", "andare"], "tense": "futuro_anteriore", "caption": "Two verbs: avrò parlato, sarò andato/a"},
+  {"type": "table", "caption": "The three uses", "head": ["Use", "Example"], "rows": [["future completed before another future", "Quando avrò finito, ti chiamo. Avrò finito per le sette."], ["past guess (common in speech)", "Avrà perso il treno. Sarà già partita."], ["time clauses with quando / dopo che / appena / non appena / finché non", "Dopo che avrai letto, firmalo."], ["formal register", "Entro il 31 dicembre, l'opera sarà stata completata."]], "speak": [1], "rowhead": true},
+  {"type": "examples", "items": [
+    {"t": "Quando avremo finito la fiera, torneremo verso casa.", "n": "When we've finished the fair, we'll head home."},
+    {"t": "Avrà perso il treno. — No, avrà avuto traffico.", "n": "He must have missed the train. — No, he must have had traffic."},
+    {"t": "Entro giugno {hero} avrà firmato il compromesso con Dora.", "n": "By June {hero} will have signed the compromesso with Dora."}
+  ]},
+  {"type": "callout", "kind": "compare", "title": "English will have / must have", "text": "English will have done = Italian avrò / sarò + part. (future completed). English must have done = Italian deve aver fatto OR avrà fatto (past deduction). The second meaning of the Italian futuro anteriore is where English uses must have."},
+  {"type": "mistakes", "items": [
+    {"wrong": "Quando ho finito, ti chiamo. (meant: future)", "right": "Quando avrò finito, ti chiamo. (future-when-completed)", "why": "In writing with a future main verb, use the futuro anteriore if the subordinate action is prior."},
+    {"wrong": "Avrà perso il treno?", "right": "Avrà perso il treno. (statement) · Avrà perso il treno? (question with suspicion)", "why": "Both are grammatical. The question form carries a suspicion."}
+  ]},
+  {"type": "exercises", "title": "Check yourself", "items": [
+    {"kind": "conjugate", "verb": "finire", "tense": "futuro anteriore", "n": "to finish", "answers": ["avrò finito", "avrai finito", "avrà finito", "avremo finito", "avrete finito", "avranno finito"]},
+    {"kind": "fill", "q": "Quando ___ (finire, fut. ant.) la fiera, torneremo. Non appena ___ (arrivare, fut. ant., loro), ceneremo.", "answers": [["avremo finito"], ["saranno arrivati"]], "n": "When we've finished the fair, we'll head back. As soon as they've arrived, we'll have dinner."},
+    {"kind": "translate", "q": "He must have missed the train.", "answers": ["Avrà perso il treno"]}
+  ]}
+]}
