@@ -3,8 +3,8 @@
 A hub for free, original courses I build while learning the subject myself.
 
 - **Due Sponde · Two Shores** — Italian ⇄ English, A1 → B1, 24 units each way,
-  one story told from both sides of the ocean. First course on the hub, shipping now.
-- **QA & GMP** — upcoming.
+  one story told from both sides of the ocean. First course on the hub.
+- *more courses to come — the hub is designed to host them.*
 
 No account, no server: a static site with progress saved in the browser.
 

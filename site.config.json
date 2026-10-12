@@ -5,7 +5,8 @@
     "name": "Leo's Lectures",
     "url": "https://leoslectures.com",
     "tagline": "Courses I build while learning the subject myself.",
-    "description": "Original, free courses — made as I learn each subject. Italian ⇄ English today; QA and GMP tomorrow.",
+    "_coursesDoc": "The 'courses' array is open-ended: drop in a new entry when a second course is ready. See ADDING_A_COURSE.md.",
+    "description": "Original, free courses — made as I learn each subject. Due Sponde (Italian ⇄ English) is the first one.",
     "author": "Leo Chimienti",
     "social": {
       "image": "assets/og/leoslectures.png"
@@ -43,18 +44,6 @@
         "it": "Un corso italiano ⇄ inglese a due direzioni per il 2026. Luca o Lucia si trasferisce da Toronto a un paese in Puglia; la cugina Chiara si trasferisce a Toronto. Stesso cast, due direzioni, dall'A1 al B1."
       },
       "social": { "image": "assets/og/due-sponde.png" }
-    },
-    {
-      "id": "qa-gmp",
-      "slug": "qa-gmp",
-      "name": "QA & GMP",
-      "levels": "coming later",
-      "status": "upcoming",
-      "description": {
-        "en": "Quality Assurance and Good Manufacturing Practice, written as I learn them. Not available yet.",
-        "it": "Quality Assurance e GMP, scritte man mano che le imparo. Non ancora disponibile."
-      },
-      "social": { "image": "assets/og/qa-gmp.png" }
     }
   ],
 
