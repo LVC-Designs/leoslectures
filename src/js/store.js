@@ -5,6 +5,27 @@ export const track = () => root.dataset.track || '';
 export const target = () => root.dataset.target || 'it';
 export const targetTag = () => root.dataset.targetTag || 'it-IT';
 
+/* One-time migration from the pre-launch slugs (learn-italian / impara-inglese) to the new ones
+   (due-sponde/italiano / due-sponde/inglese). Idempotent: keyed by a marker in localStorage. */
+(function migrateSlugs() {
+  try {
+    const DONE = KEY + 'migrated-slugs-2026-10-12';
+    if (localStorage.getItem(DONE)) return;
+    const map = { 'learn-italian': 'it-for-en', 'impara-inglese': 'en-for-it' };
+    const keys = [];
+    for (let i = 0; i < localStorage.length; i++) keys.push(localStorage.key(i));
+    for (const k of keys) {
+      for (const [legacy, canonical] of Object.entries(map)) {
+        if (k && k.startsWith(KEY + legacy + ':')) {
+          const neu = KEY + canonical + ':' + k.slice((KEY + legacy + ':').length);
+          if (!localStorage.getItem(neu)) localStorage.setItem(neu, localStorage.getItem(k));
+        }
+      }
+    }
+    localStorage.setItem(DONE, String(Date.now()));
+  } catch {}
+})();
+
 export function readJSON(key, fallback) { try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch { return fallback; } }
 export function writeJSON(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } }
 

@@ -3,7 +3,7 @@ import { ready, voicesFor, speak } from './tts.js';
 const form = document.querySelector('.settings-form'); const status = form.querySelector('.settings-status');
 const s = settings.get();
 const set = (name, v) => { const el = form.querySelector(`[name="${name}"][value="${v}"]`); if (el) el.checked = true; };
-set('hero', s.hero || 'm'); set('self', s.self || 'm'); set('theme', s.theme || 'auto');
+set('hero', s.hero || 'm'); set('self', s.self || 'm'); set('theme', s.theme || 'auto'); set('immersion', s.immersion || 'auto');
 form.querySelector('[name=both]').checked = !!s.both; form.querySelector('[name=rate]').value = s.rate || 0.9;
 const voiceSel = form.querySelector('[name=voice]');
 ready().then(() => { voicesFor(targetTag()).forEach(v => voiceSel.insertAdjacentHTML('beforeend', `<option value="${v.voiceURI}">${v.name} (${v.lang})</option>`)); voiceSel.value = s.voice?.[target()] || ''; });

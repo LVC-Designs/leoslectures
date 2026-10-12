@@ -1,13 +1,26 @@
-# Due Sponde · Two Shores
+# leoslectures.com
 
-A free, public, original two-way language course: **Italian for English speakers** and **English for Italian speakers**, A1 → B1, one story told from both sides of the ocean. No account, no server: a static site with progress saved in the browser.
+A hub for free, original courses I build while learning the subject myself.
 
-- `syllabus-it.md`, `syllabus-en.md` — the two syllabi (24 units each, planned from CEFR can-do descriptors)
-- `content/` — all course content, one folder per track (see `CONTENT-SCHEMA.md`)
+- **Due Sponde · Two Shores** — Italian ⇄ English, A1 → B1, 24 units each way,
+  one story told from both sides of the ocean. First course on the hub, shipping now.
+- **QA & GMP** — upcoming.
+
+No account, no server: a static site with progress saved in the browser.
+
+## Layout
+
+- `site.config.json` — hub + courses + KOFI_URL / FEEDBACK_EMAIL / analytics (single source of config)
+- `site.json` — site identity + per-track slugs and UI language
+- `syllabus-it.md`, `syllabus-en.md` — the two Due Sponde syllabi (24 units each)
+- `content/` — all course content, one folder per track (`CONTENT-SCHEMA.md`)
 - `locales/` — UI strings (`en` for the Italian track, `it` for the English track)
-- `build/` — static-site build, checker, dev server, tests
-- `src/` — stylesheet, browser scripts (exercise engine, TTS, flashcards, conjugators, progress)
-- `PROVENANCE.md` — CEFR goals per unit and originality record · `PROGRESS.md` — status
+- `src/` — design system, exercise engine, TTS, flashcards, conjugators, progress
+- `build/` — static-site build, checker, dev server, tests, e2e scenarios
+- `PROVENANCE.md` — CEFR goals per unit and originality record
+- `PROGRESS.md` — status
+- `ADDING_A_COURSE.md` — how to add a second (or third) course to the hub
+- `DEPLOY.md` — Cloudflare Pages setup, DNS, HTTPS, analytics
 
 ## Commands
 

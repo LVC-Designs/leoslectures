@@ -400,3 +400,68 @@ a.card:hover { transform: translateY(-2px); border-color: var(--accent); }
 @media (max-width: 700px) { .map-fig.with-list { grid-template-columns: 1fr; } }
 
 @media print { .site-head, .site-foot, .toc, .say, .dlg-tools, .ex-actions, .accent-bar { display: none !important; } .line .n { display: block; } }
+
+/* Hub (leoslectures.com root) */
+.page-hub { background: var(--surface-2); }
+.hub { padding: 2rem 0 4rem; }
+.hub-head { max-width: 70ch; margin: 2rem auto 2.5rem; text-align: center; }
+.hub-head .kicker { color: var(--muted); letter-spacing: .08em; text-transform: uppercase; font-size: .85rem; }
+.hub-head h1 { font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); margin: .3em 0; }
+.hub-head .lede { color: var(--muted); font-size: 1.1rem; }
+.hub-courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; max-width: 900px; margin: 0 auto 3rem; }
+.hub-course { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; }
+.hub-course.is-upcoming { opacity: .55; }
+.hub-course h2 { font-family: var(--font-display); margin: .3em 0; }
+.hub-course .kicker { color: var(--muted); text-transform: uppercase; font-size: .78rem; letter-spacing: .08em; }
+.hub-course p[lang] { margin: .5em 0; }
+.hub-course-cta { margin-top: 1.2em; }
+.hub-foot { max-width: 70ch; margin: 0 auto; color: var(--muted); text-align: center; font-size: .9rem; }
+.back-to-hub { margin: 1rem 0 0; color: var(--muted); font-size: .9rem; }
+.back-to-hub a { color: var(--muted); }
+
+/* About / Privacy prose */
+.page-prose section { margin-top: 2rem; } .page-prose section h2 { font-family: var(--font-display); margin-bottom: .4em; }
+.page-prose ul { padding-left: 1.4em; } .page-prose ul li { margin: .4em 0; }
+
+/* 404 */
+.page-404 .ref-head { text-align: center; } .page-404 .kicker { font-size: 4rem; color: var(--muted); font-family: var(--font-display); line-height: 1; }
+
+/* Footer Ko-fi + Report */
+.footer-kofi { font-weight: 600; }
+
+/* Report-a-mistake button on unit pages */
+.report-mistake { margin: 2rem 0 0; text-align: center; color: var(--muted); font-size: .9rem; }
+.report-mistake a { color: var(--muted); }
+
+/* Completion card on unit practice */
+.completion-card { margin: 2rem 0; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); text-align: center; }
+.completion-card .kicker { color: var(--muted); text-transform: uppercase; font-size: .85rem; letter-spacing: .08em; }
+.completion-card h3 { font-family: var(--font-display); margin: .3em 0; }
+.completion-card .completion-actions { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; margin: .8rem 0; }
+.completion-card .support-line { color: var(--muted); font-size: .95rem; margin: .6rem 0 0; }
+
+/* Immersion level
+   data-immersion = low  → all translations shown
+                   = medium → native translations collapsed, revealed on tap
+                   = high → native translations hidden; UI labels in target language where known
+   The default follows the unit level (via body[data-level] attribute, driven by JS). */
+html[data-immersion="medium"] .ph-n,
+html[data-immersion="medium"] .line .n,
+html[data-immersion="medium"] .vb-example .n,
+html[data-immersion="medium"] .gl-n,
+html[data-immersion="medium"] [data-trans="native"]:not(.is-shown) { display: none; }
+html[data-immersion="high"] .ph-n,
+html[data-immersion="high"] .line .n,
+html[data-immersion="high"] .vb-example .n,
+html[data-immersion="high"] .gl-n,
+html[data-immersion="high"] .vocab .n,
+html[data-immersion="high"] [data-trans="native"]:not(.is-shown) { display: none; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) { * { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
+
+/* Focus states */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [role="button"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Analytics placeholder: just ensures no layout jump */
+noscript + script[src*="plausible"] { display: none; }

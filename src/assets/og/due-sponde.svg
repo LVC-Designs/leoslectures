@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2f6f93"/>
+      <stop offset="1" stop-color="#b5533c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="110" fill="#fff" font-size="34" opacity=".85">leoslectures.com</text>
+  <text x="80" y="300" fill="#fff" font-size="100" font-weight="700">Due Sponde</text>
+  <text x="80" y="400" fill="#fff" font-size="52" opacity=".9">Two Shores</text>
+  <text x="80" y="520" fill="#fff" font-size="30" opacity=".9">A free Italian ⇄ English course · A1 → B1</text>
+  <text x="80" y="565" fill="#fff" font-size="24" opacity=".75">One story, two languages, both sides of the ocean.</text>
+</svg>

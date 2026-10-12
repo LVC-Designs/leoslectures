@@ -124,7 +124,15 @@ if (fs.existsSync(dist)) {
     if (/data-say=""/.test(s) || /data-say-m=""/.test(s) || /data-say-f=""/.test(s)) warn(`${rel}: empty audio button`);
     for (const m of s.matchAll(/(?:href|src)="([^"#:]+)(#[^"]*)?"/g)) {
       if (/^(mailto|tel|javascript):/.test(m[1])) continue;
-      const target = path.resolve(path.dirname(h), m[1]);
+      // Absolute (starts with /) resolves against dist root; relative resolves from the page's directory.
+      // A link to a directory (trailing /) is treated as that directory's index.html.
+      let href = m[1];
+      const absolute = href.startsWith('/');
+      let target = absolute ? path.join(dist, href) : path.resolve(path.dirname(h), href);
+      if (target.endsWith('/') || !path.extname(target)) {
+        const asIndex = path.join(target, 'index.html');
+        if (fs.existsSync(asIndex)) target = asIndex;
+      }
       if (!fs.existsSync(target)) warn(`${rel}: broken link ${m[1]}`);
       else if (m[2] && m[2].length > 1 && target.endsWith('.html')) {
         const t = fs.readFileSync(target, 'utf8');

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#b5533c"/>
+      <stop offset="1" stop-color="#2f6f93"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="130" fill="#fff" font-size="40" opacity=".9">leoslectures.com</text>
+  <text x="80" y="320" fill="#fff" font-size="88" font-weight="700">Courses I build</text>
+  <text x="80" y="420" fill="#fff" font-size="88" font-weight="700">while learning.</text>
+  <text x="80" y="540" fill="#fff" font-size="34" opacity=".85">Italian ⇄ English today · QA &amp; GMP tomorrow</text>
+</svg>

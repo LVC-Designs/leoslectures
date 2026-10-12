@@ -64,7 +64,7 @@ try {
     for (const p of pages) {
       for (const g of ['m', 'f']) {
         await open(p);
-        await ev(`localStorage.setItem('ds:settings', JSON.stringify({hero:'${g}', self:'${g}', track:'${p.split('/')[0] === 'impara-inglese' ? 'en-for-it' : 'it-for-en'}'})); 1`);
+        await ev(`localStorage.setItem('ds:settings', JSON.stringify({hero:'${g}', self:'${g}', track:'${p.includes('due-sponde/inglese') ? 'en-for-it' : 'it-for-en'}'})); 1`);
         await open(p);
         const a = await ev(AUDIT);
         const ok = a.ex === a.ready && a.saySilent === 0 && a.varBad === 0 && a.undef === 0 && a.title.length > 0;
@@ -75,16 +75,19 @@ try {
   }
   else {
     await open('index.html');
-    await check('landing title', 'document.title.includes("Due Sponde")');
-    await check('landing has two track cards', 'document.querySelectorAll(".track-card").length', 2);
-    await open('learn-italian/index.html');
+    await check('hub title', 'document.title.length > 0 && !!document.querySelector(".hub")');
+    await check('hub has at least one course card', 'document.querySelectorAll(".hub-course").length >= 1');
+    await open('due-sponde/index.html');
+    await check('course landing title', 'document.title.includes("Due Sponde")');
+    await check('course landing has two track cards', 'document.querySelectorAll(".track-card").length', 2);
+    await open('due-sponde/italiano/index.html');
     await check('track home: hero dialog opens on first visit', 'document.getElementById("hero-dialog")?.open === true');
     await ev('document.querySelector("#hero-dialog input[value=f]").checked = true; document.querySelector("#hero-dialog input[name=self][value=both]").checked = true; document.querySelector("#hero-dialog form button").click(); 1');
     await sleep(200);
     await check('hero saved as Lucia', 'JSON.parse(localStorage.getItem("ds:settings")).hero', 'f');
     await check('html data-hero=f', 'document.documentElement.dataset.hero', 'f');
     await check('unit card links', 'document.querySelectorAll("a.lesson-card").length >= 1');
-    await open('learn-italian/units/unit-01.html');
+    await open('due-sponde/italiano/units/unit-01.html');
     await check('unit h1 shows Lucia variant', 'getComputedStyle(document.querySelector("h1 .vf")).display !== "none" && getComputedStyle(document.querySelector("h1 .vm")).display === "none"');
     await check('dialogue hero line uses Lucia name', '[...document.querySelectorAll(".line .who .vf")].some(e => e.textContent === "Lucia")');
     await check('agreement marks present', 'document.querySelectorAll("mark.agr").length > 0');
@@ -142,7 +145,7 @@ try {
     await ev('document.querySelector(".fc-actions .g2").click(); 1');
     await check('flashcard scheduled', 'Object.keys(JSON.parse(localStorage.getItem("ds:it-for-en:fc")).items).length', 1);
     // other pages
-    await open('learn-italian/verbs.html');
+    await open('due-sponde/italiano/verbs.html');
     await check('verbs table rendered', 'document.querySelectorAll(".vb-out .tbl tr").length >= 6');
     await ev('document.querySelector(".vb-search").value="andare"; document.querySelector(".vb-search").dispatchEvent(new Event("change")); document.querySelector(".vb-tense").value="passato_prossimo"; document.querySelector(".vb-tense").dispatchEvent(new Event("change")); 1');
     await check('verbs compound variant for Luca', 'document.querySelector(".vb-out .tbl td .vm").textContent', 'sono andato');
@@ -150,38 +153,58 @@ try {
     await check('drill saved mistakes', 'Object.keys(JSON.parse(localStorage.getItem("ds:it-for-en:conj")).items).length', 5);
     await ev('document.querySelector(".vb-mode [data-mode=mistakes]").click(); 1');
     await check('mistakes mode lists due forms', 'document.querySelectorAll(".vb-out .ex-blank").length', 5);
-    await open('learn-italian/glossary.html');
+    await open('due-sponde/italiano/glossary.html');
     await check('glossary lists words', 'document.querySelectorAll(".gl-item").length', 2);
     await ev('document.querySelector(".gl-search").value="staz"; document.querySelector(".gl-search").dispatchEvent(new Event("input")); 1');
     await check('glossary search', 'document.querySelectorAll(".gl-item").length', 1);
-    await open('learn-italian/grammar.html');
+    await open('due-sponde/italiano/grammar.html');
     await check('grammar index has topic + unit point', 'document.querySelectorAll(".gr-list li").length >= 1');
-    await open('learn-italian/grammar/essere.html');
+    await open('due-sponde/italiano/grammar/essere.html');
     await check('grammar topic renders conjugation', 'document.querySelectorAll(".conj .tbl tr").length >= 6');
-    await open('learn-italian/phrasebook.html');
+    await open('due-sponde/italiano/phrasebook.html');
     await check('phrasebook item', 'document.querySelectorAll(".phrases li").length', 1);
-    await open('learn-italian/placement.html');
+    await open('due-sponde/italiano/placement.html');
     await ev('document.querySelector(".pl-start").click(); 1');
     await check('placement question shown', '!!document.querySelector(".pl-ui .ex")');
     await ev('document.querySelector(".pl-ui .opt").click(); 1');
     await check('placement next enabled', 'document.querySelector(".pl-next").disabled === false');
     await ev('document.querySelector(".pl-next").click(); document.querySelector(".pl-ui .ex-blank").value="sono"; document.querySelector(".pl-ui .ex-check").click(); document.querySelector(".pl-next").click(); document.querySelector(".pl-ui .opt").click(); document.querySelector(".pl-next").click(); 1');
     await check('placement result', 'document.querySelector(".pl-ui h2")?.textContent.length > 0');
-    await open('learn-italian/settings.html');
+    await open('due-sponde/italiano/settings.html');
     await ev('document.querySelector(".settings-form [name=hero][value=f]").click(); 1');
     await check('settings change hero', 'JSON.parse(localStorage.getItem("ds:settings")).hero', 'f');
-    await open('learn-italian/flashcards.html');
+    await open('due-sponde/italiano/flashcards.html');
     await check('all-flashcards page', '!!document.querySelector(".flashcards .fc-ui")');
-    await open('impara-inglese/index.html');
+    await open('due-sponde/inglese/index.html');
     await check('english track home in Italian', 'document.documentElement.lang', 'it');
-    await open('impara-inglese/verbs.html');
+    await open('due-sponde/inglese/verbs.html');
     await check('english verbs table (be)', 'document.querySelector(".vb-out .tbl td")?.textContent.includes("I am")');
     await ev('document.querySelector(".vb-search").value="go"; document.querySelector(".vb-search").dispatchEvent(new Event("change")); document.querySelector(".vb-tense").value="present_perfect"; document.querySelector(".vb-tense").dispatchEvent(new Event("change")); 1');
     await check('english present perfect of go', '[...document.querySelectorAll(".vb-out .tbl td")].some(td => td.textContent.includes("he has gone"))');
-    await open('impara-inglese/settings.html');
+    await open('due-sponde/inglese/settings.html');
     await check('settings page it', '!!document.querySelector(".settings-form")');
     await open('provenance.html');
     await check('provenance page', 'document.querySelector("h1").textContent.length > 0');
+    await open('about.html');
+    await check('about page bilingual', 'document.querySelectorAll("section[lang]").length >= 2');
+    await open('privacy.html');
+    await check('privacy page bilingual', 'document.querySelectorAll("section[lang]").length >= 2');
+    await open('404.html');
+    await check('404 page', 'document.title.length > 0 && !!document.querySelector(".page-404")');
+    await open('index.html');
+    await check('hub translate=no', 'document.documentElement.getAttribute("translate")', 'no');
+    await check('hub meta notranslate', '!!document.querySelector("meta[name=google][content=notranslate]")');
+    await open('due-sponde/italiano/units/unit-01.html');
+    await check('unit has og:image', '!!document.querySelector("meta[property=\'og:image\']")');
+    await check('unit has twitter:card', 'document.querySelector("meta[name=\'twitter:card\']")?.content', 'summary_large_image');
+    await check('unit has canonical', '!!document.querySelector("link[rel=canonical]")');
+    await check('unit has data-unit-level', 'document.querySelector("[data-unit-level]")?.getAttribute("data-unit-level")', 'A1');
+    await ev('document.documentElement.setAttribute("data-immersion","high"); 1');
+    await check('immersion high hides .ph-n (if any)', '[...document.querySelectorAll(".ph-n")].every(el=>getComputedStyle(el).display==="none")');
+    await ev('document.documentElement.setAttribute("data-immersion","low"); 1');
+    await check('completion card injected on unit', '!!document.querySelector(".completion-card")');
+    await open('due-sponde/italiano/settings.html');
+    await check('immersion radio in settings', '!!document.querySelector("[name=immersion]")');
   }
 } catch (e) { console.error('e2e error:', e); fail++; }
 finally {

@@ -1,0 +1,4 @@
+/* Fraunces and Inter from Google Fonts, with font-display: swap for fast first paint.
+   Fonts are loaded non-render-blocking via the shell. If you want to fully self-host,
+   download the WOFF2 files to assets/fonts/ and replace @import with @font-face rules. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,50;1,9..144,300..700,50&family=Inter:wght@400;500;600&display=swap');

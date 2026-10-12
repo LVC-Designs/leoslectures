@@ -107,3 +107,62 @@ document.querySelectorAll('.tts-rate').forEach(r => {
 
 /* gloss tooltips are CSS; keyboard users get them on focus. Escape stops audio. */
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') stopTTS(); });
+
+/* Immersion level — honours settings.immersion (low / medium / high) or 'auto' (follow unit level). */
+function unitLevel() {
+  // Each unit page sets body.data-unit-level in the shell when rendered. For non-unit pages, default A1.
+  const el = document.querySelector('[data-unit-level]');
+  return el ? el.getAttribute('data-unit-level') : 'A1';
+}
+function autoImmersion() { const l = unitLevel(); if (l === 'A1') return 'low'; if (l === 'A2') return 'medium'; return 'high'; }
+function paintImmersion() {
+  const s = settings.get();
+  const m = (s.immersion && s.immersion !== 'auto') ? s.immersion : autoImmersion();
+  root.setAttribute('data-immersion', m);
+}
+document.addEventListener('ds:settings', paintImmersion);
+paintImmersion();
+
+/* Completion card: on unit pages, after the practice section renders, inject a "unit complete" banner
+   that offers next unit, Ko-fi (soft) and Report-a-mistake. */
+function injectCompletion() {
+  const practice = document.querySelector('.sec-practice');
+  if (!practice || practice.querySelector('.completion-card')) return;
+  let cfg = {}; try { cfg = JSON.parse(document.getElementById('ds-config')?.textContent || '{}'); } catch {}
+  const ui = (document.documentElement.lang === 'it') ? 'it' : 'en';
+  const sup = cfg.kofi ? `<p class="support-line">${t('completion.support', { link: `<a href="${cfg.kofi}" rel="noopener" target="_blank">${(cfg.kofiLabel && cfg.kofiLabel[ui]) || 'Ko-fi'}</a>` })}</p>` : '';
+  const unitEl = document.querySelector('[data-unit]'); const unitId = unitEl ? unitEl.getAttribute('data-unit') : '';
+  const title = document.title; const url = location.href;
+  const subject = encodeURIComponent(`[${cfg.hubName || 'leoslectures.com'}] Mistake on ${title}`);
+  const mail = cfg.feedback ? `mailto:${cfg.feedback}?subject=${subject}&body=${encodeURIComponent(`Hi Leo,\n\nPage: ${url}\nUnit: ${unitId}\n\nIssue:`)}` : '';
+  const next = document.querySelector('.unit-next a[href]'); const nextHref = next ? next.getAttribute('href') : '';
+  const card = document.createElement('div');
+  card.className = 'completion-card';
+  card.innerHTML = `
+    <span class="kicker">${esc(t('completion.title'))}</span>
+    <h3>✔</h3>
+    <div class="completion-actions">
+      ${nextHref ? `<a class="btn btn-primary" href="${nextHref}">${esc(t('completion.next'))} →</a>` : `<span class="muted">${esc(t('completion.end'))}</span>`}
+      ${mail ? `<a class="btn btn-ghost" href="${mail}">${esc(t('completion.reportLink'))}</a>` : ''}
+    </div>
+    ${sup.replace(/&amp;/g, '&')}
+  `;
+  practice.appendChild(card);
+}
+// Run on load; also observe for late-rendered sections (practice is rendered immediately so one call is enough).
+injectCompletion();
+
+/* Report-a-mistake link in the main footer (every page) — opens the mailto with the current URL. */
+(function addFooterFeedback() {
+  let cfg = {}; try { cfg = JSON.parse(document.getElementById('ds-config')?.textContent || '{}'); } catch {}
+  if (!cfg.feedback) return;
+  const foot = document.querySelector('.site-foot .wrap p:last-child');
+  if (!foot) return;
+  const subject = encodeURIComponent(`[${cfg.hubName || 'leoslectures.com'}] Feedback on ${document.title}`);
+  const body = encodeURIComponent(`Hi Leo,\n\nPage: ${location.href}\n\nFeedback:`);
+  const a = document.createElement('a');
+  a.href = `mailto:${cfg.feedback}?subject=${subject}&body=${body}`;
+  a.textContent = t('nav.feedback');
+  foot.insertAdjacentHTML('beforeend', ' · ');
+  foot.appendChild(a);
+})();

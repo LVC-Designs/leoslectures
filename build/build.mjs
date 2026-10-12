@@ -20,28 +20,40 @@ const hexRgb = (h) => h.slice(1).match(/../g).map(x => parseInt(x, 16)).join(','
 const ring = (cls = '') => `<span class="ring-wrap ${cls}"><svg viewBox="0 0 36 36" class="ring" aria-hidden="true"><circle cx="18" cy="18" r="15.9"/><circle cx="18" cy="18" r="15.9" class="ring-val" stroke-dasharray="0 100"/></svg><span class="pct">0%</span></span>`;
 
 const site = readJSON(P('site.json'));
+const hubCfg = exists(P('site.config.json')) ? readJSON(P('site.config.json')) : { hub: { name: site.name, tagline: site.name, description: '' }, courses: [], KOFI_URL: '', FEEDBACK_EMAIL: '', analytics: { script: '', domain: '', attributes: '' } };
 
 /* ---------- page shell ---------- */
-function shell(ctx, { title, description, body, bodyClass = '', accent, scripts = [], alternates = '', canonical = '' }) {
+function shell(ctx, { title, description, body, bodyClass = '', accent, scripts = [], alternates = '', canonical = '', ogImage = '' }) {
   const { t, rootPath } = ctx;
   const ui = t.lang;
   const trackAttrs = ctx.track ? ` data-track="${ctx.track}" data-target="${ctx.target}" data-target-tag="${ctx.targetTag}" data-slug="${ctx.slug}" data-base="${ctx.base}"` : '';
   const voices = ctx.track ? JSON.stringify(ctx.cfg.voiceFallback) : '[]';
+  const defaultOg = ogImage || (ctx.track && site.tracks[ctx.track] ? `${rootPath}assets/og/${ctx.track}.svg` : `${rootPath}assets/og/leoslectures.svg`);
+  const ogUrl = site.url && canonical ? site.url.replace(/\/$/, '') + '/' + (canonical.match(/href="([^"]+)"/) ? canonical.match(/href="([^"]+)"/)[1].replace(site.url.replace(/\/$/, '') + '/', '') : '') : '';
+  const analytics = hubCfg.analytics && hubCfg.analytics.script ? `<script defer${hubCfg.analytics.domain ? ` data-domain="${esc(hubCfg.analytics.domain)}"` : ''}${hubCfg.analytics.attributes ? ' ' + hubCfg.analytics.attributes : ''} src="${esc(hubCfg.analytics.script)}"></script>` : '';
   return `<!doctype html>
-<html lang="${ui}" data-theme="auto" data-hero="m" data-self="m" data-both="0"${trackAttrs}>
+<html lang="${ui}" translate="no" data-theme="auto" data-hero="m" data-self="m" data-both="0" data-immersion="auto"${trackAttrs}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google" content="notranslate">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(hubCfg.hub.name)}">
+<meta property="og:image" content="${esc(defaultOg)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${esc(defaultOg)}">
 ${canonical}${alternates}
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,50;1,9..144,300..700,50&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="${rootPath}assets/fonts.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="${rootPath}assets/fonts.css"></noscript>
 <link rel="stylesheet" href="${rootPath}assets/site.css">
 <link rel="icon" href="${rootPath}assets/favicon.svg" type="image/svg+xml">
-<script>(function(){try{var s=JSON.parse(localStorage.getItem('ds:settings')||'{}');var d=document.documentElement;if(s.theme)d.setAttribute('data-theme',s.theme);if(s.hero)d.setAttribute('data-hero',s.hero);if(s.self)d.setAttribute('data-self',s.self);if(s.both)d.setAttribute('data-both','1');}catch(e){}})();</script>
+<script>(function(){try{var s=JSON.parse(localStorage.getItem('ds:settings')||'{}');var d=document.documentElement;if(s.theme)d.setAttribute('data-theme',s.theme);if(s.hero)d.setAttribute('data-hero',s.hero);if(s.self)d.setAttribute('data-self',s.self);if(s.both)d.setAttribute('data-both','1');if(s.immersion)d.setAttribute('data-immersion',s.immersion);}catch(e){}})();</script>
 <meta name="ds-voices" content='${voices}'>
+${analytics}
 </head>
 <body class="${bodyClass}"${accent ? ` style="--accent:${accent};--accent-rgb:${hexRgb(accent)}"` : ''}>
 <a class="skip" href="#main">${esc(t('nav.skip'))}</a>
@@ -49,6 +61,7 @@ ${ctx.track ? header(ctx) : landingHeader(ctx)}
 ${body}
 ${footer(ctx)}
 ${jsonTag('ui-data', { ...t.all, names: site.hero })}
+${jsonTag('ds-config', { kofi: hubCfg.KOFI_URL, kofiLabel: hubCfg.KOFI_LABEL, feedback: hubCfg.FEEDBACK_EMAIL, hubName: hubCfg.hub.name })}
 <script type="module" src="${rootPath}assets/app.js"></script>
 ${scripts.map(s => `<script type="module" src="${rootPath}assets/${s}"></script>`).join('\n')}
 </body></html>`;
@@ -74,7 +87,31 @@ function landingHeader(ctx) {
 }
 function footer(ctx) {
   const { t, rootPath } = ctx;
-  return `<footer class="site-foot"><div class="wrap"><p>${esc(t('footer.about'))}</p><p><a href="${rootPath}index.html">${esc(site.name)} · ${esc(site.nameAlt)}</a> · <a href="${rootPath}provenance.html">${esc(t('footer.provenance'))}</a>${ctx.track ? ` · <a href="${rootPath}${ctx.otherSlug}/index.html" lang="${ctx.otherUi}">${esc(t('track.switch'))}</a>` : ''}</p></div></footer>`;
+  const ui = (t && t.lang) || 'en';
+  const kofi = hubCfg.KOFI_URL ? `<a href="${esc(hubCfg.KOFI_URL)}" rel="noopener" target="_blank" class="footer-kofi">☕ ${esc(hubCfg.KOFI_LABEL[ui] || hubCfg.KOFI_LABEL.en)}</a>` : '';
+  return `<footer class="site-foot"><div class="wrap"><p>${esc(t('footer.about'))}</p><p><a href="${rootPath}index.html">${esc(hubCfg.hub.name)}</a> · <a href="${rootPath}about.html">${esc(t('footer.aboutLink'))}</a> · <a href="${rootPath}privacy.html">${esc(t('footer.privacy'))}</a> · <a href="${rootPath}provenance.html">${esc(t('footer.provenance'))}</a>${kofi ? ' · ' + kofi : ''}${ctx.track ? ` · <a href="${rootPath}${ctx.otherSlug}/index.html" lang="${ctx.otherUi}">${esc(t('track.switch'))}</a>` : ''}</p></div></footer>`;
+}
+
+function bilingualShell(bodyClass, buildBody, canonicalPath) {
+  const tEn = makeT('en'), tIt = makeT('it');
+  const ctx = { t: tEn, rootPath: '', track: null };
+  const body = buildBody(tEn, tIt);
+  return shell(ctx, { title: `${hubCfg.hub.name}`, description: hubCfg.hub.description, body, bodyClass, accent: ACCENTS.ink, canonical: canonicalFor(canonicalPath) });
+}
+function aboutPage() {
+  return bilingualShell('page-about', (tEn, tIt) => `<main id="main" class="wrap page-ref page-prose about"><header class="ref-head"><h1>${esc(hubCfg.hub.name)}</h1></header>
+<section lang="en"><h2>About</h2><p>${esc(hubCfg.hub.description)}</p><p>These courses are built in public by <strong>${esc(hubCfg.hub.author)}</strong> while learning each subject. Every unit, every exercise and every example sentence was written for this site. No textbook content, no AI-generated story that nobody checked, no scraped grammar. If you find a mistake, please <a href="mailto:${esc(hubCfg.FEEDBACK_EMAIL)}">write to me</a>; I fix things in the open.</p><p>Everything on the site is free. There are no accounts and no ads. If a course helped you and you want to buy me a coffee: <a href="${esc(hubCfg.KOFI_URL)}" rel="noopener" target="_blank">${esc(hubCfg.KOFI_LABEL.en)}</a>.</p></section>
+<section lang="it" translate="no"><h2>Chi sono</h2><p>Questi corsi sono costruiti in pubblico da <strong>${esc(hubCfg.hub.author)}</strong> mentre impara ogni materia. Ogni unità, ogni esercizio e ogni frase di esempio sono stati scritti per questo sito. Nessun contenuto da libro di testo, nessuna storia generata da un'IA che nessuno ha controllato, nessuna grammatica raschiata dal web. Se trovi un errore, <a href="mailto:${esc(hubCfg.FEEDBACK_EMAIL)}">scrivimi</a>: correggo in pubblico.</p><p>Tutto il sito è gratis. Niente account, niente pubblicità. Se un corso ti è stato utile e vuoi offrirmi un caffè: <a href="${esc(hubCfg.KOFI_URL)}" rel="noopener" target="_blank">${esc(hubCfg.KOFI_LABEL.it)}</a>.</p></section></main>`, 'about');
+}
+function privacyPage() {
+  return bilingualShell('page-privacy', (tEn, tIt) => `<main id="main" class="wrap page-ref page-prose privacy"><header class="ref-head"><h1>${esc(tEn('nav.privacy'))} · ${esc(tIt('nav.privacy'))}</h1></header>
+<section lang="en"><h2>Privacy</h2><p>${esc(hubCfg.hub.name)} does not use accounts, does not require a login, and does not store anything about you on a server.</p><ul><li><strong>Progress</strong> (which units you've opened, which exercises you've answered, which flashcards are due) is stored only in your browser's local storage. If you clear site data, your progress is gone, and I can't recover it.</li><li><strong>Cookies</strong>: none for tracking. Local storage is used for progress and settings; it stays in your browser.</li><li><strong>Analytics</strong>: ${hubCfg.analytics && hubCfg.analytics.script ? `This site uses <a href="${esc(hubCfg.analytics.script)}" rel="noopener">cookieless, privacy-friendly analytics</a> to count visits by page. No personal data is collected and no cookies are set.` : 'None at the moment.'}</li><li><strong>Audio</strong> uses your browser's built-in text-to-speech. Nothing is sent to any server.</li><li><strong>Feedback</strong>: if you email <a href="mailto:${esc(hubCfg.FEEDBACK_EMAIL)}">${esc(hubCfg.FEEDBACK_EMAIL)}</a>, your email address and whatever you write are received by me only.</li></ul></section>
+<section lang="it" translate="no"><h2>Privacy</h2><p>${esc(hubCfg.hub.name)} non usa account, non richiede login e non salva nulla di te su un server.</p><ul><li><strong>I progressi</strong> (quali unità hai aperto, quali esercizi hai risposto, quali flashcards sono in scadenza) sono salvati solo nella local storage del tuo browser. Se cancelli i dati del sito, i progressi spariscono, e non posso recuperarli.</li><li><strong>Cookie</strong>: nessuno per il tracking. La local storage serve solo per progressi e impostazioni, e rimane nel tuo browser.</li><li><strong>Analytics</strong>: ${hubCfg.analytics && hubCfg.analytics.script ? `questo sito usa <a href="${esc(hubCfg.analytics.script)}" rel="noopener">analytics cookieless rispettose della privacy</a> per contare le visite per pagina. Nessun dato personale, nessun cookie.` : 'nessuna al momento.'}</li><li><strong>Audio</strong>: usa il text-to-speech integrato nel browser. Nulla viene inviato a server esterni.</li><li><strong>Feedback</strong>: se mi scrivi a <a href="mailto:${esc(hubCfg.FEEDBACK_EMAIL)}">${esc(hubCfg.FEEDBACK_EMAIL)}</a>, l'email e il messaggio li ricevo solo io.</li></ul></section></main>`, 'privacy');
+}
+function notFoundPage() {
+  return bilingualShell('page-404', (tEn, tIt) => `<main id="main" class="wrap page-ref page-prose page-404"><header class="ref-head"><p class="kicker">404</p><h1>${esc(tEn('nf.title'))} · ${esc(tIt('nf.title'))}</h1></header>
+<section lang="en"><p>${esc(tEn('nf.body'))}</p><p><a class="btn btn-primary" href="/">${esc(hubCfg.hub.name)}</a> · <a href="/${esc(site.course)}/${esc(site.tracks['it-for-en'].slug.split('/').pop())}/">${esc(tEn('landing.en'))}</a> · <a href="/${esc(site.course)}/${esc(site.tracks['en-for-it'].slug.split('/').pop())}/" lang="it" translate="no">${esc(tIt('landing.it'))}</a></p></section>
+<section lang="it" translate="no"><p>${esc(tIt('nf.body'))}</p></section></main>`, '404');
 }
 function alternatesFor(pathA, pathB) {
   if (!site.url) return '';
@@ -91,7 +128,7 @@ function trackCtx(track) {
   return {
     track, cfg, slug: cfg.slug, ui: cfg.ui, target: cfg.target, targetTag: cfg.targetTag, nativeTag: cfg.nativeTag, t, names: site.hero,
     otherSlug: site.tracks[other].slug, otherUi: site.tracks[other].ui,
-    base: '', rootPath: '../', vocab: [], grammar: [], exercises: 0, sectionId: '', counters: {}, unit: null, conj: null,
+    base: '', rootPath: '../'.repeat(cfg.slug.split('/').length), vocab: [], grammar: [], exercises: 0, sectionId: '', counters: {}, unit: null, conj: null,
     uid(prefix) { this.counters[prefix] = (this.counters[prefix] || 0) + 1; return `${prefix}-${this.unit?.id || 'p'}-${this.sectionId || 'x'}-${this.counters[prefix]}`; },
   };
 }
@@ -99,7 +136,7 @@ const sub = (ctx, extra) => ({ ...ctx, counters: {}, exercises: 0, vocab: [], gr
 
 /* ---------- pages ---------- */
 function unitPage(ctx0, U, course, idx, built) {
-  const ctx = sub(ctx0, { base: '../', rootPath: '../../', unit: null, sectionId: '' });
+  const ctx = sub(ctx0, { base: '../', rootPath: '../' + ctx0.rootPath, unit: null, sectionId: '' });
   const meta = course.units[idx];
   const titleV = resolve(U.title ?? meta.title, ctx.names);
   const unit = { ...meta, ...U, titleText: titleV.m };
@@ -113,7 +150,7 @@ function unitPage(ctx0, U, course, idx, built) {
   const nav = `<nav class="lesson-nav" aria-label="${esc(t('unit.sections'))}">${prev && built.has(prev.id) ? link(prev, 'prev', `← ${esc(t('unit.unit'))} ${prev.num}`) : '<span></span>'}${next && built.has(next.id) ? link(next, 'next', `${esc(t('unit.unit'))} ${next.num} →`) : `<span class="next muted"><span class="kicker">${esc(t('unit.next'))}</span><span>${next ? ttext(next.title, ctx) : esc(t('unit.end'))} · ${esc(t('unit.soon'))}</span></span>`}</nav>`;
   const cross = unit.crossover ? `<p class="crossover">⇄ ${esc(t('unit.crossover'))}</p>` : '';
   const canDo = unit.canDo?.length ? `<details class="cando"><summary>${esc(t('unit.canDo'))}</summary><ul>${unit.canDo.map(c => `<li>${inline(c, ctx)}</li>`).join('')}</ul></details>` : '';
-  const body = `<main id="main" class="lesson" data-unit="${esc(unit.id)}" data-sections="${secs.length}" data-exercises="${ctx.exercises}">
+  const body = `<main id="main" class="lesson" data-unit="${esc(unit.id)}" data-unit-level="${esc(unit.level)}" data-sections="${secs.length}" data-exercises="${ctx.exercises}">
 <div class="lesson-hero"><div class="wrap hero-grid">
 <div class="hero-num"><span class="numeral" aria-hidden="true">${esc(unit.num)}</span></div>
 <div class="hero-txt"><p class="kicker">${esc(t('unit.unit'))} ${unit.num} · ${esc(t('level')[unit.level])}${unit.checkpoint ? ` · ${esc(t('checkpoint'))}` : ''}</p><h1>${ttext(unit.title, ctx)}${say(unit.title, ctx)}</h1><p class="hero-n">${ntext(unit.subtitle, ctx)}</p>${unit.intro ? `<div class="hero-intro">${prose(unit.intro, ctx)}</div>` : ''}
@@ -152,7 +189,7 @@ function trackHome(ctx, course, built, stats) {
 <section class="wrap tools"><div class="sec-head"><span class="kicker">${esc(t('home.tools'))}</span></div><div class="card-grid">${tools.map(([h, k, d]) => `<a class="card ref-card" href="${base}${h}"><h3>${esc(t(k))}</h3><p>${esc(t(d))}</p></a>`).join('')}</div></section>
 ${heroDialog(ctx)}
 </main>`;
-  return shell(ctx, { title: `${t('track.name')} — ${site.name}`, description: resolve(course.lede, ctx.names).m, body, bodyClass: 'page-home', accent: ACCENTS[course.accent] || ACCENTS.terracotta, alternates: alternatesFor('learn-italian/', 'impara-inglese/'), canonical: canonicalFor(`${ctx.slug}/`) });
+  return shell(ctx, { title: `${t('track.name')} — ${site.name}`, description: resolve(course.lede, ctx.names).m, body, bodyClass: 'page-home', accent: ACCENTS[course.accent] || ACCENTS.terracotta, alternates: alternatesFor(`${site.tracks['it-for-en'].slug}/`, `${site.tracks['en-for-it'].slug}/`), canonical: canonicalFor(`${ctx.slug}/`) });
 }
 function heroDialog(ctx) {
   const { t } = ctx;
@@ -174,7 +211,7 @@ function grammarIndex(ctx, topics, unitPoints, course) {
   return shell(ctx, { title: `${t('nav.grammar')} — ${t('track.name')} — ${site.name}`, description: t('grammar.index'), body, bodyClass: 'page-grammar', accent: ACCENTS.adriatic, scripts: ['grammar.js'], canonical: canonicalFor(`${ctx.slug}/grammar.html`) });
 }
 function grammarTopicPage(ctx0, tp, course) {
-  const ctx = sub(ctx0, { base: '../', rootPath: '../../', unit: { id: `g-${tp.id}`, num: 0, titleText: '' }, sectionId: 'ref' });
+  const ctx = sub(ctx0, { base: '../', rootPath: '../' + ctx0.rootPath, unit: { id: `g-${tp.id}`, num: 0, titleText: '' }, sectionId: 'ref' });
   const { t } = ctx;
   const units = (tp.units || []).map(u => { const U = course.units.find(x => x.id === u); return U ? `<a href="../units/unit-${u}.html">${esc(t('unit.unit'))} ${U.num} · ${ttext(U.title, ctx)}</a>` : ''; }).join(' · ');
   const body = `<main id="main" class="wrap page-ref page-topic"><header class="ref-head"><span class="kicker"><a href="../grammar.html">${esc(t('nav.grammar'))}</a> · ${esc(tp.category || '')}</span><h1>${inline(tp.title, ctx)}</h1>${tp.rule ? `<p class="rule"><span class="rule-lbl">${esc(t('grammar.rule'))}</span> ${inline(tp.rule, ctx)}</p>` : ''}${units ? `<p class="topic-units">${esc(t('grammar.seeUnit'))}: ${units}</p>` : ''}</header><div class="topic-body">${blocks(tp.blocks, ctx)}</div></main>`;
@@ -228,6 +265,7 @@ function settingsPage(ctx) {
 <fieldset><legend>${esc(t('settings.self'))}</legend><label><input type="radio" name="self" value="m">${esc(t('home.selfM'))}</label><label><input type="radio" name="self" value="f">${esc(t('home.selfF'))}</label><label><input type="radio" name="self" value="both">${esc(t('home.selfBoth'))}</label></fieldset>
 <fieldset><legend>${esc(t('settings.variants'))}</legend><label><input type="checkbox" name="both">${esc(t('settings.variants'))}</label></fieldset>
 <fieldset><legend>${esc(t('settings.theme'))}</legend><label><input type="radio" name="theme" value="auto">${esc(t('settings.themeAuto'))}</label><label><input type="radio" name="theme" value="light">${esc(t('settings.themeLight'))}</label><label><input type="radio" name="theme" value="dark">${esc(t('settings.themeDark'))}</label></fieldset>
+<fieldset><legend>${esc(t('imm.title'))}</legend><label><input type="radio" name="immersion" value="auto">${esc(t('imm.auto'))}</label><label><input type="radio" name="immersion" value="low">${esc(t('imm.low'))}</label><label><input type="radio" name="immersion" value="medium">${esc(t('imm.medium'))}</label><label><input type="radio" name="immersion" value="high">${esc(t('imm.high'))}</label><p class="muted">${esc(t('imm.hint'))}</p></fieldset>
 <fieldset><legend>${esc(t('settings.voice'))}</legend><label class="field"><span class="sr-only">${esc(t('settings.voice'))}</span><select name="voice"><option value="">${esc(t('settings.voiceAuto'))}</option></select></label><label class="field"><span>${esc(t('settings.rate'))}</span><input type="range" name="rate" min="0.6" max="1.2" step="0.1"></label><button type="button" class="btn voice-test">${esc(t('settings.test'))}</button></fieldset>
 <fieldset><legend>${esc(t('settings.track'))}</legend><p>${esc(t('track.name'))} · <a href="${ctx.rootPath}${ctx.otherSlug}/index.html" lang="${ctx.otherUi}">${esc(t('track.switch'))}</a></p></fieldset>
 <fieldset class="danger"><legend>${esc(t('settings.reset'))}</legend><button type="button" class="btn reset-btn" data-confirm="${esc(t('settings.resetConfirm'))}" data-done="${esc(t('settings.resetDone'))}">${esc(t('settings.reset'))}</button> <button type="button" class="btn export-btn">${esc(t('settings.export'))}</button> <label class="btn import-btn">${esc(t('settings.import'))}<input type="file" accept="application/json" hidden></label></fieldset>
@@ -235,14 +273,27 @@ function settingsPage(ctx) {
   return shell(ctx, { title: `${t('settings.title')} — ${site.name}`, description: t('settings.storage'), body, bodyClass: 'page-settings', accent: ACCENTS.ink, scripts: ['settings.js'] });
 }
 
-function landingPage(courses) {
+function courseLandingPage(courses) {
   const tEn = makeT('en'), tIt = makeT('it');
-  const ctx = { t: tEn, rootPath: '', track: null };
-  const card = (t, lang, cfg, course) => `<a class="track-card" href="${cfg.slug}/index.html" lang="${lang}" hreflang="${lang}"><span class="kicker">${esc(t('track.levels'))}</span><h2>${esc(lang === 'en' ? t('landing.en') : t('landing.it'))}</h2><p>${esc(lang === 'en' ? t('landing.enDesc') : t('landing.itDesc'))}</p><p class="track-hero">${esc(t('track.hero'))}</p><span class="btn btn-primary">${esc(t('home.go'))} →</span></a>`;
-  const col = (t, lang) => `<div class="land-col" lang="${lang}"><p class="kicker">${esc(t('landing.kicker'))}</p><h1>${esc(t('landing.title'))}</h1><p class="lede">${esc(t('landing.lede'))}</p><ul class="land-features"><li>${esc(t('landing.f1'))}</li><li>${esc(t('landing.f2'))}</li><li>${esc(t('landing.f3'))}</li><li>${esc(t('landing.f4'))}</li></ul></div>`;
-  const body = `<main id="main" class="landing"><section class="wrap land-grid">${col(tEn, 'en')}${col(tIt, 'it')}</section>
+  const ctx = { t: tEn, rootPath: '../', track: null };
+  const card = (t, lang, cfg, course) => `<a class="track-card" href="${cfg.slug.split('/').pop()}/index.html" lang="${lang}" hreflang="${lang}" translate="no"><span class="kicker">${esc(t('track.levels'))}</span><h2>${esc(lang === 'en' ? t('landing.en') : t('landing.it'))}</h2><p>${esc(lang === 'en' ? t('landing.enDesc') : t('landing.itDesc'))}</p><p class="track-hero">${esc(t('track.hero'))}</p><span class="btn btn-primary">${esc(t('home.go'))} →</span></a>`;
+  const col = (t, lang) => `<div class="land-col" lang="${lang}" translate="no"><p class="kicker">${esc(t('landing.kicker'))}</p><h1>${esc(t('landing.title'))}</h1><p class="lede">${esc(t('landing.lede'))}</p><ul class="land-features"><li>${esc(t('landing.f1'))}</li><li>${esc(t('landing.f2'))}</li><li>${esc(t('landing.f3'))}</li><li>${esc(t('landing.f4'))}</li></ul></div>`;
+  const body = `<main id="main" class="landing"><p class="back-to-hub"><a href="../index.html">← ${esc(hubCfg.hub.name)}</a></p><section class="wrap land-grid">${col(tEn, 'en')}${col(tIt, 'it')}</section>
 <section class="wrap land-choose"><div class="continue-card" hidden><span class="kicker"></span><a class="continue-link" href="#"><span class="continue-title"></span><span class="continue-sub"></span></a></div><div class="track-grid">${card(tEn, 'en', site.tracks['it-for-en'], courses['it-for-en'])}${card(tIt, 'it', site.tracks['en-for-it'], courses['en-for-it'])}</div></section></main>`;
-  return shell(ctx, { title: `${site.name} · ${site.nameAlt} — ${tEn('track.name')} · ${tIt('track.name')}`, description: `${tEn('landing.lede')} ${tIt('landing.lede')}`, body, bodyClass: 'page-landing', accent: ACCENTS.terracotta, scripts: ['landing.js'], alternates: alternatesFor('learn-italian/', 'impara-inglese/'), canonical: canonicalFor('') });
+  return shell(ctx, { title: `${site.name} · ${site.nameAlt} — ${tEn('track.name')} · ${tIt('track.name')}`, description: `${tEn('landing.lede')} ${tIt('landing.lede')}`, body, bodyClass: 'page-landing page-course-landing', accent: ACCENTS.terracotta, scripts: ['landing.js'], alternates: alternatesFor(`${site.tracks['it-for-en'].slug}/`, `${site.tracks['en-for-it'].slug}/`), canonical: canonicalFor(`${site.course}/`) });
+}
+
+function hubLandingPage() {
+  const tEn = makeT('en'), tIt = makeT('it');
+  const ctx = { t: tEn, rootPath: '', track: null, hubOnly: true };
+  const h = hubCfg.hub;
+  const courseCard = (c) => {
+    const ready = c.status === 'ready';
+    const href = ready ? `${c.slug}/index.html` : '';
+    return `<article class="hub-course${ready ? ' is-ready' : ' is-upcoming'}"><div class="hub-course-body"><p class="kicker">${esc(c.levels)}</p><h2>${esc(c.name)}</h2><p lang="en">${esc(c.description.en)}</p><p lang="it" translate="no">${esc(c.description.it)}</p>${ready ? `<p class="hub-course-cta"><a class="btn btn-primary" href="${href}">${esc(tEn('home.go'))} / ${esc(tIt('home.go'))} →</a></p>` : `<p class="muted">${esc(tEn('home.upcoming'))} / ${esc(tIt('home.upcoming'))}</p>`}</div></article>`;
+  };
+  const body = `<main id="main" class="hub"><section class="wrap hub-head"><p class="kicker">${esc(h.name)}</p><h1>${esc(h.tagline)}</h1><p class="lede" lang="en">${esc(h.description)}</p></section><section class="wrap hub-courses">${hubCfg.courses.map(courseCard).join('')}</section><section class="wrap hub-foot"><p lang="en">${esc(tEn('footer.about'))}</p></section></main>`;
+  return shell(ctx, { title: `${h.name} — ${h.tagline}`, description: h.description, body, bodyClass: 'page-hub', accent: ACCENTS.terracotta, scripts: [], canonical: canonicalFor('') });
 }
 function provenancePage() {
   const t = makeT('en');
@@ -304,16 +355,32 @@ export async function build() {
     write(out('data', 'glossary.json'), JSON.stringify(allVocab));
     summary.tracks[track] = { units: files.length, vocab: allVocab.length, grammar: allGrammar.length, topics: topics.length, verbs: conj.size, exercises: Object.values(stats).reduce((a, s) => a + s.exercises, 0), stats };
   }
-  write(P('dist/index.html'), landingPage(courses));
+  // Hub home at / and course landing at /due-sponde/
+  write(P('dist/index.html'), hubLandingPage());
+  write(P('dist', site.course, 'index.html'), courseLandingPage(courses));
   write(P('dist/provenance.html'), provenancePage());
+  // About, Privacy, 404 (bilingual static pages built later in this function)
+  write(P('dist/about.html'), aboutPage());
+  write(P('dist/privacy.html'), privacyPage());
+  write(P('dist/404.html'), notFoundPage());
   // assets
   fs.mkdirSync(P('dist/assets'), { recursive: true });
   for (const f of fs.readdirSync(P('src/css'))) fs.copyFileSync(P('src/css', f), P('dist/assets', f));
   for (const f of fs.readdirSync(P('src/js'))) fs.copyFileSync(P('src/js', f), P('dist/assets', f));
   if (exists(P('src/assets'))) fs.cpSync(P('src/assets'), P('dist/assets'), { recursive: true });
+  // Netlify / Cloudflare Pages redirects: pre-launch paths → new paths.
+  const legacies = Object.values(site.tracks).map(c => c.legacySlug).filter(Boolean);
+  const redirects = legacies.flatMap(l => {
+    const canon = Object.values(site.tracks).find(c => c.legacySlug === l).slug;
+    return [`/${l}/* /${canon}/:splat 301`, `/${l} /${canon}/ 301`];
+  }).concat([
+    '/learn-italian /due-sponde/italiano/ 301',
+    '/impara-inglese /due-sponde/inglese/ 301',
+  ]);
+  write(P('dist/_redirects'), redirects.join('\n') + '\n');
   if (site.url) {
     const u = site.url.replace(/\/$/, '');
-    const pages = ['', 'provenance.html'];
+    const pages = ['', 'about.html', 'privacy.html', 'provenance.html', `${site.course}/`];
     for (const track of Object.keys(site.tracks)) { const s = site.tracks[track].slug; const d = P('dist', s); (function rec(dd) { for (const e of fs.readdirSync(dd, { withFileTypes: true })) { const p = path.join(dd, e.name); if (e.isDirectory()) rec(p); else if (p.endsWith('.html')) pages.push(path.relative(P('dist'), p)); } })(d); }
     write(P('dist/sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map(p => `<url><loc>${u}/${p.replace(/index\.html$/, '')}</loc></url>`).join('\n')}\n</urlset>\n`);
     write(P('dist/robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${u}/sitemap.xml\n`);
