@@ -123,18 +123,40 @@ function paintImmersion() {
 document.addEventListener('ds:settings', paintImmersion);
 paintImmersion();
 
-/* Completion card: on unit pages, after the practice section renders, inject a "unit complete" banner
-   that offers next unit, Ko-fi (soft) and Report-a-mistake. */
+/* Feedback reveal: shows the email address, a Copy button, and a mailto fallback.
+   Mailto links silently do nothing in browsers that have no mail handler configured, so this
+   makes the email address visible immediately when the user clicks "Report a mistake". */
+function cfgRead() { try { return JSON.parse(document.getElementById('ds-config')?.textContent || '{}'); } catch { return {}; } }
+function mailtoURL(email, title, body) {
+  return `mailto:${email}?subject=${encodeURIComponent(`[${cfgRead().hubName || 'leoslectures.com'}] ${title}`)}&body=${encodeURIComponent(body)}`;
+}
+function buildReveal(email, mailto, { label }) {
+  const el = document.createElement('div');
+  el.className = 'feedback-reveal';
+  el.hidden = true;
+  el.innerHTML = `
+    <p>${esc(label)}</p>
+    <p class="feedback-email"><a href="${mailto}" class="feedback-mail">${esc(email)}</a> <button type="button" class="btn btn-ghost feedback-copy" aria-label="Copy email">${esc(t('feedback.copy'))}</button></p>
+    <p class="feedback-status" aria-live="polite"></p>
+  `;
+  el.querySelector('.feedback-copy').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(email); el.querySelector('.feedback-status').textContent = t('feedback.copied'); setTimeout(() => (el.querySelector('.feedback-status').textContent = ''), 1800); }
+    catch { el.querySelector('.feedback-status').textContent = email; }
+  });
+  return el;
+}
+
+/* Completion card on unit pages: Next unit + Report a mistake (reveals email + Copy) + Ko-fi line. */
 function injectCompletion() {
   const practice = document.querySelector('.sec-practice');
   if (!practice || practice.querySelector('.completion-card')) return;
-  let cfg = {}; try { cfg = JSON.parse(document.getElementById('ds-config')?.textContent || '{}'); } catch {}
+  const cfg = cfgRead();
   const ui = (document.documentElement.lang === 'it') ? 'it' : 'en';
-  const sup = cfg.kofi ? `<p class="support-line">${t('completion.support', { link: `<a href="${cfg.kofi}" rel="noopener" target="_blank">${(cfg.kofiLabel && cfg.kofiLabel[ui]) || 'Ko-fi'}</a>` })}</p>` : '';
+  const kofiLabel = (cfg.kofiLabel && cfg.kofiLabel[ui]) || 'Ko-fi';
+  const sup = cfg.kofi ? `<p class="support-line">${t('completion.support', { link: `<a href="${cfg.kofi}" rel="noopener" target="_blank">${kofiLabel}</a>` })}</p>` : '';
   const unitEl = document.querySelector('[data-unit]'); const unitId = unitEl ? unitEl.getAttribute('data-unit') : '';
   const title = document.title; const url = location.href;
-  const subject = encodeURIComponent(`[${cfg.hubName || 'leoslectures.com'}] Mistake on ${title}`);
-  const mail = cfg.feedback ? `mailto:${cfg.feedback}?subject=${subject}&body=${encodeURIComponent(`Hi Leo,\n\nPage: ${url}\nUnit: ${unitId}\n\nIssue:`)}` : '';
+  const mail = cfg.feedback ? mailtoURL(cfg.feedback, `Mistake on ${title}`, `Hi Leo,\n\nPage: ${url}\nUnit: ${unitId}\n\nIssue:`) : '';
   const next = document.querySelector('.unit-next a[href]'); const nextHref = next ? next.getAttribute('href') : '';
   const card = document.createElement('div');
   card.className = 'completion-card';
@@ -143,26 +165,52 @@ function injectCompletion() {
     <h3>✔</h3>
     <div class="completion-actions">
       ${nextHref ? `<a class="btn btn-primary" href="${nextHref}">${esc(t('completion.next'))} →</a>` : `<span class="muted">${esc(t('completion.end'))}</span>`}
-      ${mail ? `<a class="btn btn-ghost" href="${mail}">${esc(t('completion.reportLink'))}</a>` : ''}
+      ${cfg.feedback ? `<button type="button" class="btn btn-ghost completion-report" aria-expanded="false">${esc(t('completion.reportLink'))}</button>` : ''}
     </div>
     ${sup.replace(/&amp;/g, '&')}
   `;
+  if (cfg.feedback) {
+    const reveal = buildReveal(cfg.feedback, mail, { label: t('feedback.inline') });
+    card.appendChild(reveal);
+    card.querySelector('.completion-report').addEventListener('click', (e) => {
+      reveal.hidden = !reveal.hidden;
+      e.currentTarget.setAttribute('aria-expanded', String(!reveal.hidden));
+      if (!reveal.hidden) { try { location.href = mail; } catch {} }
+    });
+  }
   practice.appendChild(card);
 }
-// Run on load; also observe for late-rendered sections (practice is rendered immediately so one call is enough).
 injectCompletion();
 
-/* Report-a-mistake link in the main footer (every page) — opens the mailto with the current URL. */
+/* Footer feedback: a button that reveals the email + Copy, same shape as the completion card. */
 (function addFooterFeedback() {
-  let cfg = {}; try { cfg = JSON.parse(document.getElementById('ds-config')?.textContent || '{}'); } catch {}
+  const cfg = cfgRead();
   if (!cfg.feedback) return;
   const foot = document.querySelector('.site-foot .wrap p:last-child');
   if (!foot) return;
-  const subject = encodeURIComponent(`[${cfg.hubName || 'leoslectures.com'}] Feedback on ${document.title}`);
-  const body = encodeURIComponent(`Hi Leo,\n\nPage: ${location.href}\n\nFeedback:`);
-  const a = document.createElement('a');
-  a.href = `mailto:${cfg.feedback}?subject=${subject}&body=${body}`;
-  a.textContent = t('nav.feedback');
+  const mail = mailtoURL(cfg.feedback, `Feedback on ${document.title}`, `Hi Leo,\n\nPage: ${location.href}\n\nFeedback:`);
   foot.insertAdjacentHTML('beforeend', ' · ');
-  foot.appendChild(a);
+  const btn = document.createElement('button');
+  btn.type = 'button'; btn.className = 'footer-feedback-btn'; btn.textContent = t('nav.feedback'); btn.setAttribute('aria-expanded', 'false');
+  foot.appendChild(btn);
+  const reveal = buildReveal(cfg.feedback, mail, { label: t('feedback.inline') });
+  reveal.classList.add('footer-feedback-reveal');
+  document.querySelector('.site-foot .wrap').appendChild(reveal);
+  btn.addEventListener('click', () => {
+    reveal.hidden = !reveal.hidden;
+    btn.setAttribute('aria-expanded', String(!reveal.hidden));
+    if (!reveal.hidden) { try { location.href = mail; } catch {} }
+  });
+})();
+
+/* About page: wire the mailto links to also reveal the email next to them. */
+(function enhanceAboutLinks() {
+  if (!document.body.classList.contains('page-about')) return;
+  const cfg = cfgRead(); if (!cfg.feedback) return;
+  document.querySelectorAll(`a[href^="mailto:${cfg.feedback}"]`).forEach(a => {
+    const reveal = buildReveal(cfg.feedback, a.href, { label: t('feedback.inline') });
+    reveal.hidden = false;
+    reveal.classList.add('about-feedback-reveal');
+    a.insertAdjacentElement('afterend', reveal);
+  });
 })();

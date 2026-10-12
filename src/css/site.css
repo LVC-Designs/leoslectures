@@ -465,3 +465,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* Analytics placeholder: just ensures no layout jump */
 noscript + script[src*="plausible"] { display: none; }
+
+/* Feedback reveal (shown when the user clicks Report a mistake / write to me).
+   The email is always visible when revealed so users without a mail handler can still copy it. */
+.feedback-reveal { margin: 1rem 0 0; padding: .9rem 1rem; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-s); text-align: left; }
+.feedback-reveal p { margin: .25em 0; }
+.feedback-email { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.feedback-mail { font-weight: 600; font-family: var(--font-mono, monospace); font-size: 1.05rem; color: var(--accent); word-break: break-all; }
+.feedback-copy { padding: .35em .9em; font-size: .9rem; }
+.feedback-status { color: var(--ok); font-size: .9rem; min-height: 1.2em; }
+.footer-feedback-btn { background: transparent; border: 0; padding: 0; color: inherit; text-decoration: underline; cursor: pointer; font: inherit; }
+.footer-feedback-reveal { max-width: 40rem; margin: .8rem auto 0; }
+.about-feedback-reveal { margin-top: .4rem; }

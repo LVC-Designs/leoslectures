@@ -358,5 +358,10 @@
   "hub": {
     "title": "Leo’s Lectures",
     "back": "← Back to the hub"
+  },
+  "feedback": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "inline": "Email me at:"
   }
 }
