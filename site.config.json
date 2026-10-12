@@ -7,7 +7,7 @@
     "tagline": "Courses I build while learning the subject myself.",
     "_coursesDoc": "The 'courses' array is open-ended: drop in a new entry when a second course is ready. See ADDING_A_COURSE.md.",
     "description": "Original, free courses — made as I learn each subject. Due Sponde (Italian ⇄ English) is the first one.",
-    "author": "Leo Chimienti",
+    "author": "Leonardo Chimienti",
     "social": {
       "image": "assets/og/leoslectures.png"
     }
@@ -19,7 +19,7 @@
     "it": "Sostieni il progetto su Ko-fi"
   },
 
-  "FEEDBACK_EMAIL": "leo.chimienti@gmail.com",
+  "FEEDBACK_EMAIL": "leo@lvcdesigns.com",
   "FEEDBACK_LABEL": {
     "en": "Report a mistake",
     "it": "Segnala un errore"

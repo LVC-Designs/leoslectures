@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Georgia, serif">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#2f6f93"/>
-      <stop offset="1" stop-color="#b5533c"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <text x="80" y="110" fill="#fff" font-size="34" opacity=".85">leoslectures.com</text>
-  <text x="80" y="300" fill="#fff" font-size="100" font-weight="700">Due Sponde</text>
-  <text x="80" y="400" fill="#fff" font-size="52" opacity=".9">Two Shores</text>
-  <text x="80" y="520" fill="#fff" font-size="30" opacity=".9">A free Italian ⇄ English course · A1 → B1</text>
-  <text x="80" y="565" fill="#fff" font-size="24" opacity=".75">One story, two languages, both sides of the ocean.</text>
+  <rect width="1200" height="630" fill="#f6ede1"/>
+  <!-- Due Sponde mark, left side -->
+  <g transform="translate(80 120) scale(1.8)">
+    <line x1="100" y1="48" x2="100" y2="200" stroke="#7a8363" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 10"/>
+    <path d="M 40 140 A 60 85 0 0 1 100 55" fill="none" stroke="#2f6f93" stroke-width="15" stroke-linecap="round"/>
+    <path d="M 100 55 A 60 85 0 0 1 160 140" fill="none" stroke="#b5533c" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="100" cy="48" r="14" fill="#4a5a30"/>
+    <circle cx="40" cy="220" r="8" fill="#2f6f93"/>
+    <circle cx="160" cy="220" r="8" fill="#b5533c"/>
+  </g>
+  <!-- Text, right side -->
+  <text x="520" y="200" fill="#2a2d34" font-size="34" opacity=".7">leoslectures.com</text>
+  <text x="520" y="330" fill="#2a2d34" font-size="110" font-weight="700">Due Sponde</text>
+  <text x="520" y="400" fill="#4a5a30" font-size="48">Two Shores</text>
+  <text x="520" y="490" fill="#2a2d34" font-size="30" opacity=".85">A free Italian ⇄ English course · A1 → B1</text>
+  <text x="520" y="535" fill="#2a2d34" font-size="24" opacity=".65">One story, two languages, both sides of the ocean.</text>
 </svg>
