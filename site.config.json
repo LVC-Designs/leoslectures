@@ -3,7 +3,7 @@
 
   "hub": {
     "name": "Leo's Lectures",
-    "url": "https://leoslectures.com",
+    "url": "https://www.leoslectures.com",
     "tagline": "Courses I build while learning the subject myself.",
     "_coursesDoc": "The 'courses' array is open-ended: drop in a new entry when a second course is ready. See ADDING_A_COURSE.md.",
     "description": "Original, free courses — made as I learn each subject. Due Sponde (Italian ⇄ English) is the first one.",

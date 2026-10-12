@@ -1,120 +1,141 @@
 # Deploy leoslectures.com
 
-Status: the site is ready. These are the steps I (Leo) need to take to point
-the domain and enable deployment. Nothing in this file is run automatically —
-I ask for a go-ahead before touching DNS or publishing.
+Target: **Railway** from a **GitHub** repo, custom domain **www.leoslectures.com**.
 
-## Target
-
-**Cloudflare Pages**, project `leoslectures`, deployed from `main`.
-
-An equivalent setup for Netlify is given at the end if you prefer.
+Everything in `site.config.json` (KOFI_URL, FEEDBACK_EMAIL, analytics) and in
+`site.json` (`url`, slugs) is already set. The runtime server is `build/prod-server.mjs`
+with zero dependencies: it serves `dist/`, honours `_redirects`, and falls back
+to `/404.html`.
 
 ---
 
-## Cloudflare Pages setup
+## 1 · Push to GitHub
 
-1. **Create the Pages project.** cloudflare.com → Workers & Pages → Create → Pages
-   → Connect to Git → pick this repo (`ENG_ITA_Course`) → branch `main`.
+The repo currently has no remote. Create a GitHub repo at
+<https://github.com/new> (I'll assume the account is `leochimienti` and the repo
+name is `leoslectures`; adjust the URL if different), then:
 
-2. **Build settings:**
-   - **Framework preset:** None.
-   - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-   - **Root directory:** `/`
-   - **Node version:** 20 (set `NODE_VERSION=20` in environment variables).
-   - **Environment variables:** none required. All config is read from
-     `site.config.json` at build time.
+```bash
+cd "/home/vito/LVC DESIGNS/Projects/ENG_ITA_Course"
 
-3. **Preview deploys.** On by default: every non-main branch deploys to
-   `<branch>.leoslectures.pages.dev`. Keep that on; it's useful for review.
+# Rename master → main (GitHub's default)
+git branch -M main
 
-4. **First successful build** will host the site at
-   `leoslectures.pages.dev`. Verify there before the DNS swap.
+# Point at the new empty GitHub repo (replace with the real URL)
+git remote add origin git@github.com:leochimienti/leoslectures.git
+# …or if you prefer HTTPS:
+# git remote add origin https://github.com/leochimienti/leoslectures.git
 
-## DNS at the registrar
+# Push and set upstream
+git push -u origin main
+```
 
-The domain `leoslectures.com` is registered somewhere (user to confirm — e.g.
-Namecheap, Cloudflare Registrar, Porkbun, GoDaddy). Add these records at the
-registrar's DNS panel:
+Verify at `https://github.com/<you>/leoslectures` that main shows the full
+history and `README.md` renders.
 
-| Type | Name | Value | TTL |
-|------|------|-------|-----|
-| CNAME | `www` | `leoslectures.pages.dev.` | Auto / 1 h |
-| ALIAS / ANAME / Flattened CNAME | `@` (apex) | `leoslectures.pages.dev.` | Auto / 1 h |
+## 2 · Deploy to Railway
 
-If the registrar does not support ALIAS / ANAME / CNAME flattening for the
-apex (common with Namecheap, GoDaddy), transfer DNS to Cloudflare and add the
-custom domain in Pages — Cloudflare's DNS lets the apex use a CNAME-like record
-for free.
+1. **Sign in** at <https://railway.app> and click **New Project**.
+2. **Deploy from GitHub repo** → authorise Railway → pick `leoslectures`.
+3. Railway auto-detects Node from `package.json` + `.nvmrc` (20) and reads
+   `railway.toml`:
+   - **Build:** `npm run build` (generates `dist/`).
+   - **Start:** `npm start` (serves `dist/` on `$PORT`).
+   - **Health check:** `GET /`.
+4. First deploy takes 1–2 minutes. When it's green, Railway assigns a URL like
+   `leoslectures-production.up.railway.app`. Open it; the hub should load.
+5. If anything is red: Deployments → Logs. The most common issue is a missing
+   `PORT`; the server defaults to 8080 but Railway sets `PORT` automatically, so
+   nothing to configure.
 
-Then in Cloudflare Pages → Project → Custom domains → Add:
-- `leoslectures.com` (apex)
-- `www.leoslectures.com`
+## 3 · Point www.leoslectures.com at Railway
 
-Cloudflare validates ownership automatically if DNS is at Cloudflare; otherwise
-you'll see a verification record to add.
+1. **In Railway** → Project → your service → Settings → Networking →
+   **Custom Domains** → `+ Add Custom Domain` → `www.leoslectures.com`.
+2. Railway shows you a target like `leoslectures-production.up.railway.app`
+   (or sometimes a specific CNAME value). Copy it.
+3. **At your DNS registrar** (wherever you bought `leoslectures.com`), open
+   the DNS settings for `leoslectures.com` and add:
 
-## HTTPS and redirects
+   | Type   | Name  | Value                                   | TTL   |
+   |--------|-------|-----------------------------------------|-------|
+   | CNAME  | `www` | `leoslectures-production.up.railway.app` | Auto / 1 h |
 
-- **Automatic HTTPS:** on by default via Cloudflare. Nothing to configure.
-- **www → apex redirect:** in Cloudflare Pages → Project → Custom domains, mark
-  the apex as the primary domain. Then add a Bulk Redirect (Rules → Redirect Rules):
-  - If URL hostname = `www.leoslectures.com`, redirect to
-    `https://leoslectures.com$1` with 301 (preserve path).
+4. Save. Propagation is usually 1–5 minutes (TTL may lengthen it to an hour).
+5. Back in Railway, the custom domain row flips to green and HTTPS is issued
+   automatically via Let's Encrypt. **www.leoslectures.com is live.**
 
-- **Legacy path redirects** are already in `dist/_redirects` (Netlify-format).
-  Cloudflare Pages reads `_redirects` with the same syntax. These handle:
-  ```
-  /learn-italian/*      → /due-sponde/italiano/*     301
-  /impara-inglese/*     → /due-sponde/inglese/*      301
-  ```
-  If anyone bookmarked the pre-launch paths from the preview deploys, they land
-  on the right place.
+### Apex (leoslectures.com without www) — optional
 
-## Analytics (optional, cookieless)
+If you also want the bare `leoslectures.com` to resolve, pick one of these:
 
-The site has no analytics by default. To enable Plausible (recommended):
+- **Easiest, no second record:** at your registrar, set up a **URL Redirect**
+  from `leoslectures.com` → `https://www.leoslectures.com` (most registrars
+  support this; Namecheap and Porkbun both do). Permanent (301).
+- **Via Railway custom domain:** add `leoslectures.com` as a second custom
+  domain in Railway, then add an **ALIAS / ANAME record** at the apex pointing
+  to the Railway target. Some registrars don't support ALIAS/ANAME for the
+  apex; in that case transfer DNS to Cloudflare and use their flattened CNAME.
+- **Via Cloudflare in front:** set Cloudflare as the nameserver, add a CNAME
+  at the apex (Cloudflare flattens it), proxy ON. Cloudflare also lets you add
+  a page rule `leoslectures.com/*` → 301 to `https://www.leoslectures.com/$1`.
 
-1. Create a site at plausible.io for `leoslectures.com`.
-2. In `site.config.json` set:
-   ```json
-   "analytics": {
-     "script": "https://plausible.io/js/script.js",
-     "domain": "leoslectures.com",
-     "attributes": ""
-   }
-   ```
-3. Push to main. The analytics script is injected into every page's `<head>`
-   automatically. No cookies, no banner required.
+Since the primary URL you want is **www**, step 3 is enough on its own.
 
-For Umami, use its hosted script URL instead, with `attributes` set to
+## 4 · Analytics (optional)
+
+Still off by default. To turn on Plausible:
+
+```jsonc
+// site.config.json
+"analytics": {
+  "script": "https://plausible.io/js/script.js",
+  "domain": "www.leoslectures.com",
+  "attributes": ""
+}
+```
+
+Commit and push → Railway auto-redeploys.
+
+For Umami: set `script` to its hosted URL and `attributes` to
 `data-website-id="…"`.
 
-## After launch
+## 5 · After launch · sanity checks
 
-- Confirm `https://leoslectures.com/` loads the hub.
-- Confirm `https://leoslectures.com/due-sponde/italiano/` and
-  `https://leoslectures.com/due-sponde/inglese/` load the two tracks.
-- Confirm the legacy redirects return 301 to the new paths.
-- Confirm the sitemap at `/sitemap.xml` and robots at `/robots.txt` are served.
-- Open `/about`, `/privacy`, `/provenance`, and a bogus URL to see the 404.
-- Share one page on social to verify OG preview; the OG image comes from
-  `assets/og/due-sponde.svg` by default (replace with a 1200×630 PNG if any
-  platform rejects SVG).
+```
+https://www.leoslectures.com/                         → hub
+https://www.leoslectures.com/due-sponde/              → course landing (two tracks)
+https://www.leoslectures.com/due-sponde/italiano/     → Italian for English speakers
+https://www.leoslectures.com/due-sponde/inglese/      → English for Italian speakers
+https://www.leoslectures.com/about                    → About (bilingual)
+https://www.leoslectures.com/privacy                  → Privacy (bilingual)
+https://www.leoslectures.com/provenance.html          → PROVENANCE.md rendered
+https://www.leoslectures.com/sitemap.xml              → full sitemap
+https://www.leoslectures.com/robots.txt               → allows all
+https://www.leoslectures.com/learn-italian/           → 301 → /due-sponde/italiano/
+https://www.leoslectures.com/does-not-exist           → 404 page in both languages
+```
 
-## Netlify alternative (if Cloudflare Pages isn't preferred)
+Open a unit → click **Report a mistake**. The email `leo@lvcdesigns.com`
+reveals with a **Copy** button, and your mail client is also launched if one
+is registered.
 
-1. netlify.com → Add new site → Import from Git → pick this repo.
-2. Build command: `npm run build`
-3. Publish directory: `dist`
-4. Node version: 20 (`NODE_VERSION=20` in Environment variables).
-5. Custom domain: add `leoslectures.com` and `www.leoslectures.com`; follow
-   the registrar DNS instructions Netlify shows.
-6. `_redirects` is honoured out of the box.
+## 6 · Updating the site
+
+Push to `main`:
+
+```bash
+git add -A
+git commit -m "…"
+git push
+```
+
+Railway auto-deploys on push (default). Preview deploys on other branches are
+on by default too.
 
 ---
 
-**Before I touch DNS:** ask Leo for the go-ahead. The site works locally and
-on the Pages preview URL today; the switch to the custom domain is the only
-step I'm pausing on.
+**Rollback:** Railway → Deployments → pick an earlier green deploy → **Redeploy**.
+
+**Logs:** Railway → Deployments → the latest → **View Logs**. The server prints
+`loaded N redirect rule(s)` on start, so you can confirm the redirects loaded.
