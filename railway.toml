@@ -1,4 +1,4 @@
-# Railway deployment config for leoslectures.com.
+# Railway deployment config for leoslecture.com.
 # Nixpacks auto-detects Node 20 from engines in package.json and runs the npm scripts.
 # Our 'build' script generates dist/; 'start' serves dist/ on $PORT with the zero-dep server.
 

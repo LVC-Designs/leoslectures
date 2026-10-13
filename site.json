@@ -2,7 +2,7 @@
   "name": "Due Sponde",
   "nameAlt": "Two Shores",
   "course": "due-sponde",
-  "url": "https://www.leoslectures.com",
+  "url": "https://www.leoslecture.com",
   "tracks": {
     "it-for-en": { "slug": "due-sponde/italiano", "legacySlug": "learn-italian", "ui": "en", "target": "it", "targetTag": "it-IT", "nativeTag": "en-CA", "voiceFallback": ["it-IT"] },
     "en-for-it": { "slug": "due-sponde/inglese", "legacySlug": "impara-inglese", "ui": "it", "target": "en", "targetTag": "en-CA", "nativeTag": "it-IT", "voiceFallback": ["en-CA", "en-US", "en-GB"] }

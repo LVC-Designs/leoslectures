@@ -128,7 +128,7 @@ paintImmersion();
    makes the email address visible immediately when the user clicks "Report a mistake". */
 function cfgRead() { try { return JSON.parse(document.getElementById('ds-config')?.textContent || '{}'); } catch { return {}; } }
 function mailtoURL(email, title, body) {
-  return `mailto:${email}?subject=${encodeURIComponent(`[${cfgRead().hubName || 'leoslectures.com'}] ${title}`)}&body=${encodeURIComponent(body)}`;
+  return `mailto:${email}?subject=${encodeURIComponent(`[${cfgRead().hubName || 'leoslecture.com'}] ${title}`)}&body=${encodeURIComponent(body)}`;
 }
 function buildReveal(email, mailto, { label }) {
   const el = document.createElement('div');

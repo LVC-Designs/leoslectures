@@ -9,7 +9,7 @@
     <circle cx="40" cy="220" r="8" fill="#2f6f93"/>
     <circle cx="160" cy="220" r="8" fill="#b5533c"/>
   </g>
-  <text x="520" y="220" fill="#2a2d34" font-size="40" opacity=".7">leoslectures.com</text>
+  <text x="520" y="220" fill="#2a2d34" font-size="40" opacity=".7">leoslecture.com</text>
   <text x="520" y="360" fill="#2a2d34" font-size="90" font-weight="700">Courses I build</text>
   <text x="520" y="450" fill="#2a2d34" font-size="90" font-weight="700">while learning.</text>
   <text x="520" y="530" fill="#2a2d34" font-size="28" opacity=".7">Due Sponde (Italian ⇄ English) · more courses soon</text>

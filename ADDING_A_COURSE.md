@@ -1,4 +1,4 @@
-# Adding a new course to leoslectures.com
+# Adding a new course to leoslecture.com
 
 This repo is now a hub. Due Sponde (Italian ⇄ English) is the first course; the
 rest of this file is for the second (QA & GMP) and beyond. Everything shared

@@ -89,7 +89,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, HOST, () => {
-  console.log(`leoslectures.com production server on http://${HOST}:${PORT}`);
+  console.log(`leoslecture.com production server on http://${HOST}:${PORT}`);
   console.log(`loaded ${redirects.length} redirect rule(s)`);
 });
 

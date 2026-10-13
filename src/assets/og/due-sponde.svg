@@ -11,7 +11,7 @@
     <circle cx="160" cy="220" r="8" fill="#b5533c"/>
   </g>
   <!-- Text, right side -->
-  <text x="520" y="200" fill="#2a2d34" font-size="34" opacity=".7">leoslectures.com</text>
+  <text x="520" y="200" fill="#2a2d34" font-size="34" opacity=".7">leoslecture.com</text>
   <text x="520" y="330" fill="#2a2d34" font-size="110" font-weight="700">Due Sponde</text>
   <text x="520" y="400" fill="#4a5a30" font-size="48">Two Shores</text>
   <text x="520" y="490" fill="#2a2d34" font-size="30" opacity=".85">A free Italian ⇄ English course · A1 → B1</text>

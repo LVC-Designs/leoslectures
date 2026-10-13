@@ -401,7 +401,7 @@ a.card:hover { transform: translateY(-2px); border-color: var(--accent); }
 
 @media print { .site-head, .site-foot, .toc, .say, .dlg-tools, .ex-actions, .accent-bar { display: none !important; } .line .n { display: block; } }
 
-/* Hub (leoslectures.com root) */
+/* Hub (leoslecture.com root) */
 .page-hub { background: var(--surface-2); }
 .hub { padding: 2rem 0 4rem; }
 .hub-head { max-width: 70ch; margin: 2rem auto 2.5rem; text-align: center; }

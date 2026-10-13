@@ -1,6 +1,6 @@
-# Deploy leoslectures.com
+# Deploy leoslecture.com
 
-Target: **Railway** from a **GitHub** repo, custom domain **www.leoslectures.com**.
+Target: **Railway** from a **GitHub** repo, custom domain **www.leoslecture.com**.
 
 Everything in `site.config.json` (KOFI_URL, FEEDBACK_EMAIL, analytics) and in
 `site.json` (`url`, slugs) is already set. The runtime server is `build/prod-server.mjs`
@@ -48,39 +48,52 @@ history and `README.md` renders.
    `PORT`; the server defaults to 8080 but Railway sets `PORT` automatically, so
    nothing to configure.
 
-## 3 · Point www.leoslectures.com at Railway
+## 3 · Point leoslecture.com at Railway (Hostinger)
 
-1. **In Railway** → Project → your service → Settings → Networking →
-   **Custom Domains** → `+ Add Custom Domain` → `www.leoslectures.com`.
-2. Railway shows you a target like `leoslectures-production.up.railway.app`
-   (or sometimes a specific CNAME value). Copy it.
-3. **At your DNS registrar** (wherever you bought `leoslectures.com`), open
-   the DNS settings for `leoslectures.com` and add:
+Your registrar is **Hostinger**. Both domains are already registered on the
+Railway side; Railway is just waiting for DNS. Do this in Hostinger **hPanel →
+Domains → leoslecture.com → DNS / Nameservers**.
 
-   | Type   | Name  | Value                                   | TTL   |
-   |--------|-------|-----------------------------------------|-------|
-   | CNAME  | `www` | `leoslectures-production.up.railway.app` | Auto / 1 h |
+**The main record — `www` (edit, don't add):** Hostinger's parking zone already
+has a `www` CNAME pointing at the bare domain. Edit that existing record:
 
-4. Save. Propagation is usually 1–5 minutes (TTL may lengthen it to an hour).
-5. Back in Railway, the custom domain row flips to green and HTTPS is issued
-   automatically via Let's Encrypt. **www.leoslectures.com is live.**
+| Type  | Name  | Points to                   | TTL  |
+|-------|-------|-----------------------------|------|
+| CNAME | `www` | `ue7oudcg.up.railway.app`   | Auto |
 
-### Apex (leoslectures.com without www) — optional
+Save. Within 1–5 minutes Railway's row for `www.leoslecture.com` turns green and
+HTTPS is issued automatically (Let's Encrypt). **https://www.leoslecture.com is
+live.** This one record is enough for the canonical URL.
 
-If you also want the bare `leoslectures.com` to resolve, pick one of these:
+**The apex — `leoslecture.com` (no www), so the bare name also works:**
 
-- **Easiest, no second record:** at your registrar, set up a **URL Redirect**
-  from `leoslectures.com` → `https://www.leoslectures.com` (most registrars
-  support this; Namecheap and Porkbun both do). Permanent (301).
-- **Via Railway custom domain:** add `leoslectures.com` as a second custom
-  domain in Railway, then add an **ALIAS / ANAME record** at the apex pointing
-  to the Railway target. Some registrars don't support ALIAS/ANAME for the
-  apex; in that case transfer DNS to Cloudflare and use their flattened CNAME.
-- **Via Cloudflare in front:** set Cloudflare as the nameserver, add a CNAME
-  at the apex (Cloudflare flattens it), proxy ON. Cloudflare also lets you add
-  a page rule `leoslectures.com/*` → 301 to `https://www.leoslectures.com/$1`.
+| Type  | Name | Points to                   | TTL  |
+|-------|------|-----------------------------|------|
+| CNAME | `@`  | `qb0dp5xp.up.railway.app`   | Auto |
 
-Since the primary URL you want is **www**, step 3 is enough on its own.
+If hPanel refuses a CNAME on `@` (some zones do), fall back to a redirect
+instead: hPanel → Domains → leoslecture.com → **Redirects** → from
+`leoslecture.com` to `https://www.leoslecture.com`, permanent (301). Either way
+the bare name lands on the site.
+
+**Optional ownership-verification TXT records.** Railway normally verifies via
+the CNAME alone. Only if the Railway custom-domain row stays on
+"validating ownership" after the CNAME has propagated, add:
+
+| Type | Name                  | Value |
+|------|-----------------------|-------|
+| TXT  | `_railway-verify.www` | `railway-verify=d2ed5c15cb9eff9b2e443ba7f8171563b1406690c617d15f4b15dcd34da0250e` |
+| TXT  | `_railway-verify`     | `railway-verify=678b4dd998552af3225c0be26d8b4854221eeedde89e502289ddb36ef27cb803` |
+
+**Check propagation** from any machine:
+
+```bash
+dig @1.1.1.1 +short CNAME www.leoslecture.com   # → ue7oudcg.up.railway.app
+curl -sI https://www.leoslecture.com/ | head -1  # → HTTP/2 200
+```
+
+Then in Railway: `railway domain status www.leoslecture.com` → `verified: true`,
+certificate `ISSUED`.
 
 ## 4 · Analytics (optional)
 
@@ -90,7 +103,7 @@ Still off by default. To turn on Plausible:
 // site.config.json
 "analytics": {
   "script": "https://plausible.io/js/script.js",
-  "domain": "www.leoslectures.com",
+  "domain": "www.leoslecture.com",
   "attributes": ""
 }
 ```
@@ -103,17 +116,17 @@ For Umami: set `script` to its hosted URL and `attributes` to
 ## 5 · After launch · sanity checks
 
 ```
-https://www.leoslectures.com/                         → hub
-https://www.leoslectures.com/due-sponde/              → course landing (two tracks)
-https://www.leoslectures.com/due-sponde/italiano/     → Italian for English speakers
-https://www.leoslectures.com/due-sponde/inglese/      → English for Italian speakers
-https://www.leoslectures.com/about                    → About (bilingual)
-https://www.leoslectures.com/privacy                  → Privacy (bilingual)
-https://www.leoslectures.com/provenance.html          → PROVENANCE.md rendered
-https://www.leoslectures.com/sitemap.xml              → full sitemap
-https://www.leoslectures.com/robots.txt               → allows all
-https://www.leoslectures.com/learn-italian/           → 301 → /due-sponde/italiano/
-https://www.leoslectures.com/does-not-exist           → 404 page in both languages
+https://www.leoslecture.com/                         → hub
+https://www.leoslecture.com/due-sponde/              → course landing (two tracks)
+https://www.leoslecture.com/due-sponde/italiano/     → Italian for English speakers
+https://www.leoslecture.com/due-sponde/inglese/      → English for Italian speakers
+https://www.leoslecture.com/about                    → About (bilingual)
+https://www.leoslecture.com/privacy                  → Privacy (bilingual)
+https://www.leoslecture.com/provenance.html          → PROVENANCE.md rendered
+https://www.leoslecture.com/sitemap.xml              → full sitemap
+https://www.leoslecture.com/robots.txt               → allows all
+https://www.leoslecture.com/learn-italian/           → 301 → /due-sponde/italiano/
+https://www.leoslecture.com/does-not-exist           → 404 page in both languages
 ```
 
 Open a unit → click **Report a mistake**. The email `leo@lvcdesigns.com`

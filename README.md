@@ -1,4 +1,4 @@
-# leoslectures.com
+# leoslecture.com
 
 A hub for free, original courses I build while learning the subject myself.
 

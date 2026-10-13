@@ -1,15 +1,15 @@
 {
-  "_doc": "Single-source config for leoslectures.com. Change these values here; the build picks them up. Leave a value empty ('') to disable that feature.",
+  "_doc": "Single-source config for leoslecture.com. Change these values here; the build picks them up. Leave a value empty ('') to disable that feature.",
 
   "hub": {
     "name": "Leo's Lectures",
-    "url": "https://www.leoslectures.com",
+    "url": "https://www.leoslecture.com",
     "tagline": "Courses I build while learning the subject myself.",
     "_coursesDoc": "The 'courses' array is open-ended: drop in a new entry when a second course is ready. See ADDING_A_COURSE.md.",
     "description": "Original, free courses — made as I learn each subject. Due Sponde (Italian ⇄ English) is the first one.",
     "author": "Leonardo Chimienti",
     "social": {
-      "image": "assets/og/leoslectures.png"
+      "image": "assets/og/leoslectures.svg"
     }
   },
 
@@ -26,7 +26,7 @@
   },
 
   "analytics": {
-    "_doc": "Cookieless, privacy-friendly only. Default off. Fill 'script' and 'domain' to enable Plausible / Umami. Example Plausible: {\"script\": \"https://plausible.io/js/script.js\", \"domain\": \"leoslectures.com\"}",
+    "_doc": "Cookieless, privacy-friendly only. Default off. Fill 'script' and 'domain' to enable Plausible / Umami. Example Plausible: {\"script\": \"https://plausible.io/js/script.js\", \"domain\": \"leoslecture.com\"}",
     "script": "",
     "domain": "",
     "attributes": ""
@@ -43,13 +43,13 @@
         "en": "A two-way Italian ⇄ English course for 2026. Luca or Lucia moves from Toronto to a town in Puglia; their cousin Chiara moves to Toronto. Same cast, two directions, A1 to B1.",
         "it": "Un corso italiano ⇄ inglese a due direzioni per il 2026. Luca o Lucia si trasferisce da Toronto a un paese in Puglia; la cugina Chiara si trasferisce a Toronto. Stesso cast, due direzioni, dall'A1 al B1."
       },
-      "social": { "image": "assets/og/due-sponde.png" }
+      "social": { "image": "assets/og/due-sponde.svg" }
     }
   ],
 
   "deploy": {
-    "_doc": "Target host for leoslectures.com. See DEPLOY.md.",
-    "target": "cloudflare-pages",
+    "_doc": "Target host for leoslecture.com. See DEPLOY.md.",
+    "target": "railway",
     "project": "leoslectures",
     "primaryBranch": "main"
   }

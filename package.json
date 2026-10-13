@@ -2,7 +2,7 @@
   "name": "leoslectures",
   "version": "1.0.0",
   "private": true,
-  "description": "leoslectures.com — Due Sponde (Italian ⇄ English, A1–B1) and future courses. Static site, no account, no server-side state.",
+  "description": "leoslecture.com — Due Sponde (Italian ⇄ English, A1–B1) and future courses. Static site, no account, no server-side state.",
   "type": "module",
   "scripts": {
     "build": "node build/build.mjs",
