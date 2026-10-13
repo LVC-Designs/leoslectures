@@ -135,16 +135,26 @@ is registered.
 
 ## 6 · Updating the site
 
-Push to `main`:
+Railway deploys from this directory via the CLI (not from GitHub), so after you
+commit you also push the build to Railway. Always pass `--service`: with the
+local link stale the CLI refuses to guess and errors "Multiple services found".
 
 ```bash
 git add -A
 git commit -m "…"
-git push
+git push                      # GitHub: LVC-Designs/leoslectures, branch main
+
+railway up -c -y --service 7d464e8a-3326-4150-a509-3b3499d234f9
 ```
 
-Railway auto-deploys on push (default). Preview deploys on other branches are
-on by default too.
+`-c` streams the build log and exits; `-y` skips prompts. The service id is the
+one that owns both custom domains. To re-link the directory once (so the flag
+becomes optional): `railway service link` inside this folder and pick
+`leoslectures`.
+
+Optional, later: connect the GitHub repo in the Railway dashboard
+(Service → Settings → Source) so pushes to `main` deploy automatically and
+preview deploys appear for other branches. Until then, `railway up` is the deploy.
 
 ---
 
